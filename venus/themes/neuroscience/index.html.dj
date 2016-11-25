@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>{{ name }}</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>{{ name }}</h1>
+        <p>
+        last updated by <a href="http://intertwingly.net/code/venus/">Venus</a> 
+        on {{ date }} on behalf of {{ author_name }}.
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-9">
+        <ul class="list-group">
+          {% for item in Items %}
+          {% if item.title %}
+          <li class="list-group-item"><h4>{{ item.title|safe }}.</h4>
+
+            {{ item.content|safe }}
+
+            <p class="text-muted">in '{{ item.channel_name }}' on {{ item.date }}. <a href="{{ item.link }}">(permalink)</a></p>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="list-group">
+          {% for channel in Channels %}
+          <li class="list-group-item"><a href="{{ channel.url|safe }}">{{ channel.title|safe }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <footer id="site-footer">
+      <p class="text-center text-muted">Source hosted on <a href="http://github.com/sanjayankur31/planet-neuroscience">Github</a>.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
