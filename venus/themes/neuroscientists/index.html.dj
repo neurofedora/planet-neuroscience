@@ -22,18 +22,20 @@
 
     <div class="container">
       <div class="col-md-9">
-        <ul class="list-group">
-          {% for item in Items %}
-          {% if item.title %}
-          <li class="list-group-item"><h4><a href="{{ item.link }}">{{ item.title|safe }}</a></h4>
+        {% for item in Items %}
+        {% if item.title %}
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="panel-title"><h2><a href="{{ item.link }}">{{ item.title|safe }}</a></h2></div>
+            <p class="text-muted">by <a href="{{ item.channel_link|safe }}">{{ item.channel_name }}</a> on {{ item.date }}.</p>
+          </div>
+          <div class="panel-body">
 
             {{ item.content|safe }}
-
-            <p class="text-muted">in <a href="{{ item.channel_link|safe }}">{{ item.channel_name }}</a> on {{ item.date }}.</p>
-          </li>
-          {% endif %}
-          {% endfor %}
-        </ul>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
       </div>
       <div class="col-md-3">
         <div class="panel panel-default">
