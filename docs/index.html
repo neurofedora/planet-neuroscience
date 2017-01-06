@@ -15,7 +15,7 @@
         <h1>Planet Neuroscience</h1>
         <p>
         last updated by <a href="http://intertwingly.net/code/venus/">Venus</a> 
-        on Jan. 5, 2017, noon on behalf of Ankur Sinha.
+        on Jan. 6, 2017, midnight on behalf of Ankur Sinha.
         </p>
       </div>
     </div>
@@ -23,6 +23,56 @@
     <div class="container">
       <div class="col-md-9">
         <ul class="list-group">
+          
+          
+          <li class="list-group-item"><h4><a href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/H_jkHRWbbVw/article">Accurate De Novo Prediction of Protein Contact Map by Ultra-Deep Learning Model</a></h4>
+
+            <p>by Sheng Wang, Siqi Sun, Zhen Li, Renyu Zhang, Jinbo Xu</p>
+Motivation <p>Protein contacts contain key information for the understanding of protein structure and function and thus, contact prediction from sequence is an important problem. Recently exciting progress has been made on this problem, but the predicted contacts for proteins without many sequence homologs is still of low quality and not very useful for de novo structure prediction.</p> Method <p>This paper presents a new deep learning method that predicts contacts by integrating both evolutionary coupling (EC) and sequence conservation information through an ultra-deep neural network formed by two deep residual neural networks. The first residual network conducts a series of 1-dimensional convolutional transformation of sequential features; the second residual network conducts a series of 2-dimensional convolutional transformation of pairwise information including output of the first residual network, EC information and pairwise potential. By using very deep residual networks, we can accurately model contact occurrence patterns and complex sequence-structure relationship and thus, obtain high-quality contact prediction regardless of how many sequence homologs are available for proteins in question.</p> Results <p>Our method greatly outperforms existing methods and leads to much more accurate contact-assisted folding. Tested on 105 CASP11 targets, 76 past CAMEO hard targets, and 398 membrane proteins, the average top L long-range prediction accuracy obtained by our method, one representative EC method CCMpred and the CASP11 winner MetaPSICOV is 0.47, 0.21 and 0.30, respectively; the average top L/10 long-range accuracy of our method, CCMpred and MetaPSICOV is 0.77, 0.47 and 0.59, respectively. Ab initio folding using our predicted contacts as restraints but without any force fields can yield correct folds (i.e., TMscore&gt;0.6) for 203 of the 579 test proteins, while that using MetaPSICOV- and CCMpred-predicted contacts can do so for only 79 and 62 of them, respectively. Our contact-assisted models also have much better quality than template-based models especially for membrane proteins. The 3D models built from our contact prediction have TMscore&gt;0.5 for 208 of the 398 membrane proteins, while those from homology modeling have TMscore&gt;0.5 for only 10 of them. Further, even if trained mostly by soluble proteins, our deep learning method works very well on membrane proteins. In the recent blind CAMEO benchmark, our fully-automated web server implementing this method successfully folded 6 targets with a new fold and only 0.3L-2.3L effective sequence homologs, including one β protein of 182 residues, one α+β protein of 125 residues, one α protein of 140 residues, one α protein of 217 residues, one α/β of 260 residues and one α protein of 462 residues. Our method also achieved the highest F1 score on free-modeling targets in the latest CASP (Critical Assessment of Structure Prediction), although it was not fully implemented back then.</p> Availability <p>http://raptorx.uchicago.edu/ContactMap/</p><img alt="" height="1" src="http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/H_jkHRWbbVw" width="1" />
+
+            <p class="text-muted">in <a href="http://journals.plos.org/ploscompbiol/">PLOS Computational Biology: New Articles</a> on January 05, 2017 10:00 PM.</p>
+          </li>
+          
+          
+          
+          <li class="list-group-item"><h4><a href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/hFX6czhgmNk/article">FIJI Macro 3D ART VeSElecT: 3D Automated Reconstruction Tool for Vesicle Structures of Electron Tomograms</a></h4>
+
+            <p>by Kristin Verena Kaltdorf, Katja Schulze, Frederik Helmprobst, Philip Kollmannsberger, Thomas Dandekar, Christian Stigloher</p>
+
+Automatic image reconstruction is critical to cope with steadily increasing data from advanced microscopy. We describe here the Fiji macro 3D ART VeSElecT which we developed to study synaptic vesicles in electron tomograms. We apply this tool to quantify vesicle properties (i) in embryonic <i>Danio rerio</i> 4 and 8 days past fertilization (dpf) and (ii) to compare <i>Caenorhabditis elegans</i> N2 neuromuscular junctions (NMJ) wild-type and its septin mutant (<i>unc-59(e261)</i>). We demonstrate development-specific and mutant-specific changes in synaptic vesicle pools in both models. We confirm the functionality of our macro by applying our 3D ART VeSElecT on zebrafish NMJ showing smaller vesicles in 8 dpf embryos then 4 dpf, which was validated by manual reconstruction of the vesicle pool. Furthermore, we analyze the impact of <i>C</i>. <i>elegans</i> septin mutant <i>unc-59(e261)</i> on vesicle pool formation and vesicle size. Automated vesicle registration and characterization was implemented in Fiji as two macros (registration and measurement). This flexible arrangement allows in particular reducing false positives by an optional manual revision step. Preprocessing and contrast enhancement work on image-stacks of 1nm/pixel in x and y direction. Semi-automated cell selection was integrated. 3D ART VeSElecT removes interfering components, detects vesicles by 3D segmentation and calculates vesicle volume and diameter (spherical approximation, inner/outer diameter). Results are collected in color using the RoiManager plugin including the possibility of manual removal of non-matching confounder vesicles. Detailed evaluation considered performance (detected vesicles) and specificity (true vesicles) as well as precision and recall. We furthermore show gain in segmentation and morphological filtering compared to learning based methods and a large time gain compared to manual segmentation. 3D ART VeSElecT shows small error rates and its speed gain can be up to 68 times faster in comparison to manual annotation. Both automatic and semi-automatic modes are explained including a tutorial.<img alt="" height="1" src="http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/hFX6czhgmNk" width="1" />
+
+            <p class="text-muted">in <a href="http://journals.plos.org/ploscompbiol/">PLOS Computational Biology: New Articles</a> on January 05, 2017 10:00 PM.</p>
+          </li>
+          
+          
+          
+          <li class="list-group-item"><h4><a href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/XXkalru8tIY/article">Ten Simple Rules for Developing Usable Software in Computational Biology</a></h4>
+
+            <p>by Markus List, Peter Ebert, Felipe Albrecht</p><img alt="" height="1" src="http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/XXkalru8tIY" width="1" />
+
+            <p class="text-muted">in <a href="http://journals.plos.org/ploscompbiol/">PLOS Computational Biology: New Articles</a> on January 05, 2017 10:00 PM.</p>
+          </li>
+          
+          
+          
+          <li class="list-group-item"><h4><a href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/3yVZXr3FLOg/article">Functionality and Robustness of Injured Connectomic Dynamics in &lt;i&gt;C. elegans&lt;/i&gt;: Linking Behavioral Deficits to Neural Circuit Damage</a></h4>
+
+            <p>by James M. Kunert, Pedro D. Maia, J. Nathan Kutz</p>
+
+Using a model for the dynamics of the full somatic nervous system of the nematode <i>C. elegans</i>, we address how biological network architectures and their functionality are degraded in the presence of focal axonal swellings (FAS) arising from neurodegenerative disease and/or traumatic brain injury. Using biophysically measured FAS distributions and swelling sizes, we are able to simulate the effects of injuries on the neural dynamics of <i>C. elegans</i>, showing how damaging the network degrades its low-dimensional dynamical responses. We visualize these injured neural dynamics by mapping them onto the worm’s low-dimensional postures, i.e. eigenworm modes. We show that a diversity of functional deficits arise from the same level of injury on a connectomic network. Functional deficits are quantified using a statistical shape analysis, a procrustes analysis, for deformations of the limit cycles that characterize key behaviors such as forward crawling. This procrustes metric carries information on the functional outcome of injuries in the model. Furthermore, we apply classification trees to relate injury structure to the behavioral outcome. This makes testable predictions for the structure of an injury given a defined functional deficit. More critically, this study demonstrates the potential role of computational simulation studies in understanding how neuronal networks process biological signals, and how this processing is impacted by network injury.<img alt="" height="1" src="http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/3yVZXr3FLOg" width="1" />
+
+            <p class="text-muted">in <a href="http://journals.plos.org/ploscompbiol/">PLOS Computational Biology: New Articles</a> on January 05, 2017 10:00 PM.</p>
+          </li>
+          
+          
+          
+          <li class="list-group-item"><h4><a href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/VOX3n7G-uDw/article">Efficient Switches in Biology and Computer Science</a></h4>
+
+            <p>by Luca Cardelli, Rosa D. Hernansaiz-Ballesteros, Neil Dalchau, Attila Csikász-Nagy</p><img alt="" height="1" src="http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/VOX3n7G-uDw" width="1" />
+
+            <p class="text-muted">in <a href="http://journals.plos.org/ploscompbiol/">PLOS Computational Biology: New Articles</a> on January 05, 2017 10:00 PM.</p>
+          </li>
+          
           
           
           <li class="list-group-item"><h4><a href="http://journal.frontiersin.org/article/10.3389/fncir.2016.00109">A Global Orientation Map in the Primary Visual Cortex (V1): Could a Self Organizing Model Reveal Its Hidden Bias?</a></h4>
@@ -111,6 +161,79 @@
             Nicole R. Nissim, Andrew M. O’Shea, Vaughn Bryant, Eric C. Porges, Ronald Cohen, Adam J. Woods
 
             <p class="text-muted">in <a href="http://journal.frontiersin.org/journal/aging-neuroscience">Frontiers in Aging Neuroscience | New and Recent Articles</a> on January 05, 2017 12:00 AM.</p>
+          </li>
+          
+          
+          
+          <li class="list-group-item"><h4><a href="https://elifesciences.org/content/6/e20365">Excitation and inhibition in anterior cingulate predict use of past experiences</a></h4>
+
+            <p>Dorsal anterior cingulate cortex (dACC) mediates updating and maintenance of cognitive models of the world used to drive adaptive reward-guided behavior. We investigated the neurochemical underpinnings of this process. We used magnetic resonance spectroscopy in humans, to measure levels of glutamate and GABA in dACC. We examined their relationship to neural signals in dACC, measured with fMRI, and cognitive task performance. Both inhibitory and excitatory neurotransmitters in dACC were predictive of the strength of neural signals in dACC and behavioral adaptation. Glutamate levels were correlated, first, with stronger neural activity representing information to be learnt about the tasks’ costs and benefits and, second, greater use of this information in the guidance of behavior. GABA levels were negatively correlated with the same neural signals and the same indices of behavioral influence. Our results suggest that glutamate and GABA in dACC affect the encoding and use of past experiences to guide behavior.</p>
+<p><strong>DOI:</strong> <a href="http://elifesciences.org.c.elifesciences.ent.platform.sh/lookup/doi/10.7554/eLife.20365.001">http://dx.doi.org/10.7554/eLife.20365.001</a></p>
+
+            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml"></a> on January 05, 2017 12:00 AM.</p>
+          </li>
+          
+          
+          
+          <li class="list-group-item"><h4><a href="http://www.cell.com/neuron/fulltext/S0896-6273(16)30995-3?rss=yes">Network Dynamics Mediate Circadian Clock Plasticity</a></h4>
+
+            Altered light exposure stably changes the period of daily rhythms. This change in period is driven epigenetically, not by changes in the clock properties of individual cells, but by changes in neural communication among clock cells.
+
+            <p class="text-muted">in <a href="http://www.cell.com/archive?publicationCode=neuron&rss=yes">Neuron</a> on January 05, 2017 12:00 AM.</p>
+          </li>
+          
+          
+          
+          <li class="list-group-item"><h4><a href="http://www.cell.com/neuron/fulltext/S0896-6273(16)30958-8?rss=yes">Translation of Expanded CGG Repeats into FMRpolyG Is Pathogenic and May Contribute to Fragile X Tremor Ataxia Syndrome</a></h4>
+
+            Sellier et al. show that translation of expanded CGG repeats located in the 5′ UTR of the FMR1 gene require an upstream ACG near-cognate initiation codon. Translation of CGG repeats into a short polyglycine-containing protein, FMRpolyG, is pathogenic in mouse models.
+
+            <p class="text-muted">in <a href="http://www.cell.com/archive?publicationCode=neuron&rss=yes">Neuron</a> on January 05, 2017 12:00 AM.</p>
+          </li>
+          
+          
+          
+          <li class="list-group-item"><h4><a href="http://www.cell.com/neuron/fulltext/S0896-6273(16)30945-X?rss=yes">TAOK2 Kinase Mediates PSD95 Stability and Dendritic Spine Maturation through Septin7 Phosphorylation</a></h4>
+
+            Abnormalities in dendritic spines are manifestations of several neurodevelopmental diseases. Yadav et al. show that the serine/threonine kinase TAOK2 is required for dendritic spine maturation and identify the cytoskeletal GTPase Septin7 as its substrate that stabilizes the scaffolding protein PSD95 in spines.
+
+            <p class="text-muted">in <a href="http://www.cell.com/archive?publicationCode=neuron&rss=yes">Neuron</a> on January 05, 2017 12:00 AM.</p>
+          </li>
+          
+          
+          
+          <li class="list-group-item"><h4><a href="http://biorxiv.org/cgi/content/short/098525v1?rss=1&quot;">Egocentric and Allocentric Representations in Auditory Cortex</a></h4>
+
+            A key function of the brain is to provide a stable representation of an objects location in the world. In hearing, sound azimuth and elevation are encoded by neurons throughout the auditory system and auditory cortex is necessary for sound localization. However the coordinate frame in which neurons represent sound space remains undefined: classical spatial receptive fields in head-fixed subjects can be explained either by sensitivity to sound source location relative to the head (egocentric) or relative to the world (allocentric encoding). This coordinate frame ambiguity can be resolved by studying freely moving subjects and here we recorded spatial receptive fields in auditory cortex freely moving ferrets. We found two distinct populations of neurons: While the majority (~80%) of spatially tuned neurons represented sound source location relative to the head, we provide novel evidence for a group of neurons in which space was represented in an allocentric world-centered coordinate frame. We also use our ability to measure spatial tuning in moving subjects to explore the influence of sound source distance and speed of head movements on auditory cortical activity and spatial tuning. Modulation depth of spatial tuning increased with distance for egocentric but not allocentric units, whereas for both populations modulation was stronger at faster movement speeds. Our findings argue that auditory cortex is involved in the representation of both sound source location relative to ourselves and sound location in the world independent of our own position.
+
+            <p class="text-muted">in <a href="http://biorxiv.org">bioRxiv Subject Collection: Neuroscience</a> on January 05, 2017 12:00 AM.</p>
+          </li>
+          
+          
+          
+          <li class="list-group-item"><h4><a href="http://biorxiv.org/cgi/content/short/098319v1?rss=1&quot;">A Two-Process Model for Circadian and Sleep-dependent Modulation of Pain Sensitivity</a></h4>
+
+            Pain sensitivity is strongly modulated by time of day and by prior sleep behavior. These two factors, governed by the circadian rhythm and homeostatic sleep drive, respectively, likewise dictate the timing and duration of sleep. The fields of sleep and circadian research have identified much of the physiology underlying the circadian rhythm and homeostatic sleep drive with mathematical modeling playing an important role in understanding how these two processes interact to affect sleep behavior. We hypothesize that the daily rhythm of pain sensitivity and its sleep- dependent modulation reflect an interaction of the circadian rhythm and homeostatic sleep drive. To investigate this hypothesis, we adapt the formalism of a classic mathematical model for the regulation of sleep behavior by the circadian rhythm and homeostatic sleep drive, called the Two Process model, to simulate the interaction of these two processes on pain sensitivity. To construct the model, we utilize data from experimental reports on the daily rhythmicity of pain sensitivity in humans to define a "daily pain sensitivity" function. We decompose this function into two pro- cesses: a sleep-dependent process S(t) that follows the homeostatic sleep drive and a circadian process C(t) that is dictated by the circadian rhythm. By simulating different sleep schedules with the original Two Process model, we compute changes in the sleep-dependent process S(t) that modulates pain sensitivity. By combining S(t) with the circadian process C(t), our model predicts resultant changes in the daily pain sensitivity rhythm. We illustrate model predictions for changes in pain sensitivity due to sleep deprivation, sleep restriction and shift work schedules. We believe that this model may be a useful tool for pain management by providing predictions of the variations in pain sensitivity due to changing sleep schedules.
+
+            <p class="text-muted">in <a href="http://biorxiv.org">bioRxiv Subject Collection: Neuroscience</a> on January 05, 2017 12:00 AM.</p>
+          </li>
+          
+          
+          
+          <li class="list-group-item"><h4><a href="http://biorxiv.org/cgi/content/short/098277v1?rss=1&quot;">Metacognitive impairments extend perceptual decision making weaknesses in compulsivity</a></h4>
+
+            Awareness of one's own abilities is of paramount importance in adaptive decision making. Psychotherapeutic theories assume such metacognitive insight is impaired in compulsivity, though this is supported by scant empirical evidence. In this study, we investigate metacognitive abilities in compulsive participants using computational models, where these enable a segregation between metacognitive and perceptual decision making impairments. We examined twenty low-compulsive and twenty high-compulsive participants, recruited from a large population-based sample, and matched for other psychiatric and cognitive dimensions. Hierarchical computational modelling of the participants' metacognitive abilities on a visual global motion detection paradigm revealed that high-compulsive participants had a reduced metacognitive ability. This impairment was accompanied by a perceptual decision making deficit whereby motion-related evidence was accumulated more slowly in high compulsive participants. Our study shows that the compulsivity spectrum is associated with a reduced ability to monitor one's own performance, over and above any perceptual decision making difficulty.
+
+            <p class="text-muted">in <a href="http://biorxiv.org">bioRxiv Subject Collection: Neuroscience</a> on January 05, 2017 12:00 AM.</p>
+          </li>
+          
+          
+          
+          <li class="list-group-item"><h4><a href="http://biorxiv.org/cgi/content/short/098236v1?rss=1&quot;">Semaphorin-Plexin signaling influences early ventral telencephalic development and thalamocortical axon guidance</a></h4>
+
+            Background: Sensory processing relies on projections from the thalamus to the neocortex being established during development. Information from different sensory modalities reaching the thalamus is segregated into specialized nuclei, whose neurons then send inputs to cognate cortical areas through topographically defined axonal connections. Developing thalamocortical axons (TCAs) normally approach the cortex by extending through the subpallium; here, axonal navigation is aided by distributed guidance cues and discrete cell populations, such as the corridor neurons and the internal capsule (IC) guidepost cells. In mice lacking Semaphorin-6A, axons from the dorsal lateral geniculate nucleus (dLGN) bypass the IC and extend aberrantly in the ventral subpallium. The functions normally mediated by Semaphorin-6A in this system remain unknown, but might depend on interactions with Plexin-A2 and Plexin-A4, which have been implicated in other neurodevelopmental processes. Methods: We performed immunohistochemical and neuroanatomical analyses of thalamocortical wiring and subpallial development in Sema6a and Plxna2;Plxna4 null mutant mice and analyzed the expression of these genes in relevant structures. Results: In Plxna2;Plxna4 double mutants we discovered TCA pathfinding defects that mirrored those observed in Sema6a mutants, suggesting that Semaphorin-6A-Plexin-A2/Plexin-A4 signaling might mediate dLGN axon guidance at subpallial level. In order to understand where and when Semaphorin-6A, Plexin-A2 and Plexin-A4 may be required for proper subpallial TCA guidance, we then characterized their spatiotemporal expression dynamics during early TCA development. We observed that the thalamic neurons whose axons are misrouted in these mutants normally express Semaphorin-6A but not Plexin-A2 or Plexin-A4. By contrast, all three proteins are expressed in corridor cells and other structures in the developing basal ganglia. This could be consistent with the Plexins acting as guidance signals through Sema6A as a receptor on dLGN axons, and/or with an indirect effect on TCA guidance due to functions in morphogenesis of subpallial intermediate targets. In support of the latter possibility, we observed that in both Plxna2;Plxna4 and Sema6a mutants some IC guidepost cells abnormally localize in correspondence of the ventral path misrouted TCAs elongate into. Conclusions: These findings implicate Semaphorin-6A-Plexin-A2/Plexin-A4 interactions in dLGN axon guidance and in the spatiotemporal organization of guidepost cell populations in the mammalian subpallium.
+
+            <p class="text-muted">in <a href="http://biorxiv.org">bioRxiv Subject Collection: Neuroscience</a> on January 05, 2017 12:00 AM.</p>
           </li>
           
           
@@ -435,7 +558,7 @@
 
             <p><em>Streptomyces</em> bacteria employ a newly-discovered cell type, the "explorer" cell, to rapidly colonize new areas in the face of competition.</p>
 
-            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml?_ga=1.87920287.644450117.1426885037"></a> on January 04, 2017 12:00 AM.</p>
+            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml"></a> on January 04, 2017 12:00 AM.</p>
           </li>
           
           
@@ -1001,47 +1124,11 @@ Hypoxia is an important physiological stress signal that drives angiogenesis, th
           
           
           
-          <li class="list-group-item"><h4><a href="http://biorxiv.org/cgi/content/short/097295v1?rss=1&quot;">{alpha}7 nicotinic acetylcholine receptor signalling modulates the inflammatory and iron homeostasis in fetal brain microglia</a></h4>
-
-            Neuroinflammation in utero may result in life-long neurological disabilities. Microglia play a pivotal role in this process, but the mechanisms are still being established. No early postnatal treatment strategies exist to enhance neuroprotective potential of microglia. We hypothesized that agonism on 7 nicotinic acetylcholine receptor (7nAChR) in fetal microglia will augment their neuroprotective transcriptome profile, while the antagonistic stimulation of 7nAChR will achieve the opposite. Using an in vivo - in vitro model of developmental programming of neuroinflammation induced by lipopolysaccharide (LPS), we validated this hypothesis in primary fetal sheep microglia cultures re-exposed to LPS in presence of a selective 7nAChR agonist or antagonist. Our findings suggest that a pro-inflammatory microglial phenotype acquired in vitro by LPS stimulation is reversed with 7nAChR agonistic stimulation. Conversely, antagonistic 7nAChR stimulation potentiates the pro-inflammatory microglial phenotype. Surprisingly, under conditions of LPS double-hit an interference of a postulated 7nAChR - ferroportin signaling pathway may impede this mechanism. These results suggest a therapeutic potential of 7nAChR agonists in early treatment or re-programming of microglia in neonates exposed to in utero inflammation via an endogenous cerebral cholinergic anti-inflammatory pathway. Our findings further point to the significance of microglial iron homeostasis in double-hit LPS scenarios. Interactions between inflammation-triggered microglial iron sequestering and 7nAChR stimulation require further studies to assess the full therapeutic potential of this novel brain signaling network and its role in neurodevelopment and programming of cognitive dysfunction in adult life.
-
-            <p class="text-muted">in <a href="http://biorxiv.org">bioRxiv Subject Collection: Neuroscience</a> on January 02, 2017 12:00 AM.</p>
-          </li>
-          
-          
-          
           <li class="list-group-item"><h4><a href="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(16)30182-5?rss=yes">Editorial Board and Contents</a></h4>
 
             
 
             <p class="text-muted">in <a href="http://www.cell.com/archive?publicationCode=tins&rss=yes">Trends in Neurosciences</a> on January 01, 2017 12:00 AM.</p>
-          </li>
-          
-          
-          
-          <li class="list-group-item"><h4><a href="http://biorxiv.org/cgi/content/short/097626v1?rss=1&quot;">Neural precursors of decisions that matter--an ERP study of deliberate and arbitrary choice</a></h4>
-
-            The onset of the readiness potential (RP)--a key neural correlate of upcoming action--was repeatedly found to precede subjects' reports of having decided. This was famously taken as evidence against a causal role for consciousness in human decisions making and thus as an attack on free-will. Yet those studies focused on purposeless, unreasoned, arbitrary decisions, bereft of consequences. So, it remains unknown to what degree these neural precursors of action generalize to deliberate decisions, which are arguably more interesting, ecological, and relevant to real life. We therefore directly compared the neural correlates of deliberate and arbitrary decisions during a $1000-donation task to non-profit organizations. While we found the expected RPs for arbitrary decisions, they were strikingly absent for deliberate ones. Our results are congruent with the RP representing the accumulation of noisy, random fluctuations, which drive arbitrary--but not deliberate--decisions. In that they challenge the generalizability of studies that argue for no causal role for consciousness in decision making from arbitrary to deliberate decisions.
-
-            <p class="text-muted">in <a href="http://biorxiv.org">bioRxiv Subject Collection: Neuroscience</a> on January 01, 2017 12:00 AM.</p>
-          </li>
-          
-          
-          
-          <li class="list-group-item"><h4><a href="http://biorxiv.org/cgi/content/short/097618v1?rss=1&quot;">Theoretical principles of multiscale spatiotemporal control of neuronal networks: a complex systems perspective</a></h4>
-
-            Success in the fine control of the nervous system depends on a deeper understanding of how neural circuits control behavior. There is, however, a wide gap between the components of neural circuits and behavior. We advance the idea that a suitable approach for narrowing this gap has to be based on a multiscale information-theoretic description of the system. We evaluate the possibility that brain-wide complex neural computations can be dissected into a hierarchy of computational motifs that rely on smaller circuit modules interacting at multiple scales. In doing so, we draw attention to the importance of formalizing the goals of stimulation in terms of neural computations so that the possible implementations are matched in scale to the underlying circuit modules.
-
-            <p class="text-muted">in <a href="http://biorxiv.org">bioRxiv Subject Collection: Neuroscience</a> on January 01, 2017 12:00 AM.</p>
-          </li>
-          
-          
-          
-          <li class="list-group-item"><h4><a href="http://biorxiv.org/cgi/content/short/097592v1?rss=1&quot;">Density-based clustering: A 'landscape view' ofmulti-channel neural data for inference anddynamic complexity analysis</a></h4>
-
-            Simultaneous recordings from N electrodes generate N-dimensional time series that call for efficient representations to expose relevant aspects of the underlying dynamics. Binning the time series defines a sequence of neural activity vectors that populate the N-dimensional space as a density distribution, especially informative when the neural dynamics proceeds as a noisy path through metastable states (often a case of interest in neuroscience); this makes clustering in the N-dimensional space a natural choice. We apply a variant of the 'mean-shift' algorithm to perform such clustering, and validate it on an Hopfield network in the glassy phase, in which metastable states are largely uncorrelated from memory attractors. The neural states identified as clusters' centroids are then used to define a parsimonious parametrization of the synaptic matrix, which allows a significant improvement in inferring the synaptic couplings from the neural activities. We next consider the more realistic case of a multi-modular spiking network, with spike-frequency adaptation inducing history-dependent effects; we develop a procedure, inspired by Boltzmann learning but extending its domain of application, to learn inter-module synaptic couplings so that the spiking network reproduces a prescribed pattern of spatial correlations. After clustering the activity generated by such multi-modular spiking networks, we cast their multi-dimensional dynamics in the form of the symbolic sequence of the clusters' centroids; this representation naturally lends itself to complexity estimates that provide compact information on memory effects like those induced by spike-frequency adaptation. Specifically, to obtain a relative complexity measure we compare the Lempel-Ziv complexity of the actual centroid sequence to the one of Markov processes sharing the same transition probabilities between centroids; as an illustration, we show that the dependence of such relative complexity on the characteristic time scale of spike-frequency adaptation.
-
-            <p class="text-muted">in <a href="http://biorxiv.org">bioRxiv Subject Collection: Neuroscience</a> on December 31, 2016 12:00 AM.</p>
           </li>
           
           
@@ -1513,50 +1600,6 @@ Chromosome conformation capture (3C) techniques have revealed many fascinating i
             <p>by Songyao Zhang, Shaowu Zhang, Lian Liu, Jia Meng, Yufei Huang</p>
 
 As the most prevalent mammalian mRNA epigenetic modification, N6-methyladenosine (m<sup>6</sup>A) has been shown to possess important post-transcriptional regulatory functions. However, the regulatory mechanisms and functional circuits of m<sup>6</sup>A are still largely elusive. To help unveil the regulatory circuitry mediated by mRNA m<sup>6</sup>A methylation, we develop here m<sup>6</sup>A-Driver, an algorithm for predicting m<sup>6</sup>A-driven genes and associated networks, whose functional interactions are likely to be actively modulated by m<sup>6</sup>A methylation under a specific condition. Specifically, m<sup>6</sup>A-Driver integrates the PPI network and the predicted differential m<sup>6</sup>A methylation sites from methylated RNA immunoprecipitation sequencing (MeRIP-Seq) data using a Random Walk with Restart (RWR) algorithm and then builds a consensus m<sup>6</sup>A-driven network of m<sup>6</sup>A-driven genes. To evaluate the performance, we applied m<sup>6</sup>A-Driver to build the context-specific m<sup>6</sup>A-driven networks for 4 known m<sup>6</sup>A (de)methylases, i.e., FTO, METTL3, METTL14 and WTAP. Our results suggest that m<sup>6</sup>A-Driver can robustly and efficiently identify m<sup>6</sup>A-driven genes that are functionally more enriched and associated with higher degree of differential expression than differential m<sup>6</sup>A methylated genes. Pathway analysis of the constructed context-specific m<sup>6</sup>A-driven gene networks further revealed the regulatory circuitry underlying the dynamic interplays between the methyltransferases and demethylase at the epitranscriptomic layer of gene regulation.<img alt="" height="1" src="http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/LjGTUwV4M8Q" width="1" />
-
-            <p class="text-muted">in <a href="http://journals.plos.org/ploscompbiol/">PLOS Computational Biology: New Articles</a> on December 27, 2016 10:00 PM.</p>
-          </li>
-          
-          
-          
-          <li class="list-group-item"><h4><a href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/gYS-4I5ga-k/article">Decoding Single Molecule Time Traces with Dynamic Disorder</a></h4>
-
-            <p>by Wonseok Hwang, Il-Buem Lee, Seok-Cheol Hong, Changbong Hyeon</p>
-
-Single molecule time trajectories of biomolecules provide glimpses into complex folding landscapes that are difficult to visualize using conventional ensemble measurements. Recent experiments and theoretical analyses have highlighted dynamic disorder in certain classes of biomolecules, whose dynamic pattern of conformational transitions is affected by slower transition dynamics of internal state hidden in a low dimensional projection. A systematic means to analyze such data is, however, currently not well developed. Here we report a new algorithm—Variational Bayes-double chain Markov model (VB-DCMM)—to analyze single molecule time trajectories that display dynamic disorder. The proposed analysis employing VB-DCMM allows us to detect the presence of dynamic disorder, if any, in each trajectory, identify the number of internal states, and estimate transition rates between the internal states as well as the rates of conformational transition within each internal state. Applying VB-DCMM algorithm to single molecule FRET data of H-DNA in 100 mM-Na<sup>+</sup> solution, followed by data clustering, we show that at least 6 kinetic paths linking 4 distinct internal states are required to correctly interpret the duplex-triplex transitions of H-DNA.<img alt="" height="1" src="http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/gYS-4I5ga-k" width="1" />
-
-            <p class="text-muted">in <a href="http://journals.plos.org/ploscompbiol/">PLOS Computational Biology: New Articles</a> on December 27, 2016 10:00 PM.</p>
-          </li>
-          
-          
-          
-          <li class="list-group-item"><h4><a href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/Yl0Ek6zQWDg/article">Stereotypical Escape Behavior in &lt;i&gt;Caenorhabditis elegans&lt;/i&gt; Allows Quantification of Effective Heat Stimulus Level</a></h4>
-
-            <p>by Kawai Leung, Aylia Mohammadi, William S. Ryu, Ilya Nemenman</p>
-
-A goal of many sensorimotor studies is to quantify the stimulus-behavioral response relation for specific organisms and specific sensory stimuli. This is especially important to do in the context of painful stimuli since most animals in these studies cannot easily communicate to us their perceived levels of such noxious stimuli. Thus progress on studies of nociception and pain-like responses in animal models depends crucially on our ability to quantitatively and objectively infer the sensed levels of these stimuli from animal behaviors. Here we develop a quantitative model to infer the perceived level of heat stimulus from the stereotyped escape response of individual nematodes <i>Caenorhabditis elegans</i> stimulated by an IR laser. The model provides a method for quantification of analgesic-like effects of chemical stimuli or genetic mutations in <i>C. elegans</i>. We test ibuprofen-treated worms and a TRPV (transient receptor potential) mutant, and we show that the perception of heat stimuli for the ibuprofen treated worms is lower than the wild-type. At the same time, our model shows that the mutant changes the worm’s behavior beyond affecting the thermal sensory system. Finally, we determine the stimulus level that best distinguishes the analgesic-like effects and the minimum number of worms that allow for a statistically significant identification of these effects.<img alt="" height="1" src="http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/Yl0Ek6zQWDg" width="1" />
-
-            <p class="text-muted">in <a href="http://journals.plos.org/ploscompbiol/">PLOS Computational Biology: New Articles</a> on December 27, 2016 10:00 PM.</p>
-          </li>
-          
-          
-          
-          <li class="list-group-item"><h4><a href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/iz-JgBZkvi4/article">Population Heterogeneity in the Epithelial to Mesenchymal Transition Is Controlled by NFAT and Phosphorylated Sp1</a></h4>
-
-            <p>by Russell Gould, David M. Bassen, Anirikh Chakrabarti, Jeffrey D. Varner, Jonathan Butcher</p>
-
-Epithelial to mesenchymal transition (EMT) is an essential differentiation program during tissue morphogenesis and remodeling. EMT is induced by soluble transforming growth factor <i>β</i> (TGF-<i>β</i>) family members, and restricted by vascular endothelial growth factor family members. While many downstream molecular regulators of EMT have been identified, these have been largely evaluated individually without considering potential crosstalk. In this study, we created an ensemble of dynamic mathematical models describing TGF-<i>β</i> induced EMT to better understand the operational hierarchy of this complex molecular program. We used ordinary differential equations (ODEs) to describe the transcriptional and post-translational regulatory events driving EMT. Model parameters were estimated from multiple data sets using multiobjective optimization, in combination with cross-validation. TGF-<i>β</i> exposure drove the model population toward a mesenchymal phenotype, while an epithelial phenotype was enhanced following vascular endothelial growth factor A (VEGF-A) exposure. Simulations predicted that the transcription factors phosphorylated SP1 and NFAT were master regulators promoting or inhibiting EMT, respectively. Surprisingly, simulations also predicted that a cellular population could exhibit phenotypic heterogeneity (characterized by a significant fraction of the population with both high epithelial and mesenchymal marker expression) if treated simultaneously with TGF-<i>β</i> and VEGF-A. We tested this prediction experimentally in both MCF10A and DLD1 cells and found that upwards of 45% of the cellular population acquired this hybrid state in the presence of both TGF-<i>β</i> and VEGF-A. We experimentally validated the predicted NFAT/Sp1 signaling axis for each phenotype response. Lastly, we found that cells in the hybrid state had significantly different functional behavior when compared to VEGF-A or TGF-<i>β</i> treatment alone. Together, these results establish a predictive mechanistic model of EMT susceptibility, and potentially reveal a novel signaling axis which regulates carcinoma progression through an EMT versus tubulogenesis response.<img alt="" height="1" src="http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/iz-JgBZkvi4" width="1" />
-
-            <p class="text-muted">in <a href="http://journals.plos.org/ploscompbiol/">PLOS Computational Biology: New Articles</a> on December 27, 2016 10:00 PM.</p>
-          </li>
-          
-          
-          
-          <li class="list-group-item"><h4><a href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/BO7xN5HdQGw/article">The Hamiltonian Brain: Efficient Probabilistic Inference with Excitatory-Inhibitory Neural Circuit Dynamics</a></h4>
-
-            <p>by Laurence Aitchison, Máté Lengyel</p>
-
-Probabilistic inference offers a principled framework for understanding both behaviour and cortical computation. However, two basic and ubiquitous properties of cortical responses seem difficult to reconcile with probabilistic inference: neural activity displays prominent oscillations in response to constant input, and large transient changes in response to stimulus onset. Indeed, cortical models of probabilistic inference have typically either concentrated on tuning curve or receptive field properties and remained agnostic as to the underlying circuit dynamics, or had simplistic dynamics that gave neither oscillations nor transients. Here we show that these dynamical behaviours may in fact be understood as hallmarks of the specific representation and algorithm that the cortex employs to perform probabilistic inference. We demonstrate that a particular family of probabilistic inference algorithms, Hamiltonian Monte Carlo (HMC), naturally maps onto the dynamics of excitatory-inhibitory neural networks. Specifically, we constructed a model of an excitatory-inhibitory circuit in primary visual cortex that performed HMC inference, and thus inherently gave rise to oscillations and transients. These oscillations were not mere epiphenomena but served an important functional role: speeding up inference by rapidly spanning a large volume of state space. Inference thus became an order of magnitude more efficient than in a non-oscillatory variant of the model. In addition, the network matched two specific properties of observed neural dynamics that would otherwise be difficult to account for using probabilistic inference. First, the frequency of oscillations as well as the magnitude of transients increased with the contrast of the image stimulus. Second, excitation and inhibition were balanced, and inhibition lagged excitation. These results suggest a new functional role for the separation of cortical populations into excitatory and inhibitory neurons, and for the neural oscillations that emerge in such excitatory-inhibitory networks: enhancing the efficiency of cortical computations.<img alt="" height="1" src="http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/BO7xN5HdQGw" width="1" />
 
             <p class="text-muted">in <a href="http://journals.plos.org/ploscompbiol/">PLOS Computational Biology: New Articles</a> on December 27, 2016 10:00 PM.</p>
           </li>
@@ -2467,17 +2510,6 @@ Probabilistic inference offers a principled framework for understanding both beh
           
           
           
-          <li class="list-group-item"><h4><a href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/q35JfbLidRc/article">Inference of Functionally-Relevant N-acetyltransferase Residues Based on Statistical Correlations</a></h4>
-
-            <p>by Andrew F. Neuwald, Stephen F. Altschul</p>
-
-Over evolutionary time, members of a superfamily of homologous proteins sharing a common structural core diverge into subgroups filling various functional niches. At the sequence level, such divergence appears as correlations that arise from residue patterns distinct to each subgroup. Such a superfamily may be viewed as a population of sequences corresponding to a complex, high-dimensional probability distribution. Here we model this distribution as hierarchical interrelated hidden Markov models (hiHMMs), which describe these sequence correlations implicitly. By characterizing such correlations one may hope to obtain information regarding functionally-relevant properties that have thus far evaded detection. To do so, we infer a hiHMM distribution from sequence data using Bayes’ theorem and Markov chain Monte Carlo (MCMC) sampling, which is widely recognized as the most effective approach for characterizing a complex, high dimensional distribution. Other routines then map correlated residue patterns to available structures with a view to hypothesis generation. When applied to N-acetyltransferases, this reveals sequence and structural features indicative of functionally important, yet generally unknown biochemical properties. Even for sets of proteins for which nothing is known beyond unannotated sequences and structures, this can lead to helpful insights. We describe, for example, a putative coenzyme-A-induced-fit substrate binding mechanism mediated by arginine residue switching between salt bridge and π-π stacking interactions. A suite of programs implementing this approach is available (psed.igs.umaryland.edu).<img alt="" height="1" src="http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/q35JfbLidRc" width="1" />
-
-            <p class="text-muted">in <a href="http://journals.plos.org/ploscompbiol/">PLOS Computational Biology: New Articles</a> on December 21, 2016 10:00 PM.</p>
-          </li>
-          
-          
-          
           <li class="list-group-item"><h4><a href="http://journal.frontiersin.org/article/10.3389/fncir.2016.00103">Large Scale Cortical Functional Networks Associated with Slow-Wave and Spindle-Burst-Related Spontaneous Activity</a></h4>
 
             David A. McVea, Timothy H. Murphy, Majid H. Mohajerani
@@ -2586,29 +2618,12 @@ Over evolutionary time, members of a superfamily of homologous proteins sharing 
           
           
           
-          <li class="list-group-item"><h4><a href="http://www.cell.com/neuron/fulltext/S0896-6273(16)30956-4?rss=yes">Shaping Early Networks to Rule Mature Circuits: Little MiRs Go a Long Way</a></h4>
+          <li class="list-group-item"><h4><a href="https://elifesciences.org/content/5/e21598">Cryo-EM structures of the autoinhibited E. coli ATP synthase in three rotational states</a></h4>
 
-            Normative cortical processing depends on precise interactions between excitatory and inhibitory neurons. In this issue of Neuron, Lippi et al. (2016) identify miR-101 as a master regulator coordinating molecular programs during development that ultimately impact the activity of mature networks.
+            <p>A molecular model that provides a framework for interpreting the wealth of functional information obtained on the <em>E. coli</em> F-ATP synthase has been generated using cryo-electron microscopy. Three different states that relate to rotation of the enzyme were observed, with the central stalk’s ε subunit in an extended autoinhibitory conformation in all three states. The F<sub>o</sub> motor comprises of seven transmembrane helices and a decameric c-ring and invaginations on either side of the membrane indicate the entry and exit channels for protons. The proton translocating subunit contains near parallel helices inclined by ~30° to the membrane, a feature now synonymous with rotary ATPases. For the first time in this rotary ATPase subtype, the peripheral stalk is resolved over its entire length of the complex, revealing the F<sub>1</sub> attachment points and a coiled-coil that bifurcates toward the membrane with its helices separating to embrace subunit <em>a</em> from two sides.</p>
+<p><strong>DOI:</strong> <a href="http://elifesciences.org.c.elifesciences.ent.platform.sh/lookup/doi/10.7554/eLife.21598.001">http://dx.doi.org/10.7554/eLife.21598.001</a></p>
 
-            <p class="text-muted">in <a href="http://www.cell.com/archive?publicationCode=neuron&rss=yes">Neuron</a> on December 21, 2016 12:00 AM.</p>
-          </li>
-          
-          
-          
-          <li class="list-group-item"><h4><a href="http://www.cell.com/neuron/fulltext/S0896-6273(16)30954-0?rss=yes">Healing Pains of the Past Using Neuronal Transplantation</a></h4>
-
-            Yang et al. (2016) show that transplantation of GABAergic inhibitory neurons into the amygdala boosts the persistence of fear extinction in mice. Transplantation was found to degrade perineuronal nets on endogenous inhibitory neurons and enhance synaptic plasticity in host amygdala.
-
-            <p class="text-muted">in <a href="http://www.cell.com/archive?publicationCode=neuron&rss=yes">Neuron</a> on December 21, 2016 12:00 AM.</p>
-          </li>
-          
-          
-          
-          <li class="list-group-item"><h4><a href="http://www.cell.com/neuron/fulltext/S0896-6273(16)30948-5?rss=yes">Transcription Factor Hand-offs “Enhance” Motor Neuron Differentiation</a></h4>
-
-            Rhee et al. (2016) in this issue of Neuron and Velasco et al. (2016) in Cell Stem Cell find that the activity of transcription factors binding sequentially to a series of transient early and late enhancers directs gene expression that is essential for motor neuron differentiation and function.
-
-            <p class="text-muted">in <a href="http://www.cell.com/archive?publicationCode=neuron&rss=yes">Neuron</a> on December 21, 2016 12:00 AM.</p>
+            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml"></a> on December 21, 2016 12:00 AM.</p>
           </li>
           
           
@@ -2789,7 +2804,7 @@ Over evolutionary time, members of a superfamily of homologous proteins sharing 
             <p>Previously we reported that Src-associated-substrate-during-mitosis-of-68kDa (Sam68/KHDRBS1) is pivotal for DNA damage-stimulated NF-κB transactivation of anti-apoptotic genes (Fu et al., 2016). Here we show that Sam68 is critical for genotoxic stress-induced NF-κB activation in the γ-irradiated colon and animal and that Sam68-dependent NF-κB activation provides radioprotection to colon epithelium in vivo. Sam68 deletion diminishes γ-irradiation-triggered PAR synthesis and NF-κB activation in colon epithelial cells (CECs), thus hampering the expression of anti-apoptotic molecules in situ and facilitating CECs to undergo apoptosis in mice post whole-body γ-irradiation (WBIR). Sam68 knockout mice suffer more severe damage in the colon and succumb more rapidly from acute radiotoxicity than the control mice following WBIR. Our results underscore the critical role of Sam68 in orchestrating genotoxic stress-initiated NF-κB activation signaling in the colon tissue and whole animal and reveal the pathophysiological relevance of Sam68-dependent NF-κB activation in colonic cell survival and recovery from extrinsic DNA damage.</p>
 <p><strong>DOI:</strong> <a href="http://elifesciences.org.c.elifesciences.ent.platform.sh/lookup/doi/10.7554/eLife.21957.001">http://dx.doi.org/10.7554/eLife.21957.001</a></p>
 
-            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml?_ga=1.87920287.644450117.1426885037"></a> on December 20, 2016 12:00 AM.</p>
+            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml"></a> on December 20, 2016 12:00 AM.</p>
           </li>
           
           
@@ -2804,12 +2819,32 @@ Over evolutionary time, members of a superfamily of homologous proteins sharing 
           
           
           
+          <li class="list-group-item"><h4><a href="https://elifesciences.org/content/5/e21407">Hypoxic mitophagy regulates mitochondrial quality and platelet activation and determines severity of I/R heart injury</a></h4>
+
+            <p>Mitochondrial dysfunction underlies many prevalent diseases including heart disease arising from acute ischemia/reperfusion (I/R) injury. Here, we demonstrate that mitophagy, which selectively removes damaged or unwanted mitochondria, regulated mitochondrial quality and quantity <em>in vivo</em>. Hypoxia induced extensive mitochondrial degradation in a FUNDC1-dependent manner in platelets, and this was blocked by <em>in vivo</em> administration of a cell-penetrating peptide encompassing the LIR motif of FUNDC1 only in wild-type mice. Genetic ablation of Fundc1 impaired mitochondrial quality and increased mitochondrial mass in platelets and rendered the platelets insensitive to hypoxia and the peptide. Moreover, hypoxic mitophagy in platelets protected the heart from worsening of I/R injury. This represents a new mechanism of the hypoxic preconditioning effect which reduces I/R injury. Our results demonstrate a critical role of mitophagy in mitochondrial quality control and platelet activation, and suggest that manipulation of mitophagy by hypoxia or pharmacological approaches may be a novel strategy for cardioprotection.</p>
+<p><strong>DOI:</strong> <a href="http://elifesciences.org.c.elifesciences.ent.platform.sh/lookup/doi/10.7554/eLife.21407.001">http://dx.doi.org/10.7554/eLife.21407.001</a></p>
+
+            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml"></a> on December 20, 2016 12:00 AM.</p>
+          </li>
+          
+          
+          
           <li class="list-group-item"><h4><a href="https://elifesciences.org/content/5/e21394">Carbon recovery dynamics following disturbance by selective logging in Amazonian forests</a></h4>
 
             <p>When 2 Mha of Amazonian forests are disturbed by selective logging each year, more than 90 Tg of carbon (C) is emitted to the atmosphere. Emissions are then counterbalanced by forest regrowth. With an original modelling approach, calibrated on a network of 133 permanent forest plots (175 ha total) across Amazonia, we link regional differences in climate, soil and initial biomass with survivors’ and recruits’ C fluxes to provide Amazon-wide predictions of post-logging C recovery. We show that net aboveground C recovery over 10 years is higher in the Guiana Shield and in the west (21 <span class="inline-formula"><span class="mathjax mml-math"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>±</mo></math></span></span>3 Mg C ha<span class="inline-formula"><span class="mathjax mml-math"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi></mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math></span></span>) than in the south (12 <span class="inline-formula"><span class="mathjax mml-math"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>±</mo></math></span></span>3 Mg C ha<span class="inline-formula"><span class="mathjax mml-math"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi></mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math></span></span>) where environmental stress is high (low rainfall, high seasonality). We highlight the key role of survivors in the forest regrowth and elaborate a comprehensive map of post-disturbance C recovery potential in Amazonia.</p>
 <p><strong>DOI:</strong> <a href="http://elifesciences.org.c.elifesciences.ent.platform.sh/lookup/doi/10.7554/eLife.21394.001">http://dx.doi.org/10.7554/eLife.21394.001</a></p>
 
-            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml?_ga=1.87920287.644450117.1426885037"></a> on December 20, 2016 12:00 AM.</p>
+            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml"></a> on December 20, 2016 12:00 AM.</p>
+          </li>
+          
+          
+          
+          <li class="list-group-item"><h4><a href="https://elifesciences.org/content/5/e20985">CCR5 is a suppressor for cortical plasticity and hippocampal learning and memory</a></h4>
+
+            <p>Although the role of CCR5 in immunity and in HIV infection has been studied widely, its role in neuronal plasticity, learning and memory is not understood. Here, we report that decreasing the function of CCR5 increases MAPK/CREB signaling, long-term potentiation (LTP), and hippocampus-dependent memory in mice, while neuronal CCR5 overexpression caused memory deficits. Decreasing CCR5 function in mouse barrel cortex also resulted in enhanced spike timing dependent plasticity and consequently, dramatically accelerated experience-dependent plasticity. These results suggest that CCR5 is a powerful suppressor for plasticity and memory, and CCR5 over-activation by viral proteins may contribute to HIV-associated cognitive deficits. Consistent with this hypothesis, the HIV V3 peptide caused LTP, signaling and memory deficits that were prevented by Ccr5 knockout or knockdown. Overall, our results demonstrate that CCR5 plays an important role in neuroplasticity, learning and memory, and indicate that CCR5 has a role in the cognitive deficits caused by HIV.</p>
+<p><strong>DOI:</strong> <a href="http://elifesciences.org.c.elifesciences.ent.platform.sh/lookup/doi/10.7554/eLife.20985.001">http://dx.doi.org/10.7554/eLife.20985.001</a></p>
+
+            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml"></a> on December 20, 2016 12:00 AM.</p>
           </li>
           
           
@@ -3333,6 +3368,16 @@ Over evolutionary time, members of a superfamily of homologous proteins sharing 
           
           
           
+          <li class="list-group-item"><h4><a href="https://elifesciences.org/content/5/e22757">An alternative splicing switch shapes neurexin repertoires in principal neurons versus interneurons in the mouse hippocampus</a></h4>
+
+            <p>The unique anatomical and functional features of principal and interneuron populations are critical for the appropriate function of neuronal circuits. Cell type-specific properties are encoded by selective gene expression programs that shape molecular repertoires and synaptic protein complexes. However, the nature of such programs, particularly for post-transcriptional regulation at the level of alternative splicing is only beginning to emerge. We here demonstrate that transcripts encoding the synaptic adhesion molecules neurexin-1,2,3 are commonly expressed in principal cells and interneurons of the mouse hippocampus but undergo highly differential, cell type-specific alternative splicing. Principal cell-specific neurexin splice isoforms depend on the RNA-binding protein Slm2. By contrast, most parvalbumin-positive (PV<sup>+</sup>) interneurons lack Slm2, express a different neurexin splice isoform and co-express the corresponding splice isoform-specific neurexin ligand Cbln4. Conditional ablation of <em>Nrxn</em> alternative splice insertions selectively in PV<sup>+</sup> cells results in elevated hippocampal network activity and impairment in a learning task. Thus, PV-cell-specific alternative splicing of neurexins is critical for neuronal circuit function</p>
+<p><strong>DOI:</strong> <a href="http://elifesciences.org.c.elifesciences.ent.platform.sh/lookup/doi/10.7554/eLife.22757.001">http://dx.doi.org/10.7554/eLife.22757.001</a></p>
+
+            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml"></a> on December 13, 2016 12:00 AM.</p>
+          </li>
+          
+          
+          
           <li class="list-group-item"><h4><a href="https://elifesciences.org/content/5/e20813">Acetylated tubulin is essential for touch sensation in mice</a></h4>
 
             <p>At its most fundamental level, touch sensation requires the translation of mechanical energy into mechanosensitive ion channel opening, thereby generating electro-chemical signals. Our understanding of this process, especially how the cytoskeleton influences it, remains unknown. Here we demonstrate that mice lacking the α-tubulin acetyltransferase Atat1 in sensory neurons display profound deficits in their ability to detect mechanical stimuli. We show that all cutaneous afferent subtypes, including nociceptors have strongly reduced mechanosensitivity upon Atat1 deletion, and that consequently, mice are largely insensitive to mechanical touch and pain. We establish that this broad loss of mechanosensitivity is dependent upon the acetyltransferase activity of Atat1, which when absent leads to a decrease in cellular elasticity. By mimicking α-tubulin acetylation genetically, we show both cellular rigidity and mechanosensitivity can be restored in Atat1 deficient sensory neurons. Hence, our results indicate that by influencing cellular stiffness, α-tubulin acetylation sets the force required for touch.</p>
@@ -3698,6 +3743,16 @@ Over evolutionary time, members of a superfamily of homologous proteins sharing 
           
           
           
+          <li class="list-group-item"><h4><a href="https://elifesciences.org/content/5/e21301">Multiple selection filters ensure accurate tail-anchored membrane protein targeting</a></h4>
+
+            <p>Accurate protein localization is crucial to generate and maintain organization in all cells. Achieving accuracy is challenging, as the molecular signals that dictate a protein’s cellular destination are often promiscuous. A salient example is the targeting of an essential class of tail-anchored (TA) proteins, whose sole defining feature is a transmembrane domain near their C-terminus. Here we show that the Guided Entry of Tail-anchored protein (GET) pathway selects TA proteins destined to the endoplasmic reticulum (ER) utilizing distinct molecular steps, including differential binding by the co-chaperone Sgt2 and kinetic proofreading after ATP hydrolysis by the targeting factor Get3. Further, the different steps select for distinct physicochemical features of the TA substrate. The use of multiple selection filters may be general to protein biogenesis pathways that must distinguish correct and incorrect substrates based on minor differences.</p>
+<p><strong>DOI:</strong> <a href="http://elifesciences.org.c.elifesciences.ent.platform.sh/lookup/doi/10.7554/eLife.21301.001">http://dx.doi.org/10.7554/eLife.21301.001</a></p>
+
+            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml"></a> on December 07, 2016 12:00 AM.</p>
+          </li>
+          
+          
+          
           <li class="list-group-item"><h4><a href="https://elifesciences.org/content/5/e20515">On cross-frequency phase-phase coupling between theta and gamma oscillations in the hippocampus</a></h4>
 
             <p>Phase-amplitude coupling between theta and multiple gamma sub-bands is a hallmark of hippocampal activity and believed to take part in information routing. More recently, theta and gamma oscillations were also reported to exhibit phase-phase coupling, or n:m phase-locking, suggesting an important mechanism of neuronal coding that has long received theoretical support. However, by analyzing simulated and actual LFPs, here we question the existence of theta-gamma phase-phase coupling in the rat hippocampus. We show that the quasi-linear phase shifts introduced by filtering lead to spurious coupling levels in both white noise and hippocampal LFPs, which highly depend on epoch length, and that significant coupling may be falsely detected when employing improper surrogate methods. We also show that waveform asymmetry and frequency harmonics may generate artifactual n:m phase-locking. Studies investigating phase-phase coupling should rely on appropriate statistical controls and be aware of confounding factors; otherwise, they could easily fall into analysis pitfalls.</p>
@@ -3780,66 +3835,6 @@ Over evolutionary time, members of a superfamily of homologous proteins sharing 
           </li>
           
           
-          
-          <li class="list-group-item"><h4><a href="https://elifesciences.org/content/5/e20269">Chemogenetic inhibition of the medial prefrontal cortex reverses the effects of REM sleep loss on sucrose consumption</a></h4>
-
-            <p>Rapid eye movement (REM) sleep loss is associated with increased consumption of weight-promoting foods. The prefrontal cortex (PFC) is thought to mediate reward anticipation. However, the precise role of the PFC in mediating reward responses to highly palatable foods (HPF) after REM sleep deprivation is unclear. We selectively reduced REM sleep in mice over a 25–48 hr period and chemogenetically inhibited the medial PFC (mPFC) by using an altered glutamate-gated and ivermectin-gated chloride channel that facilitated neuronal inhibition through hyperpolarizing infected neurons. HPF consumption was measured while the mPFC was inactivated and REM sleep loss was induced. We found that REM sleep loss increased HPF consumption compared to control animals. However, mPFC inactivation reversed the effect of REM sleep loss on sucrose consumption without affecting fat consumption. Our findings provide, for the first time, a causal link between REM sleep, mPFC function and HPF consumption.</p>
-<p><strong>DOI:</strong> <a href="http://elifesciences.org.c.elifesciences.ent.platform.sh/lookup/doi/10.7554/eLife.20269.001">http://dx.doi.org/10.7554/eLife.20269.001</a></p>
-
-            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml"></a> on December 06, 2016 12:00 AM.</p>
-          </li>
-          
-          
-          
-          <li class="list-group-item"><h4><a href="https://elifesciences.org/content/5/e19850">Calcium-mediated actin reset (CaAR) mediates acute cell adaptations</a></h4>
-
-            <p>Actin has well established functions in cellular morphogenesis. However, it is not well understood how the various actin assemblies in a cell are kept in a dynamic equilibrium, in particular when cells have to respond to acute signals. Here, we characterize a rapid and transient actin reset in response to increased intracellular calcium levels. Within seconds of calcium influx, the formin INF2 stimulates filament polymerization at the endoplasmic reticulum (ER), while cortical actin is disassembled. The reaction is then reversed within a few minutes. This Calcium-mediated actin reset (CaAR) occurs in a wide range of mammalian cell types and in response to many physiological cues. CaAR leads to transient immobilization of organelles, drives reorganization of actin during cell cortex repair, cell spreading and wound healing, and induces long-lasting changes in gene expression. Our findings suggest that CaAR acts as fundamental facilitator of cellular adaptations in response to acute signals and stress.</p>
-<p><strong>DOI:</strong> <a href="http://elifesciences.org.c.elifesciences.ent.platform.sh/lookup/doi/10.7554/eLife.19850.001">http://dx.doi.org/10.7554/eLife.19850.001</a></p>
-
-            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml?_ga=1.136295474.2012519197.1430918698"></a> on December 06, 2016 12:00 AM.</p>
-          </li>
-          
-          
-          
-          <li class="list-group-item"><h4><a href="https://elifesciences.org/content/5/e19430">Drosophila neprilysins control insulin signaling and food intake via cleavage of regulatory peptides</a></h4>
-
-            <p>Insulin and IGF signaling are critical to numerous developmental and physiological processes, with perturbations being pathognomonic of various diseases, including diabetes. Although the functional roles of the respective signaling pathways have been extensively studied, the control of insulin production and release is only partially understood. Herein, we show that in <em>Drosophila</em> expression of insulin-like peptides is regulated by neprilysin activity. Concomitant phenotypes of altered neprilysin expression included impaired food intake, reduced body size, and characteristic changes in the metabolite composition. Ectopic expression of a catalytically inactive mutant did not elicit any of the phenotypes, which confirms abnormal peptide hydrolysis as a causative factor. A screen for corresponding substrates of the neprilysin identified distinct peptides that regulate insulin-like peptide expression, feeding behavior, or both. The high functional conservation of neprilysins and their substrates renders the characterized principles applicable to numerous species, including higher eukaryotes and humans.</p>
-<p><strong>DOI:</strong> <a href="http://elifesciences.org.c.elifesciences.ent.platform.sh/lookup/doi/10.7554/eLife.19430.001">http://dx.doi.org/10.7554/eLife.19430.001</a></p>
-
-            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml"></a> on December 06, 2016 12:00 AM.</p>
-          </li>
-          
-          
-          
-          <li class="list-group-item"><h4><a href="https://elifesciences.org/content/5/e18919">Direct screening for chromatin status on DNA barcodes in yeast delineates the regulome of H3K79 methylation by Dot1</a></h4>
-
-            <p>Given the frequent misregulation of chromatin in cancer, it is important to understand the cellular mechanisms that regulate chromatin structure. However, systematic screening for epigenetic regulators is challenging and often relies on laborious assays or indirect reporter read-outs. Here we describe a strategy, Epi-ID, to directly assess chromatin status in thousands of mutants. In Epi-ID, chromatin status on DNA barcodes is interrogated by chromatin immunoprecipitation followed by deep sequencing, allowing for quantitative comparison of many mutants in parallel. Screening of a barcoded yeast knock-out collection for regulators of histone H3K79 methylation by Dot1 identified all known regulators as well as novel players and processes. These include histone deposition, homologous recombination, and adenosine kinase, which influences the methionine cycle. Gcn5, the acetyltransferase within the SAGA complex, was found to regulate histone methylation and H2B ubiquitination. The concept of Epi-ID is widely applicable and can be readily applied to other chromatin features.</p>
-<p><strong>DOI:</strong> <a href="http://elifesciences.org.c.elifesciences.ent.platform.sh/lookup/doi/10.7554/eLife.18919.001">http://dx.doi.org/10.7554/eLife.18919.001</a></p>
-
-            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml"></a> on December 06, 2016 12:00 AM.</p>
-          </li>
-          
-          
-          
-          <li class="list-group-item"><h4><a href="https://elifesciences.org/content/5/e18129">The structure of SV40 large T hexameric helicase in complex with AT-rich origin DNA</a></h4>
-
-            <p>DNA replication is a fundamental biological process. The initial step in eukaryotic DNA replication is the assembly of the pre-initiation complex, including the formation of two head-to-head hexameric helicases around the replication origin. How these hexameric helicases interact with their origin dsDNA remains unknown. Here, we report the co-crystal structure of the SV40 Large-T Antigen (LT) hexameric helicase bound to its origin dsDNA. The structure shows that the six subunits form a near-planar ring that interacts with the origin, so that each subunit makes unique contacts with the DNA. The origin dsDNA inside the narrower AAA+ domain channel shows partial melting due to the compression of the two phosphate backbones, forcing Watson-Crick base-pairs within the duplex to flip outward. This structure provides the first snapshot of a hexameric helicase binding to origin dsDNA, and suggests a possible mechanism of origin melting by LT during SV40 replication in eukaryotic cells.</p>
-<p><strong>DOI:</strong> <a href="http://elifesciences.org.c.elifesciences.ent.platform.sh/lookup/doi/10.7554/eLife.18129.001">http://dx.doi.org/10.7554/eLife.18129.001</a></p>
-
-            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml?_ga=1.3871283.287344673.1430569997"></a> on December 06, 2016 12:00 AM.</p>
-          </li>
-          
-          
-          
-          <li class="list-group-item"><h4><a href="https://elifesciences.org/content/5/e17769">New learning while consolidating memory during sleep is actively blocked by a protein synthesis dependent process</a></h4>
-
-            <p>Brief experiences while a memory is consolidated may capture the consolidation, perhaps producing a maladaptive memory, or may interrupt the consolidation. Since consolidation occurs during sleep, even fleeting experiences when animals are awakened may produce maladaptive long-term memory, or may interrupt consolidation. In a learning paradigm affecting <em>Aplysia</em> feeding, when animals were trained after being awakened from sleep, interactions between new experiences and consolidation were prevented by blocking long-term memory arising from the new experiences. Inhibiting protein synthesis eliminated the block and allowed even a brief, generally ineffective training to produce long-term memory. Memory formation depended on consolidative proteins already expressed before training. After effective training, long term memory required subsequent transcription and translation. Memory formation during the sleep phase was correlated with increased CREB1 transcription, but not CREB2 transcription. Increased C/EBP transcription was a correlate of both effective and ineffective training and of treatments not producing memory.</p>
-<p><strong>DOI:</strong> <a href="http://elifesciences.org.c.elifesciences.ent.platform.sh/lookup/doi/10.7554/eLife.17769.001">http://dx.doi.org/10.7554/eLife.17769.001</a></p>
-
-            <p class="text-muted">in <a href="https://elifesciences.org/rss/recent.xml"></a> on December 06, 2016 12:00 AM.</p>
-          </li>
-          
-          
         </ul>
       </div>
       <div class="col-md-3">
@@ -3913,7 +3908,7 @@ Over evolutionary time, members of a superfamily of homologous proteins sharing 
             
             <li class="list-group-item"><a href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</a></li>
             
-            <li class="list-group-item"><a href="https://elifesciences.org/rss/recent.xml?_ga=1.87920287.644450117.1426885037">eLife</a></li>
+            <li class="list-group-item"><a href="https://elifesciences.org/rss/recent.xml">eLife</a></li>
             
           </ul>
         </div>
