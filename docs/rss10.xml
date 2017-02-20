@@ -19,6 +19,12 @@
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00039" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00043" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncom.2017.00008" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1702.05394" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1702.05339" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1702.05325" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1702.05259" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1702.05254" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1611.06893" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/109736v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/109710v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005393" />
@@ -409,12 +415,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nrn.2017.3" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fninf.2017.00001" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnana.2016.00119" />
-			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnint.2016.00044" />
-			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnsys.2017.00001" />
-			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnins.2017.00008" />
-			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnins.2017.00003" />
-			<rdf:li rdf:resource="http://www.mitpressjournals.org/doi/abs/10.1162/NECO_a_00925?ai=sl&amp;mi=6c5u8v&amp;af=R" />
-			<rdf:li rdf:resource="http://www.mitpressjournals.org/doi/abs/10.1162/NECO_a_00924?ai=sl&amp;mi=6c5u8v&amp;af=R" />
 		</rdf:Seq>
 	</items>
 </channel>
@@ -442,6 +442,161 @@
 	<link>http://journal.frontiersin.org/article/10.3389/fncom.2017.00008</link>
 	<content:encoded>Francesca Pittau, Lorenzo Ferri, Firas Fahoum, François Dubeau, Jean Gotman</content:encoded>
 	<dc:date>2017-02-20T12:01:21+00:00</dc:date>
+</item>
+<item rdf:about="http://arxiv.org/abs/1702.05394">
+	<title>q-bio.NC updates on arXiv.org: Measures of spike train synchrony for data with multiple time-scales. (arXiv:1702.05394v1 [physics.data-an])</title>
+	<link>http://arxiv.org/abs/1702.05394</link>
+	<content:encoded>&lt;p&gt;Background: Measures of spike train synchrony are widely used in both
+experimental and computational neuroscience. Time-scale independent and
+parameter-free measures, such as the ISI-distance, the SPIKE-distance and
+SPIKE-synchronization, are preferable to time-scale parametric measures, since
+by adapting to the local firing rate they take into account all the time-scales
+of a given dataset.
+&lt;/p&gt;
+&lt;p&gt;New Method: In data containing multiple time-scales (e.g. regular spiking and
+bursts) one is typically less interested in the smallest time-scales and a more
+adaptive approach is needed. Here we propose the A-ISI-distance, the
+A-SPIKE-distance and A-SPIKE-synchronization, which generalize the original
+measures by considering the local relative to the global time-scales. For the
+A-SPIKE-distance we also introduce a rate-independent extension called the
+RIA-SPIKE-distance, which focuses specifically on spike timing.
+&lt;/p&gt;
+&lt;p&gt;Results: The adaptive generalizations A-ISI-distance and A-SPIKE-distance
+allow to disregard spike time differences that are not relevant on a more
+global scale. A-SPIKE-synchronization does not any longer demand an
+unreasonably high accuracy for spike doublets and coinciding bursts. Finally,
+the RIA-SPIKE-distance proves to be independent of rate ratios between spike
+trains.
+&lt;/p&gt;
+&lt;p&gt;Comparison with Existing Methods: We find that compared to the original
+versions the A-ISI-distance and the A-SPIKE-distance yield improvements for
+spike trains containing different time-scales without exhibiting any unwanted
+side effects in other examples. A-SPIKE-synchronization matches spikes more
+efficiently than SPIKE-Synchronization.
+&lt;/p&gt;
+&lt;p&gt;Conclusions: With these proposals we have completed the picture, since we now
+provide adaptive generalized measures that are sensitive to rate only
+(A-ISI-distance), to timing only (ARI-SPIKE-distance), and to both at the same
+time (A-SPIKE-distance).
+&lt;/p&gt;</content:encoded>
+	<dc:date>2017-02-20T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/physics/1/au:+Satuvuori_E/0/1/0/all/0/1">Eero Satuvuori</a>, <a href="http://arxiv.org/find/physics/1/au:+Mulansky_M/0/1/0/all/0/1">Mario Mulansky</a>, <a href="http://arxiv.org/find/physics/1/au:+Bozanic_N/0/1/0/all/0/1">Nebojsa Bozanic</a>, <a href="http://arxiv.org/find/physics/1/au:+Lenk_K/0/1/0/all/0/1">Kerstin Lenk</a>, <a href="http://arxiv.org/find/physics/1/au:+Kreuz_T/0/1/0/all/0/1">Thomas Kreuz</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1702.05339">
+	<title>q-bio.NC updates on arXiv.org: Time Fractional Cable Equation And Applications in Neurophysiology. (arXiv:1702.05339v1 [physics.bio-ph])</title>
+	<link>http://arxiv.org/abs/1702.05339</link>
+	<content:encoded>&lt;p&gt;We propose an extension of the cable equation by introducing a Caputo time
+fractional derivative. The fundamental solutions of the most common boundary
+problems are derived analitically via Laplace Transform, and result be written
+in terms of known special functions. This generalization could be useful to
+describe anomalous diffusion phenomena with leakage as signal conduction in
+spiny dendrites. The presented solutions are computed in Matlab and plotted.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2017-02-20T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/physics/1/au:+Vitali_S/0/1/0/all/0/1">Silvia Vitali</a>, <a href="http://arxiv.org/find/physics/1/au:+Castellani_G/0/1/0/all/0/1">Gastone Castellani</a>, <a href="http://arxiv.org/find/physics/1/au:+Mainardi_F/0/1/0/all/0/1">Francesco Mainardi</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1702.05325">
+	<title>q-bio.NC updates on arXiv.org: Fractional Cable Model for Signal Conduction in Spiny Neuronal Dendrites. (arXiv:1702.05325v1 [physics.bio-ph])</title>
+	<link>http://arxiv.org/abs/1702.05325</link>
+	<content:encoded>&lt;p&gt;The cable model is widely used in several fields of science to describe the
+propagation of signals. A relevant medical and biological example is the
+anomalous subdiffusion in spiny neuronal dendrites observed in several studies
+of the last decade. Anomalous subdiffusion can be modelled in several ways
+introducing some fractional component into the classical cable model. The
+Chauchy problem associated to these kind of models has been investigated by
+many authors, but up to our knowledge an explicit solution for the signalling
+problem has not yet been published. Here we propose how this solution can be
+derived applying the generalized convolution theorem (known as Efros theorem)
+for Laplace transforms. The fractional cable model considered in this paper is
+defined by replacing the first order time derivative with a fractional
+derivative of order $\alpha\in(0,1)$ of Caputo type. The signalling problem is
+solved for any input function applied to the accessible end of a semi-infinite
+cable, which satisfies the requirements of the Efros theorem. The solutions
+corresponding to the simple cases of impulsive and step inputs are explicitly
+calculated in integral form containing Wright functions. Thanks to the
+variability of the parameter $\alpha$, the corresponding solutions are expected
+to adapt to the qualitative behaviour of the membrane potential observed in
+experiments better than in the standard case $\alpha=1$.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2017-02-20T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/physics/1/au:+Vitali_S/0/1/0/all/0/1">Silvia Vitali</a>, <a href="http://arxiv.org/find/physics/1/au:+Mainardi_F/0/1/0/all/0/1">Francesco Mainardi</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1702.05259">
+	<title>q-bio.NC updates on arXiv.org: A reaction-diffusion model for the progression of Parkinson's disease. (arXiv:1702.05259v1 [q-bio.NC])</title>
+	<link>http://arxiv.org/abs/1702.05259</link>
+	<content:encoded>&lt;p&gt;The temporal and spatial development of Parkinson's disease has been
+characterised as the progressive formation of {\alpha}-synuclein aggregations
+through susceptible neuronal pathways. This article describes a new model for
+this progression mechanism in which Parkinsonian damage moves over time through
+the nervous system by the combined effect of the reaction kinetics of
+pathogenesis and molecular diffusion. In the reaction-diffusion model, the
+change from a healthy state to the disease state advances through the nervous
+system as a wave front of Parkinsonian damage, marking its path by
+accumulations of damaged {\alpha}-synuclein and neurotoxic levels of oxidative
+species. Progression according to this model follows the most vulnerable routes
+through the nervous system as described by Braak's staging theory and predicts
+that damage will advance at differing speeds depending upon the level and
+number of risk factors, in a manner that gives new insights into the variations
+with which Parkinson's disease develops.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2017-02-20T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Garcia_M/0/1/0/all/0/1">M&#xed;riam R. Garc&#xed;a</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Cloutier_M/0/1/0/all/0/1">Mathieu Cloutier</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Wellstead_P/0/1/0/all/0/1">Peter Wellstead</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1702.05254">
+	<title>q-bio.NC updates on arXiv.org: A Biased Look at Phase Locking: Brief Critical Review and Proposed Remedy. (arXiv:1702.05254v1 [q-bio.NC])</title>
+	<link>http://arxiv.org/abs/1702.05254</link>
+	<content:encoded>&lt;p&gt;A number of popular measures of dependence between pairs of band-limited
+signals rely on analytic phase. A common misconception is that the dependence
+revealed by these measures must be specific to the spectral range of the
+filtered input signals. Implicitly or explicitly, obtaining analytic phase
+involves normalizing the signal by its own envelope, which is a nonlinear
+operation that introduces broad spectral leakage. We review how this generates
+bias and complicates the interpretation of commonly used measures of phase
+locking. A specific example of this effect may create spurious phase locking as
+a consequence of nonzero circular mean in the phase of input signals, which can
+be viewed as spectral leakage to 0 Hz. Corrections for this problem which
+recenter or uniformize the distribution of phase may fail when the amplitudes
+of the compared signals are correlated. To address the more general problem of
+spectral bias, a novel measure of phase locking is proposed, the
+amplitude-weighted phase locking value (awPLV). This measure is closely related
+to coherence, but it removes ambiguities of interpretation that detract from
+the latter.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2017-02-20T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Kovach_C/0/1/0/all/0/1">Christopher K. Kovach</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1611.06893">
+	<title>q-bio.NC updates on arXiv.org: A statistical model for brain networks inferred from large-scale electrophysiological signals. (arXiv:1611.06893v4 [q-bio.NC] UPDATED)</title>
+	<link>http://arxiv.org/abs/1611.06893</link>
+	<content:encoded>&lt;p&gt;Network science has been extensively developed to characterize structural
+properties of complex systems, including brain networks inferred from
+neuroimaging data. As a result of the inference process, networks estimated
+from experimentally obtained biological data, represent one instance of a
+larger number of realizations with similar intrinsic topology. A modeling
+approach is therefore needed to support statistical inference on the bottom-up
+local connectivity mechanisms influencing the formation of the estimated brain
+networks. We adopted a statistical model based on exponential random graphs
+(ERGM) to reproduce brain networks, or connectomes, estimated by spectral
+coherence between high-density electroencephalographic (EEG) signals. We
+validated this approach in a dataset of 108 healthy subjects during eyes-open
+(EO) and eyes-closed (EC) resting-state conditions. Results showed that the
+tendency to form triangles and stars, reflecting clustering and node
+centrality, better explained the global properties of the EEG connectomes as
+compared to other combinations of graph metrics. Synthetic networks generated
+by this model configuration replicated the characteristic differences found in
+brain networks, with EO eliciting significantly higher segregation in the alpha
+frequency band (8-13 Hz) as compared to EC. Furthermore, the fitted ERGM
+parameter values provided complementary information showing that clustering
+connections are significantly more represented from EC to EO in the alpha
+range, but also in the beta band (14-29 Hz), which is known to play a crucial
+role in cortical processing of visual input and externally oriented attention.
+These findings support the current view of the brain functional segregation and
+integration in terms of modules and hubs, and provide a statistical approach to
+extract new information on the (re)organizational mechanisms in healthy and
+diseased brains.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2017-02-20T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Obando_C/0/1/0/all/0/1">Catalina Obando</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Fallani_F/0/1/0/all/0/1">Fabrizio De Vico Fallani</a></dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/109736v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Feedforward inhibition allows input summation to vary in recurrent cortical networks</title>
@@ -3176,44 +3331,6 @@ Peroxiredoxins (Prxs or Prdxs) are a large protein superfamily of antioxidant en
 	<link>http://journal.frontiersin.org/article/10.3389/fnana.2016.00119</link>
 	<content:encoded>Sonia Pujol, Ryan Cabeen, Sophie B. Sébille, Jérôme Yelnik, Chantal François, Sara Fernandez Vidal, Carine Karachi, Yulong Zhao, G. Rees Cosgrove, Pierre Jannin, Ron Kikinis, Eric Bardinet</content:encoded>
 	<dc:date>2017-01-19T12:01:04+00:00</dc:date>
-</item>
-<item rdf:about="http://journal.frontiersin.org/article/10.3389/fnint.2016.00044">
-	<title>Frontiers in Integrative Neuroscience | New and Recent Articles: Grouping and Segregation of Sensory Events by Actions in Temporal Audio-Visual Recalibration</title>
-	<link>http://journal.frontiersin.org/article/10.3389/fnint.2016.00044</link>
-	<content:encoded>Nara Ikumi, Salvador Soto-Faraco</content:encoded>
-	<dc:date>2017-01-19T12:01:01+00:00</dc:date>
-</item>
-<item rdf:about="http://journal.frontiersin.org/article/10.3389/fnsys.2017.00001">
-	<title>Frontiers in Systems Neuroscience | New and Recent Articles: Editorial: The Cognitive Neuroscience of Visual Working Memory</title>
-	<link>http://journal.frontiersin.org/article/10.3389/fnsys.2017.00001</link>
-	<content:encoded>Zsuzsa Kaldy, Natasha Sigala</content:encoded>
-	<dc:date>2017-01-19T12:00:55+00:00</dc:date>
-</item>
-<item rdf:about="http://journal.frontiersin.org/article/10.3389/fnins.2017.00008">
-	<title>Frontiers in Neuroscience | Neurodegeneration section | New and Recent Articles: p38/Sp1/Sp4/HDAC4/BDNF Axis Is a Novel Molecular Pathway of the Neurotoxic Effect of the Methylmercury</title>
-	<link>http://journal.frontiersin.org/article/10.3389/fnins.2017.00008</link>
-	<content:encoded>Natascia Guida, Giusy Laudati, Luigi Mascolo, Valeria Valsecchi, Rossana Sirabella, Carmine Selleri, Gianfranco Di Renzo, Lorella M. T. Canzoniero, Luigi Formisano</content:encoded>
-	<dc:date>2017-01-19T12:00:52+00:00</dc:date>
-</item>
-<item rdf:about="http://journal.frontiersin.org/article/10.3389/fnins.2017.00003">
-	<title>Frontiers in Neuroscience | Neurodegeneration section | New and Recent Articles: Metal Dyshomeostasis and Their Pathological Role in Prion and Prion-Like Diseases: The Basis for a Nutritional Approach</title>
-	<link>http://journal.frontiersin.org/article/10.3389/fnins.2017.00003</link>
-	<content:encoded>Mattia Toni, Maria L. Massimino, Agnese De Mario, Elisa Angiulli, Enzo Spisni</content:encoded>
-	<dc:date>2017-01-19T12:00:52+00:00</dc:date>
-</item>
-<item rdf:about="http://www.mitpressjournals.org/doi/abs/10.1162/NECO_a_00925?ai=sl&amp;mi=6c5u8v&amp;af=R">
-	<title>MIT Press: Neural Computation: Table of Contents: Controllability Analysis of the Neural Mass Model with Dynamic Parameters</title>
-	<link>http://www.mitpressjournals.org/doi/abs/10.1162/NECO_a_00925?ai=sl&amp;mi=6c5u8v&amp;af=R</link>
-	<content:encoded>Neural Computation, &lt;a href=&quot;http://www.mitpressjournals.org/toc/neco/29/2&quot;&gt;Volume 29, Issue 2&lt;/a&gt;, Page 485-501, February 2017. &lt;br /&gt;</content:encoded>
-	<dc:date>2017-01-19T07:20:08+00:00</dc:date>
-	<dc:creator>Xian Liu</dc:creator>
-</item>
-<item rdf:about="http://www.mitpressjournals.org/doi/abs/10.1162/NECO_a_00924?ai=sl&amp;mi=6c5u8v&amp;af=R">
-	<title>MIT Press: Neural Computation: Table of Contents: Learning the Structural Vocabulary of a Network</title>
-	<link>http://www.mitpressjournals.org/doi/abs/10.1162/NECO_a_00924?ai=sl&amp;mi=6c5u8v&amp;af=R</link>
-	<content:encoded>Neural Computation, &lt;a href=&quot;http://www.mitpressjournals.org/toc/neco/29/2&quot;&gt;Volume 29, Issue 2&lt;/a&gt;, Page 287-312, February 2017. &lt;br /&gt;</content:encoded>
-	<dc:date>2017-01-19T07:20:01+00:00</dc:date>
-	<dc:creator>Saket Navlakha</dc:creator>
 </item>
 
 </rdf:RDF>
