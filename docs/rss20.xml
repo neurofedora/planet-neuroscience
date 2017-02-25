@@ -9,6 +9,26 @@
 	<atom:link rel="self" href="https://sanjayankur31.github.io/planet-neuroscience/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>PLOS Computational Biology: New Articles: Imputation for transcription factor binding predictions based on deep learning</title>
+	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005403</guid>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/In1dUI5aal0/article</link>
+	<description>&lt;p&gt;by Qian Qin, Jianxing Feng&lt;/p&gt;
+
+Understanding the cell-specific binding patterns of transcription factors (TFs) is fundamental to studying gene regulatory networks in biological systems, for which ChIP-seq not only provides valuable data but is also considered as the gold standard. Despite tremendous efforts from the scientific community to conduct TF ChIP-seq experiments, the available data represent only a limited percentage of ChIP-seq experiments, considering all possible combinations of TFs and cell lines. In this study, we demonstrate a method for accurately predicting cell-specific TF binding for TF-cell line combinations based on only a small fraction (4%) of the combinations using available ChIP-seq data. The proposed model, termed TFImpute, is based on a deep neural network with a multi-task learning setting to borrow information across transcription factors and cell lines. Compared with existing methods, TFImpute achieves comparable accuracy on TF-cell line combinations with ChIP-seq data; moreover, TFImpute achieves better accuracy on TF-cell line combinations without ChIP-seq data. This approach can predict cell line specific enhancer activities in K562 and HepG2 cell lines, as measured by massively parallel reporter assays, and predicts the impact of SNPs on TF binding.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/In1dUI5aal0&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 24 Feb 2017 22:00:00 +0000</pubDate>
+  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
+	<title>PLOS Computational Biology: New Articles: On the stability and dynamics of stochastic spiking neuron models: Nonlinear Hawkes process and point process GLMs</title>
+	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005390</guid>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/AJxXTg7Mwg4/article</link>
+	<description>&lt;p&gt;by Felipe Gerhard, Moritz Deger, Wilson Truccolo&lt;/p&gt;
+
+Point process generalized linear models (PP-GLMs) provide an important statistical framework for modeling spiking activity in single-neurons and neuronal networks. Stochastic stability is essential when sampling from these models, as done in computational neuroscience to analyze statistical properties of neuronal dynamics and in neuro-engineering to implement closed-loop applications. Here we show, however, that despite passing common goodness-of-fit tests, PP-GLMs estimated from data are often unstable, leading to divergent firing rates. The inclusion of absolute refractory periods is not a satisfactory solution since the activity then typically settles into unphysiological rates. To address these issues, we derive a framework for determining the existence and stability of fixed points of the expected conditional intensity function (CIF) for general PP-GLMs. Specifically, in nonlinear Hawkes PP-GLMs, the CIF is expressed as a function of the previous spike history and exogenous inputs. We use a mean-field quasi-renewal (QR) approximation that decomposes spike history effects into the contribution of the last spike and an average of the CIF over all spike histories prior to the last spike. Fixed points for stationary rates are derived as self-consistent solutions of integral equations. Bifurcation analysis and the number of fixed points predict that the original models can show stable, divergent, and metastable (fragile) dynamics. For fragile models, fluctuations of the single-neuron dynamics predict expected divergence times after which rates approach unphysiologically high values. This metric can be used to estimate the probability of rates to remain physiological for given time periods, e.g., for simulation purposes. We demonstrate the use of the stability framework using simulated single-neuron examples and neurophysiological recordings. Finally, we show how to adapt PP-GLM estimation procedures to guarantee model stability. Overall, our results provide a stability framework for data-driven PP-GLMs and shed new light on the stochastic dynamics of state-of-the-art statistical models of neuronal spiking activity.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/AJxXTg7Mwg4&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 24 Feb 2017 22:00:00 +0000</pubDate>
+  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Neural Networks for Time Perception and Working Memory</title>
 	<guid isPermaLink="true">http://journal.frontiersin.org/article/10.3389/fnhum.2017.00083</guid>
 	<link>http://journal.frontiersin.org/article/10.3389/fnhum.2017.00083</link>
@@ -283,6 +303,22 @@ activity in FFA does not appear to be heritable.
 &lt;/p&gt;</description>
 	<pubDate>Fri, 24 Feb 2017 01:30:00 +0000</pubDate>
   <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: Modern machine learning far outperforms GLMs at predicting spikes</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/111450v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/111450v1?rss=1</link>
+	<description>Neuroscience has long focused on finding encoding models that effectively ask 'what predicts neural spiking?' and generalized linear models (GLMs) are a typical approach. Modern machine learning techniques have the potential to perform better. Here we directly compared GLMs to three leading methods: feedforward neural networks, gradient boosted trees, and stacked ensembles that combine the predictions of several methods. We predicted spike counts in macaque motor (M1) and somatosensory (S1) cortices from reaching kinematics, and in rat hippocampal cells from open field location and orientation. In general, the modern methods produced far better spike predictions and were less sensitive to the preprocessing of features. XGBoost and the ensemble were the best-performing methods and worked well even on neural data with very low spike rates. This overall performance suggests that tuning curves built with GLMs are at times inaccurate and can be easily improved upon. Our publicly shared code uses standard packages and can be quickly applied to other datasets. Encoding models built with machine learning techniques more accurately predict spikes and can offer meaningful benchmarks for simpler models.</description>
+	<pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: Accumulation of sensory evidence is impaired in Parkinson's disease with visual hallucinations</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/111278v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/111278v1?rss=1</link>
+	<description>Models of hallucinations across disorders emphasise an imbalance between sensory input and top-down influences over perception. However, the psychological and mechanistic correlates of this imbalance remain underspecified. Visual hallucinations in Parkinson's disease (PD) are associated with impairments in lower level visual processes and attention, accompanied by over activity and connectivity in higher-order association brain networks. PD therefore provides an attractive framework to explore the relative contributions of bottom-up versus top-down disturbances in hallucinations. Here, we characterised sensory processing in PD patients with and without visual hallucinations, and in healthy controls, by fitting a hierarchical drift diffusion model (hDDM) to an attentional task. The hDDM uses Bayesian estimates to decompose reaction time and response output into parameters reflecting drift rates of evidence accumulation, decision thresholds and non-decision time. We observed slower drift rates in PD patients with hallucinations, which were insensitive to changes in task demand. In contrast, wider decision boundaries and shorter non-decision times relative to controls were found in PD regardless of hallucinator status. Inefficient and less flexible sensory evidence accumulation emerge as unique features of PD hallucinators. We integrate these results with current models of hallucinations, suggesting that slow and inefficient sensory input in PD is less informative, and may therefore be down-weighted leading to an over reliance on top-down influences. Our findings provide a novel computational framework to better specify the impairments in dynamic sensory processing that are a risk factor for visual hallucinations.</description>
+	<pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
 <item>
 	<title>PLOS Computational Biology: New Articles: Mindboggling morphometry of human brains</title>
@@ -2103,22 +2139,6 @@ areas.
   <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
 <item>
-	<title>bioRxiv Subject Collection: Neuroscience: Model-based spike sorting with a mixture of drifting t-distributions</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/109850v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/109850v1?rss=1</link>
-	<description>Chronic extracellular recordings are a powerful tool for systems neuroscience, but spike sorting remains a challenge. A common approach is to fit a generative model, such as a mixture of Gaussians, to the observed spike data. Even if non-parametric methods are used for spike sorting, such generative models provide a quantitative measure of unit isolation quality, which is crucial for subsequent interpretation of the sorted spike trains. We present a spike sorting strategy that models the data as a mixture of drifting t-distributions. This model captures two important features of chronic extracellular recordings--cluster drift over time and heavy tails in the distribution of spikes--and offers improved robustness to outliers. We evaluate this model on several thousand hours of chronic tetrode recordings and show that it fits the empirical data substantially better than a mixture of Gaussians. We also provide a software implementation that can re-fit long datasets (several hours, millions of spikes) in a few seconds, enabling interactive clustering of chronic recordings. Using experimental data, we identify three common failure modes of spike sorting methods that assume stationarity. We also characterize the limitations of several popular unit isolation metrics in the presence of empirically-observed variations in cluster size and scale. We find that the mixture of drifting t-distributions model enables efficient spike sorting of long datasets and provides an accurate measure of unit isolation quality over a wide range of conditions.</description>
-	<pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: Reason's Enemy Is Not Emotion: Engagement of Cognitive Control Networks Explains Biases in Gain/Loss Framing</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/109819v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/109819v1?rss=1</link>
-	<description>In the classic gain/loss framing effect, describing a gamble as a potential gain or loss biases people to make risk-averse or risk-seeking decisions, respectively. The canonical explanation for this effect is that frames differentially modulate emotional processes -- which in turn leads to irrational choice behavior. Here, we evaluate the source of framing biases by integrating functional magnetic resonance imaging (fMRI) data from 143 human participants performing a gain/loss framing task with meta-analytic data from over 8000 neuroimaging studies. We found that activation during choices consistent with the framing effect were most correlated with activation associated with the resting or default brain, while activation during choices inconsistent with the framing effect most correlated with the task-engaged brain. Our findings argue against the common interpretation of gain/loss framing as a competition between emotion and control. Instead, our study indicates that this effect results from differential cognitive engagement across decision frames.</description>
-	<pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
 	<title>PLOS Computational Biology: New Articles: Correction: Psychotic Experiences and Overhasty Inferences Are Related to Maladaptive Learning</title>
 	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005393</guid>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/CoGQFLTwJT4/article</link>
@@ -2616,16 +2636,6 @@ Astrocytes integrate and process synaptic information and exhibit calcium (Ca&lt
   <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
 </item>
 <item>
-	<title>PLOS Computational Biology: New Articles: Elucidation of molecular kinetic schemes from macroscopic traces using system identification</title>
-	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005376</guid>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/pH320dHrfwU/article</link>
-	<description>&lt;p&gt;by Miguel Fribourg, Diomedes E. Logothetis, Javier González-Maeso, Stuart C. Sealfon, Belén Galocha-Iragüen, Fernando Las-Heras Andrés, Vladimir Brezina&lt;/p&gt;
-
-Overall cellular responses to biologically-relevant stimuli are mediated by networks of simpler lower-level processes. Although information about some of these processes can now be obtained by visualizing and recording events at the molecular level, this is still possible only in especially favorable cases. Therefore the development of methods to extract the dynamics and relationships between the different lower-level (microscopic) processes from the overall (macroscopic) response remains a crucial challenge in the understanding of many aspects of physiology. Here we have devised a hybrid computational-analytical method to accomplish this task, the SYStems-based MOLecular kinetic scheme Extractor (SYSMOLE). SYSMOLE utilizes system-identification input-output analysis to obtain a transfer function between the stimulus and the overall cellular response in the Laplace-transformed domain. It then derives a Markov-chain state molecular kinetic scheme uniquely associated with the transfer function by means of a classification procedure and an analytical step that imposes general biological constraints. We first tested SYSMOLE with synthetic data and evaluated its performance in terms of its rate of convergence to the correct molecular kinetic scheme and its robustness to noise. We then examined its performance on real experimental traces by analyzing macroscopic calcium-current traces elicited by membrane depolarization. SYSMOLE derived the correct, previously known molecular kinetic scheme describing the activation and inactivation of the underlying calcium channels and correctly identified the accepted mechanism of action of nifedipine, a calcium-channel blocker clinically used in patients with cardiovascular disease. Finally, we applied SYSMOLE to study the pharmacology of a new class of glutamate antipsychotic drugs and their crosstalk mechanism through a heteromeric complex of G protein-coupled receptors. Our results indicate that our methodology can be successfully applied to accurately derive molecular kinetic schemes from experimental macroscopic traces, and we anticipate that it may be useful in the study of a wide variety of biological systems.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/pH320dHrfwU&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Mon, 13 Feb 2017 22:00:00 +0000</pubDate>
-  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
-</item>
-<item>
 	<title>Frontiers in Neural Circuits | New and Recent Articles: Scalable, Lightweight, Integrated and Quick-to-Assemble (SLIQ) Hyperdrives for Functional Circuit Dissection</title>
 	<guid isPermaLink="true">http://journal.frontiersin.org/article/10.3389/fncir.2017.00008</guid>
 	<link>http://journal.frontiersin.org/article/10.3389/fncir.2017.00008</link>
@@ -2740,16 +2750,6 @@ Overall cellular responses to biologically-relevant stimuli are mediated by netw
 	<description>Lia Fernandes, Constança Paúl</description>
 	<pubDate>Sat, 11 Feb 2017 00:01:21 +0000</pubDate>
   <source url="http://journal.frontiersin.org/journal/aging-neuroscience/rss">Frontiers in Aging Neuroscience | New and Recent Articles</source>
-</item>
-<item>
-	<title>PLOS Computational Biology: New Articles: Metabolic regulation is sufficient for global and robust coordination of glucose uptake, catabolism, energy production and growth in &lt;i&gt;Escherichia coli&lt;/i&gt;</title>
-	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005396</guid>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/pRZDDITnOus/article</link>
-	<description>&lt;p&gt;by Pierre Millard, Kieran Smallbone, Pedro Mendes&lt;/p&gt;
-
-The metabolism of microorganisms is regulated through two main mechanisms: changes of enzyme capacities as a consequence of gene expression modulation (“hierarchical control”) and changes of enzyme activities through metabolite-enzyme interactions. An increasing body of evidence indicates that hierarchical control is insufficient to explain metabolic behaviors, but the system-wide impact of metabolic regulation remains largely uncharacterized. To clarify its role, we developed and validated a detailed kinetic model of &lt;i&gt;Escherichia coli&lt;/i&gt; central metabolism that links growth to environment. Metabolic control analyses confirm that the control is widely distributed across the network and highlight strong interconnections between all the pathways. Exploration of the model solution space reveals that several robust properties emerge from metabolic regulation, from the molecular level (&lt;i&gt;e&lt;/i&gt;.&lt;i&gt;g&lt;/i&gt;. homeostasis of total metabolite pool) to the overall cellular physiology (&lt;i&gt;e&lt;/i&gt;.&lt;i&gt;g&lt;/i&gt;. coordination of carbon uptake, catabolism, energy and redox production, and growth), while allowing a large degree of flexibility at most individual metabolic steps. These properties have important physiological implications for &lt;i&gt;E&lt;/i&gt;. &lt;i&gt;coli&lt;/i&gt; and significantly expand the self-regulating capacities of its metabolism.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/pRZDDITnOus&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Fri, 10 Feb 2017 22:00:00 +0000</pubDate>
-  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
 </item>
 <item>
 	<title>Frontiers in Neuroinformatics | New and Recent Articles: Parallel STEPS: Large Scale Stochastic Spatial Reaction-Diffusion Simulation with High Performance Computers</title>
