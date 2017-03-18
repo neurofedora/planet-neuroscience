@@ -18,6 +18,7 @@
 			<rdf:li rdf:resource="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30025-5?rss=yes" />
 			<rdf:li rdf:resource="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30023-1?rss=yes" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/118091v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/117945v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005439" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005432" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnins.2017.00129" />
@@ -175,7 +176,6 @@
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00074" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnagi.2017.00052" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/116392v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/116350v1?rss=1" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00072" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005248" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00063" />
@@ -439,6 +439,13 @@
 	<content:encoded>Deep convolutional neural networks (CNNs) have been put forward as neurobiologically plausible models of the visual hierarchy. Using functional magnetic resonance imaging, CNN representations of visual stimuli have previously been shown to correspond to processing stages in the ventral and dorsal streams of the visual system. Whether this correspondence between models and brain signals also holds for activity acquired at high temporal resolution has been explored less exhaustively. Here, we addressed this question by combining CNN-based encoding models with magnetoencephalography (MEG). Human participants passively viewed 1000 images of objects while MEG signals were acquired. We modelled their high temporal resolution source-reconstructed cortical activity with CNNs, and observed a feed-forward sweep across the visual hierarchy between 75-200 ms after stimulus onset. This spatiotemporal cascade was captured by the network layer representations, where the increasingly abstract stimulus representation in the hierarchical network model was reflected in different parts of the visual cortex, following the visual ventral stream. We further validated the accuracy of our encoding model by decoding stimulus identity in a left-out validation set of viewed objects, achieving state-of-the-art decoding accuracy.</content:encoded>
 	<dc:date>2017-03-18T00:00:00+00:00</dc:date>
 	<dc:creator>Seeliger, K.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/117945v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Brain connectivity-informed regularization methods for regression</title>
+	<link>http://biorxiv.org/cgi/content/short/117945v1?rss=1</link>
+	<content:encoded>A challenging problem arising in brain imaging research is principled incorporation of information from different imaging modalities. Frequently each modality is analyzed separately using, for instance, dimensionality reduction techniques which result in a loss of mutual information. We propose a novel regularization method to estimate the association between the brain structure features and a scalar outcome within the linear regression framework. Our regularization technique provides a principled approach to utilizing external information arising from the structural brain connectivity to inform the estimation of the regression coefficients. Our proposal extends the classical Tikhonov regularization framework by defining a penalty term based on the structural connectivity-derived Laplacian matrix. In the work presented, we address both theoretical and computational issues. The approach is illustrated using simulated data and compared with other penalized regression methods. Finally, we apply our regularization method to study the associations between the alcoholism phenotypes and brain cortical thickness using a diffusion tensor imaging (DTI) derived measure of structural connectivity.</content:encoded>
+	<dc:date>2017-03-18T00:00:00+00:00</dc:date>
+	<dc:creator>Karas, M.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005439">
 	<title>PLOS Computational Biology: New Articles: Correction: A Molecular Clock Infers Heterogeneous Tissue Age Among Patients with Barrett's Esophagus</title>
@@ -1831,13 +1838,6 @@ Cell proliferation is the common characteristic of all biological systems. The i
 	<content:encoded>To make accurate perceptual estimates observers must take the reliability of sensory information into account. Despite many behavioural studies showing that subjects weight individual sensory cues in proportion to their reliabilities, it is still unclear when during a trial neuronal responses are modulated by the reliability of sensory information, or when they reflect the perceptual weights attributed to each sensory input during decision making. We investigated these questions using a combination of psychophysics, EEG based neuroimaging and single-trial decoding. Our results show that the weighted integration of sensory information in the brain is a dynamic process; effects of sensory reliability on task-relevant EEG components were evident around 84ms after stimulus onset, while neural correlates of perceptual weights emerged around 120ms after stimulus onset. These neural processes also had different underlying topographies, arising from areas consistent with sensory and parietal regions. Together these results reveal the temporal dynamics of perceptual and neural audio-visual integration and support the notion of temporally early and functionally specific multisensory processes in the brain.</content:encoded>
 	<dc:date>2017-03-13T00:00:00+00:00</dc:date>
 	<dc:creator>Boyle, S. C.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/116350v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Deep brain fluorescence imaging with minimally invasive ultra-thin optical fibers</title>
-	<link>http://biorxiv.org/cgi/content/short/116350v1?rss=1</link>
-	<content:encoded>A major open challenge in neuroscience is the ability to measure and perturb neural activity in vivo from well-defined neural sub-populations at cellular resolution anywhere in the brain. However, limitations posed by scattering and absorption prohibit non-invasive (surface) multiphoton approaches for deep (&amp;gt;2mm) structures, while Gradient Refreactive Index (GRIN) endoscopes are thick and cause significant damage upon insertion. Here, we demonstrate a novel microendoscope to image neural activity at arbitrary depths via an ultrathin multimode optical fiber (MMF) probe that is 5-10X thinner than commercially available microendoscopes. We demonstrate micron-scale resolution, multispectral and volumetric imaging. In contrast to previous approaches, we show that this method has an improved acquisition speed that is sufficient to capture rapid neuronal dynamics in-vivo in rodents expressing a genetically encoded calcium indicator. Our results emphasize the potential of this technology in neuroscience applications and open up possibilities for cellular resolution imaging in previously unreachable brain regions.</content:encoded>
-	<dc:date>2017-03-13T00:00:00+00:00</dc:date>
-	<dc:creator>Ohayon, S.</dc:creator>
 </item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fncel.2017.00072">
 	<title>Frontiers in Cellular Neuroscience | New and Recent Articles: Strings on a Violin: Location Dependence of Frequency Tuning in Active Dendrites</title>
