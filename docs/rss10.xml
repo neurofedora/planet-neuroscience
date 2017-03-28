@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005448" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00129" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00083" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00081" />
@@ -50,6 +51,7 @@
 			<rdf:li rdf:resource="http://www.sciencedirect.com/science/article/pii/S0959438817300156" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1703.09202" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1612.08457" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/121707v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/121459v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005462" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005443" />
@@ -211,7 +213,6 @@
 			<rdf:li rdf:resource="http://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-017-0353-4" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/119644v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/119537v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/119453v1?rss=1" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00132" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncom.2017.00013" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00070" />
@@ -307,7 +308,6 @@
 			<rdf:li rdf:resource="http://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-017-0351-6" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005437" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005434" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005431" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnins.2017.00115" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00074" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnagi.2017.00052" />
@@ -419,6 +419,15 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005448">
+	<title>PLOS Computational Biology: New Articles: Phylodynamics on local sexual contact networks</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/FcDAFm6wDHE/article</link>
+	<content:encoded>&lt;p&gt;by David A. Rasmussen, Roger Kouyos, Huldrych F. Günthard, Tanja Stadler&lt;/p&gt;
+
+Phylodynamic models are widely used in infectious disease epidemiology to infer the dynamics and structure of pathogen populations. However, these models generally assume that individual hosts contact one another at random, ignoring the fact that many pathogens spread through highly structured contact networks. We present a new framework for phylodynamics on local contact networks based on pairwise epidemiological models that track the status of pairs of nodes in the network rather than just individuals. Shifting our focus from individuals to pairs leads naturally to coalescent models that describe how lineages move through networks and the rate at which lineages coalesce. These pairwise coalescent models not only consider how network structure directly shapes pathogen phylogenies, but also how the relationship between phylogenies and contact networks changes depending on epidemic dynamics and the fraction of infected hosts sampled. By considering pathogen phylogenies in a probabilistic framework, these coalescent models can also be used to estimate the statistical properties of contact networks directly from phylogenies using likelihood-based inference. We use this framework to explore how much information phylogenies retain about the underlying structure of contact networks and to infer the structure of a sexual contact network underlying a large HIV-1 sub-epidemic in Switzerland.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/FcDAFm6wDHE&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-03-28T21:00:00+00:00</dc:date>
+	<dc:creator>Tanja Stadler</dc:creator>
+</item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00129">
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Influence of Cervical Spine Mobility on the Focal and Postural Components of the Sit-to-Stand Task</title>
 	<link>http://journal.frontiersin.org/article/10.3389/fnhum.2017.00129</link>
@@ -676,6 +685,13 @@ approximately resistive
 &lt;/p&gt;</content:encoded>
 	<dc:date>2017-03-28T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Barbour_B/0/1/0/all/0/1">Boris Barbour</a></dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/121707v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Changes In Firing Regularity In The Normal And Impaired Auditory System</title>
+	<link>http://biorxiv.org/cgi/content/short/121707v1?rss=1</link>
+	<content:encoded>The auditory system processes temporal information at multiple scales, and disruptions to this temporal processing may lead to deficits in auditory tasks such as detecting and discriminating sounds in a noisy environment. Here, a modelling approach is used to study the temporal regularity of firing by chopper cells in the ventral cochlear nucleus, in both the normal and impaired auditory system. Chopper cells, which have a strikingly regular firing response, divide into two classes, sustained and transient, based on the time course of this regularity. Several hypotheses have been proposed to explain the behaviour of chopper cells, and the difference between sustained and transient cells in particular. However, there is no conclusive evidence so far. Here, a reduced mathematical model is developed and used to compare and test a wide range of hypotheses with a limited number of parameters. In line with recent work suggesting that there is no clear classification into discrete classes, simulations results show a continuum of cell types and behaviours: chopper-like behaviour arises for a wide range of parameters, suggesting that multiple mechanisms may underlie this behaviour. Finally, the model is used to predict the effects of a reduction in the number of auditory nerve fibres (deafferentation due to, for example, cochlear synaptopathy). We have made an online interactive version of this paper in which all the model parameters can be changed.</content:encoded>
+	<dc:date>2017-03-28T00:00:00+00:00</dc:date>
+	<dc:creator>Goodman, D. F. M.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/121459v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Transient Network Synchrony Of The Developing Medial Entorhinal Cortex</title>
@@ -2067,13 +2083,6 @@ integrate-and-fire neurons.
 	<dc:date>2017-03-22T00:00:00+00:00</dc:date>
 	<dc:creator>Singh, A.</dc:creator>
 </item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/119453v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Cortical neural activity predicts sensory acuity under optogenetic manipulation.</title>
-	<link>http://biorxiv.org/cgi/content/short/119453v1?rss=1</link>
-	<content:encoded>Excitatory and inhibitory neurons in the mammalian sensory cortex form interconnected circuits controlling cortical stimulus selectivity, but their relation to sensory acuity remains unknown. Here we show that the behavioral alteration of frequency discrimination acuity in mice due to optogenetic activation and suppression of auditory cortex (AC) neurons varies from animal to animal in both magnitude and sign. We used Fisher information based on recordings from AC neural populations to estimate the behavioral discrimination acuity under different optogenetic conditions, and showed that the changes in population tuning consistently predict the changes in behavior for each individual separately. The strong correlation between cortical and behavioral changes demonstrates that AC facilitates frequency discrimination in a manner predicted by optimal decoding from cortical neurons. This suggests that diversity in auditory behavior may be partly explained by variations in the circuit properties of AC, consistent with theoretical prediction for balanced excitatory-inhibitory networks.</content:encoded>
-	<dc:date>2017-03-22T00:00:00+00:00</dc:date>
-	<dc:creator>Briguglio, J.</dc:creator>
-</item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00132">
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Increased Evoked Potentials to Arousing Auditory Stimuli during Sleep: Implication for the Understanding of Dream Recall</title>
 	<link>http://journal.frontiersin.org/article/10.3389/fnhum.2017.00132</link>
@@ -2665,7 +2674,7 @@ The principal pacemaker of the circadian clock of the cyanobacterium &lt;i&gt;S.
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/9oEZC9r7VZ4/article</link>
 	<content:encoded>&lt;p&gt;by Johannes Friedrich, Pengcheng Zhou, Liam Paninski&lt;/p&gt;
 
-Fluorescent calcium indicators are a popular means for observing the spiking activity of large neuronal populations, but extracting the activity of each neuron from raw fluorescence calcium imaging data is a nontrivial problem. We present a fast online active set method to solve this sparse non-negative deconvolution problem. Importantly, the algorithm progresses through each time series sequentially from beginning to end, thus enabling real-time online estimation of neural activity during the imaging session. Our algorithm is a generalization of the pool adjacent violators algorithm (PAVA) for isotonic regression and inherits its linear-time computational complexity. We gain remarkable increases in processing speed: more than one order of magnitude compared to currently employed state of the art convex solvers relying on interior point methods. Unlike these approaches, our method can exploit warm starts; therefore optimizing model hyperparameters only requires a handful of passes through the data. A minor modification can further improve the quality of activity inference by imposing a constraint on the minimum spike size. The algorithm enables real-time simultaneous deconvolution of &lt;i&gt;O&lt;/i&gt;(10&lt;sup&gt;5&lt;/sup&gt;) traces of whole-brain larval zebrafish imaging data on a laptop.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/9oEZC9r7VZ4&quot; width=&quot;1&quot; /&gt;</content:encoded>
+Fluorescent calcium indicators are a popular means for observing the spiking activity of large neuronal populations, but extracting the activity of each neuron from raw fluorescence calcium imaging data is a nontrivial problem. We present a fast online active set method to solve this sparse non-negative deconvolution problem. Importantly, the algorithm 3progresses through each time series sequentially from beginning to end, thus enabling real-time online estimation of neural activity during the imaging session. Our algorithm is a generalization of the pool adjacent violators algorithm (PAVA) for isotonic regression and inherits its linear-time computational complexity. We gain remarkable increases in processing speed: more than one order of magnitude compared to currently employed state of the art convex solvers relying on interior point methods. Unlike these approaches, our method can exploit warm starts; therefore optimizing model hyperparameters only requires a handful of passes through the data. A minor modification can further improve the quality of activity inference by imposing a constraint on the minimum spike size. The algorithm enables real-time simultaneous deconvolution of &lt;i&gt;O&lt;/i&gt;(10&lt;sup&gt;5&lt;/sup&gt;) traces of whole-brain larval zebrafish imaging data on a laptop.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/9oEZC9r7VZ4&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-03-14T21:00:00+00:00</dc:date>
 	<dc:creator>Liam Paninski</dc:creator>
 </item>
@@ -2765,15 +2774,6 @@ Stimulus-specific adaptation (SSA) occurs when neurons decrease their responses 
 A most important property of biochemical systems is robustness. Static robustness, e.g., homeostasis, is the insensitivity of a state against perturbations, whereas dynamics robustness, e.g., homeorhesis, is the insensitivity of a dynamic process. In contrast to the extensively studied static robustness, dynamics robustness, i.e., how a system creates an invariant temporal profile against perturbations, is little explored despite transient dynamics being crucial for cellular fates and are reported to be robust experimentally. For example, the duration of a stimulus elicits different phenotypic responses, and signaling networks process and encode temporal information. Hence, robustness in time courses will be necessary for functional biochemical networks. Based on dynamical systems theory, we uncovered a general mechanism to achieve dynamics robustness. Using a three-stage linear signaling cascade as an example, we found that the temporal profiles and response duration post-stimulus is robust to perturbations against certain parameters. Then analyzing the linearized model, we elucidated the criteria of when signaling cascades will display dynamics robustness. We found that changes in the upstream modules are masked in the cascade, and that the response duration is mainly controlled by the rate-limiting module and organization of the cascade’s kinetics. Specifically, we found two necessary conditions for dynamics robustness in signaling cascades: 1) Constraint on the rate-limiting process: The phosphatase activity in the perturbed module is not the slowest. 2) Constraints on the initial conditions: The kinase activity needs to be fast enough such that each module is saturated even with fast phosphatase activity and upstream changes are attenuated. We discussed the relevance of such robustness to several biological examples and the validity of the above conditions therein. Given the applicability of dynamics robustness to a variety of systems, it will provide a general basis for how biological systems function dynamically.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/ZHot13cYai4&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-03-13T21:00:00+00:00</dc:date>
 	<dc:creator>Kunihiko Kaneko</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005431">
-	<title>PLOS Computational Biology: New Articles: Parameter estimation for multistage clonal expansion models from cancer incidence data: A practical identifiability analysis</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/-WkymaOjJqE/article</link>
-	<content:encoded>&lt;p&gt;by Andrew F. Brouwer, Rafael Meza, Marisa C. Eisenberg&lt;/p&gt;
-
-Many cancers are understood to be the product of multiple somatic mutations or other rate-limiting events. Multistage clonal expansion (MSCE) models are a class of continuous-time Markov chain models that capture the multi-hit initiation–promotion–malignant-conversion hypothesis of carcinogenesis. These models have been used broadly to investigate the epidemiology of many cancers, assess the impact of carcinogen exposures on cancer risk, and evaluate the potential impact of cancer prevention and control strategies on cancer rates. Structural identifiability (the analysis of the maximum parametric information available for a model given perfectly measured data) of certain MSCE models has been previously investigated. However, structural identifiability is a theoretical property and does not address the limitations of real data. In this study, we use pancreatic cancer as a case study to examine the practical identifiability of the two-, three-, and four-stage clonal expansion models given age-specific cancer incidence data using a numerical profile-likelihood approach. We demonstrate that, in the case of the three- and four-stage models, several parameters that are theoretically structurally identifiable, are, in practice, unidentifiable. This result means that key parameters such as the intermediate cell mutation rates are not individually identifiable from the data and that estimation of those parameters, even if structurally identifiable, will not be stable. We also show that products of these practically unidentifiable parameters are practically identifiable, and, based on this, we propose new reparameterizations of the model hazards that resolve the parameter estimation problems. Our results highlight the importance of identifiability to the interpretation of model parameter estimates.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/-WkymaOjJqE&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-13T21:00:00+00:00</dc:date>
-	<dc:creator>Marisa C. Eisenberg</dc:creator>
 </item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnins.2017.00115">
 	<title>Frontiers in Neuroscience | Brain Imaging Methods section | New and Recent Articles: Using Dual Regression to Investigate Network Shape and Amplitude in Functional Connectivity Analyses</title>
