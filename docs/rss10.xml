@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005485" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005465" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00178" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.24933" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnana.2017.00030" />
@@ -31,8 +33,12 @@
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00102" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00095" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1704.02019" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/126086v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/125971v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/125849v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/125591v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/125526v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/104414v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/125674v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/120691v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005481" />
@@ -145,10 +151,6 @@
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(17)30088-0?rss=yes" />
 			<rdf:li rdf:resource="http://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-017-0352-5" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/124628v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/124453v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/124354v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/124321v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/124206v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005474" />
 			<rdf:li rdf:resource="http://www.pnas.org/content/114/14/E2986.short?rss=1" />
 			<rdf:li rdf:resource="http://www.pnas.org/content/114/14/E2985.short?rss=1" />
@@ -237,8 +239,6 @@
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00082" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnins.2017.00149" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncom.2017.00019" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005459" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005450" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00085" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnins.2017.00172" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnins.2017.00146" />
@@ -419,6 +419,24 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005485">
+	<title>PLOS Computational Biology: New Articles: Modeling disordered protein interactions from biophysical principles</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/MUyvfhHHVgo/article</link>
+	<content:encoded>&lt;p&gt;by Lenna X. Peterson, Amitava Roy, Charles Christoffer, Genki Terashi, Daisuke Kihara&lt;/p&gt;
+
+Disordered protein-protein interactions (PPIs), those involving a folded protein and an intrinsically disordered protein (IDP), are prevalent in the cell, including important signaling and regulatory pathways. IDPs do not adopt a single dominant structure in isolation but often become ordered upon binding. To aid understanding of the molecular mechanisms of disordered PPIs, it is crucial to obtain the tertiary structure of the PPIs. However, experimental methods have difficulty in solving disordered PPIs and existing protein-protein and protein-peptide docking methods are not able to model them. Here we present a novel computational method, IDP-LZerD, which models the conformation of a disordered PPI by considering the biophysical binding mechanism of an IDP to a structured protein, whereby a local segment of the IDP initiates the interaction and subsequently the remaining IDP regions explore and coalesce around the initial binding site. On a dataset of 22 disordered PPIs with IDPs up to 69 amino acids, successful predictions were made for 21 bound and 18 unbound receptors. The successful modeling provides additional support for biophysical principles. Moreover, the new technique significantly expands the capability of protein structure modeling and provides crucial insights into the molecular mechanisms of disordered PPIs.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/MUyvfhHHVgo&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-10T21:00:00+00:00</dc:date>
+	<dc:creator>Daisuke Kihara</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005465">
+	<title>PLOS Computational Biology: New Articles: Amino acid composition predicts prion activity</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/rL8SH_vmJu0/article</link>
+	<content:encoded>&lt;p&gt;by Fayyaz ul Amir Afsar Minhas, Eric D. Ross, Asa Ben-Hur&lt;/p&gt;
+
+Many prion-forming proteins contain glutamine/asparagine (Q/N) rich domains, and there are conflicting opinions as to the role of primary sequence in their conversion to the prion form: is this phenomenon driven primarily by amino acid composition, or, as a recent computational analysis suggested, dependent on the presence of short sequence elements with high amyloid-forming potential. The argument for the importance of short sequence elements hinged on the relatively-high accuracy obtained using a method that utilizes a collection of length-six sequence elements with known amyloid-forming potential. We weigh in on this question and demonstrate that when those sequence elements are permuted, even higher accuracy is obtained; we also propose a novel multiple-instance machine learning method that uses sequence composition alone, and achieves better accuracy than all existing prion prediction approaches. While we expect there to be elements of primary sequence that affect the process, our experiments suggest that sequence composition alone is sufficient for predicting protein sequences that are likely to form prions. A web-server for the proposed method is available at http://faculty.pieas.edu.pk/fayyaz/prank.html, and the code for reproducing our experiments is available at http://doi.org/10.5281/zenodo.167136.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/rL8SH_vmJu0&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-10T21:00:00+00:00</dc:date>
+	<dc:creator>Asa Ben-Hur</dc:creator>
+</item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00178">
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Enhanced Functional Connectivity between the Bilateral Primary Motor Cortices after Acupuncture at Yanglingquan (GB34) in Right-Hemispheric Subcortical Stroke Patients: A Resting-State fMRI Study</title>
 	<link>http://journal.frontiersin.org/article/10.3389/fnhum.2017.00178</link>
@@ -540,6 +558,27 @@ brain.
 	<dc:date>2017-04-10T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Chaudhuri_R/0/1/0/all/0/1">Rishidev Chaudhuri</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Fiete_I/0/1/0/all/0/1">Ila Fiete</a></dc:creator>
 </item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/126086v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Cerebellar Re-Encoding Of Self-Generated Head Movements</title>
+	<link>http://biorxiv.org/cgi/content/short/126086v1?rss=1</link>
+	<content:encoded>Head movements are primarily sensed in a reference frame tied to the head, yet they are used to calculate self-orientation relative to the world. This requires to re-encode head kinematic signals into a reference frame anchored to earth-centered landmarks such as gravity, through computations whose neuronal substrate remains to be determined. Here, we studied the encoding of self-generated head movements in the caudal cerebellar vermis, an area essential for graviceptive functions. We found that, contrarily to peripheral vestibular inputs, most Purkinje cells exhibited a mixed sensitivity to head rotational and gravitational information and were differentially modulated by active and passive movements. In a subpopulation of cells, this mixed sensitivity underlay a tuning to rotations about an axis defined relative to gravity. Therefore, we show that the caudal vermis hosts a re-encoded, gravitationally-polarized representation of self-generated head kinematics.</content:encoded>
+	<dc:date>2017-04-10T00:00:00+00:00</dc:date>
+	<dc:creator>Dugue, G. P.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/125971v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Neural Overlap In Item Representations Across Episodes Impairs Context Memory</title>
+	<link>http://biorxiv.org/cgi/content/short/125971v1?rss=1</link>
+	<content:encoded>We frequently encounter the same item in different contexts, and when that happens, memories of earlier encounters can get reactivated in the brain. Here we examined how these existing memories are changed as a result of such reactivation. We hypothesized that when an item's initial and subsequent neural representations overlap, this allows the initial item to become associated with novel contextual information, interfering with later retrieval of the initial context. That is, we predicted a negative relationship between representational similarity across repeated experiences of an item and subsequent source memory for the initial context. We tested this hypothesis in an fMRI study, in which objects were presented multiple times during different tasks. We measured the similarity of the neural patterns in lateral occipital cortex that were elicited by the first and second presentations of objects, and related this neural overlap score to source memory in a subsequent test. Consistent with our hypothesis, greater item-specific pattern similarity was linked to worse source memory for the initial task. Our findings suggest that the influence of novel experiences on an existing context memory depends on how reliably a shared component (i.e., same item) is represented across these episodes.</content:encoded>
+	<dc:date>2017-04-10T00:00:00+00:00</dc:date>
+	<dc:creator>Kim, G.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/125849v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: From Neural Network To Psychophysics Of Time: Exploring Emergent Properties Of RNNs Using Novel Hamiltonian Formalism</title>
+	<link>http://biorxiv.org/cgi/content/short/125849v1?rss=1</link>
+	<content:encoded>The stability analysis of dynamical neural network systems generally follows the route of finding a suitable Liapunov function after the fashion Hopfield's famous paper on content addressable memory network or by finding conditions that make divergent solutions impossible. For the current work we focused on biological recurrent neural networks (bRNNs) that require transient external inputs (Cohen-Grossberg networks). In the current work we have proposed a general method to construct Liapunov functions for recurrent neural network with the help of a physically meaningful Hamiltonian function. This construct allows us to explore the emergent properties of the recurrent network (e.g., parameter configuration needed for winner-take-all competition in a leaky accumulator design) beyond that available in standard stability analysis, while also comparing well with standard stability analysis (ordinary differential equation approach) as a special case of the general stability constraint derived from the Hamiltonian formulation. We also show that the Cohen-Grossberg Liapunov function can be derived naturally from the Hamiltonian formalism. A strength of the construct comes from its usability as a predictor for behavior in psychophysical experiments involving numerosity and temporal duration judgements.</content:encoded>
+	<dc:date>2017-04-10T00:00:00+00:00</dc:date>
+	<dc:creator>Sengupta, R.</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/125591v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Efficient Information Contents Flow Down from Memory to Predict the Identity of Faces</title>
 	<link>http://biorxiv.org/cgi/content/short/125591v1?rss=1</link>
@@ -553,6 +592,13 @@ brain.
 	<content:encoded>The Developing Human Connectome Project (dHCP) seeks to create the first 4-dimensional connectome of early life. Understanding this connectome in detail may provide insights into normal as well as abnormal patterns of brain development. Following established best practices adopted by the WU-MINN Human Connectome Project and pioneered by FreeSurfer, the project utilises cortical surface-based processing pipelines. In this paper, we propose a fully automated processing pipeline for the structural Magnetic Resonance Imaging (MRI) of the developing neonatal brain. This proposed pipeline consists of a refined framework for cortical and sub-cortical volume segmentation, cortical surface extraction and cortical surface inflation of neonatal subjects, which has been specifically designed to address considerable differences between adult and neonatal brains, as imaged using MRI. Using the proposed pipeline our results demonstrate that images collected from 465 subjects ranging from 28 to 45 weeks post-menstrual age (PMA) can be fully automatically processed; generating cortical surface models that are topologically and anatomically correct. Downstream, these surfaces will enhance comparisons of functional and diffusion MRI datasets, and support the modelling of emerging patterns of brain connectivity.</content:encoded>
 	<dc:date>2017-04-10T00:00:00+00:00</dc:date>
 	<dc:creator>Makropoulos, A.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/104414v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Multichannel Sleep Spindle Detection Using Sparse Low-Rank Optimization</title>
+	<link>http://biorxiv.org/cgi/content/short/104414v1?rss=1</link>
+	<content:encoded>We consider the detection of sleep spindles simultaneously across the frontal, central and occipital channels of sleep EEG in a single run. We propose a multichannel sleep spindle detection method utilizing a multichannel transient separation algorithm based on a sparse optimization framework. The proposed transient separation algorithm decomposes the multichannel EEG into the sum of an oscillatory and a transient component. Consecutive overlapping blocks of the multichannel oscillatory component are assumed to be of low-rank whereas the transient component is assumed to be piecewise constant with a zero baseline. We estimate both the components by minimizing a convex objective function using an iterative algorithm. The multichannel oscillatory component is used in conjunction with the Teager operator for detecting sleep spindles. The performance of the proposed method is evaluated using an online single channel EEG database and compared with 7 state-of-the-art automated detectors. The by-event F1 scores for the proposed spindle detection method averaged 0.67 (0.03). The average false discovery rate for the proposed method was 31.3 (0.04). For an overnight 6 to 8 channel EEG signal, the proposed algorithm takes on an average 2 minutes to detect sleep spindles. Comparable F1 scores and fast run times make the proposed spindle detector a valuable tool in answering the open question of studying the dynamics of sleep spindles and tracking their propagation overnight across the scalp in sleep EEG.</content:encoded>
+	<dc:date>2017-04-10T00:00:00+00:00</dc:date>
+	<dc:creator>Parekh, A.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/125674v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Abnormal Social Behaviors And Dysfunction Of Autism-Related Genes Associated With Daily Agonistic Interactions In Mice</title>
@@ -1503,34 +1549,6 @@ code---indeed maximises the marginal entropy in the limit of infinite messages.
 	<dc:date>2017-04-05T00:00:00+00:00</dc:date>
 	<dc:creator>Caruso, V. C.</dc:creator>
 </item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/124453v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Sign-Consistency Based Variable Importance For Machine Learning In Brain Imaging</title>
-	<link>http://biorxiv.org/cgi/content/short/124453v1?rss=1</link>
-	<content:encoded>An important problem that hinders the use of supervised classification algorithms for brain imaging is that the number of variables for single subject far exceeds the number of training subjects available. Deriving multivariate measures of variable importance becomes a challenge in such scenarios. This paper proposes a new measure of variable importance termed sign-consistency bagging (SCB). The SCB captures variable importance by analyzing the sign consistency of the corresponding weights in an ensemble of linear support vector machine (SVM) classifiers. Further, the SCB variable importances are enhanced by means of transductive conformal analysis. This extra step is important when the data can be assumed to be heterogeneous. Finally, the proposal of these SCB variable importance measures is completed with the derivation of a parametric hypothesis test of variable importance. The new importance measures were compared with a t-test based univariate and an SVM-based multivariate variable importances using anatomical and functional magnetic resonance imaging data. The obtained results demonstrated that the new SCB based importance measures were superior to the compared methods in terms of reproducibility and classification accuracy.</content:encoded>
-	<dc:date>2017-04-05T00:00:00+00:00</dc:date>
-	<dc:creator>Gomez-Verdejo, V.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/124354v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Salt-inducible kinase 3 regulates the mammalian circadian clock by destabilizing PER2 protein</title>
-	<link>http://biorxiv.org/cgi/content/short/124354v1?rss=1</link>
-	<content:encoded>Salt-inducible kinase 3 (SIK3) plays a crucial role in various aspects of metabolism, as well as in skeletal development. In the course of investigating metabolic defects in the Sik3-deficient mice (Sik3-/-), we observed that circadian rhythmicity of the metabolisms was phase-delayed. Sik3-/- mice also displayed other abnormalities in circadian rhythms, including lengthening of the period, impaired entrainment to the light-dark cycle, phase variation in locomotor activities, and aberrant physiological rhythms. Ex vivo suprachiasmatic nucleus slices from Sik3-/- mice exhibited destabilized and desynchronized molecular rhythms among individual neurons. In cultured cells, Sik3-knockdown resulted in cycle-to-cycle fluctuations of the circadian periodicity. Expression levels of PER2, an essential clock protein, were elevated in Sik3-knockdown cells but down-regulated in Sik3-overexpressing cells, which could be ascribed to a phosphorylation-dependent decrease in PER2 protein stability. Collectively, our results indicate that SIK3 plays key roles in murine circadian rhythms by facilitating phosphorylation-dependent destabilization of PER2.</content:encoded>
-	<dc:date>2017-04-05T00:00:00+00:00</dc:date>
-	<dc:creator>Hayasaka, N.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/124321v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Developmental And Genetic Regulation Of The Human Cortex Transcriptome In Schizophrenia</title>
-	<link>http://biorxiv.org/cgi/content/short/124321v1?rss=1</link>
-	<content:encoded>GWAS have identified over 108 loci that confer risk for schizophrenia, but risk mechanisms for individual loci are largely unknown. Using developmental, genetic, and illness-based RNA sequencing expression analysis, we characterized the human brain transcriptome around these loci and found enrichment for developmentally regulated genes with novel examples of shifting isoform usage across pre- and post-natal life. Within patients and controls, we implemented a novel algorithm for RNA quality adjustment, and identified 237 genes significantly associated with diagnosis that replicated in an independent case-control dataset. These genes implicated synaptic processes and were strongly regulated in early development (p &amp;lt; 10-20). Lastly, we found 42.5% of risk variants associate with nearby genes and diverse transcript features that converge on developmental regulation and subsequent dysregulation in illness and 34 loci show convergent directionality with illness association implicating specific causative transcripts. These data offer new targets for modeling schizophrenia risk in cellular systems.</content:encoded>
-	<dc:date>2017-04-05T00:00:00+00:00</dc:date>
-	<dc:creator>Jaffe, A. E.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/124206v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Sampling Stability And Processing Parameter-Dependent Characteristics Of The 3D Fractal Dimension As A Marker Of Structural Brain Complexity In Magnetic Resonance Images</title>
-	<link>http://biorxiv.org/cgi/content/short/124206v1?rss=1</link>
-	<content:encoded>Fractal analysis, i.e. the estimation of an object's fractal dimension (FD) as a marker of its morphometric complexity, has attracted increasing interest as a versatile tool for the analysis of structural neuroimaging data in both health and disease. However, a number of important methodological questions regarding fractal analysis in magnetic resonance images have so far remained unaddressed. This includes the stability of the FD over repeated within-subject measurements, i.e. the susceptibility of fractal analysis to noise, a formal assessment of its sampling distribution, and the impact of image acquisition and processing parameters. Importantly, fractal analysis has not yet been explored in detail in T2 contrast images. To address these issues, we analyzed structural images from the recently published MASSIVE data set (Multiple Acquisitions for Standardization of Structural Imaging Validation and Evaluation). We conduct a fine-grained stratification of image parameters, leading to 32 distinct analysis groups as a combination of image contrast, spatial resolution, segmentation procedures, tissue type, and image complexity. We estimate 3D tissue models based on the thus obtained input volumes and compute the FDs as the box-counting regression on these models. Furthermore, we present a detailed deviation analysis including resampling methods, composite normality assessment, outlier detection, and multivariate comparisons to establish the susceptibility of the FD to noise. We find that in both T1 and T2 contrasts, the FD of gray matter (GM) segmentations was generally higher than in white matter volumes (WM). FDs in both image contrasts were sampled in comparable range and showed similar responses to processing parameters, e.g. as regards the effects of binary vs. partial volume segmentation and a decrease in FD by image skeletization. Lower spatial resolution invariably resulted in decreased FDs in unskeletized images, while the response depended on the segmentation procedure in image skeletons. Furthermore, in multiple measurements, the FD can be assumed to be sampled from an underlying normal distribution. We tested different options for a sensible within-group deviation criterion and found that outlier detection by Grubbs testing and a 2 standard-deviation interval around the sample mean performed very well in this regard. Even with the more conservative threshold, the overall robustness of the FD to noise was well above 90 %. Most deviations were found in T1-weighted images, and binarized image skeletons were most susceptible to deviations. Importantly, our analysis was able to detect sample-wise deviation clusters, and we identify image registration as a source of noise in fractal analysis. Interestingly, registration-induced deviations were limited to T1-weighted images, lending even further support for the usefulness of T2 contrast in fractal analysis. In conclusion, we provide detailed evidence for the stability of the FD as a marker of structural brain complexity and its parameter-dependent characteristics in magnetic resonance images and thus contribute to the development of fractal analysis as a scientifically and clinically useful neuroimaging tool.</content:encoded>
-	<dc:date>2017-04-05T00:00:00+00:00</dc:date>
-	<dc:creator>Krohn, S.</dc:creator>
-</item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005474">
 	<title>PLOS Computational Biology: New Articles: Geospatial characteristics of measles transmission in China during 2005−2014</title>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/B8oBZkOXAgI/article</link>
@@ -2261,24 +2279,6 @@ Early in an epidemic, high densities of susceptible hosts select for relatively 
 	<link>http://journal.frontiersin.org/article/10.3389/fncom.2017.00019</link>
 	<content:encoded>Taegyo Kim, Khaldoun C. Hamade, Dmitry Todorov, William H. Barnett, Robert A. Capps, Elizaveta M. Latash, Sergey N. Markin, Ilya A. Rybak, Yaroslav I. Molkov</content:encoded>
 	<dc:date>2017-03-31T05:01:43+00:00</dc:date>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005459">
-	<title>PLOS Computational Biology: New Articles: Beware batch culture: Seasonality and niche construction predicted to favor bacterial adaptive diversification</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/gSkplsbz0Ow/article</link>
-	<content:encoded>&lt;p&gt;by Charles Rocabert, Carole Knibbe, Jessika Consuegra, Dominique Schneider, Guillaume Beslon&lt;/p&gt;
-
-Metabolic cross-feeding interactions between microbial strains are common in nature, and emerge during evolution experiments in the laboratory, even in homogeneous environments providing a single carbon source. In sympatry, when the environment is well-mixed, the reasons why emerging cross-feeding interactions may sometimes become stable and lead to monophyletic genotypic clusters occupying specific niches, named ecotypes, remain unclear. As an alternative to evolution experiments in the laboratory, we developed Evo&lt;sup&gt;2&lt;/sup&gt;Sim, a multi-scale model of &lt;i&gt;in silico&lt;/i&gt; experimental evolution, equipped with the whole tool case of experimental setups, competition assays, phylogenetic analysis, and, most importantly, allowing for evolvable ecological interactions. Digital organisms with an evolvable genome structure encoding an evolvable metabolic network evolved for tens of thousands of generations in environments mimicking the dynamics of real controlled environments, including chemostat or batch culture providing a single limiting resource. We show here that the evolution of stable cross-feeding interactions requires seasonal batch conditions. In this case, adaptive diversification events result in two stably co-existing ecotypes, with one feeding on the primary resource and the other on by-products. We show that the regularity of serial transfers is essential for the maintenance of the polymorphism, as it allows for at least two stable seasons and thus two temporal niches. A first season is externally generated by the transfer into fresh medium, while a second one is internally generated by niche construction as the provided nutrient is replaced by secreted by-products derived from bacterial growth. In chemostat conditions, even if cross-feeding interactions emerge, they are not stable on the long-term because fitter mutants eventually invade the whole population. We also show that the long-term evolution of the two stable ecotypes leads to character displacement, at the level of the metabolic network but also of the genome structure. This difference of genome structure between both ecotypes impacts the stability of the cross-feeding interaction, when the population is propagated in chemostat conditions. This study shows the crucial role played by seasonality in temporal niche partitioning and in promoting cross-feeding subgroups into stable ecotypes, a premise to sympatric speciation.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/gSkplsbz0Ow&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-30T21:00:00+00:00</dc:date>
-	<dc:creator>Guillaume Beslon</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005450">
-	<title>PLOS Computational Biology: New Articles: Migration of small ligands in globins: Xe diffusion in truncated hemoglobin N</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/9Eqq61BJkWg/article</link>
-	<content:encoded>&lt;p&gt;by Polydefkis Diamantis, Oliver T. Unke, Markus Meuwly&lt;/p&gt;
-
-In heme proteins, the efficient transport of ligands such as NO or O&lt;sub&gt;2&lt;/sub&gt; to the binding site is achieved via ligand migration networks. A quantitative assessment of ligand diffusion in these networks is thus essential for a better understanding of the function of these proteins. For this, Xe migration in truncated hemoglobin N (trHbN) of &lt;i&gt;Mycobacterium Tuberculosis&lt;/i&gt; was studied using molecular dynamics simulations. Transitions between pockets of the migration network and intra-pocket relaxation occur on similar time scales (10 ps and 20 ps), consistent with low free energy barriers (1-2 kcal/mol). Depending on the pocket from where Xe enters a particular transition, the conformation of the side chains lining the transition region differs which highlights the coupling between ligand and protein degrees of freedom. Furthermore, comparison of transition probabilities shows that Xe migration in trHbN is a non-Markovian process. Memory effects arise due to protein rearrangements and coupled dynamics as Xe moves through it.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/9Eqq61BJkWg&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-30T21:00:00+00:00</dc:date>
-	<dc:creator>Markus Meuwly</dc:creator>
 </item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fncel.2017.00085">
 	<title>Frontiers in Cellular Neuroscience | New and Recent Articles: The Calcium Channel C-Terminal and Synaptic Vesicle Tethering: Analysis by Immuno-Nanogold Localization</title>
