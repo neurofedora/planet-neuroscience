@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005440" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/37/15/i?rss=1" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/37/15/4213?rss=1" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/37/15/4200?rss=1" />
@@ -43,6 +44,8 @@
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnins.2017.00212" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1704.03150" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1610.09394" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/126920v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/126524v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005478" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005477" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005476" />
@@ -135,8 +138,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/125849v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/125591v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/125526v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/104414v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/125674v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005481" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnins.2017.00184" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00090" />
@@ -252,7 +253,6 @@
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnagi.2017.00089" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnagi.2017.00082" />
 			<rdf:li rdf:resource="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30035-8?rss=yes" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005471" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnagi.2017.00077" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnins.2017.00167" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fninf.2017.00020" />
@@ -419,6 +419,15 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005440">
+	<title>PLOS Computational Biology: New Articles: Increased decision thresholds enhance information gathering performance in juvenile Obsessive-Compulsive Disorder (OCD)</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/kYO-DetTaxM/article</link>
+	<content:encoded>&lt;p&gt;by Tobias U. Hauser, Michael Moutoussis, Reto Iannaccone, Silvia Brem, Susanne Walitza, Renate Drechsler, Peter Dayan, Raymond J. Dolan&lt;/p&gt;
+
+Patients with obsessive-compulsive disorder (OCD) can be described as cautious and hesitant, manifesting an excessive indecisiveness that hinders efficient decision making. However, excess caution in decision making may also lead to better performance in specific situations where the cost of extended deliberation is small. We compared 16 juvenile OCD patients with 16 matched healthy controls whilst they performed a sequential information gathering task under different external cost conditions. We found that patients with OCD outperformed healthy controls, winning significantly more points. The groups also differed in the number of draws required prior to committing to a decision, but not in decision accuracy. A novel Bayesian computational model revealed that subjective sampling costs arose as a non-linear function of sampling, closely resembling an escalating urgency signal. Group difference in performance was best explained by a later emergence of these subjective costs in the OCD group, also evident in an increased decision threshold. Our findings present a novel computational model and suggest that enhanced information gathering in OCD can be accounted for by a higher decision threshold arising out of an altered perception of costs that, in some specific contexts, may be advantageous.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/kYO-DetTaxM&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-12T21:00:00+00:00</dc:date>
+	<dc:creator>Raymond J. Dolan</dc:creator>
+</item>
 <item rdf:about="http://www.jneurosci.org/cgi/content/short/37/15/i?rss=1">
 	<title>Journal of Neuroscience current issue: This Week in The Journal</title>
 	<link>http://www.jneurosci.org/cgi/content/short/37/15/i?rss=1</link>
@@ -653,6 +662,20 @@ coding.
 &lt;/p&gt;</content:encoded>
 	<dc:date>2017-04-12T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/cs/1/au:+Mizrahi_A/0/1/0/all/0/1">Alice Mizrahi</a>, <a href="http://arxiv.org/find/cs/1/au:+Fukushima_A/0/1/0/all/0/1">Akio Fukushima</a>, <a href="http://arxiv.org/find/cs/1/au:+Kubota_H/0/1/0/all/0/1">Hitoshi Kubota</a>, <a href="http://arxiv.org/find/cs/1/au:+Yuasa_S/0/1/0/all/0/1">Shinji Yuasa</a>, <a href="http://arxiv.org/find/cs/1/au:+Grollier_J/0/1/0/all/0/1">Julie Grollier</a>, <a href="http://arxiv.org/find/cs/1/au:+Querlioz_D/0/1/0/all/0/1">Damien Querlioz</a></dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/126920v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Adolescent Tuning Of Association Cortex In Human Structural Brain Networks</title>
+	<link>http://biorxiv.org/cgi/content/short/126920v1?rss=1</link>
+	<content:encoded>How does human brain organization change over the course of adolescence? Motivated by prior data on local cortical shrinkage and intracortical myelination, we predicted age-related changes in topological organisation of cortical structural networks. We estimated the structural correlation matrix from magnetic resonance imaging (MRI) measures of cortical thickness at 308 regions in a sample of N=297 healthy participants, aged 14-24 years (inclusive). We used a novel sliding-window analysis to measure age-related changes in network attributes globally, locally and in the context of several community partitions of the network. We found that the strength of structural correlation generally decreased as a function of age. Association cortical regions demonstrated a sharp decrease in nodal degree (hubness) from 14 years, reaching a minimum at approximately 19 years, and then levelling off or even slightly increasing until 24 years. Greater and more prolonged age-related changes in degree of cortical regions within the brain network were associated with faster rates of adolescent cortical myelination and shrinkage. The brain regions that demonstrated the greatest age-related changes were concentrated within prefrontal modules. We conclude that human adolescence is associated with biologically plausible changes in structural imaging markers of brain network organization, consistent with the concept of tuning or consolidating anatomical connectivity between frontal cortex and the rest of the connectome.</content:encoded>
+	<dc:date>2017-04-12T00:00:00+00:00</dc:date>
+	<dc:creator>Vasa, F.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/126524v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Stereotypical Modulations In Dynamic Functional Connectivity Explained By Changes In BOLD Variance</title>
+	<link>http://biorxiv.org/cgi/content/short/126524v1?rss=1</link>
+	<content:encoded>Spontaneous activity measured in human subject under the absence of any task exhibits complex patterns of correlation that largely correspond to large-scale functional topographies obtained with a wide variety of cognitive and perceptual tasks. These &quot;resting state networks&quot; (RSNs) fluctuate over time, forming and dissolving on the scale of seconds to minutes. While these fluctuations, most prominently those of the default mode network, have been linked to cognitive function, it remains unclear whether they result from random noise or whether they index a non-stationary process which could be described as state switching. In this study, we use a sliding windows approach to relate temporal dynamics of RSNs to global modulations in correlation and BOLD variance. We compare empirical data, phase-randomized surrogate data, and data simulated with a stationary model. We find that RSN time courses exhibit a large amount of coactivation in all three cases, and that the modulations in their activity are closely linked to global dynamics of the underlying BOLD signal. We find that many properties of the observed fluctuations in FC and BOLD, including their ranges and their correlations amongst each other, are explained by fluctuations around the average FC structure. However, we also encounter interesting characteristics that are not explained in this way. In particular, we find that the brain spends more time in the peaks and troughs of modulations than can be expected from stationary dynamics.</content:encoded>
+	<dc:date>2017-04-12T00:00:00+00:00</dc:date>
+	<dc:creator>Glomb, K.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005478">
 	<title>PLOS Computational Biology: New Articles: Correction: The missing link: Predicting connectomes from noisy and partially observed tract tracing data</title>
@@ -1397,20 +1420,6 @@ brain.
 	<content:encoded>The Developing Human Connectome Project (dHCP) seeks to create the first 4-dimensional connectome of early life. Understanding this connectome in detail may provide insights into normal as well as abnormal patterns of brain development. Following established best practices adopted by the WU-MINN Human Connectome Project and pioneered by FreeSurfer, the project utilises cortical surface-based processing pipelines. In this paper, we propose a fully automated processing pipeline for the structural Magnetic Resonance Imaging (MRI) of the developing neonatal brain. This proposed pipeline consists of a refined framework for cortical and sub-cortical volume segmentation, cortical surface extraction and cortical surface inflation of neonatal subjects, which has been specifically designed to address considerable differences between adult and neonatal brains, as imaged using MRI. Using the proposed pipeline our results demonstrate that images collected from 465 subjects ranging from 28 to 45 weeks post-menstrual age (PMA) can be fully automatically processed; generating cortical surface models that are topologically and anatomically correct. Downstream, these surfaces will enhance comparisons of functional and diffusion MRI datasets, and support the modelling of emerging patterns of brain connectivity.</content:encoded>
 	<dc:date>2017-04-10T00:00:00+00:00</dc:date>
 	<dc:creator>Makropoulos, A.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/104414v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Multichannel Sleep Spindle Detection Using Sparse Low-Rank Optimization</title>
-	<link>http://biorxiv.org/cgi/content/short/104414v1?rss=1</link>
-	<content:encoded>We consider the detection of sleep spindles simultaneously across the frontal, central and occipital channels of sleep EEG in a single run. We propose a multichannel sleep spindle detection method utilizing a multichannel transient separation algorithm based on a sparse optimization framework. The proposed transient separation algorithm decomposes the multichannel EEG into the sum of an oscillatory and a transient component. Consecutive overlapping blocks of the multichannel oscillatory component are assumed to be of low-rank whereas the transient component is assumed to be piecewise constant with a zero baseline. We estimate both the components by minimizing a convex objective function using an iterative algorithm. The multichannel oscillatory component is used in conjunction with the Teager operator for detecting sleep spindles. The performance of the proposed method is evaluated using an online single channel EEG database and compared with 7 state-of-the-art automated detectors. The by-event F1 scores for the proposed spindle detection method averaged 0.67 (0.03). The average false discovery rate for the proposed method was 31.3 (0.04). For an overnight 6 to 8 channel EEG signal, the proposed algorithm takes on an average 2 minutes to detect sleep spindles. Comparable F1 scores and fast run times make the proposed spindle detector a valuable tool in answering the open question of studying the dynamics of sleep spindles and tracking their propagation overnight across the scalp in sleep EEG.</content:encoded>
-	<dc:date>2017-04-10T00:00:00+00:00</dc:date>
-	<dc:creator>Parekh, A.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/125674v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Abnormal Social Behaviors And Dysfunction Of Autism-Related Genes Associated With Daily Agonistic Interactions In Mice</title>
-	<link>http://biorxiv.org/cgi/content/short/125674v1?rss=1</link>
-	<content:encoded>Background: The ability of people to communicate with each other is a necessary component of social behavior and the normal development of individuals who live in a community. An apparent decline in sociability may be the result of a negative social environment or the development of affective and neurological disorders, including autistic spectrum disorders. The behavior of these humans may be characterized by the deterioration of socialization, low communication, and repetitive and restricted behaviors. This study aimed to analyze changes in the social behaviors of male mice induced by daily agonistic interactions and investigate the involvement of genes, related with autistic spectrum disorders in the process of the impairment of social behaviors. Methods: Abnormal social behavior is induced by repeated experiences of aggression accompanied by wins (winners) or chronic social defeats (losers) in daily agonistic interactions in male mice. The collected brain regions (the midbrain raphe nuclei, ventral tegmental area, striatum, hippocampus, and hypothalamus) were sequenced at JSC Genoanalytica (http://genoanalytica.ru/, Moscow, Russia). The Cufflinks program was used to estimate the gene expression levels. Bioinformatic methods were used for the analysis of differentially expressed genes in male mice. Results: The losers exhibited an avoidance of social contacts toward unfamiliar conspecific, immobility and low communication on neutral territory. The winners demonstrated aggression and hyperactivity in this condition. The exploratory activity (rearing) and approaching behavior time towards the partner were decreased, and the number of episodes of repetitive self-grooming behavior was increased in both social groups. These symptoms were similar to the symptoms observed in animal models of autistic spectrum disorders. In an analysis of the RNA-Seq database of the whole transcriptome in the brain regions of the winners and losers, we identified changes in the expression of the following genes, which are associated with autism in humans: Tph2, Maoa, Slc6a4, Htr7, Gabrb3, Nrxn1, Nrxn2, Nlgn1, Nlgn2, Nlgn3, Shank2, Shank3, Fmr1, Ube3a, Pten, Cntn3, Foxp2, Oxtr, Reln, Cadps2, Pcdh10, Ctnnd2, En2, Arx, Auts2, Mecp2, and Ptchd1. Common and specific changes in the expression of these genes in different brain regions were identified in the winners and losers. Conclusions: This research demonstrates for the first time that abnormalities in social behaviors that develop under a negative social environment in adults may be associated with alterations in expression of genes, related with autism in the brain.</content:encoded>
-	<dc:date>2017-04-08T00:00:00+00:00</dc:date>
-	<dc:creator>Kudryavtseva, N. N.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005481">
 	<title>PLOS Computational Biology: New Articles: Dose-response relationships for environmentally mediated infectious disease transmission models</title>
@@ -2349,15 +2358,6 @@ Collective cell migration plays an important role in development. Here, we study
 	<title>Trends in Neurosciences: Editorial Board and Contents</title>
 	<link>http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30035-8?rss=yes</link>
 	<dc:date>2017-04-01T00:00:00+00:00</dc:date>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005471">
-	<title>PLOS Computational Biology: New Articles: The preferred nucleotide contexts of the AID/APOBEC cytidine deaminases have differential effects when mutating retrotransposon and virus sequences compared to host genes</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/ycQwEhXP4SQ/article</link>
-	<content:encoded>&lt;p&gt;by Jeffrey Chen, Thomas MacCarthy&lt;/p&gt;
-
-The AID / APOBEC genes are a family of cytidine deaminases that have evolved in vertebrates, and particularly mammals, to mutate RNA and DNA at distinct preferred nucleotide contexts (or “hotspots”) on foreign genomes such as viruses and retrotransposons. These enzymes play a pivotal role in intrinsic immunity defense mechanisms, often deleteriously mutating invading retroviruses or retrotransposons and, in the case of AID, changing antibody sequences to drive affinity maturation. We investigate the strength of various hotspots on their known biological targets by evaluating the potential impact of mutations on the DNA coding sequences of these targets, and compare these results to hypothetical hotspots that did not evolve. We find that the existing AID / APOBEC hotspots have a large impact on retrotransposons and non-mammalian viruses while having a much smaller effect on vital mammalian genes, suggesting co-evolution with AID / APOBECs may have had an impact on the genomes of the viruses we analyzed. We determine that GC content appears to be a significant, but not sole, factor in resistance to deaminase activity. We discuss possible mechanisms AID and APOBEC viral targets have adopted to escape the impacts of deamination activity, including changing the GC content of the genome.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/ycQwEhXP4SQ&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-31T21:00:00+00:00</dc:date>
-	<dc:creator>Thomas MacCarthy</dc:creator>
 </item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnagi.2017.00077">
 	<title>Frontiers in Aging Neuroscience | New and Recent Articles: A Bayesian Model for the Prediction and Early Diagnosis of Alzheimer's Disease</title>
