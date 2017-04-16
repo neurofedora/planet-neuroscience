@@ -17,6 +17,7 @@
 		<rdf:Seq>
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.24931" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/127571v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/127233v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/125682v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005490" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005460" />
@@ -160,7 +161,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/126433v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/126425v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/126318v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/126292v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005485" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005465" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00178" />
@@ -436,6 +436,13 @@
 	<content:encoded>Functional connectivity, as measured by resting-state fMRI, has proven a powerful method for studying brain systems in the context of behavior, development, and disease states. However, the relationship of functional connectivity to structural connectivity remains unclear. If functional connectivity relies on structural connectivity, then anatomical isolation of a brain region should eliminate functional connectivity with other brain regions. We tested this by measuring functional connectivity of the surgically disconnected temporal pole in resection patients (N=5; mean age 37; 2F, 3M). Functional connectivity was evaluated based on coactivation of whole-brain fMRI data with the average low-frequency BOLD signal from disconnected tissue in each patient. In sharp contrast to our prediction, we observed significant functional connectivity between the disconnected temporal pole and remote brain regions in each disconnection case. These findings raise important questions about the neural bases of functional connectivity measures derived from the fMRI BOLD signal.</content:encoded>
 	<dc:date>2017-04-15T00:00:00+00:00</dc:date>
 	<dc:creator>Warren, D. E.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/127233v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Decoding The Brain: Neural Representation And The Limits Of Multivariate Pattern Analysis In Cognitive Neuroscience</title>
+	<link>http://biorxiv.org/cgi/content/short/127233v1?rss=1</link>
+	<content:encoded>Since its introduction, multivariate pattern analysis (MVPA), or neural decoding, has transformed the field of cognitive neuroscience. Underlying its influence is a crucial inference, which we call the Decoder's Dictum: if information can be decoded from patterns of neural activity, then this provides strong evidence about what information those patterns represent. Although the Dictum is a widely held and well-motivated principle in decoding research, it has received scant philosophical attention. We critically evaluate the Dictum, arguing that it is false: decodability is a poor guide for revealing the content of neural representations. However, we also suggest how the Dictum can be improved on, in order to better justify inferences about neural representation using MVPA.</content:encoded>
+	<dc:date>2017-04-15T00:00:00+00:00</dc:date>
+	<dc:creator>Ritchie, J. B.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/125682v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Aversive Learning Changes Face-Viewing Strategies, as Revealed by Model-Based Fixation-Pattern Similarity Analysis</title>
@@ -1680,13 +1687,6 @@ may help to explain the dendritic morphology of neocortical pyramidal neurons.
 	<content:encoded>We introduce the feature-weighted receptive field (fwRF), an encoding model designed to balance expressiveness, interpretability and scalability. The fwRF is organized around the notion of a feature map---a transformation of visual stimuli into visual features that preserves the topology of visual space (but not necessarily the native resolution of the stimulus). The key assumption of the fwRF model is that activity in each voxel encodes variation in a spatially localized region across multiple feature maps. This region is fixed for all feature maps; however, the contribution of each feature map to voxel activity is weighted. Thus, the model has two separable sets of parameters: &quot;where&quot; parameters that characterize the location and extent of pooling over visual features, and &quot;what&quot; parameters that characterize tuning to visual features. The &quot;where&quot; parameters are analogous to classical receptive fields, while &quot;what&quot; parameters are analogous to classical tuning functions. By treating these as separable parameters, the fwRF model complexity is independent of the resolution of the underlying feature maps. This makes it possible to estimate models with thousands of high-resolution feature maps from relatively small amounts of data. Once a fwRF model has been estimated from data, spatial pooling and feature tuning can be read-off directly with no (or very little) additional post-processing or in-silico experimentation. We describe an optimization algorithm for estimating fwRF models from data acquired during standard visual neuroimaging experiments. We then demonstrate the model's application to two distinct sets of features: Gabor wavelets and features supplied by a deep convolutional neural network. We show that when Gabor feature maps are used, the fwRF model recovers receptive fields and spatial frequency tuning functions consistent with known organizational principles of the visual cortex. We also show that a fwRF model can be used to regress entire deep convolutional networks against brain activity. The ability to use whole networks in a single encoding model yields state-of-the-art prediction accuracy. Our results suggest a wide variety of uses for the feature-weighted receptive field model, from retinotopic mapping with natural scenes, to regressing the activities of whole deep neural networks onto measured brain activity.</content:encoded>
 	<dc:date>2017-04-11T00:00:00+00:00</dc:date>
 	<dc:creator>St-Yves, G.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/126292v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Single-Trial Inhibition of Anterior Cingulate Disrupts Model-based Reinforcement Learning in a Two-step Decision Task.</title>
-	<link>http://biorxiv.org/cgi/content/short/126292v1?rss=1</link>
-	<content:encoded>The anterior cingulate cortex (ACC) is implicated in learning the value of actions, and thus in allowing past outcomes to influence the current choice. However, it is not clear whether or how it contributes to the two major ways such learning is thought to happen: model-based mechanisms that learn action-state predictions and use these to infer action values; or model-free mechanisms which learn action values directly through reward prediction errors. Having confirmed, using a classical probabilistic reversal learning task, that optogenetic inhibition of ACC neurons on single trials indeed affected reinforcement learning, we examined the consequence of this manipulation in a novel two-step decision task designed to dissociate model-free and model-based learning mechanisms in mice. On the two-step task, silencing spared the influence of the trial outcome but reduced the influence of the experienced state transition. Analysis using reinforcement learning models indicated that ACC inhibition disrupted model-based RL mechanisms.</content:encoded>
-	<dc:date>2017-04-11T00:00:00+00:00</dc:date>
-	<dc:creator>Akam, T.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005485">
 	<title>PLOS Computational Biology: New Articles: Modeling disordered protein interactions from biophysical principles</title>
