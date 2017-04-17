@@ -15,7 +15,14 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005500" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005493" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005491" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005486" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005458" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1704.04238" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/127910v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/127589v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/127811v1?rss=1" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.24931" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/127571v1?rss=1" />
@@ -160,8 +167,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/126607v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/126490v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/126441v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/126433v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/126425v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005485" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005465" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00178" />
@@ -198,10 +203,6 @@
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncir.2017.00023" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1704.01761" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1509.02697" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005472" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005464" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005447" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005358" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnana.2017.00031" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00099" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnins.2017.00191" />
@@ -222,7 +223,6 @@
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.24929" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.24927" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.24928" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005436" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/37/14/3972?rss=1" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00099" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00175" />
@@ -419,6 +419,51 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005500">
+	<title>PLOS Computational Biology: New Articles: Semantic prioritization of novel causative genomic variants</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/tDgNhG1ME4I/article</link>
+	<content:encoded>&lt;p&gt;by Imane Boudellioua, Rozaimi B. Mahamad Razali, Maxat Kulmanov, Yasmeen Hashish, Vladimir B. Bajic, Eva Goncalves-Serra, Nadia Schoenmakers, Georgios V. Gkoutos, Paul N. Schofield, Robert Hoehndorf&lt;/p&gt;
+
+Discriminating the causative disease variant(s) for individuals with inherited or &lt;i&gt;de novo&lt;/i&gt; mutations presents one of the main challenges faced by the clinical genetics community today. Computational approaches for variant prioritization include machine learning methods utilizing a large number of features, including molecular information, interaction networks, or phenotypes. Here, we demonstrate the PhenomeNET Variant Predictor (PVP) system that exploits semantic technologies and automated reasoning over genotype-phenotype relations to filter and prioritize variants in whole exome and whole genome sequencing datasets. We demonstrate the performance of PVP in identifying causative variants on a large number of synthetic whole exome and whole genome sequences, covering a wide range of diseases and syndromes. In a retrospective study, we further illustrate the application of PVP for the interpretation of whole exome sequencing data in patients suffering from congenital hypothyroidism. We find that PVP accurately identifies causative variants in whole exome and whole genome sequencing datasets and provides a powerful resource for the discovery of causal variants.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/tDgNhG1ME4I&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-17T21:00:00+00:00</dc:date>
+	<dc:creator>Robert Hoehndorf</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005493">
+	<title>PLOS Computational Biology: New Articles: Probabilistic fluorescence-based synapse detection</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/aRCvW-nYvK8/article</link>
+	<content:encoded>&lt;p&gt;by Anish K. Simhal, Cecilia Aguerrebere, Forrest Collman, Joshua T. Vogelstein, Kristina D. Micheva, Richard J. Weinberg, Stephen J. Smith, Guillermo Sapiro&lt;/p&gt;
+
+Deeper exploration of the brain’s vast synaptic networks will require new tools for high-throughput structural and molecular profiling of the diverse populations of synapses that compose those networks. Fluorescence microscopy (FM) and electron microscopy (EM) offer complementary advantages and disadvantages for single-synapse analysis. FM combines exquisite molecular discrimination capacities with high speed and low cost, but rigorous discrimination between synaptic and non-synaptic fluorescence signals is challenging. In contrast, EM remains the gold standard for reliable identification of a synapse, but offers only limited molecular discrimination and is slow and costly. To develop and test single-synapse image analysis methods, we have used datasets from conjugate array tomography (cAT), which provides voxel-conjugate FM and EM (annotated) images of the same individual synapses. We report a novel unsupervised probabilistic method for detection of synapses from multiplex FM (muxFM) image data, and evaluate this method both by comparison to EM gold standard annotated data and by examining its capacity to reproduce known important features of cortical synapse distributions. The proposed probabilistic model-based synapse detector accepts molecular-morphological synapse models as user queries, and delivers a volumetric map of the probability that each voxel represents part of a synapse. Taking human annotation of cAT EM data as ground truth, we show that our algorithm detects synapses from muxFM data alone as successfully as human annotators seeing only the muxFM data, and accurately reproduces known architectural features of cortical synapse distributions. This approach opens the door to data-driven discovery of new synapse types and their density. We suggest that our probabilistic synapse detector will also be useful for analysis of standard confocal and super-resolution FM images, where EM cross-validation is not practical.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/aRCvW-nYvK8&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-17T21:00:00+00:00</dc:date>
+	<dc:creator>Guillermo Sapiro</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005491">
+	<title>PLOS Computational Biology: New Articles: Effect of transcription factor resource sharing on gene expression noise</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/TIEMlk0J4j0/article</link>
+	<content:encoded>&lt;p&gt;by Dipjyoti Das, Supravat Dey, Robert C. Brewster, Sandeep Choubey&lt;/p&gt;
+
+Gene expression is intrinsically a stochastic (noisy) process with important implications for cellular functions. Deciphering the underlying mechanisms of gene expression noise remains one of the key challenges of regulatory biology. Theoretical models of transcription often incorporate the kinetics of how transcription factors (TFs) interact with a single promoter to impact gene expression noise. However, inside single cells multiple identical gene copies as well as additional binding sites can compete for a limiting pool of TFs. Here we develop a simple kinetic model of transcription, which explicitly incorporates this interplay between TF copy number and its binding sites. We show that TF sharing enhances noise in mRNA distribution across an isogenic population of cells. Moreover, when a single gene copy shares it’s TFs with multiple competitor sites, the mRNA variance as a function of the mean remains unaltered by their presence. Hence, all the data for variance as a function of mean expression collapse onto a single master curve independent of the strength and number of competitor sites. However, this result does not hold true when the competition stems from multiple copies of the same gene. Therefore, although previous studies showed that the mean expression follows a universal master curve, our findings suggest that different scenarios of competition bear distinct signatures at the level of variance. Intriguingly, the introduction of competitor sites can transform a unimodal mRNA distribution into a multimodal distribution. These results demonstrate the impact of limited availability of TF resource on the regulation of noise in gene expression.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/TIEMlk0J4j0&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-17T21:00:00+00:00</dc:date>
+	<dc:creator>Sandeep Choubey</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005486">
+	<title>PLOS Computational Biology: New Articles: Dynamics of adaptive immunity against phage in bacterial populations</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/Rk5kitjCtOo/article</link>
+	<content:encoded>&lt;p&gt;by Serena Bradde, Marija Vucelja, Tiberiu Teşileanu, Vijay Balasubramanian&lt;/p&gt;
+
+The CRISPR (clustered regularly interspaced short palindromic repeats) mechanism allows bacteria to adaptively defend against phages by acquiring short genomic sequences (spacers) that target specific sequences in the viral genome. We propose a population dynamical model where immunity can be both acquired and lost. The model predicts regimes where bacterial and phage populations can co-exist, others where the populations exhibit damped oscillations, and still others where one population is driven to extinction. Our model considers two key parameters: (1) ease of acquisition and (2) spacer effectiveness in conferring immunity. Analytical calculations and numerical simulations show that if spacers differ mainly in ease of acquisition, or if the probability of acquiring them is sufficiently high, bacteria develop a diverse population of spacers. On the other hand, if spacers differ mainly in their effectiveness, their final distribution will be highly peaked, akin to a “winner-take-all” scenario, leading to a specialized spacer distribution. Bacteria can interpolate between these limiting behaviors by actively tuning their overall acquisition probability.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/Rk5kitjCtOo&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-17T21:00:00+00:00</dc:date>
+	<dc:creator>Vijay Balasubramanian</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005458">
+	<title>PLOS Computational Biology: New Articles: Achieving global perfect homeostasis through transporter regulation</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/-bFXMDNyVUw/article</link>
+	<content:encoded>&lt;p&gt;by Yonatan Savir, Alexander Martynov, Michael Springer&lt;/p&gt;
+
+Nutrient homeostasis—the maintenance of relatively constant internal nutrient concentrations in fluctuating external environments—is essential to the survival of most organisms. Transcriptional regulation of plasma membrane transporters by internal nutrient concentrations is typically assumed to be the main mechanism by which homeostasis is achieved. While this mechanism is homeostatic we show that it does not achieve global perfect homeostasis—a condition where internal nutrient concentrations are completely independent of external nutrient concentrations for all external nutrient concentrations. We show that the criterion for global perfect homeostasis is that transporter levels must be inversely proportional to net nutrient flux into the cell and that downregulation of active transporters (activity-dependent regulation) is a simple and biologically plausible mechanism that meets this criterion. Activity-dependent transporter regulation creates a trade-off between robustness and efficiency, i.e., the system's ability to withstand perturbation in external nutrients and the transporter production rate needed to maintain homeostasis. Additionally, we show that a system that utilizes both activity-dependent transporter downregulation and regulation of transporter synthesis by internal nutrient levels can create a system that mitigates the shortcomings of each of the individual mechanisms. This analysis highlights the utility of activity-dependent regulation in achieving homeostasis and calls for a re-examination of the mechanisms of regulation of other homeostatic systems.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/-bFXMDNyVUw&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-17T21:00:00+00:00</dc:date>
+	<dc:creator>Michael Springer</dc:creator>
+</item>
 <item rdf:about="http://arxiv.org/abs/1704.04238">
 	<title>q-bio.NC updates on arXiv.org: Reward-based stochastic self-configuration of neural circuits. (arXiv:1704.04238v1 [q-bio.NC])</title>
 	<link>http://arxiv.org/abs/1704.04238</link>
@@ -444,6 +489,20 @@ essential for its performance.
 &lt;/p&gt;</content:encoded>
 	<dc:date>2017-04-17T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Kappel_D/0/1/0/all/0/1">David Kappel</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Legenstein_R/0/1/0/all/0/1">Robert Legenstein</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Habenschuss_S/0/1/0/all/0/1">Stefan Habenschuss</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Hsieh_M/0/1/0/all/0/1">Michael Hsieh</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Maass_W/0/1/0/all/0/1">Wolfgang Maass</a></dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/127910v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Alterations in cortical thickness and structural connectivity are associated with symptom severity in bulimia nervosa</title>
+	<link>http://biorxiv.org/cgi/content/short/127910v1?rss=1</link>
+	<content:encoded>Bulimia nervosa (BN) is a serious psychiatric illness defined by preoccupation with weight and shape, episodic binge-eating and compensatory behaviors. Although diagnosed BN has been associated with diffuse grey matter volume reductions, characterization of brain structure alterations in women with a range of BN symptoms has yet to be made. This study examined whether changes in cortical thickness (CT) scaled with BN symptom severity in a sample of 33 adult women (n = 10 BN; n = 5 EDNOS-BN). Our second objective was to assess global structural connectivity (SC) of CT and to determine if individual differences in global SC relate to BN symptom severity. We used the validated Eating Disorder Examination Questionnaire (EDE-Q; Fairburn &amp;amp; Beglin, 1994) as a continuous measure of BN symptom severity. Increased EDE-Q score was negatively related to global CT and local CT in the left middle frontal gyrus, right superior frontal gyrus and bilateral orbitofrontal cortex (OFC) and temporoparietal regions. Moreover, analysis of global SC indicated that BN-related cortical thinning preferentially occurred in regions with high global connectivity. Finally, we showed that individuals' contribution to global SC at the group level were significantly related to EDE-Q score, where increased EDE-Q score correlated with reduced connectivity of the left OFC and middle temporal cortex and increased connectivity of the right superior parietal lobule. Our findings offer novel insight into CT alterations in BN and further suggest that the combination of CT and structural connectivity measures may be sensitive to individual differences in BN symptom severity.</content:encoded>
+	<dc:date>2017-04-17T00:00:00+00:00</dc:date>
+	<dc:creator>Westwater, M. L.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/127589v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Experience-dependent plasticity in accessory olfactory bulb interneurons following male-male social interaction</title>
+	<link>http://biorxiv.org/cgi/content/short/127589v1?rss=1</link>
+	<content:encoded>Chemosensory information processing in the mouse accessory olfactory system (AOS) guides the expression of social behavior. After salient chemosensory encounters, the accessory olfactory bulb (AOB) experiences changes in the balance of excitation and inhibition at reciprocal synapses between mitral cells (MCs) and local interneurons. The mechanisms underlying these changes remain controversial. Moreover, it remains unclear whether MC-interneuron plasticity is unique to specific behaviors, such as mating, or whether it is a more general feature of the AOB circuit. Here, we describe targeted electrophysiological studies of AOB inhibitory internal granule cells (IGCs), many of which upregulate the immediate-early gene Arc after male-male social experience. Following the resident-intruder paradigm, Arc-expressing IGCs in acute AOB slices from resident males displayed stronger excitation than non-expressing neighbors when sensory inputs are stimulated. The increased excitability of Arc-expressing IGCs was not correlated with changes in the strength or number of excitatory synapses with MCs, but is instead associated with increased intrinsic excitability and decreased HCN channel-mediated IH currents. Consistent with increased inhibition by IGCs, MCs responded to sensory input stimulation with decreased depolarization and spiking following resident-intruder encounters. These results reveal that non-mating behaviors drive AOB inhibitory plasticity, and indicate that increased MC inhibition involves intrinsic excitability changes in Arc-expressing interneurons.</content:encoded>
+	<dc:date>2017-04-17T00:00:00+00:00</dc:date>
+	<dc:creator>Cansler, H. L.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/127811v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Cell-Type Specific Burst Firing Interacts With Theta And Beta Activity In Prefrontal Cortex During Attention States</title>
@@ -1700,20 +1759,6 @@ may help to explain the dendritic morphology of neocortical pyramidal neurons.
 	<dc:date>2017-04-11T00:00:00+00:00</dc:date>
 	<dc:creator>Ball, G.</dc:creator>
 </item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/126433v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Estimating DSM accuracy for Attention Deficit Hyperactivity Disorder Based on Neurophysiological, Psychological, and Behavioral Correlates</title>
-	<link>http://biorxiv.org/cgi/content/short/126433v1?rss=1</link>
-	<content:encoded>Objective: To find objective evidence of accuracy of the Diagnostic and Statistical Manual of Mental Disorders (DSM) in the diagnosis of Attention Deficit Hyperactivity Disorder (ADHD), by comparing classifications of subjects based on behavioral (Attentional Network Test - ANT), psychological (Wechsler Intelligence Scale for Children - WISC-III), and neurophysiological (ANT-related potentials) data. Methods: Twenty typically developing (TD) boys and 19 boys diagnosed with ADHD according to DSM-IV-TR, aged 10-13 years, were examined using the ANT with simultaneous recording of the respective event-related potentials (ERPs). They also performed the Block Design, Digit Spam, Vocabulary and Arithmetic subtests of the WISC-III. A total of 815 variables of interest (VOI) obtained from the ANT, WISC-III scores, and ERP parameters were grouped by hierarchical clustering and integrated in 2 to 6 resultant vectors (RVs), from clusters at hierarchical levels 1 to 5. These RVs were used for the reclassification of subjects using the k-means method. Results: Regarding DSM-IV-TR diagnostics, the RVs from behavioral and psychological data and ERPs from the mid-frontal, mid-parietal plus right frontal, right central, and right temporal channels showed accuracy rates from 0.64 to 0.82 using the k-means reclassification. Among reclassifications with higher agreement (0.82), six subjects were reclassified (4 from the TD group, and 2 from the ADHD group). Assuming the reclassification of these six subjects, the estimated agreement between DSM and biological data was 84.61% with kappa index of 0.69. Conclusion: Results suggest biological validity and efficiency of DSM as a tool for ADHD diagnostics.</content:encoded>
-	<dc:date>2017-04-11T00:00:00+00:00</dc:date>
-	<dc:creator>Abramov, D. M.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/126425v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Recording action potential propagation in single axons using multi-electrode arrays</title>
-	<link>http://biorxiv.org/cgi/content/short/126425v1?rss=1</link>
-	<content:encoded>The small caliber of central nervous system (CNS) axons makes routine study of axonal physiology relatively difficult. However, while recording extracellular action potentials from neurons cultured on planer multi-electrode arrays (MEAs) we found activity among groups of electrodes consistent with action potential propagation in single neurons. Action potential propagation was evident as widespread, repetitive co-occurrence of extracellular action potentials (eAPs) among groups of electrodes. These eAPs occurred with invariant sequences and inter-electrode latencies that were consistent with reported measures of action potential propagation in unmyelinated axons. Within co-active electrode groups, the inter-electrode eAP latencies were temperature sensitive, as expected for action potential propagation. Our data are consistent with these signals primarily reflecting axonal action potential propagation, from axons with a high density of voltage-gated sodium channels. Repeated co-detection of eAPs by multiple electrodes confirmed these eAPs are from individual neurons and averaging these eAPs revealed sub-threshold events at other electrodes. The sequence of electrodes at which eAPs co-occur uniquely identifies these neurons, allowing us to monitor spiking of single identified neurons within neuronal ensembles. We recorded dynamic changes in single axon physiology such as simultaneous increases and decreases in excitability in different portions of single axonal arbors over several hours. Over several weeks, we measured changes in inter-electrode propagation latencies and ongoing changes in excitability in different regions of single axonal arbors. We recorded action potential propagation signals in human induced pluripotent stem cell-derived neurons which could thus be used to study axonal physiology in human disease models.</content:encoded>
-	<dc:date>2017-04-11T00:00:00+00:00</dc:date>
-	<dc:creator>Tovar, K. R.</dc:creator>
-</item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005485">
 	<title>PLOS Computational Biology: New Articles: Modeling disordered protein interactions from biophysical principles</title>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/MUyvfhHHVgo/article</link>
@@ -1996,40 +2041,6 @@ homeostatic principle imposed to neural activity.
 	<dc:date>2017-04-07T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Stramaglia_S/0/1/0/all/0/1">Sebastiano Stramaglia</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Pellicoro_M/0/1/0/all/0/1">Mario Pellicoro</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Angelini_L/0/1/0/all/0/1">Leonardo Angelini</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Amico_E/0/1/0/all/0/1">Enrico Amico</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Aerts_H/0/1/0/all/0/1">Hannelore Aerts</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Cortes_J/0/1/0/all/0/1">Jesus Cort&#xe9;s</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Laureys_S/0/1/0/all/0/1">Steven Laureys</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Marinazzo_D/0/1/0/all/0/1">Daniele Marinazzo</a></dc:creator>
 </item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005472">
-	<title>PLOS Computational Biology: New Articles: Correction: Multiscale mutation clustering algorithm identifies pan-cancer mutational clusters associated with pathway-level changes in gene expression</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/wfUG6VnqQh0/article</link>
-	<content:encoded>&lt;p&gt;by The PLOS Computational Biology Staff &lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/wfUG6VnqQh0&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-04-06T21:00:00+00:00</dc:date>
-	<dc:creator>The PLOS Computational Biology Staff</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005464">
-	<title>PLOS Computational Biology: New Articles: Functional asymmetry and plasticity of electrical synapses interconnecting neurons through a 36-state model of gap junction channel gating</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/G_ezrXWVN44/article</link>
-	<content:encoded>&lt;p&gt;by Mindaugas Snipas, Lina Rimkute, Tadas Kraujalis, Kestutis Maciunas, Feliksas F. Bukauskas&lt;/p&gt;
-
-We combined the Hodgkin–Huxley equations and a 36-state model of gap junction channel gating to simulate electrical signal transfer through electrical synapses. Differently from most previous studies, our model can account for dynamic modulation of junctional conductance during the spread of electrical signal between coupled neurons. The model of electrical synapse is based on electrical properties of the gap junction channel encompassing two &lt;i&gt;fast&lt;/i&gt; and two &lt;i&gt;slow&lt;/i&gt; gates triggered by the transjunctional voltage. We quantified the influence of a difference in input resistances of electrically coupled neurons and instantaneous conductance–voltage rectification of gap junctions on an asymmetry of cell-to-cell signaling. We demonstrated that such asymmetry strongly depends on junctional conductance and can lead to the unidirectional transfer of action potentials. The simulation results also revealed that voltage spikes, which develop between neighboring cells during the spread of action potentials, can induce a rapid decay of junctional conductance, thus demonstrating spiking activity-dependent short-term plasticity of electrical synapses. This conclusion was supported by experimental data obtained in HeLa cells transfected with connexin45, which is among connexin isoforms expressed in neurons. Moreover, the model allowed us to replicate the kinetics of junctional conductance under different levels of intracellular concentration of free magnesium ([Mg&lt;sup&gt;2+&lt;/sup&gt;]&lt;sub&gt;i&lt;/sub&gt;), which was experimentally recorded in cells expressing connexin36, a major neuronal connexin. We demonstrated that such [Mg&lt;sup&gt;2+&lt;/sup&gt;]&lt;sub&gt;i&lt;/sub&gt;-dependent long-term plasticity of the electrical synapse can be adequately reproduced through the changes of &lt;i&gt;slow&lt;/i&gt; gate parameters of the 36-state model. This suggests that some types of chemical modulation of gap junctions can be executed through the underlying mechanisms of voltage gating. Overall, the developed model accounts for direction-dependent asymmetry, as well as for short- and long-term plasticity of electrical synapses. Our modeling results demonstrate that such complex behavior of the electrical synapse is important in shaping the response of coupled neurons.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/G_ezrXWVN44&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-04-06T21:00:00+00:00</dc:date>
-	<dc:creator>Feliksas F. Bukauskas</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005447">
-	<title>PLOS Computational Biology: New Articles: Dynamic compensation, parameter identifiability, and equivariances</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/grkMJTAOlrI/article</link>
-	<content:encoded>&lt;p&gt;by Eduardo D. Sontag&lt;/p&gt;
-
-A recent paper by Karin et al. introduced a mathematical notion called dynamical compensation (DC) of biological circuits. DC was shown to play an important role in glucose homeostasis as well as other key physiological regulatory mechanisms. Karin et al. went on to provide a sufficient condition to test whether a given system has the DC property. Here, we show how DC is a reformulation of a well-known concept in systems biology, statistics, and control theory—that of parameter structural non-identifiability. Viewing DC as a parameter identification problem enables one to take advantage of powerful theoretical and computational tools to test a system for DC. We obtain as a special case the sufficient criterion discussed by Karin et al. We also draw connections to system equivalence and to the fold-change detection property.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/grkMJTAOlrI&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-04-06T21:00:00+00:00</dc:date>
-	<dc:creator>Eduardo D. Sontag</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005358">
-	<title>PLOS Computational Biology: New Articles: How evolution learns to generalise: Using the principles of learning theory to understand the evolution of developmental organisation</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/CpK5z1wAC_M/article</link>
-	<content:encoded>&lt;p&gt;by Kostas Kouvaris, Jeff Clune, Loizos Kounios, Markus Brede, Richard A. Watson&lt;/p&gt;
-
-One of the most intriguing questions in evolution is how organisms exhibit suitable phenotypic variation to rapidly adapt in novel selective environments. Such variability is crucial for evolvability, but poorly understood. In particular, how can natural selection favour developmental organisations that facilitate adaptive evolution in previously unseen environments? Such a capacity suggests foresight that is incompatible with the short-sighted concept of natural selection. A potential resolution is provided by the idea that evolution may discover and exploit information not only about the particular phenotypes selected in the past, but their underlying structural regularities: new phenotypes, with the same underlying regularities, but novel particulars, may then be useful in new environments. If true, we still need to understand the conditions in which natural selection will discover such deep regularities rather than exploiting ‘quick fixes’ (i.e., fixes that provide adaptive phenotypes in the short term, but limit future evolvability). Here we argue that the ability of evolution to discover such regularities is formally analogous to learning principles, familiar in humans and machines, that enable generalisation from past experience. Conversely, natural selection that fails to enhance evolvability is directly analogous to the learning problem of over-fitting and the subsequent failure to generalise. We support the conclusion that evolving systems and learning systems are different instantiations of the same algorithmic principles by showing that existing results from the learning domain can be transferred to the evolution domain. Specifically, we show that conditions that alleviate over-fitting in learning systems successfully predict which biological conditions (e.g., environmental variation, regularity, noise or a pressure for developmental simplicity) enhance evolvability. This equivalence provides access to a well-developed theoretical framework from learning theory that enables a characterisation of the general conditions for the evolution of evolvability.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/CpK5z1wAC_M&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-04-06T21:00:00+00:00</dc:date>
-	<dc:creator>Richard A. Watson</dc:creator>
-</item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnana.2017.00031">
 	<title>Frontiers in Neuroanatomy | New and Recent Articles: Expression of D-Amino Acid Oxidase (DAO/DAAO) and D-Amino Acid Oxidase Activator (DAOA/G72) during Development and Aging in the Human Post-mortem Brain</title>
 	<link>http://journal.frontiersin.org/article/10.3389/fnana.2017.00031</link>
@@ -2185,15 +2196,6 @@ limitations.
 &lt;div class=&quot;para&quot;&gt;&lt;p&gt;&lt;b&gt;Interpretation&lt;/b&gt;: FRs which persists before and after resection predict poor post-surgical outcome. These findings hold for different tailoring approaches. FRs can thus be used for tailoring epilepsy surgery with repeated intra-operative ECoG measurements. This article is protected by copyright. All rights reserved.&lt;/p&gt;&lt;/div&gt;</content:encoded>
 	<dc:date>2017-04-05T23:30:22+00:00</dc:date>
 	<dc:creator>M.A. van 't Klooster, N.E.C. van Klink, W.J.E.M. Zweiphenning, F.S.S. Leijten, R. Zelmann, C.H. Ferrier, P.C. van Rijen, W.M. Otte, K.P.J. Braun, G.J.M. Huiskamp, M. Zijlmans</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005436">
-	<title>PLOS Computational Biology: New Articles: Computation and measurement of cell decision making errors using single cell data</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/zL70rWy_1oQ/article</link>
-	<content:encoded>&lt;p&gt;by Iman Habibi, Raymond Cheong, Tomasz Lipniacki, Andre Levchenko, Effat S. Emamian, Ali Abdi&lt;/p&gt;
-
-In this study a new computational method is developed to quantify decision making errors in cells, caused by noise and signaling failures. Analysis of tumor necrosis factor (TNF) signaling pathway which regulates the transcription factor Nuclear Factor κB (NF-κB) using this method identifies two types of incorrect cell decisions called &lt;i&gt;false alarm&lt;/i&gt; and &lt;i&gt;miss&lt;/i&gt;. These two events represent, respectively, declaring a signal which is not present and missing a signal that does exist. Using single cell experimental data and the developed method, we compute false alarm and miss error probabilities in wild-type cells and provide a formulation which shows how they depend on the signal transduction noise level. We also show that in the presence of abnormalities in a cell, decision making processes can be significantly affected, compared to a wild-type cell, and the method is able to model and measure such effects. In the TNF—NF-κB pathway, the method computes and reveals changes in false alarm and miss probabilities in A20-deficient cells, caused by cell’s inability to inhibit TNF-induced NF-κB response. In biological terms, a higher false alarm metric in this abnormal TNF signaling system indicates perceiving more cytokine signals which in fact do not exist at the system input, whereas a higher miss metric indicates that it is highly likely to miss signals that actually exist. Overall, this study demonstrates the ability of the developed method for modeling cell decision making errors under normal and abnormal conditions, and in the presence of transduction noise uncertainty. Compared to the previously reported pathway capacity metric, our results suggest that the introduced decision error metrics characterize signaling failures more accurately. This is mainly because while capacity is a useful metric to study information transmission in signaling pathways, it does not capture the overlap between TNF-induced noisy response curves.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/zL70rWy_1oQ&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-04-05T21:00:00+00:00</dc:date>
-	<dc:creator>Ali Abdi</dc:creator>
 </item>
 <item rdf:about="http://www.jneurosci.org/cgi/content/short/37/14/3972?rss=1">
 	<title>Journal of Neuroscience current issue: Mesoscale Architecture Shapes Initiation and Richness of Spontaneous Network Activity</title>
