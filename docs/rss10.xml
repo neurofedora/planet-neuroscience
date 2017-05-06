@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/129437v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005531" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005525" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005480" />
@@ -151,7 +152,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/133488v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/133371v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/133363v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/133330v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005509" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005505" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005502" />
@@ -419,6 +419,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://biorxiv.org/cgi/content/short/129437v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: EyeBallGUI: A Tool For Visual Inspection And Binary Marking of Multi-Channel Bio-Signals</title>
+	<link>http://biorxiv.org/cgi/content/short/129437v1?rss=1</link>
+	<content:encoded>A wide range of studies in human neuroscience rely on the analysis of electrophysiological bio-signals such as electroencephalogram (EEG) where customized data analysis may require supervised artefact rejection, binary marking through visual inspection, selection of noise and artefact samples for pre-processing algorithms, and selection of clinically-relevant signal segments in neurological conditions. Nevertheless, the existing preprocessing tools do not provide the needed flexibility to handle such tasks efficiently. We therefore developed a free open-source Graphical User Interface (GUI), EyeBallGUI, that allows visualization and flexible, manual marking (binary classification) of multi-channel bio-signal data. EyeBallGUI, developed for MATLAB, allows the user to interactively and accurately inspect and mark multi-channel digitized data with no restriction on marking periods of data in subsets of channels (a restriction in place in existing tools). The new tool facilitates precise, manual marking of bio-signals by allowing any desired segment of data to be marked in any subset of channels. It is therefore of utility in circumstances where such flexibility is essential. The developed GUI is an auxiliary analysis tool that shall facilitate neural signal (pre-)processing applications where it is desirable to perform accurate supervised artefact rejection, flexible data marking for increased data retention yield, extraction of specific signal segments by expert users from sample data, or labeling of data for clinical and scientific research purposes.</content:encoded>
+	<dc:date>2017-05-06T00:00:00+00:00</dc:date>
+	<dc:creator>Mohr, K.</dc:creator>
+</item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005531">
 	<title>PLOS Computational Biology: New Articles: Widespread position-specific conservation of synonymous rare codons within coding sequences</title>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/LTnUBqKLU7k/article</link>
@@ -1605,13 +1612,6 @@ against widely used machine learning methods on well-studied tasks.
 	<content:encoded>Tissue-specific reverse engineering of transcriptional networks has led to groundbreaking discoveries uncovering underlying regulators of cellular networks in various diseases. However, whether these approaches can be applied to complex psychiatric diseases is largely unexplored, partly due to the general lack of appropriate cellular models for mental disorders. In this study, using a recently published high quality RNA-seq data on dorsolateral prefrontal cortex from 307 Schizophrenia (SCZ) patients and 245 controls, we deconvoluted the transcriptional network aiming at the identification of master regulators mediating expression of a large body of genes. Together with an independent RNA-seq data on cultured primary neuronal cells derived from olfactory neuroepithelium from a cohort of 143 SCZ cases and 112 controls, we identified five candidate master regulators (MRs), including TCF4, NR1H2, HDAC9, ZNF10, and ZNF436. TCF4 was previously identified as a SCZ susceptibility gene, but its regulatory subnetworks had been elusive. Other genes have not been convincingly associated with SCZ in previous studies. Additional analysis of predicted transcription factor binding site, ChIP-Seq data and ATAC-Seq data confirmed many predicted regulatory targets by the identified MRs. Our study uncovered a few candidate master regulators for SCZ that affects a collection of genes, and these master regulators may serve as therapeutic targets for intervention.</content:encoded>
 	<dc:date>2017-05-02T00:00:00+00:00</dc:date>
 	<dc:creator>Doostparast Torshizi, A.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/133330v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Recurrent Convolutional Neural Networks: A Better Model Of Biological Object Recognition Under Occlusion</title>
-	<link>http://biorxiv.org/cgi/content/short/133330v1?rss=1</link>
-	<content:encoded>Feedforward neural networks provide the dominant model of how the brain performs visual object recognition. However, these networks lack the lateral and feedback connections, and the resulting recurrent neuronal dynamics, of the ventral visual pathway in the human and nonhuman primate brain. Here we investigate recurrent convolutional neural networks with bottom-up (B), lateral (L), and top-down (T) connections. Combining these types of connections yields four architectures (B, BT, BL, and BLT), which we systematically test and compare. We hypothesized that recurrent dynamics might improve recognition performance in the challenging scenario of partial occlusion. We introduce two novel occluded object recognition tasks to test the efficacy of the models, digit clutter (where multiple target digits occlude one another) and digit debris (where target digits are occluded by digit fragments). We find that recurrent neural networks outperform feedforward control models (approximately matched in parametric complexity) at recognising objects, both in the absence of occlusion and in all occlusion conditions. Recurrent neural networks are not only more neurobiologically plausible in their architecture; their dynamics also afford superior task performance. This work shows that computer vision can benefit from using recurrent convolutional architectures and suggests that the ubiquitous recurrent connections in biological brains are essential for task performance.</content:encoded>
-	<dc:date>2017-05-02T00:00:00+00:00</dc:date>
-	<dc:creator>Spoerer, C.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005509">
 	<title>PLOS Computational Biology: New Articles: phyC: Clustering cancer evolutionary trees</title>
