@@ -5,8 +5,79 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscience/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscience/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscience/atom.xml</id>
-	<updated>2017-05-18T17:00:17+00:00</updated>
+	<updated>2017-05-18T23:00:21+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscience/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">Automatically tracking neurons in a moving and deforming brain</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/zRAXjBpewI8/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005517</id>
+		<updated>2017-05-18T21:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Jeffrey P. Nguyen, Ashley N. Linder, George S. Plummer, Joshua W. Shaevitz, Andrew M. Leifer&lt;/p&gt;
+
+Advances in optical neuroimaging techniques now allow neural activity to be recorded with cellular resolution in awake and behaving animals. Brain motion in these recordings pose a unique challenge. The location of individual neurons must be tracked in 3D over time to accurately extract single neuron activity traces. Recordings from small invertebrates like &lt;i&gt;C. elegans&lt;/i&gt; are especially challenging because they undergo very large brain motion and deformation during animal movement. Here we present an automated computer vision pipeline to reliably track populations of neurons with single neuron resolution in the brain of a freely moving &lt;i&gt;C. elegans&lt;/i&gt; undergoing large motion and deformation. 3D volumetric fluorescent images of the animal’s brain are straightened, aligned and registered, and the locations of neurons in the images are found via segmentation. Each neuron is then assigned an identity using a new time-independent machine-learning approach we call Neuron Registration Vector Encoding. In this approach, non-rigid point-set registration is used to match each segmented neuron in each volume with a set of reference volumes taken from throughout the recording. The way each neuron matches with the references defines a feature vector which is clustered to assign an identity to each neuron in each volume. Finally, thin-plate spline interpolation is used to correct errors in segmentation and check consistency of assigned identities. The Neuron Registration Vector Encoding approach proposed here is uniquely well suited for tracking neurons in brains undergoing large deformations. When applied to whole-brain calcium imaging recordings in freely moving &lt;i&gt;C. elegans&lt;/i&gt;, this analysis pipeline located 156 neurons for the duration of an 8 minute recording and consistently found more neurons more quickly than manual or semi-automated approaches.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/zRAXjBpewI8&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Andrew M. Leifer</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-05-18T22:46:36+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Simultaneous inference of phylogenetic and transmission trees in infectious disease outbreaks</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/UKIrSUeOxbk/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005495</id>
+		<updated>2017-05-18T21:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Don Klinkenberg, Jantien A. Backer, Xavier Didelot, Caroline Colijn, Jacco Wallinga&lt;/p&gt;
+
+Whole-genome sequencing of pathogens from host samples becomes more and more routine during infectious disease outbreaks. These data provide information on possible transmission events which can be used for further epidemiologic analyses, such as identification of risk factors for infectivity and transmission. However, the relationship between transmission events and sequence data is obscured by uncertainty arising from four largely unobserved processes: transmission, case observation, within-host pathogen dynamics and mutation. To properly resolve transmission events, these processes need to be taken into account. Recent years have seen much progress in theory and method development, but existing applications make simplifying assumptions that often break up the dependency between the four processes, or are tailored to specific datasets with matching model assumptions and code. To obtain a method with wider applicability, we have developed a novel approach to reconstruct transmission trees with sequence data. Our approach combines elementary models for transmission, case observation, within-host pathogen dynamics, and mutation, under the assumption that the outbreak is over and all cases have been observed. We use Bayesian inference with MCMC for which we have designed novel proposal steps to efficiently traverse the posterior distribution, taking account of all unobserved processes at once. This allows for efficient sampling of transmission trees from the posterior distribution, and robust estimation of consensus transmission trees. We implemented the proposed method in a new R package &lt;i&gt;phybreak&lt;/i&gt;. The method performs well in tests of both new and published simulated data. We apply the model to five datasets on densely sampled infectious disease outbreaks, covering a wide range of epidemiological settings. Using only sampling times and sequences as data, our analyses confirmed the original results or improved on them: the more realistic infection times place more confidence in the inferred transmission trees.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/UKIrSUeOxbk&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Jacco Wallinga</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-05-18T22:46:36+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Transcriptomics technologies</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/2WsdgJiNTtE/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005457</id>
+		<updated>2017-05-18T21:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Rohan Lowe, Neil Shirley, Mark Bleackley, Stephen Dolan, Thomas Shafee&lt;/p&gt;
+
+Transcriptomics technologies are the techniques used to study an organism’s transcriptome, the sum of all of its RNA transcripts. The information content of an organism is recorded in the DNA of its genome and expressed through transcription. Here, mRNA serves as a transient intermediary molecule in the information network, whilst noncoding RNAs perform additional diverse functions. A transcriptome captures a snapshot in time of the total transcripts present in a cell.
+The first attempts to study the whole transcriptome began in the early 1990s, and technological advances since the late 1990s have made transcriptomics a widespread discipline. Transcriptomics has been defined by repeated technological innovations that transform the field. There are two key contemporary techniques in the field: microarrays, which quantify a set of predetermined sequences, and RNA sequencing (RNA-Seq), which uses high-throughput sequencing to capture all sequences.
+Measuring the expression of an organism’s genes in different tissues, conditions, or time points gives information on how genes are regulated and reveals details of an organism’s biology. It can also help to infer the functions of previously unannotated genes. Transcriptomic analysis has enabled the study of how gene expression changes in different organisms and has been instrumental in the understanding of human disease. An analysis of gene expression in its entirety allows detection of broad coordinated trends which cannot be discerned by more targeted assays.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/2WsdgJiNTtE&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Thomas Shafee</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-05-18T22:46:36+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Muscle Contraction Regulates BDNF/TrkB Signaling to Modulate Synaptic Function through Presynaptic cPKCα and cPKCβI</title>
@@ -24,7 +95,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -44,7 +115,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -64,7 +135,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -84,7 +155,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -104,7 +175,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -124,7 +195,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -144,7 +215,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -164,7 +235,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -184,7 +255,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -204,7 +275,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -224,7 +295,7 @@
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -244,7 +315,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -264,7 +335,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -495,6 +566,46 @@ under the assumption that all inputs are generated by one renewal process.
 	</entry>
 
 	<entry>
+		<title type="html">Zfp423, A Joubert Syndrome Gene, Is A Domain-Specific Regulator Of Cell Cycle Progression, DNA Damage Response And Purkinje Cell Development In The Cerebellar Primordium</title>
+		<link href="http://biorxiv.org/cgi/content/short/139691v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/139691v1?rss=1</id>
+		<updated>2017-05-18T00:00:00+00:00</updated>
+		<content type="html">
+ Neurogenesis is a tightly regulated process whose success depends on the ability to balance the expansion/maintenance of an undifferentiated neural progenitor pool with the precisely timed birth of sequential generations of neurons. The Zfp423 gene encodes a 30-Zn-finger transcription factor (TF) that acts as a scaffold in the assembly of complex transcriptional and cellular machineries regulating neural development. While null mutants for Zfp423 feature a severe cerebellar hypoplasia, the underlying mechanism is only partially characterized. Mutations of the human ortholog ZNF423 have been identified in patients carrying cerebellar vermis hypoplasia (CVH) or Joubert Syndrome (JS), associated with other signs of classical ciliopathy outside the central nervous system (CNS). ZNF423 also plays a role in the DNA damage response (DDR). To further characterize the role of ZFP423 in cerebellar neurogenesis, with a focus on Purkinje cells (PC) development, we analyzed two previously undescribed mutant mouse lines carrying allelic in-frame deletions of the corresponding gene, selectively affecting two functionally characterized protein-protein interaction domains, affecting zinc (Zn) fingers 9-20 or 28-30. Some phenotypic defects are allele specific: Zfp423{Delta}9-20/{Delta}9-20 mutants exhibit a depletion of the OLIG2+ PC progenitor pool in the cerebellar ventricular zone (VZ). In these mutants, M-phase progenitors display changes in spindle orientation indicative of a precocious switch from symmetric to asymmetric cell division. Conversely, the Zfp423{Delta}28-30/{Delta}28-30 primordium displays a sharp decrease in the expression of PC differentiation markers, including CORL2, despite an abundance of cycling PC progenitors. Moreover, and importantly, in both mutants VZ progenitor cell cycle progression is remarkably affected, and factors involved in the DDR are substantially upregulated in the VZ and in postmitotic precursors alike. Our in vivo evidence sheds light on the domain-specific roles played by ZFP423 in different aspects of PC progenitor development, and at the same time supports the emerging notion that an impaired DNA damage response may be a key factor in the pathogenesis of JS and other ciliopathies.</content>
+		<author>
+			<name>Casoni, F.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2017-05-18T23:00:13+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Quantitative MRI Provides Markers Of Intra-, Inter-Regional, And Age-Related Differences In Young Adult Cortical Microstructure</title>
+		<link href="http://biorxiv.org/cgi/content/short/139568v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/139568v1?rss=1</id>
+		<updated>2017-05-18T00:00:00+00:00</updated>
+		<content type="html">
+ Measuring the structural composition of the cortex is critical to understanding typical development, yet few investigations in humans have charted markers in vivo that are sensitive to tissue microstructural attributes. Here, we used a well-validated quantitative MR protocol to measure four parameters (R1, MT, R2*, PD*) that differ in their sensitivity to facets of the tissue microstructural environment (R1, MT: myelin, macromolecular content; R2*: paramagnetic ions, i.e., iron; PD*: free water content). Mapping these parameters across cortical regions in a young adult cohort (18-30 years, N=93) revealed expected patterns of increased macromolecular content as well as reduced tissue water content in primary and primary adjacent cortical regions. Mapping across cortical depth within regions showed decreased expression of myelin and related processes - but increased tissue water content - when progressing from the grey/white to the grey/pial boundary, in all regions. Charting developmental change in cortical microstructure, we found that parameters with the greatest sensitivity to tissue myelin (R1 &amp;amp; MT) showed linear increases with age across frontal and parietal cortex (change 0.5-1.0% per year). Overlap of robust age effects for both parameters emerged in left inferior frontal, right parietal and bilateral pre-central regions. Our findings afford an improved understanding of ontogeny in early adulthood and offer normative quantitative MR data for inter- and intra-cortical composition, which may be used as benchmarks in further studies.</content>
+		<author>
+			<name>Carey, D.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2017-05-18T23:00:13+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
 		<title type="html">Combining inferred regulatory and reconstructed metabolic networks enhances phenotype prediction in yeast</title>
 		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/9DmSJoTlfGg/article"/>
 		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005489</id>
@@ -512,7 +623,7 @@ Gene regulatory and metabolic network models have been used successfully in many
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -533,7 +644,7 @@ Gene regulatory and metabolic network models have been used successfully in many
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -553,7 +664,7 @@ Gene regulatory and metabolic network models have been used successfully in many
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -573,7 +684,7 @@ Gene regulatory and metabolic network models have been used successfully in many
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -926,7 +1037,7 @@ Gene regulatory and metabolic network models have been used successfully in many
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -946,7 +1057,7 @@ Gene regulatory and metabolic network models have been used successfully in many
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -966,7 +1077,7 @@ Gene regulatory and metabolic network models have been used successfully in many
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -986,7 +1097,7 @@ Gene regulatory and metabolic network models have been used successfully in many
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1006,7 +1117,7 @@ Gene regulatory and metabolic network models have been used successfully in many
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1026,7 +1137,7 @@ Gene regulatory and metabolic network models have been used successfully in many
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1046,7 +1157,7 @@ Gene regulatory and metabolic network models have been used successfully in many
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1066,7 +1177,7 @@ Gene regulatory and metabolic network models have been used successfully in many
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -1086,7 +1197,7 @@ Gene regulatory and metabolic network models have been used successfully in many
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -1106,7 +1217,7 @@ Gene regulatory and metabolic network models have been used successfully in many
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -1738,7 +1849,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -1758,7 +1869,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -1778,7 +1889,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -1798,7 +1909,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -1818,7 +1929,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -1838,7 +1949,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -1858,7 +1969,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -1878,7 +1989,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -1898,7 +2009,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -1918,7 +2029,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -1938,7 +2049,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -1958,7 +2069,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -1978,7 +2089,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1998,7 +2109,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -2018,7 +2129,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -2438,7 +2549,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -2479,7 +2590,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -2499,7 +2610,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -2519,7 +2630,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -2539,7 +2650,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -2558,7 +2669,7 @@ hypothesis for mid-level neuronal computation.
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -2578,7 +2689,7 @@ hypothesis for mid-level neuronal computation.
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -2598,7 +2709,7 @@ hypothesis for mid-level neuronal computation.
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -2618,7 +2729,7 @@ hypothesis for mid-level neuronal computation.
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -2638,7 +2749,7 @@ hypothesis for mid-level neuronal computation.
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -2658,7 +2769,7 @@ hypothesis for mid-level neuronal computation.
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -2679,7 +2790,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -2699,7 +2810,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -2719,7 +2830,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -2739,7 +2850,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -2759,7 +2870,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -2779,7 +2890,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -2799,7 +2910,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -2819,7 +2930,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -2839,7 +2950,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -2859,7 +2970,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -2879,7 +2990,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -2899,7 +3010,7 @@ hypothesis for mid-level neuronal computation.
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3189,7 +3300,7 @@ the N-phase.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3209,7 +3320,7 @@ the N-phase.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3229,7 +3340,7 @@ the N-phase.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3249,7 +3360,7 @@ the N-phase.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3271,7 +3382,7 @@ High-order epistasis—where the effect of a mutation is determined by interacti
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3294,7 +3405,7 @@ Genome-scale metabolic modeling has become widespread for analyzing microbial me
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3317,7 +3428,7 @@ Genome-wide expression Quantitative Trait Loci (eQTL) studies in humans have pro
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3340,7 +3451,7 @@ In bistable vision, subjective perception wavers between two interpretations of 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3363,7 +3474,7 @@ Accuracy of transcript quantification with RNA-Seq is negatively affected by pos
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3384,7 +3495,7 @@ Accuracy of transcript quantification with RNA-Seq is negatively affected by pos
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3404,7 +3515,7 @@ Accuracy of transcript quantification with RNA-Seq is negatively affected by pos
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3424,7 +3535,7 @@ Accuracy of transcript quantification with RNA-Seq is negatively affected by pos
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3444,7 +3555,7 @@ Accuracy of transcript quantification with RNA-Seq is negatively affected by pos
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3464,7 +3575,7 @@ Accuracy of transcript quantification with RNA-Seq is negatively affected by pos
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3484,7 +3595,7 @@ Accuracy of transcript quantification with RNA-Seq is negatively affected by pos
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-05-18T17:00:13+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3504,7 +3615,7 @@ Accuracy of transcript quantification with RNA-Seq is negatively affected by pos
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3524,7 +3635,7 @@ Accuracy of transcript quantification with RNA-Seq is negatively affected by pos
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3544,7 +3655,7 @@ Accuracy of transcript quantification with RNA-Seq is negatively affected by pos
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3564,7 +3675,7 @@ Accuracy of transcript quantification with RNA-Seq is negatively affected by pos
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3584,7 +3695,7 @@ Accuracy of transcript quantification with RNA-Seq is negatively affected by pos
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3695,7 +3806,7 @@ reconstructed based on non-equilibrium statistics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3715,7 +3826,7 @@ reconstructed based on non-equilibrium statistics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3735,7 +3846,7 @@ reconstructed based on non-equilibrium statistics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3797,47 +3908,7 @@ reconstructed based on non-equilibrium statistics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">The Algorithmic Neuroanatomy Of Action-Outcome Learning</title>
-		<link href="http://biorxiv.org/cgi/content/short/137851v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/137851v1?rss=1</id>
-		<updated>2017-05-14T00:00:00+00:00</updated>
-		<content type="html">
- Although it is well known that animals can encode the consequences of their actions and can use this information to control action selection and evaluation, it is not known what learning rules control action-outcome (AO) learning. Here we trained participants to encode specific AO associations whilst undergoing functional imaging (fMRI) and used computational modelling to evaluate competing models. This analysis revealed that a Kalman filter, which learned the unique causal effect of each action, best characterized AO learning and found the medial prefrontal cortex differentiated the unique effect of actions from background effects. We subsequently extended these findings to show that mPFC participated in a circuit with parietal cortex and caudate nucleus to segregate distinct contributions to AO learning. The results extend our understanding of goal-directed learning and demonstrate that sensitivity to the causal relationship between actions and outcomes guides goal-directed learning rather than contiguous state-action relations.</content>
-		<author>
-			<name>Morris, R. W.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Mechanical Activation Of Piezo1 But Not Nav1.2 Channels By Ultrasound</title>
-		<link href="http://biorxiv.org/cgi/content/short/136994v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/136994v1?rss=1</id>
-		<updated>2017-05-14T00:00:00+00:00</updated>
-		<content type="html">
- Ultrasound can modulate the electrical activity of the brain and other excitable tissues but the mechanisms underlying this effect are not understood, either at the molecular level or in terms of the physical modality through which ultrasound exerts its effects. An obvious approach to address this question would be to measure ultrasounds effects on specific candidate ion channels using patch-clamp recording, but ultrasound at the most commonly used frequencies permanently damages the gigaohm seals required for patch-clamp recording. Here we report an experimental system that allows for stable patch-clamp recording in the presence of ultrasound at 43 MHz, a frequency known to stimulate neural activity in tissue in vitro. We describe the effects of ultrasound on two ion channels proposed to be involved in the response of excitable cells to ultrasound: the mechanosensitive Piezo1 channel and the voltage-gated sodium channel NaV1.2. Our patch-clamp recordings, together with finite-element simulations of acoustic field parameters indicate that Piezo1 channels can be activated by ultrasound through cell membrane stretch and that acoustic streaming is required for this effect. Despite the reported sensitivity of voltage-gated sodium channels to membrane stretch, NaV1.2 channels were not affected through this mechanism, but their activation and inactivation rates were accelerated by ultrasound-induced heating. The approach described here will be useful in exploring the effects of different ultrasound modalities on ion channels, to better understand the endogenous response of excitable tissues to ultrasound and to help design ultrasound-sensitive channels for sonogenetic manipulation of cell activity.</content>
-		<author>
-			<name>Prieto, M. L.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3898,7 +3969,7 @@ reconstructed based on non-equilibrium statistics.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3918,7 +3989,7 @@ reconstructed based on non-equilibrium statistics.
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -3938,7 +4009,7 @@ reconstructed based on non-equilibrium statistics.
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3999,7 +4070,7 @@ Imaging and analyzing the locomotion behavior of small animals such as Drosophil
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4022,7 +4093,7 @@ Multiple biological processes are driven by oscillatory gene expression at diffe
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4043,7 +4114,7 @@ Multiple biological processes are driven by oscillatory gene expression at diffe
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -4063,7 +4134,7 @@ Multiple biological processes are driven by oscillatory gene expression at diffe
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4083,7 +4154,7 @@ Multiple biological processes are driven by oscillatory gene expression at diffe
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4103,7 +4174,7 @@ Multiple biological processes are driven by oscillatory gene expression at diffe
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4123,7 +4194,7 @@ Multiple biological processes are driven by oscillatory gene expression at diffe
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4143,7 +4214,7 @@ Multiple biological processes are driven by oscillatory gene expression at diffe
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4163,7 +4234,7 @@ Multiple biological processes are driven by oscillatory gene expression at diffe
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4183,7 +4254,7 @@ Multiple biological processes are driven by oscillatory gene expression at diffe
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4203,7 +4274,7 @@ Multiple biological processes are driven by oscillatory gene expression at diffe
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4223,7 +4294,7 @@ Multiple biological processes are driven by oscillatory gene expression at diffe
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4243,7 +4314,7 @@ Multiple biological processes are driven by oscillatory gene expression at diffe
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4416,7 +4487,7 @@ Rhythmical activity patterns are ubiquitous in nature. We study an oscillatory b
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4437,7 +4508,7 @@ Rhythmical activity patterns are ubiquitous in nature. We study an oscillatory b
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -4541,7 +4612,7 @@ Rhythmical activity patterns are ubiquitous in nature. We study an oscillatory b
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4561,7 +4632,7 @@ Rhythmical activity patterns are ubiquitous in nature. We study an oscillatory b
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4581,7 +4652,7 @@ Rhythmical activity patterns are ubiquitous in nature. We study an oscillatory b
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4601,7 +4672,7 @@ Rhythmical activity patterns are ubiquitous in nature. We study an oscillatory b
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4621,7 +4692,7 @@ Rhythmical activity patterns are ubiquitous in nature. We study an oscillatory b
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4641,7 +4712,7 @@ Rhythmical activity patterns are ubiquitous in nature. We study an oscillatory b
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4661,7 +4732,7 @@ Rhythmical activity patterns are ubiquitous in nature. We study an oscillatory b
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -4681,7 +4752,7 @@ Rhythmical activity patterns are ubiquitous in nature. We study an oscillatory b
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -4701,7 +4772,7 @@ Rhythmical activity patterns are ubiquitous in nature. We study an oscillatory b
 			<subtitle type="html">RSS Feed for Frontiers in Synaptic Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/synaptic-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/synaptic-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -4721,7 +4792,7 @@ Rhythmical activity patterns are ubiquitous in nature. We study an oscillatory b
 			<subtitle type="html">RSS Feed for Frontiers in Synaptic Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/synaptic-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/synaptic-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -4925,7 +4996,7 @@ Normative models of human cognition often appeal to Bayesian filtering, which pr
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4948,7 +5019,7 @@ Recent advances in top-down mass spectrometry enabled identification of intact p
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4969,7 +5040,7 @@ Recent advances in top-down mass spectrometry enabled identification of intact p
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4989,7 +5060,7 @@ Recent advances in top-down mass spectrometry enabled identification of intact p
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -5053,7 +5124,7 @@ Recent advances in top-down mass spectrometry enabled identification of intact p
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -5074,7 +5145,7 @@ Recent advances in top-down mass spectrometry enabled identification of intact p
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -5094,7 +5165,7 @@ Recent advances in top-down mass spectrometry enabled identification of intact p
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -5114,7 +5185,7 @@ Recent advances in top-down mass spectrometry enabled identification of intact p
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -5154,7 +5225,7 @@ Recent advances in top-down mass spectrometry enabled identification of intact p
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -5174,7 +5245,7 @@ Recent advances in top-down mass spectrometry enabled identification of intact p
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -5194,7 +5265,7 @@ Recent advances in top-down mass spectrometry enabled identification of intact p
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -5214,7 +5285,7 @@ Recent advances in top-down mass spectrometry enabled identification of intact p
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5234,7 +5305,7 @@ Recent advances in top-down mass spectrometry enabled identification of intact p
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5254,7 +5325,7 @@ Recent advances in top-down mass spectrometry enabled identification of intact p
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5274,7 +5345,7 @@ Recent advances in top-down mass spectrometry enabled identification of intact p
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5336,7 +5407,7 @@ Transcriptional and post-transcriptional regulation shape tissue-type-specific p
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5359,7 +5430,7 @@ People living in areas with active vector-borne transmission of Chagas disease h
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5382,7 +5453,7 @@ Motor adaptation paradigms provide a quantitative method to study short-term mod
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5403,7 +5474,7 @@ Motor adaptation paradigms provide a quantitative method to study short-term mod
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5452,7 +5523,7 @@ Motor adaptation paradigms provide a quantitative method to study short-term mod
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5472,7 +5543,7 @@ Motor adaptation paradigms provide a quantitative method to study short-term mod
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -5492,7 +5563,7 @@ Motor adaptation paradigms provide a quantitative method to study short-term mod
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -5512,7 +5583,7 @@ Motor adaptation paradigms provide a quantitative method to study short-term mod
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -5532,7 +5603,7 @@ Motor adaptation paradigms provide a quantitative method to study short-term mod
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5552,7 +5623,7 @@ Motor adaptation paradigms provide a quantitative method to study short-term mod
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5595,7 +5666,7 @@ Synonymous rare codons are considered to be sub-optimal for gene expression beca
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5618,7 +5689,7 @@ The spatial organization of metabolism is common to all domains of life. Enteric
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5641,7 +5712,7 @@ Unique molecular identifiers (UMIs) show outstanding performance in targeted hig
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
+			<updated>2017-05-18T22:46:36+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5662,7 +5733,7 @@ Unique molecular identifiers (UMIs) show outstanding performance in targeted hig
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5682,7 +5753,7 @@ Unique molecular identifiers (UMIs) show outstanding performance in targeted hig
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5701,7 +5772,7 @@ Unique molecular identifiers (UMIs) show outstanding performance in targeted hig
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -5722,7 +5793,7 @@ Unique molecular identifiers (UMIs) show outstanding performance in targeted hig
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -5742,7 +5813,7 @@ Unique molecular identifiers (UMIs) show outstanding performance in targeted hig
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5762,7 +5833,7 @@ Unique molecular identifiers (UMIs) show outstanding performance in targeted hig
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5805,73 +5876,6 @@ Unique molecular identifiers (UMIs) show outstanding performance in targeted hig
 			<id>http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2F%28ISSN%291531-8249</id>
 			<updated>2017-04-01T05:00:00+00:00</updated>
 			<rights type="html">© American Neurological Association</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">A mathematical model coupling polarity signaling to cell adhesion explains diverse cell migration patterns</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/0dOY9je4PeE/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005524</id>
-		<updated>2017-05-04T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by William R. Holmes, JinSeok Park, Andre Levchenko, Leah Edelstein-Keshet&lt;/p&gt;
-
-Protrusion and retraction of lamellipodia are common features of eukaryotic cell motility. As a cell migrates through its extracellular matrix (ECM), lamellipod growth increases cell-ECM contact area and enhances engagement of integrin receptors, locally amplifying ECM input to internal signaling cascades. In contrast, contraction of lamellipodia results in reduced integrin engagement that dampens the level of ECM-induced signaling. These changes in cell shape are both influenced by, and feed back onto ECM signaling. Motivated by experimental observations on melanoma cells lines (1205Lu and SBcl2) migrating on fibronectin (FN) coated topographic substrates (anisotropic post-density arrays), we probe this interplay between intracellular and ECM signaling. Experimentally, cells exhibited one of three lamellipodial dynamics: persistently polarized, random, or oscillatory, with competing lamellipodia oscillating out of phase (Park et al., 2017). Pharmacological treatments, changes in FN density, and substrate topography all affected the fraction of cells exhibiting these behaviours. We use these observations as constraints to test a sequence of hypotheses for how intracellular (GTPase) and ECM signaling jointly regulate lamellipodial dynamics. The models encoding these hypotheses are predicated on mutually antagonistic Rac-Rho signaling, Rac-mediated protrusion (via activation of Arp2/3 actin nucleation) and Rho-mediated contraction (via ROCK phosphorylation of myosin light chain), which are coupled to ECM signaling that is modulated by protrusion/contraction. By testing each model against experimental observations, we identify how the signaling layers interact to generate the diverse range of cell behaviors, and how various molecular perturbations and changes in ECM signaling modulate the fraction of cells exhibiting each. We identify several factors that play distinct but critical roles in generating the observed dynamic: (1) competition between lamellipodia for shared pools of Rac and Rho, (2) activation of RhoA by ECM signaling, and (3) feedback from lamellipodial growth or contraction to cell-ECM contact area and therefore to the ECM signaling level.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/0dOY9je4PeE&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Leah Edelstein-Keshet</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Top-down control of cortical gamma-band communication via pulvinar induced phase shifts in the alpha rhythm</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/alHtK1rJtLs/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005519</id>
-		<updated>2017-05-04T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Silvan Quax, Ole Jensen, Paul Tiesinga&lt;/p&gt;
-
-Selective routing of information between cortical areas is required in order to combine different sources of information according to cognitive demand. Recent experiments have suggested that alpha band activity originating from the pulvinar coordinates this inter-areal cortical communication. Using a computer model we investigated whether top-down induced shifts in the relative alpha phase between two cortical areas could modulate cortical communication, quantified in terms of changes in gamma band coherence between them. The network model was comprised of two uni-directionally connected neuronal populations of spiking neurons, each representing a cortical area. We find that the phase difference of the alpha oscillations modulating the two neuronal populations strongly affected the interregional gamma-band neuronal coherence. We confirmed that a higher gamma band coherence also resulted in more efficient transmission of spiking information between cortical areas, thereby confirming the value of gamma coherence as a proxy for cortical information transmission. In a model where both neuronal populations were connected bi-directionally, the relative alpha phase determined the directionality of communication between the populations. Our results show the feasibility of a physiological realistic mechanism for routing information in the brain based on coupled oscillations. Our model results in a set of testable predictions regarding phase shifts in alpha oscillations under different task demands requiring quantification of neuronal oscillations in different regions in e.g. attention paradigms.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/alHtK1rJtLs&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Paul Tiesinga</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Ten simple rules to make the most out of your undergraduate research career</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/NIDaVURgpkg/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005484</id>
-		<updated>2017-05-04T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Megan Yu, Yu-Min Kuo&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/NIDaVURgpkg&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Yu-Min Kuo</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-05-18T16:53:38+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
 
@@ -6026,7 +6030,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -6046,7 +6050,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6066,7 +6070,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -6086,7 +6090,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -6106,7 +6110,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -6126,7 +6130,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-05-18T17:00:11+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -6146,7 +6150,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6292,7 +6296,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6311,7 +6315,7 @@ Selective routing of information between cortical areas is required in order to 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6332,7 +6336,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6352,7 +6356,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6372,7 +6376,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6392,7 +6396,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -6412,7 +6416,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6432,7 +6436,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -6452,7 +6456,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6472,7 +6476,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -6492,7 +6496,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6532,7 +6536,7 @@ Selective routing of information between cortical areas is required in order to 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6552,7 +6556,7 @@ Selective routing of information between cortical areas is required in order to 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6573,7 +6577,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6593,7 +6597,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6613,7 +6617,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -6633,7 +6637,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -6653,7 +6657,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6723,7 +6727,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6743,7 +6747,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6763,7 +6767,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6783,7 +6787,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6803,7 +6807,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -6823,7 +6827,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6863,7 +6867,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6882,7 +6886,7 @@ Selective routing of information between cortical areas is required in order to 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6903,7 +6907,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6923,7 +6927,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -6943,7 +6947,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6963,7 +6967,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6983,7 +6987,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7003,7 +7007,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7023,7 +7027,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7043,7 +7047,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7192,7 +7196,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7212,7 +7216,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/integrative-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7232,7 +7236,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7252,7 +7256,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7272,7 +7276,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7342,7 +7346,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7361,7 +7365,7 @@ Selective routing of information between cortical areas is required in order to 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -7401,7 +7405,7 @@ Selective routing of information between cortical areas is required in order to 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -7422,7 +7426,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7442,7 +7446,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7462,7 +7466,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7482,7 +7486,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7502,7 +7506,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7522,7 +7526,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7542,7 +7546,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7562,7 +7566,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -7582,7 +7586,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7602,7 +7606,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7622,7 +7626,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7661,7 +7665,7 @@ Selective routing of information between cortical areas is required in order to 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -7681,7 +7685,7 @@ Selective routing of information between cortical areas is required in order to 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -7701,7 +7705,7 @@ Selective routing of information between cortical areas is required in order to 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -7721,7 +7725,7 @@ Selective routing of information between cortical areas is required in order to 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -7742,7 +7746,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7762,7 +7766,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8345,7 +8349,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8365,7 +8369,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8385,7 +8389,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-05-18T17:00:07+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8405,7 +8409,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8425,7 +8429,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurogenesis</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8445,7 +8449,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -8464,7 +8468,7 @@ Selective routing of information between cortical areas is required in order to 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:13+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -8485,7 +8489,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8505,7 +8509,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8525,7 +8529,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8545,7 +8549,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8565,7 +8569,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8585,7 +8589,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8605,7 +8609,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-05-18T17:00:08+00:00</updated>
+			<updated>2017-05-18T23:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -8625,7 +8629,7 @@ Selective routing of information between cortical areas is required in order to 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-05-18T17:00:09+00:00</updated>
+			<updated>2017-05-18T23:00:11+00:00</updated>
 		</source>
 	</entry>
 
