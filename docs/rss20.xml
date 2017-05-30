@@ -16,6 +16,66 @@
   <source url="http://www.cell.com/trends/neurosciences/current.rss">Trends in Neurosciences</source>
 </item>
 <item>
+	<title>PLOS Computational Biology: New Articles: Adaptation towards scale-free dynamics improves cortical stimulus discrimination at the cost of reduced detection</title>
+	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005574</guid>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/y-WBl2q5n1Y/article</link>
+	<description>&lt;p&gt;by Wesley P. Clawson, Nathaniel C. Wright, Ralf Wessel, Woodrow L. Shew&lt;/p&gt;
+
+Fundamental to the function of nervous systems is the ability to reorganize to cope with changing sensory input. Although well-studied in single neurons, how such adaptive versatility manifests in the collective population dynamics and function of cerebral cortex remains unknown. Here we measured population neural activity with microelectrode arrays in turtle visual cortex while visually stimulating the retina. First, we found that, following the onset of stimulation, adaptation tunes the collective population dynamics towards a special regime with scale-free spatiotemporal activity, after an initial large-scale transient response. Concurrently, we observed an adaptive tradeoff between two important aspects of population coding–sensory detection and discrimination. As adaptation tuned the cortex toward scale-free dynamics, stimulus discrimination was enhanced, while stimulus detection was reduced. Finally, we used a network-level computational model to show that short-term synaptic depression was sufficient to mechanistically explain our experimental results. In the model, scale-free dynamics emerge only when the model operates near a special regime called criticality. Together our model and experimental results suggest unanticipated functional benefits and costs of adaptation near criticality in visual cortex.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/y-WBl2q5n1Y&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 21:00:00 +0000</pubDate>
+  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
+	<title>PLOS Computational Biology: New Articles: On the effects of alternative optima in context-specific metabolic model predictions</title>
+	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005568</guid>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/pjL5dHXjc0I/article</link>
+	<description>&lt;p&gt;by Semidán Robaina-Estévez, Zoran Nikoloski&lt;/p&gt;
+
+The integration of experimental data into genome-scale metabolic models can greatly improve flux predictions. This is achieved by restricting predictions to a more realistic context-specific domain, like a particular cell or tissue type. Several computational approaches to integrate data have been proposed—generally obtaining context-specific (sub)models or flux distributions. However, these approaches may lead to a multitude of equally valid but potentially different models or flux distributions, due to possible alternative optima in the underlying optimization problems. Although this issue introduces ambiguity in context-specific predictions, it has not been generally recognized, especially in the case of model reconstructions. In this study, we analyze the impact of alternative optima in four state-of-the-art context-specific data integration approaches, providing both flux distributions and/or metabolic models. To this end, we present three computational methods and apply them to two particular case studies: leaf-specific predictions from the integration of gene expression data in a metabolic model of &lt;i&gt;Arabidopsis thaliana&lt;/i&gt;, and liver-specific reconstructions derived from a human model with various experimental data sources. The application of these methods allows us to obtain the following results: (&lt;i&gt;i&lt;/i&gt;) we sample the space of alternative flux distributions in the leaf- and the liver-specific case and quantify the ambiguity of the predictions. In addition, we show how the inclusion of ℓ&lt;sub&gt;1&lt;/sub&gt;-regularization during data integration reduces the ambiguity in both cases. (&lt;i&gt;ii&lt;/i&gt;) We generate sets of alternative leaf- and liver-specific models that are optimal to each one of the evaluated model reconstruction approaches. We demonstrate that alternative models of the same context contain a marked fraction of disparate reactions. Further, we show that a careful balance between model sparsity and metabolic functionality helps in reducing the discrepancies between alternative models. Finally, our findings indicate that alternative optima must be taken into account for rendering the context-specific metabolic model predictions less ambiguous.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/pjL5dHXjc0I&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 21:00:00 +0000</pubDate>
+  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
+	<title>PLOS Computational Biology: New Articles: sourceR: Classification and source attribution of infectious agents among heterogeneous populations</title>
+	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005564</guid>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/Z3sFxwImY64/article</link>
+	<description>&lt;p&gt;by Poppy Miller, Jonathan Marshall, Nigel French, Chris Jewell&lt;/p&gt;
+
+Zoonotic diseases are a major cause of morbidity, and productivity losses in both human and animal populations. Identifying the source of food-borne zoonoses (e.g. an animal reservoir or food product) is crucial for the identification and prioritisation of food safety interventions. For many zoonotic diseases it is difficult to attribute human cases to sources of infection because there is little epidemiological information on the cases. However, microbial strain typing allows zoonotic pathogens to be categorised, and the relative frequencies of the strain types among the sources and in human cases allows inference on the likely source of each infection. We introduce sourceR, an R package for quantitative source attribution, aimed at food-borne diseases. It implements a Bayesian model using strain-typed surveillance data from both human cases and source samples, capable of identifying important sources of infection. The model measures the force of infection from each source, allowing for varying survivability, pathogenicity and virulence of pathogen strains, and varying abilities of the sources to act as vehicles of infection. A Bayesian non-parametric (Dirichlet process) approach is used to cluster pathogen strain types by epidemiological behaviour, avoiding model overfitting and allowing detection of strain types associated with potentially high “virulence”. sourceR is demonstrated using &lt;i&gt;Campylobacter jejuni&lt;/i&gt; isolate data collected in New Zealand between 2005 and 2008. Chicken from a particular poultry supplier was identified as the major source of campylobacteriosis, which is qualitatively similar to results of previous studies using the same dataset. Additionally, the software identifies a cluster of 9 multilocus sequence types with abnormally high ‘virulence’ in humans. sourceR enables straightforward attribution of cases of zoonotic infection to putative sources of infection. As sourceR develops, we intend it to become an important and flexible resource for food-borne disease attribution studies.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/Z3sFxwImY64&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 21:00:00 +0000</pubDate>
+  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
+	<title>PLOS Computational Biology: New Articles: Novel mRNA-specific effects of ribosome drop-off on translation rate and polysome profile</title>
+	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005555</guid>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/lbE6GjC4pk0/article</link>
+	<description>&lt;p&gt;by Pierre Bonnin, Norbert Kern, Neil T. Young, Ian Stansfield, M. Carmen Romano&lt;/p&gt;
+
+The well established phenomenon of ribosome drop-off plays crucial roles in translational accuracy and nutrient starvation responses during protein translation. When cells are under stress conditions, such as amino acid starvation or aminoacyl-tRNA depletion due to a high level of recombinant protein expression, ribosome drop-off can substantially affect the efficiency of protein expression. Here we introduce a mathematical model that describes the effects of ribosome drop-off on the ribosome density along the mRNA and on the concomitant protein synthesis rate. Our results show that ribosome premature termination may lead to non-intuitive ribosome density profiles, such as a ribosome density which increases from the 5’ to the 3’ end. Importantly, the model predicts that the effects of ribosome drop-off on the translation rate are mRNA-specific, and we quantify their resilience to drop-off, showing that the mRNAs which present ribosome queues are much less affected by ribosome drop-off than those which do not. Moreover, among those mRNAs that do not present ribosome queues, resilience to drop-off correlates positively with the elongation rate, so that sequences using fast codons are expected to be less affected by ribosome drop-off. This result is consistent with a genome-wide analysis of &lt;i&gt;S. cerevisiae&lt;/i&gt;, which reveals that under favourable growth conditions mRNAs coding for proteins involved in the translation machinery, known to be highly codon biased and using preferentially fast codons, are highly resilient to ribosome drop-off. Moreover, in physiological conditions, the translation rate of mRNAs coding for regulatory, stress-related proteins, is less resilient to ribosome drop-off. This model therefore allows analysis of variations in the translational efficiency of individual mRNAs by accounting for the full range of known ribosome behaviours, as well as explaining mRNA-specific variations in ribosome density emerging from ribosome profiling studies.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/lbE6GjC4pk0&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 21:00:00 +0000</pubDate>
+  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
+	<title>PLOS Computational Biology: New Articles: Dynamic decomposition of spatiotemporal neural signals</title>
+	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005540</guid>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/FYBhZcW3Uso/article</link>
+	<description>&lt;p&gt;by Luca Ambrogioni, Marcel A. J. van Gerven, Eric Maris&lt;/p&gt;
+
+Neural signals are characterized by rich temporal and spatiotemporal dynamics that reflect the organization of cortical networks. Theoretical research has shown how neural networks can operate at different dynamic ranges that correspond to specific types of information processing. Here we present a data analysis framework that uses a linearized model of these dynamic states in order to decompose the measured neural signal into a series of components that capture both rhythmic and non-rhythmic neural activity. The method is based on stochastic differential equations and Gaussian process regression. Through computer simulations and analysis of magnetoencephalographic data, we demonstrate the efficacy of the method in identifying meaningful modulations of oscillatory signals corrupted by structured temporal and spatiotemporal noise. These results suggest that the method is particularly suitable for the analysis and interpretation of complex temporal and spatiotemporal neural signals.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/FYBhZcW3Uso&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 21:00:00 +0000</pubDate>
+  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
+	<title>PLOS Computational Biology: New Articles: Hard real-time closed-loop electrophysiology with the Real-Time eXperiment Interface (RTXI)</title>
+	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005430</guid>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/n2swDY2Viss/article</link>
+	<description>&lt;p&gt;by Yogi A. Patel, Ansel George, Alan D. Dorval, John A. White, David J. Christini, Robert J. Butera&lt;/p&gt;
+
+The ability to experimentally perturb biological systems has traditionally been limited to static pre-programmed or operator-controlled protocols. In contrast, real-time control allows dynamic probing of biological systems with perturbations that are computed on-the-fly during experimentation. Real-time control applications for biological research are available; however, these systems are costly and often restrict the flexibility and customization of experimental protocols. The Real-Time eXperiment Interface (RTXI) is an open source software platform for achieving hard real-time data acquisition and closed-loop control in biological experiments while retaining the flexibility needed for experimental settings. RTXI has enabled users to implement complex custom closed-loop protocols in single cell, cell network, animal, and human electrophysiology studies. RTXI is also used as a free and open source, customizable electrophysiology platform in open-loop studies requiring online data acquisition, processing, and visualization. RTXI is easy to install, can be used with an extensive range of external experimentation and data acquisition hardware, and includes standard modules for implementing common electrophysiology protocols.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/n2swDY2Viss&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 21:00:00 +0000</pubDate>
+  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Online EEG-Based Workload Adaptation of an Arithmetic Learning Environment</title>
 	<guid isPermaLink="true">http://journal.frontiersin.org/article/10.3389/fnhum.2017.00286</guid>
 	<link>http://journal.frontiersin.org/article/10.3389/fnhum.2017.00286</link>
@@ -30,6 +90,166 @@
 	<description>Milena Damulewicz, Gabriella M.  Mazzotta, Elena Sartori, Ezio Rosato, Rodolfo Costa, Elzbieta M. Pyza</description>
 	<pubDate>Tue, 30 May 2017 17:00:08 +0000</pubDate>
   <source url="http://journal.frontiersin.org/journal/molecular-neuroscience/rss">Frontiers in Molecular Neuroscience | New and Recent Articles</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Correction for Dash et al., Apogossypol derivative BI-97C1 (Sabutoclax) targeting Mcl-1 sensitizes prostate cancer cells to mda-7/IL-24-mediated toxicity [Correction]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4522.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/jw-CzvzI6_w/E4522.short</link>
+	<description>MEDICAL SCIENCES Correction for “Apogossypol derivative BI-97C1 (Sabutoclax) targeting Mcl-1 sensitizes prostate cancer cells to mda-7/IL-24–mediated toxicity,” by Rupesh Dash, Belal Azab, Bridget A. Quinn, Xuening Shen, Xiang-Yang Wang, Swadesh K. Das, Mohamed Rahmani, Jun Wei, Michael Hedvat, Paul Dent, Igor P. Dmitriev, David T. Curiel, Steven Grant, Bainan Wu,...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/jw-CzvzI6_w&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Correction for Pivkin et al., Biomechanics of red blood cells in human spleen and consequences for physiology and disease [Correction]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4521.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/YQ96E0Qb7oY/E4521.short</link>
+	<description>BIOPHYSICS AND COMPUTATIONAL BIOLOGY, ENGINEERING Correction for “Biomechanics of red blood cells in human spleen and consequences for physiology and disease,” by Igor V. Pivkin, Zhangli Peng, George E. Karniadakis, Pierre A. Buffet, Ming Dao, and Subra Suresh, which appeared in issue 28, July 12, 2016, of Proc Natl Acad...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/YQ96E0Qb7oY&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Correction for Andersson et al., Effect of cholesterol on the molecular structure and transitions in a clinical-grade lung surfactant extract [Correction]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4520.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/WSN3NLJlGwE/E4520.short</link>
+	<description>CHEMISTRY, BIOPHYSICS AND COMPUTATIONAL BIOLOGY Correction for “Effect of cholesterol on the molecular structure and transitions in a clinical-grade lung surfactant extract,” by Jenny Marie Andersson, Carl Gray, Marcus Larsson, Tiago Mendes Ferreira, and Emma Sparr, which appeared in issue 18, May 2, 2017, of Proc Natl Acad Sci USA...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/WSN3NLJlGwE&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Critical roles of DNA demethylation in the activation of ripening-induced genes and inhibition of ripening-repressed genes in tomato fruit [Plant Biology]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4511.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/DxkDahmZkpA/E4511.short</link>
+	<description>DNA methylation is a conserved epigenetic mark important for genome integrity, development, and environmental responses in plants and mammals. Active DNA demethylation in plants is initiated by a family of 5-mC DNA glycosylases/lyases (i.e., DNA demethylases). Recent reports suggested a role of active DNA demethylation in fruit ripening in tomato....&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/DxkDahmZkpA&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Development of visual category selectivity in ventral visual cortex does not require visual experience [Neuroscience]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4501.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/yIcKGxmjgpU/E4501.short</link>
+	<description>To what extent does functional brain organization rely on sensory input? Here, we show that for the penultimate visual-processing region, ventral-temporal cortex (VTC), visual experience is not the origin of its fundamental organizational property, category selectivity. In the fMRI study reported here, we presented 14 congenitally blind participants with face-,...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/yIcKGxmjgpU&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Thiophene antibacterials that allosterically stabilize DNA-cleavage complexes with DNA gyrase [Microbiology]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4492.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/xg_3dFZT9cs/E4492.short</link>
+	<description>A paucity of novel acting antibacterials is in development to treat the rising threat of antimicrobial resistance, particularly in Gram-negative hospital pathogens, which has led to renewed efforts in antibiotic drug discovery. Fluoroquinolones are broad-spectrum antibacterials that target DNA gyrase by stabilizing DNA-cleavage complexes, but their clinical utility has been...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/xg_3dFZT9cs&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Embryonic transcription factor SOX9 drives breast cancer endocrine resistance [Medical Sciences]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4482.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/v76iAVwfO9k/E4482.short</link>
+	<description>The estrogen receptor (ER) drives the growth of most luminal breast cancers and is the primary target of endocrine therapy. Although ER blockade with drugs such as tamoxifen is very effective, a major clinical limitation is the development of endocrine resistance especially in the setting of metastatic disease. Preclinical and...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/v76iAVwfO9k&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Involvement of a gut-retina axis in protection against dietary glycemia-induced age-related macular degeneration [Medical Sciences]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4472.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/wA-wltAbO0U/E4472.short</link>
+	<description>Age-related macular degeneration (AMD) is the major cause of blindness in developed nations. AMD is characterized by retinal pigmented epithelial (RPE) cell dysfunction and loss of photoreceptor cells. Epidemiologic studies indicate important contributions of dietary patterns to the risk for AMD, but the mechanisms relating diet to disease remain unclear....&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/wA-wltAbO0U&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Probing the lithium-response pathway in hiPSCs implicates the phosphoregulatory set-point for a cytoskeletal modulator in bipolar pathogenesis [Medical Sciences]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4462.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/XJIj9jdZ598/E4462.short</link>
+	<description>The molecular pathogenesis of bipolar disorder (BPD) is poorly understood. Using human-induced pluripotent stem cells (hiPSCs) to unravel such mechanisms in polygenic diseases is generally challenging. However, hiPSCs from BPD patients responsive to lithium offered unique opportunities to discern lithium's target and hence gain molecular insight into BPD. By profiling...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/XJIj9jdZ598&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Loss of the homologous recombination gene rad51 leads to Fanconi anemia-like symptoms in zebrafish [Genetics]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4452.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/CXt-kNXqr9M/E4452.short</link>
+	<description>RAD51 is an indispensable homologous recombination protein, necessary for strand invasion and crossing over. It has recently been designated as a Fanconi anemia (FA) gene, following the discovery of two patients carrying dominant-negative mutations. FA is a hereditary DNA-repair disorder characterized by various congenital abnormalities, progressive bone marrow failure, and...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/CXt-kNXqr9M&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Alterations in cellular metabolism triggered by URA7 or GLN3 inactivation cause imbalanced dNTP pools and increased mutagenesis [Genetics]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4442.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/TTagoS8aufc/E4442.short</link>
+	<description>Eukaryotic DNA replication fidelity relies on the concerted action of DNA polymerase nucleotide selectivity, proofreading activity, and DNA mismatch repair (MMR). Nucleotide selectivity and proofreading are affected by the balance and concentration of deoxyribonucleotide (dNTP) pools, which are strictly regulated by ribonucleotide reductase (RNR). Mutations preventing DNA polymerase proofreading activity...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/TTagoS8aufc&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Long-read sequencing uncovers the adaptive topography of a carnivorous plant genome [Evolution]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4435.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/8vUS5DCreCQ/E4435.short</link>
+	<description>Utricularia gibba, the humped bladderwort, is a carnivorous plant that retains a tiny nuclear genome despite at least two rounds of whole genome duplication (WGD) since common ancestry with grapevine and other species. We used a third-generation genome assembly with several complete chromosomes to reconstruct the two most recent lineage-specific...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/8vUS5DCreCQ&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Spatially restricted dental regeneration drives pufferfish beak development [Evolution]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4425.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/tce6iB79OY8/E4425.short</link>
+	<description>Vertebrate dentitions are extraordinarily diverse in both morphology and regenerative capacity. The teleost order Tetraodontiformes exhibits an exceptional array of novel dental morphologies, epitomized by constrained beak-like dentitions in several families, i.e., porcupinefishes, three-toothed pufferfishes, ocean sunfishes, and pufferfishes. Modification of tooth replacement within these groups leads to the progressive...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/tce6iB79OY8&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Control of metastatic niche formation by targeting APBA3/Mint3 in inflammatory monocytes [Cell Biology]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4416.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/ekbV_YBEARo/E4416.short</link>
+	<description>Cancer metastasis is intricately orchestrated by both cancer and normal cells, such as endothelial cells and macrophages. Monocytes/macrophages, which are often co-opted by cancer cells and promote tumor malignancy, acquire more than half of their energy from glycolysis even during normoxic conditions. This glycolytic activity is maintained during normoxia by...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/ekbV_YBEARo&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Direct observation of structure and dynamics during phase separation of an elastomeric protein [Biophysics and Computational Biology]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4408.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/lpEEXPobmlw/E4408.short</link>
+	<description>Despite its growing importance in biology and in biomaterials development, liquid–liquid phase separation of proteins remains poorly understood. In particular, the molecular mechanisms underlying simple coacervation of proteins, such as the extracellular matrix protein elastin, have not been reported. Coacervation of the elastin monomer, tropoelastin, in response to heat and...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/lpEEXPobmlw&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Translation and folding of single proteins in real time [Biophysics and Computational Biology]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4399.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/HBMHMzTB8Co/E4399.short</link>
+	<description>Protein biosynthesis is inherently coupled to cotranslational protein folding. Folding of the nascent chain already occurs during synthesis and is mediated by spatial constraints imposed by the ribosomal exit tunnel as well as self-interactions. The polypeptide’s vectorial emergence from the ribosomal tunnel establishes the possible folding pathways leading to its...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/HBMHMzTB8Co&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Kinematics of the lever arm swing in myosin VI [Biophysics and Computational Biology]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4389.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/JJLJDAaKeTU/E4389.short</link>
+	<description>Myosin VI (MVI) is the only known member of the myosin superfamily that, upon dimerization, walks processively toward the pointed end of the actin filament. The leading head of the dimer directs the trailing head forward with a power stroke, a conformational change of the motor domain exaggerated by the...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/JJLJDAaKeTU&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Ubiquitin- and ATP-dependent unfoldase activity of P97/VCP•NPLOC4•UFD1L is enhanced by a mutation that causes multisystem proteinopathy [Biochemistry]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4380.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/yMXPeM5sLT8/E4380.short</link>
+	<description>p97 is a “segregase” that plays a key role in numerous ubiquitin (Ub)-dependent pathways such as ER-associated degradation. It has been hypothesized that p97 extracts proteins from membranes or macromolecular complexes to enable their proteasomal degradation; however, the complex nature of p97 substrates has made it difficult to directly observe...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/yMXPeM5sLT8&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Control of Hsp90 chaperone and its clients by N-terminal acetylation and the N-end rule pathway [Biochemistry]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4370.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/lwudiFYZLHw/E4370.short</link>
+	<description>We found that the heat shock protein 90 (Hsp90) chaperone system of the yeast Saccharomyces cerevisiae is greatly impaired in naa10Δ cells, which lack the NatA Nα-terminal acetylase (Nt-acetylase) and therefore cannot N-terminally acetylate a majority of normally N-terminally acetylated proteins, including Hsp90 and most of its cochaperones. Chk1, a...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/lwudiFYZLHw&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: EHD2 restrains dynamics of caveolae by an ATP-dependent, membrane-bound, open conformation [Biochemistry]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/114/22/E4360.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/CgbZOYsK-ps/E4360.short</link>
+	<description>The EH-domain–containing protein 2 (EHD2) is a dynamin-related ATPase that confines caveolae to the cell surface by restricting the scission and subsequent endocytosis of these membrane pits. For this, EHD2 is thought to first bind to the membrane, then to oligomerize, and finally to detach, in a stringently regulated mechanistic...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/CgbZOYsK-ps&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 30 May 2017 16:39:12 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
 </item>
 <item>
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Differential Functional Connectivity Alterations of Two Subdivisions within the Right dlPFC in Parkinson's Disease</title>
@@ -311,6 +531,22 @@ nanoscale.
   <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
 </item>
 <item>
+	<title>bioRxiv Subject Collection: Neuroscience: Monocyte-Lymphocyte Cross-Communication Via Soluble CD163 Directly Links Innate Immune System Activation And Adaptive Immune System Suppression Following Ischemic Stroke</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/144063v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/144063v1?rss=1</link>
+	<description>CD163 is a scavenger receptor expressed on innate immune cell populations which can be shed from the plasma membrane via the metalloprotease ADAM17 to generate a soluble peptide with lympho-inhibitory properties. The purpose of this study was to investigate CD163 as a possible effector of stroke-induced adaptive immune system suppression. Liquid biopsies were collected from ischemic stroke patients (n=39), neurologically asymptomatic controls (n=20), and stroke mimics (n=20) within 24 hours of symptom onset. Peripheral blood ADAM17 activity and soluble CD163 levels were elevated in stroke patients relative to non-stroke control groups, and negatively associated with post-stroke lymphocyte counts. Subsequent in vitro experiments suggested that this stroke-induced elevation in circulating soluble CD163 likely originates from activated monocytic cells, as serum from stroke patients stimulated ADAM17-dependant CD163 shedding from healthy donor-derived monocytes. Additional in vitro experiments demonstrated that stroke-induced elevations in circulating soluble CD163 can elicit direct suppressive effects on the adaptive immune system, as serum from stroke patients inhibited the proliferation of healthy donor-derived lymphocytes, an effect which was attenuated following serum CD163 depletion. Collectively, these observations provide novel evidence that the innate immune system employs protective mechanisms aimed at mitigating the risk of post-stroke autoimmune complications driven by adaptive immune system overactivation, and that CD163 is key mediator of this phenomenon.</description>
+	<pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: Local Signal Processing In Mouse Horizontal Cell Dendrites</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/143909v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/143909v1?rss=1</link>
+	<description>The mouse retina contains a single type of horizontal cell, a GABAergic interneuron that samples from all cone photoreceptors within reach and modulates their glutamatergic output via parallel feedback mechanisms. Because horizontal cells form an electrically-coupled network, they have been implicated in global signal processing, such as large scale contrast enhancement. Recently, it has been proposed that horizontal cells can also act locally at the level of individual cone photoreceptor axon terminals. To test this possibility physiologically, we used two-photon microscopy to record light-evoked Ca2+ signals in cone axon terminals and horizontal cell dendrites as well as glutamate release in the outer plexiform layer. By selectively stimulating the two mouse cone opsins with green and UV light, we assessed whether signals from individual cones remain &quot;isolated&quot; within horizontal cell dendritic tips, or whether they spread across the dendritic arbour. Consistent with the mouse's opsin expression gradient, we found that light responses recorded from dendrites of dorsal horizontal cells were dominated by M- and those of ventral horizontal cells by S-opsin activation. Light responses measured in neighbouring horizontal cell dendritic tips varied markedly in their chromatic preference, arguing against global processing. Rather, our data support the idea that horizontal cells can process cone input locally, extending the &quot;classical&quot; view of horizontal cells function. Pharmacologically removing horizontal cells from the circuitry reduced the sensitivity of the cone signal to low frequencies, suggesting that local horizontal cell feedback shapes the temporal properties of cone output.</description>
+	<pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
 	<title>bioRxiv Subject Collection: Neuroscience: Different Brain Networks Underlying Intelligence In Autism Spectrum Disorders And Typically Developing Children</title>
 	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/143891v1?rss=1</guid>
 	<link>http://biorxiv.org/cgi/content/short/143891v1?rss=1</link>
@@ -327,10 +563,26 @@ nanoscale.
   <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
 <item>
+	<title>bioRxiv Subject Collection: Neuroscience: Precentral Gyrus Abnormal Connectivity In Male And Female Schizophrenia Patients</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/143768v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/143768v1?rss=1</link>
+	<description>The present study demonstrates the Precentral gyrus (PreCG) alteration and its abnormal connectivities in Schizophrenia (SCH) patients. The resting-sate functional magnetic resonance imaging (rs-fMRI) data of healthy control subjects and SCH patients (Centre for Biomedical Research Excellence data set) are used to examine the aberrant functional brain connectome in SCH which contains raw anatomical and functional MR data from 72 patients with Schizophrenia and 75 healthy controls, ranging in age from 18 to 65 years old. Our results show that PreCG has abnormal communication with Thalamus, Hippocampus, Parahippocampal Gyrus (pPaHC), posterior division of Supramarginal Gyrus (pSMG) and medial prefrontal cortex (mPFC) (p-FDR=0.05).</description>
+	<pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
 	<title>bioRxiv Subject Collection: Neuroscience: Prediction (Or Not) During Language Processing. A Commentary On Nieuwland et al. (2017) And Delong et al. (2005)</title>
 	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/143750v1?rss=1</guid>
 	<link>http://biorxiv.org/cgi/content/short/143750v1?rss=1</link>
 	<description>The extent to which language processing involves prediction of upcoming inputs remains a question of ongoing debate. One important data point comes from DeLong et al. (2005) who reported that an N400-like event-related potential correlated with a probabilistic index of upcoming input. This result is often cited as evidence for gradient probabilistic prediction of form and/or semantics, prior to the bottom-up input becoming available. However, a recent multi-lab study reports a failure to find these effects (Nieuwland et al., 2017). We review the evidence from both studies, including differences in the design and analysis approach between them. Building on over a decade of research on prediction since DeLong et al. (2005)'s original study, we also begin to spell out the computational nature of predictive processes that one might expect to correlate with ERPs that are evoked by a functional element whose form is dependent on an upcoming predicted word. For paradigms with this type of design, we propose an index of anticipatory processing, Bayesian surprise, and apply it to the updating of semantic predictions. We motivate this index both theoretically and empirically. We show that, for studies of the type discussed here, Bayesian surprise can be closely approximated by another, more easily estimated information theoretic index, the surprisal (or Shannon information) of the input. We re-analyze the data from Nieuwland and colleagues using surprisal rather than raw probabilities as an index of prediction. We find that surprisal is gradiently correlated with the amplitude of the N400, even in the data shared by Nieuwland and colleagues. Taken together, our review suggests that the evidence from both studies is compatible with anticipatory semantic processing. We do, however, emphasize the need for future studies to further clarify the nature and degree of form prediction, as well as its neural signatures, during language comprehension.</description>
+	<pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: Conserved Neural Circuit Structure Across Drosophila Larva Development Revealed By Comparative Connectomics</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/143727v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/143727v1?rss=1</link>
+	<description>Throughout an animal's postembryonic development, neuronal circuits must maintain appropriate output even as the body grows. The contribution of changes to circuit structure - neuronal morphology and synaptic connectivity - to postembryonic circuit development remains unclear. Here, we used new and existing serial section electron microscopy volumes to reconstruct and compare an identified nociceptive circuit in two Drosophila at early and late larval stages. We found extremely consistent, topographically-arranged circuit structure. Five-fold increases in size of interneurons were associated with compensatory structural changes that maintained cell-type-specific synaptic input as a fraction of total inputs. An increase in number of synaptic contacts was accompanied with a disproportionate increase in the number of small dendritic terminal branches relative to other neuronal compartments. We propose that these precise patterns of structural growth act to conserve the computational function of a circuit, for example determining the location of a nociceptive stimulus.</description>
 	<pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
   <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
@@ -1058,38 +1310,6 @@ size of the brain system to be analyzed, and the data length.
   <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
 <item>
-	<title>bioRxiv Subject Collection: Neuroscience: Mutations In Membrin/GOSR2 Reveal Stringent Secretory Pathway Demands Of Dendritic Growth And Synaptic Integrity</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/142679v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/142679v1?rss=1</link>
-	<description>Mutations in the Golgi SNARE protein Membrin (encoded by the GOSR2 gene) cause progressive myoclonus epilepsy (PME). Membrin is a ubiquitously important protein mediating ER-to-Golgi membrane fusion, and hence it is unclear how these mutations result in a disorder restricted to the nervous system. Here we use a multi-layered strategy to elucidate the consequences of Membrin mutations from protein to neuron. We show that the pathogenic mutations cause partial reductions in SNARE-mediated membrane fusion. Importantly, these alterations were sufficient to profoundly impair dendritic growth in novel Drosophila models of GOSR2-PME. We also observed axonal trafficking abnormalities in this model, as well as synaptic malformations, trans-synaptic instability and hyperactive synaptic transmission. Our study highlights how dendritic growth is vulnerable even to subtle secretory pathway deficits, uncovers a previously uncharacterized role for Membrin in synaptic function, and provides a comprehensive explanatory basis for genotype-phenotype relationships in GOSR2-PME.</description>
-	<pubDate>Fri, 26 May 2017 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: Modality-Independent Coding Of Concepts In Prefrontal Cortex</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/142562v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/142562v1?rss=1</link>
-	<description>Natural environments convey information through multiple sensory modalities, all of which contribute to our percepts. Although it has been shown that neural representations of visual content can be decoded from the visual cortex, it remains unclear where and how humans represent perceptual information at a conceptual level, not limited to a specific sensory modality. To address this question, we investigated how categories of scene images and sounds are represented in several brain regions. We found that both visual and auditory scene categories can be decoded not only from modality-specific areas, but also from several brain regions in the temporal, parietal, and prefrontal cortex. Intriguingly, only in the prefrontal cortex, but not in any other regions, categories of scene images and sounds appear to be represented in similar activation patterns, suggesting that scene representations in prefrontal cortex are modality-independent. Furthermore, the error patterns of neural decoders indicate that the category-specific neural activity patterns in the middle and superior frontal gyri are tightly linked to categorization behavior. Our findings suggest that complex visual information is represented at a conceptual level in prefrontal cortex, regardless of the sensory modality of the stimulus.</description>
-	<pubDate>Fri, 26 May 2017 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: Extensive Tonotopic Mapping Across Auditory Cortex Is Recapitulated By Spectrally-Directed Attention, And Systematically Related To Cortical Myeloarchitecture</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/142513v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/142513v1?rss=1</link>
-	<description>Auditory selective attention is vital in natural soundscapes. But, it is unclear how attentional focus on the primary dimension of auditory representation - acoustic frequency - might modulate basic auditory functional topography during active listening. In contrast to visual selective attention, which is supported by motor-mediated optimization of input across saccades and pupil dilation, the primate auditory system has fewer means of differentially sampling the world. This makes spectrally-directed endogenous attention a particularly crucial aspect of auditory attention. Using a novel functional paradigm combined with quantitative MRI, we establish that human frequency-band-selective attention drives activation in both myeloarchitectonically-estimated auditory core, and across the majority of tonotopically-mapped non-primary auditory cortex. The attentionally-driven best-frequency maps show strong concordance with sensory-driven maps in the same subjects across much of the temporal plane, with poor concordance in non-auditory areas. There is significantly greater activation across most of auditory cortex when best frequency is attended, versus ignored. Moreover, the single frequency bands that evoke the least activation and the frequency bands that elicit the least activation when attention is directed to them also correspond closely. Finally, the results demonstrate that there is spatial correspondence between the degree of myelination and the strength of the tonotopic signal across a number of regions in auditory cortex. Strong frequency preferences across tonotopically-mapped auditory cortex spatially correlate with R1-estimated myeloarchitecture, indicating shared functional and anatomical organization that may underlie intrinsic auditory regionalization.</description>
-	<pubDate>Fri, 26 May 2017 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: A Possible Role Of Microglia In Zika Virus Infection Of The Fetal Human Brain</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/142497v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/142497v1?rss=1</link>
-	<description>Maternal Zika virus (ZIKV) infection during pregnancy is increasingly recognized as the cause of an epidemic of microcephaly and other neurological anomalies in human fetuses. However, it remains unclear how ZIKV gains access to the highly vulnerable population of neural progenitors of the fetal central nervous system (CNS), and which cell types of the CNS may serve as viral reservoirs. To model viral interaction with cells of the fetal CNS in vitro, we investigated the tropism of ZIKV for different iPS-derived human cells, with a particular focus on microglia-like cells derived from human pluripotent stem cells. We show that ZIKV infected isogenic neural progenitors, astrocytes and microglia-like cells, but was only cytotoxic to neural progenitors. Infected glial cells propagated the virus and maintained viral load over time, leading to viral spread to susceptible cells. ZIKV-infected microglia, when co-cultured with pre-established neural spheroids, invaded the tissue and initiated neural infection. Since microglia derive from primitive macrophages originating in anatomical proximity to the maternal vasculature of the placenta, we propose that they may act in vivo as a viral reservoir for ZIKV and, owing to their natural ability to traverse the embryo, can establish infection of the fetal brain. Infection of immature neural stem cells by invading microglia may occur in the early stages of pregnancy, before vascular circulation is established. Our data are also consistent with the virus affecting the integrity of the blood-brain barrier (BBB), which may allow infection of the brain at later stages.</description>
-	<pubDate>Fri, 26 May 2017 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
 	<title>PLOS Computational Biology: New Articles: ROTS: An R package for reproducibility-optimized statistical testing</title>
 	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005562</guid>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/DYXIcc0UsEg/article</link>
@@ -1739,166 +1959,6 @@ Chromosomal organization in 3D plays a central role in regulating cell-type spec
   <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
 </item>
 <item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Correction for Xu et al., BCL6 promotes glioma and serves as a therapeutic target [Correction]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4317.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/OpMOARC9pzE/E4317.short</link>
-	<description>MEDICAL SCIENCES Correction for “BCL6 promotes glioma and serves as a therapeutic target,” by Liang Xu, Ye Chen, Marina Dutra-Clarke, Anand Mayakonda, Masaharu Hazawa, Steve E. Savinoff, Ngan Doan, Jonathan W. Said, William H. Yong, Ashley Watkins, Henry Yang, Ling-Wen Ding, Yan-Yi Jiang, Jeffrey W. Tyner, Jianhong Ching, Jean-Paul Kovalik,...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/OpMOARC9pzE&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Correction for Zastrow, News Feature: Is video game addiction really an addiction? [Correction]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4316.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/jAZx30BdMCQ/E4316.short</link>
-	<description>NEWS FEATURE Correction for “News Feature: Is video game addiction really an addiction?” by Mark Zastrow, which appeared in issue 17, April 25, 2017, of Proc Natl Acad Sci USA (114:4268–4272; 10.1073/pnas.1705077114). The editors note that Tae Kyung Lee was originally misidentified as a psychologist and should be identified as...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/jAZx30BdMCQ&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: The wisdom of crowds for visual search [Psychological and Cognitive Sciences]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4306.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/7OhWq3EXPw4/E4306.short</link>
-	<description>Decision-making accuracy typically increases through collective integration of people’s judgments into group decisions, a phenomenon known as the wisdom of crowds. For simple perceptual laboratory tasks, classic signal detection theory specifies the upper limit for collective integration benefits obtained by weighted averaging of people’s confidences, and simple majority voting can...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/7OhWq3EXPw4&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Chromosome-level genome assembly and transcriptome of the green alga Chromochloris zofingiensis illuminates astaxanthin production [Plant Biology]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4296.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/6APXO17cJPY/E4296.short</link>
-	<description>Microalgae have potential to help meet energy and food demands without exacerbating environmental problems. There is interest in the unicellular green alga Chromochloris zofingiensis, because it produces lipids for biofuels and a highly valuable carotenoid nutraceutical, astaxanthin. To advance understanding of its biology and facilitate commercial development, we present a...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/6APXO17cJPY&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Exclusion of alternative exon 33 of CaV1.2 calcium channels in heart is proarrhythmogenic [Physiology]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4288.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/k4aRb9NEV0A/E4288.short</link>
-	<description>Alternative splicing changes the CaV1.2 calcium channel electrophysiological property, but the in vivo significance of such altered channel function is lacking. Structure–function studies of heterologously expressed CaV1.2 channels could not recapitulate channel function in the native milieu of the cardiomyocyte. To address this gap in knowledge, we investigated the role...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/k4aRb9NEV0A&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Common general anesthetic propofol impairs kinesin processivity [Pharmacology]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4281.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/6YI1wMNdRlA/E4281.short</link>
-	<description>Propofol is the most widely used i.v. general anesthetic to induce and maintain anesthesia. It is now recognized that this small molecule influences ligand-gated channels, including the GABAA receptor and others. Specific propofol binding sites have been mapped using photoaffinity ligands and mutagenesis; however, their precise target interaction profiles fail...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/6YI1wMNdRlA&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Maturation arrest in early postnatal sensory receptors by deletion of the miR-183/96/182 cluster in mouse [Neuroscience]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4271.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/YWijbVycfOc/E4271.short</link>
-	<description>The polycistronic miR-183/96/182 cluster is preferentially and abundantly expressed in terminally differentiating sensory epithelia. To clarify its roles in the terminal differentiation of sensory receptors in vivo, we deleted the entire gene cluster in mouse germline through homologous recombination. The miR-183/96/182 null mice display impairment of the visual, auditory, vestibular,...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/YWijbVycfOc&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: mTORC1 promotes proliferation of immature Schwann cells and myelin growth of differentiated Schwann cells [Neuroscience]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4261.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/63YK4ulrnBQ/E4261.short</link>
-	<description>The myelination of axons in peripheral nerves requires precisely coordinated proliferation and differentiation of Schwann cells (SCs). We found that the activity of the mechanistic target of rapamycin complex 1 (mTORC1), a key signaling hub for the regulation of cellular growth and proliferation, is progressively extinguished as SCs differentiate during...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/63YK4ulrnBQ&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Coronavirus nonstructural protein 15 mediates evasion of dsRNA sensors and limits apoptosis in macrophages [Microbiology]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4251.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/pz4VSzglF1c/E4251.short</link>
-	<description>Coronaviruses are positive-sense RNA viruses that generate double-stranded RNA (dsRNA) intermediates during replication, yet evade detection by host innate immune sensors. Here we report that coronavirus nonstructural protein 15 (nsp15), an endoribonuclease, is required for evasion of dsRNA sensors. We evaluated two independent nsp15 mutant mouse coronaviruses, designated N15m1 and...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/pz4VSzglF1c&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Hypoxia treatment reverses neurodegenerative disease in a mouse model of Leigh syndrome [Medical Sciences]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4241.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/8AZkM5YSqMQ/E4241.short</link>
-	<description>The most common pediatric mitochondrial disease is Leigh syndrome, an episodic, subacute neurodegeneration that can lead to death within the first few years of life, for which there are no proven general therapies. Mice lacking the complex I subunit, Ndufs4, develop a fatal progressive encephalopathy resembling Leigh syndrome and die...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/8AZkM5YSqMQ&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Erythritol is a pentose-phosphate pathway metabolite and associated with adiposity gain in young adults [Medical Sciences]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4233.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/3KJ9I10I97s/E4233.short</link>
-	<description>Metabolomic markers associated with incident central adiposity gain were investigated in young adults. In a 9-mo prospective study of university freshmen (n = 264). Blood samples and anthropometry measurements were collected in the first 3 d on campus and at the end of the year. Plasma from individuals was pooled...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/3KJ9I10I97s&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Structural basis for cancer immunotherapy by the first-in-class checkpoint inhibitor ipilimumab [Immunology and Inflammation]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4223.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/bTa-SJ2PFQE/E4223.short</link>
-	<description>Rational modulation of the immune response with biologics represents one of the most promising and active areas for the realization of new therapeutic strategies. In particular, the use of function blocking monoclonal antibodies targeting checkpoint inhibitors such as CTLA-4 and PD-1 have proven to be highly effective for the systemic...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/bTa-SJ2PFQE&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Aggregation of thrombin-derived C-terminal fragments as a previously undisclosed host defense mechanism [Immunology and Inflammation]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4213.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/trTElnH-FQM/E4213.short</link>
-	<description>Effective control of endotoxins and bacteria is crucial for normal wound healing. During injury, the key enzyme thrombin is formed, leading to generation of fibrin. Here, we show that human neutrophil elastase cleaves thrombin, generating 11-kDa thrombin-derived C-terminal peptides (TCPs), which bind to and form amorphous amyloid-like aggregates with both...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/trTElnH-FQM&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Selective targeting of point-mutated KRAS through artificial microRNAs [Genetics]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4203.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/W3HpqR3qzjw/E4203.short</link>
-	<description>Mutated protein-coding genes drive the molecular pathogenesis of many diseases, including cancer. Specifically, mutated KRAS is a documented driver for malignant transformation, occurring early during the pathogenesis of cancers such as lung and pancreatic adenocarcinomas. Therapeutically, the indiscriminate targeting of wild-type and point-mutated transcripts represents an important limitation. Here, we...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/W3HpqR3qzjw&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Hsp104 disaggregase at normal levels cures many [PSI+] prion variants in a process promoted by Sti1p, Hsp90, and Sis1p [Genetics]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4193.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/E2pBamOInzg/E4193.short</link>
-	<description>Overproduction or deficiency of many chaperones and other cellular components cure the yeast prions [PSI+] (formed by Sup35p) or [URE3] (based on Ure2p). However, at normal expression levels, Btn2p and Cur1p eliminate most newly arising [URE3] variants but do not cure [PSI+], even after overexpression. Deficiency or overproduction of Hsp104...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/E2pBamOInzg&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Ectopic protein interactions within BRD4-chromatin complexes drive oncogenic megadomain formation in NUT midline carcinoma [Genetics]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4184.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/EspMsfbQfkA/E4184.short</link>
-	<description>To investigate the mechanism that drives dramatic mistargeting of active chromatin in NUT midline carcinoma (NMC), we have identified protein interactions unique to the BRD4–NUT fusion oncoprotein compared with wild-type BRD4. Using cross-linking, affinity purification, and mass spectrometry, we identified the EP300 acetyltransferase as uniquely associated with BRD4 through the...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/EspMsfbQfkA&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Dynamic microtubules regulate cellular contractility during T-cell activation [Cell Biology]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4175.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/JUVPGUcat1A/E4175.short</link>
-	<description>T-cell receptor (TCR) triggering and subsequent T-cell activation are essential for the adaptive immune response. Recently, multiple lines of evidence have shown that force transduction across the TCR complex is involved during TCR triggering, and that the T cell might use its force-generation machinery to probe the mechanical properties of...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/JUVPGUcat1A&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Atypical interactions of integrin {alpha}V{beta}8 with pro-TGF-{beta}1 [Biophysics and Computational Biology]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4168.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/sfUdw8IKP0w/E4168.short</link>
-	<description>Integrins αVβ6 and αVβ8 are specialized for recognizing pro-TGF-β and activating its growth factor by releasing it from the latency imposed by its surrounding prodomain. The integrin αVβ8 is atypical among integrins in lacking sites in its cytoplasmic domain for binding to actin cytoskeleton adaptors. Here, we examine αVβ8 for...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/sfUdw8IKP0w&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: String method solution of the gating pathways for a pentameric ligand-gated ion channel [Biophysics and Computational Biology]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4158.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/Z8c7QycK56I/E4158.short</link>
-	<description>Pentameric ligand-gated ion channels control synaptic neurotransmission by converting chemical signals into electrical signals. Agonist binding leads to rapid signal transduction via an allosteric mechanism, where global protein conformational changes open a pore across the nerve cell membrane. We use all-atom molecular dynamics with a swarm-based string method to solve...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/Z8c7QycK56I&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Fold-change detection and scale invariance of cell-cell signaling in social amoeba [Biophysics and Computational Biology]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/114/21/E4149.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/G89r6WMlDMQ/E4149.short</link>
-	<description>Cell–cell signaling is subject to variability in the extracellular volume, cell number, and dilution that potentially increase uncertainty in the absolute concentrations of the extracellular signaling molecules. To direct cell aggregation, the social amoebae Dictyostelium discoideum collectively give rise to oscillations and waves of cyclic adenosine 3′,5′-monophosphate (cAMP) under a...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/G89r6WMlDMQ&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 23 May 2017 19:19:04 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Looking for the Self: Phenomenology, Neurophysiology and Philosophical Significance of Drug-induced Ego Dissolution</title>
 	<guid isPermaLink="true">http://journal.frontiersin.org/article/10.3389/fnhum.2017.00245</guid>
 	<link>http://journal.frontiersin.org/article/10.3389/fnhum.2017.00245</link>
@@ -2458,38 +2518,6 @@ Ultrafast spectroscopy offers temporal resolution for probing processes in the f
   <source url="http://journal.frontiersin.org/journal/neuroanatomy/rss">Frontiers in Neuroanatomy | New and Recent Articles</source>
 </item>
 <item>
-	<title>PLOS Computational Biology: New Articles: Automatically tracking neurons in a moving and deforming brain</title>
-	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005517</guid>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/zRAXjBpewI8/article</link>
-	<description>&lt;p&gt;by Jeffrey P. Nguyen, Ashley N. Linder, George S. Plummer, Joshua W. Shaevitz, Andrew M. Leifer&lt;/p&gt;
-
-Advances in optical neuroimaging techniques now allow neural activity to be recorded with cellular resolution in awake and behaving animals. Brain motion in these recordings pose a unique challenge. The location of individual neurons must be tracked in 3D over time to accurately extract single neuron activity traces. Recordings from small invertebrates like &lt;i&gt;C. elegans&lt;/i&gt; are especially challenging because they undergo very large brain motion and deformation during animal movement. Here we present an automated computer vision pipeline to reliably track populations of neurons with single neuron resolution in the brain of a freely moving &lt;i&gt;C. elegans&lt;/i&gt; undergoing large motion and deformation. 3D volumetric fluorescent images of the animal’s brain are straightened, aligned and registered, and the locations of neurons in the images are found via segmentation. Each neuron is then assigned an identity using a new time-independent machine-learning approach we call Neuron Registration Vector Encoding. In this approach, non-rigid point-set registration is used to match each segmented neuron in each volume with a set of reference volumes taken from throughout the recording. The way each neuron matches with the references defines a feature vector which is clustered to assign an identity to each neuron in each volume. Finally, thin-plate spline interpolation is used to correct errors in segmentation and check consistency of assigned identities. The Neuron Registration Vector Encoding approach proposed here is uniquely well suited for tracking neurons in brains undergoing large deformations. When applied to whole-brain calcium imaging recordings in freely moving &lt;i&gt;C. elegans&lt;/i&gt;, this analysis pipeline located 156 neurons for the duration of an 8 minute recording and consistently found more neurons more quickly than manual or semi-automated approaches.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/zRAXjBpewI8&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 18 May 2017 21:00:00 +0000</pubDate>
-  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
-</item>
-<item>
-	<title>PLOS Computational Biology: New Articles: Simultaneous inference of phylogenetic and transmission trees in infectious disease outbreaks</title>
-	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005495</guid>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/UKIrSUeOxbk/article</link>
-	<description>&lt;p&gt;by Don Klinkenberg, Jantien A. Backer, Xavier Didelot, Caroline Colijn, Jacco Wallinga&lt;/p&gt;
-
-Whole-genome sequencing of pathogens from host samples becomes more and more routine during infectious disease outbreaks. These data provide information on possible transmission events which can be used for further epidemiologic analyses, such as identification of risk factors for infectivity and transmission. However, the relationship between transmission events and sequence data is obscured by uncertainty arising from four largely unobserved processes: transmission, case observation, within-host pathogen dynamics and mutation. To properly resolve transmission events, these processes need to be taken into account. Recent years have seen much progress in theory and method development, but existing applications make simplifying assumptions that often break up the dependency between the four processes, or are tailored to specific datasets with matching model assumptions and code. To obtain a method with wider applicability, we have developed a novel approach to reconstruct transmission trees with sequence data. Our approach combines elementary models for transmission, case observation, within-host pathogen dynamics, and mutation, under the assumption that the outbreak is over and all cases have been observed. We use Bayesian inference with MCMC for which we have designed novel proposal steps to efficiently traverse the posterior distribution, taking account of all unobserved processes at once. This allows for efficient sampling of transmission trees from the posterior distribution, and robust estimation of consensus transmission trees. We implemented the proposed method in a new R package &lt;i&gt;phybreak&lt;/i&gt;. The method performs well in tests of both new and published simulated data. We apply the model to five datasets on densely sampled infectious disease outbreaks, covering a wide range of epidemiological settings. Using only sampling times and sequences as data, our analyses confirmed the original results or improved on them: the more realistic infection times place more confidence in the inferred transmission trees.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/UKIrSUeOxbk&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 18 May 2017 21:00:00 +0000</pubDate>
-  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
-</item>
-<item>
-	<title>PLOS Computational Biology: New Articles: Transcriptomics technologies</title>
-	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005457</guid>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/2WsdgJiNTtE/article</link>
-	<description>&lt;p&gt;by Rohan Lowe, Neil Shirley, Mark Bleackley, Stephen Dolan, Thomas Shafee&lt;/p&gt;
-
-Transcriptomics technologies are the techniques used to study an organism’s transcriptome, the sum of all of its RNA transcripts. The information content of an organism is recorded in the DNA of its genome and expressed through transcription. Here, mRNA serves as a transient intermediary molecule in the information network, whilst noncoding RNAs perform additional diverse functions. A transcriptome captures a snapshot in time of the total transcripts present in a cell.
-The first attempts to study the whole transcriptome began in the early 1990s, and technological advances since the late 1990s have made transcriptomics a widespread discipline. Transcriptomics has been defined by repeated technological innovations that transform the field. There are two key contemporary techniques in the field: microarrays, which quantify a set of predetermined sequences, and RNA sequencing (RNA-Seq), which uses high-throughput sequencing to capture all sequences.
-Measuring the expression of an organism’s genes in different tissues, conditions, or time points gives information on how genes are regulated and reveals details of an organism’s biology. It can also help to infer the functions of previously unannotated genes. Transcriptomic analysis has enabled the study of how gene expression changes in different organisms and has been instrumental in the understanding of human disease. An analysis of gene expression in its entirety allows detection of broad coordinated trends which cannot be discerned by more targeted assays.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/2WsdgJiNTtE&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 18 May 2017 21:00:00 +0000</pubDate>
-  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
-</item>
-<item>
 	<title>Frontiers in Neuroscience | Brain Imaging Methods section | New and Recent Articles: Graded Hypercapnia-Calibrated BOLD: Beyond the Iso-metabolic Hypercapnic Assumption</title>
 	<guid isPermaLink="true">http://journal.frontiersin.org/article/10.3389/fnins.2017.00276</guid>
 	<link>http://journal.frontiersin.org/article/10.3389/fnins.2017.00276</link>
@@ -2590,16 +2618,6 @@ Measuring the expression of an organism’s genes in different tissues, conditio
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nrn/rss/current/~4/4h5heU5V9Rw&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
   <source url="http://feeds.nature.com/nrn/rss/current">Nature Reviews Neuroscience - Issue - nature.com science feeds</source>
-</item>
-<item>
-	<title>PLOS Computational Biology: New Articles: Combining inferred regulatory and reconstructed metabolic networks enhances phenotype prediction in yeast</title>
-	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005489</guid>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/9DmSJoTlfGg/article</link>
-	<description>&lt;p&gt;by Zhuo Wang, Samuel A. Danziger, Benjamin D. Heavner, Shuyi Ma, Jennifer J. Smith, Song Li, Thurston Herricks, Evangelos Simeonidis, Nitin S. Baliga, John D. Aitchison, Nathan D. Price&lt;/p&gt;
-
-Gene regulatory and metabolic network models have been used successfully in many organisms, but inherent differences between them make networks difficult to integrate. Probabilistic Regulation Of Metabolism (PROM) provides a partial solution, but it does not incorporate network inference and underperforms in eukaryotes. We present an Integrated Deduced And Metabolism (IDREAM) method that combines statistically inferred Environment and Gene Regulatory Influence Network (EGRIN) models with the PROM framework to create enhanced metabolic-regulatory network models. We used IDREAM to predict phenotypes and genetic interactions between transcription factors and genes encoding metabolic activities in the eukaryote, &lt;i&gt;Saccharomyces cerevisiae&lt;/i&gt;. IDREAM models contain many fewer interactions than PROM and yet produce significantly more accurate growth predictions. IDREAM consistently outperformed PROM using any of three popular yeast metabolic models and across three experimental growth conditions. Importantly, IDREAM’s enhanced accuracy makes it possible to identify subtle synthetic growth defects. With experimental validation, these novel genetic interactions involving the pyruvate dehydrogenase complex suggested a new role for fatty acid-responsive factor Oaf1 in regulating acetyl-CoA production in glucose grown cells.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/9DmSJoTlfGg&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 17 May 2017 21:00:00 +0000</pubDate>
-  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
 </item>
 <item>
 	<title>Journal of Neuroscience current issue: This Week in The Journal</title>
@@ -3002,26 +3020,6 @@ Gene regulatory and metabolic network models have been used successfully in many
 	<description>The GluN2B subunit of the N-methyl-d-aspartate receptor (NMDAr) modulates many physiological processes including learning, memory, and pain. Excessive increase in NMDAr/GluN2B activity has been associated with va...</description>
 	<pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
   <source url="http://bmcneurosci.biomedcentral.com/articles/most-recent/rss.xml">Most Recent Articles: BMC Neuroscience</source>
-</item>
-<item>
-	<title>PLOS Computational Biology: New Articles: High-order epistasis shapes evolutionary trajectories</title>
-	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005541</guid>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/NtwkDDZsJfQ/article</link>
-	<description>&lt;p&gt;by Zachary R. Sailer, Michael J. Harms&lt;/p&gt;
-
-High-order epistasis—where the effect of a mutation is determined by interactions with two or more other mutations—makes small, but detectable, contributions to genotype-fitness maps. While epistasis between pairs of mutations is known to be an important determinant of evolutionary trajectories, the evolutionary consequences of high-order epistasis remain poorly understood. To determine the effect of high-order epistasis on evolutionary trajectories, we computationally removed high-order epistasis from experimental genotype-fitness maps containing all binary combinations of five mutations. We then compared trajectories through maps both with and without high-order epistasis. We found that high-order epistasis strongly shapes the accessibility and probability of evolutionary trajectories. A closer analysis revealed that the magnitude of epistasis, not its order, predicts is effects on evolutionary trajectories. We further find that high-order epistasis makes it impossible to predict evolutionary trajectories from the individual and paired effects of mutations. We therefore conclude that high-order epistasis profoundly shapes evolutionary trajectories through genotype-fitness maps.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/NtwkDDZsJfQ&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Mon, 15 May 2017 21:00:00 +0000</pubDate>
-  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
-</item>
-<item>
-	<title>PLOS Computational Biology: New Articles: SteadyCom: Predicting microbial abundances while ensuring community stability</title>
-	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005539</guid>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/aaCKYVh0KtY/article</link>
-	<description>&lt;p&gt;by Siu Hung Joshua Chan, Margaret N. Simons, Costas D. Maranas&lt;/p&gt;
-
-Genome-scale metabolic modeling has become widespread for analyzing microbial metabolism. Extending this established paradigm to more complex microbial communities is emerging as a promising way to unravel the interactions and biochemical repertoire of these omnipresent systems. While several modeling techniques have been developed for microbial communities, little emphasis has been placed on the need to impose a time-averaged constant growth rate across all members for a community to ensure co-existence and stability. In the absence of this constraint, the faster growing organism will ultimately displace all other microbes in the community. This is particularly important for predicting steady-state microbiota composition as it imposes significant restrictions on the allowable community membership, composition and phenotypes. In this study, we introduce the SteadyCom optimization framework for predicting metabolic flux distributions consistent with the steady-state requirement. SteadyCom can be rapidly converged by iteratively solving linear programming (LP) problem and the number of iterations is independent of the number of organisms. A significant advantage of SteadyCom is compatibility with flux variability analysis. SteadyCom is first demonstrated for a community of four &lt;i&gt;E&lt;/i&gt;. &lt;i&gt;coli&lt;/i&gt; double auxotrophic mutants and is then applied to a gut microbiota model consisting of nine species, with representatives from the phyla Bacteroidetes, Firmicutes, Actinobacteria and Proteobacteria. In contrast to the direct use of FBA, SteadyCom is able to predict the change in species abundance in response to changes in diets with minimal additional imposed constraints on the model. By randomizing the uptake rates of microbes, an abundance profile with a good agreement to experimental gut microbiota is inferred. SteadyCom provides an important step towards the cross-cutting task of predicting the composition of a microbial community in a given environment.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/aaCKYVh0KtY&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Mon, 15 May 2017 21:00:00 +0000</pubDate>
-  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
 </item>
 <item>
 	<title>Frontiers in Computational Neuroscience | New and Recent Articles: A Model of Fast Hebbian Spike Latency Normalization</title>
