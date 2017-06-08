@@ -5,8 +5,123 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscience/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscience/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscience/atom.xml</id>
-	<updated>2017-06-08T17:00:16+00:00</updated>
+	<updated>2017-06-08T23:00:14+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscience/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/rwxIhLZ43gA/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005595</id>
+		<updated>2017-06-08T21:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Ryan R. Wick, Louise M. Judd, Claire L. Gorrie, Kathryn E. Holt&lt;/p&gt;
+
+The Illumina DNA sequencing platform generates accurate but short reads, which can be used to produce accurate but fragmented genome assemblies. Pacific Biosciences and Oxford Nanopore Technologies DNA sequencing platforms generate long reads that can produce complete genome assemblies, but the sequencing is more expensive and error-prone. There is significant interest in combining data from these complementary sequencing technologies to generate more accurate “hybrid” assemblies. However, few tools exist that truly leverage the benefits of both types of data, namely the accuracy of short reads and the structural resolving power of long reads. Here we present Unicycler, a new tool for assembling bacterial genomes from a combination of short and long reads, which produces assemblies that are accurate, complete and cost-effective. Unicycler builds an initial assembly graph from short reads using the &lt;i&gt;de novo&lt;/i&gt; assembler SPAdes and then simplifies the graph using information from short and long reads. Unicycler uses a novel semi-global aligner to align long reads to the assembly graph. Tests on both synthetic and real reads show Unicycler can assemble larger contigs with fewer misassemblies than other hybrid assemblers, even when long-read depth and accuracy are low. Unicycler is open source (GPLv3) and available at github.com/rrwick/Unicycler.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/rwxIhLZ43gA&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Kathryn E. Holt</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-06-08T22:57:29+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Leveraging functional annotations in genetic risk prediction for human complex diseases</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/c1EwXTirbXk/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005589</id>
+		<updated>2017-06-08T21:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Yiming Hu, Qiongshi Lu, Ryan Powles, Xinwei Yao, Can Yang, Fang Fang, Xinran Xu, Hongyu Zhao&lt;/p&gt;
+
+Genetic risk prediction is an important goal in human genetics research and precision medicine. Accurate prediction models will have great impacts on both disease prevention and early treatment strategies. Despite the identification of thousands of disease-associated genetic variants through genome wide association studies (GWAS), genetic risk prediction accuracy remains moderate for most diseases, which is largely due to the challenges in both identifying all the functionally relevant variants and accurately estimating their effect sizes in the presence of linkage disequilibrium. In this paper, we introduce AnnoPred, a principled framework that leverages diverse types of genomic and epigenomic functional annotations in genetic risk prediction for complex diseases. AnnoPred is trained using GWAS summary statistics in a Bayesian framework in which we explicitly model various functional annotations and allow for linkage disequilibrium estimated from reference genotype data. Compared with state-of-the-art risk prediction methods, AnnoPred achieves consistently improved prediction accuracy in both extensive simulations and real data.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/c1EwXTirbXk&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Hongyu Zhao</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-06-08T22:57:29+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Mendel,MD: A user-friendly open-source web tool for analyzing WES and WGS in the diagnosis of patients with Mendelian disorders</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/Hsd3zc6mZ8U/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005520</id>
+		<updated>2017-06-08T21:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Raony G. C. C. L. Cardenas, Natália D. Linhares, Raquel L. Ferreira, Sérgio D. J. Pena&lt;/p&gt;
+
+Whole exome and whole genome sequencing have both become widely adopted methods for investigating and diagnosing human Mendelian disorders. As pangenomic agnostic tests, they are capable of more accurate and agile diagnosis compared to traditional sequencing methods. This article describes new software called Mendel,MD, which combines multiple types of filter options and makes use of regularly updated databases to facilitate exome and genome annotation, the filtering process and the selection of candidate genes and variants for experimental validation and possible diagnosis. This tool offers a user-friendly interface, and leads clinicians through simple steps by limiting the number of candidates to achieve a final diagnosis of a medical genetics case. A useful innovation is the “1-click” method, which enables listing all the relevant variants in genes present at OMIM for perusal by clinicians. Mendel,MD was experimentally validated using clinical cases from the literature and was tested by students at the Universidade Federal de Minas Gerais, at GENE–Núcleo de Genética Médica in Brazil and at the Children’s University Hospital in Dublin, Ireland. We show in this article how it can simplify and increase the speed of identifying the culprit mutation in each of the clinical cases that were received for further investigation. Mendel,MD proved to be a reliable web-based tool, being open-source and time efficient for identifying the culprit mutation in different clinical cases of patients with Mendelian Disorders. It is also freely accessible for academic users on the following URL: https://mendelmd.org.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/Hsd3zc6mZ8U&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Sérgio D. J. Pena</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-06-08T22:57:29+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Temperature–amplitude coupling for stable biological rhythms at different temperatures</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/xC4zl9d2K9U/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005501</id>
+		<updated>2017-06-08T21:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Gen Kurosawa, Atsuko Fujioka, Satoshi Koinuma, Atsushi Mochizuki, Yasufumi Shigeyoshi&lt;/p&gt;
+
+Most biological processes accelerate with temperature, for example cell division. In contrast, the circadian rhythm period is robust to temperature fluctuation, termed temperature compensation. Temperature compensation is peculiar because a system-level property (i.e., the circadian period) is stable under varying temperature while individual components of the system (i.e., biochemical reactions) are usually temperature-sensitive. To understand the mechanism for period stability, we measured the time series of circadian clock transcripts in cultured C6 glioma cells. The amplitudes of &lt;i&gt;Cry1&lt;/i&gt; and &lt;i&gt;Dbp&lt;/i&gt; circadian expression increased significantly with temperature. In contrast, other clock transcripts demonstrated no significant change in amplitude. To understand these experimental results, we analyzed mathematical models with different network topologies. It was found that the geometric mean amplitude of gene expression must increase to maintain a stable period with increasing temperatures and reaction speeds for all models studied. To investigate the generality of this temperature–amplitude coupling mechanism for period stability, we revisited data on the yeast metabolic cycle (YMC) period, which is also stable under temperature variation. We confirmed that the YMC amplitude increased at higher temperatures, suggesting temperature-amplitude coupling as a common mechanism shared by circadian and 4 h-metabolic rhythms.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/xC4zl9d2K9U&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Yasufumi Shigeyoshi</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-06-08T22:57:29+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">A comprehensive overview and evaluation of circular RNA detection tools</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/BixS8ygVZ0U/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005420</id>
+		<updated>2017-06-08T21:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Xiangxiang Zeng, Wei Lin, Maozu Guo, Quan Zou&lt;/p&gt;
+
+Circular RNA (circRNA) is mainly generated by the splice donor of a downstream exon joining to an upstream splice acceptor, a phenomenon known as backsplicing. It has been reported that circRNA can function as microRNA (miRNA) sponges, transcriptional regulators, or potential biomarkers. The availability of massive non-polyadenylated transcriptomes data has facilitated the genome-wide identification of thousands of circRNAs. Several circRNA detection tools or pipelines have recently been developed, and it is essential to provide useful guidelines on these pipelines for users, including a comprehensive and unbiased comparison. Here, we provide an improved and easy-to-use circRNA read simulator that can produce mimicking backsplicing reads supporting circRNAs deposited in CircBase. Moreover, we compared the performance of 11 circRNA detection tools on both simulated and real datasets. We assessed their performance regarding metrics such as precision, sensitivity, F1 score, and Area under Curve. It is concluded that no single method dominated on all of these metrics. Among all of the state-of-the-art tools, CIRI, CIRCexplorer, and KNIFE, which achieved better balanced performance between their precision and sensitivity, compared favorably to the other methods.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/BixS8ygVZ0U&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Quan Zou</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-06-08T22:57:29+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Transcranial Random Noise Stimulation (tRNS) Shapes the Processing of Rapidly Changing Auditory Information</title>
@@ -24,7 +139,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -44,7 +159,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -64,7 +179,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -84,7 +199,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -104,7 +219,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -124,7 +239,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -144,7 +259,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -164,7 +279,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -184,7 +299,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -204,7 +319,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -224,7 +339,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -244,7 +359,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -264,7 +379,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -284,7 +399,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -304,7 +419,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/integrative-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -324,7 +439,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/integrative-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -344,7 +459,7 @@
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurogenesis</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -364,7 +479,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -502,6 +617,126 @@ computations in making visual inferences from partial information.
 	</entry>
 
 	<entry>
+		<title type="html">White matter damage and systemic inflammation in Parkinson’s disease</title>
+		<link href="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-017-0367-y"/>
+		<id>https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-017-0367-y</id>
+		<updated>2017-06-08T00:00:00+00:00</updated>
+		<content type="html">
+ Systemic inflammation and white matter (WM) alterations have been noted as effects of Parkinson’s disease (PD). This study sought to evaluate WM integrity in PD patients using diffusion tensor imaging (DTI) an...</content>
+		<author>
+			<name>Pi-Ling Chiang, Hsiu-Ling Chen, Cheng-Hsien Lu, Pei-Chin Chen, Meng-Hsiang Chen, I.-Hsiao Yang, Nai-Wen Tsai and Wei-Che Lin</name>
+			<uri>https://bmcneurosci.biomedcentral.com</uri>
+		</author>
+		<source>
+			<title type="html">Most Recent Articles: BMC Neuroscience</title>
+			<subtitle type="html">Most Recent Articles: BMC Neuroscience</subtitle>
+			<link rel="self" href="http://bmcneurosci.biomedcentral.com/articles/most-recent/rss.xml"/>
+			<id>https://bmcneurosci.biomedcentral.com</id>
+			<updated>2017-06-08T23:00:09+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Neuronal adaptation and optimal coding in economic decisions</title>
+		<link href="http://biorxiv.org/cgi/content/short/147900v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/147900v1?rss=1</id>
+		<updated>2017-06-08T00:00:00+00:00</updated>
+		<content type="html">
+ During economic decisions, neurons in orbitofrontal cortex (OFC) encode the values of offered and chosen goods. Importantly, their responses adapt to the range of values available in any given context. A fundamental and open question is whether range adaptation is behaviorally advantageous. Here we develop a theoretical framework to assess optimal coding for economic decisions and we examine the activity of offer value cells in non-human primates. We show that firing rates are quasi-linear functions of the offered values. Furthermore, we demonstrate that if response functions are linear, range adaptation maximizes the expected payoff. This is true even if adaptation is corrected to avoid choice biases. Finally, we show that neuronal responses are quasi-linear even when optimal tuning functions would be highly non-linear. Thus value coding in OFC is functionally rigid (linear responses) but parametrically plastic (range adaptation with optimal gain). While generally suboptimal, linear response functions may facilitate transitive choices.</content>
+		<author>
+			<name>Rustichini, A.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2017-06-08T23:00:09+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Robust Averaging Protects Decisions from Noise in Neural Computations</title>
+		<link href="http://biorxiv.org/cgi/content/short/147744v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/147744v1?rss=1</id>
+		<updated>2017-06-08T00:00:00+00:00</updated>
+		<content type="html">
+ An ideal observer will give equivalent weight to sources of information that are equally reliable. However, when averaging visual information, human observers tend to downweight or discount features that are relatively outlying or deviant ( robust averaging). Why humans adopt an integration policy that discards important decision information remains unknown. Here, observers were asked to judge the average tilt in a circular array of high-contrast gratings, relative to an orientation boundary defined by a central reference grating. Observers showed robust averaging of orientation, but the extent to which they did so was a positive predictor of their overall performance. Using computational simulations, we show that although robust averaging is suboptimal for a perfect integrator, it paradoxically enhances performance in the presence of  late noise, i.e. which corrupts decisions during integration. In other words, robust decision strategies increase the brain's resilience to noise arising in neural computations during decision-making.</content>
+		<author>
+			<name>Li, V. L.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2017-06-08T23:00:09+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Network Connectivity Predicts Cortical Thinning And Cognitive Decline In Early Parkinson's Disease</title>
+		<link href="http://biorxiv.org/cgi/content/short/147611v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/147611v1?rss=1</id>
+		<updated>2017-06-08T00:00:00+00:00</updated>
+		<content type="html">
+ Parkinson's Disease (PD) is a progressive neurodegenerative disorder characterized by motor and cognitive deficits. The neurodegenerative process is thought to move stereotypically from the brainstem up to the cerebral cortex, possibly reflecting the spread of toxic alpha-synuclein molecules. Using a large, longitudinal, multi-center database of de novo PD patients, we tested whether focal reductions in cortical thickness could be explained by disease spread from a subcortical  disease reservoir along the brain's connectome. PD patients (n=105) and matched controls (n=57) underwent T1-MRI at entry and one year later. Over this period, PD patients demonstrated significantly greater loss of cortical thickness than healthy controls in parts of the left occipital and bilateral frontal lobes and right somatomotor-sensory cortex. Cortical regions with greater connectivity (measured functionally or structurally) to a  disease reservoir evaluated via MRI at baseline demonstrated greater atrophy one year later. The atrophy pattern in the frontal lobes resembled that described in Alzheimer's disease. Moreover, path models suggest that cerebrospinal fluid amyloid-{beta}42 predicted left frontal cortical thinning, which in turn was associated with reduced cognitive scores. Our findings suggest that disease propagation to the cortex follows neural connectivity, and that cognitive impairments occur earlier than previously thought in PD.</content>
+		<author>
+			<name>Yau, Y. H. C.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2017-06-08T23:00:09+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Independent contributions of noradrenaline to behavioural flexibility and motivation</title>
+		<link href="http://biorxiv.org/cgi/content/short/147512v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/147512v1?rss=1</id>
+		<updated>2017-06-08T00:00:00+00:00</updated>
+		<content type="html">
+ Among neuromodulatory systems, the noradrenergic system remains one of the least understood. Several theories have pointed out its implication in behavioural flexibility and more recently in motivation, with a strong role in effort processing. Here, we designed a sequential cost/benefit decision task to test the causal role of noradrenaline in these two functions. We manipulated noradrenaline using clonidine, an alpha-2 noradrenergic receptor agonist, which reduces central noradrenaline levels. Clonidine had two distinct effects: it decreased choice volatility (without affecting the cost/benefit trade off) and reduced force production. Because the effects were independent, they cannot be accounted for by a non-specific effect on arousal. Altogether, these results support the global implication of noradrenaline in facing challenging situations in two complementary ways: by modulating behavioural volatility, which would facilitate adaptation depending on the lability of the environment, and by modulating the mobilization of resources to face immediate challenges.</content>
+		<author>
+			<name>Jahn, C. I.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2017-06-08T23:00:09+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Neural dynamics of real-world object vision that guide behaviour</title>
+		<link href="http://biorxiv.org/cgi/content/short/147298v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/147298v1?rss=1</id>
+		<updated>2017-06-08T00:00:00+00:00</updated>
+		<content type="html">
+ Vision involves complex neuronal dynamics that link the sensory stream to behaviour. To capture the richness and complexity of the visual world and the behaviour it entails, we used an ecologically valid task with a rich set of real-world object images. We investigated how human brain activity, resolved in space with functional MRI and in time with magnetoencephalography, links the sensory stream to behavioural responses. We found that behaviour-related brain activity emerged rapidly in the ventral visual pathway within 200ms of stimulus onset. The link between stimuli, brain activity, and behaviour could not be accounted for by either category membership or visual features (as provided by an artificial deep neural network model). Our results identify behaviourally-relevant brain activity during object vision, and suggest that object representations guiding behaviour are complex and can neither be explained by visual features or semantic categories alone. Our findings support the view that visual representations in the ventral visual stream need to be understood in terms of their relevance to behaviour, and highlight the importance of complex behavioural assessment for human brain mapping.</content>
+		<author>
+			<name>Cichy, R. M.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2017-06-08T23:00:09+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
 		<title type="html">Molecular Correlate Of Mouse Executive Function. Top-Down And Bottom-Up Information Flows Complementation By Ntng Gene Paralogs [Revised]</title>
 		<link href="http://biorxiv.org/cgi/content/short/139444v3?rss=1"/>
 		<id>http://biorxiv.org/cgi/content/short/139444v3?rss=1</id>
@@ -517,7 +752,7 @@ computations in making visual inferences from partial information.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -539,7 +774,7 @@ During active somatosensation, neural signals expected from movement of the sens
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
+			<updated>2017-06-08T22:57:29+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -562,7 +797,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
+			<updated>2017-06-08T22:57:29+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -979,7 +1214,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -999,7 +1234,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -1019,7 +1254,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -1039,7 +1274,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -1059,7 +1294,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -1079,7 +1314,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -1099,7 +1334,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -1119,7 +1354,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -1139,7 +1374,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1159,7 +1394,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1179,7 +1414,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1199,7 +1434,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1219,7 +1454,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/integrative-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1239,7 +1474,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1259,7 +1494,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurogenesis</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1279,7 +1514,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1299,7 +1534,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1319,7 +1554,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1339,7 +1574,7 @@ The development of new imaging and optogenetics techniques to study the dynamics
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1847,7 +2082,7 @@ modeling of the collected data in Hilbert space.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1867,7 +2102,7 @@ modeling of the collected data in Hilbert space.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1887,7 +2122,7 @@ modeling of the collected data in Hilbert space.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1907,7 +2142,7 @@ modeling of the collected data in Hilbert space.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1927,7 +2162,7 @@ modeling of the collected data in Hilbert space.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1947,7 +2182,7 @@ modeling of the collected data in Hilbert space.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1967,7 +2202,7 @@ modeling of the collected data in Hilbert space.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1987,7 +2222,7 @@ modeling of the collected data in Hilbert space.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2007,7 +2242,7 @@ modeling of the collected data in Hilbert space.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2027,7 +2262,7 @@ modeling of the collected data in Hilbert space.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2047,7 +2282,7 @@ modeling of the collected data in Hilbert space.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2067,7 +2302,7 @@ modeling of the collected data in Hilbert space.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2087,7 +2322,7 @@ modeling of the collected data in Hilbert space.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2109,7 +2344,7 @@ A complex disease has, by definition, multiple genetic causes. In theory, these 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
+			<updated>2017-06-08T22:57:29+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -2130,7 +2365,7 @@ A complex disease has, by definition, multiple genetic causes. In theory, these 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -2600,7 +2835,7 @@ A complex disease has, by definition, multiple genetic causes. In theory, these 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -2620,7 +2855,7 @@ A complex disease has, by definition, multiple genetic causes. In theory, these 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -2640,7 +2875,7 @@ A complex disease has, by definition, multiple genetic causes. In theory, these 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -2660,7 +2895,7 @@ A complex disease has, by definition, multiple genetic causes. In theory, these 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -2680,7 +2915,7 @@ A complex disease has, by definition, multiple genetic causes. In theory, these 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -2700,7 +2935,7 @@ A complex disease has, by definition, multiple genetic causes. In theory, these 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -2720,7 +2955,7 @@ A complex disease has, by definition, multiple genetic causes. In theory, these 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3045,67 +3280,7 @@ in-vivo feline seizure recordings and yielded promising results.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Learn to Track: Deep Learning for Tractography</title>
-		<link href="http://biorxiv.org/cgi/content/short/146688v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/146688v1?rss=1</id>
-		<updated>2017-06-06T00:00:00+00:00</updated>
-		<content type="html">
- We show that deep learning techniques can be applied successfully to fiber tractography. Specifically, we use feed-forward and recurrent neural networks to learn the generation process of streamlines directly from diffusion-weighted imaging (DWI) data. Furthermore, we empirically study the behavior of the proposed models on a realistic white matter phantom with known ground truth. We show that their performance is competitive to that of commonly used techniques, even when the models are used on DWI data unseen at training time. We also show that our models are able to recover high spatial coverage of the ground truth white matter pathways while better controlling the number of false connections. In fact, our experiments suggest that exploiting past information within a streamline's trajectory during tracking helps predict the following direction.</content>
-		<author>
-			<name>Poulin, P.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Visual pathways from the perspective of cost functions and multi-task deep neural networks</title>
-		<link href="http://biorxiv.org/cgi/content/short/146472v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/146472v1?rss=1</id>
-		<updated>2017-06-06T00:00:00+00:00</updated>
-		<content type="html">
- Vision research has been shaped by the seminal insight that we can understand higher-tier visual cortex from the perspective of multiple functional pathways with different goals. In this paper we try to give a computational account of the functional organization of this system by reasoning from the perspective of multi-task deep neural networks. Machine learning has shown that tasks become easier to solve when they are decomposed into subtasks with their own cost function. We hypothesise that the visual system optimizes multiple cost functions of unrelated tasks and this causes the emergence of the ventral pathway, dedicated to vision for perception and dorsal pathway, dedicated to vision for action. To evaluate the functional organization in multi-task deep neural networks we propose a method that measures the contribution of a unit towards each task and apply it to two networks that have been trained on either two related or two unrelated tasks using an identical stimulus set. Results show that the network trained on the unrelated tasks shows a decreasing degree of feature representation sharing towards higher-tier layers while the network trained on related tasks uniformly shows high degree of sharing. We conjecture that the method we propose can be used to reason about the anatomical and functional organization of the visual system and beyond as we predict that the degree to which tasks are related is a good descriptor of the degree to which they can share downstream cortical-units.</content>
-		<author>
-			<name>Scholte, H. S.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Local-Global Parcellation of the Human Cerebral Cortex From Intrinsic Functional Connectivity MRI</title>
-		<link href="http://biorxiv.org/cgi/content/short/135632v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/135632v1?rss=1</id>
-		<updated>2017-06-06T00:00:00+00:00</updated>
-		<content type="html">
- A central goal in systems neuroscience is the parcellation of the cerebral cortex into discrete neurobiological &quot;atoms&quot;. Resting-state functional magnetic resonance imaging (rs-fMRI) offers the possibility of in-vivo human cortical parcellation. Almost all previous parcellations relied on one of two approaches. The local gradient approach detects abrupt transitions in functional connectivity patterns. These transitions potentially reflect cortical areal boundaries defined by histology or visuotopic fMRI. By contrast, the global similarity approach clusters similar functional connectivity patterns regardless of spatial proximity, resulting in parcels with homogeneous (similar) rs-fMRI signals. Here we propose a gradient-weighted Markov Random Field (gwMRF) model integrating local gradient and global similarity approaches. Using task-fMRI and rs-fMRI across diverse acquisition protocols, we found gwMRF parcellations to be more homogeneous than four previously published parcellations. Furthermore, gwMRF parcellations agreed with the boundaries of certain cortical areas defined using histology and visuotopic fMRI. Some parcels captured sub-areal (somatotopic and visuotopic) features that likely reflect distinct computational units within known cortical areas. These results suggest that gwMRF parcellations reveal neurobiologically meaningful features of brain organization and are potentially useful for future applications requiring dimensionality reduction of voxel-wise fMRI data. Multi-resolution parcellations generated from 1489 participants are available at FREESURFER_WIKI LINK_TO_BE_ADDED.</content>
-		<author>
-			<name>Schaefer, A.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3127,7 +3302,7 @@ Microalgae are promising microorganisms for the production of numerous molecules
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
+			<updated>2017-06-08T22:57:29+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3150,7 +3325,7 @@ Biochemical reaction networks (BRNs) in a cell frequently consist of reactions w
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
+			<updated>2017-06-08T22:57:29+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3173,7 +3348,7 @@ Neuronal membrane potential resonance (MPR) is associated with subthreshold and 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
+			<updated>2017-06-08T22:57:29+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3335,47 +3510,7 @@ high intra-category and very low inter-category values. An average accuracy of
 			<subtitle type="html">Most Recent Articles: BMC Neuroscience</subtitle>
 			<link rel="self" href="http://bmcneurosci.biomedcentral.com/articles/most-recent/rss.xml"/>
 			<id>https://bmcneurosci.biomedcentral.com</id>
-			<updated>2017-06-06T17:00:10+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Modeling dispersion improves decoding of population neural responses</title>
-		<link href="http://biorxiv.org/cgi/content/short/146415v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/146415v1?rss=1</id>
-		<updated>2017-06-05T00:00:00+00:00</updated>
-		<content type="html">
- Neural responses to repeated presentations of an identical stimulus often show substantial trial-to-trial variability. Although the mean firing rate in response to different stimuli or during different movements (tuning curves) have been extensively modeled, the variability of neural responses can also have clear tuning independent of the tuning in the firing rate. This suggests that the variability carries information regarding the stimulus/movement beyond what is encoded in the mean firing rate. Here we demonstrate how taking variability into account can improve neural decoding. In a typical neural coding model spike counts are assumed to be Poisson with the mean response depending on an external variable, such as a stimulus/movement direction. Bayesian decoding methods then use the probabilities under these Poisson tuning models (the likelihood) to estimate the probability of each stimulus given the spikes on a given trial (the posterior). However, under the Poisson model, spike count variability is always exactly equal to the mean (Fano Factor = 1). Here we use the Conway-Maxwell-Poisson (COM-Poisson) model to more flexibly model how neural variability depends on external stimuli. This model contains the Poisson distribution as a special case, but has an additional parameter that allows both over- and underdispersed data, where the variance is greater than (Fano Factor &amp;gt;1) or less than (Fano Factor &amp;lt;1) the mean, respectively. We find that neural responses in both primary motor cortex (M1) and primary visual cortex (V1) have diverse tuning in both their mean firing rates and response variability. These tuning patterns can be accurately described by the COM-Poisson model, and, in both cortical areas, we find that a Bayesian decoder using the COM-Poisson models improves stimulus/movement estimation by 4-8% compared to the Poisson model. The additional layer of information in response variability thus appears to be an important part of the neural code.</content>
-		<author>
-			<name>Ghanbari, A.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Role of inhibitory control in modulating spread of focal ictal activity</title>
-		<link href="http://biorxiv.org/cgi/content/short/146407v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/146407v1?rss=1</id>
-		<updated>2017-06-05T00:00:00+00:00</updated>
-		<content type="html">
- Focal seizure propagation is classically thought to be spatially contiguous. However, propagation through the epileptic network, a collection of disparate epileptic nodes, has been theorized. Here, we used a multielectrode array, wide field calcium imaging, and two-photon calcium imaging to study focal seizure propagation pathways in an acute rodent neocortical 4-aminopyridine model. Although ictal neuronal bursts were limited to a 2-3 mm region without clear propagation, they were associated with hemisphere-wide LFP fluctuations and parvalbumin-positive interneuron activity outside the seizure focus. Globally compromising this inhibitory response using bicuculline surface application resulted in classical contiguous propagation; whereas, focal bicuculline microinjection resulted in epileptic network formation with two physically disparate foci. Our study suggests both classical and epileptic network propagation could arise from inhibition defects without pre-existing pathological connectivity changes, and that preferred propagation pathways may result from variations in cortical topology.</content>
-		<author>
-			<name>Liou, J.-y.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2017-06-08T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3397,7 +3532,7 @@ Muscle fatigue is a temporary decline in the force and power capacity of skeleta
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
+			<updated>2017-06-08T22:57:29+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3420,7 +3555,7 @@ Recent advances in experimental techniques have led to a rapid growth in complex
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
+			<updated>2017-06-08T22:57:29+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3443,7 +3578,7 @@ Chemical genomic screens have recently emerged as a systematic approach to drug 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
+			<updated>2017-06-08T22:57:29+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3466,7 +3601,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
+			<updated>2017-06-08T22:57:29+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3487,7 +3622,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3532,7 +3667,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3552,7 +3687,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3572,7 +3707,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3592,7 +3727,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3612,7 +3747,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3632,7 +3767,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -3652,7 +3787,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -3782,7 +3917,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -3802,7 +3937,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -3822,7 +3957,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -3842,7 +3977,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -3862,7 +3997,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -3882,7 +4017,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -3902,7 +4037,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -3922,7 +4057,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -3942,7 +4077,7 @@ The computational and cognitive properties of neural systems are often thought t
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -4070,7 +4205,7 @@ directionality of the underlying competition between processes.
 			<subtitle type="html">Most Recent Articles: BMC Neuroscience</subtitle>
 			<link rel="self" href="http://bmcneurosci.biomedcentral.com/articles/most-recent/rss.xml"/>
 			<id>https://bmcneurosci.biomedcentral.com</id>
-			<updated>2017-06-06T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4092,7 +4227,7 @@ The study objective is to estimate the epidemiological and economic impact of va
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
+			<updated>2017-06-08T22:57:29+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4115,7 +4250,7 @@ The disruption of coupling between brain areas has been suggested as the mechani
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
+			<updated>2017-06-08T22:57:29+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4138,7 +4273,7 @@ Various types of biological knowledge describe networks of interactions among el
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
+			<updated>2017-06-08T22:57:29+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4161,7 +4296,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
+			<updated>2017-06-08T22:57:29+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4224,7 +4359,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -4244,7 +4379,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -4264,7 +4399,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -4284,7 +4419,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4304,7 +4439,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4324,7 +4459,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -4344,7 +4479,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -4364,7 +4499,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -4404,7 +4539,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4424,7 +4559,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4444,7 +4579,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4724,7 +4859,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -4744,7 +4879,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -4764,7 +4899,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4784,7 +4919,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4804,7 +4939,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4824,7 +4959,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4844,7 +4979,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4864,7 +4999,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Frontiers in Synaptic Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/synaptic-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/synaptic-neuroscience</id>
-			<updated>2017-06-08T17:00:06+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -4884,7 +5019,7 @@ The H3ABioNet pan-African bioinformatics network, which is funded to support the
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5095,122 +5230,7 @@ Fundamental to the function of nervous systems is the ability to reorganize to c
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">On the effects of alternative optima in context-specific metabolic model predictions</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/pjL5dHXjc0I/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005568</id>
-		<updated>2017-05-30T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Semidán Robaina-Estévez, Zoran Nikoloski&lt;/p&gt;
-
-The integration of experimental data into genome-scale metabolic models can greatly improve flux predictions. This is achieved by restricting predictions to a more realistic context-specific domain, like a particular cell or tissue type. Several computational approaches to integrate data have been proposed—generally obtaining context-specific (sub)models or flux distributions. However, these approaches may lead to a multitude of equally valid but potentially different models or flux distributions, due to possible alternative optima in the underlying optimization problems. Although this issue introduces ambiguity in context-specific predictions, it has not been generally recognized, especially in the case of model reconstructions. In this study, we analyze the impact of alternative optima in four state-of-the-art context-specific data integration approaches, providing both flux distributions and/or metabolic models. To this end, we present three computational methods and apply them to two particular case studies: leaf-specific predictions from the integration of gene expression data in a metabolic model of &lt;i&gt;Arabidopsis thaliana&lt;/i&gt;, and liver-specific reconstructions derived from a human model with various experimental data sources. The application of these methods allows us to obtain the following results: (&lt;i&gt;i&lt;/i&gt;) we sample the space of alternative flux distributions in the leaf- and the liver-specific case and quantify the ambiguity of the predictions. In addition, we show how the inclusion of ℓ&lt;sub&gt;1&lt;/sub&gt;-regularization during data integration reduces the ambiguity in both cases. (&lt;i&gt;ii&lt;/i&gt;) We generate sets of alternative leaf- and liver-specific models that are optimal to each one of the evaluated model reconstruction approaches. We demonstrate that alternative models of the same context contain a marked fraction of disparate reactions. Further, we show that a careful balance between model sparsity and metabolic functionality helps in reducing the discrepancies between alternative models. Finally, our findings indicate that alternative optima must be taken into account for rendering the context-specific metabolic model predictions less ambiguous.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/pjL5dHXjc0I&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Zoran Nikoloski</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">sourceR: Classification and source attribution of infectious agents among heterogeneous populations</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/Z3sFxwImY64/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005564</id>
-		<updated>2017-05-30T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Poppy Miller, Jonathan Marshall, Nigel French, Chris Jewell&lt;/p&gt;
-
-Zoonotic diseases are a major cause of morbidity, and productivity losses in both human and animal populations. Identifying the source of food-borne zoonoses (e.g. an animal reservoir or food product) is crucial for the identification and prioritisation of food safety interventions. For many zoonotic diseases it is difficult to attribute human cases to sources of infection because there is little epidemiological information on the cases. However, microbial strain typing allows zoonotic pathogens to be categorised, and the relative frequencies of the strain types among the sources and in human cases allows inference on the likely source of each infection. We introduce sourceR, an R package for quantitative source attribution, aimed at food-borne diseases. It implements a Bayesian model using strain-typed surveillance data from both human cases and source samples, capable of identifying important sources of infection. The model measures the force of infection from each source, allowing for varying survivability, pathogenicity and virulence of pathogen strains, and varying abilities of the sources to act as vehicles of infection. A Bayesian non-parametric (Dirichlet process) approach is used to cluster pathogen strain types by epidemiological behaviour, avoiding model overfitting and allowing detection of strain types associated with potentially high “virulence”. sourceR is demonstrated using &lt;i&gt;Campylobacter jejuni&lt;/i&gt; isolate data collected in New Zealand between 2005 and 2008. Chicken from a particular poultry supplier was identified as the major source of campylobacteriosis, which is qualitatively similar to results of previous studies using the same dataset. Additionally, the software identifies a cluster of 9 multilocus sequence types with abnormally high ‘virulence’ in humans. sourceR enables straightforward attribution of cases of zoonotic infection to putative sources of infection. As sourceR develops, we intend it to become an important and flexible resource for food-borne disease attribution studies.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/Z3sFxwImY64&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Chris Jewell</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Novel mRNA-specific effects of ribosome drop-off on translation rate and polysome profile</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/lbE6GjC4pk0/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005555</id>
-		<updated>2017-05-30T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Pierre Bonnin, Norbert Kern, Neil T. Young, Ian Stansfield, M. Carmen Romano&lt;/p&gt;
-
-The well established phenomenon of ribosome drop-off plays crucial roles in translational accuracy and nutrient starvation responses during protein translation. When cells are under stress conditions, such as amino acid starvation or aminoacyl-tRNA depletion due to a high level of recombinant protein expression, ribosome drop-off can substantially affect the efficiency of protein expression. Here we introduce a mathematical model that describes the effects of ribosome drop-off on the ribosome density along the mRNA and on the concomitant protein synthesis rate. Our results show that ribosome premature termination may lead to non-intuitive ribosome density profiles, such as a ribosome density which increases from the 5’ to the 3’ end. Importantly, the model predicts that the effects of ribosome drop-off on the translation rate are mRNA-specific, and we quantify their resilience to drop-off, showing that the mRNAs which present ribosome queues are much less affected by ribosome drop-off than those which do not. Moreover, among those mRNAs that do not present ribosome queues, resilience to drop-off correlates positively with the elongation rate, so that sequences using fast codons are expected to be less affected by ribosome drop-off. This result is consistent with a genome-wide analysis of &lt;i&gt;S. cerevisiae&lt;/i&gt;, which reveals that under favourable growth conditions mRNAs coding for proteins involved in the translation machinery, known to be highly codon biased and using preferentially fast codons, are highly resilient to ribosome drop-off. Moreover, in physiological conditions, the translation rate of mRNAs coding for regulatory, stress-related proteins, is less resilient to ribosome drop-off. This model therefore allows analysis of variations in the translational efficiency of individual mRNAs by accounting for the full range of known ribosome behaviours, as well as explaining mRNA-specific variations in ribosome density emerging from ribosome profiling studies.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/lbE6GjC4pk0&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>M. Carmen Romano</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Dynamic decomposition of spatiotemporal neural signals</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/FYBhZcW3Uso/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005540</id>
-		<updated>2017-05-30T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Luca Ambrogioni, Marcel A. J. van Gerven, Eric Maris&lt;/p&gt;
-
-Neural signals are characterized by rich temporal and spatiotemporal dynamics that reflect the organization of cortical networks. Theoretical research has shown how neural networks can operate at different dynamic ranges that correspond to specific types of information processing. Here we present a data analysis framework that uses a linearized model of these dynamic states in order to decompose the measured neural signal into a series of components that capture both rhythmic and non-rhythmic neural activity. The method is based on stochastic differential equations and Gaussian process regression. Through computer simulations and analysis of magnetoencephalographic data, we demonstrate the efficacy of the method in identifying meaningful modulations of oscillatory signals corrupted by structured temporal and spatiotemporal noise. These results suggest that the method is particularly suitable for the analysis and interpretation of complex temporal and spatiotemporal neural signals.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/FYBhZcW3Uso&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Eric Maris</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Hard real-time closed-loop electrophysiology with the Real-Time eXperiment Interface (RTXI)</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/n2swDY2Viss/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005430</id>
-		<updated>2017-05-30T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Yogi A. Patel, Ansel George, Alan D. Dorval, John A. White, David J. Christini, Robert J. Butera&lt;/p&gt;
-
-The ability to experimentally perturb biological systems has traditionally been limited to static pre-programmed or operator-controlled protocols. In contrast, real-time control allows dynamic probing of biological systems with perturbations that are computed on-the-fly during experimentation. Real-time control applications for biological research are available; however, these systems are costly and often restrict the flexibility and customization of experimental protocols. The Real-Time eXperiment Interface (RTXI) is an open source software platform for achieving hard real-time data acquisition and closed-loop control in biological experiments while retaining the flexibility needed for experimental settings. RTXI has enabled users to implement complex custom closed-loop protocols in single cell, cell network, animal, and human electrophysiology studies. RTXI is also used as a free and open source, customizable electrophysiology platform in open-loop studies requiring online data acquisition, processing, and visualization. RTXI is easy to install, can be used with an extensive range of external experimentation and data acquisition hardware, and includes standard modules for implementing common electrophysiology protocols.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/n2swDY2Viss&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Robert J. Butera</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-06-08T16:30:28+00:00</updated>
+			<updated>2017-06-08T22:57:29+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5251,7 +5271,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5271,7 +5291,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-06-08T17:00:09+00:00</updated>
+			<updated>2017-06-08T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -5290,7 +5310,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -5310,7 +5330,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -5331,7 +5351,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5351,7 +5371,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5371,7 +5391,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5391,7 +5411,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5411,7 +5431,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5431,7 +5451,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5451,7 +5471,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5471,7 +5491,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5491,7 +5511,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5511,7 +5531,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5531,7 +5551,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5551,7 +5571,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5571,7 +5591,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5591,7 +5611,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5611,7 +5631,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5631,7 +5651,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5798,7 +5818,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5838,7 +5858,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5858,7 +5878,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5878,7 +5898,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5898,7 +5918,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5918,7 +5938,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5938,7 +5958,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5958,7 +5978,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5978,7 +5998,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5998,7 +6018,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6018,7 +6038,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6038,7 +6058,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6058,7 +6078,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6078,7 +6098,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6098,7 +6118,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -6118,7 +6138,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -6138,7 +6158,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -6158,7 +6178,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -6178,7 +6198,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -6198,7 +6218,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -6440,7 +6460,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6459,7 +6479,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6479,7 +6499,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6500,7 +6520,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6520,7 +6540,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6540,7 +6560,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6560,7 +6580,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -6580,7 +6600,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6600,7 +6620,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6620,7 +6640,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -6971,7 +6991,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6991,7 +7011,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7031,7 +7051,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7051,7 +7071,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7071,7 +7091,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7091,7 +7111,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurogenesis</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7250,7 +7270,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -7271,7 +7291,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7291,7 +7311,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7311,7 +7331,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7331,7 +7351,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Systems Biology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/systems-biology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/systems-biology</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7351,7 +7371,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7371,7 +7391,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7391,7 +7411,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">Most Recent Articles: BMC Neuroscience</subtitle>
 			<link rel="self" href="http://bmcneurosci.biomedcentral.com/articles/most-recent/rss.xml"/>
 			<id>https://bmcneurosci.biomedcentral.com</id>
-			<updated>2017-06-06T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -7411,7 +7431,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7431,7 +7451,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7451,7 +7471,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7471,7 +7491,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7491,7 +7511,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7511,7 +7531,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7531,7 +7551,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Systems Biology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/systems-biology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/systems-biology</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7550,7 +7570,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -7571,7 +7591,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7591,7 +7611,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7611,7 +7631,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7631,7 +7651,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7651,7 +7671,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7841,7 +7861,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7861,7 +7881,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7881,7 +7901,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7901,7 +7921,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8005,7 +8025,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8025,7 +8045,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8045,7 +8065,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8065,7 +8085,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8084,7 +8104,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -8104,7 +8124,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -8124,7 +8144,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -8144,7 +8164,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -8164,7 +8184,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-06-08T17:00:08+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -8185,7 +8205,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8205,7 +8225,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8225,7 +8245,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8245,7 +8265,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8265,7 +8285,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8285,7 +8305,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">Most Recent Articles: BMC Neuroscience</subtitle>
 			<link rel="self" href="http://bmcneurosci.biomedcentral.com/articles/most-recent/rss.xml"/>
 			<id>https://bmcneurosci.biomedcentral.com</id>
-			<updated>2017-06-06T17:00:10+00:00</updated>
+			<updated>2017-06-08T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -8305,7 +8325,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8408,7 +8428,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8428,7 +8448,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8448,7 +8468,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8468,7 +8488,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8488,7 +8508,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8508,7 +8528,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8528,7 +8548,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8548,7 +8568,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8568,32 +8588,7 @@ The ability to experimentally perturb biological systems has traditionally been 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-06-08T17:00:07+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Working memory: Keeping short-term memories alive</title>
-		<link href="http://feeds.nature.com/~r/nrn/rss/current/~3/UfgTour5l3Y/nrn.2017.60"/>
-		<id>http://dx.doi.org/10.1038/nrn.2017.60</id>
-		<updated>2017-05-11T00:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;Nature Reviews Neuroscience 18, 324 (2017).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/nrn.2017.60&quot;&gt;doi:10.1038/nrn.2017.60&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Natasha Bray&lt;/p&gt;
-&lt;p&gt;Different interneuron populations modulate delay activity representing action plans in the dorsomedial prefrontal cortex.&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nrn/rss/current/~4/UfgTour5l3Y&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Natasha Bray</name>
-			<uri>http://www.nature.com/nrn/current_issue/</uri>
-		</author>
-		<source>
-			<title type="html">Nature Reviews Neuroscience - Issue - nature.com science feeds</title>
-			<link rel="self" href="http://feeds.nature.com/nrn/rss/current"/>
-			<id>http://www.nature.com/nrn/current_issue/</id>
-			<updated>2017-05-18T05:00:07+00:00</updated>
-			<rights type="html">© 2017 Nature Publishing Group</rights>
+			<updated>2017-06-08T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
