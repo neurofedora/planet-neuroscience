@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/148585v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/148502v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005592" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005588" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005577" />
@@ -151,8 +153,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/147272v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/147223v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/147215v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/147165v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/147058v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005556" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncom.2017.00050" />
 			<rdf:li rdf:resource="http://www.pnas.org/content/114/23/E4696.short?rss=1" />
@@ -419,6 +419,20 @@
 	</items>
 </channel>
 
+<item rdf:about="http://biorxiv.org/cgi/content/short/148585v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Correlated Light-Serial Scanning Electron Microscopy (CoLSSEM) for ultrastructural visualization of single neurons in vivo</title>
+	<link>http://biorxiv.org/cgi/content/short/148585v1?rss=1</link>
+	<content:encoded>A challenging aspect of neuroscience revolves around mapping synaptic connections within neural circuits (connectomics) over scales spanning several orders of magnitude (nanometers to meters). Despite significant improvements in serial section electron microscopy (SSEM) technologies, several major roadblocks have impaired its general applicability to mammalian neural circuits. In the present study, we introduce a new approach that circumvents these roadblocks by adapting a genetically-encoded ascorbate peroxidase (APEX2) as a fusion protein to a membrane-targeted fluorescent reporter (CAAX-Venus), and introduce it in single pyramidal neurons in vivo using extremely sparse in utero cortical electroporation (IUCE). This approach allows to perform Correlated Light-SSEM (CoLSSEM) on individual neurons, reconstructing their dendritic and axonal arborization in a targeted way via combination of high-resolution confocal microscopy, and subsequently imaging of its ultrastuctural features and synaptic connections with the ATUM-SEM (automated tape-collecting ultramicrotome - scanning electron microscopy) technology. Our method significantly improves the the feasibility of large-scale reconstructions of neurons within a circuit, and bridges the description of ultrastructural features of genetically-identified neurons with their functional and/or structural connectivity, one of the main goal of connectomics.</content:encoded>
+	<dc:date>2017-06-10T00:00:00+00:00</dc:date>
+	<dc:creator>Hirabayashi, Y.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/148502v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Harmonization of cortical thickness measurements across scanners and sites</title>
+	<link>http://biorxiv.org/cgi/content/short/148502v1?rss=1</link>
+	<content:encoded>With the proliferation of multi-site neuroimaging studies, there is a greater need for handling non-biological variance introduced by differences in MRI scanners and acquisition protocols. Such unwanted sources of variation, which we refer to as &quot;scanner effects&quot;, can hinder the detection of imaging features associated with clinical covariates of interest and cause spurious findings. In this paper, we investigate scanner effects in two large multi-site studies on cortical thickness measurements, across a total of 11 scanners. We propose a set of general tools for visualizing and identifying scanner effects that are generalizable to other modalities. We then propose to use ComBat, a technique adopted from the genomics literature and recently applied to diffusion tensor imaging data, to combine and harmonize cortical thickness values across scanners. We show that ComBat removes unwanted sources of scan variability while simultaneously increasing the power and reproducibility of subsequent statistical analyses. We also show that ComBat is useful for combining imaging data with the goal of studying life-span trajectories in the brain.</content:encoded>
+	<dc:date>2017-06-10T00:00:00+00:00</dc:date>
+	<dc:creator>Fortin, J.-P.</dc:creator>
+</item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005592">
 	<title>PLOS Computational Biology: New Articles: Ribosome reinitiation can explain length-dependent translation of messenger RNA</title>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/G7rJMSqAQwM/article</link>
@@ -1546,20 +1560,6 @@ modeling of the collected data in Hilbert space.
 	<content:encoded>Magnetoencephalography (MEG) is a direct measure of neuronal current flow; its anatomical resolution is therefore not constrained by physiology but rather by data quality and the models used to explain these data. Recent simulation work has shown that it is possible to distinguish between signals arising in the deep and superficial cortical laminae given accurate knowledge of these surfaces with respect to the MEG sensors. This previous work has focused around a single inversion scheme (multiple sparse priors) and a single global parametric fit metric (free energy). In this paper we use several different source inversion algorithms and both local and global, as well as parametric and non-parametric fit metrics in order to demonstrate the robustness of the discrimination between layers. We find that only algorithms with some sparsity constraint can successfully be used to make laminar discrimination. Importantly, local t-statistics, global cross-validation and free energy all provide robust and mutually corroborating metrics of fit. We show that discrimination accuracy is affected by patch size estimates, cortical surface features, and lead field strength, which suggests several possible future improvements to this technique. This study demonstrates the possibility of determining the laminar origin of MEG sensor activity, and thus directly testing theories of human cognition that involve laminar- and frequency- specific mechanisms. This possibility can now be achieved using recent developments in high precision MEG, most notably the use of subject-specific head-casts, which allow for significant increases in data quality and therefore anatomically precise MEG recordings.</content:encoded>
 	<dc:date>2017-06-07T00:00:00+00:00</dc:date>
 	<dc:creator>Bonaiuto, J. J.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/147165v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Brain-derived neurotrophic factor derived from peripheral sensory neurons plays a critical role in pain chronification</title>
-	<link>http://biorxiv.org/cgi/content/short/147165v1?rss=1</link>
-	<content:encoded>Multiple studies support the pro-nociceptive role of brain-derived neurotrophin factor (BDNF) in pain processes in the peripheral and central nervous system. We have previously shown that nociceptor-derived BDNF is implicated in inflammatory pain. Microglial-derived BDNF has also been shown to be involved in neuropathic pain. However, the distinct contribution of primary afferent-derived BNDF to chronic pain processing remains undetermined. In this study, we used Advillin-CreERT2 mice to delete Bdnf from all adult peripheral sensory neurons. Conditional BDNF knockouts were healthy with no sensory neuron loss. Behavioural assays and in vivo electrophysiology indicated that spinal excitability was normal. Following formalin inflammation or neuropathy with a modified Chung model, we observed normal development of acute pain behaviour, but a deficit in second phase formalin-induced nocifensive responses and a reversal of neuropathy-induced mechanical hypersensitivity during the later chronic pain phase in conditional BDNF knockout mice. In contrast, we observed normal development of acute and chronic neuropathic pain in the Seltzer model, indicating differences in the contribution of BDNF to distinct models of neuropathy. We further used a model of hyperalgesic priming to examine the contribution of primary afferent-derived BDNF in the transition from acute to chronic pain, and found that primed BDNF knockout mice do not develop prolonged mechanical hypersensitivity. Our data suggest that BDNF derived from sensory neurons plays a critical role in mediating the transition from acute to chronic pain.</content:encoded>
-	<dc:date>2017-06-07T00:00:00+00:00</dc:date>
-	<dc:creator>Sikandar, S.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/147058v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: 1/f Neural Noise and Electrophysiological Indices of Contextual Prediction in Normative Aging</title>
-	<link>http://biorxiv.org/cgi/content/short/147058v1?rss=1</link>
-	<content:encoded>Prediction during language comprehension has increasingly been suggested to play a substantive role in efficient language processing. Emerging models have postulated that predictive mechanisms are enhanced when neural networks fire synchronously, but to date, this relationship has been investigated primarily through oscillatory activity in narrow frequency bands. A recently-developed measure proposed to reflect broadband neural activity - and thereby synchronous neuronal firing - is 1/f neural noise extracted from EEG spectral power. Previous research (Voytek et al., 2015) has indicated that this measure of 1/f neural noise changes across the lifespan, and these neural changes predict age-related behavioral impairments in visual working memory. Using a cross-sectional sample of young and older adults, we examined age-related changes in 1/f neural noise and whether this measure would predict ERP correlates of successful lexical prediction during discourse comprehension. 1/f neural noise across two different language tasks revealed high within-subject correlations, indicating that this measure can provide a reliable index of individualized patterns of neural activation. In addition to age, 1/f noise was a significant predictor of N400 effects of successful lexical prediction, but noise did not mediate age-related declines in other ERP effects. We discuss broader implications of these findings for theories of predictive processing, as well as potential applications of 1/f noise across research populations.</content:encoded>
-	<dc:date>2017-06-07T00:00:00+00:00</dc:date>
-	<dc:creator>Dave, S.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005556">
 	<title>PLOS Computational Biology: New Articles: Fast and general tests of genetic interaction for genome-wide association studies</title>
