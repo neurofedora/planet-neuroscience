@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/148379v1?rss=1" />
 			<rdf:li rdf:resource="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30089-9?rss=yes" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/148585v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/148502v1?rss=1" />
@@ -153,7 +154,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/147405v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/147272v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/147223v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/147215v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005556" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncom.2017.00050" />
 			<rdf:li rdf:resource="http://www.pnas.org/content/114/23/E4696.short?rss=1" />
@@ -419,6 +419,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://biorxiv.org/cgi/content/short/148379v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Magnetic Entropy as a Gating Mechanism for Magnetogenetic Ion Channels</title>
+	<link>http://biorxiv.org/cgi/content/short/148379v1?rss=1</link>
+	<content:encoded>Magnetically sensitive ion channels would enable minimally invasive, cell-type-specific neuromodulation; however, recent reports of  magnetogenetic ion channels have been questioned because known biophysical mechanisms cannot explain experimental observations. Here we show that magnetic fields can produce a change in the magnetic entropy of biogenetic nanoparticles, which in turn may generate sufficient heat to gate temperature-sensitive ion channels. This magnetocaloric effect provides a rational approach for developing future magnetogenetic channels.</content:encoded>
+	<dc:date>2017-06-11T00:00:00+00:00</dc:date>
+	<dc:creator>Duret, G.</dc:creator>
+</item>
 <item rdf:about="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30089-9?rss=yes">
 	<title>Trends in Neurosciences: Adaptive Capacity: An Evolutionary Neuroscience Model Linking Exercise, Cognition, and Brain Health</title>
 	<link>http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30089-9?rss=yes</link>
@@ -1560,13 +1567,6 @@ modeling of the collected data in Hilbert space.
 	<content:encoded>Sensitivity for different visual features is not evenly distributed across visual space. However, the sampling of visual space is not fixed: attending a location in space is thought to increase spatial resolution by shifting receptive fields towards the attended location. Here, we investigated whether such changes in the sampling of visual space lead to a concurrent redistribution of feature sensitivities across the visual field and whether these changes depend on the attended feature. To this purpose, we estimated voxels' spatial sampling in 5 human subjects under conditions of differential spatial and feature-based attention. Specifically, participants either performed a task at fixation, or on the color or temporal frequency content of a visual stimulus. We also recorded each voxel's relative response modulation to changes in color and temporal frequency information. Directing spatial attention towards the mapping stimulus altered population receptive field (pRF) size and eccentricity in concert. This resampling of visual space was more pronounced when attending the stimulus' color compared to temporal frequency content throughout the visual system. This effect was best modeled using an attention field model in which the attention field spread was similar across all visual field maps, and smaller when attending the stimulus' color. In higher visual cortex these changes optimized feature sampling for task demands by alleviating a relatively low preference for color in the periphery. Together, these results show that spatial and feature-based attention interact in order to redistribute both spatial and featural processing resources across the visual field depending on task demands.</content:encoded>
 	<dc:date>2017-06-07T00:00:00+00:00</dc:date>
 	<dc:creator>van Es, D. M.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/147215v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Non-invasive laminar inference with MEG: Comparison of methods and source inversion algorithms</title>
-	<link>http://biorxiv.org/cgi/content/short/147215v1?rss=1</link>
-	<content:encoded>Magnetoencephalography (MEG) is a direct measure of neuronal current flow; its anatomical resolution is therefore not constrained by physiology but rather by data quality and the models used to explain these data. Recent simulation work has shown that it is possible to distinguish between signals arising in the deep and superficial cortical laminae given accurate knowledge of these surfaces with respect to the MEG sensors. This previous work has focused around a single inversion scheme (multiple sparse priors) and a single global parametric fit metric (free energy). In this paper we use several different source inversion algorithms and both local and global, as well as parametric and non-parametric fit metrics in order to demonstrate the robustness of the discrimination between layers. We find that only algorithms with some sparsity constraint can successfully be used to make laminar discrimination. Importantly, local t-statistics, global cross-validation and free energy all provide robust and mutually corroborating metrics of fit. We show that discrimination accuracy is affected by patch size estimates, cortical surface features, and lead field strength, which suggests several possible future improvements to this technique. This study demonstrates the possibility of determining the laminar origin of MEG sensor activity, and thus directly testing theories of human cognition that involve laminar- and frequency- specific mechanisms. This possibility can now be achieved using recent developments in high precision MEG, most notably the use of subject-specific head-casts, which allow for significant increases in data quality and therefore anatomically precise MEG recordings.</content:encoded>
-	<dc:date>2017-06-07T00:00:00+00:00</dc:date>
-	<dc:creator>Bonaiuto, J. J.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005556">
 	<title>PLOS Computational Biology: New Articles: Fast and general tests of genetic interaction for genome-wide association studies</title>
