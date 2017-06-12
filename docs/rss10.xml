@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005600" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005534" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnagi.2017.00180" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncom.2017.00048" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncom.2017.00043" />
@@ -239,8 +241,6 @@
 			<rdf:li rdf:resource="http://www.sciencedirect.com/science/article/pii/S095943881730082X" />
 			<rdf:li rdf:resource="http://www.sciencedirect.com/science/article/pii/S0959438816301878" />
 			<rdf:li rdf:resource="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-017-0364-1" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005521" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005511" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.24940" />
 			<rdf:li rdf:resource="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30081-4?rss=yes" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00292" />
@@ -419,6 +419,24 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005600">
+	<title>PLOS Computational Biology: New Articles: Rosetta:MSF: a modular framework for multi-state computational protein design</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/hKJYm5AHaSY/article</link>
+	<content:encoded>&lt;p&gt;by Patrick Löffler, Samuel Schmitz, Enrico Hupfeld, Reinhard Sterner, Rainer Merkl&lt;/p&gt;
+
+Computational protein design (CPD) is a powerful technique to engineer existing proteins or to design novel ones that display desired properties. Rosetta is a software suite including algorithms for computational modeling and analysis of protein structures and offers many elaborate protocols created to solve highly specific tasks of protein engineering. Most of Rosetta’s protocols optimize sequences based on a single conformation (&lt;i&gt;i&lt;/i&gt;. &lt;i&gt;e&lt;/i&gt;. design state). However, challenging CPD objectives like multi-specificity design or the concurrent consideration of positive and negative design goals demand the simultaneous assessment of multiple states. This is why we have developed the multi-state framework MSF that facilitates the implementation of Rosetta’s single-state protocols in a multi-state environment and made available two frequently used protocols. Utilizing MSF, we demonstrated for one of these protocols that multi-state design yields a 15% higher performance than single-state design on a ligand-binding benchmark consisting of structural conformations. With this protocol, we designed &lt;i&gt;de novo&lt;/i&gt; nine retro-aldolases on a conformational ensemble deduced from a (βα)&lt;sub&gt;8&lt;/sub&gt;-barrel protein. All variants displayed measurable catalytic activity, testifying to a high success rate for this concept of multi-state enzyme design.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/hKJYm5AHaSY&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-06-12T21:00:00+00:00</dc:date>
+	<dc:creator>Rainer Merkl</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005534">
+	<title>PLOS Computational Biology: New Articles: Locking of correlated neural activity to ongoing oscillations</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/kjCUZIot_v0/article</link>
+	<content:encoded>&lt;p&gt;by Tobias Kühn, Moritz Helias&lt;/p&gt;
+
+Population-wide oscillations are ubiquitously observed in mesoscopic signals of cortical activity. In these network states a global oscillatory cycle modulates the propensity of neurons to fire. Synchronous activation of neurons has been hypothesized to be a separate channel of signal processing information in the brain. A salient question is therefore if and how oscillations interact with spike synchrony and in how far these channels can be considered separate. Experiments indeed showed that correlated spiking co-modulates with the static firing rate and is also tightly locked to the phase of beta-oscillations. While the dependence of correlations on the mean rate is well understood in feed-forward networks, it remains unclear why and by which mechanisms correlations tightly lock to an oscillatory cycle. We here demonstrate that such correlated activation of pairs of neurons is qualitatively explained by periodically-driven random networks. We identify the mechanisms by which covariances depend on a driving periodic stimulus. Mean-field theory combined with linear response theory yields closed-form expressions for the cyclostationary mean activities and pairwise zero-time-lag covariances of binary recurrent random networks. Two distinct mechanisms cause time-dependent covariances: the modulation of the susceptibility of single neurons (via the external input and network feedback) and the time-varying variances of single unit activities. For some parameters, the effectively inhibitory recurrent feedback leads to resonant covariances even if mean activities show non-resonant behavior. Our analytical results open the question of time-modulated synchronous activity to a quantitative analysis.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/kjCUZIot_v0&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-06-12T21:00:00+00:00</dc:date>
+	<dc:creator>Moritz Helias</dc:creator>
+</item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnagi.2017.00180">
 	<title>Frontiers in Aging Neuroscience | New and Recent Articles: The Impact of Aging on Brain Pituitary Adenylate Cyclase Activating Polypeptide, Pathology and Cognition in Mice and Rhesus Macaques</title>
 	<link>http://journal.frontiersin.org/article/10.3389/fnagi.2017.00180</link>
@@ -2311,24 +2329,6 @@ The computational and cognitive properties of neural systems are often thought t
 	<content:encoded>Sirtuins (SIRTs) are NAD+ dependent lysine deacetylases which are conserved from bacteria to humans and have been associated with longevity and lifespan extension. SIRT1, the best studied mammalian SIRT is invol...</content:encoded>
 	<dc:date>2017-06-02T00:00:00+00:00</dc:date>
 	<dc:creator>Preeti Singh, Peter S. Hanson and Christopher M. Morris</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005521">
-	<title>PLOS Computational Biology: New Articles: Epidemiological and economic impact of pandemic influenza in Chicago: Priorities for vaccine interventions</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/k9MNjYes8J4/article</link>
-	<content:encoded>&lt;p&gt;by Nargesalsadat Dorratoltaj, Achla Marathe, Bryan L. Lewis, Samarth Swarup, Stephen G. Eubank, Kaja M. Abbas&lt;/p&gt;
-
-The study objective is to estimate the epidemiological and economic impact of vaccine interventions during influenza pandemics in Chicago, and assist in vaccine intervention priorities. Scenarios of delay in vaccine introduction with limited vaccine efficacy and limited supplies are not unlikely in future influenza pandemics, as in the 2009 H1N1 influenza pandemic. We simulated influenza pandemics in Chicago using agent-based transmission dynamic modeling. Population was distributed among high-risk and non-high risk among 0–19, 20–64 and 65+ years subpopulations. Different attack rate scenarios for catastrophic (30.15%), strong (21.96%), and moderate (11.73%) influenza pandemics were compared against vaccine intervention scenarios, at 40% coverage, 40% efficacy, and unit cost of $28.62. Sensitivity analysis for vaccine compliance, vaccine efficacy and vaccine start date was also conducted. Vaccine prioritization criteria include risk of death, total deaths, net benefits, and return on investment. The risk of death is the highest among the high-risk 65+ years subpopulation in the catastrophic influenza pandemic, and highest among the high-risk 0–19 years subpopulation in the strong and moderate influenza pandemics. The proportion of total deaths and net benefits are the highest among the high-risk 20–64 years subpopulation in the catastrophic, strong and moderate influenza pandemics. The return on investment is the highest in the high-risk 0–19 years subpopulation in the catastrophic, strong and moderate influenza pandemics. Based on risk of death and return on investment, high-risk groups of the three age group subpopulations can be prioritized for vaccination, and the vaccine interventions are cost saving for all age and risk groups. The attack rates among the children are higher than among the adults and seniors in the catastrophic, strong, and moderate influenza pandemic scenarios, due to their larger social contact network and homophilous interactions in school. Based on return on investment and higher attack rates among children, we recommend prioritizing children (0–19 years) and seniors (65+ years) after high-risk groups for influenza vaccination during times of limited vaccine supplies. Based on risk of death, we recommend prioritizing seniors (65+ years) after high-risk groups for influenza vaccination during times of limited vaccine supplies.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/k9MNjYes8J4&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-06-01T21:00:00+00:00</dc:date>
-	<dc:creator>Kaja M. Abbas</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005511">
-	<title>PLOS Computational Biology: New Articles: Breakdown of local information processing may underlie isoflurane anesthesia effects</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/T7XqHtlIivg/article</link>
-	<content:encoded>&lt;p&gt;by Patricia Wollstadt, Kristin K. Sellers, Lucas Rudelt, Viola Priesemann, Axel Hutt, Flavio Fröhlich, Michael Wibral&lt;/p&gt;
-
-The disruption of coupling between brain areas has been suggested as the mechanism underlying loss of consciousness in anesthesia. This hypothesis has been tested previously by measuring the information transfer between brain areas, and by taking reduced information transfer as a proxy for decoupling. Yet, information transfer is a function of the amount of information available in the information source—such that transfer decreases even for unchanged coupling when less source information is available. Therefore, we reconsidered past interpretations of reduced information transfer as a sign of decoupling, and asked whether impaired local information processing leads to a loss of information transfer. An important prediction of this alternative hypothesis is that changes in locally available information (signal entropy) should be at least as pronounced as changes in information transfer. We tested this prediction by recording local field potentials in two ferrets after administration of isoflurane in concentrations of 0.0%, 0.5%, and 1.0%. We found strong decreases in the source entropy under isoflurane in area V1 and the prefrontal cortex (PFC)—as predicted by our alternative hypothesis. The decrease in source entropy was stronger in PFC compared to V1. Information transfer between V1 and PFC was reduced bidirectionally, but with a stronger decrease from PFC to V1. This links the stronger decrease in information transfer to the stronger decrease in source entropy—suggesting reduced source entropy reduces information transfer. This conclusion fits the observation that the synaptic targets of isoflurane are located in local cortical circuits rather than on the synapses formed by interareal axonal projections. Thus, changes in information transfer under isoflurane seem to be a consequence of changes in local processing more than of decoupling between brain areas. We suggest that source entropy changes must be considered whenever interpreting changes in information transfer as decoupling.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/T7XqHtlIivg&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-06-01T21:00:00+00:00</dc:date>
-	<dc:creator>Michael Wibral</dc:creator>
 </item>
 <item rdf:about="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.24940">
 	<title>Annals of Neurology: Rigor, reproducibility, and in vitro cerebrospinal fluid assays: The devil in the details</title>
