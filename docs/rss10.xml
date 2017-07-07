@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005638" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005624" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005618" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00357" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00192" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.24967" />
@@ -26,6 +29,7 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1707.01806" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1707.01746" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1707.01585" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/160721v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/160655v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/160440v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/160432v1?rss=1" />
@@ -121,7 +125,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/159772v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/159681v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/159590v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/158949v1?rss=1" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00213" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00183" />
 			<rdf:li rdf:resource="http://www.sciencedirect.com/science/article/pii/S0959438817300429" />
@@ -204,7 +207,6 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1706.09570" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1702.03474" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005567" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005522" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00346" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00342" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00335" />
@@ -214,7 +216,6 @@
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncir.2017.00047" />
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(17)30516-0?rss=yes" />
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(17)30511-1?rss=yes" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005630" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00340" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnsys.2017.00046" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00208" />
@@ -254,7 +255,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nn.4586" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nn.4585" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nn.4583" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005614" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00203" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00174" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fninf.2017.00042" />
@@ -419,6 +419,33 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005638">
+	<title>PLOS Computational Biology: New Articles: Inherent limitations of probabilistic models for protein-DNA binding specificity</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/r264-Gxc95o/article</link>
+	<content:encoded>&lt;p&gt;by Shuxiang Ruan, Gary D. Stormo&lt;/p&gt;
+
+The specificities of transcription factors are most commonly represented with probabilistic models. These models provide a probability for each base occurring at each position within the binding site and the positions are assumed to contribute independently. The model is simple and intuitive and is the basis for many motif discovery algorithms. However, the model also has inherent limitations that prevent it from accurately representing true binding probabilities, especially for the highest affinity sites under conditions of high protein concentration. The limitations are not due to the assumption of independence between positions but rather are caused by the non-linear relationship between binding affinity and binding probability and the fact that independent normalization at each position skews the site probabilities. Generally probabilistic models are reasonably good approximations, but new high-throughput methods allow for biophysical models with increased accuracy that should be used whenever possible.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/r264-Gxc95o&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-07-07T21:00:00+00:00</dc:date>
+	<dc:creator>Gary D. Stormo</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005624">
+	<title>PLOS Computational Biology: New Articles: Cannabinoids disrupt memory encoding by functionally isolating hippocampal CA1 from CA3</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/lnr-Ki3Ihu4/article</link>
+	<content:encoded>&lt;p&gt;by Roman A. Sandler, Dustin Fetterhoff, Robert E. Hampson, Sam A. Deadwyler, Vasilis Z. Marmarelis&lt;/p&gt;
+
+Much of the research on cannabinoids (CBs) has focused on their effects at the molecular and synaptic level. However, the effects of CBs on the dynamics of neural circuits remains poorly understood. This study aims to disentangle the effects of CBs on the functional dynamics of the hippocampal Schaffer collateral synapse by using data-driven nonparametric modeling. Multi-unit activity was recorded from rats doing an working memory task in control sessions and under the influence of exogenously administered tetrahydrocannabinol (THC), the primary CB found in marijuana. It was found that THC left firing rate unaltered and only slightly reduced theta oscillations. Multivariate autoregressive models, estimated from spontaneous spiking activity, were then used to describe the dynamical transformation from CA3 to CA1. They revealed that THC served to functionally isolate CA1 from CA3 by reducing feedforward excitation and theta information flow. The functional isolation was compensated by increased feedback excitation within CA1, thus leading to unaltered firing rates. Finally, both of these effects were shown to be correlated with memory impairments in the working memory task. By elucidating the circuit mechanisms of CBs, these results help close the gap in knowledge between the cellular and behavioral effects of CBs.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/lnr-Ki3Ihu4&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-07-07T21:00:00+00:00</dc:date>
+	<dc:creator>Vasilis Z. Marmarelis</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005618">
+	<title>PLOS Computational Biology: New Articles: Flux balance analysis predicts Warburg-like effects of mouse hepatocyte deficient in miR-122a</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/IbCukjI0xtA/article</link>
+	<content:encoded>&lt;p&gt;by Hua-Qing Wu, Mei-Ling Cheng, Jin-Mei Lai, Hsuan-Hui Wu, Meng-Chun Chen, Wen-Huan Liu, Wu-Hsiung Wu, Peter Mu-Hsin Chang, Chi-Ying F. Huang, Ann-Ping Tsou, Ming-Shi Shiao, Feng-Sheng Wang&lt;/p&gt;
+
+The liver is a vital organ involving in various major metabolic functions in human body. MicroRNA-122 (miR-122) plays an important role in the regulation of liver metabolism, but its intrinsic physiological functions require further clarification. This study integrated the genome-scale metabolic model of hepatocytes and mouse experimental data with germline deletion of &lt;i&gt;Mir122a&lt;/i&gt; (&lt;i&gt;Mir122a&lt;/i&gt;&lt;sup&gt;–/–&lt;/sup&gt;) to infer Warburg-like effects. Elevated expression of &lt;i&gt;MiR-122a&lt;/i&gt; target genes in &lt;i&gt;Mir122a&lt;/i&gt;&lt;sup&gt;–/–&lt;/sup&gt;mice, especially those encoding for metabolic enzymes, was applied to analyze the flux distributions of the genome-scale metabolic model in normal and deficient states. By definition of the similarity ratio, we compared the flux fold change of the genome-scale metabolic model computational results and metabolomic profiling data measured through a liquid-chromatography with mass spectrometer, respectively, for hepatocytes of 2-month-old mice in normal and deficient states. The &lt;i&gt;Ddc&lt;/i&gt; gene demonstrated the highest similarity ratio of 95% to the biological hypothesis of the Warburg effect, and similarity of 75% to the experimental observation. We also used 2, 6, and 11 months of mir-122 knockout mice liver cell to examined the expression pattern of DDC in the knockout mice livers to show upregulated profiles of DDC from the data. Furthermore, through a bioinformatics (LINCS program) prediction, BTK inhibitors and withaferin A could downregulate DDC expression, suggesting that such drugs could potentially alter the early events of metabolomics of liver cancer cells.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/IbCukjI0xtA&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-07-07T21:00:00+00:00</dc:date>
+	<dc:creator>Feng-Sheng Wang</dc:creator>
+</item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00357">
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Isolating Discriminant Neural Activity in the Presence of Eye Movements and Concurrent Task Demands</title>
 	<link>http://journal.frontiersin.org/article/10.3389/fnhum.2017.00357</link>
@@ -544,6 +571,13 @@ protein interaction networks, gene networks or social networks.
 &lt;/p&gt;</content:encoded>
 	<dc:date>2017-07-07T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Fraiman_D/0/1/0/all/0/1">Daniel Fraiman</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Fraiman_R/0/1/0/all/0/1">Ricardo Fraiman</a></dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/160721v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Learning of Active Binocular Vision in a Biomechanical Model of the Oculomotor System</title>
+	<link>http://biorxiv.org/cgi/content/short/160721v1?rss=1</link>
+	<content:encoded>We present a model for the autonomous learning of active binocular vision using a recently developed biomechanical model of the human oculomotor system. The model is formulated in the Active Efficient Coding (AEC) framework, a recent generalization of classic efficient coding theories to active perception. The model simultaneously learns how to efficiently encode binocular images and how to generate accurate vergence eye movements that facilitate efficient encoding of the visual input. In order to resolve the redundancy problem arising from the actuation of the eyes through antagonistic muscle pairs, we consider the metabolic costs associated with eye movements. We show that the model successfully learns to trade off vergence accuracy against the associated metabolic costs, producing high fidelity vergence eye movements obeying Sherrington's law of reciprocal innervation.</content:encoded>
+	<dc:date>2017-07-07T00:00:00+00:00</dc:date>
+	<dc:creator>Klimmasch, L.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/160655v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: A Novel, Fast and Efficient Single-Sensor Automatic Sleep-Stage Classification Based on Complementary Cross-Frequency Coupling Estimates</title>
@@ -1332,13 +1366,6 @@ approach to be an useful tool for their analysis.
 	<dc:date>2017-07-05T00:00:00+00:00</dc:date>
 	<dc:creator>Hardy, N. F.</dc:creator>
 </item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/158949v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Data-driven subtyping of behavioural problems associated with ADHD in children</title>
-	<link>http://biorxiv.org/cgi/content/short/158949v1?rss=1</link>
-	<content:encoded>Many developmental disorders are associated with deficits in controlling and regulating behaviour. These difficulties are foremost associated with attention deficit hyperactivity disorder (ADHD), but are also frequently observed in other groups, including in children with diagnoses of specific learning difficulties, autistic spectrum disorder, or conduct disorder. The co-occurrence of these behavioural problems across disorders typically leads to comorbid diagnoses and can complicate intervention approaches. An alternative to classifying children on the basis of specific diagnostic criteria is to use a data-driven grouping that identifies dimensions of behaviour that meaningfully distinguish groups of children and become specific targets for intervention. The current study applies a novel data-driven clustering algorithm to group children by similarities in their ratings on a parent questionnaire that is commonly used to assess behavioural problems associated with ADHD. The sample consisted of 442 children identified by health and educational professionals as having difficulties in attention, learning and/or memory. The data-driven clustering yielded three distinct groups of children with symptoms of either: (1) elevated inattention, and hyperactivity/impulsivity, and poor executive function, (2) learning problems, and (3) aggressive behaviours and problems with peer relationships. These groups were associated with significant inter-individual variation in white matter connectivity of the prefrontal and anterior cingulate. In sum, data-driven classification of executive function difficulties identifies stable groups of children, provides a good account of inter-individual differences, and aligns closely with underlying neurobiological substrates.</content:encoded>
-	<dc:date>2017-07-05T00:00:00+00:00</dc:date>
-	<dc:creator>Bathelt, J.</dc:creator>
-</item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00213">
 	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Characterization of Lgr5+ Progenitor Cell Transcriptomes after Neomycin Injury in the Neonatal Mouse Cochlea</title>
 	<link>http://journal.frontiersin.org/article/10.3389/fnmol.2017.00213</link>
@@ -2085,15 +2112,6 @@ Retroduplications come from reverse transcription of mRNAs and their insertion b
 	<dc:date>2017-06-29T21:00:00+00:00</dc:date>
 	<dc:creator>Mark B. Gerstein</dc:creator>
 </item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005522">
-	<title>PLOS Computational Biology: New Articles: Detecting similar binding pockets to enable systems polypharmacology</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/SFiyBKnlGGE/article</link>
-	<content:encoded>&lt;p&gt;by Miquel Duran-Frigola, Lydia Siragusa, Eytan Ruppin, Xavier Barril, Gabriele Cruciani, Patrick Aloy&lt;/p&gt;
-
-In the era of systems biology, multi-target pharmacological strategies hold promise for tackling disease-related networks. In this regard, drug promiscuity may be leveraged to interfere with multiple receptors: the so-called polypharmacology of drugs can be anticipated by analyzing the similarity of binding sites across the proteome. Here, we perform a pairwise comparison of 90,000 putative binding pockets detected in 3,700 proteins, and find that 23,000 pairs of proteins have at least one similar cavity that could, in principle, accommodate similar ligands. By inspecting these pairs, we demonstrate how the detection of similar binding sites expands the space of opportunities for the rational design of drug polypharmacology. Finally, we illustrate how to leverage these opportunities in protein-protein interaction networks related to several therapeutic classes and tumor types, and in a genome-scale metabolic model of leukemia.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/SFiyBKnlGGE&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-06-29T21:00:00+00:00</dc:date>
-	<dc:creator>Patrick Aloy</dc:creator>
-</item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00346">
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Adverse Effects of the Apolipoprotein E ε4 Allele on Episodic Memory, Task Switching and Gray Matter Volume in Healthy Young Adults</title>
 	<link>http://journal.frontiersin.org/article/10.3389/fnhum.2017.00346</link>
@@ -2149,15 +2167,6 @@ In the era of systems biology, multi-target pharmacological strategies hold prom
 	<content:encoded>Leading models of decision-making postulate that individual fronto-parietal neurons encode accumulated sensory evidence with stable changes in firing rate. Using cellular resolution calcium imaging during a pulse-based accumulation task, Scott et al. reveal that stable representations of accumulated evidence in rat fronto-parietal cortex instead arise from neuronal populations with temporally diverse responses.</content:encoded>
 	<dc:date>2017-06-29T00:00:00+00:00</dc:date>
 	<dc:creator>Benjamin B. Scott, Christine M. Constantinople, Athena Akrami, Timothy D. Hanks, Carlos D. Brody, David W. Tank</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005630">
-	<title>PLOS Computational Biology: New Articles: Optimal structure of metaplasticity for adaptive learning</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/t7UQtAkeMR0/article</link>
-	<content:encoded>&lt;p&gt;by Peyman Khorsand, Alireza Soltani&lt;/p&gt;
-
-Learning from reward feedback in a changing environment requires a high degree of adaptability, yet the precise estimation of reward information demands slow updates. In the framework of estimating reward probability, here we investigated how this tradeoff between adaptability and precision can be mitigated via metaplasticity, i.e. synaptic changes that do not always alter synaptic efficacy. Using the mean-field and Monte Carlo simulations we identified ‘superior’ metaplastic models that can substantially overcome the adaptability-precision tradeoff. These models can achieve both adaptability and precision by forming two separate sets of meta-states: reservoirs and buffers. Synapses in reservoir meta-states do not change their efficacy upon reward feedback, whereas those in buffer meta-states can change their efficacy. Rapid changes in efficacy are limited to synapses occupying buffers, creating a bottleneck that reduces noise without significantly decreasing adaptability. In contrast, more-populated reservoirs can generate a strong signal without manifesting any observable plasticity. By comparing the behavior of our model and a few competing models during a dynamic probability estimation task, we found that superior metaplastic models perform close to optimally for a wider range of model parameters. Finally, we found that metaplastic models are robust to changes in model parameters and that metaplastic transitions are crucial for adaptive learning since replacing them with graded plastic transitions (transitions that change synaptic efficacy) reduces the ability to overcome the adaptability-precision tradeoff. Overall, our results suggest that ubiquitous unreliability of synaptic changes evinces metaplasticity that can provide a robust mechanism for mitigating the tradeoff between adaptability and precision and thus adaptive learning.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/t7UQtAkeMR0&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-06-28T21:00:00+00:00</dc:date>
-	<dc:creator>Alireza Soltani</dc:creator>
 </item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00340">
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Aberrant Long-Range Temporal Correlations in Depression Are Attenuated after Psychological Treatment</title>
@@ -2436,15 +2445,6 @@ Learning from reward feedback in a changing environment requires a high degree o
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/neuro/rss/current/~4/6HP_EveW2i8&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-06-27T00:00:00+00:00</dc:date>
 	<dc:creator>László Acsády</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005614">
-	<title>PLOS Computational Biology: New Articles: MFPred: Rapid and accurate prediction of protein-peptide recognition multispecificity using self-consistent mean field theory</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/a4qQc3fVbhM/article</link>
-	<content:encoded>&lt;p&gt;by Aliza B. Rubenstein, Manasi A. Pethe, Sagar D. Khare&lt;/p&gt;
-
-Multispecificity–the ability of a single receptor protein molecule to interact with multiple substrates–is a hallmark of molecular recognition at protein-protein and protein-peptide interfaces, including enzyme-substrate complexes. The ability to perform structure-based prediction of multispecificity would aid in the identification of novel enzyme substrates, protein interaction partners, and enable design of novel enzymes targeted towards alternative substrates. The relatively slow speed of current biophysical, structure-based methods limits their use for prediction and, especially, design of multispecificity. Here, we develop a rapid, flexible-backbone self-consistent mean field theory-based technique, MFPred, for multispecificity modeling at protein-peptide interfaces. We benchmark our method by predicting experimentally determined peptide specificity profiles for a range of receptors: protease and kinase enzymes, and protein recognition modules including SH2, SH3, MHC Class I and PDZ domains. We observe robust recapitulation of known specificities for all receptor-peptide complexes, and comparison with other methods shows that MFPred results in equivalent or better prediction accuracy with a ~10-1000-fold decrease in computational expense. We find that modeling bound peptide backbone flexibility is key to the observed accuracy of the method. We used MFPred for predicting with high accuracy the impact of receptor-side mutations on experimentally determined multispecificity of a protease enzyme. Our approach should enable the design of a wide range of altered receptor proteins with programmed multispecificities.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/a4qQc3fVbhM&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-06-26T21:00:00+00:00</dc:date>
-	<dc:creator>Sagar D. Khare</dc:creator>
 </item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00203">
 	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Nupr1 Modulates Methamphetamine-Induced Dopaminergic Neuronal Apoptosis and Autophagy through CHOP-Trib3-Mediated Endoplasmic Reticulum Stress Signaling Pathway</title>
