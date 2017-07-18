@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005653" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005609" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00209" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.24998" />
 			<rdf:li rdf:resource="http://www.pnas.org/content/114/29/E6026.short?rss=1" />
@@ -61,9 +63,14 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1707.04648" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1701.02599" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1602.07100" />
+			<rdf:li rdf:resource="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-017-0374-z" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/165332v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/165316v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/164780v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/164764v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/164731v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/164699v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/163725v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005663" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005660" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005656" />
@@ -108,10 +115,6 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1707.04192" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1707.04129" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/163709v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/163667v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/163394v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/163261v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/163022v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005668" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005658" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005651" />
@@ -199,8 +202,6 @@
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnsys.2017.00047" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1707.01962" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005638" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005624" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005618" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00357" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00192" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.24967" />
@@ -414,11 +415,28 @@
 			<rdf:li rdf:resource="http://www.sciencedirect.com/science/article/pii/S0959438816301763" />
 			<rdf:li rdf:resource="http://www.sciencedirect.com/science/article/pii/S095943881630246X" />
 			<rdf:li rdf:resource="http://www.sciencedirect.com/science/article/pii/S0959438816301672" />
-			<rdf:li rdf:resource="http://www.sciencedirect.com/science/article/pii/S0959438817300806" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005653">
+	<title>PLOS Computational Biology: New Articles: CLIC, a tool for expanding biological pathways based on co-expression across thousands of datasets</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/lWN2PxpEdkA/article</link>
+	<content:encoded>&lt;p&gt;by Yang Li, Alexis A. Jourdain, Sarah E. Calvo, Jun S. Liu, Vamsi K. Mootha&lt;/p&gt;
+
+In recent years, there has been a huge rise in the number of publicly available transcriptional profiling datasets. These massive compendia comprise billions of measurements and provide a special opportunity to predict the function of unstudied genes based on co-expression to well-studied pathways. Such analyses can be very challenging, however, since biological pathways are modular and may exhibit co-expression only in specific contexts. To overcome these challenges we introduce CLIC, CLustering by Inferred Co-expression. CLIC accepts as input a pathway consisting of two or more genes. It then uses a Bayesian partition model to simultaneously partition the input gene set into coherent co-expressed modules (CEMs), while assigning the posterior probability for each dataset in support of each CEM. CLIC then expands each CEM by scanning the transcriptome for additional co-expressed genes, quantified by an integrated log-likelihood ratio (LLR) score weighted for each dataset. As a byproduct, CLIC automatically learns the conditions (datasets) within which a CEM is operative. We implemented CLIC using a compendium of 1774 mouse microarray datasets (28628 microarrays) or 1887 human microarray datasets (45158 microarrays). CLIC analysis reveals that of 910 canonical biological pathways, 30% consist of strongly co-expressed gene modules for which new members are predicted. For example, CLIC predicts a functional connection between protein C7orf55 (FMC1) and the mitochondrial ATP synthase complex that we have experimentally validated. CLIC is freely available at www.gene-clic.org. We anticipate that CLIC will be valuable both for revealing new components of biological pathways as well as the conditions in which they are active.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/lWN2PxpEdkA&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-07-18T21:00:00+00:00</dc:date>
+	<dc:creator>Vamsi K. Mootha</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005609">
+	<title>PLOS Computational Biology: New Articles: Stress-induced mutagenesis: Stress diversity facilitates the persistence of mutator genes</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/ZKmz7SIhs_g/article</link>
+	<content:encoded>&lt;p&gt;by Marta Lukačišinová, Sebastian Novak, Tiago Paixão&lt;/p&gt;
+
+Mutator strains are expected to evolve when the availability and effect of beneficial mutations are high enough to counteract the disadvantage from deleterious mutations that will inevitably accumulate. As the population becomes more adapted to its environment, both availability and effect of beneficial mutations necessarily decrease and mutation rates are predicted to decrease. It has been shown that certain molecular mechanisms can lead to increased mutation rates when the organism finds itself in a stressful environment. While this may be a correlated response to other functions, it could also be an adaptive mechanism, raising mutation rates only when it is most advantageous. Here, we use a mathematical model to investigate the plausibility of the adaptive hypothesis. We show that such a mechanism can be mantained if the population is subjected to diverse stresses. By simulating various antibiotic treatment schemes, we find that combination treatments can reduce the effectiveness of second-order selection on stress-induced mutagenesis. We discuss the implications of our results to strategies of antibiotic therapy.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/ZKmz7SIhs_g&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-07-18T21:00:00+00:00</dc:date>
+	<dc:creator>Tiago Paixão</dc:creator>
+</item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fncel.2017.00209">
 	<title>Frontiers in Cellular Neuroscience | New and Recent Articles: Bioenergetic Failure in Rat Oligodendrocyte Progenitor Cells Treated with Cerebrospinal Fluid Derived from Multiple Sclerosis Patients</title>
 	<link>http://journal.frontiersin.org/article/10.3389/fncel.2017.00209</link>
@@ -837,12 +855,40 @@ topography.
 	<dc:date>2017-07-18T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Haak_K/0/1/0/all/0/1">Koen V. Haak</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Marquand_A/0/1/0/all/0/1">Andre F. Marquand</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Beckmann_C/0/1/0/all/0/1">Christian F. Beckmann</a></dc:creator>
 </item>
+<item rdf:about="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-017-0374-z">
+	<title>Most Recent Articles: BMC Neuroscience: Regeneration of long-distance peripheral nerve defects after delayed reconstruction in healthy and diabetic rats is supported by immunomodulatory chitosan nerve guides</title>
+	<link>https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-017-0374-z</link>
+	<content:encoded>Delayed reconstruction of transection or laceration injuries of peripheral nerves is inflicted by a reduced regeneration capacity. Diabetic conditions, more frequently encountered in clinical practice, are kno...</content:encoded>
+	<dc:date>2017-07-18T00:00:00+00:00</dc:date>
+	<dc:creator>Lena Stenberg, Maria Stößel, Giulia Ronchi, Stefano Geuna, Yaobin Yin, Susanne Mommert, Lisa Mårtensson, Jennifer Metzen, Claudia Grothe, Lars B. Dahlin and Kirsten Haastert-Talini</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/165332v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Dynamic cortical representations of perceptual filling-in for missing acoustic rhythm</title>
+	<link>http://biorxiv.org/cgi/content/short/165332v1?rss=1</link>
+	<content:encoded>In the phenomenon of perceptual filling-in, missing sensory information can be reconstructed via interpolation from adjacent contextual cues by what is necessarily an endogenous, not yet well understood, neural process. In this investigation, sound stimuli were chosen to allow observation of fixed cortical oscillations driven by contextual (but missing) sensory input, thus entirely reflecting endogenous neural activity. The stimulus employed was a 5 Hz frequency-modulated tone, with brief masker probes (noise bursts) occasionally added. For half the probes, the rhythmic frequency modulation was moreover removed. Listeners reported whether the tone masked by each probe was perceived as being rhythmic or not. Time-frequency analysis of neural responses obtained by magnetoencephalography (MEG) shows that for maskers without the underlying acoustic rhythm, trials where rhythm was nonetheless perceived show higher evoked sustained rhythmic power than trials for which no rhythm was reported. The results support a model in which perceptual filling-in is aided by differential co-modulations of cortical activity at rates directly relevant to human speech communication. We propose that the presence of rhythmically-modulated neural dynamics predicts the subjective experience of a rhythmically modulated sound in real time, even when the perceptual experience is not supported by corresponding sensory data.</content:encoded>
+	<dc:date>2017-07-18T00:00:00+00:00</dc:date>
+	<dc:creator>Cervantes Constantino, F.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/165316v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Abnormal Speech Motor Control in Individuals with 16p11.2 Deletions</title>
+	<link>http://biorxiv.org/cgi/content/short/165316v1?rss=1</link>
+	<content:encoded>Speech and motor deficits are highly prevalent (&amp;gt;70%) in individuals with the 600 kb BP4-BP5 16p11.2 deletion; however, the mechanisms that drive these deficits are unclear, limiting our ability to target interventions and advance treatment. This study examined fundamental aspects of speech motor control in participants with the 16p11.2 deletion. To assess capacity for control of voice, we examined how accurately and quickly subjects changed the pitch of their voice within a trial to correct for a transient perturbation of the pitch of their auditory feedback. When compared to sibling controls, 16p11.2 deletion carriers show an over-exaggerated pitch compensation response to unpredictable mid-vocalization pitch perturbations. We also examined sensorimotor adaptation of speech by assessing how subjects learned to adapt their sustained productions of formants (speech spectral peak frequencies important for vowel identity), in response to consistent changes in their auditory feedback during vowel production. Deletion carriers show reduced sensorimotor adaptation to sustained vowel identity changes in auditory feedback. These results together suggest that 16p11.2 deletion carriers have fundamental impairments in the basic mechanisms of speech motor control and these impairments may partially explain the deficits in speech and language in these individuals.</content:encoded>
+	<dc:date>2017-07-18T00:00:00+00:00</dc:date>
+	<dc:creator>Demopoulos, C.</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/164780v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: In Rift Valley settings with a feedback loop, assortative mating for versatility predicts hominin brain enlargement in some detail</title>
 	<link>http://biorxiv.org/cgi/content/short/164780v1?rss=1</link>
 	<content:encoded>Hominin procedures for fire-starting, sharpening rocks, and softening roots by pounding or chopping require sustained attention for hours; shade is sought in the brush fringe bordering a grassland. Clustering these more versatile adults, while others are away hunting and gathering, provides a setup for assortative mating. This can lengthen attention span, enhance versatility and, with it, brain size. The rate of enlargement is accelerated by a boom-and-bust cycle in their meat supply, predicting the observed initiation of enlargement at -2.3 myr in the Rift Valley once boom-prone grazers evolved from the mixed feeders. Several months after lightning created a burn scar back in the brush, the new grassland enables a population boom for those grazers that discover it. Several decades later as brush regrows, they are pushed back. Their hominin followers, wicked in from the grassland's shady fringe, boom together with the burn-scar grazers. They then follow their meat supply back to the main population. This creates an amplifying feedback loop, shifting Homo gene frequencies centrally. Brush fires are so frequent that the cosmic ray mutation rate becomes enlargement's rate-limiter, consistent with 460 cm3/myr remaining constant during many climate shifts. The apparent tripling of enlargement rate in the last 0.2 myr vanished when the non-ancestors were omitted. Asian Homo erectus enlargement lags the ancestral trend line by 0.5 myr. Neanderthals lag somewhat less but have a late size spurt after the -70 kyr Homo sapiens Out of Africa, suggesting enlargement genes were acquired via interbreeding.</content:encoded>
 	<dc:date>2017-07-18T00:00:00+00:00</dc:date>
 	<dc:creator>Calvin, W. H.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/164764v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: A functional connectome phenotyping dataset including cognitive state and personality measures</title>
+	<link>http://biorxiv.org/cgi/content/short/164764v1?rss=1</link>
+	<content:encoded>The dataset enables exploration of higher-order cognitive faculties, self-generated mental experience, and personality features in relation to the intrinsic functional architecture of the brain. We provide multimodal magnetic resonance imaging (MRI) data and a broad set of state and trait phenotypic assessments: mind-wandering, personality traits, and cognitive abilities. Specifically, 194 healthy participants (between 20 and 75 years of age) filled out 31 questionnaires, performed 7 tasks, and reported 4 probes of in-scanner mind-wandering. The scanning session included four 15.5-min resting-state functional MRI runs using a multiband EPI sequence and a high-resolution structural scan using a 3D MP2RAGE sequence. This dataset constitutes one part of the Leipzig Study for Mind-Body-Emotion Interactions database.</content:encoded>
+	<dc:date>2017-07-18T00:00:00+00:00</dc:date>
+	<dc:creator>Mendes, N.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/164731v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Imaging of neural oscillations with embedded inferential and group prevalence statistics.</title>
@@ -857,6 +903,13 @@ topography.
 	<content:encoded>During non-REM sleep, memory consolidation is driven by a dialogue between cortex and hippocampus. The reactivation of specific neural activity sequences (replay) is believed to represent a neuronal substrate of consolidation. In the hippocampus, replay occurs during sharp-wave ripples (SWRs), short bouts of excitatory activity in area CA3 which induce high frequency oscillations in the inhibitory population of area CA1. Despite growing evidence for the functional importance of replay, its neural mechanisms remain poorly understood. Here, we develop a novel theoretical model of hippocampal spike sequence replay during SWRs. In our model, noise-induced activation of CA3 pyramidal cells triggered an excitatory cascade, which induced local ripple events in CA1. Ripples occurred stochastically in the model, with Schaffer Collaterals driving coordination, so that localized sharp waves in CA3 produced consistently localized CA1 ripples. In agreement with experimental data, the majority of pyramidal cells in the model showed low reactivation probability across SWRs, defined by the overall network connectivity. We found, however, that a small portion of pyramidal cells which had high reactivation probability across multiple SWRs owed their reactivation properties to the fine variations within network connectivity, and hence the detailed spiking dynamic within SWRs. In particular, the excitatory inputs along synaptic pathway(s) to cells and cell pairs controlled emergent single cell and cell pair reactivation. Furthermore, we found that inhibitory synaptic inputs and intrinsic cell excitability only had an influential role on the activation of CA3 pyramidal cells, but not CA1 pyramidal cells, during SWRs. Our study predicts that hippocampal replay results from a network-wide coordination of activation probability across SWRs for cells and cell pairs, which is further refined by specific synaptic strengths. This suggests a possible competition among cell assemblies for activation during SWRs, where synaptic strengths mediate the chance of dominance of a given memory over others during spontaneous SWRs.</content:encoded>
 	<dc:date>2017-07-18T00:00:00+00:00</dc:date>
 	<dc:creator>Malerba, P.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/163725v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Exploring the limits of learning: segregation of information integration and response selection is required for learning a serial reversal task</title>
+	<link>http://biorxiv.org/cgi/content/short/163725v1?rss=1</link>
+	<content:encoded>Animals are proposed to learn the latent rules governing their environment in order to maximize their chances of survival. However, rules may change without notice, forcing animals to keep a memory of which one is currently at work. Rule switching can lead to situations in which the same stimulus/response pairing is positively and negatively rewarded in the long run, depending on variables that are not accessible to the animal. This fact rises questions on how neural systems are capable of reinforcement learning in environments where the reinforcement is inconsistent. Here we address this issue by asking about which aspects of connectivity, neural excitability and synaptic plasticity are key for a very general, stochastic spiking neural network model to solve a task in which rules change without being cued, taking the serial reversal task (SRT) as paradigm. Contrary to what could be expected, we found strong limitations for biologically plausible networks to solve the SRT. Especially, we proved that no network of neurons can learn a SRT if it is a single neural population that integrates stimuli information and at the same time is responsible of choosing the behavioural response. This limitation is independent of the number of neurons, neuronal dynamics or plasticity rules, and arises from the fact that plasticity is locally computed at each synapse, and that synaptic changes and neuronal activity are mutually dependent processes. We propose and characterize a spiking neural network model that solves the SRT, which relies on separating the functions of stimuli integration and response selection. The model suggests that experimental efforts to understand neural function should focus on the characterization of neural circuits according to their connectivity, neural dynamics, and the degree of modulation of synaptic plasticity with reward.</content:encoded>
+	<dc:date>2017-07-18T00:00:00+00:00</dc:date>
+	<dc:creator>Mininni, C. J.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005663">
 	<title>PLOS Computational Biology: New Articles: Atomistic fingerprint of hyaluronan–CD44 binding</title>
@@ -1244,34 +1297,6 @@ the sparse distributed macrocolumnar code.
 	<content:encoded>The regulation of cognitive and emotional processes is critical for proper executive functions and social behavior, but its specific mechanisms remain unknown. Here, we addressed this issue by studying with functional magnetic resonance imaging the changes in network topology that underlie competitive interactions between emotional and cognitive networks in healthy participants. Our behavioral paradigm contrasted periods with high emotional and cognitive demands by including a sadness provocation task followed by a spatial working memory task. We hypothesized that this paradigm would enhance the modularity of emotional and cognitive networks and reveal the hub areas that regulate the flow of information between them. By applying graph analysis methods on functional connectivity between 20 regions of interest in 22 participants we identified two main brain network modules, one cognitive and one emotional, and their hub areas: the left dorsolateral prefrontal cortex (dlPFC) and the left medial frontal pole (mFP). These hub areas did not modulate their mutual functional connectivity following sadness but they did so through an interposed area, the subgenual anterior cingulate cortex (sACC). Our results identify dlPFC and mFP as areas regulating interactions between emotional and cognitive networks, and suggest that their modulation by sadness experience is mediated by sACC.</content:encoded>
 	<dc:date>2017-07-14T00:00:00+00:00</dc:date>
 	<dc:creator>Ramirez-Mahaluf, J. P.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/163667v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Connectome-harmonic decomposition of human brain activity reveals dynamical repertoire re-organisation under LSD</title>
-	<link>http://biorxiv.org/cgi/content/short/163667v1?rss=1</link>
-	<content:encoded>Recent studies have started to elucidate the effects of lysergic acid diethylamide (LSD) on the human brain but the underlying dynamics are not yet fully understood. Here we used 'connectome-harmonic decomposition', a novel method to investigate the dynamical changes in brain states. We found that LSD alters the energy and the power of individual harmonic brain states in a frequency-selective manner. Remarkably, this leads to an expansion of the repertoire of active brain states, suggestive of a general re-organization of brain dynamics given the non-random increase in co-activation across frequencies. Interestingly, the frequency distribution of the active repertoire of brain states under LSD closely follows power-laws indicating a re-organization of the dynamics at the edge of criticality. Beyond the present findings, these methods open up for a better understanding of the complex brain dynamics in health and disease.</content:encoded>
-	<dc:date>2017-07-14T00:00:00+00:00</dc:date>
-	<dc:creator>Atasoy, S.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/163394v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Inert and seed-competent tau monomers elucidate the structural origins of aggregation</title>
-	<link>http://biorxiv.org/cgi/content/short/163394v1?rss=1</link>
-	<content:encoded>Tauopathies are defined by progressive accumulation of tau amyloids. These assemble around a protein seed, whose structure is unknown, but might explain the initiation of pathology. We have purified and characterized distinct forms of tau monomer, either seed-competent or inert. Recombinant tau that was seed-competent triggered intracellular tau aggregation, induced full length tau fibrillization in vitro, and exhibited intrinsic properties of self-assembly. Tau monomer from AD brain, but not from controls, similarly seeded aggregation, and self-assembled in vitro to form higher order, seed-competent structures. We used crosslinking with mass spectrometry to identify distinct conformers of both recombinant tau and human brain-derived protein. Theoretical models informed by this data suggest that VQIINK and VQIVYK sequences, which support amyloid formation, are uniquely exposed in all seed-competent structures. Our data imply that initiation of pathological aggregation begins with conversion of tau monomer from an inert to a seed-competent form.</content:encoded>
-	<dc:date>2017-07-14T00:00:00+00:00</dc:date>
-	<dc:creator>Mirbaha, H.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/163261v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Noise Gated by Dendrosomatic Interactions Increases Information Transmission</title>
-	<link>http://biorxiv.org/cgi/content/short/163261v1?rss=1</link>
-	<content:encoded>We study how noise in active dendrites affects information transmission. A mismatch of both noise and refractoriness between a dendritic compartment and a somatic compartment is shown to lead to an input-dependent exchange of leadership, where the dendrite entrains the soma for weak stimuli and the soma entrains the dendrite for strong stimuli. Using this simple mechanism, the noise in the dendritic compartment can boost weak signals without affecting the output of the neuron for strong stimuli. We show that these mechanisms give rise to a noise-induced increase of information transmission by neural populations.</content:encoded>
-	<dc:date>2017-07-14T00:00:00+00:00</dc:date>
-	<dc:creator>Naud, R.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/163022v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Reconfiguration of brain network architectures between resting state and complexity-dependent cognitive reasoning</title>
-	<link>http://biorxiv.org/cgi/content/short/163022v1?rss=1</link>
-	<content:encoded>Our capacity for higher cognitive reasoning has a measureable limit. This limit is thought to arise from the brains capacity to flexibly reconfigure interactions between spatially distributed networks. Recent work, however, has suggested that reconfigurations of task-related networks are modest when compared with intrinsic resting state network architecture. Here we combined resting state and task-driven functional magnetic resonance imaging to examine how flexible, task-specific reconfigurations associated with increasing reasoning demands are integrated within a stable intrinsic brain topology. Human participants (21 males and 28 females) underwent an initial resting state scan, followed by a cognitive reasoning task involving different levels of complexity, followed by a second resting state scan. The reasoning task required participants to deduce the identity of a missing element in a 4 x 4 matrix, and item difficulty was scaled parametrically as determined by relational complexity theory. Analyses revealed that external task engagement was characterized by a significant change in functional brain modules. Specifically, resting state and null-task demand conditions were associated with more segregated brain network topology, whereas increases in reasoning complexity resulted in merging of resting state modules. Further increments in task complexity did not change the established modular architecture, but impacted selective patterns of connectivity between fronto-parietal, subcortical, cingulo-opercular and default-mode networks. Larger increases in network efficiency within the newly established task modules were associated with higher reasoning accuracy. Our results shed light on the network architectures that underlie external task engagement, and highlight selective changes in brain connectivity supporting increases in task complexity.</content:encoded>
-	<dc:date>2017-07-14T00:00:00+00:00</dc:date>
-	<dc:creator>Hearne, L. J.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005668">
 	<title>PLOS Computational Biology: New Articles: Cooperative stochastic binding and unbinding explain synaptic size dynamics and statistics</title>
@@ -2040,24 +2065,6 @@ senses in its fundamental use of disorder.
 The specificities of transcription factors are most commonly represented with probabilistic models. These models provide a probability for each base occurring at each position within the binding site and the positions are assumed to contribute independently. The model is simple and intuitive and is the basis for many motif discovery algorithms. However, the model also has inherent limitations that prevent it from accurately representing true binding probabilities, especially for the highest affinity sites under conditions of high protein concentration. The limitations are not due to the assumption of independence between positions but rather are caused by the non-linear relationship between binding affinity and binding probability and the fact that independent normalization at each position skews the site probabilities. Generally probabilistic models are reasonably good approximations, but new high-throughput methods allow for biophysical models with increased accuracy that should be used whenever possible.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/r264-Gxc95o&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-07-07T21:00:00+00:00</dc:date>
 	<dc:creator>Gary D. Stormo</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005624">
-	<title>PLOS Computational Biology: New Articles: Cannabinoids disrupt memory encoding by functionally isolating hippocampal CA1 from CA3</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/lnr-Ki3Ihu4/article</link>
-	<content:encoded>&lt;p&gt;by Roman A. Sandler, Dustin Fetterhoff, Robert E. Hampson, Sam A. Deadwyler, Vasilis Z. Marmarelis&lt;/p&gt;
-
-Much of the research on cannabinoids (CBs) has focused on their effects at the molecular and synaptic level. However, the effects of CBs on the dynamics of neural circuits remains poorly understood. This study aims to disentangle the effects of CBs on the functional dynamics of the hippocampal Schaffer collateral synapse by using data-driven nonparametric modeling. Multi-unit activity was recorded from rats doing an working memory task in control sessions and under the influence of exogenously administered tetrahydrocannabinol (THC), the primary CB found in marijuana. It was found that THC left firing rate unaltered and only slightly reduced theta oscillations. Multivariate autoregressive models, estimated from spontaneous spiking activity, were then used to describe the dynamical transformation from CA3 to CA1. They revealed that THC served to functionally isolate CA1 from CA3 by reducing feedforward excitation and theta information flow. The functional isolation was compensated by increased feedback excitation within CA1, thus leading to unaltered firing rates. Finally, both of these effects were shown to be correlated with memory impairments in the working memory task. By elucidating the circuit mechanisms of CBs, these results help close the gap in knowledge between the cellular and behavioral effects of CBs.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/lnr-Ki3Ihu4&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-07-07T21:00:00+00:00</dc:date>
-	<dc:creator>Vasilis Z. Marmarelis</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005618">
-	<title>PLOS Computational Biology: New Articles: Flux balance analysis predicts Warburg-like effects of mouse hepatocyte deficient in miR-122a</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/IbCukjI0xtA/article</link>
-	<content:encoded>&lt;p&gt;by Hua-Qing Wu, Mei-Ling Cheng, Jin-Mei Lai, Hsuan-Hui Wu, Meng-Chun Chen, Wen-Huan Liu, Wu-Hsiung Wu, Peter Mu-Hsin Chang, Chi-Ying F. Huang, Ann-Ping Tsou, Ming-Shi Shiao, Feng-Sheng Wang&lt;/p&gt;
-
-The liver is a vital organ involving in various major metabolic functions in human body. MicroRNA-122 (miR-122) plays an important role in the regulation of liver metabolism, but its intrinsic physiological functions require further clarification. This study integrated the genome-scale metabolic model of hepatocytes and mouse experimental data with germline deletion of &lt;i&gt;Mir122a&lt;/i&gt; (&lt;i&gt;Mir122a&lt;/i&gt;&lt;sup&gt;–/–&lt;/sup&gt;) to infer Warburg-like effects. Elevated expression of &lt;i&gt;MiR-122a&lt;/i&gt; target genes in &lt;i&gt;Mir122a&lt;/i&gt;&lt;sup&gt;–/–&lt;/sup&gt;mice, especially those encoding for metabolic enzymes, was applied to analyze the flux distributions of the genome-scale metabolic model in normal and deficient states. By definition of the similarity ratio, we compared the flux fold change of the genome-scale metabolic model computational results and metabolomic profiling data measured through a liquid-chromatography with mass spectrometer, respectively, for hepatocytes of 2-month-old mice in normal and deficient states. The &lt;i&gt;Ddc&lt;/i&gt; gene demonstrated the highest similarity ratio of 95% to the biological hypothesis of the Warburg effect, and similarity of 75% to the experimental observation. We also used 2, 6, and 11 months of mir-122 knockout mice liver cell to examined the expression pattern of DDC in the knockout mice livers to show upregulated profiles of DDC from the data. Furthermore, through a bioinformatics (LINCS program) prediction, BTK inhibitors and withaferin A could downregulate DDC expression, suggesting that such drugs could potentially alter the early events of metabolomics of liver cancer cells.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/IbCukjI0xtA&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-07-07T21:00:00+00:00</dc:date>
-	<dc:creator>Feng-Sheng Wang</dc:creator>
 </item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00357">
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Isolating Discriminant Neural Activity in the Presence of Eye Movements and Concurrent Task Demands</title>
@@ -3502,12 +3509,6 @@ The liver is a vital organ involving in various major metabolic functions in hum
 	<title>Current Opinion in Neurobiology - Just Published: Fast and slow Ca2+-dependent hyperpolarization mechanisms connect membrane potential and sleep homeostasis</title>
 	<link>http://www.sciencedirect.com/science/article/pii/S0959438816301672</link>
 	<content:encoded>Koji L Ode | Takahiro Katsumata | Daisuke Tone | Hiroki R Ueda</content:encoded>
-	<dc:date>2017-06-02T05:00:08+00:00</dc:date>
-</item>
-<item rdf:about="http://www.sciencedirect.com/science/article/pii/S0959438817300806">
-	<title>Current Opinion in Neurobiology - Just Published: Posttranslational modifications of neuroligins regulate neuronal and glial signaling</title>
-	<link>http://www.sciencedirect.com/science/article/pii/S0959438817300806</link>
-	<content:encoded>Jaehoon Jeong | Jeremiah D Paskus | Katherine W Roche</content:encoded>
 	<dc:date>2017-06-02T05:00:08+00:00</dc:date>
 </item>
 
