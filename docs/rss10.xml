@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005665" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/37/29/i?rss=1" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/37/29/7036?rss=1" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/37/29/7023?rss=1" />
@@ -70,6 +71,10 @@
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(17)30550-0?rss=yes" />
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(17)30509-3?rss=yes" />
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(17)30467-1?rss=yes" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/165399v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/165233v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/165225v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/164608v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005653" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005609" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00209" />
@@ -150,9 +155,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/164236v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/164210v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/164178v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/164053v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/163790v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/163196v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005643" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005605" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005552" />
@@ -169,7 +171,6 @@
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnagi.2017.00222" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1707.04192" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1707.04129" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/163709v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005668" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005658" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005651" />
@@ -237,7 +238,6 @@
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00218" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00186" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnsys.2017.00047" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005638" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00357" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00192" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.24967" />
@@ -419,6 +419,15 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005665">
+	<title>PLOS Computational Biology: New Articles: Automatic analysis and 3D-modelling of Hi-C data using TADbit reveals structural features of the fly chromatin colors</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/KcHEgsnKcOA/article</link>
+	<content:encoded>&lt;p&gt;by François Serra, Davide Baù, Mike Goodstadt, David Castillo, Guillaume Filion, Marc A. Marti-Renom&lt;/p&gt;
+
+The sequence of a genome is insufficient to understand all genomic processes carried out in the cell nucleus. To achieve this, the knowledge of its three-dimensional architecture is necessary. Advances in genomic technologies and the development of new analytical methods, such as Chromosome Conformation Capture (3C) and its derivatives, provide unprecedented insights in the spatial organization of genomes. Here we present TADbit, a computational framework to analyze and model the chromatin fiber in three dimensions. Our package takes as input the sequencing reads of 3C-based experiments and performs the following main tasks: (i) pre-process the reads, (ii) map the reads to a reference genome, (iii) filter and normalize the interaction data, (iv) analyze the resulting interaction matrices, (v) build 3D models of selected genomic domains, and (vi) analyze the resulting models to characterize their structural properties. To illustrate the use of TADbit, we automatically modeled 50 genomic domains from the fly genome revealing differential structural features of the previously defined chromatin colors, establishing a link between the conformation of the genome and the local chromatin composition. TADbit provides three-dimensional models built from 3C-based experiments, which are ready for visualization and for characterizing their relation to gene expression and epigenetic states. TADbit is an open-source Python library available for download from https://github.com/3DGenomes/tadbit.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/KcHEgsnKcOA&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-07-19T21:00:00+00:00</dc:date>
+	<dc:creator>Marc A. Marti-Renom</dc:creator>
+</item>
 <item rdf:about="http://www.jneurosci.org/cgi/content/short/37/29/i?rss=1">
 	<title>Journal of Neuroscience current issue: This Week in The Journal</title>
 	<link>http://www.jneurosci.org/cgi/content/short/37/29/i?rss=1</link>
@@ -899,6 +908,34 @@ with cortical and subcortical activity estimation.
 	<content:encoded>What is a memory? Kukushkin and Carew envision memory and synaptic plasticity as “Fourier transforms of experience”, whereby multiple timelines of the external world are simultaneously represented in the brain by a nested, hierarchical system of dynamic processes, limited in time.</content:encoded>
 	<dc:date>2017-07-19T00:00:00+00:00</dc:date>
 	<dc:creator>Nikolay Vadimovich Kukushkin, Thomas James Carew</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/165399v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Serial dependence transfers between perceptual objects</title>
+	<link>http://biorxiv.org/cgi/content/short/165399v1?rss=1</link>
+	<content:encoded>Judgments of the present visual world are affected by what came before. When judgements of visual properties such as orientation are biased in the direction of preceding stimuli, this is called visual serial dependence. Visual serial dependence is thought to arise from mechanisms that support perceptual continuity: because physical properties of an object usually vary smoothly in time, perception might be accurately stabilized by smoothing the perceived features in time. However, mechanisms that support perceptual continuity should be object specific, because the orientation of one object is more related to its own past than it is to the past of a distinct object. Thus, we tested the perceptual continuity explanation by comparing the magnitude of serial dependence between objects and within objects. Across three experiments, we manipulated objecthood by varying the color, the location, and both the color and the location of Gabor patches. We observed a serial dependence effect in every experiment, but did not observe an effect of objecthood in any experiment. We further observed serial dependence even when the orientations of two successive stimuli were nearly orthogonal. These data are inconsistent with explanations of serial dependence based on visual continuity. We hypothesize that serial dependence arise from a combination of perceptual features and internal response variables, which interact within a common task or decisional context.</content:encoded>
+	<dc:date>2017-07-19T00:00:00+00:00</dc:date>
+	<dc:creator>Huffman, G.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/165233v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Causal role of beta oscillations in time estimation</title>
+	<link>http://biorxiv.org/cgi/content/short/165233v1?rss=1</link>
+	<content:encoded>The neural mechanisms underlying time perception are of vital importance to a comprehensive understanding of behavior and cognition. Recent work has pointed to a supramodal role for beta oscillations in coordinating endogenous timing mechanisms for the purpose of measuring temporal intervals. However, the majority of this work has employed paradigms relying on timed motor processing. Further, if beta oscillations are crucial for timing, alteration of beta oscillations would be expected to influence performance on timing tasks; this prediction has not been tested. Here, we address these issues and demonstrate for the first time a causal connection between beta oscillations and timing. To accomplish this, we first re-analyzed two, separate EEG datasets from psychophysical experiments demonstrating that beta oscillations are associated with the retention and comparison of a memory standard for duration, and that transcranial magnetic stimulation (TMS) of the right supramarginal gyrus leads to an icnrease in midline beta power during the encoding of a temporal interval, corresponding with a longer perceived interval of time. Next, we conducted a study of 20 healthy human participants using transcranial alternating current stimulation (tACS), over frontocentral cortex, at alpha (10hz) and beta (20hz) frequencies, during a visual temporal bisection task; we found that beta stimulation exclusively shifts the perception of time such that stimuli are reported as longer in duration, while preserving precision. Finally, we decomposed trial-by-trial choice data with a drift diffusion model of decision making and temporal encoding that reveals that the shift in timing is caused by a change in the starting point of accumulation, rather than the drift rate or threshold. Our results provide causal evidence for the involvement of beta oscillations in the perception of time, and point to a specific role for beta oscillations in the encoding and retention of memory for temporal intervals.</content:encoded>
+	<dc:date>2017-07-19T00:00:00+00:00</dc:date>
+	<dc:creator>Wiener, M.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/165225v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Dynamics of brain activity reveal a unitary recognition memory signal</title>
+	<link>http://biorxiv.org/cgi/content/short/165225v1?rss=1</link>
+	<content:encoded>Dual-process models of recognition memory propose that two independent sources of evidence (familiarity and recollection) drive recognition decisions. Usually these are assumed to give rise to different kinds of recognition decisions, with individual &quot;old&quot; responses reflecting either a familiarity or a recollection signal. Alternative accounts posit that all available evidence is integrated into a unitary &quot;memory strength&quot; signal. Using multivariate (&quot;machine learning&quot;) classifiers, we quantified the neural evidence for recognition decisions across various partitions of the recognition period to distinguish between these single- and dual-route accounts of recognition memory. The performance of classifiers that are trained on neural features from a small portion of the recognition period should only match the performance of similar classifiers that also incorporate information from previous time periods to the extent that neural evidence indexes a unitary evidence signal integrating over all available evidence. Compatible with this prediction, we found performance for these two types of classifiers to be practically identical, supporting the view that each recognition decision makes use of all available evidence.</content:encoded>
+	<dc:date>2017-07-19T00:00:00+00:00</dc:date>
+	<dc:creator>Weidemann, C. T.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/164608v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: LINE-1 repression attenuates degeneration in adult dopaminergic neurons</title>
+	<link>http://biorxiv.org/cgi/content/short/164608v1?rss=1</link>
+	<content:encoded>Long Interspersed Nuclear Elements (LINEs) retrotransposons are emerging as possible players in development and disease. We report here that the three main active LINE-1 families are expressed in post-mitotic dopaminergic neurons of the substantia nigra pars compacta, a class of ventral midbrain neurons that degenerate in Parkinson disease. The progressive degeneration of dopaminergic neurons in mice heterozygote for Engrailed-1 that starts at 6 weeks of age is paralleled by an increase in LINE-1 expression. Similarly, DNA damage and cell death induced by an acute oxidative stress specifically applied to these neurons is accompanied by enhanced LINE-1 expression. Following these observations, we demonstrate that LINE-1 overexpression is key to oxidative stress-induced neuronal death. Reduction of LINE-1 activity through direct transcriptional repression by Engrailed, a siRNA directed against LINE-1, the nucleoside-analogue reverse transcriptase inhibitor stavudine or viral Piwil1 expression, protects dopaminergic neurons against degeneration.</content:encoded>
+	<dc:date>2017-07-19T00:00:00+00:00</dc:date>
+	<dc:creator>Blaudin de The, F.-X.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005653">
 	<title>PLOS Computational Biology: New Articles: CLIC, a tool for expanding biological pathways based on co-expression across thousands of datasets</title>
@@ -1601,27 +1638,6 @@ is obtained when only a small subset of the system is at criticality.
 	<dc:date>2017-07-15T00:00:00+00:00</dc:date>
 	<dc:creator>Zandawala, M.</dc:creator>
 </item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/164053v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Resting-state connectivity and its association with cognitive performance, educational attainment, and household income in UK Biobank (N = 3,950)</title>
-	<link>http://biorxiv.org/cgi/content/short/164053v1?rss=1</link>
-	<content:encoded>Cognitive ability is an important predictor of lifelong physical and mental well-being and its impairments are associated with many psychiatric disorders. Higher cognitive ability is also associated with greater educational attainment and increased household income. Understanding neural mechanisms underlying cognitive ability is therefore of crucial importance for determining the nature of these associations. In the current study, we examined the spontaneous activity of the brain at rest to investigate its relationships with not only cognitive ability, but also educational attainment and household income. We used a large sample of resting-state neuroimaging data from UK Biobank (N=3,950). Firstly, analysis at the whole-brain level showed that connections involving the default mode network (DMN), fronto-parietal network (FPN) and cingulo-opercular network (CON) were significantly positively associated with levels of cognitive performance assessed by a verbal-numerical reasoning test (standardised {beta} ranged from 0.054 to 0.097). Connections associated with higher levels of cognitive performance were also significantly positively associated with educational attainment (r=0.48, N=4,160) and household income (r=0.38, N=3,793). Further, analysis on the coupling of functional networks showed that better cognitive performance was associated with more positive DMN-CON connections, decreased cross-hemisphere connections between homotopic network in CON and FPN, and stronger CON-FPN connections (absolute {beta} ranged from 0.034 to 0.063). The present study finds that variation in brain resting state functional connectivity associated with individual differences in cognitive ability, largely involving DMN and lateral prefrontal networks. Additionally, we provide further evidence of shared neural associations of cognitive ability, educational attainment, and household income.</content:encoded>
-	<dc:date>2017-07-15T00:00:00+00:00</dc:date>
-	<dc:creator>Shen, X.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/163790v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Fast and accurate edge orientation processing during object manipulation</title>
-	<link>http://biorxiv.org/cgi/content/short/163790v1?rss=1</link>
-	<content:encoded>From buttoning a shirt to fastening a jewellery clasp, quickly and accurately extracting fine information about a touched object's orientation is a critical aspect of dextrous object manipulation. However, the speed and acuity of tactile edge orientation processing as reported in previous perceptual studies appear inadequate in these respects. Here, for the first time, we directly establish the capacity of tactile edge orientation processing during object manipulation. With vision occluded, participants placed their fingertip on the surface of a dial and rotated it to position a pointer, extending from the dial, to a fixed target position. The contacted surface was flat except for a small raised edge in line with the pointer. The length of the edge and the initial orientation of the dial were varied across trials. Participants extracted tactile information about edge orientation very quickly, initiating appropriate rotation within ~200 ms of first touching the dial. Participants were also strikingly accurate. With edges spanning the entire contact area of the fingertip, their average pointer-alignment error was less than 3{degrees}, indicating tactile edge-orientation resolution many times better than previously reported. Performance did not improve substantially when the person could see the pointer and remained impressive even with edges as short as 2 mm, consistent with our ability to precisely manipulate very small objects. Taken together, our results radically redefine the spatial processing capacity of the tactile system.</content:encoded>
-	<dc:date>2017-07-15T00:00:00+00:00</dc:date>
-	<dc:creator>Pruszynski, J. A.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/163196v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Using Arterial Spin Labelling to Investigate Spontaneous and Evoked Ongoing Musculoskeletal Pain</title>
-	<link>http://biorxiv.org/cgi/content/short/163196v1?rss=1</link>
-	<content:encoded>Clinical pain is difficult to study using standard blood oxygenation level dependent (BOLD) imaging. Arterial spin labelling (ASL) offers an attractive alternative as it can measure perfusion during a state or a prolonged stimulation. We propose a paradigm which uses arm repositioning to evoke clinically-relevant musculoskeletal pain in patients with shoulder impingement syndrome. We also present an analysis pipeline using tools from the FMRIB Software Library (FSL) optimised for analysis of perfusion images of middle-aged and elderly patients. Patients with shoulder pain and healthy controls were scanned using multi post-labelling delay pseudo-continuous ASL (pCASL), initially in the supine position and then with one arm raised to evoke clinical pain. The proposed paradigm resulted in increased perfusion in the patient group in cortical and subcortical regions known to be involved in sensory processing and movement integration, such as the ipsilateral primary somatosensory cortex, ipsilateral operculum/insular cortex, ipsilateral putamen and bilaterally in the thalamus, midbrain, and the cerebellum. Perfusion changes were not present in the control group, which suggests that they were related to pain rather than just arm repositioning. The optimised analysis improved registration of perfusion images in comparison to standard approaches.</content:encoded>
-	<dc:date>2017-07-15T00:00:00+00:00</dc:date>
-	<dc:creator>Wartolowska, K. A.</dc:creator>
-</item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005643">
 	<title>PLOS Computational Biology: New Articles: Deciphering the regulation of P2X4 receptor channel gating by ivermectin using Markov models</title>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/HdK_GbdKqEg/article</link>
@@ -1770,13 +1786,6 @@ the sparse distributed macrocolumnar code.
 &lt;/p&gt;</content:encoded>
 	<dc:date>2017-07-14T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Rinkus_G/0/1/0/all/0/1">Gerard J. Rinkus</a></dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/163709v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Subgenual anterior cingulate cortex controls sadness-induced modulations of cognitive and emotional network hubs</title>
-	<link>http://biorxiv.org/cgi/content/short/163709v1?rss=1</link>
-	<content:encoded>The regulation of cognitive and emotional processes is critical for proper executive functions and social behavior, but its specific mechanisms remain unknown. Here, we addressed this issue by studying with functional magnetic resonance imaging the changes in network topology that underlie competitive interactions between emotional and cognitive networks in healthy participants. Our behavioral paradigm contrasted periods with high emotional and cognitive demands by including a sadness provocation task followed by a spatial working memory task. We hypothesized that this paradigm would enhance the modularity of emotional and cognitive networks and reveal the hub areas that regulate the flow of information between them. By applying graph analysis methods on functional connectivity between 20 regions of interest in 22 participants we identified two main brain network modules, one cognitive and one emotional, and their hub areas: the left dorsolateral prefrontal cortex (dlPFC) and the left medial frontal pole (mFP). These hub areas did not modulate their mutual functional connectivity following sadness but they did so through an interposed area, the subgenual anterior cingulate cortex (sACC). Our results identify dlPFC and mFP as areas regulating interactions between emotional and cognitive networks, and suggest that their modulation by sadness experience is mediated by sACC.</content:encoded>
-	<dc:date>2017-07-14T00:00:00+00:00</dc:date>
-	<dc:creator>Ramirez-Mahaluf, J. P.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005668">
 	<title>PLOS Computational Biology: New Articles: Cooperative stochastic binding and unbinding explain synaptic size dynamics and statistics</title>
@@ -2360,15 +2369,6 @@ Repeated exposure to a novel physical environment eventually leads to a mature a
 	<link>http://journal.frontiersin.org/article/10.3389/fnsys.2017.00047</link>
 	<content:encoded>Stevanus R. Tedjakumala, Jacques Rouquette, Marie-Laure Boizeau, Karen A. Mesce, Lucie Hotier, Isabelle Massou, Martin Giurfa</content:encoded>
 	<dc:date>2017-07-10T05:00:05+00:00</dc:date>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005638">
-	<title>PLOS Computational Biology: New Articles: Inherent limitations of probabilistic models for protein-DNA binding specificity</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/r264-Gxc95o/article</link>
-	<content:encoded>&lt;p&gt;by Shuxiang Ruan, Gary D. Stormo&lt;/p&gt;
-
-The specificities of transcription factors are most commonly represented with probabilistic models. These models provide a probability for each base occurring at each position within the binding site and the positions are assumed to contribute independently. The model is simple and intuitive and is the basis for many motif discovery algorithms. However, the model also has inherent limitations that prevent it from accurately representing true binding probabilities, especially for the highest affinity sites under conditions of high protein concentration. The limitations are not due to the assumption of independence between positions but rather are caused by the non-linear relationship between binding affinity and binding probability and the fact that independent normalization at each position skews the site probabilities. Generally probabilistic models are reasonably good approximations, but new high-throughput methods allow for biophysical models with increased accuracy that should be used whenever possible.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/r264-Gxc95o&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-07-07T21:00:00+00:00</dc:date>
-	<dc:creator>Gary D. Stormo</dc:creator>
 </item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00357">
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Isolating Discriminant Neural Activity in the Presence of Eye Movements and Concurrent Task Demands</title>
