@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00257" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00412" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00409" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00404" />
@@ -291,7 +292,6 @@
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005681" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005623" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005176" />
-			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00234" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncir.2017.00052" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00225" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00224" />
@@ -419,6 +419,12 @@
 	</items>
 </channel>
 
+<item rdf:about="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00257">
+	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: β2-Adrenergic Receptor-Mediated HIF-1α Upregulation Mediates Blood Brain Barrier Damage in Acute Cerebral Ischemia</title>
+	<link>http://journal.frontiersin.org/article/10.3389/fnmol.2017.00257</link>
+	<content:encoded>Yanyun Sun, Xi Chen, Xinyu Zhang, Xianzhi Shen, Mengwei Wang, Xiaona Wang, Wen-Cao Liu, Chun-Feng Liu, Jie Liu, Wenlan Liu, Xinchun Jin</content:encoded>
+	<dc:date>2017-08-14T17:00:07+00:00</dc:date>
+</item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnhum.2017.00412">
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Numerical Proportion Representation: A Neurocomputational Account</title>
 	<link>http://journal.frontiersin.org/article/10.3389/fnhum.2017.00412</link>
@@ -2634,12 +2640,6 @@ It has been proposed that the sensorimotor system uses a loss (cost) function to
 Gene regulatory networks are ultimately encoded by the sequence-specific binding of (TFs) to short DNA segments. Although it is customary to represent the binding specificity of a TF by a position-specific weight matrix (PSWM), which assumes each position within a site contributes independently to the overall binding affinity, evidence has been accumulating that there can be significant dependencies between positions. Unfortunately, methodological challenges have so far hindered the development of a practical and generally-accepted extension of the PSWM model. On the one hand, simple models that only consider dependencies between nearest-neighbor positions are easy to use in practice, but fail to account for the distal dependencies that are observed in the data. On the other hand, models that allow for arbitrary dependencies are prone to overfitting, requiring regularization schemes that are difficult to use in practice for non-experts. Here we present a new regulatory motif model, called dinucleotide weight tensor (DWT), that incorporates arbitrary pairwise dependencies between positions in binding sites, rigorously from first principles, and free from tunable parameters. We demonstrate the power of the method on a large set of ChIP-seq data-sets, showing that DWTs outperform both PSWMs and motif models that only incorporate nearest-neighbor dependencies. We also demonstrate that DWTs outperform two previously proposed methods. Finally, we show that DWTs inferred from ChIP-seq data also outperform PSWMs on HT-SELEX data for the same TF, suggesting that DWTs capture inherent biophysical properties of the interactions between the DNA binding domains of TFs and their binding sites. We make a suite of DWT tools available at dwt.unibas.ch, that allow users to automatically perform ‘motif finding’, i.e. the inference of DWT motifs from a set of sequences, binding site prediction with DWTs, and visualization of DWT ‘dilogo’ motifs.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/JT2SR82WOJ4&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-07-28T21:00:00+00:00</dc:date>
 	<dc:creator>Erik van Nimwegen</dc:creator>
-</item>
-<item rdf:about="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00234">
-	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Activity-Dependent Arc Expression and Homeostatic Synaptic Plasticity Are Altered in Neurons from a Mouse Model of Angelman Syndrome</title>
-	<link>http://journal.frontiersin.org/article/10.3389/fnmol.2017.00234</link>
-	<content:encoded>Elissa D. Pastuzyn, Jason D. Shepherd</content:encoded>
-	<dc:date>2017-07-28T05:00:08+00:00</dc:date>
 </item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fncir.2017.00052">
 	<title>Frontiers in Neural Circuits | New and Recent Articles: Whole-Brain Mapping of the Inputs and Outputs of the Medial Part of the Olfactory Tubercle</title>
