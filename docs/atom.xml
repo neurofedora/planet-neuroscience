@@ -5,8 +5,100 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscience/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscience/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscience/atom.xml</id>
-	<updated>2017-08-24T17:00:14+00:00</updated>
+	<updated>2017-08-24T23:00:15+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscience/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">Data driven flexible backbone protein design</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/t6T6ch57tGE/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005722</id>
+		<updated>2017-08-24T21:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Mark G. F. Sun, Philip M. Kim&lt;/p&gt;
+
+Protein design remains an important problem in computational structural biology. Current computational protein design methods largely use physics-based methods, which make use of information from a single protein structure. This is despite the fact that multiple structures of many protein folds are now readily available in the PDB. While ensemble protein design methods can use multiple protein structures, they treat each structure independently. Here, we introduce a flexible backbone strategy, FlexiBaL-GP, which learns global protein backbone movements directly from multiple protein structures. FlexiBaL-GP uses the machine learning method of Gaussian Process Latent Variable Models to learn a lower dimensional representation of the protein coordinates that best represent backbone movements. These learned backbone movements are used to explore alternative protein backbones, while engineering a protein within a parallel tempered MCMC framework. Using the human ubiquitin–USP21 complex as a model we demonstrate that our design strategy outperforms current strategies for the interface design task of identifying tight binding ubiquitin variants for USP21.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/t6T6ch57tGE&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Philip M. Kim</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-08-24T22:53:33+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">From homeostasis to behavior: Balanced activity in an exploration of embodied dynamic environmental-neural interaction</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/kCaFdi-3S6Y/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005721</id>
+		<updated>2017-08-24T21:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Peter John Hellyer, Claudia Clopath, Angie A. Kehagia, Federico E. Turkheimer, Robert Leech&lt;/p&gt;
+
+In recent years, there have been many computational simulations of spontaneous neural dynamics. Here, we describe a simple model of spontaneous neural dynamics that controls an agent moving in a simple virtual environment. These dynamics generate interesting brain-environment feedback interactions that rapidly destabilize neural and behavioral dynamics demonstrating the need for homeostatic mechanisms. We investigate roles for homeostatic plasticity both locally (local inhibition adjusting to balance excitatory input) as well as more globally (regional “task negative” activity that compensates for “task positive”, sensory input in another region) balancing neural activity and leading to more stable behavior (trajectories through the environment). Our results suggest complementary functional roles for both local and macroscale mechanisms in maintaining neural and behavioral dynamics and a novel functional role for macroscopic “task-negative” patterns of activity (e.g., the default mode network).&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/kCaFdi-3S6Y&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Robert Leech</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-08-24T22:53:33+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Spread of hospital-acquired infections: A comparison of healthcare networks</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/Hha9dvbFa6M/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005666</id>
+		<updated>2017-08-24T21:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Narimane Nekkab, Pascal Astagneau, Laura Temime, Pascal Crépey&lt;/p&gt;
+
+Hospital-acquired infections (HAIs), including emerging multi-drug resistant organisms, threaten healthcare systems worldwide. Efficient containment measures of HAIs must mobilize the entire healthcare network. Thus, to best understand how to reduce the potential scale of HAI epidemic spread, we explore patient transfer patterns in the French healthcare system. Using an exhaustive database of all hospital discharge summaries in France in 2014, we construct and analyze three patient networks based on the following: transfers of patients with HAI (HAI-specific network); patients with suspected HAI (suspected-HAI network); and all patients (general network). All three networks have heterogeneous patient flow and demonstrate small-world and scale-free characteristics. Patient populations that comprise these networks are also heterogeneous in their movement patterns. Ranking of hospitals by centrality measures and comparing community clustering using community detection algorithms shows that despite the differences in patient population, the HAI-specific and suspected-HAI networks rely on the same underlying structure as that of the general network. As a result, the general network may be more reliable in studying potential spread of HAIs. Finally, we identify transfer patterns at both the French regional and departmental (county) levels that are important in the identification of key hospital centers, patient flow trajectories, and regional clusters that may serve as a basis for novel wide-scale infection control strategies.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/Hha9dvbFa6M&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Pascal Crépey</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-08-24T22:53:33+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Histologic and biochemical alterations predict pulmonary mechanical dysfunction in aging mice with chronic lung inflammation</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/W_PqHjUd6fU/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005570</id>
+		<updated>2017-08-24T21:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Christopher B. Massa, Angela M. Groves, Smita U. Jaggernauth, Debra L. Laskin, Andrew J. Gow&lt;/p&gt;
+
+Both aging and chronic inflammation produce complex structural and biochemical alterations to the lung known to impact work of breathing. Mice deficient in surfactant protein D (Sftpd) develop progressive age-related lung pathology characterized by tissue destruction/remodeling, accumulation of foamy macrophages and alteration in surfactant composition. This study proposes to relate changes in tissue structure seen in normal aging and in chronic inflammation to altered lung mechanics using a computational model. Alterations in lung function in aging and Sftpd -/- mice have been inferred from fitting simple mechanical models to respiratory impedance data (&lt;i&gt;Z&lt;/i&gt;&lt;sub&gt;rs&lt;/sub&gt;), however interpretation has been confounded by the simultaneous presence of multiple coexisting pathophysiologic processes. In contrast to the inverse modeling approach, this study uses simulation from experimental measurements to recapitulate how aging and inflammation alter &lt;i&gt;Z&lt;/i&gt;&lt;sub&gt;rs&lt;/sub&gt;. Histologic and mechanical measurements were made in C57BL6/J mice and congenic Sftpd-/- mice at 8, 27 and 80 weeks of age (n = 8/group). An anatomic computational model based on published airway morphometry was developed and &lt;i&gt;Z&lt;/i&gt;&lt;sub&gt;rs&lt;/sub&gt; was simulated between 0.5 and 20 Hz. End expiratory pressure dependent changes in airway caliber and recruitment were estimated from mechanical measurements. Tissue elements were simulated using the constant phase model of viscoelasticity. Baseline elastance distribution was estimated in 8-week-old wild type mice, and stochastically varied for each condition based on experimentally measured alteration in elastic fiber composition, alveolar geometry and surfactant composition. Weighing reduction in model error against increasing model complexity allowed for identification of essential features underlying mechanical pathology and their contribution to &lt;i&gt;Z&lt;/i&gt;&lt;sub&gt;rs&lt;/sub&gt;. Using a maximum likelihood approach, alteration in lung recruitment and diminished elastic fiber density were shown predictive of mechanical alteration at airway opening, to a greater extent than overt acinar wall destruction. Model-predicted deficits in PEEP-dependent lung recruitment correlate with altered lung lining fluid composition independent of age or genotype.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/W_PqHjUd6fU&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Andrew J. Gow</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-08-24T22:53:33+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Arterial Pulsations cannot Drive Intramural Periarterial Drainage: Significance for Aβ Drainage</title>
@@ -24,7 +116,7 @@
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -44,7 +136,7 @@
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -64,7 +156,7 @@
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurogenesis</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -84,7 +176,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -104,7 +196,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -124,7 +216,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -144,7 +236,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -164,7 +256,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -271,6 +363,26 @@ at shorter timescales.
 	</entry>
 
 	<entry>
+		<title type="html">Propagation of Beta/Gamma Rhythms in the Cortico-Basal Ganglia Circuits of the Parkinsonian Rat</title>
+		<link href="http://biorxiv.org/cgi/content/short/180455v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/180455v1?rss=1</id>
+		<updated>2017-08-24T00:00:00+00:00</updated>
+		<content type="html">
+ The functional impairment of the motor system associated with Parkinson's Disease is thought to arise as a result of pathological synchronization of the networks formed by the basal ganglia and motor cortex. In this paper, we investigate changes to the directed connectivity in these networks following chronic dopamine depletion to evaluate the plausibility of a number of hypotheses proposed to explain the emergence of pathological oscillations. To do this, we used multisite recordings from anaesthetised rats that were injected with the neurotoxin 6-hydroxydopamine (6-OHDA) to produce a lesion of midbrain dopaminergic neurons. We carried out a systematic analysis of the network using a novel non-parametric directionality analysis for estimation of directed neural interactions, as well as its conditioned variant which permits the analysis of the dependence of a connectivity upon a third reference signal. We find evidence of the dopamine dependency of both low beta (14-20 Hz) and high beta/low gamma (20-40 Hz) directed interactions within the BG and cortico-BG networks. Notably, 6-OHDA lesions were associated with enhancement of the cortical 'hyper-direct' connection to the STN and feedback from this structure to the cortex and striatum in the low beta frequency range. Furthermore, we find beta synchronization to be robust to conditioning using signal from any signal structure. Conversely, we find that high beta/gamma drive from the cortex to subcortical regions is significantly weakened by 6-OHDA lesions. We also provide evidence that gamma is routed from striatum in a pathway that is independent of STN. These results further inform our understanding of the substrates for, and impact of, pathological rhythms in salient brain networks in PD.</content>
+		<author>
+			<name>West, T. O.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2017-08-24T23:00:09+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
 		<title type="html">Post-transcriptional remodelling is temporally deregulated during motor neurogenesis in human ALS models</title>
 		<link href="http://biorxiv.org/cgi/content/short/180372v1?rss=1"/>
 		<id>http://biorxiv.org/cgi/content/short/180372v1?rss=1</id>
@@ -286,7 +398,7 @@ at shorter timescales.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -306,7 +418,7 @@ at shorter timescales.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -326,7 +438,7 @@ at shorter timescales.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -346,7 +458,7 @@ at shorter timescales.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -366,7 +478,7 @@ at shorter timescales.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -386,7 +498,7 @@ at shorter timescales.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -406,7 +518,7 @@ at shorter timescales.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -428,7 +540,7 @@ The precise identification of Human Leukocyte Antigen class I (HLA-I) binding mo
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
+			<updated>2017-08-24T22:53:33+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -1008,7 +1120,7 @@ The precise identification of Human Leukocyte Antigen class I (HLA-I) binding mo
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1028,7 +1140,7 @@ The precise identification of Human Leukocyte Antigen class I (HLA-I) binding mo
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1048,7 +1160,7 @@ The precise identification of Human Leukocyte Antigen class I (HLA-I) binding mo
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1068,7 +1180,7 @@ The precise identification of Human Leukocyte Antigen class I (HLA-I) binding mo
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1088,7 +1200,7 @@ The precise identification of Human Leukocyte Antigen class I (HLA-I) binding mo
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1108,7 +1220,7 @@ The precise identification of Human Leukocyte Antigen class I (HLA-I) binding mo
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -1128,7 +1240,7 @@ The precise identification of Human Leukocyte Antigen class I (HLA-I) binding mo
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -1318,7 +1430,7 @@ brain.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1338,7 +1450,7 @@ brain.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1358,7 +1470,7 @@ brain.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1378,7 +1490,7 @@ brain.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1398,7 +1510,7 @@ brain.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1418,7 +1530,7 @@ brain.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1440,7 +1552,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
+			<updated>2017-08-24T22:53:33+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -1461,7 +1573,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1481,7 +1593,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1501,7 +1613,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1521,7 +1633,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1541,7 +1653,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -2031,7 +2143,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -2180,7 +2292,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -2200,7 +2312,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -2219,7 +2331,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -2239,7 +2351,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -2260,7 +2372,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -2280,7 +2392,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -2300,7 +2412,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -2320,7 +2432,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -2340,7 +2452,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -2360,7 +2472,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -2380,7 +2492,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -2400,7 +2512,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -2420,7 +2532,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -2440,7 +2552,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -2460,7 +2572,7 @@ Different neuronal types within brain motor areas contribute to the generation o
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -2641,7 +2753,7 @@ information transmission systems.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2661,7 +2773,7 @@ information transmission systems.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2681,7 +2793,7 @@ information transmission systems.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2701,7 +2813,7 @@ information transmission systems.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2723,7 +2835,7 @@ Epigenomic mapping of enhancer-associated chromatin modifications facilitates th
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
+			<updated>2017-08-24T22:53:33+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -2746,7 +2858,7 @@ Type 1 Serine/Threonine Kinase Receptors (STKR1) transduce a wide spectrum of bi
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
+			<updated>2017-08-24T22:53:33+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -2769,7 +2881,7 @@ Intense use of antibiotics for the treatment of diseases such as tuberculosis, m
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
+			<updated>2017-08-24T22:53:33+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -2792,7 +2904,7 @@ A major force contributing to the emergence of novelty in nature is the presence
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
+			<updated>2017-08-24T22:53:33+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -2815,7 +2927,7 @@ Experiments that study neural encoding of stimuli at the level of individual neu
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
+			<updated>2017-08-24T22:53:33+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -2836,7 +2948,7 @@ Experiments that study neural encoding of stimuli at the level of individual neu
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -2881,7 +2993,7 @@ Experiments that study neural encoding of stimuli at the level of individual neu
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -2901,7 +3013,7 @@ Experiments that study neural encoding of stimuli at the level of individual neu
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -2921,7 +3033,7 @@ Experiments that study neural encoding of stimuli at the level of individual neu
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -2941,7 +3053,7 @@ Experiments that study neural encoding of stimuli at the level of individual neu
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -2961,7 +3073,7 @@ Experiments that study neural encoding of stimuli at the level of individual neu
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -2981,7 +3093,7 @@ Experiments that study neural encoding of stimuli at the level of individual neu
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -3082,7 +3194,7 @@ and promise to bring adaptive solutions in search tasks.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3102,27 +3214,7 @@ and promise to bring adaptive solutions in search tasks.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Sex-related differences in behavioral and amygdalar responses to compound facial threat cues</title>
-		<link href="http://biorxiv.org/cgi/content/short/179051v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/179051v1?rss=1</id>
-		<updated>2017-08-21T00:00:00+00:00</updated>
-		<content type="html">
- During face perception, we integrate facial expression and eye gaze to take advantage of their shared signals. For example, fear with averted gaze provides a congruent avoidance cue, signaling both threat presence and its location, whereas fear with direct gaze sends an incongruent cue, leaving threat location ambiguous. It has been proposed that the processing of different combinations of threat cues is mediated by dual processing routes: reflexive processing via magnocellular (M) pathway and reflective processing via parvocellular (P) pathway. Because growing evidence has identified a variety of sex differences in emotional perception, here we also investigated how M and P processing of fear and eye gaze might be modulated by observer's sex, focusing on the amygdala, a structure important to threat perception and affective appraisal. We adjusted luminance and color of face stimuli to selectively engage M or P processing and asked observers to identify emotion of the face. Female observers showed more accurate behavioral responses to faces with averted gaze and greater left amygdala reactivity both to fearful and neutral faces. Conversely, males showed greater right amygdala activation only for M-biased averted-gaze fear faces. In addition to functional reactivity differences, females had greater bilateral amygdala volumes, which positively correlated with behavioral accuracy for M-biased fear. Conversely, in males only the right amygdala volume was positively correlated with accuracy for M-biased fear faces. Our findings suggest that M and P processing of facial threat cues is modulated by functional and structural differences in the amygdalae associated with observers sex.</content>
-		<author>
-			<name>Im, H. Y.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3216,7 +3308,7 @@ Our work focuses on the stability, resilience, and response to perturbation of t
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
+			<updated>2017-08-24T22:53:33+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3239,7 +3331,7 @@ Mapping gene expression as a quantitative trait using whole genome-sequencing an
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
+			<updated>2017-08-24T22:53:33+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3262,7 +3354,7 @@ In almost every field in genomics, large-scale biomedical datasets are used to r
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
+			<updated>2017-08-24T22:53:33+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3434,7 +3526,7 @@ In almost every field in genomics, large-scale biomedical datasets are used to r
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -3454,7 +3546,7 @@ In almost every field in genomics, large-scale biomedical datasets are used to r
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3474,7 +3566,7 @@ In almost every field in genomics, large-scale biomedical datasets are used to r
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3494,7 +3586,7 @@ In almost every field in genomics, large-scale biomedical datasets are used to r
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3514,7 +3606,7 @@ In almost every field in genomics, large-scale biomedical datasets are used to r
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -3534,7 +3626,7 @@ In almost every field in genomics, large-scale biomedical datasets are used to r
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -3554,7 +3646,7 @@ In almost every field in genomics, large-scale biomedical datasets are used to r
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -3574,7 +3666,7 @@ In almost every field in genomics, large-scale biomedical datasets are used to r
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -3720,7 +3812,7 @@ promising result in five categories of brain images (classification task) with
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
+			<updated>2017-08-24T22:53:33+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3743,7 +3835,7 @@ Granulomas are complex lung lesions that are the hallmark of tuberculosis (TB). 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
+			<updated>2017-08-24T22:53:33+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3766,7 +3858,7 @@ Surgery is a therapeutic option for people with epilepsy whose seizures are not 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
+			<updated>2017-08-24T22:53:33+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3787,7 +3879,7 @@ Surgery is a therapeutic option for people with epilepsy whose seizures are not 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
+			<updated>2017-08-24T22:53:33+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3808,7 +3900,7 @@ Surgery is a therapeutic option for people with epilepsy whose seizures are not 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
+			<updated>2017-08-24T22:53:33+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3829,7 +3921,7 @@ Surgery is a therapeutic option for people with epilepsy whose seizures are not 
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -3849,7 +3941,7 @@ Surgery is a therapeutic option for people with epilepsy whose seizures are not 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3869,7 +3961,7 @@ Surgery is a therapeutic option for people with epilepsy whose seizures are not 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -3889,7 +3981,7 @@ Surgery is a therapeutic option for people with epilepsy whose seizures are not 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -3909,7 +4001,7 @@ Surgery is a therapeutic option for people with epilepsy whose seizures are not 
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurogenesis</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -3929,7 +4021,7 @@ Surgery is a therapeutic option for people with epilepsy whose seizures are not 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -3949,7 +4041,7 @@ Surgery is a therapeutic option for people with epilepsy whose seizures are not 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -3969,7 +4061,7 @@ Surgery is a therapeutic option for people with epilepsy whose seizures are not 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -4167,7 +4259,7 @@ developments are illustrated for the structural connectome of the C. Elegans.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -4694,7 +4786,7 @@ action recognition.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -4714,7 +4806,7 @@ action recognition.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4734,7 +4826,7 @@ action recognition.
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -4813,7 +4905,7 @@ action recognition.
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -4914,7 +5006,7 @@ action recognition.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -4934,7 +5026,7 @@ action recognition.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -4954,7 +5046,7 @@ action recognition.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -4974,7 +5066,7 @@ action recognition.
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/integrative-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -4994,7 +5086,7 @@ action recognition.
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -5014,7 +5106,7 @@ action recognition.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5034,7 +5126,7 @@ action recognition.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5054,7 +5146,7 @@ action recognition.
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -5076,7 +5168,7 @@ The metabolic phenotype of cancer cells is reflected by the metabolites they con
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
+			<updated>2017-08-24T22:53:33+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5097,7 +5189,7 @@ The metabolic phenotype of cancer cells is reflected by the metabolites they con
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -5117,7 +5209,7 @@ The metabolic phenotype of cancer cells is reflected by the metabolites they con
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5137,7 +5229,7 @@ The metabolic phenotype of cancer cells is reflected by the metabolites they con
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5157,7 +5249,7 @@ The metabolic phenotype of cancer cells is reflected by the metabolites they con
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5177,7 +5269,7 @@ The metabolic phenotype of cancer cells is reflected by the metabolites they con
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5197,7 +5289,7 @@ The metabolic phenotype of cancer cells is reflected by the metabolites they con
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5217,7 +5309,7 @@ The metabolic phenotype of cancer cells is reflected by the metabolites they con
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -5237,7 +5329,7 @@ The metabolic phenotype of cancer cells is reflected by the metabolites they con
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -5343,30 +5435,7 @@ The metabolic phenotype of cancer cells is reflected by the metabolites they con
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/cellular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Confirmation bias in human reinforcement learning: Evidence from counterfactual feedback processing</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/Vp-TzL0UIhc/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005684</id>
-		<updated>2017-08-11T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Stefano Palminteri, Germain Lefebvre, Emma J. Kilford, Sarah-Jayne Blakemore&lt;/p&gt;
-
-Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, learning from obtained outcomes, is biased, such that participants preferentially take into account positive, as compared to negative, prediction errors. However, whether or not the prediction error valence also affects &lt;i&gt;counterfactual&lt;/i&gt; learning, that is, learning from forgone outcomes, is unknown. To address this question, we analysed the performance of two groups of participants on reinforcement learning tasks using a computational model that was adapted to test if prediction error valence influences learning. We carried out two experiments: in the factual learning experiment, participants learned from partial feedback (i.e., the outcome of the chosen option only); in the counterfactual learning experiment, participants learned from complete feedback information (i.e., the outcomes of both the chosen and unchosen option were displayed). In the factual learning experiment, we replicated previous findings of a valence-induced bias, whereby participants learned preferentially from positive, relative to negative, prediction errors. In contrast, for counterfactual learning, we found the opposite valence-induced bias: negative prediction errors were preferentially taken into account, relative to positive ones. When considering valence-induced bias in the context of both factual and counterfactual learning, it appears that people tend to preferentially take into account information that confirms their current choice.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/Vp-TzL0UIhc&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Sarah-Jayne Blakemore</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5386,7 +5455,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5406,7 +5475,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5426,7 +5495,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5446,7 +5515,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5466,7 +5535,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -5506,7 +5575,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5526,7 +5595,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5546,7 +5615,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5566,7 +5635,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5586,7 +5655,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -5606,7 +5675,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -5626,7 +5695,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -5646,7 +5715,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -5666,7 +5735,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -5707,7 +5776,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5727,7 +5796,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -5747,53 +5816,7 @@ Previous studies suggest that &lt;i&gt;factual&lt;/i&gt; learning, that is, lear
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Revisiting chemoaffinity theory: Chemotactic implementation of topographic axonal projection</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/xQ8uHxQvkZ8/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005702</id>
-		<updated>2017-08-08T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Honda Naoki&lt;/p&gt;
-
-Neural circuits are wired by chemotactic migration of growth cones guided by extracellular guidance cue gradients. How growth cone chemotaxis builds the macroscopic structure of the neural circuit is a fundamental question in neuroscience. I addressed this issue in the case of the ordered axonal projections called topographic maps in the retinotectal system. In the retina and tectum, the erythropoietin-producing hepatocellular (Eph) receptors and their ligands, the ephrins, are expressed in gradients. According to Sperry’s chemoaffinity theory, gradients in both the source and target areas enable projecting axons to recognize their proper terminals, but how axons chemotactically decode their destinations is largely unknown. To identify the chemotactic mechanism of topographic mapping, I developed a mathematical model of intracellular signaling in the growth cone that focuses on the growth cone’s unique chemotactic property of being attracted or repelled by the same guidance cues in different biological situations. The model presented mechanism by which the retinal growth cone reaches the correct terminal zone in the tectum through alternating chemotactic response between attraction and repulsion around a preferred concentration. The model also provided a unified understanding of the contrasting relationships between receptor expression levels and preferred ligand concentrations in EphA/ephrinA- and EphB/ephrinB-encoded topographic mappings. Thus, this study redefines the chemoaffinity theory in chemotactic terms.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/xQ8uHxQvkZ8&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Honda Naoki</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Stabilization of diastolic calcium signal via calcium pump regulation of complex local calcium releases and transient decay in a computational model of cardiac pacemaker cell with individual release channels</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/dASMjVRMMU8/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005675</id>
-		<updated>2017-08-08T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Alexander V. Maltsev, Victor A. Maltsev, Michael D. Stern&lt;/p&gt;
-
-Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate cardiac pacemaker cell function by activation of electrogenic Na/Ca exchanger (NCX) during diastole. Prior studies demonstrated the existence of powerful compensatory mechanisms of LCR regulation via a complex local cross-talk of Ca pump, release and NCX. One major obstacle to study these mechanisms is that LCR exhibit complex Ca release propagation patterns (including merges and separations) that have not been characterized. Here we developed new terminology, classification, and computer algorithms for automatic detection of numerically simulated LCRs and examined LCR regulation by SR Ca pumping rate (Pup) that provides a major contribution to fight-or-flight response. In our simulations the faster SR Ca pumping accelerates action potential-induced Ca transient decay and quickly clears Ca under the cell membrane in diastole, preventing premature releases. Then the SR generates an earlier, more synchronized, and stronger diastolic LCR signal activating an earlier and larger inward NCX current. LCRs at higher Pup exhibit larger amplitudes and faster propagation with more collisions to each other. The LCRs overlap with Ca transient decay, causing an elevation of the average diastolic [Ca] nadir to ~200 nM (at Pup = 24 mM/s). Background Ca (in locations lacking LCRs) quickly decays to resting Ca levels (&amp;lt;100 nM) at high Pup, but remained elevated during slower decay at low Pup. Release propagation is facilitated at higher Pup by a larger LCR amplitude, whereas at low Pup by higher background Ca. While at low Pup LCRs show smaller amplitudes, their larger durations and sizes combined with longer transient decay stabilize integrals of diastolic Ca and NCX current signals. Thus, the local interplay of SR Ca pump and release channels regulates LCRs and Ca transient decay to insure fail-safe pacemaker cell operation within a wide range of rates.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/dASMjVRMMU8&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Michael D. Stern</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -5813,7 +5836,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5833,7 +5856,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -5853,7 +5876,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5873,7 +5896,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/human-neuroscience</id>
-			<updated>2017-08-24T17:00:10+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5893,7 +5916,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5913,7 +5936,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5933,7 +5956,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5953,7 +5976,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5973,7 +5996,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -5993,7 +6016,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/integrative-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -6013,7 +6036,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -6033,7 +6056,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -6053,7 +6076,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -6073,7 +6096,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/molecular-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -6093,7 +6116,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -6113,7 +6136,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -6133,30 +6156,7 @@ Intracellular Local Ca releases (LCRs) from sarcoplasmic reticulum (SR) regulate
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">A stochastic-field description of finite-size spiking neural networks</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/DIIBywIdo30/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005691</id>
-		<updated>2017-08-07T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Grégory Dumont, Alexandre Payeur, André Longtin&lt;/p&gt;
-
-Neural network dynamics are governed by the interaction of spiking neurons. Stochastic aspects of single-neuron dynamics propagate up to the network level and shape the dynamical and informational properties of the population. Mean-field models of population activity disregard the finite-size stochastic fluctuations of network dynamics and thus offer a deterministic description of the system. Here, we derive a stochastic partial differential equation (SPDE) describing the temporal evolution of the finite-size refractory density, which represents the proportion of neurons in a given refractory state at any given time. The population activity—the density of active neurons per unit time—is easily extracted from this refractory density. The SPDE includes finite-size effects through a two-dimensional Gaussian white noise that acts both in time and along the refractory dimension. For an infinite number of neurons the standard mean-field theory is recovered. A discretization of the SPDE along its characteristic curves allows direct simulations of the activity of large but finite spiking networks; this constitutes the main advantage of our approach. Linearizing the SPDE with respect to the deterministic asynchronous state allows the theoretical investigation of finite-size activity fluctuations. In particular, analytical expressions for the power spectrum and autocorrelation of activity fluctuations are obtained. Moreover, our approach can be adapted to incorporate multiple interacting populations and quasi-renewal single-neuron dynamics.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/DIIBywIdo30&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>André Longtin</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-08-24T16:50:30+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -6176,7 +6176,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -6196,7 +6196,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -6216,7 +6216,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/aging-neuroscience</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -6515,7 +6515,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6956,7 +6956,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -6976,7 +6976,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -6996,7 +6996,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7016,7 +7016,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7036,7 +7036,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7056,7 +7056,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7076,7 +7076,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7096,7 +7096,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7266,7 +7266,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7286,7 +7286,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7306,7 +7306,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/integrative-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7326,7 +7326,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7346,7 +7346,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7366,7 +7366,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7386,7 +7386,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7405,7 +7405,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -7425,7 +7425,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -7508,7 +7508,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7528,7 +7528,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7548,7 +7548,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7568,7 +7568,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7588,7 +7588,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7608,7 +7608,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7628,7 +7628,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7718,7 +7718,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7988,7 +7988,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8007,7 +8007,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -8028,7 +8028,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8048,7 +8048,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8068,7 +8068,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8088,7 +8088,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurodegeneration</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8108,7 +8108,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8128,7 +8128,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8148,7 +8148,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8168,7 +8168,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/systems-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8188,7 +8188,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8208,7 +8208,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neurogenesis</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8228,7 +8228,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8248,7 +8248,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>http://journal.frontiersin.org/journal/neural-circuits</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8268,7 +8268,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8288,7 +8288,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8307,7 +8307,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -8327,7 +8327,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-08-24T17:00:09+00:00</updated>
+			<updated>2017-08-24T23:00:08+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -8348,7 +8348,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/integrative-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8368,7 +8368,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8388,7 +8388,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroinformatics</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8408,7 +8408,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8428,7 +8428,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/brain-imaging-methods</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8448,7 +8448,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8468,7 +8468,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroscience/Section/neural-technology</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8488,7 +8488,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>http://journal.frontiersin.org/journal/computational-neuroscience</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -8508,7 +8508,7 @@ Neural network dynamics are governed by the interaction of spiking neurons. Stoc
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>http://journal.frontiersin.org/journal/neuroanatomy</id>
-			<updated>2017-08-24T17:00:08+00:00</updated>
+			<updated>2017-08-24T23:00:06+00:00</updated>
 		</source>
 	</entry>
 
