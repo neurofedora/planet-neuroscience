@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/183962v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/183707v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005737" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005716" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005713" />
@@ -145,8 +147,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/182444v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/182402v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/182220v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/180703v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/180034v1?rss=1" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnins.2017.00467" />
 			<rdf:li rdf:resource="http://www.pnas.org/content/114/35/E7395.short?rss=1" />
 			<rdf:li rdf:resource="http://www.pnas.org/content/114/35/E7385.short?rss=1" />
@@ -419,6 +419,20 @@
 	</items>
 </channel>
 
+<item rdf:about="http://biorxiv.org/cgi/content/short/183962v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: What exactly is 'N' in cell culture and animal experiments?</title>
+	<link>http://biorxiv.org/cgi/content/short/183962v1?rss=1</link>
+	<content:encoded>Biologists establish the existence of experimental effects by applying treatments or interventions to biological entities or units, such as people, animals, slice preparations, or cells. When done appropriately, independent replication of the entity-intervention pair contributes to the sample size (N) and forms the basis of statistical inference. However, sometimes the appropriate entity-intervention pair may not be obvious, and the wrong choice can make an experiment worthless. We surveyed a random sample of published animal experiments from 2011 to 2016 where interventions were applied to parents but effects examined in the offspring, as regulatory authorities have provided clear guidelines on replication with such designs. We found that only 22% of studies (95% CI = 17% to 29%) replicated the correct entity-intervention pair and thus made valid statistical inferences. Approximately half of the studies (46%, 95% CI = 38% to 53%) had pseudoreplication while 32% (95% CI = 26% to 39%) provided insufficient information to make a judgement. Pseudoreplication artificially inflates the sample size, leading to more false positive results and inflating the apparent evidence supporting a scientific claim. It is hard for science to advance when so many experiments are poorly designed and analysed. We argue that distinguishing between biological units, experimental units, and observational units clarifies where replication should occur, describe the criteria for genuine replication, and provide guidelines for designing and analysing in vitro, ex vivo, and in vivo experiments.</content:encoded>
+	<dc:date>2017-09-02T00:00:00+00:00</dc:date>
+	<dc:creator>Lazic, S. E.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/183707v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: A topographic visual pathway into the central brain of Drosophila</title>
+	<link>http://biorxiv.org/cgi/content/short/183707v1?rss=1</link>
+	<content:encoded>The visual system is characterized by a strict topographic organization from the retina towards multiple layers of synaptic integration. Recent studies in Drosophila have shown that in the transition from the optic lobes to the central brain, due to convergence of columnar neurons onto optic glomeruli, distinct synaptic units employed in the computation of different visual features, the retinotopic representation is lost in these circuits. However, functional imaging revealed a spatial representation of visual cues in the Drosophila central complex, raising the question about the underlying circuitry, which bypasses optic glomerulus convergence. While characterizing afferent arborizations within Drosophila visual glomeruli, we discovered a spatial segregation of topographic and non-topographic projections from distinct molecular classes of medulla projection neurons, medullo-tubercular (MeTu) neurons, into a specific central brain glomerulus, the anterior optic tubercle (AOTu). Single cell analysis revealed that topographic information is organized by ensembles of MeTu neurons (type 1), forming parallel channels within the AOTu, while a separate class of MeTu neurons (type 2) displays convergent projection, associated with a loss of spatial resolution. MeTu afferents in the AOTu synapse onto a matching topographic field of output projection neurons, these tubercular-bulbar (TuBu) neurons relay visual information towards dendritic fields of central complex ring neurons in the bulb neuropil. Within the bulb, neuronal proximity of the topographic AOTu map as well as channel identity is maintained despite the absence of a stereotyped map organization, providing the structural basis for spatial representation of visual information in the central complex (CX). TuBu neurons project onto dendritic fields of efferent ring neurons, where distinct sectors of the bulb correspond to a distinct ring domain in the ellipsoid body. We found a stereotypic circuitry for each analyzed TuBu class, thus the individual channels of peripheral topography are maintained in the central complex structure. Together with previous data showing rough topography within the lobula AOTu domain, our results on the organization of medulla projection neurons define the AOTu neuropil as the main relay station for spatial information from the optic lobes into the central brain.</content:encoded>
+	<dc:date>2017-09-02T00:00:00+00:00</dc:date>
+	<dc:creator>Timaeus, L.</dc:creator>
+</item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005737">
 	<title>PLOS Computational Biology: New Articles: A single Markov-type kinetic model accounting for the macroscopic currents of all human voltage-gated sodium channel isoforms</title>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/_o404RFqmDo/article</link>
@@ -1434,20 +1448,6 @@ be resolved accurately despite conditions of unstable rundown.
 	<content:encoded>Primates predominantly rely on vision to gather information from the environment, and neurons representing visual space and gaze position are found in many brain areas. Within the medial temporal lobe, a brain region critical for memory, neurons in the entorhinal cortex of macaque monkeys exhibit spatial selectivity for gaze position. Specifically, the firing rate of single neurons reflects fixation location within a visual image (Killian et al., 2012). In the rodents, entorhinal cells such as grid cells, border cells, and head direction cells show spatial representations aligned to visual environmental features instead of the body (Hafting et al., 2005, Solstad et al. 2008, Sargolini et al., 2006, Diehl et al., 2017). However, it is not known whether similar allocentric representations exist in primate entorhinal cortex. Here, we recorded neural activity in the entorhinal cortex in two male rhesus monkeys during a naturalistic, free-viewing task. Our data reveal that a majority of entorhinal neurons represent gaze position, and that simultaneously recorded neurons exhibit distinct spatial reference frames, with some neurons aligning to the visual image and others aligning to the monkey's head position. Our results also show that entorhinal neural activity can be used to predict gaze position with a high degree of accuracy. These findings demonstrate that visuospatial representation is a fundamental property of entorhinal neurons in primates, and suggest that entorhinal cortex may support relational memory and motor planning by coding attentional locus in distinct, behaviorally relevant frames of reference.</content:encoded>
 	<dc:date>2017-08-30T00:00:00+00:00</dc:date>
 	<dc:creator>Meister, M. L. R.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/180703v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Early alterations of social brain networks in young children with autism</title>
-	<link>http://biorxiv.org/cgi/content/short/180703v1?rss=1</link>
-	<content:encoded>Social impairments are a hallmark of Autism Spectrum Disorders (ASD), but empirical evidence for early brain network alterations in response to social stimuli is scant in ASD. Here, we recorded the gaze patterns and brain activity of toddlers and preschoolers with ASD and their typically developing (TD) peers while they explored dynamic social scenes. Source-space directed functional connectivity analyses revealed the presence of network alterations in the theta frequency band, manifesting as increased driving (hyper-activity) and stronger connections (hyper-connectivity) from key nodes of the social brain associated with autism. Further analyses of brain-behavioural relationships within the ASD group suggested that compensatory mechanisms from dorsomedial frontal, inferior temporal and insular cortical regions were associated with lower clinical impairment and less atypical gaze patterns. Our results provide strong evidence that directed functional connectivity alterations of social brain networks is a core component of atypical brain development at early stages of ASD.</content:encoded>
-	<dc:date>2017-08-30T00:00:00+00:00</dc:date>
-	<dc:creator>Sperdin, H. F.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/180034v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Transcriptional Architecture of Synaptic Communication Delineates Cortical GABAergic Neuron Identity</title>
-	<link>http://biorxiv.org/cgi/content/short/180034v1?rss=1</link>
-	<content:encoded>Understanding the organizational logic of neural circuits requires deciphering the biological basis of neuron type diversity and identity, but there is no consensus on defining a neuron type. We analyzed single cell transcriptomes of anatomically and physiologically characterized cortical ground truth populations and conducted a computational genomic screen for transcription profiles that distinguish them. We discovered that cardinal GABAergic neuron types are delineated by a transcriptional architecture that encodes their synaptic communication patterns. This architecture comprises 6 categories of ~40 gene families including cell adhesion molecules, transmitter-modulator receptors, ion channels, signaling proteins, neuropeptides and vesicular release components, and transcription factors. Combinatorial expression of select members across families shapes a multi-layered molecular scaffold along cell membrane that may customize synaptic connectivity patterns and input-output signaling properties. This molecular genetic framework of neuronal identity integrates cell phenotypes along multiple axes and provides a foundation for discovering and classifying neuron types.</content:encoded>
-	<dc:date>2017-08-30T00:00:00+00:00</dc:date>
-	<dc:creator>Paul, A.</dc:creator>
 </item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnins.2017.00467">
 	<title>Frontiers in Neuroscience | Neurodegeneration section | New and Recent Articles: Maximizing the Potential of Longitudinal Cohorts for Research in Neurodegenerative Diseases: A Community Perspective</title>
