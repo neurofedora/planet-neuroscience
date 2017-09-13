@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005708" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fncel.2017.00278" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnmol.2017.00282" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/37/37/i?rss=1" />
@@ -58,6 +59,7 @@
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(17)30700-6?rss=yes" />
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(17)30612-8?rss=yes" />
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(17)30601-3?rss=yes" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/188466v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/188326v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/188318v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/187708v1?rss=1" />
@@ -149,7 +151,6 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1709.02443" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/187450v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/187310v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/187302v1?rss=1" />
 			<rdf:li rdf:resource="https://dx.doi.org/10.7554/eLife.29893" />
 			<rdf:li rdf:resource="https://dx.doi.org/10.7554/eLife.29820" />
 			<rdf:li rdf:resource="https://dx.doi.org/10.7554/eLife.28804" />
@@ -331,7 +332,6 @@
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005712" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005693" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnins.2017.00466" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005723" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnins.2017.00480" />
 			<rdf:li rdf:resource="http://journal.frontiersin.org/article/10.3389/fnins.2017.00473" />
 			<rdf:li rdf:resource="http://www.sciencedirect.com/science/article/pii/S0959438817300442" />
@@ -419,6 +419,15 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005708">
+	<title>PLOS Computational Biology: New Articles: Analysis of the relationship between coexpression domains and chromatin 3D organization</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/fhS4VF136qI/article</link>
+	<content:encoded>&lt;p&gt;by María E. Soler-Oliva, Jose A. Guerrero-Martínez, Valentina Bachetti, Jose C. Reyes&lt;/p&gt;
+
+Gene order is not random in eukaryotic chromosomes, and co-regulated genes tend to be clustered. The mechanisms that determine co-regulation of large regions of the genome and its connection with chromatin three-dimensional (3D) organization are still unclear however. Here we have adapted a recently described method for identifying chromatin topologically associating domains (TADs) to identify coexpression domains (which we term “CODs”). Using human normal breast and breast cancer RNA-seq data, we have identified approximately 500 CODs. CODs in the normal and breast cancer genomes share similar characteristics but differ in their gene composition. COD genes have a greater tendency to be coexpressed with genes that reside in other CODs than with non-COD genes. Such inter-COD coexpression is maintained over large chromosomal distances in the normal genome but is partially lost in the cancer genome. Analyzing the relationship between CODs and chromatin 3D organization using Hi-C contact data, we find that CODs do not correspond to TADs. In fact, intra-TAD gene coexpression is the same as random for most chromosomes. However, the contact profile is similar between gene pairs that reside either in the same COD or in coexpressed CODs. These data indicate that co-regulated genes in the genome present similar patterns of contacts irrespective of the frequency of physical chromatin contacts between them.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/fhS4VF136qI&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-09-13T21:00:00+00:00</dc:date>
+	<dc:creator>Jose C. Reyes</dc:creator>
+</item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fncel.2017.00278">
 	<title>Frontiers in Cellular Neuroscience | New and Recent Articles: Synaptic Activation of a Detailed Purkinje Cell Model Predicts Voltage-Dependent Control of Burst-Pause Responses in Active Dendrites</title>
 	<link>http://journal.frontiersin.org/article/10.3389/fncel.2017.00278</link>
@@ -727,6 +736,13 @@
 	<content:encoded>In this Primer, Petersen discusses current and future applications of the whole-cell patch-clamp recording technique for studying the cellular and synaptic circuit mechanisms driving neuronal membrane potential dynamics in awake behaving animals.</content:encoded>
 	<dc:date>2017-09-13T00:00:00+00:00</dc:date>
 	<dc:creator>Carl C.H. Petersen</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/188466v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Evidence for a long-term protection of wheel-running exercise against cocaine psychomotor sensitization in adolescent but not in young adult mice</title>
+	<link>http://biorxiv.org/cgi/content/short/188466v1?rss=1</link>
+	<content:encoded>Rodents housed with a running wheel can exhibit attenuated cocaine seeking and cocaine-induced psychomotor activation. However, the longevity of the exercise anti-drug protection and the influence of the developmental stage during which exercise is displayed received little attention. Here, females and males C57BL/6J mice, aged 28 (adolescents) or 77 (young adults) days were housed with (n=56) or without (n=28) a running wheel. After 3 weeks in these conditions, half of the exercised mice were deprived of their wheel (n=28) whereas the other half and the sedentary mice (no wheel) were kept in their respective environments throughout experimentation. After 3 additional weeks, mice were tested for initiation of psychomotor sensitization to 9 once-daily intraperitoneal injections of 8 mg/kg cocaine (following 2 drug-free test sessions). The expression of sensitization was assessed on a single test session 30 days after the last sensitizing cocaine injection. Continuously exercised mice (wheel throughout experimentation) were less responsive to the initiation and the expression of cocaine effects, regardless of the gender and the developmental period during which exercise was introduced. Wheel-running during adolescence attenuated in later life the initiation and the expression of sensitization in females and only its expression in males. In adult females and males, previously-exercised and sedentary mice exhibited indiscernible levels of initiation and expression of sensitization. Thus, the likelihood of the long-term protection of exercise against cocaine vulnerability may depend not only on the gender but also and especially on the period of life in which exercise took place.</content:encoded>
+	<dc:date>2017-09-13T00:00:00+00:00</dc:date>
+	<dc:creator>Lespine, L.-F.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/188326v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Modulation of visual gamma oscillation by excitatory drive and the excitation/inhibition balance in the visual cortex</title>
@@ -1492,13 +1508,6 @@ increase at the same time, the voltage dramatically decreases.
 	<content:encoded>To optimize fitness, animals must dynamically match food choices to their current needs. For drosophilids, yeast fulfils most dietary protein and micronutrient requirements. While several yeast metabolites activate known gustatory receptor neurons (GRNs) in Drosophila melanogaster, the chemosensory channels mediating yeast feeding remain unknown. Here we identify a class of proboscis GRNs required for yeast intake, and show that these GRNs act redundantly to mediate yeast feeding. While nutritional and reproductive states synergistically increase yeast appetite, we find a separation of these state signals at the level of GRN responses to yeast: amino acid but not mating state enhances yeast GRN gain. The sensitivity of sweet GRNs to sugar is not increased by protein deprivation, providing a potential basis for protein-specific appetite. The emerging picture is that different internal states act at distinct levels of a dedicated gustatory circuit to elicit nutrient-specific appetites towards a complex, ecologically relevant protein source.</content:encoded>
 	<dc:date>2017-09-11T00:00:00+00:00</dc:date>
 	<dc:creator>Steck, K.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/187302v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Paupar LncRNA Promotes KAP1 Dependent Chromatin Changes And Regulates Subventricular Zone Neurogenesis</title>
-	<link>http://biorxiv.org/cgi/content/short/187302v1?rss=1</link>
-	<content:encoded>Many long non-coding RNAs (lncRNAs) are expressed during central nervous system (CNS) development, yet their in vivo roles and molecular mechanisms of action remain poorly understood. Paupar, a CNS expressed lncRNA, controls neuroblastoma cell growth by binding and modulating the activity of genome-wide transcriptional regulatory elements. We show here that Paupar transcript directly binds KAP1, an essential epigenetic regulatory protein, and thereby regulates the expression of shared target genes important for proliferation and neuronal differentiation. Paupar promotes KAP1 chromatin occupancy and H3K9me3 deposition at a subset of distal targets, through formation of a DNA binding ribonucleoprotein complex containing Paupar, KAP1 and the PAX6 transcription factor. Paupar-KAP1 genome-wide co-occupancy reveals a 4-fold enrichment of overlap between Paupar and KAP1 bound sequences. Furthermore, both Paupar and Kap1 loss of function in vivo accelerates lineage progression in the mouse postnatal subventricular zone (SVZ) stem cell niche and disrupts olfactory bulb neurogenesis. These observations provide important conceptual insights into the trans-acting modes of lncRNA-mediated epigenetic regulation, the mechanisms of KAP1 genomic recruitment and identify Paupar and Kap1 as regulators of SVZ neurogenesis.</content:encoded>
-	<dc:date>2017-09-11T00:00:00+00:00</dc:date>
-	<dc:creator>Pavlaki, I.</dc:creator>
 </item>
 <item rdf:about="https://dx.doi.org/10.7554/eLife.29893">
 	<title>eLife: latest articles: Cell-specific gain modulation by synaptically released zinc in cortical circuits of audition</title>
@@ -2933,15 +2942,6 @@ The major histocompatibility complex (MHC) contains the most polymorphic genetic
 	<link>http://journal.frontiersin.org/article/10.3389/fnins.2017.00466</link>
 	<content:encoded>Farida Veliev, Zheng Han, Dipankar Kalita, Anne Briançon-Marjollet, Vincent Bouchiat, Cécile Delacour</content:encoded>
 	<dc:date>2017-08-28T05:00:06+00:00</dc:date>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005723">
-	<title>PLOS Computational Biology: New Articles: Robust averaging protects decisions from noise in neural computations</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/9-7Oog0_4kM/article</link>
-	<content:encoded>&lt;p&gt;by Vickie Li, Santiago Herce Castañón, Joshua A. Solomon, Hildward Vandormael, Christopher Summerfield&lt;/p&gt;
-
-An ideal observer will give equivalent weight to sources of information that are equally reliable. However, when averaging visual information, human observers tend to downweight or discount features that are relatively outlying or deviant (‘robust averaging’). Why humans adopt an integration policy that discards important decision information remains unknown. Here, observers were asked to judge the average tilt in a circular array of high-contrast gratings, relative to an orientation boundary defined by a central reference grating. Observers showed robust averaging of orientation, but the extent to which they did so was a positive predictor of their overall performance. Using computational simulations, we show that although robust averaging is suboptimal for a perfect integrator, it paradoxically enhances performance in the presence of “late” noise, i.e. which corrupts decisions during integration. In other words, robust decision strategies increase the brain’s resilience to noise arising in neural computations during decision-making.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/9-7Oog0_4kM&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-08-25T21:00:00+00:00</dc:date>
-	<dc:creator>Christopher Summerfield</dc:creator>
 </item>
 <item rdf:about="http://journal.frontiersin.org/article/10.3389/fnins.2017.00480">
 	<title>Frontiers in Neuroscience | Neural Technology section | New and Recent Articles: EMG-Based Continuous and Simultaneous Estimation of Arm Kinematics in Able-Bodied Individuals and Stroke Survivors</title>
