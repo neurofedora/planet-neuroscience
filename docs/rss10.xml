@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://arxiv.org/abs/1709.10248" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1709.10138" />
 			<rdf:li rdf:resource="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30168-6?rss=yes" />
 			<rdf:li rdf:resource="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30160-1?rss=yes" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/196659v1?rss=1" />
@@ -413,12 +415,64 @@
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fninf.2017.00045" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fninf.2017.00044" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fninf.2017.00043" />
-			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fninf.2017.00042" />
-			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fninf.2017.00040" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://arxiv.org/abs/1709.10248">
+	<title>q-bio.NC updates on arXiv.org: In reply to Faes et al. and Barnett et al. regarding &quot;A study of problems encountered in Granger causality analysis from a neuroscience perspective&quot;. (arXiv:1709.10248v1 [stat.ME])</title>
+	<link>http://arxiv.org/abs/1709.10248</link>
+	<content:encoded>&lt;p&gt;This reply is in response to commentaries by Barnett, Barrett, and Seth
+(&lt;a href=&quot;http://export.arxiv.org/abs/1708.08001&quot;&gt;arXiv:1708.08001&lt;/a&gt;) and Faes, Stramaglia, and Marinazzo (&lt;a href=&quot;http://export.arxiv.org/abs/1708.06990&quot;&gt;arXiv:1708.06990&lt;/a&gt;) on
+our paper entitled &quot;A study of problems encountered in Granger causality
+analysis from a neuroscience perspective.&quot; (PNAS 114(34):7063-7072. 2017). In
+our paper, we analyzed several properties of Granger-Geweke causality (GGC) and
+discussed potential problems in neuroscience applications. We demonstrated: (i)
+that GGC, estimated using separate model fits, is either severely biased,
+particularly when the true model is known, or a high variance is introduced to
+overcome the bias; and (ii) that GGC does not reflect some component dynamics
+of the system. The commentaries by both Faes et al. and Barnett et al. point
+out that the computational problems of (i) are resolved by using recent
+computational methods. We acknowledge that these problems are indeed resolved
+by these methods. However, the traditional computation using separate model
+fits continues to be presented and applied. More fundamentally, the
+interpretational problems stemming from (ii) are not in anyway addressed by the
+improved methods because they are inherent to the definition of GGC. These
+properties are indeed acknowledged by both commentaries. We have no
+misconception of the GGC measure and do not claim that these properties are
+facially wrong. But we do discuss at length how these properties make it
+inappropriate and misleading for common types of scientific questions, how
+presentation of GGC results without model estimates are not decipherable, and
+how the absence of clear statements of questions of interest present further
+opportunities for misinterpretation.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2017-10-02T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/stat/1/au:+Stokes_P/0/1/0/all/0/1">Patrick A. Stokes</a>, <a href="http://arxiv.org/find/stat/1/au:+Purdon_P/0/1/0/all/0/1">Patrick L. Purdon</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1709.10138">
+	<title>q-bio.NC updates on arXiv.org: Inference of topology and the nature of synapses, and the flow of information in neuronal networks. (arXiv:1709.10138v1 [q-bio.NC])</title>
+	<link>http://arxiv.org/abs/1709.10138</link>
+	<content:encoded>&lt;p&gt;The characterisation of neuronal connectivity is one of the most important
+matters in neuroscience. In this work, we show that a recently proposed
+informational quantity, the causal mutual information, employed with an
+appropriate methodology, can be used not only to correctly infer the direction
+of the underlying physical synapses, but also to identify their excitatory or
+inhibitory nature, considering easy to handle and measure bivariate
+time-series. The success of our approach relies on a surprising property found
+in neuronal networks by which non-adjacent neurons do &quot;understand&quot; each other
+(positive mutual information), however this exchange of information is not
+capable of causing effect (zero transfer entropy). Remarkably, inhibitory
+connections, responsible for enhancing synchronisation, transfer more
+information than excitatory connections, known to enhance entropy in the
+network. We also demonstrate that our methodology can be used to correctly
+infer directionality of synapses even in the presence of dynamic and
+observational Gaussian noise, and is also successful in providing the effective
+directionality of inter modular connectivity, when only mean fields can be
+measured.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2017-10-02T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Borges_F/0/1/0/all/0/1">F. S. Borges</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Lameu_E/0/1/0/all/0/1">E. L. Lameu</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Iarosz_K/0/1/0/all/0/1">K. C. Iarosz</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Protachevicz_P/0/1/0/all/0/1">P. R. Protachevicz</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Caldas_I/0/1/0/all/0/1">I. L. Caldas</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Viana_R/0/1/0/all/0/1">R. L. Viana</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Macau_E/0/1/0/all/0/1">E. E. N. Macau</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Batista_A/0/1/0/all/0/1">A. M. Batista</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Baptista_M/0/1/0/all/0/1">M. S. Baptista</a></dc:creator>
+</item>
 <item rdf:about="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30168-6?rss=yes">
 	<title>Trends in Neurosciences: Editorial Board and Contents</title>
 	<link>http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30168-6?rss=yes</link>
@@ -3020,18 +3074,6 @@ research literature, and suggests some new testable predictions.
 	<title>Frontiers in Neuroinformatics | New and Recent Articles: Automated Detection of Epileptic Biomarkers in Resting-State Interictal MEG Data</title>
 	<link>https://www.frontiersin.org/articles/10.3389/fninf.2017.00043</link>
 	<content:encoded>Miguel C. Soriano, Guiomar Niso, Jillian Clements, Silvia Ortín, Sira Carrasco, María Gudín, Claudio R. Mirasso, Ernesto Pereda</content:encoded>
-	<dc:date>2017-09-27T11:00:08+00:00</dc:date>
-</item>
-<item rdf:about="https://www.frontiersin.org/articles/10.3389/fninf.2017.00042">
-	<title>Frontiers in Neuroinformatics | New and Recent Articles: Visualization, Interaction and Tractometry: Dealing with Millions of Streamlines from Diffusion MRI Tractography</title>
-	<link>https://www.frontiersin.org/articles/10.3389/fninf.2017.00042</link>
-	<content:encoded>Francois Rheault, Jean-Christophe Houde, Maxime Descoteaux</content:encoded>
-	<dc:date>2017-09-27T11:00:08+00:00</dc:date>
-</item>
-<item rdf:about="https://www.frontiersin.org/articles/10.3389/fninf.2017.00040">
-	<title>Frontiers in Neuroinformatics | New and Recent Articles: The NEST Dry-Run Mode: Efficient Dynamic Analysis of Neuronal Network Simulation Code</title>
-	<link>https://www.frontiersin.org/articles/10.3389/fninf.2017.00040</link>
-	<content:encoded>Susanne Kunkel, Wolfram Schenck</content:encoded>
 	<dc:date>2017-09-27T11:00:08+00:00</dc:date>
 </item>
 
