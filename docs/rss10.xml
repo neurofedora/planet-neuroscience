@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005807" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005781" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25080" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsys.2017.00076" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2017.00331" />
@@ -23,6 +25,7 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1710.04947" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1710.04931" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1710.04897" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/203786v1?rss=1" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25051" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25050" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25024" />
@@ -114,7 +117,6 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1710.03999" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1710.03923" />
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(17)30874-7?rss=yes" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/202424v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005792" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/37/41/i?rss=1" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/37/41/9999?rss=1" />
@@ -239,8 +241,6 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1710.02387" />
 			<rdf:li rdf:resource="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30179-0?rss=yes" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005794" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005787" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005596" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2017.00555" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnhum.2017.00487" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fncel.2017.00314" />
@@ -419,6 +419,24 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005807">
+	<title>PLOS Computational Biology: New Articles: A machine learning approach for predicting CRISPR-Cas9 cleavage efficiencies and patterns underlying its mechanism of action</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/GOLPfmV6XL8/article</link>
+	<content:encoded>&lt;p&gt;by Shiran Abadi, Winston X. Yan, David Amar, Itay Mayrose&lt;/p&gt;
+
+The adaptation of the CRISPR-Cas9 system as a genome editing technique has generated much excitement in recent years owing to its ability to manipulate targeted genes and genomic regions that are complementary to a programmed single guide RNA (sgRNA). However, the efficacy of a specific sgRNA is not uniquely defined by exact sequence homology to the target site, thus unintended off-targets might additionally be cleaved. Current methods for sgRNA design are mainly concerned with predicting off-targets for a given sgRNA using basic sequence features and employ elementary rules for ranking possible sgRNAs. Here, we introduce CRISTA (CRISPR Target Assessment), a novel algorithm within the machine learning framework that determines the propensity of a genomic site to be cleaved by a given sgRNA. We show that the predictions made with CRISTA are more accurate than other available methodologies. We further demonstrate that the occurrence of bulges is not a rare phenomenon and should be accounted for in the prediction process. Beyond predicting cleavage efficiencies, the learning process provides inferences regarding patterns that underlie the mechanism of action of the CRISPR-Cas9 system. We discover that attributes that describe the spatial structure and rigidity of the entire genomic site as well as those surrounding the PAM region are a major component of the prediction capabilities.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/GOLPfmV6XL8&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-10-16T21:00:00+00:00</dc:date>
+	<dc:creator>Itay Mayrose</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005781">
+	<title>PLOS Computational Biology: New Articles: Clusternomics: Integrative context-dependent clustering for heterogeneous datasets</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/dGbVYIyHTbc/article</link>
+	<content:encoded>&lt;p&gt;by Evelina Gabasova, John Reid, Lorenz Wernisch&lt;/p&gt;
+
+Integrative clustering is used to identify groups of samples by jointly analysing multiple datasets describing the same set of biological samples, such as gene expression, copy number, methylation etc. Most existing algorithms for integrative clustering assume that there is a shared consistent set of clusters across all datasets, and most of the data samples follow this structure. However in practice, the structure across heterogeneous datasets can be more varied, with clusters being joined in some datasets and separated in others. In this paper, we present a probabilistic clustering method to identify groups across datasets that do not share the same cluster structure. The proposed algorithm, Clusternomics, identifies groups of samples that share their global behaviour across heterogeneous datasets. The algorithm models clusters on the level of individual datasets, while also extracting global structure that arises from the local cluster assignments. Clusters on both the local and the global level are modelled using a hierarchical Dirichlet mixture model to identify structure on both levels. We evaluated the model both on simulated and on real-world datasets. The simulated data exemplifies datasets with varying degrees of common structure. In such a setting Clusternomics outperforms existing algorithms for integrative and consensus clustering. In a real-world application, we used the algorithm for cancer subtyping, identifying subtypes of cancer from heterogeneous datasets. We applied the algorithm to TCGA breast cancer dataset, integrating gene expression, miRNA expression, DNA methylation and proteomics. The algorithm extracted clinically meaningful clusters with significantly different survival probabilities. We also evaluated the algorithm on lung and kidney cancer TCGA datasets with high dimensionality, again showing clinically significant results and scalability of the algorithm.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/dGbVYIyHTbc&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-10-16T21:00:00+00:00</dc:date>
+	<dc:creator>Lorenz Wernisch</dc:creator>
+</item>
 <item rdf:about="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25080">
 	<title>Annals of Neurology: Effect of sensory and motor connectivity on hand function in pediatric hemiplegia</title>
 	<link>http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25080</link>
@@ -520,6 +538,13 @@ finally we discuss implications for semantic memory in humans.
 &lt;/p&gt;</content:encoded>
 	<dc:date>2017-10-16T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Naim_M/0/1/0/all/0/1">Michelangelo Naim</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Boboeva_V/0/1/0/all/0/1">Vezha Boboeva</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Kang_C/0/1/0/all/0/1">Chol Jun Kang</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Treves_A/0/1/0/all/0/1">Alessandro Treves</a></dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/203786v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Modification of scale-free electrophysiological activity induced by changes in excitatory-inhibitory balance is governed by the dynamics of multiple oscillatory relaxation processes</title>
+	<link>http://biorxiv.org/cgi/content/short/203786v1?rss=1</link>
+	<content:encoded>Neurophysiological recordings are dominated by arhythmical activity whose spectra can be characterised by power-law functions, and on this basis are often referred to as reflecting scale-free brain dynamics. Relatively little is known regarding the neural generators and temporal dynamics of this arhythmical behaviour compared to rhythmical behaviour. Here we signal analytically separated the two types of activity and show in both monkeys and humans that oscillatory alpha power dynamically correlates with arhythmical activity. In a series of human studies probing the sensitivity of arhythmical activity to excitation-inhibition balance, we show that drugs interacting with GABA, NMDA, AMPA and 5HT receptors systematically flatten and steepen the profile of arhythmical activity. Similar modifications are seen in monkeys during general anaesthesia. Surrogate data analysis demonstrates that arhythmical activity is generated by both linear and non-linear schemes, with non-linear effects emerging at critical boundaries. We propose a unifying model which can explain, the 1/f nature of electrophysiological spectra, their dynamic interaction with oscillatory rhythms as well as the sensitivity of 1/f activity to excitation-inhibition balance by considering electrophysiological spectra as being generated by a collection of stochastically perturbed damped oscillators having a distribution of relaxation rates.</content:encoded>
+	<dc:date>2017-10-16T00:00:00+00:00</dc:date>
+	<dc:creator>Muthukumaraswamy, S. D.</dc:creator>
 </item>
 <item rdf:about="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25051">
 	<title>Annals of Neurology: Issue Information - Masthead</title>
@@ -1272,13 +1297,6 @@ achieves superior performance to other state-of-the-art HA algorithms.
 	<content:encoded>A long-standing question has been how presynaptic NMDA receptors influence high-frequency evoked neurotransmission but spontaneous release at low rates. Providing resolution, Abrahamsson et al. show that these receptors regulate evoked and spontaneous release via distinct RIM1αβ- and JNK2-dependent mechanisms, respectively.</content:encoded>
 	<dc:date>2017-10-12T00:00:00+00:00</dc:date>
 	<dc:creator>Therése Abrahamsson, Christina You Chien Chou, Si Ying Li, Adamo Mancino, Rui Ponte Costa, Jennifer Anne Brock, Erin Nuro, Katherine Anne Buchanan, Dale Elgar, Arne Vladimir Blackman, Adam Tudor-Jones, Julia Oyrer, William Todd Farmer, Keith Kazuo Murai, Per Jesper Sjöström</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/202424v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Across-subjects classification of stimulus modality from human MEG high frequency activity</title>
-	<link>http://biorxiv.org/cgi/content/short/202424v1?rss=1</link>
-	<content:encoded>Single-trial analyses have the potential to uncover meaningful brain dynamics that are obscured when averaging across trials. However, low signal-to-noise ratio (SNR) can impede the use of single-trial analyses and decoding methods. In this study, we investigate the applicability of a single-trial approach to decode stimulus modality from magnetoencephalography (MEG) high frequency activity. In order to classify the auditory versus visual presentation of words, we combine beamformer source reconstruction with the random forest classification method. To enable group level inference, the classification is embedded in an across-subjects framework. We show that single-trial gamma SNR allows for good classification performance (accuracy across subjects: 66.44%). This implies that the characteristics of high frequency activity have a high consistency across trials and subjects. The random forest classifier assigned informational value to activity in both auditory and visual cortex with high spatial specificity. Across time, gamma power was most informative during stimulus presentation. Among all frequency bands, the 75-95 Hz band was the most informative frequency band in visual as well as in auditory areas. Especially in visual areas, a broad range of gamma frequencies (55-125 Hz) contributed to the successful classification. Thus, we demonstrate the feasibility of single-trial approaches for decoding the stimulus modality across subjects from high frequency activity and describe the discriminative gamma activity in time, frequency, and space.</content:encoded>
-	<dc:date>2017-10-12T00:00:00+00:00</dc:date>
-	<dc:creator>Westner, B. U.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005792">
 	<title>PLOS Computational Biology: New Articles: The structured ‘low temperature’ phase of the retinal population code</title>
@@ -2332,24 +2350,6 @@ group/population-level.
 Calcium responses have been observed as spikes of the whole-cell calcium concentration in numerous cell types and are essential for translating extracellular stimuli into cellular responses. While there are several suggestions for how this encoding is achieved, we still lack a comprehensive theory. To achieve this goal it is necessary to reliably predict the temporal evolution of calcium spike sequences for a given stimulus. Here, we propose a modelling framework that allows us to quantitatively describe the timing of calcium spikes. Using a Bayesian approach, we show that Gaussian processes model calcium spike rates with high fidelity and perform better than standard tools such as peri-stimulus time histograms and kernel smoothing. We employ our modelling concept to analyse calcium spike sequences from dynamically-stimulated HEK293T cells. Under these conditions, different cells often experience diverse stimuli time courses, which is a situation likely to occur &lt;i&gt;in vivo&lt;/i&gt;. This single cell variability and the concomitant small number of calcium spikes per cell pose a significant modelling challenge, but we demonstrate that Gaussian processes can successfully describe calcium spike rates in these circumstances. Our results therefore pave the way towards a statistical description of heterogeneous calcium oscillations in a dynamic environment.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/0pkioumH9Mg&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-10-06T21:00:00+00:00</dc:date>
 	<dc:creator>Rüdiger Thul</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005787">
-	<title>PLOS Computational Biology: New Articles: The ins and outs of vanillyl alcohol oxidase: Identification of ligand migration paths</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/Muxexz4UbOk/article</link>
-	<content:encoded>&lt;p&gt;by Gudrun Gygli, Maria Fátima Lucas, Victor Guallar, Willem J. H. van Berkel&lt;/p&gt;
-
-Vanillyl alcohol oxidase (VAO) is a homooctameric flavoenzyme belonging to the VAO/PCMH family. Each VAO subunit consists of two domains, the FAD-binding and the cap domain. VAO catalyses, among other reactions, the two-step conversion of &lt;i&gt;p-&lt;/i&gt;creosol (2-methoxy-4-methylphenol) to vanillin (4-hydroxy-3-methoxybenzaldehyde). To elucidate how different ligands enter and exit the secluded active site, Monte Carlo based simulations have been performed. One entry/exit path via the subunit interface and two additional exit paths have been identified for phenolic ligands, all leading to the &lt;i&gt;si&lt;/i&gt; side of FAD. We argue that the entry/exit path is the most probable route for these ligands. A fourth path leading to the &lt;i&gt;re&lt;/i&gt; side of FAD has been found for the co-ligands dioxygen and hydrogen peroxide. Based on binding energies and on the behaviour of ligands in these four paths, we propose a sequence of events for ligand and co-ligand migration during catalysis. We have also identified two residues, His466 and Tyr503, which could act as concierges of the active site for phenolic ligands, as well as two other residues, Tyr51 and Tyr408, which could act as a gateway to the &lt;i&gt;re&lt;/i&gt; side of FAD for dioxygen. Most of the residues in the four paths are also present in VAO’s closest relatives, eugenol oxidase and &lt;i&gt;p&lt;/i&gt;-cresol methylhydroxylase. Key path residues show movements in our simulations that correspond well to conformations observed in crystal structures of these enzymes. Preservation of other path residues can be linked to the electron acceptor specificity and oligomerisation state of the three enzymes. This study is the first comprehensive overview of ligand and co-ligand migration in a member of the VAO/PCMH family, and provides a proof of concept for the use of an unbiased method to sample this process.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/Muxexz4UbOk&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-10-06T21:00:00+00:00</dc:date>
-	<dc:creator>Willem J. H. van Berkel</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005596">
-	<title>PLOS Computational Biology: New Articles: Inferring oscillatory modulation in neural spike trains</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/VhFO6g8iZto/article</link>
-	<content:encoded>&lt;p&gt;by Kensuke Arai, Robert E. Kass&lt;/p&gt;
-
-Oscillations are observed at various frequency bands in continuous-valued neural recordings like the electroencephalogram (EEG) and local field potential (LFP) in bulk brain matter, and analysis of spike-field coherence reveals that spiking of single neurons often occurs at certain phases of the global oscillation. Oscillatory modulation has been examined in relation to continuous-valued oscillatory signals, and independently from the spike train alone, but behavior or stimulus triggered firing-rate modulation, spiking sparseness, presence of slow modulation not locked to stimuli and irregular oscillations with large variability in oscillatory periods, present challenges to searching for temporal structures present in the spike train. In order to study oscillatory modulation in real data collected under a variety of experimental conditions, we describe a flexible point-process framework we call the Latent Oscillatory Spike Train (LOST) model to decompose the instantaneous firing rate in biologically and behaviorally relevant factors: spiking refractoriness, event-locked firing rate non-stationarity, and trial-to-trial variability accounted for by baseline offset and a stochastic oscillatory modulation. We also extend the LOST model to accommodate changes in the modulatory structure over the duration of the experiment, and thereby discover trial-to-trial variability in the spike-field coherence of a rat primary motor cortical neuron to the LFP theta rhythm. Because LOST incorporates a latent stochastic auto-regressive term, LOST is able to detect oscillations when the firing rate is low, the modulation is weak, and when the modulating oscillation has a broad spectral peak.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/VhFO6g8iZto&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-10-06T21:00:00+00:00</dc:date>
-	<dc:creator>Robert E. Kass</dc:creator>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnins.2017.00555">
 	<title>Frontiers in Neuroscience | Neural Technology section | New and Recent Articles: How Wearable Sensors Can Support Parkinson's Disease Diagnosis and Treatment: A Systematic Review</title>
