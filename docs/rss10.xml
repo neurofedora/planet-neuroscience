@@ -16,6 +16,8 @@
 	<items>
 		<rdf:Seq>
 			<rdf:li rdf:resource="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30190-X?rss=yes" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005785" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005687" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fncom.2017.00099" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnagi.2017.00339" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsys.2017.00081" />
@@ -26,6 +28,11 @@
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fncel.2017.00331" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnagi.2017.00332" />
 			<rdf:li rdf:resource="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-017-0394-8" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/210195v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/209726v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/209635v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/209619v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/209452v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/209148v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005797" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005759" />
@@ -168,11 +175,6 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1710.07659" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1701.04905" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/208355v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/208322v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/208223v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/208033v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/207407v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/190298v1?rss=1" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25085" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25086" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005816" />
@@ -222,8 +224,6 @@
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005795" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005755" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005749" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005746" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005642" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnhum.2017.00508" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnint.2017.00029" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1710.06487" />
@@ -424,6 +424,25 @@
 	<link>http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30190-X?rss=yes</link>
 	<dc:date>2017-11-01T00:00:00+00:00</dc:date>
 </item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005785">
+	<title>PLOS Computational Biology: New Articles: The influence of astrocytes on the width of orientation hypercolumns in visual cortex: A computational perspective</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/Qa6CliFsDxQ/article</link>
+	<content:encoded>&lt;p&gt;by Ryan T. Philips, Mriganka Sur, V. Srinivasa Chakravarthy&lt;/p&gt;
+
+Orientation preference maps (OPMs) are present in carnivores (such as cats and ferrets) and primates but are absent in rodents. In this study we investigate the possible link between astrocyte arbors and presence of OPMs. We simulate the development of orientation maps with varying hypercolumn widths using a variant of the Laterally Interconnected Synergetically Self-Organizing Map (LISSOM) model, the Gain Control Adaptive Laterally connected (GCAL) model, with an additional layer simulating astrocytic activation. The synaptic activity of V1 neurons is given as input to the astrocyte layer. The activity of this astrocyte layer is now used to modulate bidirectional plasticity of lateral excitatory connections in the V1 layer. By simply varying the radius of the astrocytes, the extent of lateral excitatory neuronal connections can be manipulated. An increase in the radius of lateral excitatory connections subsequently increases the size of a single hypercolumn in the OPM. When these lateral excitatory connections become small enough the OPM disappears and a salt-and-pepper organization emerges.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/Qa6CliFsDxQ&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-10-27T21:00:00+00:00</dc:date>
+	<dc:creator>V. Srinivasa Chakravarthy</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005687">
+	<title>PLOS Computational Biology: New Articles: Point process analysis of noise in early invertebrate vision</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/ArMoUPqphhA/article</link>
+	<content:encoded>&lt;p&gt;by Kris V. Parag, Glenn Vinnicombe&lt;/p&gt;
+
+Noise is a prevalent and sometimes even dominant aspect of many biological processes. While many natural systems have adapted to attenuate or even usefully integrate noise, the variability it introduces often still delimits the achievable precision across biological functions. This is particularly so for visual phototransduction, the process responsible for converting photons of light into usable electrical signals (quantum bumps). Here, randomness of both the photon inputs (regarded as extrinsic noise) and the conversion process (intrinsic noise) are seen as two distinct, independent and significant limitations on visual reliability. Past research has attempted to quantify the relative effects of these noise sources by using approximate methods that do not fully account for the discrete, point process and time ordered nature of the problem. As a result the conclusions drawn from these different approaches have led to inconsistent expositions of phototransduction noise performance.
+This paper provides a fresh and complete analysis of the relative impact of intrinsic and extrinsic noise in invertebrate phototransduction using minimum mean squared error reconstruction techniques based on Bayesian point process (Snyder) filters. An integrate-fire based algorithm is developed to reliably estimate photon times from quantum bumps and Snyder filters are then used to causally estimate random light intensities both at the front and back end of the phototransduction cascade. Comparison of these estimates reveals that the dominant noise source transitions from extrinsic to intrinsic as light intensity increases. By extending the filtering techniques to account for delays, it is further found that among the intrinsic noise components, which include bump latency (mean delay and jitter) and shape (amplitude and width) variance, it is the mean delay that is critical to noise performance. As the timeliness of visual information is important for real-time action, this delay could potentially limit the speed at which invertebrates can respond to stimuli. Consequently, if one wants to increase visual fidelity, reducing the photoconversion lag is much more important than improving the regularity of the electrical signal.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/ArMoUPqphhA&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-10-27T21:00:00+00:00</dc:date>
+	<dc:creator>Glenn Vinnicombe</dc:creator>
+</item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fncom.2017.00099">
 	<title>Frontiers in Computational Neuroscience | New and Recent Articles: A Sensitivity Analysis of an Inverted Pendulum Balance Control Model</title>
 	<link>https://www.frontiersin.org/articles/10.3389/fncom.2017.00099</link>
@@ -484,6 +503,41 @@
 	<content:encoded>Alzheimer’s disease (AD) is the most prevalent form of dementia and represents one of the highest unmet requirements in medicine today. There is shortage of novel molecules entering into market because of poor...</content:encoded>
 	<dc:date>2017-10-27T00:00:00+00:00</dc:date>
 	<dc:creator>Shivani Kumar, Suman Chowdhury and Suresh Kumar</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/210195v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: The relationship between spatial configuration and functional connectivity of brain regions</title>
+	<link>http://biorxiv.org/cgi/content/short/210195v1?rss=1</link>
+	<content:encoded>Brain connectivity is often considered in terms of the communication between functionally distinct brain regions. Many studies have investigated the extent to which patterns of coupling strength between multiple neural populations relates to behavior. For example, studies have used &quot;functional connectivity fingerprints&quot; to characterise individuals' brain activity. Here, we investigate the extent to which the exact spatial arrangement of cortical regions interacts with measures of brain connectivity. We find that the shape and exact location of brain regions interact strongly with the modelling of brain connectivity, and present evidence that the spatial arrangement of functional regions is strongly predictive of non-imaging measures of behaviour and lifestyle. We believe that, in many cases, cross-subject variations in the spatial configuration of functional brain regions are being interpreted as changes in functional connectivity. Therefore, a better understanding of these effects is important when interpreting the relationship between functional imaging data and cognitive traits.</content:encoded>
+	<dc:date>2017-10-27T00:00:00+00:00</dc:date>
+	<dc:creator>Bijsterbosch, J. D.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/209726v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Multi-modal brain fingerprinting: a manifold approximation based framework</title>
+	<link>http://biorxiv.org/cgi/content/short/209726v1?rss=1</link>
+	<content:encoded>In this work, we propose a simple and computationally efficient framework for multi-modal brain fingerprinting analysis from large datasets. The key idea is to represent each image as a bag of local features, and obtain a subject proximity graph using feature matches (over the set of all the images). This subject proximity graph, which is an approximation of the image appearance manifold, can be used to obtain a compact fingerprint representation using concepts of manifold embedding, and also allows out of sample extensions. The proposed framework can work with any local feature descriptors and is used to compare and contrast MRI modalities and their combination for the task of identification of genetically related subjects. Experiments using the T1/T2-weighted MRI and diffusion MRI data of 1010 Human Connectome Project subjects demonstrate strong links between the proposed manifold approximation and genetic proximity, with a multi-modal brain fingerprint being more discriminative than individual modalities. Single/multi-modal fingerprints for Mono-zygotic twins are found to be more similar than dizygotic or non-twin siblings in a rank retrieval analysis. This is also observed in terms of the number of feature matches between twin/sibling pairs, in major brain structures across both hemispheres. The robustness of the proposed framework for image alignment and scan resolution, with high reproducibility using retest scans, suggests the promising future application of multi-modal brain fingerprinting for characterization of individuals in large cohort analysis.</content:encoded>
+	<dc:date>2017-10-27T00:00:00+00:00</dc:date>
+	<dc:creator>Kumar, K.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/209635v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Heritability of hierarchical structural brain network</title>
+	<link>http://biorxiv.org/cgi/content/short/209635v1?rss=1</link>
+	<content:encoded>We present a new structural brain network parcellation scheme that can subdivide existing parcellations into smaller subregions in a hierarchically nested fashion. The hierarchical parcellation was used to build multilayer convolutional structural brain networks that preserve topology across different network scales. As an application, we applied the method to diffusion weighted imaging study of 111 twin pairs. The genetic contribution of the whole brain structural connectivity was determined. We showed that the overall heritability is consistent across different network scales.</content:encoded>
+	<dc:date>2017-10-27T00:00:00+00:00</dc:date>
+	<dc:creator>Chung, M.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/209619v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Beyond Bilingualism: multilingual experience correlates with caudate volume</title>
+	<link>http://biorxiv.org/cgi/content/short/209619v1?rss=1</link>
+	<content:encoded>The multilingual brain must implement mechanisms that serve to select the appropriate language as a function of the communicative environment. Engaging these mechanisms on a regular basis appears to have consequences for brain structure and function. A number of reports have implicated the caudate nuclei as important nodes in polyglot language control processes, while others have shown the caudate nuclei to be structurally altered in bilingual populations compared to monolingual populations. However, the majority of published work focuses on the categorical differences between monolingual and bilingual individuals, and little is known about whether these findings extend to multilingual individuals who have even greater language control demands. In the present paper we present an analysis of the volume and morphology of the caudate nuclei in a group of 75 multilingual individuals speaking three or more languages. Volumetric analyses reveal a significant relationship between multilingual experience and right caudate volume, as well as a marginally-significant relationship with left caudate volume. Vertexwise analysis revealed a significant enlargement of dorsal and anterior portions of the left caudate nucleus with connectivity to executive and to executive brain regions, as a function of multilingual expertise. These results suggest that multilingual expertise might exercise a continuous impact on the brain, and that as additional languages beyond a second are acquired, the additional demands for control result in modifications to brain structures associated with language management processes.</content:encoded>
+	<dc:date>2017-10-27T00:00:00+00:00</dc:date>
+	<dc:creator>Hervais-Adelman, A.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/209452v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: The Spectral Fingerprint of Sleep Problems in Post-Traumatic Stress Disorder</title>
+	<link>http://biorxiv.org/cgi/content/short/209452v1?rss=1</link>
+	<content:encoded>BACKGROUND: Sleep problems are a core feature of post-traumatic stress disorder (PTSD). However, a robust objective measure for the sleep disturbance in patients has yet to be found. METHODS: The current study assessed EEG power across a wide frequency range and multiple scalp locations, in matched trauma-exposed individuals with and without PTSD, during rapid eye movement (REM) and non-REM (NREM) sleep. In addition, a full polysomnographical evaluation was performed, including sleep staging and assessment of respiratory function, limb movements and heart rate. The occurrence of sleep disorders was also assessed. RESULTS: In PTSD patients, NREM sleep shows a substantial loss of slow oscillation power and increased higher frequency activity compared to controls. The change is most pronounced in right-frontal brain areas and correlates with insomnia. PTSD REM sleep shows a large power shift in the opposite direction, with increased slow oscillation power in occipital areas, which is strongly related to nightmare activity and to lesser extent with insomnia. These pronounced spectral changes occur in the context of severe subjective sleep problems, increased occurrence of various sleep disorders and modest changes in sleep macrostructure. CONCLUSIONS: This is the first study to show pronounced changes in EEG spectral topologies during both NREM and REM sleep in PTSD. Importantly, the observed power changes reflect the hallmarks of PTSD sleep problems: insomnia and nightmares and may thus be specific for PTSD. A spectral index derived from these data distinguishes patients from controls with high effect size, bearing promise as a candidate biomarker.</content:encoded>
+	<dc:date>2017-10-27T00:00:00+00:00</dc:date>
+	<dc:creator>de Boer, M.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/209148v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Sensory Detection of Aversive and Appetitive Stimuli by CRF neurons</title>
@@ -1673,41 +1727,6 @@ basis than often assumed.
 	<dc:date>2017-10-24T00:00:00+00:00</dc:date>
 	<dc:creator>Sugino, K.</dc:creator>
 </item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/208322v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Objective but not subjective fatigue increases cognitive task avoidance</title>
-	<link>http://biorxiv.org/cgi/content/short/208322v1?rss=1</link>
-	<content:encoded>Mentally demanding tasks feel effortful and are usually avoided. Furthermore, prolonged cognitive engagement leads to mental fatigue, consisting of subjective feeling of exhaustion and decline in performance. Despite the intuitive characterization of fatigue as an increase in subjective effort perception, the effect of fatigue on effort cost has never been tested experimentally. To this end, sixty participants in 2 separate experiments underwent a forced- choice working memory task following either a fatigue-inducing (i.e. Stroop task) or a control manipulation. We measured subjective fatigue and effort as well as their objective behavioral signatures: performance decline and task avoidance, respectively. We found that fatigue- induced performance decline was correlated with task avoidance, while the feelings of fatigue and effort were unrelated to each other. Our findings highlight the discrepancy between subjective and objective manifestations of fatigue and effort, and provide valuable evidence feeding the ongoing theoretical debate on the nature of these constructs.</content:encoded>
-	<dc:date>2017-10-24T00:00:00+00:00</dc:date>
-	<dc:creator>Benoit, C.-E.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/208223v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Synaptic and transcriptionally downregulated genes are associated with cortical thickness differences in autism</title>
-	<link>http://biorxiv.org/cgi/content/short/208223v1?rss=1</link>
-	<content:encoded>Differences in cortical morphology - in particular, cortical volume, thickness and surface area - have been reported in individuals with autism. However, it is unclear what aspects of genetic and transcriptomic variation are associated with these differences. Here we investigate the genetic correlates of global cortical thickness differences ({Delta}CT) in children with autism. We used Partial Least Squares Regression (PLSR) on structural MRI data from 548 children (166 with autism, 295 neurotypical children and 87 children with ADHD) and cortical gene expression data from the Allen Institute for Brain Science to identify genetic correlates of {Delta}CT in autism. We identify that these genes are enriched for synaptic transmission pathways and explain significant variation in {Delta}CT. These genes are also significantly enriched for genes dysregulated in the autism post-mortem cortex (Odd Ratio (OR) = 1.11, Pcorrected &amp;lt; 10-14), driven entirely by downregulated genes (OR = 1.87, Pcorrected &amp;lt; 10-15). We validated the enrichment for downregulated genes in two independent datasets: Validation 1 (OR = 1.44, Pcorrected = 0.004) and Validation 2 (OR = 1.30; Pcorrected = 0.001). We conclude that transcriptionally downregulated genes implicated in autism are robustly associated with global changes in cortical thickness variability in children with autism.</content:encoded>
-	<dc:date>2017-10-24T00:00:00+00:00</dc:date>
-	<dc:creator>Romero-Garcia, R.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/208033v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Image segmentation based on relative motion and relative disparity cues in topographically organized areas of human visual cortex</title>
-	<link>http://biorxiv.org/cgi/content/short/208033v1?rss=1</link>
-	<content:encoded>The borders between objects and their backgrounds create discontinuities in image feature maps that can be used to recover object shape. Here we used functional magnetic resonance imaging (fMRI) to study the sensitivity of visual cortex to two of the most important image segmentation cues: relative motion and relative disparity. Relative motion and disparity cues were isolated using random-dot kinematograms and stereograms, respectively. For motion-defined boundaries, we found a strong retinotopically organized representation of a 2-degree radius motion-defined disk, starting in V1 and extending though V2 and V3. In the surrounding region, we observed phase-inverted activations indicative of suppression, extending out to at least 6 degrees of retinal eccentricity. For relative disparity, figure responses were only robust in V3, while suppression was observed in all early visual areas. When attention was captured at fixation, figure responses persisted while suppression did not, suggesting that suppression is generated by attentional feedback from higher-order visual areas. Outside of the early visual areas, several areas were sensitive to both types of cues, most notably hV4, LO1 and V3B, making them additional candidate areas for motion- and disparity-cue combination. The overall pattern of extra-striate activations is consistent with recent three-stream models of cortical organization.</content:encoded>
-	<dc:date>2017-10-24T00:00:00+00:00</dc:date>
-	<dc:creator>Kohler, P. J.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/207407v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Cerebral blood flow predicts differential neurotransmitter activity</title>
-	<link>http://biorxiv.org/cgi/content/short/207407v1?rss=1</link>
-	<content:encoded>Application of metabolic magnetic resonance imaging measures such as cerebral blood flow in translational medicine is limited by the unknown link of observed alterations to specific neurophysiological processes. Here we address this question by probing cerebral blood flow in healthy volunteers using seven established drugs with known dopaminergic, serotonergic, glutamatergic and GABAergic mechanisms of action in a novel framework aimed at disentangling the observed effects to underlying neurotransmitter systems. We find for all evaluated compounds a reliable spatial link of respective cerebral blood flow changes with underlying activity and/or neurotransmitter receptor densities corresponding to their primary mechanisms of action. The strength of these associations with receptor density is mediated by respective drug affinities. These findings validate cerebral blood flow as a sensitive brain-wide in-vivo assay of metabolic demands across a variety of neurotransmitter systems in humans, with widespread implications for translational medicine and drug discovery alike.</content:encoded>
-	<dc:date>2017-10-24T00:00:00+00:00</dc:date>
-	<dc:creator>Dukart, J.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/190298v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Precise excitation-inhibition balance controls gain and timing in hippocampus</title>
-	<link>http://biorxiv.org/cgi/content/short/190298v1?rss=1</link>
-	<content:encoded>Balanced excitation and inhibition contributes to clamping excitability, sparse coding, and dynamic range expansion in many brain circuits. However, it is unknown if the balancing mechanism operates at the level of networks, ensembles or individual projections. We optogenetically stimulated hippocampal CA3 neurons in hundreds of different combinations, and monitored CA1 neuron responses in mouse brain slices. We observed that all input combinations from CA3, from tens of synapses to the order of single synapses, elicited excitation followed by tightly proportional inhibition. CA1 neurons summed these complementary inputs and exhibited gain control in the form of subthreshold divisive normalization (SDN). Biophysically, SDN emerged because inhibitory onset advanced toward excitatory onset with increasing input strength. This led to saturating peak amplitude and faster peak time, resulting in shared input information coding between the two. Our results suggest that SDN may be a general gain and timing control mechanism in balanced feedforward networks.</content:encoded>
-	<dc:date>2017-10-24T00:00:00+00:00</dc:date>
-	<dc:creator>Bhatia, A.</dc:creator>
-</item>
 <item rdf:about="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25085">
 	<title>Annals of Neurology: Microglial dysfunction as a key pathologic change in adrenomyeloneuropathy</title>
 	<link>http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25085</link>
@@ -2109,22 +2128,6 @@ In a 2016 survey of 704 National Science Foundation (NSF) Biological Sciences Di
 Influenza pandemics can emerge unexpectedly and wreak global devastation. However, each of the six pandemics since 1889 emerged in the Northern Hemisphere just after the flu season, suggesting that pandemic timing may be predictable. Using a stochastic model fit to seasonal flu surveillance data from the United States, we find that seasonal flu leaves a transient wake of heterosubtypic immunity that impedes the emergence of novel flu viruses. This refractory period provides a simple explanation for not only the spring-summer timing of historical pandemics, but also early increases in pandemic severity and multiple waves of transmission. Thus, pandemic risk may be seasonal and predictable, with the accuracy of pre-pandemic and real-time risk assessments hinging on reliable seasonal influenza surveillance and precise estimates of the breadth and duration of heterosubtypic immunity.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/zp16YclDt28&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-10-19T21:00:00+00:00</dc:date>
 	<dc:creator>Lauren Ancel Meyers</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005746">
-	<title>PLOS Computational Biology: New Articles: A deep convolutional neural network for classification of red blood cells in sickle cell anemia</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/-4Z6i6XGCGU/article</link>
-	<content:encoded>&lt;p&gt;by Mengjia Xu, Dimitrios P. Papageorgiou, Sabia Z. Abidi, Ming Dao, Hong Zhao, George Em Karniadakis&lt;/p&gt;
-
-Sickle cell disease (SCD) is a hematological disorder leading to blood vessel occlusion accompanied by painful episodes and even death. Red blood cells (RBCs) of SCD patients have diverse shapes that reveal important biomechanical and bio-rheological characteristics, &lt;i&gt;e.g.&lt;/i&gt; their density, fragility, adhesive properties, etc. Hence, having an objective and effective way of RBC shape quantification and classification will lead to better insights and eventual better prognosis of the disease. To this end, we have developed an automated, high-throughput, ex-vivo RBC shape classification framework that consists of three stages. First, we present an automatic hierarchical RBC extraction method to detect the RBC region (ROI) from the background, and then separate touching RBCs in the ROI images by applying an improved random walk method based on automatic seed generation. Second, we apply a mask-based RBC patch-size normalization method to normalize the variant size of segmented single RBC patches into uniform size. Third, we employ deep convolutional neural networks (CNNs) to realize RBC classification; the alternating convolution and pooling operations can deal with non-linear and complex patterns. Furthermore, we investigate the specific shape factor quantification for the classified RBC image data in order to develop a general multiscale shape analysis. We perform several experiments on raw microscopy image datasets from 8 SCD patients (over 7,000 single RBC images) through a 5-fold cross validation method both for oxygenated and deoxygenated RBCs. We demonstrate that the proposed framework can successfully classify sickle shape RBCs in an automated manner with high accuracy, and we also provide the corresponding shape factor analysis, which can be used synergistically with the CNN analysis for more robust predictions. Moreover, the trained deep CNN exhibits good performance even for a deoxygenated dataset and distinguishes the subtle differences in texture alteration inside the oxygenated and deoxygenated RBCs.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/-4Z6i6XGCGU&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-10-19T21:00:00+00:00</dc:date>
-	<dc:creator>George Em Karniadakis</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005642">
-	<title>PLOS Computational Biology: New Articles: Learning infectious disease epidemiology in a modern framework</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/Pc5FvSRxqYk/article</link>
-	<content:encoded>&lt;p&gt;by Andreas Handel&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/Pc5FvSRxqYk&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-10-19T21:00:00+00:00</dc:date>
-	<dc:creator>Andreas Handel</dc:creator>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnhum.2017.00508">
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Hyperbaric Oxygen Therapy Can Induce Angiogenesis and Regeneration of Nerve Fibers in Traumatic Brain Injury Patients</title>
