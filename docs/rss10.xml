@@ -16,6 +16,7 @@
 	<items>
 		<rdf:Seq>
 			<rdf:li rdf:resource="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30190-X?rss=yes" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/209429v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005785" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005687" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fncom.2017.00099" />
@@ -119,7 +120,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/208678v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/208637v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/208587v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/208538v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005821" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005817" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005812" />
@@ -423,6 +423,13 @@
 	<title>Trends in Neurosciences: Editorial Board and Contents</title>
 	<link>http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30190-X?rss=yes</link>
 	<dc:date>2017-11-01T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/209429v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Applications of community detection techniques to brain graphs: Algorithmic considerations and implications for neural function</title>
+	<link>http://biorxiv.org/cgi/content/short/209429v1?rss=1</link>
+	<content:encoded>The human brain can be represented as a graph in which neural units such as cells or small volumes of tissue are heterogeneously connected to one another through structural or functional links. Brain graphs are parsimonious representations of neural systems that have begun to offer fundamental insights into healthy human cognition, as well as its alteration in disease. A critical open question in network neuroscience lies in how neural units cluster into densely interconnected groups that can provide the coordinated activity that is characteristic of perception, action, and adaptive behaviors. Tools that have proven particularly useful for addressing this question are community detection approaches, which can be used to identify communities or modules in brain graphs: groups of neural units that are densely interconnected with other units in their own group but sparsely interconnected with units in other groups. In this paper, we describe a common community detection algorithm known as modularity maximization, and we detail its applications to brain graphs constructed from neuroimaging data. We pay particular attention to important algorithmic considerations, especially in recent extensions of these techniques to graphs that evolve in time. After recounting a few fundamental insights that these techniques have provided into brain function, we highlight potential avenues of methodological advancements for future studies seeking to better characterize the patterns of coordinated activity in the brain that accompany human behavior. This tutorial provides a naive reader with an introduction to theoretical considerations pertinent to the generation of brain graphs, an understanding of modularity maximization for community detection, a resource of statistical measures that can be used to characterize community structure, and an appreciation of the utility of these approaches in uncovering behaviorally-relevant network dynamics in neuroimaging data.</content:encoded>
+	<dc:date>2017-10-28T00:00:00+00:00</dc:date>
+	<dc:creator>Garcia, J. O.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005785">
 	<title>PLOS Computational Biology: New Articles: The influence of astrocytes on the width of orientation hypercolumns in visual cortex: A computational perspective</title>
@@ -1233,13 +1240,6 @@ Pentameric ligand-gated ion channels (pLGICs) mediate intercellular communicatio
 	<content:encoded>Background: Viral encephalitis is a dangerous compromise between the need to robustly clear pathogen from the brain and the need to protect neurons from bystander injury. Theiler's murine encephalomyelitis virus (TMEV) infection of C57Bl/6 mice is a model of viral encephalitis in which the compromise results in hippocampal damage and permanent neurological sequelae. We previously identified brain infiltrating inflammatory monocytes as the primary driver of this hippocampal pathology, but the mechanisms involved in recruiting these cells to the brain were unclear. Methods: Chemokine expression levels in the hippocampus were assessed by microarray, ELISA, RT-PCR, and immunofluorescence. Monocyte infiltration during acute TMEV infection was measured by flow cytometry. CCL2 levels were manipulated by immunodepletion and by specific removal from neurons in mice generated by crossing a line expressing the Cre recombinase behind the synapsin promoter to animals with floxed CCL2. Results: Inoculation of the brain with TMEV induced hippocampal production of the proinflammatory chemokine CCL2 that peaked at 6 hours postinfection, whereas inoculation with UV-inactivated TMEV did not elicit this response. Immunofluorescence revealed that hippocampal neurons expressed high levels of CCL2 at this timepoint. Genetic deletion of CCR2 and systemic immunodepletion of CCL2 abrogated or blunted the infiltration of inflammatory monocytes into the brain during acute infection. Specific genetic deletion of CCL2 from neurons reduced serum and hippocampal CCL2 levels and inhibited inflammatory monocyte infiltration into the brain. Conclusions: We conclude that intracranial inoculation with infectious TMEV rapidly induces the expression of CCL2 in neurons, and this cellular source is necessary for CCR2-dependent infiltration of inflammatory monocytes into the brain during the most acute stage of encephalitis. These findings highlight a unique role for neuronal production of chemokines in the initiation of leukocytic infiltration into the infected central nervous system.</content:encoded>
 	<dc:date>2017-10-25T00:00:00+00:00</dc:date>
 	<dc:creator>Howe, C. L.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/208538v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Invariances in a combinatorial olfactory receptor code</title>
-	<link>http://biorxiv.org/cgi/content/short/208538v1?rss=1</link>
-	<content:encoded>Animals can identify an odorant type across a wide range of concentrations, as well as detect changes in concentration for individual odorant type. How olfactory representations are structured to support these functions remains poorly understood. Here, we studied how a full complement of ORNs in the Drosophila larva encodes a broad input space of odorant types and concentrations. We find that dose-response relationships across odorants and ORN types follow the Hill function with shared cooperativity but different activation thresholds. These activation thresholds are drawn from a power law statistical distribution. A fixed activation function and power law distribution of activation thresholds underlie invariances in the encoding of odorant identity and intensity. Moreover, we find similar temporal response filters of ORNs across odorant types and concentrations. Such uniformity in the temporal filter may allow identity invariant coding in fluctuating or turbulent odor environments. Common patterns in ligand-receptor binding and sensory transduction across olfactory receptors may give rise to these observed invariances in the olfactory combinatorial code. Invariant patterns in the activity responses of individual ORNs and the ORN ensemble may simplify decoding by downstream circuits.</content:encoded>
-	<dc:date>2017-10-25T00:00:00+00:00</dc:date>
-	<dc:creator>Si, G.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005821">
 	<title>PLOS Computational Biology: New Articles: Neural field model to reconcile structure with function in primary visual cortex</title>
