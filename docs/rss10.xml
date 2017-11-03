@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005796" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnhum.2017.00513" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2017.00362" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2017.00359" />
@@ -42,6 +43,9 @@
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(17)30978-9?rss=yes" />
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(17)30977-7?rss=yes" />
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(17)30976-5?rss=yes" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/213355v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/213272v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/213249v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/213157v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/213132v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/213108v1?rss=1" />
@@ -117,9 +121,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/212449v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/212340v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/212324v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/212241v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/212217v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/212076v1?rss=1" />
 			<rdf:li rdf:resource="http://www.pnas.org/content/114/44/E9428.short?rss=1" />
 			<rdf:li rdf:resource="http://www.pnas.org/content/114/44/E9427.short?rss=1" />
 			<rdf:li rdf:resource="http://www.pnas.org/content/114/44/E9425.short?rss=1" />
@@ -302,7 +303,6 @@
 			<rdf:li rdf:resource="http://www.sciencedirect.com/science/article/pii/S0959438817301137" />
 			<rdf:li rdf:resource="http://www.sciencedirect.com/science/article/pii/S0959438817300971" />
 			<rdf:li rdf:resource="http://www.sciencedirect.com/science/article/pii/S0959438817300983" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005810" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnint.2017.00029" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2017.00581" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2017.00579" />
@@ -419,6 +419,15 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005796">
+	<title>PLOS Computational Biology: New Articles: A Rescorla-Wagner drift-diffusion model of conditioning and timing</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/jNQVNxYySUM/article</link>
+	<content:encoded>&lt;p&gt;by André Luzardo, Eduardo Alonso, Esther Mondragón&lt;/p&gt;
+
+Computational models of classical conditioning have made significant contributions to the theoretic understanding of associative learning, yet they still struggle when the temporal aspects of conditioning are taken into account. Interval timing models have contributed a rich variety of time representations and provided accurate predictions for the timing of responses, but they usually have little to say about associative learning. In this article we present a unified model of conditioning and timing that is based on the influential Rescorla-Wagner conditioning model and the more recently developed Timing Drift-Diffusion model. We test the model by simulating 10 experimental phenomena and show that it can provide an adequate account for 8, and a partial account for the other 2. We argue that the model can account for more phenomena in the chosen set than these other similar in scope models: CSC-TD, MS-TD, Learning to Time and Modular Theory. A comparison and analysis of the mechanisms in these models is provided, with a focus on the types of time representation and associative learning rule used.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/jNQVNxYySUM&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-11-02T21:00:00+00:00</dc:date>
+	<dc:creator>Esther Mondragón</dc:creator>
+</item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnhum.2017.00513">
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: The Functional Architecture of the Brain Underlies Strategic Deception in Impression Management</title>
 	<link>https://www.frontiersin.org/articles/10.3389/fnhum.2017.00513</link>
@@ -621,6 +630,27 @@ pathways for novel scenarios.
 	<content:encoded>Extrinsic inhibitors contribute to remyelination failure in neurological diseases. Petersen et al. identify the blood coagulation factor fibrinogen as an activator of BMP receptor signaling in oligodendrocyte progenitor cells that may be targeted therapeutically to promote remyelination.</content:encoded>
 	<dc:date>2017-11-02T00:00:00+00:00</dc:date>
 	<dc:creator>Mark A. Petersen, Jae Kyu Ryu, Kae-Jiun Chang, Ainhoa Etxeberria, Sophia Bardehle, Andrew S. Mendiola, Wanjiru Kamau-Devers, Stephen P.J. Fancy, Andrea Thor, Eric A. Bushong, Bernat Baeza-Raja, Catriona A. Syme, Michael D. Wu, Pamela E. Rios Coronado, Anke Meyer-Franke, Stephanie Yahn, Lauriane Pous, Jae K. Lee, Christian Schachtrup, Hans Lassmann, Eric J. Huang, May H. Han, Martina Absinta, Daniel S. Reich, Mark H. Ellisman, David H. Rowitch, Jonah R. Chan, Katerina Akassoglou</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/213355v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Evidence that loss of consciousness under anesthesia is not associated with impaired stimulus representation in auditory cortex</title>
+	<link>http://biorxiv.org/cgi/content/short/213355v1?rss=1</link>
+	<content:encoded>The mechanism whereby anesthetics cause loss of consciousness (LOC) is poorly understood. Current theories suggest that impaired representation of information in cortico-thalamic networks contributes to LOC under anesthesia. We sought to determine whether such changes are present in auditory cortex using information theoretic analysis of multiunit responses in rats. We tested the effects of three agents with different molecular targets: isoflurane, which acts at multiple pre- and postsynaptic loci, propofol, which acts primarily on GABAA receptors, and dexmedetomidine, an 2 adrenergic agonist. We reasoned that changes in the representation of sensory stimuli causative for LOC would be present regardless of the molecular target of the anesthetic. All three agents caused LOC, as assayed by the loss of righting reflex (LORR). We presented acoustic stimuli that varied across a wide range of temporal and spectral dynamics under control, sub-hypnotic (i.e. dose too low to cause LORR), just-hypnotic (a dose just sufficient to cause LORR) and recovery conditions. Changes in mutual information (MI) between the stimulus and spike responses under anesthesia diverged in two ways from predictions of a model in which stimulus representation is impaired upon LOC. First, the sign of changes in MI was agent-specific: MI increased under dexmedetomidine, while it decreased under isoflurane and propofol. Second, there was no consistent change in MI when transitioning from sub-hypnotic to just-hypnotic doses: for none of the agents did MI decrease at the higher dose, and in some cases MI actually increased relative to the sub-hypnotic dose. Changes in MI under anesthesia were strongly correlated with changes in precision and reliability of spike timing, consistent with the importance of temporal stimulus features in driving auditory cortical activity. These data indicate that primary sensory cortex is not the locus for changes in information representation causative for LOC under anesthesia.</content:encoded>
+	<dc:date>2017-11-02T00:00:00+00:00</dc:date>
+	<dc:creator>Banks, M. I.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/213272v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Global State Changes Induce Non-reciprocal Reduction of Mutual Information in the Thalamocortical Network</title>
+	<link>http://biorxiv.org/cgi/content/short/213272v1?rss=1</link>
+	<content:encoded>Understanding the neural mechanisms of loss and recovery of consciousness remains an active area of scientific and clinical interest. Recent models and theories of consciousness implicate thalamus or neocortex as the dominant regions that control global state change, but experimentally testing these theories requires parsing the response properties of the complex thalamocortical network. In this work, we explore information processing using chronic recordings of multiunit activity between thalamus and cortex by targeting either the corticothalamic or thalamocortical pathway with direct electrical stimulation under subhypnotic and just-hypnotic states of isoflurane or dexmedetomidine induced unconsciousness. We found that mutual information between the stimulus and response in the corticothalamic circuit decreases with loss of consciousness, and that the change is not reciprocated in the thalamocortical direction. These changes in mutual information were moderately correlated with changes in evoked rate, and a strong effect of isoflurane on spontaneous and evoked rate accounts for a large portion of the change in mutual information. Further, we found cortical synchrony to increase under sub- and just-hypnotic doses of dexmedetomidine and isoflurane, suggesting cortical responses become more causally dependent on thalamocortical input at reduced levels of consciousness, or unconsciousness. We believe these changes suggest loss of consciousness is associated with a decrease in the number of available cortical network states, and may suggest cognitive unbinding from ascending sensory input.</content:encoded>
+	<dc:date>2017-11-02T00:00:00+00:00</dc:date>
+	<dc:creator>Verner, R.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/213249v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Evidence that PV+ cells enhance temporal population codes but not stimulus-related timing in auditory cortex</title>
+	<link>http://biorxiv.org/cgi/content/short/213249v1?rss=1</link>
+	<content:encoded>Spatio-temporal cortical activity patterns relative to both peripheral input and local network activity carry information about stimulus identity and context. GABAergic interneurons are reported to regulate spiking at millisecond precision in response to sensory stimulation and during gamma oscillations; their role in regulating spike timing during induced network bursts is unclear. We investigated this issue in murine auditory thalamo-cortical (TC) brain slices, in which TC afferents induced network bursts similar to previous reports in vivo. Spike timing relative to TC afferent stimulation during bursts was poor in pyramidal cells and SOM+ interneurons. It was more precise in PV+ interneurons, consistent with their reported contribution to spiking precision in pyramidal cells. Optogenetic suppression of PV+ cells unexpectedly improved afferent-locked spike timing in pyramidal cells. In contrast, our evidence suggests that PV+ cells do regulate the spatio-temporal spike pattern of pyramidal cells during network bursts, whose organization is suited to ensemble coding of stimulus information. Simulations showed that suppressing PV+ cells reduces the capacity of pyramidal cell networks to produce discriminable spike patterns. By dissociating temporal precision with respect to a stimulus versus internal cortical activity, we identified a novel role for GABAergic cells in regulating information processing in cortical networks.</content:encoded>
+	<dc:date>2017-11-02T00:00:00+00:00</dc:date>
+	<dc:creator>Krause, B. M.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/213157v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Complementary metrics of human auditory nerve function derived from compound action potentials</title>
@@ -1235,27 +1265,6 @@ explaining basic concepts of static and dynamic memories.
 	<content:encoded>Combinatorial expansion by the cerebellar granule cell layer (GCL) is fundamental to theories of cerebellar contributions to motor control and learning. Granule cells sample approximately four mossy fiber inputs and are thought to form a combinatorial code useful for pattern separation and learning. We constructed a spatially realistic model of the cerebellar granule cell layer and examined how GCL architecture contributes to granule cell (GrC) combinatorial diversity. We found that GrC combinatorial diversity saturates quickly as mossy fiber input diversity increases, and that this saturation is in part a consequence of short dendrites, which limit access to diverse inputs and favor dense sampling of local inputs. This local sampling also produced GrCs that were combinatorially redundant, even when input diversity was extremely high. In addition, we found that mossy fibers clustering, which is a common anatomical pattern, also led to increased redundancy of GrC input combinations. We related this redundancy to hypothesized roles of temporal expansion of GrC information encoding in service of learned timing, and show that GCL architecture produces GrC populations that support both temporal and combinatorial expansion. Finally, we used novel anatomical measurements from mice of either sex to inform modeling of sparse and filopodia-bearing mossy fibers, finding that these circuit features uniquely contribute to enhancing GrC diversification and redundancy. Our results complement information theoretic studies of granule layer structure and provide insight into the contributions of granule layer anatomical features to afferent mixing.</content:encoded>
 	<dc:date>2017-11-01T00:00:00+00:00</dc:date>
 	<dc:creator>Gilmer, J. I.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/212241v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: A simulation and comparison of dynamic functional connectivity methods</title>
-	<link>http://biorxiv.org/cgi/content/short/212241v1?rss=1</link>
-	<content:encoded>There is a current interest in quantifying brain dynamic functional connectivity (DFC) based on neuroimaging data such as fMRI. Many methods have been proposed, and are being applied, revealing new insight into the brain's dynamics. However, given that the ground truth for DFC in the brain is unknown, many concerns remain regarding the accuracy of proposed estimates. Since there exists many DFC methods it is difficult to assess differences in dynamic brain connectivity between studies. Here, we evaluate five different methods that together represent a wide spectrum of current approaches to estimating DFC (sliding window, tapered sliding window, temporal derivative, spatial distance and jackknife correlation). In particular, we were interested in each methods' ability to track changes in covariance over time, which is a key property in DFC analysis. We found that all tested methods correlated positively with each other, but there were large differences in the strength of the correlations between methods. To facilitate comparisons with future DFC methods, we propose that the described simulations can act as benchmark tests for evaluation of methods. In this paper, we present dfcbenchmarker, which is a Python package where researchers can easily submit and compare their own DFC methods to evaluate its performance.</content:encoded>
-	<dc:date>2017-11-01T00:00:00+00:00</dc:date>
-	<dc:creator>Thompson, W. H.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/212217v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Scalable Bayesian inference for high-dimensional neural receptive fields</title>
-	<link>http://biorxiv.org/cgi/content/short/212217v1?rss=1</link>
-	<content:encoded>We examine the problem of rapidly and efficiently estimating a neuron's linear receptive field (RF) from responses to high-dimensional stimuli. This problem poses important statistical and computational challenges. Statistical challenges arise from the need for strong regularization when using correlated stimuli in high- dimensional parameter spaces, while computational challenges arise from extensive time and memory costs associated with evidence-optimization and inference in high-dimensional settings. Here we focus on novel methods for scaling up automatic smoothness determination (ASD), an empirical Bayesian method for RF estimation, to high-dimensional settings. First, we show that using a zero-padded Fourier domain representation and a 'coarse-to-fine' evidence optimization strategy gives substantial improvements in speed and memory, while maintaining exact numerical accuracy. We then introduce a suite of scalable approximate methods that exploit Kronecker and Toeplitz structure in the stimulus autocovariance, which can be related to the method of expected log-likelihoods. When applied together, these methods reduce the cost of estimating an RF with tensor order D and d coefficients per tensor dimension from O(d3D) time and O(d2D) space for standard ASD to O(Dd log d) time and O(Dd) space. We show that evidence optimization for a linear RF with 160K coefficients using 5K samples of data can be carried out on a laptop in &amp;lt; 2s.</content:encoded>
-	<dc:date>2017-11-01T00:00:00+00:00</dc:date>
-	<dc:creator>Aoi, M.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/212076v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Axons from the trigeminal ganglia are the earliest afferent projections to the mouse cerebellum</title>
-	<link>http://biorxiv.org/cgi/content/short/212076v1?rss=1</link>
-	<content:encoded>The first stage standard model for the development of afferent pathways to the cerebellum is that ingrowing axons target the embryonic Purkinje cells (E13 to E16 in mice). Perinatally and early postnatal (E18 to P15) the climbing fibers translocate to the Purkinje cell dendrites, and as the granular layer develops the mossy fibers translocate from the Purkinje cell somata and synapse with granule cell dendrites. In this report we describe a novel earlier stage in the development. Immunostaining for a neurofilament-associated antigen (NAA) reveals the early axon distributions with remarkable clarity. Axons from the trigeminal system enter the cerebellar primordium as early as embryo age (E9). By using a combination of axon tract tracing, analysis of neurogenin1 null mice, which do not develop trigeminal ganglia, and mouse embryos maintained in vitro, we show that the first axons to innervate the cerebellar primordium are direct projections from the trigeminal ganglia. The data show that the early trigeminal projections are in situ before the Purkinje cells are born, and double immunostaining for NAA and markers of the different domains in the cerebellar primordium reveal that they first target the cerebellar nuclear neurons of the nuclear transitory zone (E9 and E10), and only later (E10 and E11) extend collateral branches to the Purkinje cell plate.</content:encoded>
-	<dc:date>2017-11-01T00:00:00+00:00</dc:date>
-	<dc:creator>Marzban, H.</dc:creator>
 </item>
 <item rdf:about="http://www.pnas.org/content/114/44/E9428.short?rss=1">
 	<title>Proceedings of the National Academy of Sciences Recent Issues: Correction to Supporting Information for Abel et al., Functional network inference of the suprachiasmatic nucleus [SI Correction]</title>
@@ -2723,15 +2732,6 @@ A central goal of cognitive neuroscience is to decode human brain activity—tha
 	<title>Current Opinion in Neurobiology - Just Published: Myelin plasticity and behaviour—connecting the dots</title>
 	<link>http://www.sciencedirect.com/science/article/pii/S0959438817300983</link>
 	<dc:date>2017-10-20T05:00:09+00:00</dc:date>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005810">
-	<title>PLOS Computational Biology: New Articles: Distinct prediction errors in mesostriatal circuits of the human brain mediate learning about the values of both states and actions: evidence from high-resolution fMRI</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/U1RXkdLa_Aw/article</link>
-	<content:encoded>&lt;p&gt;by Jaron T. Colas, Wolfgang M. Pauli, Tobias Larsen, J. Michael Tyszka, John P. O’Doherty&lt;/p&gt;
-
-Prediction-error signals consistent with formal models of “reinforcement learning” (RL) have repeatedly been found within dopaminergic nuclei of the midbrain and dopaminoceptive areas of the striatum. However, the precise form of the RL algorithms implemented in the human brain is not yet well determined. Here, we created a novel paradigm optimized to dissociate the subtypes of reward-prediction errors that function as the key computational signatures of two distinct classes of RL models—namely, “actor/critic” models and action-value-learning models (e.g., the Q-learning model). The state-value-prediction error (SVPE), which is independent of actions, is a hallmark of the actor/critic architecture, whereas the action-value-prediction error (AVPE) is the distinguishing feature of action-value-learning algorithms. To test for the presence of these prediction-error signals in the brain, we scanned human participants with a high-resolution functional magnetic-resonance imaging (fMRI) protocol optimized to enable measurement of neural activity in the dopaminergic midbrain as well as the striatal areas to which it projects. In keeping with the actor/critic model, the SVPE signal was detected in the substantia nigra. The SVPE was also clearly present in both the ventral striatum and the dorsal striatum. However, alongside these purely state-value-based computations we also found evidence for AVPE signals throughout the striatum. These high-resolution fMRI findings suggest that model-free aspects of reward learning in humans can be explained algorithmically with RL in terms of an actor/critic mechanism operating in parallel with a system for more direct action-value learning.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/U1RXkdLa_Aw&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-10-19T21:00:00+00:00</dc:date>
-	<dc:creator>John P. O’Doherty</dc:creator>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnint.2017.00029">
 	<title>Frontiers in Integrative Neuroscience | New and Recent Articles: Multisensory Rehabilitation Training Improves Spatial Perception in Totally but Not Partially Visually Deprived Children</title>
