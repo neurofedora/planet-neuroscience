@@ -15,6 +15,13 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005868" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005858" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005857" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005854" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005842" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005835" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005819" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2017.00381" />
 			<rdf:li rdf:resource="http://rss.sciencedirect.com/action/redirectFile?&amp;zone=main&amp;currentActivity=feed&amp;usageType=outward&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DIRSSSEARCH%26_method%3DcitationSearch%26_piikey%3DS0959438817301101%26_version%3D1%26md5%3D852d806a2f3b50677a3b987802170fca" />
 			<rdf:li rdf:resource="http://rss.sciencedirect.com/action/redirectFile?&amp;zone=main&amp;currentActivity=feed&amp;usageType=outward&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DIRSSSEARCH%26_method%3DcitationSearch%26_piikey%3DS0959438816302641%26_version%3D1%26md5%3D7173d93fec8e9b355c6950e0a7311122" />
@@ -262,7 +269,6 @@
 			<rdf:li rdf:resource="https://www.nature.com/articles/nrn.2017.139" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/nrn.2017.137" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/nrn.2017.129" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005796" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2017.00362" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2017.00359" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fncel.2017.00334" />
@@ -318,10 +324,6 @@
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25079" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25074" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25070" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005836" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005831" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005828" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005798" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsys.2017.00080" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2017.00602" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fncom.2017.00100" />
@@ -330,8 +332,6 @@
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2017.00601" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41593-017-0004-1" />
 			<rdf:li rdf:resource="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30199-6?rss=yes" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005785" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005687" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fncom.2017.00099" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsys.2017.00081" />
 			<rdf:li rdf:resource="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-017-0394-8" />
@@ -419,6 +419,67 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005868">
+	<title>PLOS Computational Biology: New Articles: A model-based clustering method to detect infectious disease transmission outbreaks from sequence variation</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/DCiNkk7egBE/article</link>
+	<content:encoded>&lt;p&gt;by Rosemary M. McCloskey, Art F. Y. Poon&lt;/p&gt;
+
+Clustering infections by genetic similarity is a popular technique for identifying potential outbreaks of infectious disease, in part because sequences are now routinely collected for clinical management of many infections. A diverse number of nonparametric clustering methods have been developed for this purpose. These methods are generally intuitive, rapid to compute, and readily scale with large data sets. However, we have found that nonparametric clustering methods can be biased towards identifying clusters of diagnosis—where individuals are sampled sooner post-infection—rather than the clusters of rapid transmission that are meant to be potential foci for public health efforts. We develop a fundamentally new approach to genetic clustering based on fitting a Markov-modulated Poisson process (MMPP), which represents the evolution of transmission rates along the tree relating different infections. We evaluated this model-based method alongside five nonparametric clustering methods using both simulated and actual HIV sequence data sets. For simulated clusters of rapid transmission, the MMPP clustering method obtained higher mean sensitivity (85%) and specificity (91%) than the nonparametric methods. When we applied these clustering methods to published sequences from a study of HIV-1 genetic clusters in Seattle, USA, we found that the MMPP method categorized about half (46%) as many individuals to clusters compared to the other methods. Furthermore, the mean internal branch lengths that approximate transmission rates were significantly shorter in clusters extracted using MMPP, but not by other methods. We determined that the computing time for the MMPP method scaled linearly with the size of trees, requiring about 30 seconds for a tree of 1,000 tips and about 20 minutes for 50,000 tips on a single computer. This new approach to genetic clustering has significant implications for the application of pathogen sequence analysis to public health, where it is critical to robustly and accurately identify clusters for the most cost-effective deployment of outbreak management and prevention resources.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/DCiNkk7egBE&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-11-13T22:00:00+00:00</dc:date>
+	<dc:creator>Art F. Y. Poon</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005858">
+	<title>PLOS Computational Biology: New Articles: Correction: Unmet needs for analyzing biological big data: A survey of 704 NSF principal investigators</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/QBiVR_Btu9Y/article</link>
+	<content:encoded>&lt;p&gt;by The PLOS Computational Biology Staff &lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/QBiVR_Btu9Y&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-11-13T22:00:00+00:00</dc:date>
+	<dc:creator>The PLOS Computational Biology Staff</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005857">
+	<title>PLOS Computational Biology: New Articles: Automated visualization of rule-based models</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/WVjQXIOWt00/article</link>
+	<content:encoded>&lt;p&gt;by John Arul Prakash Sekar, Jose-Juan Tapia, James R. Faeder&lt;/p&gt;
+
+Frameworks such as BioNetGen, Kappa and Simmune use “reaction rules” to specify biochemical interactions compactly, where each rule specifies a mechanism such as binding or phosphorylation and its structural requirements. Current rule-based models of signaling pathways have tens to hundreds of rules, and these numbers are expected to increase as more molecule types and pathways are added. Visual representations are critical for conveying rule-based models, but current approaches to show rules and interactions between rules scale poorly with model size. Also, inferring design motifs that emerge from biochemical interactions is an open problem, so current approaches to visualize model architecture rely on manual interpretation of the model. Here, we present three new visualization tools that constitute an automated visualization framework for rule-based models: (i) a &lt;i&gt;compact rule visualization&lt;/i&gt; that efficiently displays each rule, (ii) the &lt;i&gt;atom-rule graph&lt;/i&gt; that conveys regulatory interactions in the model as a bipartite network, and (iii) a tunable &lt;i&gt;compression pipeline&lt;/i&gt; that incorporates expert knowledge and produces compact diagrams of model architecture when applied to the atom-rule graph. The compressed graphs convey network motifs and architectural features useful for understanding both small and large rule-based models, as we show by application to specific examples. Our tools also produce more readable diagrams than current approaches, as we show by comparing visualizations of 27 published models using standard graph metrics. We provide an implementation in the open source and freely available BioNetGen framework, but the underlying methods are general and can be applied to rule-based models from the Kappa and Simmune frameworks also. We expect that these tools will promote communication and analysis of rule-based models and their eventual integration into comprehensive whole-cell models.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/WVjQXIOWt00&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-11-13T22:00:00+00:00</dc:date>
+	<dc:creator>James R. Faeder</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005854">
+	<title>PLOS Computational Biology: New Articles: Predictive model identifies key network regulators of cardiomyocyte mechano-signaling</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/EWjJVc3m438/article</link>
+	<content:encoded>&lt;p&gt;by Philip M. Tan, Kyle S. Buchholz, Jeffrey H. Omens, Andrew D. McCulloch, Jeffrey J. Saucerman&lt;/p&gt;
+
+Mechanical strain is a potent stimulus for growth and remodeling in cells. Although many pathways have been implicated in stretch-induced remodeling, the control structures by which signals from distinct mechano-sensors are integrated to modulate hypertrophy and gene expression in cardiomyocytes remain unclear. Here, we constructed and validated a predictive computational model of the cardiac mechano-signaling network in order to elucidate the mechanisms underlying signal integration. The model identifies calcium, actin, Ras, Raf1, PI3K, and JAK as key regulators of cardiac mechano-signaling and characterizes crosstalk logic imparting differential control of transcription by AT1R, integrins, and calcium channels. We find that while these regulators maintain mostly independent control over distinct groups of transcription factors, synergy between multiple pathways is necessary to activate all the transcription factors necessary for gene transcription and hypertrophy. We also identify a PKG-dependent mechanism by which valsartan/sacubitril, a combination drug recently approved for treating heart failure, inhibits stretch-induced hypertrophy, and predict further efficacious pairs of drug targets in the network through a network-wide combinatorial search.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/EWjJVc3m438&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-11-13T22:00:00+00:00</dc:date>
+	<dc:creator>Jeffrey J. Saucerman</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005842">
+	<title>PLOS Computational Biology: New Articles: Electrical stimulus artifact cancellation and neural spike detection on large multi-electrode arrays</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/umiUooXyYhQ/article</link>
+	<content:encoded>&lt;p&gt;by Gonzalo E. Mena, Lauren E. Grosberg, Sasidhar Madugula, Paweł Hottowy, Alan Litke, John Cunningham, E. J. Chichilnisky, Liam Paninski&lt;/p&gt;
+
+Simultaneous electrical stimulation and recording using multi-electrode arrays can provide a valuable technique for studying circuit connectivity and engineering neural interfaces. However, interpreting these measurements is challenging because the spike sorting process (identifying and segregating action potentials arising from different neurons) is greatly complicated by electrical stimulation artifacts across the array, which can exhibit complex and nonlinear waveforms, and overlap temporarily with evoked spikes. Here we develop a scalable algorithm based on a structured Gaussian Process model to estimate the artifact and identify evoked spikes. The effectiveness of our methods is demonstrated in both real and simulated 512-electrode recordings in the peripheral primate retina with single-electrode and several types of multi-electrode stimulation. We establish small error rates in the identification of evoked spikes, with a computational complexity that is compatible with real-time data analysis. This technology may be helpful in the design of future high-resolution sensory prostheses based on tailored stimulation (e.g., retinal prostheses), and for closed-loop neural stimulation at a much larger scale than currently possible.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/umiUooXyYhQ&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-11-13T22:00:00+00:00</dc:date>
+	<dc:creator>Liam Paninski</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005835">
+	<title>PLOS Computational Biology: New Articles: Characterizing steady states of genome-scale metabolic networks in continuous cell cultures</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/JAaq3NMYju8/article</link>
+	<content:encoded>&lt;p&gt;by Jorge Fernandez-de-Cossio-Diaz, Kalet Leon, Roberto Mulet&lt;/p&gt;
+
+In the continuous mode of cell culture, a constant flow carrying fresh media replaces culture fluid, cells, nutrients and secreted metabolites. Here we present a model for continuous cell culture coupling intra-cellular metabolism to extracellular variables describing the state of the bioreactor, taking into account the growth capacity of the cell and the impact of toxic byproduct accumulation. We provide a method to determine the steady states of this system that is tractable for metabolic networks of arbitrary complexity. We demonstrate our approach in a toy model first, and then in a genome-scale metabolic network of the Chinese hamster ovary cell line, obtaining results that are in qualitative agreement with experimental observations. We derive a number of consequences from the model that are independent of parameter values. The ratio between cell density and dilution rate is an ideal control parameter to fix a steady state with desired metabolic properties. This conclusion is robust even in the presence of multi-stability, which is explained in our model by a negative feedback loop due to toxic byproduct accumulation. A complex landscape of steady states emerges from our simulations, including multiple metabolic switches, which also explain why cell-line and media benchmarks carried out in batch culture cannot be extrapolated to perfusion. On the other hand, we predict invariance laws between continuous cell cultures with different parameters. A practical consequence is that the chemostat is an ideal experimental model for large-scale high-density perfusion cultures, where the complex landscape of metabolic transitions is faithfully reproduced.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/JAaq3NMYju8&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-11-13T22:00:00+00:00</dc:date>
+	<dc:creator>Roberto Mulet</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005819">
+	<title>PLOS Computational Biology: New Articles: Improving virtual screening of G protein-coupled receptors via ligand-directed modeling</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/_oVl-6F8HtM/article</link>
+	<content:encoded>&lt;p&gt;by Thomas Coudrat, John Simms, Arthur Christopoulos, Denise Wootten, Patrick M. Sexton&lt;/p&gt;
+
+G protein-coupled receptors (GPCRs) play crucial roles in cell physiology and pathophysiology. There is increasing interest in using structural information for virtual screening (VS) of libraries and for structure-based drug design to identify novel agonist or antagonist leads. However, the sparse availability of experimentally determined GPCR/ligand complex structures with diverse ligands impedes the application of structure-based drug design (SBDD) programs directed to identifying new molecules with a select pharmacology. In this study, we apply ligand-directed modeling (LDM) to available GPCR X-ray structures to improve VS performance and selectivity towards molecules of specific pharmacological profile. The described method refines a GPCR binding pocket conformation using a single known ligand for that GPCR. The LDM method is a computationally efficient, iterative workflow consisting of protein sampling and ligand docking. We developed an extensive benchmark comparing LDM-refined binding pockets to GPCR X-ray crystal structures across seven different GPCRs bound to a range of ligands of different chemotypes and pharmacological profiles. LDM-refined models showed improvement in VS performance over origin X-ray crystal structures in 21 out of 24 cases. In all cases, the LDM-refined models had superior performance in enriching for the chemotype of the refinement ligand. This likely contributes to the LDM success in all cases of inhibitor-bound to agonist-bound binding pocket refinement, a key task for GPCR SBDD programs. Indeed, agonist ligands are required for a plethora of GPCRs for therapeutic intervention, however GPCR X-ray structures are mostly restricted to their inactive inhibitor-bound state.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/_oVl-6F8HtM&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-11-13T22:00:00+00:00</dc:date>
+	<dc:creator>Patrick M. Sexton</dc:creator>
+</item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnmol.2017.00381">
 	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Roles of Glial Cells in Sculpting Inhibitory Synapses and Neural Circuits</title>
 	<link>https://www.frontiersin.org/articles/10.3389/fnmol.2017.00381</link>
@@ -2392,15 +2453,6 @@ strategy is used.
 	<dc:date>2017-11-03T00:00:00+00:00</dc:date>
 	<dc:creator>Christophe Leterrier</dc:creator>
 </item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005796">
-	<title>PLOS Computational Biology: New Articles: A Rescorla-Wagner drift-diffusion model of conditioning and timing</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/jNQVNxYySUM/article</link>
-	<content:encoded>&lt;p&gt;by André Luzardo, Eduardo Alonso, Esther Mondragón&lt;/p&gt;
-
-Computational models of classical conditioning have made significant contributions to the theoretic understanding of associative learning, yet they still struggle when the temporal aspects of conditioning are taken into account. Interval timing models have contributed a rich variety of time representations and provided accurate predictions for the timing of responses, but they usually have little to say about associative learning. In this article we present a unified model of conditioning and timing that is based on the influential Rescorla-Wagner conditioning model and the more recently developed Timing Drift-Diffusion model. We test the model by simulating 10 experimental phenomena and show that it can provide an adequate account for 8, and a partial account for the other 2. We argue that the model can account for more phenomena in the chosen set than these other similar in scope models: CSC-TD, MS-TD, Learning to Time and Modular Theory. A comparison and analysis of the mechanisms in these models is provided, with a focus on the types of time representation and associative learning rule used.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/jNQVNxYySUM&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-11-02T21:00:00+00:00</dc:date>
-	<dc:creator>Esther Mondragón</dc:creator>
-</item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnmol.2017.00362">
 	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Commentary: α-Synuclein Interacts with Lipoproteins in Plasma</title>
 	<link>https://www.frontiersin.org/articles/10.3389/fnmol.2017.00362</link>
@@ -2768,42 +2820,6 @@ Computational models of classical conditioning have made significant contributio
 	<dc:date>2017-10-31T05:00:32+00:00</dc:date>
 	<dc:creator>Cristina Scarpazza, Luca Prosperini, Nicola De Rossi, Lucia Moiola, Maria Pia Sormani, Simonetta Gerevini, Ruggero Capra,</dc:creator>
 </item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005836">
-	<title>PLOS Computational Biology: New Articles: Maximum entropy methods for extracting the learned features of deep neural networks</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/MhCI5bHA8f8/article</link>
-	<content:encoded>&lt;p&gt;by Alex Finnegan, Jun S. Song&lt;/p&gt;
-
-New architectures of multilayer artificial neural networks and new methods for training them are rapidly revolutionizing the application of machine learning in diverse fields, including business, social science, physical sciences, and biology. Interpreting deep neural networks, however, currently remains elusive, and a critical challenge lies in understanding which meaningful features a network is actually learning. We present a general method for interpreting deep neural networks and extracting network-learned features from input data. We describe our algorithm in the context of biological sequence analysis. Our approach, based on ideas from statistical physics, samples from the maximum entropy distribution over possible sequences, anchored at an input sequence and subject to constraints implied by the empirical function learned by a network. Using our framework, we demonstrate that local transcription factor binding motifs can be identified from a network trained on ChIP-seq data and that nucleosome positioning signals are indeed learned by a network trained on chemical cleavage nucleosome maps. Imposing a further constraint on the maximum entropy distribution also allows us to probe whether a network is learning global sequence features, such as the high GC content in nucleosome-rich regions. This work thus provides valuable mathematical tools for interpreting and extracting learned features from feed-forward neural networks.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/MhCI5bHA8f8&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-10-30T21:00:00+00:00</dc:date>
-	<dc:creator>Jun S. Song</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005831">
-	<title>PLOS Computational Biology: New Articles: Concerted regulation of npc2 binding to endosomal/lysosomal membranes by bis(monoacylglycero)phosphate and sphingomyelin</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/TGPq0WeeVRQ/article</link>
-	<content:encoded>&lt;p&gt;by Giray Enkavi, Heikki Mikkolainen, Burçin Güngör, Elina Ikonen, Ilpo Vattulainen&lt;/p&gt;
-
-Niemann-Pick Protein C2 (npc2) is a small soluble protein critical for cholesterol transport within and from the lysosome and the late endosome. Intriguingly, npc2-mediated cholesterol transport has been shown to be modulated by lipids, yet the molecular mechanism of npc2-membrane interactions has remained elusive. Here, based on an extensive set of atomistic simulations and free energy calculations, we clarify the mechanism and energetics of npc2-membrane binding and characterize the roles of physiologically relevant key lipids associated with the binding process. Our results capture in atomistic detail two competitively favorable membrane binding orientations of npc2 with a low interconversion barrier. The first binding mode (&lt;i&gt;Prone&lt;/i&gt;) places the cholesterol binding pocket in direct contact with the membrane and is characterized by membrane insertion of a loop (V59-M60-G61-I62-P63-V64-P65). This mode is associated with cholesterol uptake and release. On the other hand, the second mode (&lt;i&gt;Supine&lt;/i&gt;) places the cholesterol binding pocket away from the membrane surface, but has overall higher membrane binding affinity. We determined that bis(monoacylglycero)phosphate (bmp) is specifically required for strong membrane binding in &lt;i&gt;Prone mode&lt;/i&gt;, and that it cannot be substituted by other anionic lipids. Meanwhile, sphingomyelin counteracts bmp by hindering &lt;i&gt;Prone mode&lt;/i&gt; without affecting &lt;i&gt;Supine mode&lt;/i&gt;. Our results provide concrete evidence that lipids modulate npc2-mediated cholesterol transport either by favoring or disfavoring &lt;i&gt;Prone mode&lt;/i&gt; and that they impose this by modulating the accessibility of bmp for interacting with npc2. Overall, we provide a mechanism by which npc2-mediated cholesterol transport is controlled by the membrane composition and how npc2-lipid interactions can regulate the transport rate.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/TGPq0WeeVRQ&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-10-30T21:00:00+00:00</dc:date>
-	<dc:creator>Ilpo Vattulainen</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005828">
-	<title>PLOS Computational Biology: New Articles: A method to quantify mechanobiologic forces during zebrafish cardiac development using 4-D light sheet imaging and computational modeling</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/s3JXVOr7ED4/article</link>
-	<content:encoded>&lt;p&gt;by Vijay Vedula, Juhyun Lee, Hao Xu, C.-C. Jay Kuo, Tzung K. Hsiai, Alison L. Marsden&lt;/p&gt;
-
-Blood flow and mechanical forces in the ventricle are implicated in cardiac development and trabeculation. However, the mechanisms of mechanotransduction remain elusive. This is due in part to the challenges associated with accurately quantifying mechanical forces in the developing heart. We present a novel computational framework to simulate cardiac hemodynamics in developing zebrafish embryos by coupling 4-D light sheet imaging with a stabilized finite element flow solver, and extract time-dependent mechanical stimuli data. We employ deformable image registration methods to segment the motion of the ventricle from high resolution 4-D light sheet image data. This results in a robust and efficient workflow, as segmentation need only be performed at one cardiac phase, while wall position in the other cardiac phases is found by image registration. Ventricular hemodynamics are then quantified by numerically solving the Navier-Stokes equations in the moving wall domain with our validated flow solver. We demonstrate the applicability of the workflow in wild type zebrafish and three treated fish types that disrupt trabeculation: (a) chemical treatment using AG1478, an &lt;i&gt;ErbB2&lt;/i&gt; signaling inhibitor that inhibits proliferation and differentiation of cardiac trabeculation; (b) injection of &lt;i&gt;gata1a morpholino oligomer&lt;/i&gt; (&lt;i&gt;gata1aMO&lt;/i&gt;) suppressing hematopoiesis and resulting in attenuated trabeculation; (c) &lt;i&gt;weak-atrium&lt;/i&gt;&lt;sup&gt;m58&lt;/sup&gt; mutant (&lt;i&gt;wea&lt;/i&gt;) with inhibited atrial contraction leading to a highly undeveloped ventricle and poor cardiac function. Our simulations reveal elevated wall shear stress (WSS) in wild type and AG1478 compared to &lt;i&gt;gata1aMO&lt;/i&gt; and &lt;i&gt;wea&lt;/i&gt;. High oscillatory shear index (OSI) in the grooves between trabeculae, compared to lower values on the ridges, in the wild type suggest oscillatory forces as a possible regulatory mechanism of cardiac trabeculation development. The framework has broad applicability for future cardiac developmental studies focused on quantitatively investigating the role of hemodynamic forces and mechanotransduction during morphogenesis.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/s3JXVOr7ED4&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-10-30T21:00:00+00:00</dc:date>
-	<dc:creator>Alison L. Marsden</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005798">
-	<title>PLOS Computational Biology: New Articles: A mechanistic spatio-temporal framework for modelling individual-to-individual transmission—With an application to the 2014-2015 West Africa Ebola outbreak</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/379_g33xDYY/article</link>
-	<content:encoded>&lt;p&gt;by Max S. Y. Lau, Gavin J. Gibson, Hola Adrakey, Amanda McClelland, Steven Riley, Jon Zelner, George Streftaris, Sebastian Funk, Jessica Metcalf, Benjamin D. Dalziel, Bryan T. Grenfell&lt;/p&gt;
-
-In recent years there has been growing availability of individual-level spatio-temporal disease data, particularly due to the use of modern communicating devices with GPS tracking functionality. These detailed data have been proven useful for inferring disease transmission to a more refined level than previously. However, there remains a lack of statistically sound frameworks to model the underlying transmission dynamic in a mechanistic manner. Such a development is particularly crucial for enabling a general epidemic predictive framework at the individual level. In this paper we propose a new statistical framework for mechanistically modelling individual-to-individual disease transmission in a landscape with heterogeneous population density. Our methodology is first tested using simulated datasets, validating our inferential machinery. The methodology is subsequently applied to data that describes a regional Ebola outbreak in Western Africa (2014-2015). Our results show that the methods are able to obtain estimates of key epidemiological parameters that are broadly consistent with the literature, while revealing a significantly shorter distance of transmission. More importantly, in contrast to existing approaches, we are able to perform a more general model prediction that takes into account the susceptible population. Finally, our results show that, given reasonable scenarios, the framework can be an effective surrogate for susceptible-explicit individual models which are often computationally challenging.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/379_g33xDYY&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-10-30T21:00:00+00:00</dc:date>
-	<dc:creator>Bryan T. Grenfell</dc:creator>
-</item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnsys.2017.00080">
 	<title>Frontiers in Systems Neuroscience | New and Recent Articles: Pauses in Striatal Cholinergic Interneurons: What is Revealed by Their Common Themes and Variations?</title>
 	<link>https://www.frontiersin.org/articles/10.3389/fnsys.2017.00080</link>
@@ -2853,25 +2869,6 @@ In recent years there has been growing availability of individual-level spatio-t
 	<content:encoded>The brain has the ability to sense, coordinate, and respond to environmental changes through biological processes involving activity-dependent gene expression. cAMP-response element binding protein (CREB)-regulated transcription coactivators (CRTCs) have recently emerged as novel transcriptional regulators of essential biological functions, while their deregulation is linked to age-related human diseases. In the brain, CRTCs are unique signaling factors that act as sensors and integrators of hormonal, metabolic, and neural signals contributing to brain plasticity and brain–body communication.</content:encoded>
 	<dc:date>2017-10-30T00:00:00+00:00</dc:date>
 	<dc:creator>Carlos A. Saura, Jean-René Cardinaux</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005785">
-	<title>PLOS Computational Biology: New Articles: The influence of astrocytes on the width of orientation hypercolumns in visual cortex: A computational perspective</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/Qa6CliFsDxQ/article</link>
-	<content:encoded>&lt;p&gt;by Ryan T. Philips, Mriganka Sur, V. Srinivasa Chakravarthy&lt;/p&gt;
-
-Orientation preference maps (OPMs) are present in carnivores (such as cats and ferrets) and primates but are absent in rodents. In this study we investigate the possible link between astrocyte arbors and presence of OPMs. We simulate the development of orientation maps with varying hypercolumn widths using a variant of the Laterally Interconnected Synergetically Self-Organizing Map (LISSOM) model, the Gain Control Adaptive Laterally connected (GCAL) model, with an additional layer simulating astrocytic activation. The synaptic activity of V1 neurons is given as input to the astrocyte layer. The activity of this astrocyte layer is now used to modulate bidirectional plasticity of lateral excitatory connections in the V1 layer. By simply varying the radius of the astrocytes, the extent of lateral excitatory neuronal connections can be manipulated. An increase in the radius of lateral excitatory connections subsequently increases the size of a single hypercolumn in the OPM. When these lateral excitatory connections become small enough the OPM disappears and a salt-and-pepper organization emerges.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/Qa6CliFsDxQ&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-10-27T21:00:00+00:00</dc:date>
-	<dc:creator>V. Srinivasa Chakravarthy</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005687">
-	<title>PLOS Computational Biology: New Articles: Point process analysis of noise in early invertebrate vision</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/ArMoUPqphhA/article</link>
-	<content:encoded>&lt;p&gt;by Kris V. Parag, Glenn Vinnicombe&lt;/p&gt;
-
-Noise is a prevalent and sometimes even dominant aspect of many biological processes. While many natural systems have adapted to attenuate or even usefully integrate noise, the variability it introduces often still delimits the achievable precision across biological functions. This is particularly so for visual phototransduction, the process responsible for converting photons of light into usable electrical signals (quantum bumps). Here, randomness of both the photon inputs (regarded as extrinsic noise) and the conversion process (intrinsic noise) are seen as two distinct, independent and significant limitations on visual reliability. Past research has attempted to quantify the relative effects of these noise sources by using approximate methods that do not fully account for the discrete, point process and time ordered nature of the problem. As a result the conclusions drawn from these different approaches have led to inconsistent expositions of phototransduction noise performance.
-This paper provides a fresh and complete analysis of the relative impact of intrinsic and extrinsic noise in invertebrate phototransduction using minimum mean squared error reconstruction techniques based on Bayesian point process (Snyder) filters. An integrate-fire based algorithm is developed to reliably estimate photon times from quantum bumps and Snyder filters are then used to causally estimate random light intensities both at the front and back end of the phototransduction cascade. Comparison of these estimates reveals that the dominant noise source transitions from extrinsic to intrinsic as light intensity increases. By extending the filtering techniques to account for delays, it is further found that among the intrinsic noise components, which include bump latency (mean delay and jitter) and shape (amplitude and width) variance, it is the mean delay that is critical to noise performance. As the timeliness of visual information is important for real-time action, this delay could potentially limit the speed at which invertebrates can respond to stimuli. Consequently, if one wants to increase visual fidelity, reducing the photoconversion lag is much more important than improving the regularity of the electrical signal.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/ArMoUPqphhA&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-10-27T21:00:00+00:00</dc:date>
-	<dc:creator>Glenn Vinnicombe</dc:creator>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fncom.2017.00099">
 	<title>Frontiers in Computational Neuroscience | New and Recent Articles: A Sensitivity Analysis of an Inverted Pendulum Balance Control Model</title>

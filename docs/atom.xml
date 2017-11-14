@@ -5,8 +5,167 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscience/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscience/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscience/atom.xml</id>
-	<updated>2017-11-13T18:00:21+00:00</updated>
+	<updated>2017-11-14T00:00:17+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscience/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">A model-based clustering method to detect infectious disease transmission outbreaks from sequence variation</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/DCiNkk7egBE/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005868</id>
+		<updated>2017-11-13T22:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Rosemary M. McCloskey, Art F. Y. Poon&lt;/p&gt;
+
+Clustering infections by genetic similarity is a popular technique for identifying potential outbreaks of infectious disease, in part because sequences are now routinely collected for clinical management of many infections. A diverse number of nonparametric clustering methods have been developed for this purpose. These methods are generally intuitive, rapid to compute, and readily scale with large data sets. However, we have found that nonparametric clustering methods can be biased towards identifying clusters of diagnosis—where individuals are sampled sooner post-infection—rather than the clusters of rapid transmission that are meant to be potential foci for public health efforts. We develop a fundamentally new approach to genetic clustering based on fitting a Markov-modulated Poisson process (MMPP), which represents the evolution of transmission rates along the tree relating different infections. We evaluated this model-based method alongside five nonparametric clustering methods using both simulated and actual HIV sequence data sets. For simulated clusters of rapid transmission, the MMPP clustering method obtained higher mean sensitivity (85%) and specificity (91%) than the nonparametric methods. When we applied these clustering methods to published sequences from a study of HIV-1 genetic clusters in Seattle, USA, we found that the MMPP method categorized about half (46%) as many individuals to clusters compared to the other methods. Furthermore, the mean internal branch lengths that approximate transmission rates were significantly shorter in clusters extracted using MMPP, but not by other methods. We determined that the computing time for the MMPP method scaled linearly with the size of trees, requiring about 30 seconds for a tree of 1,000 tips and about 20 minutes for 50,000 tips on a single computer. This new approach to genetic clustering has significant implications for the application of pathogen sequence analysis to public health, where it is critical to robustly and accurately identify clusters for the most cost-effective deployment of outbreak management and prevention resources.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/DCiNkk7egBE&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Art F. Y. Poon</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-11-13T23:50:46+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Correction: Unmet needs for analyzing biological big data: A survey of 704 NSF principal investigators</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/QBiVR_Btu9Y/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005858</id>
+		<updated>2017-11-13T22:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by The PLOS Computational Biology Staff &lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/QBiVR_Btu9Y&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>The PLOS Computational Biology Staff</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-11-13T23:50:46+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Automated visualization of rule-based models</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/WVjQXIOWt00/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005857</id>
+		<updated>2017-11-13T22:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by John Arul Prakash Sekar, Jose-Juan Tapia, James R. Faeder&lt;/p&gt;
+
+Frameworks such as BioNetGen, Kappa and Simmune use “reaction rules” to specify biochemical interactions compactly, where each rule specifies a mechanism such as binding or phosphorylation and its structural requirements. Current rule-based models of signaling pathways have tens to hundreds of rules, and these numbers are expected to increase as more molecule types and pathways are added. Visual representations are critical for conveying rule-based models, but current approaches to show rules and interactions between rules scale poorly with model size. Also, inferring design motifs that emerge from biochemical interactions is an open problem, so current approaches to visualize model architecture rely on manual interpretation of the model. Here, we present three new visualization tools that constitute an automated visualization framework for rule-based models: (i) a &lt;i&gt;compact rule visualization&lt;/i&gt; that efficiently displays each rule, (ii) the &lt;i&gt;atom-rule graph&lt;/i&gt; that conveys regulatory interactions in the model as a bipartite network, and (iii) a tunable &lt;i&gt;compression pipeline&lt;/i&gt; that incorporates expert knowledge and produces compact diagrams of model architecture when applied to the atom-rule graph. The compressed graphs convey network motifs and architectural features useful for understanding both small and large rule-based models, as we show by application to specific examples. Our tools also produce more readable diagrams than current approaches, as we show by comparing visualizations of 27 published models using standard graph metrics. We provide an implementation in the open source and freely available BioNetGen framework, but the underlying methods are general and can be applied to rule-based models from the Kappa and Simmune frameworks also. We expect that these tools will promote communication and analysis of rule-based models and their eventual integration into comprehensive whole-cell models.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/WVjQXIOWt00&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>James R. Faeder</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-11-13T23:50:46+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Predictive model identifies key network regulators of cardiomyocyte mechano-signaling</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/EWjJVc3m438/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005854</id>
+		<updated>2017-11-13T22:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Philip M. Tan, Kyle S. Buchholz, Jeffrey H. Omens, Andrew D. McCulloch, Jeffrey J. Saucerman&lt;/p&gt;
+
+Mechanical strain is a potent stimulus for growth and remodeling in cells. Although many pathways have been implicated in stretch-induced remodeling, the control structures by which signals from distinct mechano-sensors are integrated to modulate hypertrophy and gene expression in cardiomyocytes remain unclear. Here, we constructed and validated a predictive computational model of the cardiac mechano-signaling network in order to elucidate the mechanisms underlying signal integration. The model identifies calcium, actin, Ras, Raf1, PI3K, and JAK as key regulators of cardiac mechano-signaling and characterizes crosstalk logic imparting differential control of transcription by AT1R, integrins, and calcium channels. We find that while these regulators maintain mostly independent control over distinct groups of transcription factors, synergy between multiple pathways is necessary to activate all the transcription factors necessary for gene transcription and hypertrophy. We also identify a PKG-dependent mechanism by which valsartan/sacubitril, a combination drug recently approved for treating heart failure, inhibits stretch-induced hypertrophy, and predict further efficacious pairs of drug targets in the network through a network-wide combinatorial search.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/EWjJVc3m438&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Jeffrey J. Saucerman</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-11-13T23:50:46+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Electrical stimulus artifact cancellation and neural spike detection on large multi-electrode arrays</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/umiUooXyYhQ/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005842</id>
+		<updated>2017-11-13T22:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Gonzalo E. Mena, Lauren E. Grosberg, Sasidhar Madugula, Paweł Hottowy, Alan Litke, John Cunningham, E. J. Chichilnisky, Liam Paninski&lt;/p&gt;
+
+Simultaneous electrical stimulation and recording using multi-electrode arrays can provide a valuable technique for studying circuit connectivity and engineering neural interfaces. However, interpreting these measurements is challenging because the spike sorting process (identifying and segregating action potentials arising from different neurons) is greatly complicated by electrical stimulation artifacts across the array, which can exhibit complex and nonlinear waveforms, and overlap temporarily with evoked spikes. Here we develop a scalable algorithm based on a structured Gaussian Process model to estimate the artifact and identify evoked spikes. The effectiveness of our methods is demonstrated in both real and simulated 512-electrode recordings in the peripheral primate retina with single-electrode and several types of multi-electrode stimulation. We establish small error rates in the identification of evoked spikes, with a computational complexity that is compatible with real-time data analysis. This technology may be helpful in the design of future high-resolution sensory prostheses based on tailored stimulation (e.g., retinal prostheses), and for closed-loop neural stimulation at a much larger scale than currently possible.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/umiUooXyYhQ&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Liam Paninski</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-11-13T23:50:46+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Characterizing steady states of genome-scale metabolic networks in continuous cell cultures</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/JAaq3NMYju8/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005835</id>
+		<updated>2017-11-13T22:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Jorge Fernandez-de-Cossio-Diaz, Kalet Leon, Roberto Mulet&lt;/p&gt;
+
+In the continuous mode of cell culture, a constant flow carrying fresh media replaces culture fluid, cells, nutrients and secreted metabolites. Here we present a model for continuous cell culture coupling intra-cellular metabolism to extracellular variables describing the state of the bioreactor, taking into account the growth capacity of the cell and the impact of toxic byproduct accumulation. We provide a method to determine the steady states of this system that is tractable for metabolic networks of arbitrary complexity. We demonstrate our approach in a toy model first, and then in a genome-scale metabolic network of the Chinese hamster ovary cell line, obtaining results that are in qualitative agreement with experimental observations. We derive a number of consequences from the model that are independent of parameter values. The ratio between cell density and dilution rate is an ideal control parameter to fix a steady state with desired metabolic properties. This conclusion is robust even in the presence of multi-stability, which is explained in our model by a negative feedback loop due to toxic byproduct accumulation. A complex landscape of steady states emerges from our simulations, including multiple metabolic switches, which also explain why cell-line and media benchmarks carried out in batch culture cannot be extrapolated to perfusion. On the other hand, we predict invariance laws between continuous cell cultures with different parameters. A practical consequence is that the chemostat is an ideal experimental model for large-scale high-density perfusion cultures, where the complex landscape of metabolic transitions is faithfully reproduced.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/JAaq3NMYju8&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Roberto Mulet</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-11-13T23:50:46+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Improving virtual screening of G protein-coupled receptors via ligand-directed modeling</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/_oVl-6F8HtM/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005819</id>
+		<updated>2017-11-13T22:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Thomas Coudrat, John Simms, Arthur Christopoulos, Denise Wootten, Patrick M. Sexton&lt;/p&gt;
+
+G protein-coupled receptors (GPCRs) play crucial roles in cell physiology and pathophysiology. There is increasing interest in using structural information for virtual screening (VS) of libraries and for structure-based drug design to identify novel agonist or antagonist leads. However, the sparse availability of experimentally determined GPCR/ligand complex structures with diverse ligands impedes the application of structure-based drug design (SBDD) programs directed to identifying new molecules with a select pharmacology. In this study, we apply ligand-directed modeling (LDM) to available GPCR X-ray structures to improve VS performance and selectivity towards molecules of specific pharmacological profile. The described method refines a GPCR binding pocket conformation using a single known ligand for that GPCR. The LDM method is a computationally efficient, iterative workflow consisting of protein sampling and ligand docking. We developed an extensive benchmark comparing LDM-refined binding pockets to GPCR X-ray crystal structures across seven different GPCRs bound to a range of ligands of different chemotypes and pharmacological profiles. LDM-refined models showed improvement in VS performance over origin X-ray crystal structures in 21 out of 24 cases. In all cases, the LDM-refined models had superior performance in enriching for the chemotype of the refinement ligand. This likely contributes to the LDM success in all cases of inhibitor-bound to agonist-bound binding pocket refinement, a key task for GPCR SBDD programs. Indeed, agonist ligands are required for a plethora of GPCRs for therapeutic intervention, however GPCR X-ray structures are mostly restricted to their inactive inhibitor-bound state.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/_oVl-6F8HtM&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Patrick M. Sexton</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-11-13T23:50:46+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Roles of Glial Cells in Sculpting Inhibitory Synapses and Neural Circuits</title>
@@ -24,7 +183,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -464,7 +623,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -484,7 +643,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -504,7 +663,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -524,7 +683,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -544,7 +703,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -564,7 +723,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -584,7 +743,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -604,7 +763,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1017,7 +1176,7 @@ brain dynamics.
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -1158,7 +1317,7 @@ brain dynamics.
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
+			<updated>2017-11-13T23:50:46+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -1181,7 +1340,7 @@ Recent evidence shows that mutations in several driver genes can cause aberrant 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
+			<updated>2017-11-13T23:50:46+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -1204,7 +1363,7 @@ Previous studies have compared the physicochemical properties of allosteric comp
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
+			<updated>2017-11-13T23:50:46+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -1225,7 +1384,7 @@ Previous studies have compared the physicochemical properties of allosteric comp
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1245,7 +1404,7 @@ Previous studies have compared the physicochemical properties of allosteric comp
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1288,7 +1447,7 @@ Previous studies have compared the physicochemical properties of allosteric comp
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -1308,7 +1467,7 @@ Previous studies have compared the physicochemical properties of allosteric comp
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -1329,7 +1488,7 @@ Previous studies have compared the physicochemical properties of allosteric comp
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1349,7 +1508,7 @@ Previous studies have compared the physicochemical properties of allosteric comp
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1369,7 +1528,7 @@ Previous studies have compared the physicochemical properties of allosteric comp
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1389,7 +1548,7 @@ Previous studies have compared the physicochemical properties of allosteric comp
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1409,7 +1568,7 @@ Previous studies have compared the physicochemical properties of allosteric comp
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1429,7 +1588,7 @@ Previous studies have compared the physicochemical properties of allosteric comp
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-13T18:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1717,7 +1876,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
+			<updated>2017-11-13T23:50:46+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -1738,7 +1897,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
+			<updated>2017-11-13T23:50:46+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -1759,7 +1918,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1779,7 +1938,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1799,7 +1958,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1818,7 +1977,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -1838,7 +1997,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -1858,7 +2017,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -1878,7 +2037,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -1898,7 +2057,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -1918,7 +2077,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -1938,7 +2097,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -1958,7 +2117,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -1978,7 +2137,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -1999,7 +2158,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2019,7 +2178,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -2039,7 +2198,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -2059,7 +2218,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -2079,7 +2238,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -2099,7 +2258,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-13T18:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -2119,7 +2278,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -2139,7 +2298,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -2159,7 +2318,7 @@ Budding yeast, which undergoes polarized growth during budding and mating, has b
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -2461,7 +2620,7 @@ milestone for spintronics-based neuromorphic computing.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2892,7 +3051,7 @@ milestone for spintronics-based neuromorphic computing.
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -2912,7 +3071,7 @@ milestone for spintronics-based neuromorphic computing.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2931,7 +3090,7 @@ milestone for spintronics-based neuromorphic computing.
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -2952,7 +3111,7 @@ milestone for spintronics-based neuromorphic computing.
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -2972,7 +3131,7 @@ milestone for spintronics-based neuromorphic computing.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2992,7 +3151,7 @@ milestone for spintronics-based neuromorphic computing.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3012,7 +3171,7 @@ milestone for spintronics-based neuromorphic computing.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3032,7 +3191,7 @@ milestone for spintronics-based neuromorphic computing.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3052,7 +3211,7 @@ milestone for spintronics-based neuromorphic computing.
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3247,7 +3406,7 @@ To uncover the processes and mechanisms of cellular physiology, it first necessa
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
+			<updated>2017-11-13T23:50:46+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3270,7 +3429,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
+			<updated>2017-11-13T23:50:46+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3291,7 +3450,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3311,7 +3470,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3331,7 +3490,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -3351,7 +3510,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3371,7 +3530,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -3391,7 +3550,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3411,7 +3570,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -3431,7 +3590,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -3451,7 +3610,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3471,7 +3630,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -3491,7 +3650,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3511,7 +3670,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -3531,7 +3690,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3551,7 +3710,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -3571,7 +3730,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -3591,7 +3750,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -3611,7 +3770,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -3631,7 +3790,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -3651,7 +3810,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -3671,7 +3830,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -3691,7 +3850,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -3711,7 +3870,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-08T00:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:12+00:00</updated>
 		</source>
 	</entry>
 
@@ -3731,7 +3890,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-13T18:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3750,7 +3909,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -3770,7 +3929,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -3790,7 +3949,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -3810,7 +3969,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -3830,7 +3989,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -3850,7 +4009,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-13T18:00:13+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -3871,7 +4030,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3891,7 +4050,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3911,7 +4070,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3931,7 +4090,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3951,7 +4110,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3971,7 +4130,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3991,7 +4150,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4011,7 +4170,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4031,7 +4190,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4051,7 +4210,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4071,7 +4230,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4091,7 +4250,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4111,7 +4270,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4131,7 +4290,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4151,7 +4310,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4171,7 +4330,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4191,7 +4350,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4211,7 +4370,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4231,7 +4390,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4251,7 +4410,7 @@ Theory of Mind (ToM), i.e. the ability to understand others' mental states, endo
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4471,7 +4630,7 @@ Prediction of RNA tertiary structure from sequence is an important problem, but 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
+			<updated>2017-11-13T23:50:46+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4494,7 +4653,7 @@ New promising avenues for the pharmacological treatment of skeletal and heart mu
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
+			<updated>2017-11-13T23:50:46+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4517,7 +4676,7 @@ Glucocorticoid hormones (GCs) are used to treat a variety of diseases because of
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
+			<updated>2017-11-13T23:50:46+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4540,7 +4699,7 @@ A number of neurological disorders arise from perturbations in biochemical signa
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
+			<updated>2017-11-13T23:50:46+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4563,7 +4722,7 @@ Recent research has produced a number of methods for forecasting seasonal influe
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
+			<updated>2017-11-13T23:50:46+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4584,7 +4743,7 @@ Recent research has produced a number of methods for forecasting seasonal influe
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4604,7 +4763,7 @@ Recent research has produced a number of methods for forecasting seasonal influe
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4624,7 +4783,7 @@ Recent research has produced a number of methods for forecasting seasonal influe
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-13T18:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4644,7 +4803,7 @@ Recent research has produced a number of methods for forecasting seasonal influe
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4664,7 +4823,7 @@ Recent research has produced a number of methods for forecasting seasonal influe
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4684,7 +4843,7 @@ Recent research has produced a number of methods for forecasting seasonal influe
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4704,7 +4863,7 @@ Recent research has produced a number of methods for forecasting seasonal influe
 			<subtitle type="html">RSS Feed for Frontiers in Synaptic Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/synaptic-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/synaptic-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4724,7 +4883,7 @@ Recent research has produced a number of methods for forecasting seasonal influe
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4744,7 +4903,7 @@ Recent research has produced a number of methods for forecasting seasonal influe
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4764,7 +4923,7 @@ Recent research has produced a number of methods for forecasting seasonal influe
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4784,7 +4943,7 @@ Recent research has produced a number of methods for forecasting seasonal influe
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4804,7 +4963,7 @@ Recent research has produced a number of methods for forecasting seasonal influe
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4938,7 +5097,7 @@ The advent of high throughput technologies has led to a wealth of publicly avail
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
+			<updated>2017-11-13T23:50:46+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4959,7 +5118,7 @@ The advent of high throughput technologies has led to a wealth of publicly avail
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4979,7 +5138,7 @@ The advent of high throughput technologies has led to a wealth of publicly avail
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-13T18:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4999,7 +5158,7 @@ The advent of high throughput technologies has led to a wealth of publicly avail
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5019,7 +5178,7 @@ The advent of high throughput technologies has led to a wealth of publicly avail
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5039,7 +5198,7 @@ The advent of high throughput technologies has led to a wealth of publicly avail
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5059,7 +5218,7 @@ The advent of high throughput technologies has led to a wealth of publicly avail
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5079,7 +5238,7 @@ The advent of high throughput technologies has led to a wealth of publicly avail
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5099,7 +5258,7 @@ The advent of high throughput technologies has led to a wealth of publicly avail
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5119,7 +5278,7 @@ The advent of high throughput technologies has led to a wealth of publicly avail
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5139,7 +5298,7 @@ The advent of high throughput technologies has led to a wealth of publicly avail
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5159,7 +5318,7 @@ The advent of high throughput technologies has led to a wealth of publicly avail
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5179,7 +5338,7 @@ The advent of high throughput technologies has led to a wealth of publicly avail
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5199,7 +5358,7 @@ The advent of high throughput technologies has led to a wealth of publicly avail
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5219,7 +5378,7 @@ The advent of high throughput technologies has led to a wealth of publicly avail
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5379,29 +5538,6 @@ strategy is used.
 	</entry>
 
 	<entry>
-		<title type="html">A Rescorla-Wagner drift-diffusion model of conditioning and timing</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/jNQVNxYySUM/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005796</id>
-		<updated>2017-11-02T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by André Luzardo, Eduardo Alonso, Esther Mondragón&lt;/p&gt;
-
-Computational models of classical conditioning have made significant contributions to the theoretic understanding of associative learning, yet they still struggle when the temporal aspects of conditioning are taken into account. Interval timing models have contributed a rich variety of time representations and provided accurate predictions for the timing of responses, but they usually have little to say about associative learning. In this article we present a unified model of conditioning and timing that is based on the influential Rescorla-Wagner conditioning model and the more recently developed Timing Drift-Diffusion model. We test the model by simulating 10 experimental phenomena and show that it can provide an adequate account for 8, and a partial account for the other 2. We argue that the model can account for more phenomena in the chosen set than these other similar in scope models: CSC-TD, MS-TD, Learning to Time and Modular Theory. A comparison and analysis of the mechanisms in these models is provided, with a focus on the types of time representation and associative learning rule used.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/jNQVNxYySUM&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Esther Mondragón</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html">Commentary: α-Synuclein Interacts with Lipoproteins in Plasma</title>
 		<link href="https://www.frontiersin.org/articles/10.3389/fnmol.2017.00362"/>
 		<id>https://www.frontiersin.org/articles/10.3389/fnmol.2017.00362</id>
@@ -5457,7 +5593,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5477,7 +5613,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5517,7 +5653,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5537,7 +5673,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5557,7 +5693,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5577,7 +5713,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5597,7 +5733,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5617,7 +5753,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5637,7 +5773,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5786,7 +5922,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5873,7 +6009,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5893,7 +6029,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5913,7 +6049,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5933,7 +6069,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5953,7 +6089,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5993,7 +6129,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -6286,7 +6422,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6306,7 +6442,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -6326,7 +6462,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -6346,7 +6482,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -6366,7 +6502,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -6386,7 +6522,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6406,7 +6542,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6426,7 +6562,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6446,7 +6582,7 @@ Computational models of classical conditioning have made significant contributio
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6544,98 +6680,6 @@ Computational models of classical conditioning have made significant contributio
 	</entry>
 
 	<entry>
-		<title type="html">Maximum entropy methods for extracting the learned features of deep neural networks</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/MhCI5bHA8f8/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005836</id>
-		<updated>2017-10-30T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Alex Finnegan, Jun S. Song&lt;/p&gt;
-
-New architectures of multilayer artificial neural networks and new methods for training them are rapidly revolutionizing the application of machine learning in diverse fields, including business, social science, physical sciences, and biology. Interpreting deep neural networks, however, currently remains elusive, and a critical challenge lies in understanding which meaningful features a network is actually learning. We present a general method for interpreting deep neural networks and extracting network-learned features from input data. We describe our algorithm in the context of biological sequence analysis. Our approach, based on ideas from statistical physics, samples from the maximum entropy distribution over possible sequences, anchored at an input sequence and subject to constraints implied by the empirical function learned by a network. Using our framework, we demonstrate that local transcription factor binding motifs can be identified from a network trained on ChIP-seq data and that nucleosome positioning signals are indeed learned by a network trained on chemical cleavage nucleosome maps. Imposing a further constraint on the maximum entropy distribution also allows us to probe whether a network is learning global sequence features, such as the high GC content in nucleosome-rich regions. This work thus provides valuable mathematical tools for interpreting and extracting learned features from feed-forward neural networks.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/MhCI5bHA8f8&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Jun S. Song</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Concerted regulation of npc2 binding to endosomal/lysosomal membranes by bis(monoacylglycero)phosphate and sphingomyelin</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/TGPq0WeeVRQ/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005831</id>
-		<updated>2017-10-30T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Giray Enkavi, Heikki Mikkolainen, Burçin Güngör, Elina Ikonen, Ilpo Vattulainen&lt;/p&gt;
-
-Niemann-Pick Protein C2 (npc2) is a small soluble protein critical for cholesterol transport within and from the lysosome and the late endosome. Intriguingly, npc2-mediated cholesterol transport has been shown to be modulated by lipids, yet the molecular mechanism of npc2-membrane interactions has remained elusive. Here, based on an extensive set of atomistic simulations and free energy calculations, we clarify the mechanism and energetics of npc2-membrane binding and characterize the roles of physiologically relevant key lipids associated with the binding process. Our results capture in atomistic detail two competitively favorable membrane binding orientations of npc2 with a low interconversion barrier. The first binding mode (&lt;i&gt;Prone&lt;/i&gt;) places the cholesterol binding pocket in direct contact with the membrane and is characterized by membrane insertion of a loop (V59-M60-G61-I62-P63-V64-P65). This mode is associated with cholesterol uptake and release. On the other hand, the second mode (&lt;i&gt;Supine&lt;/i&gt;) places the cholesterol binding pocket away from the membrane surface, but has overall higher membrane binding affinity. We determined that bis(monoacylglycero)phosphate (bmp) is specifically required for strong membrane binding in &lt;i&gt;Prone mode&lt;/i&gt;, and that it cannot be substituted by other anionic lipids. Meanwhile, sphingomyelin counteracts bmp by hindering &lt;i&gt;Prone mode&lt;/i&gt; without affecting &lt;i&gt;Supine mode&lt;/i&gt;. Our results provide concrete evidence that lipids modulate npc2-mediated cholesterol transport either by favoring or disfavoring &lt;i&gt;Prone mode&lt;/i&gt; and that they impose this by modulating the accessibility of bmp for interacting with npc2. Overall, we provide a mechanism by which npc2-mediated cholesterol transport is controlled by the membrane composition and how npc2-lipid interactions can regulate the transport rate.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/TGPq0WeeVRQ&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Ilpo Vattulainen</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">A method to quantify mechanobiologic forces during zebrafish cardiac development using 4-D light sheet imaging and computational modeling</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/s3JXVOr7ED4/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005828</id>
-		<updated>2017-10-30T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Vijay Vedula, Juhyun Lee, Hao Xu, C.-C. Jay Kuo, Tzung K. Hsiai, Alison L. Marsden&lt;/p&gt;
-
-Blood flow and mechanical forces in the ventricle are implicated in cardiac development and trabeculation. However, the mechanisms of mechanotransduction remain elusive. This is due in part to the challenges associated with accurately quantifying mechanical forces in the developing heart. We present a novel computational framework to simulate cardiac hemodynamics in developing zebrafish embryos by coupling 4-D light sheet imaging with a stabilized finite element flow solver, and extract time-dependent mechanical stimuli data. We employ deformable image registration methods to segment the motion of the ventricle from high resolution 4-D light sheet image data. This results in a robust and efficient workflow, as segmentation need only be performed at one cardiac phase, while wall position in the other cardiac phases is found by image registration. Ventricular hemodynamics are then quantified by numerically solving the Navier-Stokes equations in the moving wall domain with our validated flow solver. We demonstrate the applicability of the workflow in wild type zebrafish and three treated fish types that disrupt trabeculation: (a) chemical treatment using AG1478, an &lt;i&gt;ErbB2&lt;/i&gt; signaling inhibitor that inhibits proliferation and differentiation of cardiac trabeculation; (b) injection of &lt;i&gt;gata1a morpholino oligomer&lt;/i&gt; (&lt;i&gt;gata1aMO&lt;/i&gt;) suppressing hematopoiesis and resulting in attenuated trabeculation; (c) &lt;i&gt;weak-atrium&lt;/i&gt;&lt;sup&gt;m58&lt;/sup&gt; mutant (&lt;i&gt;wea&lt;/i&gt;) with inhibited atrial contraction leading to a highly undeveloped ventricle and poor cardiac function. Our simulations reveal elevated wall shear stress (WSS) in wild type and AG1478 compared to &lt;i&gt;gata1aMO&lt;/i&gt; and &lt;i&gt;wea&lt;/i&gt;. High oscillatory shear index (OSI) in the grooves between trabeculae, compared to lower values on the ridges, in the wild type suggest oscillatory forces as a possible regulatory mechanism of cardiac trabeculation development. The framework has broad applicability for future cardiac developmental studies focused on quantitatively investigating the role of hemodynamic forces and mechanotransduction during morphogenesis.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/s3JXVOr7ED4&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Alison L. Marsden</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">A mechanistic spatio-temporal framework for modelling individual-to-individual transmission—With an application to the 2014-2015 West Africa Ebola outbreak</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/379_g33xDYY/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005798</id>
-		<updated>2017-10-30T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Max S. Y. Lau, Gavin J. Gibson, Hola Adrakey, Amanda McClelland, Steven Riley, Jon Zelner, George Streftaris, Sebastian Funk, Jessica Metcalf, Benjamin D. Dalziel, Bryan T. Grenfell&lt;/p&gt;
-
-In recent years there has been growing availability of individual-level spatio-temporal disease data, particularly due to the use of modern communicating devices with GPS tracking functionality. These detailed data have been proven useful for inferring disease transmission to a more refined level than previously. However, there remains a lack of statistically sound frameworks to model the underlying transmission dynamic in a mechanistic manner. Such a development is particularly crucial for enabling a general epidemic predictive framework at the individual level. In this paper we propose a new statistical framework for mechanistically modelling individual-to-individual disease transmission in a landscape with heterogeneous population density. Our methodology is first tested using simulated datasets, validating our inferential machinery. The methodology is subsequently applied to data that describes a regional Ebola outbreak in Western Africa (2014-2015). Our results show that the methods are able to obtain estimates of key epidemiological parameters that are broadly consistent with the literature, while revealing a significantly shorter distance of transmission. More importantly, in contrast to existing approaches, we are able to perform a more general model prediction that takes into account the susceptible population. Finally, our results show that, given reasonable scenarios, the framework can be an effective surrogate for susceptible-explicit individual models which are often computationally challenging.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/379_g33xDYY&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Bryan T. Grenfell</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html">Pauses in Striatal Cholinergic Interneurons: What is Revealed by Their Common Themes and Variations?</title>
 		<link href="https://www.frontiersin.org/articles/10.3389/fnsys.2017.00080"/>
 		<id>https://www.frontiersin.org/articles/10.3389/fnsys.2017.00080</id>
@@ -6651,7 +6695,7 @@ In recent years there has been growing availability of individual-level spatio-t
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6671,7 +6715,7 @@ In recent years there has been growing availability of individual-level spatio-t
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurogenesis</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6691,7 +6735,7 @@ In recent years there has been growing availability of individual-level spatio-t
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6731,7 +6775,7 @@ In recent years there has been growing availability of individual-level spatio-t
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-13T18:00:12+00:00</updated>
+			<updated>2017-11-14T00:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -6751,7 +6795,7 @@ In recent years there has been growing availability of individual-level spatio-t
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-13T18:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6798,53 +6842,6 @@ In recent years there has been growing availability of individual-level spatio-t
 	</entry>
 
 	<entry>
-		<title type="html">The influence of astrocytes on the width of orientation hypercolumns in visual cortex: A computational perspective</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/Qa6CliFsDxQ/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005785</id>
-		<updated>2017-10-27T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Ryan T. Philips, Mriganka Sur, V. Srinivasa Chakravarthy&lt;/p&gt;
-
-Orientation preference maps (OPMs) are present in carnivores (such as cats and ferrets) and primates but are absent in rodents. In this study we investigate the possible link between astrocyte arbors and presence of OPMs. We simulate the development of orientation maps with varying hypercolumn widths using a variant of the Laterally Interconnected Synergetically Self-Organizing Map (LISSOM) model, the Gain Control Adaptive Laterally connected (GCAL) model, with an additional layer simulating astrocytic activation. The synaptic activity of V1 neurons is given as input to the astrocyte layer. The activity of this astrocyte layer is now used to modulate bidirectional plasticity of lateral excitatory connections in the V1 layer. By simply varying the radius of the astrocytes, the extent of lateral excitatory neuronal connections can be manipulated. An increase in the radius of lateral excitatory connections subsequently increases the size of a single hypercolumn in the OPM. When these lateral excitatory connections become small enough the OPM disappears and a salt-and-pepper organization emerges.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/Qa6CliFsDxQ&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>V. Srinivasa Chakravarthy</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Point process analysis of noise in early invertebrate vision</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/ArMoUPqphhA/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005687</id>
-		<updated>2017-10-27T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Kris V. Parag, Glenn Vinnicombe&lt;/p&gt;
-
-Noise is a prevalent and sometimes even dominant aspect of many biological processes. While many natural systems have adapted to attenuate or even usefully integrate noise, the variability it introduces often still delimits the achievable precision across biological functions. This is particularly so for visual phototransduction, the process responsible for converting photons of light into usable electrical signals (quantum bumps). Here, randomness of both the photon inputs (regarded as extrinsic noise) and the conversion process (intrinsic noise) are seen as two distinct, independent and significant limitations on visual reliability. Past research has attempted to quantify the relative effects of these noise sources by using approximate methods that do not fully account for the discrete, point process and time ordered nature of the problem. As a result the conclusions drawn from these different approaches have led to inconsistent expositions of phototransduction noise performance.
-This paper provides a fresh and complete analysis of the relative impact of intrinsic and extrinsic noise in invertebrate phototransduction using minimum mean squared error reconstruction techniques based on Bayesian point process (Snyder) filters. An integrate-fire based algorithm is developed to reliably estimate photon times from quantum bumps and Snyder filters are then used to causally estimate random light intensities both at the front and back end of the phototransduction cascade. Comparison of these estimates reveals that the dominant noise source transitions from extrinsic to intrinsic as light intensity increases. By extending the filtering techniques to account for delays, it is further found that among the intrinsic noise components, which include bump latency (mean delay and jitter) and shape (amplitude and width) variance, it is the mean delay that is critical to noise performance. As the timeliness of visual information is important for real-time action, this delay could potentially limit the speed at which invertebrates can respond to stimuli. Consequently, if one wants to increase visual fidelity, reducing the photoconversion lag is much more important than improving the regularity of the electrical signal.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/ArMoUPqphhA&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Glenn Vinnicombe</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-13T17:39:11+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html">A Sensitivity Analysis of an Inverted Pendulum Balance Control Model</title>
 		<link href="https://www.frontiersin.org/articles/10.3389/fncom.2017.00099"/>
 		<id>https://www.frontiersin.org/articles/10.3389/fncom.2017.00099</id>
@@ -6860,7 +6857,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6880,7 +6877,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6989,7 +6986,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurogenesis</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7009,7 +7006,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7029,7 +7026,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7320,7 +7317,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Synaptic Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/synaptic-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/synaptic-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7340,7 +7337,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7360,7 +7357,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7380,7 +7377,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7540,7 +7537,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7560,7 +7557,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurogenesis</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7580,7 +7577,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7600,7 +7597,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7620,7 +7617,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7640,7 +7637,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7660,7 +7657,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurogenesis</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7680,7 +7677,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7700,7 +7697,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7720,7 +7717,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7803,7 +7800,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-13T18:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7823,7 +7820,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-13T18:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7843,7 +7840,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7863,7 +7860,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Systems Biology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/systems-biology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/systems-biology</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7883,7 +7880,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7903,7 +7900,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-13T18:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7923,7 +7920,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7943,7 +7940,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7963,7 +7960,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7983,7 +7980,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8123,7 +8120,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-13T18:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8323,7 +8320,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8343,7 +8340,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8363,7 +8360,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8383,7 +8380,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8403,7 +8400,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8423,7 +8420,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8483,7 +8480,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8503,7 +8500,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2017-11-13T18:00:11+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8523,7 +8520,7 @@ This paper provides a fresh and complete analysis of the relative impact of intr
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-13T18:00:10+00:00</updated>
+			<updated>2017-11-14T00:00:08+00:00</updated>
 		</source>
 	</entry>
 
