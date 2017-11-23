@@ -16,6 +16,7 @@
 	<items>
 		<rdf:Seq>
 			<rdf:li rdf:resource="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30217-5?rss=yes" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005860" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fncir.2017.00092" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/37/47/i?rss=1" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/37/47/11505?rss=1" />
@@ -265,7 +266,6 @@
 			<rdf:li rdf:resource="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30211-4?rss=yes" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005868" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005858" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005857" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2017.00381" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnhum.2017.00547" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnhum.2017.00546" />
@@ -423,6 +423,15 @@
 	<title>Trends in Neurosciences: Editorial Board and Contents</title>
 	<link>http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30217-5?rss=yes</link>
 	<dc:date>2017-12-01T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005860">
+	<title>PLOS Computational Biology: New Articles: Fragmentation modes and the evolution of life cycles</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/wDROTWJQqu0/article</link>
+	<content:encoded>&lt;p&gt;by Yuriy Pichugin, Jorge Peña, Paul B. Rainey, Arne Traulsen&lt;/p&gt;
+
+Reproduction is a defining feature of living systems. To reproduce, aggregates of biological units (e.g., multicellular organisms or colonial bacteria) must fragment into smaller parts. Fragmentation modes in nature range from binary fission in bacteria to collective-level fragmentation and the production of unicellular propagules in multicellular organisms. Despite this apparent ubiquity, the adaptive significance of fragmentation modes has received little attention. Here, we develop a model in which groups arise from the division of single cells that do not separate but stay together until the moment of group fragmentation. We allow for all possible fragmentation patterns and calculate the population growth rate of each associated life cycle. Fragmentation modes that maximise growth rate comprise a restrictive set of patterns that include production of unicellular propagules and division into two similar size groups. Life cycles marked by single-cell bottlenecks maximise population growth rate under a wide range of conditions. This surprising result offers a new evolutionary explanation for the widespread occurrence of this mode of reproduction. All in all, our model provides a framework for exploring the adaptive significance of fragmentation modes and their associated life cycles.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/wDROTWJQqu0&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-11-22T22:00:00+00:00</dc:date>
+	<dc:creator>Arne Traulsen</dc:creator>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fncir.2017.00092">
 	<title>Frontiers in Neural Circuits | New and Recent Articles: The Roles of Cortical Slow Waves in Synaptic Plasticity and Memory Consolidation</title>
@@ -2388,15 +2397,6 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 	<content:encoded>&lt;p&gt;by The PLOS Computational Biology Staff &lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/QBiVR_Btu9Y&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-11-13T22:00:00+00:00</dc:date>
 	<dc:creator>The PLOS Computational Biology Staff</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005857">
-	<title>PLOS Computational Biology: New Articles: Automated visualization of rule-based models</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/WVjQXIOWt00/article</link>
-	<content:encoded>&lt;p&gt;by John Arul Prakash Sekar, Jose-Juan Tapia, James R. Faeder&lt;/p&gt;
-
-Frameworks such as BioNetGen, Kappa and Simmune use “reaction rules” to specify biochemical interactions compactly, where each rule specifies a mechanism such as binding or phosphorylation and its structural requirements. Current rule-based models of signaling pathways have tens to hundreds of rules, and these numbers are expected to increase as more molecule types and pathways are added. Visual representations are critical for conveying rule-based models, but current approaches to show rules and interactions between rules scale poorly with model size. Also, inferring design motifs that emerge from biochemical interactions is an open problem, so current approaches to visualize model architecture rely on manual interpretation of the model. Here, we present three new visualization tools that constitute an automated visualization framework for rule-based models: (i) a &lt;i&gt;compact rule visualization&lt;/i&gt; that efficiently displays each rule, (ii) the &lt;i&gt;atom-rule graph&lt;/i&gt; that conveys regulatory interactions in the model as a bipartite network, and (iii) a tunable &lt;i&gt;compression pipeline&lt;/i&gt; that incorporates expert knowledge and produces compact diagrams of model architecture when applied to the atom-rule graph. The compressed graphs convey network motifs and architectural features useful for understanding both small and large rule-based models, as we show by application to specific examples. Our tools also produce more readable diagrams than current approaches, as we show by comparing visualizations of 27 published models using standard graph metrics. We provide an implementation in the open source and freely available BioNetGen framework, but the underlying methods are general and can be applied to rule-based models from the Kappa and Simmune frameworks also. We expect that these tools will promote communication and analysis of rule-based models and their eventual integration into comprehensive whole-cell models.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/WVjQXIOWt00&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-11-13T22:00:00+00:00</dc:date>
-	<dc:creator>James R. Faeder</dc:creator>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnmol.2017.00381">
 	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Roles of Glial Cells in Sculpting Inhibitory Synapses and Neural Circuits</title>
