@@ -5,7 +5,7 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscience/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscience/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscience/atom.xml</id>
-	<updated>2017-11-27T18:00:14+00:00</updated>
+	<updated>2017-11-28T00:00:19+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscience/">http://intertwingly.net/code/venus/</generator>
 
 	<entry>
@@ -30,6 +30,75 @@
 	</entry>
 
 	<entry>
+		<title type="html">The effect of spatial randomness on the average fixation time of mutants</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/3sCQG2z-mIQ/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005864</id>
+		<updated>2017-11-27T22:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Suzan Farhang-Sardroodi, Amirhossein H. Darooneh, Moladad Nikbakht, Natalia L. Komarova, Mohammad Kohandel&lt;/p&gt;
+
+The mean conditional fixation time of a mutant is an important measure of stochastic population dynamics, widely studied in ecology and evolution. Here, we investigate the effect of spatial randomness on the mean conditional fixation time of mutants in a constant population of cells, &lt;i&gt;N&lt;/i&gt;. Specifically, we assume that fitness values of wild type cells and mutants at different locations come from given probability distributions and do not change in time. We study spatial arrangements of cells on regular graphs with different degrees, from the circle to the complete graph, and vary assumptions on the fitness probability distributions. Some examples include: identical probability distributions for wild types and mutants; cases when only one of the cell types has random fitness values while the other has deterministic fitness; and cases where the mutants are advantaged or disadvantaged. Using analytical calculations and stochastic numerical simulations, we find that randomness has a strong impact on fixation time. In the case of complete graphs, randomness accelerates mutant fixation for all population sizes, and in the case of circular graphs, randomness delays mutant fixation for &lt;i&gt;N&lt;/i&gt; larger than a threshold value (for small values of &lt;i&gt;N&lt;/i&gt;, different behaviors are observed depending on the fitness distribution functions). These results emphasize fundamental differences in population dynamics under different assumptions on cell connectedness. They are explained by the existence of randomly occurring “dead zones” that can significantly delay fixation on networks with low connectivity; and by the existence of randomly occurring “lucky zones” that can facilitate fixation on networks of high connectivity. Results for death-birth and birth-death formulations of the Moran process, as well as for the (haploid) Wright Fisher model are presented.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/3sCQG2z-mIQ&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Mohammad Kohandel</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-11-28T00:00:06+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Strawberry: Fast and accurate genome-guided transcript reconstruction and quantification from RNA-Seq</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/2lhGlr9xQ2s/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005851</id>
+		<updated>2017-11-27T22:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Ruolin Liu, Julie Dickerson&lt;/p&gt;
+
+We propose a novel method and software tool, Strawberry, for transcript reconstruction and quantification from RNA-Seq data under the guidance of genome alignment and independent of gene annotation. Strawberry consists of two modules: assembly and quantification. The novelty of Strawberry is that the two modules use different optimization frameworks but utilize the same data graph structure, which allows a highly efficient, expandable and accurate algorithm for dealing large data. The assembly module parses aligned reads into splicing graphs, and uses network flow algorithms to select the most likely transcripts. The quantification module uses a latent class model to assign read counts from the nodes of splicing graphs to transcripts. Strawberry simultaneously estimates the transcript abundances and corrects for sequencing bias through an EM algorithm. Based on simulations, Strawberry outperforms Cufflinks and StringTie in terms of both assembly and quantification accuracies. Under the evaluation of a real data set, the estimated transcript expression by Strawberry has the highest correlation with Nanostring probe counts, an independent experiment measure for transcript expression. Availability: Strawberry is written in C++14, and is available as open source software at https://github.com/ruolin/strawberry under the MIT license.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/2lhGlr9xQ2s&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Julie Dickerson</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-11-28T00:00:06+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Initial-state-dependent, robust, transient neural dynamics encode conscious visual perception</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/rsm671pHq5I/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005806</id>
+		<updated>2017-11-27T22:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Alexis T. Baria, Brian Maniscalco, Biyu J. He&lt;/p&gt;
+
+Recent research has identified late-latency, long-lasting neural activity as a robust correlate of conscious perception. Yet, the dynamical nature of this activity is poorly understood, and the mechanisms governing its presence or absence and the associated conscious perception remain elusive. We applied dynamic-pattern analysis to whole-brain slow (&amp;lt; 5 Hz) cortical dynamics recorded by magnetoencephalography (MEG) in human subjects performing a threshold-level visual perception task. Up to 1 second before stimulus onset, brain activity pattern across widespread cortices significantly predicted whether a threshold-level visual stimulus was later consciously perceived. This initial state of brain activity interacts nonlinearly with stimulus input to shape the evolving cortical activity trajectory, with seen and unseen trials following well separated trajectories. We observed that cortical activity trajectories during conscious perception are fast evolving and robust to small variations in the initial state. In addition, spontaneous brain activity pattern prior to stimulus onset also influences unconscious perceptual making in unseen trials. Together, these results suggest that brain dynamics underlying conscious visual perception belongs to the class of initial-state-dependent, robust, transient neural dynamics.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/rsm671pHq5I&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Biyu J. He</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2017-11-28T00:00:06+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
 		<title type="html">Fear Conditioning Downregulates Rac1 Activity in the Basolateral Amygdala Astrocytes to Facilitate the Formation of Fear Memory</title>
 		<link href="https://www.frontiersin.org/articles/10.3389/fnmol.2017.00396"/>
 		<id>https://www.frontiersin.org/articles/10.3389/fnmol.2017.00396</id>
@@ -45,7 +114,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -65,7 +134,7 @@
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2017-11-27T18:00:06+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -84,7 +153,7 @@
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -105,7 +174,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -125,7 +194,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -145,7 +214,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -165,7 +234,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -185,7 +254,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -759,6 +828,126 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 	</entry>
 
 	<entry>
+		<title type="html">Shared Spatiotemporal Category Representations in Biological and Artificial Deep Neural Networks</title>
+		<link href="http://biorxiv.org/cgi/content/short/225607v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/225607v1?rss=1</id>
+		<updated>2017-11-27T00:00:00+00:00</updated>
+		<content type="html">
+ Understanding the computational transformations that enable invariant visual categorization is a fundamental challenge in both systems and cognitive neuroscience. Recently developed deep convolutional neural networks (CNNs) perform visual categorization at accuracies that rival humans, providing neuroscientists with the opportunity to interrogate the series of representational transformations that enable categorization in silico. The goal of the current study is to assess the extent to which sequential visual representations built by a CNN map onto those built in the human brain as assessed by high-density, time-resolved event-related potentials (ERPs). We found correspondence both over time and across the scalp: earlier ERP activity was best explained by early CNN layers at all electrodes. Later neural activity was best explained by the later, conceptual layers of the CNN. This effect was especially true both in frontal and right occipital sites. Together, we conclude that deep artificial neural networks trained to perform scene categorization traverse similar representational stages as the human brain. Thus, examining these networks will allow neuroscientists to better understand the transformations that enable invariant visual categorization.</content>
+		<author>
+			<name>Greene, M. R.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2017-11-28T00:00:14+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">GABAergic deficits and schizophrenia-like behaviors in a mouse model carrying patient-derived neuroligin-2 R215H mutation</title>
+		<link href="http://biorxiv.org/cgi/content/short/225524v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/225524v1?rss=1</id>
+		<updated>2017-11-27T00:00:00+00:00</updated>
+		<content type="html">
+ Schizophrenia (SCZ) is a severe mental disorder characterized by delusion, hallucination, and cognitive deficits. We have previously identified from schizophrenia patients a loss-of-function mutation Arg215[-&amp;gt;]His215 (R215H) of neuroligin 2 (NLGN2) gene, which encodes a cell adhesion molecule critical for GABAergic synapse formation and function. Here, we generated a novel transgenic mouse line with neuroligin-2 (NL2) R215H mutation, which showed a significant loss of NL2 protein, reduced GABAergic transmission, and impaired hippocampal activation. Importantly, R215H KI mice displayed anxiety-like behaviors, impaired pre-pulse inhibition (PPI), cognition deficits and abnormal stress responses, recapitulating several key aspects of schizophrenia-like behavior. Our results demonstrate a significant impact of a single point mutation NL2 R215H on brain functions, providing a novel animal model for the study of schizophrenia and neuropsychiatric disorders.</content>
+		<author>
+			<name>Chen, G.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2017-11-28T00:00:14+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Anterior cingulate cortex connectivity is associated with suppression of behavior in a rat model of chronic pain</title>
+		<link href="http://biorxiv.org/cgi/content/short/225482v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/225482v1?rss=1</id>
+		<updated>2017-11-27T00:00:00+00:00</updated>
+		<content type="html">
+ A cardinal feature of persistent pain that follows injury is a general suppression of behavior, in which motivation is inhibited in a way that promotes energy conservation and recuperation. Across species, the anterior cingulate cortex (ACC) is associated with the motivational aspects of phasic pain, but whether it mediates motivational functions in persistent pain is less clear. Using burrowing behavior as an marker of non-specific motivated behavior in rodents, we studied the suppression of burrowing following painful CFA or control injection into the right knee-joint of 37 rats (18 with pain), and examined associated neural connectivity with ultra-high-field resting state functional MRI. We found that connectivity between ACC and the subcortex correlated with the reduction in burrowing behavior observed following the pain manipulation. In a full replication study we confirmed these findings in a group of 44 rats (23 with pain). Across both datasets, reduced burrowing was assosciated with increased connectivity between ACC and subcortical structures including hypothalamic/preoptic nuclei and the bed nucleus of the stria terminalis. Together, the findings implicate ACC connectivity as a robust correlate of the motivational aspect of persistent pain in rodents.</content>
+		<author>
+			<name>Morris, L. S.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2017-11-28T00:00:14+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Molecule guided laser ablation as a novel therapeutic strategy to control itch.</title>
+		<link href="http://biorxiv.org/cgi/content/short/225391v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/225391v1?rss=1</id>
+		<updated>2017-11-27T00:00:00+00:00</updated>
+		<content type="html">
+ Itch is a major symptom of many chronic skin diseases that can exacerbate inflammation by provoking excessive scratching and causing skin damage. Here we develop a novel technology to control itch through molecular guided delivery of a phototoxic agent and near infrared (IR) illumination of the skin. Exploiting the selective binding of the pruritogen Interleukin-31 to itch sensing cells, we generate an engineered IL31SNAP ligand derivative (IL31K138A-SNAP) that binds to cells but does not evoke signaling or provoke scratching when injected in vivo. Conjugation of IL31K138A-SNAP to the photosensitizer IRDye700DX phthalocyanine (IR700) and injection of the skin results in long-term reversal of scratching behavior evoked by IL31 upon near IR illumination. We further develop a topical preparation of IL31K138A-SNAP-IR700 that strikingly, reverses behavioral and dermatological indicators in mouse models of Atopic Dermatitis (AD) and the genetic skin disease Familial Primary Localized Cutaneous Amyloidosis (FPLCA). We demonstrate that this therapeutic effect results from selective retraction of itch sensing neurons in the skin, breaking the cycle of itch and disruption of the skin's barrier function. Thus, molecule guided photoablation is a powerful new technology for controlling itch and treating inflammatory skin diseases.</content>
+		<author>
+			<name>Nocchi, L.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2017-11-28T00:00:14+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Instructive starPEG-Heparin biohybrid 3D cultures for modeling human neural stem cell plasticity, neurogenesis, and neurodegeneration</title>
+		<link href="http://biorxiv.org/cgi/content/short/225243v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/225243v1?rss=1</id>
+		<updated>2017-11-27T00:00:00+00:00</updated>
+		<content type="html">
+ Three-dimensional models of human neural development and neurodegeneration are crucial when exploring stem-cell-based regenerative therapies in a tissue-mimetic manner. However, existing 3D culture systems are not sufficient to model the inherent plasticity of NSCs due to their ill-defined composition and lack of controllability of the physical properties. Adapting a glycosaminoglycan-based, cell-responsive hydrogel platform, we stimulated primary and induced human neural stem cells (NSCs) to manifest neurogenic plasticity and form extensive neuronal networks in vitro. The 3D cultures exhibited neurotransmitter responsiveness, electrophysiological activity, and tissue-specific extracellular matrix (ECM) deposition. By whole transcriptome sequencing, we identified that 3D cultures express mature neuronal markers, and reflect the in vivo make-up of mature cortical neurons compared to 2D cultures. Thus, our data suggest that our established 3D hydrogel culture supports the tissue-mimetic maturation of human neurons. We also exemplarily modeled neurodegenerative conditions by treating the cultures with A{beta}42 peptide and observed the known human pathological effects of Alzheimer's disease including reduced NSC proliferation, impaired neuronal network formation, synaptic loss and failure in ECM deposition as well as elevated Tau hyperphosphorylation and formation of neurofibrillary tangles. We determined the changes in transcriptomes of primary and induced NSC-derived neurons after A{beta}42, providing a useful resource for further studies. Thus, our hydrogel-based human cortical 3D cell culture is a powerful platform for studying various aspects of neural development and neurodegeneration, as exemplified for A{beta}42 toxicity and neurogenic stem cell plasticity.</content>
+		<author>
+			<name>Papadimitriou, C.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2017-11-28T00:00:14+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Extended &quot;Constant Field&quot; equations: an electrodiffusion model of NMDA receptors</title>
+		<link href="http://biorxiv.org/cgi/content/short/221408v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/221408v1?rss=1</id>
+		<updated>2017-11-27T00:00:00+00:00</updated>
+		<content type="html">
+ Ion channels are experimentally divided into Ohmic and non-Ohmic channels. Similarly, a theoretical dichotomy exists in the flux equations of these channels. The &quot;constant field&quot; or &quot;Goldman-Hodgkin and Katz&quot; current equation is a commonly accepted analytic model of electrodiffusion in channels. This equation, however, seems to have some shortcomings, such as the inability to explain the nonlinear relation between the single channel current and the membrane potential in non-Ohmic channels. In this study, we introduce the &quot;general&quot; and &quot;extended&quot; versions of this equation that are applicable to both Ohmic and non-Ohmic channels. Our results showed the ability of these equations to simulate the NMDA receptor current, as a non-Ohmic channel, not only in the symmetric &quot;uni-ionic&quot; solutions but also in the asymmetric &quot;bi-ionic&quot; solutions of sodium and calcium ions. Our equations reveal for the first time that sodium ions like calcium ions are able to block the NMDA receptors current. It seems that the previously identified cation binding-sites have a prominent role in changing the diffusion coefficient inside the channel. We also propose the concentration-dependent change in the asymmetry of diffusion coefficient as a remarkably effective mechanism for shaping the channel's I-V curve.</content>
+		<author>
+			<name>Moradi, K.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2017-11-28T00:00:14+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
 		<title type="html">Neural Interactome: Interactive Simulation of a Neuronal System</title>
 		<link href="http://biorxiv.org/cgi/content/short/209155v1?rss=1"/>
 		<id>http://biorxiv.org/cgi/content/short/209155v1?rss=1</id>
@@ -774,7 +963,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -793,7 +982,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -814,7 +1003,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -834,7 +1023,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -854,7 +1043,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -874,7 +1063,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -894,7 +1083,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -914,7 +1103,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -1060,7 +1249,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1080,7 +1269,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1100,7 +1289,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -1119,7 +1308,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -1140,7 +1329,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1160,7 +1349,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1180,7 +1369,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1220,7 +1409,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2017-11-27T18:00:06+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -1240,7 +1429,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -1260,7 +1449,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -1280,7 +1469,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -1300,7 +1489,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -1320,7 +1509,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -1340,7 +1529,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -1360,7 +1549,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -1380,7 +1569,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -1400,7 +1589,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -1420,7 +1609,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -1439,7 +1628,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -1459,7 +1648,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -1480,7 +1669,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1500,7 +1689,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1520,7 +1709,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -1540,7 +1729,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1560,7 +1749,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1580,7 +1769,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1600,7 +1789,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1620,7 +1809,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -1640,7 +1829,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -1660,7 +1849,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -1680,7 +1869,7 @@ configurations which nonetheless yield equivalent macroscopic dynamics.
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -1870,106 +2059,6 @@ produce bumps of a given shape.
 	</entry>
 
 	<entry>
-		<title type="html">Neuronal resonance in the theta (4-10 Hz) frequency range is modulated by dynamic changes in the input resistance</title>
-		<link href="http://biorxiv.org/cgi/content/short/224253v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/224253v1?rss=1</id>
-		<updated>2017-11-23T00:00:00+00:00</updated>
-		<content type="html">
- Most neurons of the mammalian brain display intrinsic resonance with frequency selectivity (fR) for inputs within the theta-range (4-10 Hz). Variations in network oscillation along this range depend on the animal behavior; however, whether neurons can dynamically tune their fR has not been addressed. Using slice electrophysiology, dynamic clamping and computer modeling we studied three types of cortical neurons, finding that the input resistance (Rin) inversely sets fR into the theta range, following a power law. We demonstrate that physiological changes in Rin modulate fR and response phase, serving as a mechanism that instantaneously tunes oscillatory responses. Moreover, these modulations are translated into spiking regimes, modifying spike frequency and timing. Since synaptic inputs reduce Rin, this modulation provides a mean for adjusting the frequency and timing of firing of individual neurons in interplay with the network fluctuations. This might be a widespread property among resonant neurons.</content>
-		<author>
-			<name>Vera, J.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Analysis of fMRI data using noise-diffusion network models: a new covariance-coding perspective</title>
-		<link href="http://biorxiv.org/cgi/content/short/223784v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/223784v1?rss=1</id>
-		<updated>2017-11-23T00:00:00+00:00</updated>
-		<content type="html">
- Since the middle of the 1990s, studies of resting-state fMRI/BOLD data have explored the correlation patterns of activity across the whole brain, which is referred to as functional connectivity (FC). Among the many methods that have been developed to interpret FC, a recently proposed model-based approach describes the propagation of fluctuating BOLD activity within the recurrently connected brain network by inferring the effective connectivity (EC). In this model, EC quantifies the strengths of directional interactions between brain regions, viewed from the proxy of BOLD activity. In addition, the tuning procedure for the model provides estimates for the local variability (input variances) to explain how the observed FC is generated. Generalizing, the network dynamics can be studied in the context of an input-output mapping - determined by EC - for the second-order statistics of fluctuating nodal activities. The present paper focuses on the following detection paradigm: observing output covariances, how discriminative is the (estimated) network model with respect to various input covariance patterns? An application with the model fitted to experimental fMRI data - movie viewing versus resting state - illustrates that changes in excitability and changes in brain coordination go hand in hand.</content>
-		<author>
-			<name>Gilson, M.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Real-Time Tracking of Selective Auditory Attention from M/EEG: A Bayesian Filtering Approach</title>
-		<link href="http://biorxiv.org/cgi/content/short/222661v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/222661v1?rss=1</id>
-		<updated>2017-11-23T00:00:00+00:00</updated>
-		<content type="html">
- Humans are able to identify and track a target speaker amid a cacophony of acoustic interference, which is often referred to as the cocktail party phenomenon. Results from several decades of studying this phenomenon have culminated in recent years in various promising attempts to decode the attentional state of a listener in a competing-speaker environment from non-invasive neuroimaging recordings such as magnetoencephalography (MEG) and electroencephalography (EEG). To this end, most existing approaches compute correlation-based measures by either regressing the features of each speech stream to the M/EEG channels (the decoding approach) or vice versa (the encoding approach). These procedures operate in an offline fashion, i.e., require the entire duration of the experiment and multiple trials to provide robust results. Therefore, they cannot be used in emerging applications such as smart hearing aid devices, where a single trial must be used in real-time to decode the attentional state. In this paper, we close this gap by developing an algorithmic pipeline for real-time decoding of the attentional state. Our proposed framework consists of three main modules: 1) Real-time and robust estimation of encoding or decoding coefficients, achieved by sparse adaptive filtering, 2) Extracting reliable markers of the attentional state, and thereby generalizing the widely-used correlation-based measures thereof, and 3) Devising a near real-time state-space estimator that translates the noisy and variable attention markers to robust and reliable estimates of the attentional state with minimal delay. Our proposed algorithms integrate various techniques including forgetting factor-based adaptive filtering, l1-regularization, forward-backward splitting algorithms, fixed-lag smoothing, and Expectation Maximization. We validate the performance of our proposed framework using comprehensive simulations as well as application to experimentally acquired M/EEG data. Our results reveal that the proposed real-time algorithms perform nearly as accurate as the existing state-of-the-art offline techniques, while providing a significant degree of adaptivity, statistical robustness, and computational savings.</content>
-		<author>
-			<name>Miran, S.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Signaling-dependent control of apical membrane size and self-renewal in rosette-stage human neuroepithelial stem cells</title>
-		<link href="http://biorxiv.org/cgi/content/short/222125v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/222125v1?rss=1</id>
-		<updated>2017-11-23T00:00:00+00:00</updated>
-		<content type="html">
- In the early developing nervous system, self-renewing neural stem cells are polarized and maintain an apical domain facing a central lumen. The presence of apical membrane is thought to have a profound influence on maintaining the stem cell state. With the onset of neurogenesis cells lose their polarization and the concomitant loss of the apical domain coincides with a loss of the stem cell identity. Very little is known about the molecular signals controlling apical membrane size. Here we use two neuroepithelial cell systems, one derived from regenerating axolotl spinal cord and the other from human ESCs to identify a conserved molecular signalling pathway initiated by lysophosphatidic acid (LPA) that controls apical membrane size and consequently controls and maintains epithelial organization and lumen size in neuroepithelial rosettes. This apical domain size increase occurs independently of effects on proliferation and involves a SRF-dependent transcriptional induction of junctional and apical membrane components.</content>
-		<author>
-			<name>Medelnik, J.-P.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Sensitivity to Pain Expectations: A Bayesian Model of Individual Differences</title>
-		<link href="http://biorxiv.org/cgi/content/short/176172v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/176172v1?rss=1</id>
-		<updated>2017-11-23T00:00:00+00:00</updated>
-		<content type="html">
- The thoughts and feelings people have about pain (referred to as &quot;Pain expectations&quot;) are known to alter the perception of pain. However we know very little about the cognitive processes that underpin pain expectations, or what drives the differing effect that pain expectations have between individuals. This paper details the testing of a model of pain perception which formalises the response to pain in terms of a Bayesian prior-to-posterior updating process. Using data acquired from a short and deception-free predictive cue task, it was found that this Bayesian model predicted ratings of pain better than other, simpler models. At the group level, the results confirmed two core predictions of Hierarchical Predictive Processing; that expectation alters perception and that increased uncertainty in the expectation reduces its impact on perception. The addition to the model of parameters relating to trait differences in pain expectation, improved its fit, suggesting that such traits (which have been relatively neglected in experimental work on pain perception) play a significant role in perception beyond those expectations triggered by the pain cue. When model parameters were allowed to vary by participant, the fit improved further. This final model produced a characterisation of the sensitivity of each individual to pain expectations. These findings are relevant for the understanding of the cognitive basis of pain expectations, and potentially useful for guiding patient stratification and clinical experimentation.</content>
-		<author>
-			<name>Hoskin, R.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html">Fragmentation modes and the evolution of life cycles</title>
 		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/wDROTWJQqu0/article"/>
 		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005860</id>
@@ -1987,7 +2076,7 @@ Reproduction is a defining feature of living systems. To reproduce, aggregates o
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -2008,7 +2097,7 @@ Reproduction is a defining feature of living systems. To reproduce, aggregates o
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -2467,7 +2556,7 @@ Reproduction is a defining feature of living systems. To reproduce, aggregates o
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -2487,7 +2576,7 @@ Reproduction is a defining feature of living systems. To reproduce, aggregates o
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -2506,7 +2595,7 @@ Reproduction is a defining feature of living systems. To reproduce, aggregates o
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -2526,7 +2615,7 @@ Reproduction is a defining feature of living systems. To reproduce, aggregates o
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -2547,7 +2636,7 @@ Reproduction is a defining feature of living systems. To reproduce, aggregates o
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -2567,7 +2656,7 @@ Reproduction is a defining feature of living systems. To reproduce, aggregates o
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -2587,7 +2676,7 @@ Reproduction is a defining feature of living systems. To reproduce, aggregates o
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -2607,7 +2696,7 @@ Reproduction is a defining feature of living systems. To reproduce, aggregates o
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -2627,7 +2716,7 @@ Reproduction is a defining feature of living systems. To reproduce, aggregates o
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -2647,7 +2736,7 @@ Reproduction is a defining feature of living systems. To reproduce, aggregates o
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -2667,7 +2756,7 @@ Reproduction is a defining feature of living systems. To reproduce, aggregates o
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -2687,7 +2776,7 @@ Reproduction is a defining feature of living systems. To reproduce, aggregates o
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -2707,7 +2796,7 @@ Reproduction is a defining feature of living systems. To reproduce, aggregates o
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -2991,26 +3080,6 @@ understand the compositional structure of EEG time series.
 	</entry>
 
 	<entry>
-		<title type="html">The temporal evolution of conceptual object representations revealed through models of behavior, semantics and deep neural networks</title>
-		<link href="http://biorxiv.org/cgi/content/short/223990v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/223990v1?rss=1</id>
-		<updated>2017-11-22T00:00:00+00:00</updated>
-		<content type="html">
- Visual object representations are commonly thought to emerge rapidly, yet it has remained unclear to what extent early brain responses reflect purely low-level visual features of these objects and how strongly those features contribute to later categorical or conceptual representations. Here, we aimed to estimate a lower temporal bound for the emergence of conceptual representations by defining two criteria that characterize such representations: 1) conceptual object representations should generalize across different exemplars of the same object, and 2) these representations should reflect high-level behavioral judgments. To test these criteria, we compared magnetoencephalography (MEG) recordings between two groups of participants (n = 16 per group) exposed to different exemplar images of the same object concepts. Further, we disentangled low-level from high-level MEG responses by estimating the unique and shared contribution of models of behavioral judgments, semantics, and different layers of deep neural networks of visual object processing. We find that 1) both generalization across exemplars as well as generalization of object-related signals across time increase after 150 ms, peaking around 230 ms; 2) behavioral judgments explain the most unique variance in the response after 150 ms. Collectively, these results suggest a lower bound for the emergence of conceptual object representations around 150 ms following stimulus onset.</content>
-		<author>
-			<name>Bankson, B. B.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2017-11-26T18:00:10+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html">Choose, rate or squeeze: Comparison of economic value functions elicited by different behavioral tasks</title>
 		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/iy3NDzd9fuo/article"/>
 		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005848</id>
@@ -3028,7 +3097,7 @@ A standard view in neuroeconomics is that to make a choice, an agent first assig
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3051,7 +3120,7 @@ Timings of human activities are marked by circadian clocks which in turn are ent
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3074,7 +3143,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3095,7 +3164,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -3115,7 +3184,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -3135,7 +3204,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3155,7 +3224,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -3175,7 +3244,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:12+00:00</updated>
+			<updated>2017-11-28T00:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3195,7 +3264,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -3215,7 +3284,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3235,7 +3304,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -3255,7 +3324,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3275,7 +3344,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -3295,7 +3364,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3315,7 +3384,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -3335,7 +3404,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -3355,7 +3424,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -3375,7 +3444,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3395,7 +3464,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:12+00:00</updated>
+			<updated>2017-11-28T00:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3415,7 +3484,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3435,7 +3504,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3455,7 +3524,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -3475,7 +3544,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">Proceedings of the National Academy of Sciences RSS feed -- recent issues</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/pnas/UJrK"/>
 			<id>http://www.pnas.org</id>
-			<updated>2017-11-22T00:00:13+00:00</updated>
+			<updated>2017-11-28T00:00:14+00:00</updated>
 		</source>
 	</entry>
 
@@ -3495,7 +3564,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3515,7 +3584,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3535,7 +3604,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3555,7 +3624,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3575,7 +3644,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3595,7 +3664,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3639,7 +3708,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3659,7 +3728,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3679,7 +3748,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3699,7 +3768,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3719,7 +3788,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3739,7 +3808,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3759,7 +3828,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3779,7 +3848,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3799,7 +3868,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3819,7 +3888,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3839,7 +3908,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3859,7 +3928,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3879,7 +3948,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3899,7 +3968,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3919,7 +3988,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3939,7 +4008,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3959,7 +4028,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3979,7 +4048,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3999,7 +4068,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -4019,7 +4088,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4039,7 +4108,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4059,7 +4128,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4079,7 +4148,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4099,7 +4168,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4119,7 +4188,7 @@ Schools of fish and flocks of birds can move together in synchrony and decide on
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4378,7 +4447,7 @@ Viewing of ambiguous stimuli can lead to bistable perception alternating between
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4401,7 +4470,7 @@ Over the last ten years, isogenic tagging (IT) has revolutionised the study of b
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4424,7 +4493,7 @@ Public health related decisions often have to balance the cost of intervention s
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4447,7 +4516,7 @@ The detailed knowledge of &lt;i&gt;C. elegans&lt;/i&gt; connectome for 3 decades
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4470,7 +4539,7 @@ When we perform a cognitive task, multiple brain regions are engaged. Understand
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4599,7 +4668,7 @@ When we perform a cognitive task, multiple brain regions are engaged. Understand
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4619,7 +4688,7 @@ When we perform a cognitive task, multiple brain regions are engaged. Understand
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -4639,7 +4708,7 @@ When we perform a cognitive task, multiple brain regions are engaged. Understand
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -4659,7 +4728,7 @@ When we perform a cognitive task, multiple brain regions are engaged. Understand
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4679,7 +4748,7 @@ When we perform a cognitive task, multiple brain regions are engaged. Understand
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4699,7 +4768,7 @@ When we perform a cognitive task, multiple brain regions are engaged. Understand
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4814,7 +4883,7 @@ on the sequences of bursts.
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -4905,7 +4974,7 @@ Cullin-RING ubiquitin ligases (CRLs) catalyze the ubiquitylation of substrates m
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4928,7 +4997,7 @@ Modern time series gene expression and other omics data sets have enabled unprec
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4951,7 +5020,7 @@ Resection of the bulk of a tumour often cannot eliminate all cancer cells, due t
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4972,7 +5041,7 @@ Resection of the bulk of a tumour often cannot eliminate all cancer cells, due t
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4992,7 +5061,7 @@ Resection of the bulk of a tumour often cannot eliminate all cancer cells, due t
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5012,7 +5081,7 @@ Resection of the bulk of a tumour often cannot eliminate all cancer cells, due t
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -5032,7 +5101,7 @@ Resection of the bulk of a tumour often cannot eliminate all cancer cells, due t
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -5052,7 +5121,7 @@ Resection of the bulk of a tumour often cannot eliminate all cancer cells, due t
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5095,7 +5164,7 @@ Laboratory and epidemiological evidence indicate that ambient humidity modulates
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5116,7 +5185,7 @@ Laboratory and epidemiological evidence indicate that ambient humidity modulates
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5139,7 +5208,7 @@ Ectopic heartbeats can trigger reentrant arrhythmias, leading to ventricular fib
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5160,7 +5229,7 @@ Ectopic heartbeats can trigger reentrant arrhythmias, leading to ventricular fib
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2017-11-27T18:00:06+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -5180,7 +5249,7 @@ Ectopic heartbeats can trigger reentrant arrhythmias, leading to ventricular fib
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -5200,7 +5269,7 @@ Ectopic heartbeats can trigger reentrant arrhythmias, leading to ventricular fib
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -5220,7 +5289,7 @@ Ectopic heartbeats can trigger reentrant arrhythmias, leading to ventricular fib
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -5240,7 +5309,7 @@ Ectopic heartbeats can trigger reentrant arrhythmias, leading to ventricular fib
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -5587,7 +5656,7 @@ Compositional data consist of vectors of proportions normalized to a constant su
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5610,7 +5679,7 @@ The olfactory bulb transforms not only the information content of the primary se
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
+			<updated>2017-11-28T00:00:06+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5631,7 +5700,7 @@ The olfactory bulb transforms not only the information content of the primary se
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -5651,7 +5720,7 @@ The olfactory bulb transforms not only the information content of the primary se
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -5671,7 +5740,7 @@ The olfactory bulb transforms not only the information content of the primary se
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -5691,7 +5760,7 @@ The olfactory bulb transforms not only the information content of the primary se
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5711,7 +5780,7 @@ The olfactory bulb transforms not only the information content of the primary se
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -5731,7 +5800,7 @@ The olfactory bulb transforms not only the information content of the primary se
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5751,7 +5820,7 @@ The olfactory bulb transforms not only the information content of the primary se
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5771,7 +5840,7 @@ The olfactory bulb transforms not only the information content of the primary se
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -5791,7 +5860,7 @@ The olfactory bulb transforms not only the information content of the primary se
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -5811,7 +5880,7 @@ The olfactory bulb transforms not only the information content of the primary se
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -5831,7 +5900,7 @@ The olfactory bulb transforms not only the information content of the primary se
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6067,29 +6136,6 @@ The olfactory bulb transforms not only the information content of the primary se
 	</entry>
 
 	<entry>
-		<title type="html">A free-boundary model of a motile cell explains turning behavior</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/F3soywyLL-A/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005862</id>
-		<updated>2017-11-14T22:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Masoud Nickaeen, Igor L. Novak, Stephanie Pulford, Aaron Rumack, Jamie Brandon, Boris M. Slepchenko, Alex Mogilner&lt;/p&gt;
-
-To understand shapes and movements of cells undergoing lamellipodial motility, we systematically explore minimal free-boundary models of actin-myosin contractility consisting of the force-balance and myosin transport equations. The models account for isotropic contraction proportional to myosin density, viscous stresses in the actin network, and constant-strength viscous-like adhesion. The contraction generates a spatially graded centripetal actin flow, which in turn reinforces the contraction via myosin redistribution and causes retraction of the lamellipodial boundary. Actin protrusion at the boundary counters the retraction, and the balance of the protrusion and retraction shapes the lamellipodium. The model analysis shows that initiation of motility critically depends on three dimensionless parameter combinations, which represent myosin-dependent contractility, a characteristic viscosity-adhesion length, and a rate of actin protrusion. When the contractility is sufficiently strong, cells break symmetry and move steadily along either straight or circular trajectories, and the motile behavior is sensitive to conditions at the cell boundary. Scanning of a model parameter space shows that the contractile mechanism of motility supports robust cell turning in conditions where short viscosity-adhesion lengths and fast protrusion cause an accumulation of myosin in a small region at the cell rear, destabilizing the axial symmetry of a moving cell.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/F3soywyLL-A&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Alex Mogilner</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html">Functional Brain Imaging Synthesis Based on Image Decomposition and Kernel Modeling: Application to Neurodegenerative Diseases</title>
 		<link href="https://www.frontiersin.org/articles/10.3389/fninf.2017.00065"/>
 		<id>https://www.frontiersin.org/articles/10.3389/fninf.2017.00065</id>
@@ -6105,7 +6151,7 @@ To understand shapes and movements of cells undergoing lamellipodial motility, w
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6125,7 +6171,7 @@ To understand shapes and movements of cells undergoing lamellipodial motility, w
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6187,7 +6233,7 @@ To understand shapes and movements of cells undergoing lamellipodial motility, w
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6207,7 +6253,7 @@ To understand shapes and movements of cells undergoing lamellipodial motility, w
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6227,7 +6273,7 @@ To understand shapes and movements of cells undergoing lamellipodial motility, w
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6247,7 +6293,7 @@ To understand shapes and movements of cells undergoing lamellipodial motility, w
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6267,7 +6313,7 @@ To understand shapes and movements of cells undergoing lamellipodial motility, w
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6287,7 +6333,7 @@ To understand shapes and movements of cells undergoing lamellipodial motility, w
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6307,7 +6353,7 @@ To understand shapes and movements of cells undergoing lamellipodial motility, w
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6327,7 +6373,7 @@ To understand shapes and movements of cells undergoing lamellipodial motility, w
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6347,7 +6393,7 @@ To understand shapes and movements of cells undergoing lamellipodial motility, w
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6369,50 +6415,6 @@ To understand shapes and movements of cells undergoing lamellipodial motility, w
 			<id>http://www.cell.com/archive?publicationCode=tins&amp;rss=yes</id>
 			<updated>2017-11-21T18:00:23+00:00</updated>
 			<rights type="html">© 2017 Published by Elsevier Inc. All rights reserved.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">A model-based clustering method to detect infectious disease transmission outbreaks from sequence variation</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/DCiNkk7egBE/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005868</id>
-		<updated>2017-11-13T22:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Rosemary M. McCloskey, Art F. Y. Poon&lt;/p&gt;
-
-Clustering infections by genetic similarity is a popular technique for identifying potential outbreaks of infectious disease, in part because sequences are now routinely collected for clinical management of many infections. A diverse number of nonparametric clustering methods have been developed for this purpose. These methods are generally intuitive, rapid to compute, and readily scale with large data sets. However, we have found that nonparametric clustering methods can be biased towards identifying clusters of diagnosis—where individuals are sampled sooner post-infection—rather than the clusters of rapid transmission that are meant to be potential foci for public health efforts. We develop a fundamentally new approach to genetic clustering based on fitting a Markov-modulated Poisson process (MMPP), which represents the evolution of transmission rates along the tree relating different infections. We evaluated this model-based method alongside five nonparametric clustering methods using both simulated and actual HIV sequence data sets. For simulated clusters of rapid transmission, the MMPP clustering method obtained higher mean sensitivity (85%) and specificity (91%) than the nonparametric methods. When we applied these clustering methods to published sequences from a study of HIV-1 genetic clusters in Seattle, USA, we found that the MMPP method categorized about half (46%) as many individuals to clusters compared to the other methods. Furthermore, the mean internal branch lengths that approximate transmission rates were significantly shorter in clusters extracted using MMPP, but not by other methods. We determined that the computing time for the MMPP method scaled linearly with the size of trees, requiring about 30 seconds for a tree of 1,000 tips and about 20 minutes for 50,000 tips on a single computer. This new approach to genetic clustering has significant implications for the application of pathogen sequence analysis to public health, where it is critical to robustly and accurately identify clusters for the most cost-effective deployment of outbreak management and prevention resources.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/DCiNkk7egBE&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Art F. Y. Poon</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Correction: Unmet needs for analyzing biological big data: A survey of 704 NSF principal investigators</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/QBiVR_Btu9Y/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005858</id>
-		<updated>2017-11-13T22:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by The PLOS Computational Biology Staff &lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/QBiVR_Btu9Y&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>The PLOS Computational Biology Staff</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2017-11-27T17:51:18+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
 
@@ -6452,7 +6454,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6472,7 +6474,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6492,7 +6494,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6512,7 +6514,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6707,7 +6709,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6728,7 +6730,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6747,7 +6749,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6767,7 +6769,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6788,7 +6790,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6808,7 +6810,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6828,7 +6830,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6847,7 +6849,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6867,7 +6869,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6887,7 +6889,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6907,7 +6909,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6927,7 +6929,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6947,7 +6949,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6967,7 +6969,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -6987,7 +6989,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -7007,7 +7009,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2017-11-27T18:00:08+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -7028,7 +7030,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7048,7 +7050,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7068,7 +7070,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2017-11-27T18:00:06+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7088,7 +7090,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7108,7 +7110,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7128,7 +7130,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7148,7 +7150,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7228,7 +7230,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7248,7 +7250,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7268,7 +7270,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7288,7 +7290,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7308,7 +7310,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2017-11-27T18:00:06+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7370,7 +7372,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -7390,7 +7392,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7410,7 +7412,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7430,7 +7432,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7450,7 +7452,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7470,7 +7472,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7490,7 +7492,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7510,7 +7512,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Synaptic Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/synaptic-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/synaptic-neuroscience</id>
-			<updated>2017-11-27T18:00:06+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7530,7 +7532,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7550,7 +7552,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7570,7 +7572,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7635,7 +7637,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7655,7 +7657,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7795,7 +7797,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7815,7 +7817,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7835,7 +7837,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7855,7 +7857,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7938,7 +7940,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7958,7 +7960,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7978,7 +7980,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -8019,7 +8021,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2017-11-27T18:00:06+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -8039,7 +8041,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2017-11-27T18:00:06+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -8059,7 +8061,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -8079,7 +8081,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -8099,7 +8101,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -8119,7 +8121,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -8139,7 +8141,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurogenesis</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -8159,7 +8161,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -8179,7 +8181,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -8241,7 +8243,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -8261,7 +8263,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -8301,7 +8303,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurogenesis</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -8321,7 +8323,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -8341,7 +8343,7 @@ Clustering infections by genetic similarity is a popular technique for identifyi
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2017-11-27T18:00:07+00:00</updated>
+			<updated>2017-11-28T00:00:10+00:00</updated>
 		</source>
 	</entry>
 
