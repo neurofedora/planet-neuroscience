@@ -69,6 +69,7 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/231613v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/231449v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/231340v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/230821v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/229609v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/231829v1?rss=1" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S095943881730185X" />
@@ -105,7 +106,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/231019v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/230995v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/230961v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/230912v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005837" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005832" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005823" />
@@ -797,6 +797,13 @@ respectively.
 	<dc:date>2017-12-11T00:00:00+00:00</dc:date>
 	<dc:creator>Ding, C.</dc:creator>
 </item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/230821v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Leveraging heterogeneity for neural computation with fading memory in layer 2/3 cortical microcircuits</title>
+	<link>http://biorxiv.org/cgi/content/short/230821v1?rss=1</link>
+	<content:encoded>Complexity and heterogeneity are intrinsic to neurobiological systems, manifest in every process, at every scale, and are inextricably linked to the systems' emergent collective behaviours and function. However, the majority of studies addressing the dynamics and computational properties of biologically inspired cortical microcircuits tend to assume (often for the sake of analytical tractability) a great degree of homogeneity in both neuronal and synaptic/connectivity parameters. While simplification and reductionism are necessary to understand the brain's functional principles, disregarding the existence of the multiple heterogeneities in the cortical composition, which may be at the core of its computational proficiency, will inevitably fail to account for important phenomena and limit the scope and generalizability of cortical models. We address these issues by studying the individual and composite functional roles of heterogeneities in neuronal, synaptic and structural properties in a biophysically plausible layer 2/3 microcircuit model, built and constrained by multiple sources of empirical data. This approach was made possible by the emergence of large-scale, well curated databases, as well as the substantial improvements in experimental methodologies achieved over the last few years. Our results show that variability in single neuron parameters is the dominant source of functional specialization, leading to highly proficient microcircuits with much higher computational power than their homogeneous counterparts. We further show that fully heterogeneous circuits, which are closest to the biophysical reality, owe their response properties to the differential contribution of different sources of heterogeneity.</content:encoded>
+	<dc:date>2017-12-11T00:00:00+00:00</dc:date>
+	<dc:creator>Duarte, R.</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/229609v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Cerebral White Matter Sex Dimorphism in Alcoholism: A Diffusion Tensor Imaging Study</title>
 	<link>http://biorxiv.org/cgi/content/short/229609v1?rss=1</link>
@@ -1058,13 +1065,6 @@ that specifically transform sensory information into choice.
 	<content:encoded>Social information is highly intrinsically relevant for the human species because of its direct link to guiding physiological responses and behavior. Accordingly, extant functional magnetic resonance imaging (fMRI) data suggest that social content may form a unique stimulus dimension. It remains largely unknown, however, how neural activity underlying social (versus nonsocial) information processing temporally unfolds, and how such social information appraisal may interact with the processing of other stimulus characteristics, particularly emotional meaning. Here, we presented complex visual scenes differing in both social (versus nonsocial) and emotional relevance (positive, negative, neutral) intermixed with scrambled versions of these pictures to N= 24 healthy young adults. Event-related brain potentials (ERPs) to intact pictures were examined for gaining insight to the dynamics of appraisal of both dimensions, implemented within the brain. Our main finding is an early interaction between social and emotional relevance due to enhanced amplitudes of early ERP components to emotionally positive pictures of social compared to nonsocial content, presumably reflecting rapid allocation of attention and counteracting an overall negativity bias. Importantly, our ERP data show high similarity with previously observed fMRI data using the same stimuli, and source estimations located the ERP effects in overlapping occipito-temporal brain areas. Our new data suggest that relevance detection may occur already as early as around 100 ms after stimulus onset and may combine relevance checks not only examining intrinsic pleasantness/emotional valence, but also social content as a unique, highly relevant stimulus dimension.</content:encoded>
 	<dc:date>2017-12-08T00:00:00+00:00</dc:date>
 	<dc:creator>Schacht, A.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/230912v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Integrated analysis of anatomical and electrophysiological human intracranial data</title>
-	<link>http://biorxiv.org/cgi/content/short/230912v1?rss=1</link>
-	<content:encoded>The exquisite spatiotemporal precision of human intracranial EEG recordings (iEEG) permits characterizing neural processing with a level of detail that is inaccessible to scalp-EEG, MEG, or fMRI. However, the same qualities that make iEEG an exceptionally powerful tool also present unique challenges. Until now, the fusion of anatomical data (MRI and CT images) with the electrophysiological data and its subsequent analysis has relied on technologically and conceptually challenging combinations of software. Here, we describe a comprehensive protocol that addresses the complexities associated with human iEEG, providing complete transparency and flexibility in the evolution of raw data into illustrative representations. The protocol is directly integrated with an open source toolbox for electrophysiological data analysis (FieldTrip). This allows iEEG researchers to build on a continuously growing body of scriptable and reproducible analysis methods that, over the past decade, have been developed and employed by a large research community. We demonstrate the protocol for an example complex iEEG data set to provide an intuitive and rapid approach to dealing with both neuroanatomical information and large electrophysiological data sets. We explain how the protocol can be largely automated, taking under an hour to complete, and readily adjusted to iEEG data sets with other characteristics.</content:encoded>
-	<dc:date>2017-12-08T00:00:00+00:00</dc:date>
-	<dc:creator>Stolk, A.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005837">
 	<title>PLOS Computational Biology: New Articles: A cyber-linked undergraduate research experience in computational biomolecular structure prediction and design</title>
