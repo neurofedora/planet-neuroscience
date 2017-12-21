@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005917" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25116" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25114" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25115" />
@@ -313,7 +314,6 @@
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2017.00663" />
 			<rdf:li rdf:resource="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-017-0398-4" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005893" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005879" />
 			<rdf:li rdf:resource="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25118" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsys.2017.00092" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsys.2017.00088" />
@@ -419,6 +419,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005917">
+	<title>PLOS Computational Biology: New Articles: Correction: Reading wild minds: A computational assay of Theory of Mind sophistication across seven primate species</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/IgnURE_7iNU/article</link>
+	<content:encoded>&lt;p&gt;by The PLOS Computational Biology Staff &lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/IgnURE_7iNU&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-12-20T22:00:00+00:00</dc:date>
+	<dc:creator>The PLOS Computational Biology Staff</dc:creator>
+</item>
 <item rdf:about="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25116">
 	<title>Annals of Neurology: Issue Information - Masthead</title>
 	<link>http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25116</link>
@@ -2647,15 +2654,6 @@ Recurrent and feedback networks are capable of holding dynamic memories. Nonethe
 We address the issue of reliably detecting and quantifying cross-frequency coupling (CFC) in neural time series. Based on non-linear auto-regressive models, the proposed method provides a generative and parametric model of the time-varying spectral content of the signals. As this method models the entire spectrum simultaneously, it avoids the pitfalls related to incorrect filtering or the use of the Hilbert transform on wide-band signals. As the model is probabilistic, it also provides a score of the model “goodness of fit” via the likelihood, enabling easy and legitimate model selection and parameter comparison; this data-driven feature is unique to our model-based approach. Using three datasets obtained with invasive neurophysiological recordings in humans and rodents, we demonstrate that these models are able to replicate previous results obtained with other metrics, but also reveal new insights such as the influence of the amplitude of the slow oscillation. Using simulations, we demonstrate that our parametric method can reveal neural couplings with shorter signals than non-parametric methods. We also show how the likelihood can be used to find optimal filtering parameters, suggesting new properties on the spectrum of the driving signal, but also to estimate the optimal delay between the coupled signals, enabling a directionality estimation in the coupling.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/Gf07XBnb5Pg&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-12-11T22:00:00+00:00</dc:date>
 	<dc:creator>Alexandre Gramfort</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005879">
-	<title>PLOS Computational Biology: New Articles: Thalamocortical control of propofol phase-amplitude coupling</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/EiDZlgif6Xg/article</link>
-	<content:encoded>&lt;p&gt;by Austin E. Soplata, Michelle M. McCarthy, Jason Sherfey, Shane Lee, Patrick L. Purdon, Emery N. Brown, Nancy Kopell&lt;/p&gt;
-
-The anesthetic propofol elicits many different spectral properties on the EEG, including alpha oscillations (8–12 Hz), Slow Wave Oscillations (SWO, 0.1–1.5 Hz), and dose-dependent phase-amplitude coupling (PAC) between alpha and SWO. Propofol is known to increase GABA&lt;sub&gt;A&lt;/sub&gt; inhibition and decrease H-current strength, but how it generates these rhythms and their interactions is still unknown. To investigate both generation of the alpha rhythm and its PAC to SWO, we simulate a Hodgkin-Huxley network model of a hyperpolarized thalamus and corticothalamic inputs. We find, for the first time, that the model thalamic network is capable of independently generating the sustained alpha seen in propofol, which may then be relayed to cortex and expressed on the EEG. This dose-dependent sustained alpha critically relies on propofol GABA&lt;sub&gt;A&lt;/sub&gt; potentiation to alter the intrinsic spindling mechanisms of the thalamus. Furthermore, the H-current conductance and background excitation of these thalamic cells must be within specific ranges to exhibit any intrinsic oscillations, including sustained alpha. We also find that, under corticothalamic SWO UP and DOWN states, thalamocortical output can exhibit maximum alpha power at either the peak or trough of this SWO; this implies the thalamus may be the source of propofol-induced PAC. Hyperpolarization level is the main determinant of whether the thalamus exhibits trough-max PAC, which is associated with lower propofol dose, or peak-max PAC, associated with higher dose. These findings suggest: the thalamus generates a novel rhythm under GABA&lt;sub&gt;A&lt;/sub&gt; potentiation such as under propofol, its hyperpolarization may determine whether a patient experiences trough-max or peak-max PAC, and the thalamus is a critical component of propofol-induced cortical spectral phenomena. Changes to the thalamus may be a critical part of how propofol accomplishes its effects, including unconsciousness.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/EiDZlgif6Xg&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-12-11T22:00:00+00:00</dc:date>
-	<dc:creator>Nancy Kopell</dc:creator>
 </item>
 <item rdf:about="http://onlinelibrary.wiley.com/resolve/doi?DOI=10.1002%2Fana.25118">
 	<title>Annals of Neurology: Antisense suppression of glial fibrillary acidic protein as a treatment for Alexander disease</title>
