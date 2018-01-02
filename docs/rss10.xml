@@ -40,6 +40,7 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1712.10062" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41593-017-0051-7" />
 			<rdf:li rdf:resource="http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30241-2?rss=yes" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/241406v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/241471v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/241323v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/241315v1?rss=1" />
@@ -82,7 +83,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/240556v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/240549v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/240317v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/240101v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005919" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005915" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005913" />
@@ -621,6 +621,13 @@ solving both hierarchical and distractor tasks.
 	<link>http://www.cell.com/trends/neurosciences/fulltext/S0166-2236(17)30241-2?rss=yes</link>
 	<dc:date>2018-01-01T00:00:00+00:00</dc:date>
 </item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/241406v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Acoustically Targeted Chemogenetics for Noninvasive Control of Neural Circuits</title>
+	<link>http://biorxiv.org/cgi/content/short/241406v1?rss=1</link>
+	<content:encoded>Neurological and psychiatric diseases often involve the dysfunction of specific neural circuits in particular regions of the brain. Existing treatments, including drugs and implantable brain stimulators, aim to modulate the activity of these circuits, but are typically not cell type-specific, lack spatial targeting or require invasive procedures. Here, we introduce an approach to modulating neural circuits noninvasively with spatial, cell-type and temporal specificity. This approach, called acoustically targeted chemogenetics, or ATAC, uses transient ultrasonic opening of the blood brain barrier to transduce neurons at specific locations in the brain with virally-encoded engineered G-protein-coupled receptors, which subsequently respond to systemically administered bio-inert compounds to activate or inhibit the activity of these neurons. We demonstrate this concept in mice by using ATAC to noninvasively modify and subsequently activate or inhibit excitatory neurons within the hippocampus, showing that this enables pharmacological control of memory formation. This technology allows a brief, noninvasive procedure to make one or more specific brain regions capable of being selectively modulated using orally bioavailable compounds, thereby overcoming some of the key limitations of conventional brain therapies.</content:encoded>
+	<dc:date>2018-01-01T00:00:00+00:00</dc:date>
+	<dc:creator>Szablowski, J. O.</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/241471v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Transcranial alternating current stimulation modulates auditory temporal resolution in elderly people</title>
 	<link>http://biorxiv.org/cgi/content/short/241471v1?rss=1</link>
@@ -1040,13 +1047,6 @@ internal computation and its theoretical limit.
 	<content:encoded>Machine learning-based analysis of human functional magnetic resonance imaging (fMRI) patterns has enabled the visualization of perceptual content. However, it has been limited to the reconstruction with low-level image bases or to the matching to exemplars. Recent work showed that visual cortical activity can be decoded (translated) into hierarchical features of a deep neural network (DNN) for the same input image, providing a way to make use of the information from hierarchical visual features. Here, we present a novel image reconstruction method, in which the pixel values of an image are optimized to make its DNN features similar to those decoded from human brain activity at multiple layers. We found that the generated images resembled the stimulus images (both natural images and artificial shapes) and the subjective visual content during imagery. While our model was solely trained with natural images, our method successfully generalized the reconstruction to artificial shapes, indicating that our model indeed reconstructs or generates images from brain activity, not simply matches to exemplars. A natural image prior introduced by another deep neural network effectively rendered semantically meaningful details to reconstructions by constraining reconstructed images to be similar to natural images. Furthermore, human judgment of reconstructions suggests the effectiveness of combining multiple DNN layers to enhance visual quality of generated images. The results suggest that hierarchical visual information in the brain can be effectively combined to reconstruct perceptual and subjective images.</content:encoded>
 	<dc:date>2017-12-28T00:00:00+00:00</dc:date>
 	<dc:creator>Shen, G.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/240101v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Neural computations combine low- and high-order motion cues similarly, in dragonfly and monkey</title>
-	<link>http://biorxiv.org/cgi/content/short/240101v1?rss=1</link>
-	<content:encoded>Visual motion analysis is fundamental to survival across the animal kingdom. In insects, our understanding of the underlying computations has centered on the Hassenstein-Reichardt motion detector, which computes two-point cross-correlation via multiplication; in mammalian cortex, it is postulated that a similar signal is computed by comparing matched squaring operations. Both of these operations are difficult to implement biophysically in a precise fashion; moreover, they fail to detect the more complex multipoint local motion cues present in the visual environment. Here, via single-unit recordings in two visual specialists, dragonfly &quot;(Odonata)&quot; and macaque, and via model simulations, we show that neuronal computations are not simply approximations to idealized behaviors forced by biological constraints, but rather, are signatures of a common computational strategy to capture multiple local motion cues. The similarity of motion computations at the neuronal level in the brains of two extremely dissimilar animals, with evolutionary divergence of over 700 Myr, suggests convergence on a common computational scheme for detecting visual motion.</content:encoded>
-	<dc:date>2017-12-28T00:00:00+00:00</dc:date>
-	<dc:creator>Nitzany, E.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005919">
 	<title>PLOS Computational Biology: New Articles: Local motion adaptation enhances the representation of spatial structure at EMD arrays</title>
