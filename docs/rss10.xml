@@ -41,6 +41,9 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1801.04623" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1801.04515" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1801.04510" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/248583v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/248518v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/246710v1?rss=1" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnhum.2017.00655" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2017.00450" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fncel.2017.00435" />
@@ -134,9 +137,6 @@
 			<rdf:li rdf:resource="https://www.nature.com/articles/nrn.2017.156" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/nrn.2017.151" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/247080v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/246843v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/246744v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/246660v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005932" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/38/2/i?rss=1" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/38/2/498?rss=1" />
@@ -678,6 +678,27 @@ datasets.
 &lt;/p&gt;</content:encoded>
 	<dc:date>2018-01-16T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/cs/1/au:+Dai_C/0/1/0/all/0/1">Chenglong Dai</a>, <a href="http://arxiv.org/find/cs/1/au:+Wu_J/0/1/0/all/0/1">Jia Wu</a>, <a href="http://arxiv.org/find/cs/1/au:+Pi_D/0/1/0/all/0/1">Dechang Pi</a>, <a href="http://arxiv.org/find/cs/1/au:+Cui_L/0/1/0/all/0/1">Lin Cui</a></dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/248583v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Finding decodable information that is read out in behaviour</title>
+	<link>http://biorxiv.org/cgi/content/short/248583v1?rss=1</link>
+	<content:encoded>Multivariate decoding methods applied to neuroimaging data have become the standard in cognitive neuroscience for unravelling statistical dependencies between brain activation patterns and experimental conditions. The current challenge is to demonstrate that information decoded as such by the experimenter is in fact used by the brain itself to guide behaviour. Here we demonstrate a promising approach to do so in the context of neural activation during object perception and categorisation behaviour. We first localised decodable information about visual objects in the human brain using a spatially-unbiased multivariate decoding analysis. We then related brain activation patterns to behaviour using a machine-learning based extension of signal detection theory. We show that while there is decodable information about visual category throughout the visual brain, only a subset of those representations predicted categorisation behaviour, located mainly in anterior ventral temporal cortex. Our results have important implications for the interpretation of neuroimaging studies, highlight the importance of relating decoding results to behaviour, and suggest a suitable methodology towards this aim.</content:encoded>
+	<dc:date>2018-01-16T00:00:00+00:00</dc:date>
+	<dc:creator>Grootswagers, T.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/248518v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Predicting age from cortical structure across the lifespan</title>
+	<link>http://biorxiv.org/cgi/content/short/248518v1?rss=1</link>
+	<content:encoded>Despite inter-individual differences in cortical structure, cross-sectional and longitudinal studies have demonstrated a large degree of population-level consistency in age-related differences in brain morphology. The present study assessed how accurately an individual's age could be predicted by estimates of cortical morphology, comparing a variety of structural measures, including thickness, gyrification, and fractal dimensionality. Structural measures were calculated across up to seven different parcellation approaches, ranging from 1 region to 1000 regions. The age-prediction framework was trained using morphological measures obtained from T1-weighted MRI volumes collected from multiple sites, yielding a training dataset of 1056 healthy adults, aged 18-97. Age predictions were calculated using a machine-learning approach that incorporated non-linear differences over the lifespan. In two independent, held-out test samples, age predictions had a median error of 6-7 years. Age predictions were best when using a combination of cortical metrics, both thickness and fractal dimensionality. Overall, the results reveal that age-related differences in brain structure are systematic enough to enable reliable age prediction based on metrics of cortical morphology.</content:encoded>
+	<dc:date>2018-01-16T00:00:00+00:00</dc:date>
+	<dc:creator>Madan, C.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/246710v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Non-linear transfer characteristics of stimulation and recording hardware account for spurious low-frequency artifacts during amplitude modulated transcranial alternating current stimulation (AM-tACS)</title>
+	<link>http://biorxiv.org/cgi/content/short/246710v1?rss=1</link>
+	<content:encoded>Background: Amplitude modulated transcranial alternating current stimulation (AM-tACS) has been recently proposed as a possible solution to overcome the pronounced stimulation artifact encountered when recording brain activity during tACS. In theory, AM-tACS does not entail power at its modulating frequency, thus avoiding the problem of spectral overlap between brain signal of interest and stimulation artifact. However, the current study demonstrates how weak non-linear transfer characteristics inherent in stimulation and recording hardware can reintroduce spurious artifacts at the modulation frequency. Method: The input-output transfer functions (TFs) of different stimulation setups were measured. The setups included basic recordings of signal-generator and stimulator outputs as well as M/EEG phantom measurements. 6th-degree polynomial regression models were fitted to model the input-output TFs of each setup. The resulting TF models were applied to digitally generated AM-tACS signals to predict the location of spurious artifacts in the spectrum. Results: All four setups measured for the study exhibited low-frequency artifacts at the modulation frequency and its harmonics when recording AM-tACS. Fitted TF models showed non-linear contributions significantly different from zero (all p &amp;lt; .05) and successfully predicted the frequency of artifacts observed in AM-signal recordings. Conclusions: Our results suggest that even weak non-linearities of stimulation and recording hardware can lead to spurious artifacts at the modulation frequency and its harmonics. Thus, findings emphasize the need for more linear stimulation devices for AM-tACS and careful analysis procedures taking into account these low-frequency artifacts.</content:encoded>
+	<dc:date>2018-01-16T00:00:00+00:00</dc:date>
+	<dc:creator>Kasten, F. H.</dc:creator>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnhum.2017.00655">
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Sexual Abuse Exposure Alters Early Processing of Emotional Words: Evidence from Event-Related Potentials</title>
@@ -1428,27 +1449,6 @@ model is accurate, robust, and interpretable.
 	<content:encoded>Purpose: The etiopathology of Parkinson disease (PD) and several other neurodegenerative diseases is inseparable from inflammatory processes. Peripheral neuroinflammation has been postulated to be involved in the initiation and progression of PD. Method: DATSCAN was applied to assess the dopaminergic loss in the brain of 391 PD patients and 151 healthy controls. Once the blood sample was collected, neutrophil to lymphocyte ratio (NLR) was calculated by autoanalyzer device on participants' whole blood samples. Results: NLR was significantly correlated with caudal SBR in individuals with PD, even after adjustment for age and disease duration. NLR could not predict putaminal SBR in PD patients after adjusting for age or age and disease duration. Conclusion: Based on our findings, it is believed that peripheral inflammatory processes play a notable role in the pathogenesis of PD. NLR as an excellent representative for peripheral neuroinflammation could be considered a potential candidate biomarker for PD.</content:encoded>
 	<dc:date>2018-01-11T00:00:00+00:00</dc:date>
 	<dc:creator>Sanjari Moghaddam, H.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/246843v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Stimulus prediction in the hippocampus</title>
-	<link>http://biorxiv.org/cgi/content/short/246843v1?rss=1</link>
-	<content:encoded>Perception can be cast as a process of inference, in which bottom-up signals are combined with top-down predictions in sensory systems. However, the source of these top-down predictions, especially when complex and multisensory, remains largely unknown. We hypothesised that the hippocampus - which rapidly learns arbitrary associations and has bidirectional connections with sensory systems - may be involved. We exposed humans to auditory cues predicting visual shapes, while measuring high-resolution fMRI signals in visual cortex and the hippocampus. Using multivariate reconstruction methods, we discovered a dissociation between these regions: representations in visual cortex were dominated by whichever shape was presented, whereas representations in the hippocampus (CA3 and subiculum, but not CA1) reflected only which shape was predicted by the cue. The strength of hippocampal predictions correlated across participants with the amount of expectation-related facilitation in visual cortex. These findings are consistent with the possibility that the hippocampus supplies predictions to sensory systems.</content:encoded>
-	<dc:date>2018-01-11T00:00:00+00:00</dc:date>
-	<dc:creator>Kok, P.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/246744v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Spatial cell firing during virtual navigation of open arenas by head-restrained mice</title>
-	<link>http://biorxiv.org/cgi/content/short/246744v1?rss=1</link>
-	<content:encoded>We present a mouse virtual reality (VR) system which restrains head-movements to horizontal rotations, potentially compatible with multi-photon imaging. We show that this system allows expression of the spatial navigational behaviour and neuronal firing patterns characteristic of real open arenas (R). Place and grid, but not head-direction, cell firing had broader spatial tuning in VR than R. Theta frequency increased less with running speed in VR than in R, while firing rates increased similarly in both. Place, but not grid, cell firing was more directional in VR than R. These results suggest that the scale of grid and place cell firing patterns, and the frequency of theta, reflect translational motion inferred from both virtual (visual and proprioceptive) cues and uncontrolled static (vestibular translation and extra-maze) cues, while firing rates predominantly reflect visual and proprioceptive motion. They also suggest that omni-directional place cell firing in R reflects local cues unavailable in VR.</content:encoded>
-	<dc:date>2018-01-11T00:00:00+00:00</dc:date>
-	<dc:creator>Chen, G.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/246660v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Speech intelligibility predicted from neural entrainment of the speech envelope</title>
-	<link>http://biorxiv.org/cgi/content/short/246660v1?rss=1</link>
-	<content:encoded>Speech intelligibility is currently measured by scoring how well a person can identify a speech signal. The results of such behavioral measures reflect neural processing of the speech signal, but are also influenced by language processing, motivation and memory. Very often electrophysiological measures of hearing give insight in the neural processing of sound. However, in most methods non-speech stimuli are used, making it hard to relate the results to behavioral measures of speech intelligibility. The use of natural running speech as a stimulus in electrophysiological measures of hearing is a paradigm shift which allows to bridge the gap between behavioral and electrophysiological measures. Here, by decoding the speech envelope from the electroencephalogram, and correlating it with the stimulus envelope, we demonstrate an electrophysiological measure of neural processing of running speech. We show that behaviorally measured speech intelligibility is strongly correlated with our electrophysiological measure. Our results pave the way towards an objective and automatic way of assessing neural processing of speech presented through auditory prostheses, reducing confounds such as attention and cognitive capabilities. We anticipate that our electrophysiological measure will allow better differential diagnosis of the auditory system, and will allow the development of closed-loop auditory prostheses that automatically adapt to individual users.</content:encoded>
-	<dc:date>2018-01-11T00:00:00+00:00</dc:date>
-	<dc:creator>Vanthornhout, J.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005932">
 	<title>PLOS Computational Biology: New Articles: Bayesian inference of phylogenetic networks from bi-allelic genetic markers</title>
