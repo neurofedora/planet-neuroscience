@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005973" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005931" />
 			<rdf:li rdf:resource="http://rss.sciencedirect.com/action/redirectFile?&amp;zone=main&amp;currentActivity=feed&amp;usageType=outward&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DIRSSSEARCH%26_method%3DcitationSearch%26_piikey%3DS0959438817301101%26_version%3D1%26md5%3D852d806a2f3b50677a3b987802170fca" />
 			<rdf:li rdf:resource="http://rss.sciencedirect.com/action/redirectFile?&amp;zone=main&amp;currentActivity=feed&amp;usageType=outward&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DIRSSSEARCH%26_method%3DcitationSearch%26_piikey%3DS0959438817301058%26_version%3D1%26md5%3D4bdc09dacf3adc6fa9eafa3867a88085" />
 			<rdf:li rdf:resource="http://rss.sciencedirect.com/action/redirectFile?&amp;zone=main&amp;currentActivity=feed&amp;usageType=outward&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DIRSSSEARCH%26_method%3DcitationSearch%26_piikey%3DS0959438817303100%26_version%3D1%26md5%3D2b3b0c9f138adbb3d877ed97a3097a83" />
@@ -76,12 +78,14 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1801.09848" />
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(18)30019-9?rss=yes" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/257568v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/257535v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/257378v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/257337v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/257188v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/257170v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/257121v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/256933v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/255760v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/254904v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005953" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005949" />
@@ -161,8 +165,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/255653v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/255489v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/255455v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/255406v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/255323v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005968" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005951" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005943" />
@@ -331,8 +333,6 @@
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(17)31210-2?rss=yes" />
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(17)31184-4?rss=yes" />
 			<rdf:li rdf:resource="http://www.cell.com/neuron/fulltext/S0896-6273(17)31181-9?rss=yes" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005950" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005948" />
 			<rdf:li rdf:resource="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-018-0401-8" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsys.2017.00100" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnint.2017.00041" />
@@ -419,6 +419,24 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005973">
+	<title>PLOS Computational Biology: New Articles: GSimp: A Gibbs sampler based left-censored missing value imputation approach for metabolomics studies</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/TpqgoEqOUBM/article</link>
+	<content:encoded>&lt;p&gt;by Runmin Wei, Jingye Wang, Erik Jia, Tianlu Chen, Yan Ni, Wei Jia&lt;/p&gt;
+
+Left-censored missing values commonly exist in targeted metabolomics datasets and can be considered as missing not at random (MNAR). Improper data processing procedures for missing values will cause adverse impacts on subsequent statistical analyses. However, few imputation methods have been developed and applied to the situation of MNAR in the field of metabolomics. Thus, a practical left-censored missing value imputation method is urgently needed. We developed an iterative Gibbs sampler based left-censored missing value imputation approach (GSimp). We compared GSimp with other three imputation methods on two real-world targeted metabolomics datasets and one simulation dataset using our imputation evaluation pipeline. The results show that GSimp outperforms other imputation methods in terms of imputation accuracy, observation distribution, univariate and multivariate analyses, and statistical sensitivity. Additionally, a parallel version of GSimp was developed for dealing with large scale metabolomics datasets. The R code for GSimp, evaluation pipeline, tutorial, real-world and simulated targeted metabolomics datasets are available at: https://github.com/WandeRum/GSimp.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/TpqgoEqOUBM&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2018-01-31T22:00:00+00:00</dc:date>
+	<dc:creator>Wei Jia</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005931">
+	<title>PLOS Computational Biology: New Articles: Predicting pathogenicity behavior in &lt;i&gt;Escherichia coli&lt;/i&gt; population through a state dependent model and TRS profiling</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/Uz6bdMXl0nc/article</link>
+	<content:encoded>&lt;p&gt;by Krzysztof Bartoszek, Marta Majchrzak, Sebastian Sakowski, Anna B. Kubiak-Szeligowska, Ingemar Kaj, Pawel Parniewski&lt;/p&gt;
+
+The Binary State Speciation and Extinction (BiSSE) model is a branching process based model that allows the diversification rates to be controlled by a binary trait. We develop a general approach, based on the BiSSE model, for predicting pathogenicity in bacterial populations from microsatellites profiling data. A comprehensive approach for predicting pathogenicity in &lt;i&gt;E&lt;/i&gt;. &lt;i&gt;coli&lt;/i&gt; populations is proposed using the state-dependent branching process model combined with microsatellites TRS-PCR profiling. Additionally, we have evaluated the possibility of using the BiSSE model for estimating parameters from genetic data. We analyzed a real dataset (from 251 &lt;i&gt;E&lt;/i&gt;. &lt;i&gt;coli&lt;/i&gt; strains) and confirmed previous biological observations demonstrating a prevalence of some virulence traits in specific bacterial sub-groups. The method may be used to predict pathogenicity of other bacterial taxa.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/Uz6bdMXl0nc&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2018-01-31T22:00:00+00:00</dc:date>
+	<dc:creator>Pawel Parniewski</dc:creator>
+</item>
 <item rdf:about="http://rss.sciencedirect.com/action/redirectFile?&amp;zone=main&amp;currentActivity=feed&amp;usageType=outward&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DIRSSSEARCH%26_method%3DcitationSearch%26_piikey%3DS0959438817301101%26_version%3D1%26md5%3D852d806a2f3b50677a3b987802170fca">
 	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Deciphering MECP2-associated disorders: disrupted circuits and the hope for repair</title>
 	<link>http://rss.sciencedirect.com/action/redirectFile?&amp;zone=main&amp;currentActivity=feed&amp;usageType=outward&amp;url=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DIRSSSEARCH%26_method%3DcitationSearch%26_piikey%3DS0959438817301101%26_version%3D1%26md5%3D852d806a2f3b50677a3b987802170fca</link>
@@ -910,6 +928,13 @@ model of cognitive biases in decision-making.
 	<dc:date>2018-01-31T00:00:00+00:00</dc:date>
 	<dc:creator>Park, J.</dc:creator>
 </item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/257535v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Asymmetric Overlap in Neuronal Sensation Constraints Rational Choice in C. elegans</title>
+	<link>http://biorxiv.org/cgi/content/short/257535v1?rss=1</link>
+	<content:encoded>Rational choice theory in economics assumes optimality indecision-making. One of the basic axioms of economic rationality is &quot;Independence of Irrelevant Alternatives&quot; (IIA), according to which a preference ratio between two options should be unaffected by introducing additional alternatives to the choice set. Violations of IIA have been demonstrated in both humans and in various animals, and could therefore stem from common neuronal constraints. We used the nematode Caenorhabditis elegans, an animal with only 302 neurons and a fully mapped connectome, to examine when and why economic rationality and violations of rationality occur. We developed tests for IIA violations by characterizing the choices that C. elegans make in olfactory chemotaxis assays. In each assay, we exposed the worm to different odors that activate only specific neurons, thus involving in the choice process only defined neuronal networks, and tested whether particular neuronal architectures are prone to producing irrational choices. We found that C. elegans are capable of maintaining robust binary olfactory preferences irrespectively of the presence of a third attractive odor. However, in very specific olfactory contexts, which we term asymmetric overlaps, the preference ratio between the two odors was altered due to the addition of a third inferior odor, in a manner that violates IIA, and in certain cases can be considered &quot;irrational&quot; based on the economic definition of rationality. Our results suggest that different network configurations vary in their propensity to give rise to inconsistent decision making. Thus, non-optimal choices, assumed to be an outcome of high-order cognitive and mental processes, could result from much more basic attributes of neuronal activity and constrained computational mechanisms.</content:encoded>
+	<dc:date>2018-01-31T00:00:00+00:00</dc:date>
+	<dc:creator>Cohen, D.</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/257378v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Anatomical, Physiological, and Functional Heterogeneity of the Dorsal Raphe Serotonin System</title>
 	<link>http://biorxiv.org/cgi/content/short/257378v1?rss=1</link>
@@ -951,6 +976,13 @@ model of cognitive biases in decision-making.
 	<content:encoded>Advanced brain imaging techniques make it possible to measure individuals' structural connectomes in large cohort studies non-invasively. However, due to limitations in image resolution and pre-processing, questions remain about whether reconstructed connectomes are measured accurately enough to detect relationships with human traits and behaviors. Using a state-of-the-art structural connectome processing pipeline and a novel dimensionality reduction technique applied to data from the Human Connectome Project (HCP), we show strong relationships between connectome structure and various human traits. Our dimensionality reduction approach uses a tensor characterization of the connectomes and relies on a generalization of principal components analysis. We analyze over 1100 scans for 1076 subjects from the HCP and the Sherbrooke test-retest data set as well as 175 human traits that measure domains including cognition, substance use, motor, sensory and emotion. We find that brain connectomes are associated with many traits. Specifically, fluid intelligence, language comprehension, and motor skills are associated with increased cortical-cortical brain connectivity, while the use of alcohol, tobacco, and marijuana are associated with decreased cortical-cortical connectivity.</content:encoded>
 	<dc:date>2018-01-31T00:00:00+00:00</dc:date>
 	<dc:creator>Zhang, Z.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/255760v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: The use of text-mining and machine learning algorithms in systematic reviews: reducing workload in preclinical biomedical sciences and reducing human screening error</title>
+	<link>http://biorxiv.org/cgi/content/short/255760v1?rss=1</link>
+	<content:encoded>Background: In this paper we outline a method of applying machine learning (ML) algorithms to aid citation screening in an on-going broad and shallow systematic review, with the aim of achieving a high performing algorithm comparable to human screening. Methods: We tested a range of machine learning algorithms. We applied ML algorithms to incremental numbers of training records and recorded the performance on sensitivity and specificity on an unseen validation set of papers. The performance of these algorithms was assessed on measures of recall, specificity, and accuracy. The classification results of the best performing algorithm was taken forward and applied to the remaining unseen records in the dataset and will be taken forward to the next stage of systematic review. ML was used to identify potential human errors during screening by analysing the training and validation datasets against the machine-ranked score. Results: We found that ML algorithms perform at a desirable level. Classifiers reached 98.7% sensitivity based on learning from a training set of 5749 records, with an inclusion prevalence of 13.2%. The highest level of specificity reached was 86%. Human errors in the training and validation set were successfully identified using ML scores to highlight discrepancies. Training the ML algorithm on the corrected dataset improved the specificity of the algorithm without compromising sensitivity. Error analysis sees a 3% increase or change in sensitivity and specificity, which increases precision and accuracy of the ML algorithm. Conclusions: The technique of using ML to identify human error needs to be investigated in more depth, however this pilot shows a promising approach to integrating human decisions and automation in systematic review methodology.</content:encoded>
+	<dc:date>2018-01-31T00:00:00+00:00</dc:date>
+	<dc:creator>Bannach-Brown, A.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/254904v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Genome-wide translating mRNA analysis following ketamine reveals novel targets for antidepressant treatment</title>
@@ -1636,20 +1668,6 @@ histological stack to the atlas, thus reducing the work of the neuroanatomist.
 	<content:encoded>Cocaine self-administration causes dephosphorylation of proteins in prelimbic (PL) cortex that mediate excitation-transcription coupling, suggesting that cocaine causes decreased activity in PL neurons. Thus, we used in vivo single-unit extracellular recordings in awake, behaving rats to measure activity in PL neurons before, during, and after cocaine self-administration on the first and last session day (range 12-14 days). On the last day, cocaine suppressed 52% of recorded neurons in the PL cortex when compared to a 20 min baseline, significantly more than the 23% of neurons suppressed on the first day of cocaine. There was no change in the percentage of neurons that were excited on the first vs. the last day of self-administration (14% vs. 13%, respectively). To determine whether the tonic inhibitory shift was induced by the behavior or by the drug itself, rats received a final session in which cocaine availability was delayed for the first 30 min or in which cocaine was administered non-contingently in the absence of levers or cues in a subset of rats. These manipulations indicated that cocaine was both necessary and sufficient to induce a downshift in PL neuronal activity. However, this activity decrease was not observed in rats that received only non-contingent cocaine for 12-14 days, indicating that contingency during self-administration training contributes to the cocaine-induced tonic downshift in PL activity. These data suggest that the session-by-session decrease in PL neuronal activity induced by cocaine is a reflection of learned drug-seeking behavior and, hence, reducing this inhibition may lessen cocaine addiction.</content:encoded>
 	<dc:date>2018-01-30T00:00:00+00:00</dc:date>
 	<dc:creator>Dennis, T. S.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/255406v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Motion regions are modulated by scene content</title>
-	<link>http://biorxiv.org/cgi/content/short/255406v1?rss=1</link>
-	<content:encoded>Creating a stable perception of the world during pursuit eye movements is one of the everyday roles of visual system. Some motion regions have been shown to differentiate between motion in the external world from that generated by eye movements. However, in most circumstances, perceptual stability is consistently related to content: the surrounding scene is typically stable. However, no prior study has examined to which extent motion responsive regions are modulated by scene content, and whether there is an interaction between content and motion response. In the present study we used a factorial design that has previously been shown to reveal regional involvement in integrating efference copies of eye-movements with retinal motion to mediate perceptual stability and encode real-world motion. We then added scene content as a third factor, which allowed us to examine to which extent real-motion, retinal motion, and static responses were modulated by meaningful scenes versus their Fourier scrambled counterpart. We found that motion responses in human motion responsive regions V3A, V6, V5+/MT+ and cingulate sulcus visual area (CSv) were all modulated by scene content. Depending on the region, these motion-content interactions differentially depended on whether motion was self-induced or not. V3A was the only motion responsive region that also showed responses to still scenes. Our results suggest that contrary to the two-pathway hypothesis, scene responses are not isolated to ventral regions, but also can be found in dorsal areas.</content:encoded>
-	<dc:date>2018-01-30T00:00:00+00:00</dc:date>
-	<dc:creator>Korkmaz Hacialihafiz, D.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/255323v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Sleep problems are associated with hypersensitivity to touch in children with autism</title>
-	<link>http://biorxiv.org/cgi/content/short/255323v1?rss=1</link>
-	<content:encoded>Background: Sensory abnormalities and sleep disturbances are highly prevalent in children with autism, but the potential relationship between these two domains has rarely been explored. Understanding such relationships is important for identifying children with autism who exhibit more homogeneous symptoms. Methods: Here we examined this relationship using the Caregiver Sensory Profile and the children's sleep habit questionnaires, which were completed by parents of 69 children with autism and 62 frequency age-matched controls. Results: In line with previous studies, children with autism exhibited more severe sensory abnormalities and sleep disturbances than age-matched controls. The sleep disturbance scores were strongly associated with touch and oral sensitivities in the autism group and with touch and vestibular sensitivities in the control group. Hyper sensitivity towards touch, in particular, exhibited the strongest relationship with sleep disturbances in the autism group and single-handedly explained 24% of the variance in sleep disturbance scores. In contrast, sensitivity in other sensory domains such as vision and audition was not associated with sleep quality in either group. Conclusions: While it is often assumed that sensitivities in all sensory domains are similarly associated with sleep problems, our results suggest that hyper sensitivity towards touch exhibits the strongest relationship to sleep disturbances when examining children autism. We speculate that hyper sensitivity towards touch interferes with sleep onset and maintenance in a considerable number of children with autism who exhibit severe sleep disturbances. Studies that examine the effects of tactile sensory therapies/aids on sleep quality and behavioral improvement in these children are, therefore, highly warranted.</content:encoded>
-	<dc:date>2018-01-30T00:00:00+00:00</dc:date>
-	<dc:creator>Tzischinsky, O.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005968">
 	<title>PLOS Computational Biology: New Articles: Reactome graph database: Efficient access to complex pathway data</title>
@@ -2945,24 +2963,6 @@ During active behaviours like running, swimming, whisking or sniffing, motor act
 	<content:encoded>(Neuron 87, 1332–1343; September 23, 2015)</content:encoded>
 	<dc:date>2018-01-17T00:00:00+00:00</dc:date>
 	<dc:creator>Jan Clemens, Cyrille C. Girardin, Philip Coen, Xiao-Juan Guan, Barry J. Dickson, Mala Murthy</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005950">
-	<title>PLOS Computational Biology: New Articles: HaSAPPy: A tool for candidate identification in pooled forward genetic screens of haploid mammalian cells</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/3K4LRTS9Xj4/article</link>
-	<content:encoded>&lt;p&gt;by Giulio Di Minin, Andreas Postlmayr, Anton Wutz&lt;/p&gt;
-
-Haploid cells are increasingly used for screening of complex pathways in animal genomes. Hemizygous mutations introduced through viral insertional mutagenesis can be directly selected for phenotypic changes. Here we present HaSAPPy a tool for analysing sequencing datasets of screens using insertional mutations in large pools of haploid cells. Candidate gene prediction is implemented through identification of enrichment of insertional mutations after selection by simultaneously evaluating several parameters. We have developed HaSAPPy for analysis of genetic screens for silencing factors of X chromosome inactivation in haploid mouse embryonic stem cells. To benchmark the performance, we further analyse several datasets of genetic screens in human haploid cells for which candidates have been validated. Our results support the effective candidate prediction strategy of HaSAPPy. HaSAPPy is implemented in Python, licensed under the MIT license, and is available from https://github.com/gdiminin/HaSAPPy.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/3K4LRTS9Xj4&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-01-16T22:00:00+00:00</dc:date>
-	<dc:creator>Anton Wutz</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1005948">
-	<title>PLOS Computational Biology: New Articles: The E&lt;sup&gt;2.65&lt;/sup&gt;A mutation disrupts dynamic binding poses of SB269652 at the dopamine D2 and D3 receptors</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/vUXB3FyjueQ/article</link>
-	<content:encoded>&lt;p&gt;by Ravi Kumar Verma, Ara M. Abramyan, Mayako Michino, R. Benjamin Free, David R. Sibley, Jonathan A. Javitch, J. Robert Lane, Lei Shi&lt;/p&gt;
-
-The dopamine D2 and D3 receptors (D2R and D3R) are important targets for antipsychotics and for the treatment of drug abuse. SB269652, a bitopic ligand that simultaneously binds both the orthosteric binding site (OBS) and a secondary binding pocket (SBP) in both D2R and D3R, was found to be a negative allosteric modulator. Previous studies identified Glu&lt;sup&gt;2.65&lt;/sup&gt; in the SBP to be a key determinant of both the affinity of SB269652 and the magnitude of its cooperativity with orthosteric ligands, as the E&lt;sup&gt;2.65&lt;/sup&gt;A mutation decreased both of these parameters. However, the proposed hydrogen bond (H-bond) between Glu&lt;sup&gt;2.65&lt;/sup&gt; and the indole moiety of SB269652 is not a strong interaction, and a structure activity relationship study of SB269652 indicates that this H-bond may not be the only element that determines its allosteric properties. To understand the structural basis of the observed phenotype of E&lt;sup&gt;2.65&lt;/sup&gt;A, we carried out molecular dynamics simulations with a cumulative length of ~77 μs of D2R and D3R wild-type and their E&lt;sup&gt;2.65&lt;/sup&gt;A mutants bound to SB269652. In combination with Markov state model analysis and by characterizing the equilibria of ligand binding modes in different conditions, we found that in both D2R and D3R, whereas the tetrahydroisoquinoline moiety of SB269652 is stably bound in the OBS, the indole-2-carboxamide moiety is dynamic and only intermittently forms H-bonds with Glu&lt;sup&gt;2.65&lt;/sup&gt;. Our results also indicate that the E&lt;sup&gt;2.65&lt;/sup&gt;A mutation significantly affects the overall shape and size of the SBP, as well as the conformation of the N terminus. Thus, our findings suggest that the key role of Glu&lt;sup&gt;2.65&lt;/sup&gt; in mediating the allosteric properties of SB269652 extends beyond a direct interaction with SB269652, and provide structural insights for rational design of SB269652 derivatives that may retain its allosteric properties.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/vUXB3FyjueQ&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-01-16T22:00:00+00:00</dc:date>
-	<dc:creator>Lei Shi</dc:creator>
 </item>
 <item rdf:about="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-018-0401-8">
 	<title>Most Recent Articles: BMC Neuroscience: Emerging roles for microRNA in the regulation of Drosophila circadian clock</title>
