@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006204" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fncel.2018.00155" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2018.00187" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsyn.2018.00013" />
@@ -57,6 +58,10 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1806.02649" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/342584v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/342568v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/342337v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/342303v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/342295v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/341412v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/340695v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006233" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006222" />
@@ -100,7 +105,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/339846v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/338673v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/338525v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/337360v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006229" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006195" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006143" />
@@ -157,9 +161,6 @@
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(18)30426-4?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(18)30418-5?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(18)30282-4?rss=yes" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/340620v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/340489v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/340224v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006187" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnagi.2018.00161" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fncom.2018.00038" />
@@ -307,7 +308,6 @@
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006217" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006196" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006181" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006168" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fninf.2018.00031" />
 			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/5/3/ENEURO.0130-18.2018?rss=1" />
 			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/ENEURO.0398-17.2018v1?rss=1" />
@@ -419,6 +419,15 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006204">
+	<title>PLOS Computational Biology: New Articles: Anticipating epidemic transitions with imperfect data</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/IrC-01N73dA/article</link>
+	<content:encoded>&lt;p&gt;by Tobias S. Brett, Eamon B. O’Dea, Éric Marty, Paige B. Miller, Andrew W. Park, John M. Drake, Pejman Rohani&lt;/p&gt;
+
+Epidemic transitions are an important feature of infectious disease systems. As the transmissibility of a pathogen increases, the dynamics of disease spread shifts from limited stuttering chains of transmission to potentially large scale outbreaks. One proposed method to anticipate this transition are early-warning signals (EWS), summary statistics which undergo characteristic changes as the transition is approached. Although theoretically predicted, their mathematical basis does not take into account the nature of epidemiological data, with are typically aggregated into periodic case reports and subject to reporting error. The viability of EWS for epidemic transitions therefore remains uncertain. Here we demonstrate that most EWS can predict emergence even when calculated from imperfect data. We quantify performance using the area under the curve (AUC) statistic, a measure of how well an EWS distinguishes between numerical simulations of an emerging disease and one which is stationary. Values of the AUC statistic are compared across a range of different reporting scenarios. We find that different EWS respond to imperfect data differently. The mean, variance and first differenced variance all perform well unless reporting error is highly overdispersed. The autocorrelation, autocovariance and decay time perform well provided that the aggregation period of the data is larger than the serial interval and reporting error is not highly overdispersed. The coefficient of variation, skewness and kurtosis are found to be unreliable indicators of emergence. Overall, we find that seven of ten EWS considered perform well for most realistic reporting scenarios. We conclude that imperfect epidemiological data is not a barrier to using EWS for many potentially emerging diseases.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/IrC-01N73dA&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2018-06-08T21:00:00+00:00</dc:date>
+	<dc:creator>Pejman Rohani</dc:creator>
+</item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fncel.2018.00155">
 	<title>Frontiers in Cellular Neuroscience | New and Recent Articles: Direct Reprogramming of Adult Human Somatic Stem Cells Into Functional Neurons Using Sox2, Ascl1, and Neurog2</title>
 	<link>https://www.frontiersin.org/articles/10.3389/fncel.2018.00155</link>
@@ -692,6 +701,34 @@ behaviour strongly aligned with 4Es theories of cognition.
 	<content:encoded>The circadian clock in the suprachiasmatic nucleus (SCN) regulates daily rhythms in physiology and behaviour and is an important part of the mammalian homeostatic system. Previously, we have shown that systemic inflammatory stimulation with lipopolysaccharide (LPS) induced the daytime-dependent phosphorylation of STAT3 in the SCN. Here, we demonstrate the LPS-induced Stat3 mRNA expression in the SCN and show also the circadian rhythm in Stat3 expression in the SCN, with high levels during the day. Moreover, we examined the effects of LPS (1mg/kg), applied either during the day or the night, on the rhythm in locomotor activity of male Wistar rats. We observed that recovery of normal locomotor activity patterns took longer when the animals were injected during the night. The clock genes Per1, Per2 and Nr1d1, and phosphorylation of kinases ERK1/2 and GSK3{beta} are sensitive to external cues and function as the molecular entry for external signals into the circadian clockwork. We also studied the immediate changes in these clock genes expressions and the phosphorylation of ERK1/2 and GSK3{beta} in the suprachiasmatic nucleus in response to daytime or night-time inflammatory stimulation. We revealed mild and transient changes with respect to the controls. Our data stress the role of STAT3 in the circadian clock response to the LPS and provide further evidence of the interaction between the circadian clock and immune system.</content:encoded>
 	<dc:date>2018-06-08T00:00:00+00:00</dc:date>
 	<dc:creator>Moravcova, S.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/342337v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Offline impact of transcranial focused ultrasound on cortical activation in primates</title>
+	<link>http://biorxiv.org/cgi/content/short/342337v1?rss=1</link>
+	<content:encoded>To understand brain circuits it is necessary both to record and manipulate their activity. Despite increased availability of techniques for manipulating neural activity in rodents, manipulating neural activity in primates remains difficult. Here we show that a minimally invasive technique, transcranial focused ultrasound stimulation (TUS), induced offline changes to activity of circumscribed brain regions in the macaque. Applying TUS to the supplementary motor area or frontal polar cortex resulted in spatially specific patterns of activity change measurable with functional magnetic resonance imaging. In each case changes reflected each area's known network of interactions with the rest of the brain. Independent of these specific neural effects, TUS over these regions also induced widespread signal changes that might have a non-neuronal origin possibly mediated by the cerebral spinal fluid compartment. Although sustained for more than one hour beyond the 40s stimulation period, TUS effects were reversible and not associated with histological changes.</content:encoded>
+	<dc:date>2018-06-08T00:00:00+00:00</dc:date>
+	<dc:creator>Verhagen, L.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/342303v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Manipulation of deep brain activity in primates using transcranial focused ultrasound stimulation</title>
+	<link>http://biorxiv.org/cgi/content/short/342303v1?rss=1</link>
+	<content:encoded>Transcranial focused ultrasound stimulation (TUS) was applied to a deep cortical region, anterior cingulate cortex (ACC, experiment 1) and a subcortical brain structure, the amygdala (experiment 2) in macaques. The impact of TUS was measured by examining functional connectivity patterns between activity in each brain area and in the rest of the brain using functional magnetic resonance imaging (fMRI). Dissociable and spatially focal effects were found in both cases.</content:encoded>
+	<dc:date>2018-06-08T00:00:00+00:00</dc:date>
+	<dc:creator>Folloni, D.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/342295v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: SHANK3 downregulation in the VTA accelerates the extinction of contextual associations induced by non-familiar conspecific interaction</title>
+	<link>http://biorxiv.org/cgi/content/short/342295v1?rss=1</link>
+	<content:encoded>Conditioned place preference (CPP) paradigms, traditionally adopted to study the reinforcing properties of drugs of abuse, have been developed to investigate the neurobiological mechanisms underlying the reinforcing properties of social stimuli. These protocols are largely based on single-housing before and/or during the social stimulus-contextual cues acquisition phase. Here, based on previously established social interaction-induced CPP paradigms, we characterize a place preference task relying on the reinforcing properties of free interaction with a non-familiar (novel) conspecific. The formation of contextual associations induced by the interaction with a novel social stimulus does not require single-housing, necessitates dopamine (DA) receptor 2/3 (D2/3R) activation and undergoes extinction. Interestingly, while extinction of CPP responses is reduced by single-housing, it is accelerated by the downregulation of the autism spectrum disorder (ASD)-related protein SHANK3 in the ventral tegmental area (VTA). Thus, inspired by the literature on drug of abuse-induced contextual learning, we propose that acquisition and extinction of CPP might be used as behavioral assays to assess social-induced contextual association and social-seeking dysfunctions in animal models of psychiatric disorders.</content:encoded>
+	<dc:date>2018-06-08T00:00:00+00:00</dc:date>
+	<dc:creator>Bariselli, S.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/341412v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Distinct CED-10/Rac1 Domains Confer Context-Specific Functions in Neuronal Development</title>
+	<link>http://biorxiv.org/cgi/content/short/341412v1?rss=1</link>
+	<content:encoded>Rac GTPases act as master switches to coordinate multiple interweaved signaling pathways. A major function for Rac GTPases is to control neurite development by influencing downstream effector molecules and pathways. In Caenorhabditis elegans, the Rac proteins CED-10, RAC-2 and MIG-2 act in parallel to control axon outgrowth and guidance. Here, we have identified a single glycine residue in the CED-10/Rac1 Switch 1 region that confers a non-redundant function in axon outgrowth but not guidance. Mutation of this glycine to glutamic acid (G30E) reduces GTP binding and inhibits axon outgrowth but does not affect other canonical CED-10 functions. This demonstrates previously unappreciated domain-specific functions within the CED-10 protein. Further, we reveal that when CED-10 function is diminished, the adaptor protein NAB-1 (Neurabin) and its interacting partner SYD-1 (Rho-GAP-like protein) can act as inhibitors of axon outgrowth. Together, we reveal that specific domains and residues within Rac GTPases can confer context-dependent functions during animal development.</content:encoded>
+	<dc:date>2018-06-08T00:00:00+00:00</dc:date>
+	<dc:creator>Pocock, R.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/340695v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Contextual Influences on Value-based Choice</title>
@@ -1065,13 +1102,6 @@ research into the underlying structure of brain signals.
 	<content:encoded>Electrical stimulation of the brain has become a mainstay of fundamental neuroscience research and an increasingly prevalent clinical therapy. Despite decades of use in basic neuroscience research over acute time scales, and the growing prevalence of neuromodulation therapies, gaps in knowledge regarding activation or inactivation of neural elements over time in the vicinity of the electrode limit the ability to adequately interpret evoked downstream responses or fine-tune stimulation parameters to focus on the desired response. In this work, in vivo two-photon microscopy was used to image Thy1-GCaMP activity in Layer 2/3 neurons of S1 cortex during 30 s of continuous electrical stimulation at varying frequencies. We show that during continuous stimulation, stimulation frequency influences a distinct spatial and temporal pattern of somatic activation. Our results elucidate conflicting results from prior studies reporting either dense spherical activation of somas biased towards somas near the electrode, or sparse activation of somas at a distance via axons near the electrode. These findings indicate that the neural element specific temporal response local to the stimulating electrode as a function of changes in charge density applied, frequency and temporal patterning need to be considered to properly interpret downstream circuit responses for basic science understanding, or determining mechanisms of action for clinical therapeutic applications.</content:encoded>
 	<dc:date>2018-06-07T00:00:00+00:00</dc:date>
 	<dc:creator>Michelson, N. J.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/337360v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Correction of respiratory artifacts in MRI head motion estimates</title>
-	<link>http://biorxiv.org/cgi/content/short/337360v1?rss=1</link>
-	<content:encoded>Head motion represents one of the greatest technical obstacles for brain MRI. Accurate detection of artifacts induced by head motion requires precise estimation of movement. However, this estimation may be corrupted by factitious effects owing to main field fluctuations generated by body motion. In the current report, we examine head motion estimation in multiband resting state functional connectivity MRI (rs-fcMRI) data from the Adolescent Brain and Cognitive Development (ABCD) Study and a comparison 'single-shot' dataset from Oregon Health &amp;amp; Science University. We show unequivocally that respirations contaminate movement estimates in functional MRI and that respiration generates apparent head motion not associated with degraded quality of functional MRI. We have developed a novel approach using a band-stop filter that accurately removes these respiratory effects. Subsequently, we demonstrate that utilizing this filter improves post-processing data quality. Lastly, we demonstrate the real-time implementation of motion estimate filtering in our FIRMM (Framewise Integrated Real-Time MRI Monitoring) software package.</content:encoded>
-	<dc:date>2018-06-07T00:00:00+00:00</dc:date>
-	<dc:creator>Fair, D. A.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006229">
 	<title>PLOS Computational Biology: New Articles: Dopamine transporter oligomerization involves the scaffold domain, but spares the bundle domain</title>
@@ -1555,27 +1585,6 @@ https://github.com/Hananel-Hazan/bindsnet
 	<content:encoded>Zilverstand et al. find that behaviors in drug addiction are closely tied to brain impairments underlying drug cue reactivity, decision making, inhibitory control, and social-emotional processing. Neuroimaging biomarkers can also be used to predict initiation and progression of drug addiction.</content:encoded>
 	<dc:date>2018-06-06T00:00:00+00:00</dc:date>
 	<dc:creator>Anna Zilverstand, Anna S. Huang, Nelly Alia-Klein, Rita Z. Goldstein</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/340620v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Locus Coeruleus tracking of prediction errors optimises cognitive flexibility: an Active Inference model.</title>
-	<link>http://biorxiv.org/cgi/content/short/340620v1?rss=1</link>
-	<content:encoded>The locus coeruleus (LC) in the pons is the major source of noradrenaline (NA) in the brain. Two modes of LC firing have been associated with distinct cognitive states: changes in tonic rates of firing are correlated with global levels of arousal and behavioural flexibility, whilst phasic LC responses are evoked by salient stimuli. Here, we unify these two modes of firing by modelling the response of the LC as a correlate of a prediction error when inferring states for action planning under Active Inference (AI). We simulate a classic Go/No-go reward learning task and a three-arm foraging task and show that, if LC activity is considered to reflect the magnitude of high level 'state-action' prediction errors, then both tonic and phasic modes of firing are emergent features of belief updating. We also demonstrate that when contingencies change, AI agents can update their internal models more quickly by feeding back this state-action prediction error - reflected in LC firing and noradrenaline release - to optimise learning rate, enabling large adjustments over short timescales. We propose that such prediction errors are mediated by cortico-LC connections, whilst ascending input from LC to cortex modulates belief updating in anterior cingulate cortex (ACC). In short, we characterise the LC/ NA system within a general theory of brain function. In doing so, we show that contrasting, behaviour-dependent firing patterns are an emergent property of the LC's crucial role in translating prediction errors into an optimal mediation between plasticity and stability.</content:encoded>
-	<dc:date>2018-06-06T00:00:00+00:00</dc:date>
-	<dc:creator>Sales, A. C.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/340489v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Semi-Analytic Nonparametric Bayesian Inference for Spike-Spike Neuronal Connectivity</title>
-	<link>http://biorxiv.org/cgi/content/short/340489v1?rss=1</link>
-	<content:encoded>Estimating causal connectivity between spiking neurons from measured spike sequences is one of the main challenges of systems neuroscience. In this paper we introduce two nonparametric Bayesian methods for spike-membrane and spike-spike causal connectivity based on Gaussian process regression. For spike-spike connectivity, we derive a new semi-analytic variational approximation of the response functions of a non-linear dynamical model of interconnected neurons. This semi-analytic method exploits the tractability of GP regression when the membrane potential is observed. The resulting posterior is then marginalized analytically in order to obtain the posterior of the response functions given the spike sequences alone. We validate our methods on both simulated data and real neuronal recordings.</content:encoded>
-	<dc:date>2018-06-06T00:00:00+00:00</dc:date>
-	<dc:creator>Ambrogioni, L.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/340224v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Electric field dynamics in the brain during multi-electrode transcranial electric stimulation</title>
-	<link>http://biorxiv.org/cgi/content/short/340224v1?rss=1</link>
-	<content:encoded>Neural oscillations play a crucial role in communication between remote brain areas. Transcranial electric stimulation with alternating currents (TACS) can manipulate these brain oscillations in a non-invasive manner. Of particular interest, TACS protocols using multiple electrodes with phase shifted stimulation currents were developed to alter the connectivity between two or more brain regions. Typically, an increase in coordination between two sites is assumed when they experience an in-phase stimulation and a disorganization through an anti-phase stimulation. However, the underlying biophysics of multi-electrode TACS has not been studied in detail, thus limiting our ability to develop a mechanistic understanding. Here, we leverage direct invasive recordings from two non-human primates during multi-electrode TACS to show that the electric field magnitude and phase depend on the phase of the stimulation currents in a non-linear manner. Further, we report a novel phenomenon of a traveling wave stimulation where the location of the electric field maximum changes over the stimulation cycle. Our results provide a basis for a mechanistic understanding of multi-electrode TACS, necessitating the reevaluation of previously published studies, and enable future developments of novel stimulation protocols.</content:encoded>
-	<dc:date>2018-06-06T00:00:00+00:00</dc:date>
-	<dc:creator>Alekseichuk, I.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006187">
 	<title>PLOS Computational Biology: New Articles: Bridging structure and function: A model of sequence learning and prediction in primary visual cortex</title>
@@ -2793,15 +2802,6 @@ There is a current interest in quantifying time-varying connectivity (TVC) based
 A common challenge in systems biology is quantifying the effects of unknown parameters and estimating parameter values from data. For many systems, this task is computationally intractable due to expensive model evaluations and large numbers of parameters. In this work, we investigate a new method for performing sensitivity analysis and parameter estimation of complex biological models using techniques from uncertainty quantification. The primary advance is a significant improvement in computational efficiency from the replacement of model simulation by evaluation of a polynomial surrogate model. We demonstrate the method on two models of mating in budding yeast: a smaller ODE model of the heterotrimeric G-protein cycle, and a larger spatial model of pheromone-induced cell polarization. A small number of model simulations are used to fit the polynomial surrogates, which are then used to calculate global parameter sensitivities. The surrogate models also allow rapid Bayesian inference of the parameters via Markov chain Monte Carlo (MCMC) by eliminating model simulations at each step. Application to the ODE model shows results consistent with published single-point estimates for the model and data, with the added benefit of calculating the correlations between pairs of parameters. On the larger PDE model, the surrogate models allowed convergence for the distribution of 15 parameters, which otherwise would have been computationally prohibitive using simulations at each MCMC step. We inferred parameter distributions that in certain cases peaked at values different from published values, and showed that a wide range of parameters would permit polarization in the model. Strikingly our results suggested different diffusion constants for active versus inactive Cdc42 to achieve good polarization, which is consistent with experimental observations in another yeast species &lt;i&gt;S. pombe&lt;/i&gt;.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/sRhq-0CxzAI&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-05-29T21:00:00+00:00</dc:date>
 	<dc:creator>Ching-Shan Chou</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006168">
-	<title>PLOS Computational Biology: New Articles: Optimizing the learning rate for adaptive estimation of neural encoding models</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/AXBHSencE5U/article</link>
-	<content:encoded>&lt;p&gt;by Han-Lin Hsieh, Maryam M. Shanechi&lt;/p&gt;
-
-Closed-loop neurotechnologies often need to adaptively learn an encoding model that relates the neural activity to the brain state, and is used for brain state decoding. The speed and accuracy of adaptive learning algorithms are critically affected by the learning rate, which dictates how fast model parameters are updated based on new observations. Despite the importance of the learning rate, currently an analytical approach for its selection is largely lacking and existing signal processing methods vastly tune it empirically or heuristically. Here, we develop a novel analytical calibration algorithm for optimal selection of the learning rate in adaptive Bayesian filters. We formulate the problem through a fundamental trade-off that learning rate introduces between the steady-state error and the convergence time of the estimated model parameters. We derive explicit functions that predict the effect of learning rate on error and convergence time. Using these functions, our calibration algorithm can keep the steady-state parameter error covariance smaller than a desired upper-bound while minimizing the convergence time, or keep the convergence time faster than a desired value while minimizing the error. We derive the algorithm both for discrete-valued spikes modeled as point processes nonlinearly dependent on the brain state, and for continuous-valued neural recordings modeled as Gaussian processes linearly dependent on the brain state. Using extensive closed-loop simulations, we show that the analytical solution of the calibration algorithm accurately predicts the effect of learning rate on parameter error and convergence time. Moreover, the calibration algorithm allows for fast and accurate learning of the encoding model and for fast convergence of decoding to accurate performance. Finally, larger learning rates result in inaccurate encoding models and decoders, and smaller learning rates delay their convergence. The calibration algorithm provides a novel analytical approach to predictably achieve a desired level of error and convergence time in adaptive learning, with application to closed-loop neurotechnologies and other signal processing domains.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/AXBHSencE5U&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-05-29T21:00:00+00:00</dc:date>
-	<dc:creator>Maryam M. Shanechi</dc:creator>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fninf.2018.00031">
 	<title>Frontiers in Neuroinformatics | New and Recent Articles: Application of Ferulic Acid for Alzheimer’s Disease: Combination of Text Mining and Experimental Validation</title>
