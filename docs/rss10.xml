@@ -17,6 +17,8 @@
 		<rdf:Seq>
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818300692" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006185" />
+			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/ENEURO.0331-18.2018v1?rss=1" />
+			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/ENEURO.0240-18.2018v1?rss=1" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818300229" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2018.00239" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnagi.2018.00197" />
@@ -36,6 +38,7 @@
 			<rdf:li rdf:resource="https://dx.doi.org/10.7554/eLife.37439" />
 			<rdf:li rdf:resource="https://dx.doi.org/10.7554/eLife.36931" />
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(18)30166-8?rss=yes" />
+			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(18)30165-6?rss=yes" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/369215v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/369207v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/369199v1?rss=1" />
@@ -326,8 +329,6 @@
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006305" />
 			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/ENEURO.0120-18.2018v1?rss=1" />
 			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/ENEURO.0092-18.2018v1?rss=1" />
-			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/5/3/ENEURO.0408-17.2018?rss=1" />
-			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/5/3/ENEURO.0204-18.2018?rss=1" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2018.00224" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnhum.2018.00262" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnagi.2018.00184" />
@@ -414,7 +415,6 @@
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41583-018-0026-z" />
 			<rdf:li rdf:resource="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-018-0436-x" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fncir.2018.00046" />
-			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2018.00416" />
 		</rdf:Seq>
 	</items>
 </channel>
@@ -433,6 +433,20 @@
 MicroRNAs (miRNAs) are small non-coding RNAs that regulate gene expression by binding to partially complementary regions within the 3’UTR of their target genes. Computational methods play an important role in target prediction and assume that the miRNA “seed region” (nt 2 to 8) is required for functional targeting, but typically only identify ∼80% of known bindings. Recent studies have highlighted a role for the entire miRNA, suggesting that a more flexible methodology is needed. We present a novel approach for miRNA target prediction based on Deep Learning (DL) which, rather than incorporating any knowledge (such as seed regions), investigates the entire miRNA and 3’TR mRNA nucleotides to learn a uninhibited set of feature descriptors related to the targeting process. We collected more than 150,000 experimentally validated homo sapiens miRNA:gene targets and cross referenced them with different CLIP-Seq, CLASH and iPAR-CLIP datasets to obtain ∼20,000 validated miRNA:gene exact target sites. Using this data, we implemented and trained a deep neural network—composed of autoencoders and a feed-forward network—able to automatically learn features describing miRNA-mRNA interactions and assess functionality. Predictions were then refined using information such as site location or site accessibility energy. In a comparison using independent datasets, our DL approach consistently outperformed existing prediction methods, recognizing the seed region as a common feature in the targeting process, but also identifying the role of pairings outside this region. Thermodynamic analysis also suggests that site accessibility plays a role in targeting but that it cannot be used as a sole indicator for functionality. Data and source code available at: https://bitbucket.org/account/user/bipous/projects/MIRAW.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/kfoW0uguv04&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-07-13T21:00:00+00:00</dc:date>
 	<dc:creator>Simon Rayner</dc:creator>
+</item>
+<item rdf:about="http://eneuro.org//cgi/content/short/ENEURO.0331-18.2018v1?rss=1">
+	<title>RSS PAP: Selective Effects of the Loss of NMDA or mGluR5 Receptors in the Reward System on Adaptive Decision-Making</title>
+	<link>http://eneuro.org//cgi/content/short/ENEURO.0331-18.2018v1?rss=1</link>
+	<content:encoded>Abstract&lt;p&gt;Selecting the most advantageous actions in a changing environment is a central feature of adaptive behavior. The midbrain dopamine (DA) neurons along with the major targets of their projections, including dopaminoceptive neurons in the frontal cortex and basal ganglia, play a key role in this process. Here, we investigate the consequences of a selective genetic disruption of N-methyl-D-aspartate (NMDA) and metabotropic glutamate 5 (mGluR5) receptors in the DA system on adaptive choice behavior, in mice. We tested the effects of the mutation on performance in the probabilistic reinforcement learning and probability discounting tasks. In case of the probabilistic choice, both the loss of NMDA receptors in dopaminergic neurons or loss mGluR5 receptors in D1 receptor-expressing dopaminoceptive neurons reduced the probability of selecting the more rewarded alternative and lowered the likelihood of returning to the previously rewarded alternative (win-stay). When observed behavior was fitted to reinforcement learning models, we found that these two mutations were associated with reduced effect of expected outcome on choice, i.e. more random choices. None of the mutations affected probability discounting, which indicates that all animals had normal ability to assess probability. However, in both behavioral tasks animals with targeted loss of NMDA receptors in dopaminergic neurons or mGluR5 receptors in D1 neurons were significantly slower to perform choices. In conclusion, these results show that glutamate receptor-dependent signaling in the DA system is essential for the speed and accuracy of choices, but at the same time probably not critical for correct estimation of probable outcomes.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Significance Statement&lt;/b&gt; We investigated the role of glutamate signaling in the brain’s reward system in adaptive decision-making. We used genetically modified mice with disruption of glutamate signaling, that was caused by deletion of glutamate receptors in dopamine-producing and dopamine-sensitive neurons. When mutant mice were offered a choice between two alternatives with varying chances of being rewarded, the mutations decreased the probability of selecting the more often rewarded alternative, and the likelihood of repeating previously rewarded choice. Moreover, mutant animals were much slower in performing choices. Our results show that when glutamate signaling in the reward system is disrupted, it causes an impairment in decision-making, by increasing randomness and reducing the speed of decision-making process.&lt;/p&gt;</content:encoded>
+	<dc:date>2018-07-13T16:16:43+00:00</dc:date>
+	<dc:creator>Cieslak, P. E., Ahn, W.-Y., Bogacz, R., Parkitna, J. R.</dc:creator>
+</item>
+<item rdf:about="http://eneuro.org//cgi/content/short/ENEURO.0240-18.2018v1?rss=1">
+	<title>RSS PAP: Conflicted between Goal-Directed and Habitual Control - an fMRI Investigation</title>
+	<link>http://eneuro.org//cgi/content/short/ENEURO.0240-18.2018v1?rss=1</link>
+	<content:encoded>Abstract&lt;p&gt;&quot;Slips of action&quot; occur in everyday life when we momentarily lose sight of a goal (for example when in a rush or distracted). Associative models propose that these habitual responses can be activated via a direct stimulus-response mechanism, regardless of the current hedonic value of the outcome. The slips-of-action task (SOAT) has been extensively used in both healthy and pathological populations to measure habit tendencies – the likelihood of making erroneous responses for devalued outcomes. Inspection of behavioral performance does not reveal, however, whether the impairments were due to impaired goal-directed control or aberrantly strong habit formation. In the current study we used functional MRI while human participants performed both the instrumental training and SOAT test phases, to elucidate the relative contributions of these mechanisms to performance on the SOAT. On trials in which conflict arises between competing goal-directed and habitual responses we observed increased activation across areas including the anterior cingulate cortex, paracingulate gyrus, lateral OFC, insula and inferior frontal gyrus. Responding for devalued outcomes was related to increased activation in the premotor cortex and cerebellum – implicating these regions in habitual responding. Increased activation in the caudate, dorsolateral prefrontal cortex and frontal pole during training was associated with better performance during the test phase, indicative of goal-directed action control. These results endorse interpretation of the SOAT in terms of competing goal-directed and habitual mechanisms and highlight that cognitive control processes present an additional bottleneck for successful performance on this task.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Significance Statement&lt;/b&gt; Imagine that you step in the car intending to drive to your new office but distracted, end up driving the route to your old office instead. We are all familiar with the feeling that results from inadvertently carrying out a previously valid behavior, even if we no longer desire the consequence. In the current study we examined how the brain reacts to cues that signal a previously rewarded response whose outcome value has now changed. We were also able to identify the brain regions that were activated when participants made an erroneous (habitual) response under time-pressure. These results give us a richer sense of how the brain acts to control behavior when goal-directed processes are otherwise engaged.&lt;/p&gt;</content:encoded>
+	<dc:date>2018-07-13T16:16:43+00:00</dc:date>
+	<dc:creator>Watson, P., van Wingen, G., de Wit, S.</dc:creator>
 </item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818300229">
 	<title>Current Opinion in Neurobiology - Just Published: Actin Assemblies in the Axon Shaft – some Open Questions</title>
@@ -635,6 +649,13 @@ model equals that of the user-specific models, without any user specific data.
 	<content:encoded>Sequential sampling models have provided a dominant theoretical framework guiding computational and neurophysiological investigations of perceptual decision-making. While these models share the basic principle that decisions are formed by accumulating sensory evidence to a bound, they come in many forms that can make similar predictions of choice behaviour despite invoking fundamentally different mechanisms. The identification of neural signals that reflect some of the core computations underpinning decision formation offers new avenues for empirically testing and refining key model assumptions.</content:encoded>
 	<dc:date>2018-07-13T00:00:00+00:00</dc:date>
 	<dc:creator>Redmond G. O’Connell, Michael N. Shadlen, KongFatt Wong-Lin, Simon P. Kelly</dc:creator>
+</item>
+<item rdf:about="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(18)30165-6?rss=yes">
+	<title>Trends in Neurosciences: The Neuroplastic and Therapeutic Potential of Spinal Interneurons in the Injured Spinal Cord</title>
+	<link>https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(18)30165-6?rss=yes</link>
+	<content:encoded>The central nervous system is not a static, hard-wired organ. Examples of neuroplasticity, whether at the level of the synapse, the cell, or within and between circuits, can be found during development, throughout the progression of disease, or after injury. One essential component of the molecular, anatomical, and functional changes associated with neuroplasticity is the spinal interneuron (SpIN). Here, we draw on recent multidisciplinary studies to identify and interrogate subsets of SpINs and their roles in locomotor and respiratory circuits.</content:encoded>
+	<dc:date>2018-07-13T00:00:00+00:00</dc:date>
+	<dc:creator>Lyandysha V. Zholudeva, Liang Qiang, Vitaliy Marchenko, Kimberly J. Dougherty, Shelly E. Sakiyama-Elbert, Michael A. Lane</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/369215v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: transcranial Direct Current Stimulation Studies Open Database (tDCS-OD)</title>
@@ -2992,22 +3013,6 @@ It is challenging to decipher molecular mechanisms in biological systems from sy
 	<dc:date>2018-07-02T17:04:50+00:00</dc:date>
 	<dc:creator>Kolskar, K. K., Alnaes, D., Kaufmann, T., Richard, G., Sanders, A.-M., Ulrichsen, K. M., Moberget, T., Andreassen, O. A., Nordvik, J. E., Westlye, L. T.</dc:creator>
 </item>
-<item rdf:about="http://eneuro.org//cgi/content/short/5/3/ENEURO.0408-17.2018?rss=1">
-	<title>eNeuro current issue: Dynamic Interactions between Emotion Perception and Action Preparation for Reacting to Social Threat: A Combined cTBS-fMRI Study</title>
-	<link>http://eneuro.org//cgi/content/short/5/3/ENEURO.0408-17.2018?rss=1</link>
-	<content:encoded>Abstract
-&lt;p&gt;Expressions of emotion are powerful triggers for situation-appropriate responses by the observer. Of particular interest regarding the preparation of such adaptive actions are parietal and premotor cortices, given their potential for interaction with the amygdala (AMG), which is known to play a crucial role in the processing of affective information and in motor response. We set out to disentangle the respective roles of the inferior parietal lobule (IPL) and ventral premotor cortex (PMv) in humans in the processing of emotional body expressions by assessing remote effects of continuous theta burst stimulation (cTBS) in the action network and in AMG. Participants were presented with blocks of short videos showing either angry or neutral whole-body actions. The experiment consisted of three fMRI sessions: two sessions were preceded by stimulation of either right IPL (rIPL) or right PMv (rPMv); and a third session assessed baseline activity. Interestingly, whereas at baseline the left AMG did not differentiate between neutral and angry body postures, a significant difference between these conditions emerged after stimulation of either rIPL or rPMv, with much larger responses to angry than to neutral stimuli. In addition, the effects of cTBS stimulation and emotion were also observed in two other action-relevant areas, the supplementary motor area and the superior parietal cortex. Together, these results show how areas involved in action and emotion perception and in action preparation interact dynamically.&lt;/p&gt;</content:encoded>
-	<dc:date>2018-07-02T16:52:00+00:00</dc:date>
-	<dc:creator>Engelen, T., Zhan, M., Sack, A. T., de Gelder, B.</dc:creator>
-</item>
-<item rdf:about="http://eneuro.org//cgi/content/short/5/3/ENEURO.0204-18.2018?rss=1">
-	<title>eNeuro current issue: Optogenetic Study of Anterior BNST and Basomedial Amygdala Projections to the Ventromedial Hypothalamus</title>
-	<link>http://eneuro.org//cgi/content/short/5/3/ENEURO.0204-18.2018?rss=1</link>
-	<content:encoded>Abstract
-&lt;p&gt;The basomedial amygdala (BM) influences the ventromedial nucleus of the hypothalamus (VMH) through direct glutamatergic projections as well as indirectly, through the anterior part of the bed nucleus of the stria terminalis (BNSTa). However, BM and BNSTa axons end in a segregated fashion in VMH. BM projects to the core of VMH, where VMH’s projection cells are located, whereas BNSTa projects to the shell of VMH, where GABAergic cells that inhibit core neurons are concentrated. However, the consequences of this dual regulation of VMH by BM and BNSTa are unknown. To study this question, we recorded the responses of VMH’s shell and core neurons to the optogenetic activation of BM or BNSTa inputs in transgenic mice that selectively express Cre-recombinase in glutamatergic or GABAergic neurons. Glutamatergic BM inputs fired most core neurons but elicited no response in GABAergic shell neurons. Following BM infusions of AAV-EF1α-DIO-hChR2-mCherry in Vgat-ires-Cre-Ai6 mice, no anterograde labeling was observed in the VMH, suggesting that GABAergic BM neurons do not project to the VMH. In contrast, BNSTa sent mostly GABAergic projections that inhibited both shell and core neurons. However, BNSTa-evoked IPSPs had a higher amplitude in shell neurons. Since we also found that activation of GABAergic shell neurons causes an inhibition of core neurons, these results suggest that depending on the firing rate of shell neurons, BNSTa inputs could elicit a net inhibition or disinhibition of core neurons. Thus, the dual regulation of VMH by BM and BNSTa imparts flexibility to this regulator of defensive and social behaviors.&lt;/p&gt;</content:encoded>
-	<dc:date>2018-07-02T16:52:00+00:00</dc:date>
-	<dc:creator>Yamamoto, R., Ahmed, N., Ito, T., Gungor, N. Z., Pare, D.</dc:creator>
-</item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnmol.2018.00224">
 	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Ca2+-dependent and Ca2+-independent ATP release in astrocytes</title>
 	<link>https://www.frontiersin.org/articles/10.3389/fnmol.2018.00224</link>
@@ -3794,12 +3799,6 @@ JulieSchneiderMD</dc:creator>
 	<link>https://www.frontiersin.org/articles/10.3389/fncir.2018.00046</link>
 	<content:encoded>Emiliano Marachlian, Lilach Avitan, Geoffrey J. Goodhill, Germán Sumbre</content:encoded>
 	<dc:date>2018-06-21T11:00:15+00:00</dc:date>
-</item>
-<item rdf:about="https://www.frontiersin.org/articles/10.3389/fnins.2018.00416">
-	<title>Frontiers in Neuroscience | Neurodegeneration section | New and Recent Articles: Frequency-Dependent Changes of the Resting BOLD Signals Predicts Cognitive Deficits in Asymptomatic Carotid Artery Stenosis</title>
-	<link>https://www.frontiersin.org/articles/10.3389/fnins.2018.00416</link>
-	<content:encoded>Feng Xiao, Tao Wang, Lei Gao, Jian Fang, Zhenmeng Sun, Haibo Xu, Junjian Zhang</content:encoded>
-	<dc:date>2018-06-21T05:00:13+00:00</dc:date>
 </item>
 
 </rdf:RDF>
