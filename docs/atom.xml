@@ -5,7 +5,7 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscience/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscience/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscience/atom.xml</id>
-	<updated>2018-08-24T17:00:18+00:00</updated>
+	<updated>2018-08-24T23:00:16+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscience/">http://intertwingly.net/code/venus/</generator>
 
 	<entry>
@@ -114,6 +114,75 @@
 	</entry>
 
 	<entry>
+		<title type="html">MDHGI: Matrix Decomposition and Heterogeneous Graph Inference for miRNA-disease association prediction</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/GamchGmWZsk/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006418</id>
+		<updated>2018-08-24T21:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Xing Chen, Jun Yin, Jia Qu, Li Huang&lt;/p&gt;
+
+Recently, a growing number of biological research and scientific experiments have demonstrated that microRNA (miRNA) affects the development of human complex diseases. Discovering miRNA-disease associations plays an increasingly vital role in devising diagnostic and therapeutic tools for diseases. However, since uncovering associations via experimental methods is expensive and time-consuming, novel and effective computational methods for association prediction are in demand. In this study, we developed a computational model of Matrix Decomposition and Heterogeneous Graph Inference for miRNA-disease association prediction (MDHGI) to discover new miRNA-disease associations by integrating the predicted association probability obtained from matrix decomposition through sparse learning method, the miRNA functional similarity, the disease semantic similarity, and the Gaussian interaction profile kernel similarity for diseases and miRNAs into a heterogeneous network. Compared with previous computational models based on heterogeneous networks, our model took full advantage of matrix decomposition before the construction of heterogeneous network, thereby improving the prediction accuracy. MDHGI obtained AUCs of 0.8945 and 0.8240 in the global and the local leave-one-out cross validation, respectively. Moreover, the AUC of 0.8794+/-0.0021 in 5-fold cross validation confirmed its stability of predictive performance. In addition, to further evaluate the model's accuracy, we applied MDHGI to four important human cancers in three different kinds of case studies. In the first type, 98% (Esophageal Neoplasms) and 98% (Lymphoma) of top 50 predicted miRNAs have been confirmed by at least one of the two databases (dbDEMC and miR2Disease) or at least one experimental literature in PubMed. In the second type of case study, what made a difference was that we removed all known associations between the miRNAs and Lung Neoplasms before implementing MDHGI on Lung Neoplasms. As a result, 100% (Lung Neoplasms) of top 50 related miRNAs have been indexed by at least one of the three databases (dbDEMC, miR2Disease and HMDD V2.0) or at least one experimental literature in PubMed. Furthermore, we also tested our prediction method on the HMDD V1.0 database to prove the applicability of MDHGI to different datasets. The results showed that 50 out of top 50 miRNAs related with the breast neoplasms were validated by at least one of the three databases (HMDD V2.0, dbDEMC, and miR2Disease) or at least one experimental literature.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/GamchGmWZsk&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Li Huang</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2018-08-24T22:56:04+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">coTRaCTE predicts co-occurring transcription factors within cell-type specific enhancers</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/MxkxJZb0SdU/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006372</id>
+		<updated>2018-08-24T21:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Alena van Bömmel, Michael I. Love, Ho-Ryun Chung, Martin Vingron&lt;/p&gt;
+
+Cell-type specific gene expression is regulated by the combinatorial action of transcription factors (TFs). In this study, we predict transcription factor (TF) combinations that cooperatively bind in a cell-type specific manner. We first divide DNase hypersensitive sites into cell-type specifically open vs. ubiquitously open sites in 64 cell types to describe possible cell-type specific enhancers. Based on the pattern contrast between these two groups of sequences we develop “co-occurring TF predictor on Cell-Type specific Enhancers” (coTRaCTE) - a novel statistical method to determine regulatory TF co-occurrences. Contrasting the co-binding of TF pairs between cell-type specific and ubiquitously open chromatin guarantees the high cell-type specificity of the predictions. coTRaCTE predicts more than 2000 co-occurring TF pairs in 64 cell types. The large majority (70%) of these TF pairs is highly cell-type specific and overlaps in TF pair co-occurrence are highly consistent among related cell types. Furthermore, independently validated co-occurring and directly interacting TFs are significantly enriched in our predictions. Focusing on the regulatory network derived from the predicted co-occurring TF pairs in embryonic stem cells (ESCs) we find that it consists of three subnetworks with distinct functions: maintenance of pluripotency governed by OCT4, SOX2 and NANOG, regulation of early development governed by KLF4, STAT3, ZIC3 and ZNF148 and general functions governed by MYC, TCF3 and YY1. In summary, coTRaCTE predicts highly cell-type specific co-occurring TFs which reveal new insights into transcriptional regulatory mechanisms.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/MxkxJZb0SdU&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Martin Vingron</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2018-08-24T22:56:04+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Dorsal anterior cingulate-brainstem ensemble as a reinforcement meta-learner</title>
+		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/8IMZqSvNobY/article"/>
+		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006370</id>
+		<updated>2018-08-24T21:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;by Massimo Silvetti, Eliana Vassena, Elger Abrahamse, Tom Verguts&lt;/p&gt;
+
+Optimal decision-making is based on integrating information from several dimensions of decisional space (e.g., reward expectation, cost estimation, effort exertion). Despite considerable empirical and theoretical efforts, the computational and neural bases of such multidimensional integration have remained largely elusive. Here we propose that the current theoretical stalemate may be broken by considering the computational properties of a cortical-subcortical circuit involving the dorsal anterior cingulate cortex (dACC) and the brainstem neuromodulatory nuclei: ventral tegmental area (VTA) and locus coeruleus (LC). From this perspective, the dACC optimizes decisions about stimuli and actions, and using the same computational machinery, it also modulates cortical functions (meta-learning), via neuromodulatory control (VTA and LC). We implemented this theory in a novel neuro-computational model–the Reinforcement Meta Learner (RML). We outline how the RML captures critical empirical findings from an unprecedented range of theoretical domains, and parsimoniously integrates various previous proposals on dACC functioning.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/8IMZqSvNobY&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Tom Verguts</name>
+			<uri>http://journals.plos.org/ploscompbiol/</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Computational Biology: New Articles</title>
+			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
+			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
+			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
+			<updated>2018-08-24T22:56:04+00:00</updated>
+			<rights type="html">All PLOS articles are Open Access.</rights>
+		</source>
+	</entry>
+
+	<entry>
 		<title type="html">Astrocytes Protect Neurons in the Hippocampal CA3 Against Ischemia by Suppressing the Intracellular Ca2+ Overload</title>
 		<link href="https://www.frontiersin.org/articles/10.3389/fncel.2018.00280"/>
 		<id>https://www.frontiersin.org/articles/10.3389/fncel.2018.00280</id>
@@ -129,7 +198,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -149,7 +218,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -169,7 +238,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -189,7 +258,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -209,7 +278,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -229,7 +298,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -249,7 +318,7 @@
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -390,7 +459,7 @@ texture likelihood width.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -411,7 +480,7 @@ texture likelihood width.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -432,7 +501,7 @@ texture likelihood width.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -514,7 +583,7 @@ Pathophysiological explanations of epilepsy typically focus on either the micro/
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -537,7 +606,7 @@ A central challenge in sensory neuroscience involves understanding how neural ci
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -558,7 +627,7 @@ A central challenge in sensory neuroscience involves understanding how neural ci
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -578,7 +647,7 @@ A central challenge in sensory neuroscience involves understanding how neural ci
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -598,7 +667,7 @@ A central challenge in sensory neuroscience involves understanding how neural ci
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -618,7 +687,7 @@ A central challenge in sensory neuroscience involves understanding how neural ci
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -638,7 +707,7 @@ A central challenge in sensory neuroscience involves understanding how neural ci
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -780,7 +849,7 @@ PhD</name>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -801,7 +870,7 @@ PhD</name>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -822,7 +891,7 @@ PhD</name>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -843,7 +912,7 @@ PhD</name>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -864,7 +933,7 @@ PhD</name>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -885,7 +954,7 @@ PhD</name>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1546,7 +1615,7 @@ A user ready, portable, documented software package, &lt;i&gt;NFTsim&lt;/i&gt;, 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -1569,7 +1638,7 @@ The molecular makeup of the offspring of a dividing cell gradually becomes pheno
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -1610,7 +1679,7 @@ The molecular makeup of the offspring of a dividing cell gradually becomes pheno
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurogenesis</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1630,7 +1699,7 @@ The molecular makeup of the offspring of a dividing cell gradually becomes pheno
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1650,7 +1719,7 @@ The molecular makeup of the offspring of a dividing cell gradually becomes pheno
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1670,7 +1739,7 @@ The molecular makeup of the offspring of a dividing cell gradually becomes pheno
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1690,7 +1759,7 @@ The molecular makeup of the offspring of a dividing cell gradually becomes pheno
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -1710,7 +1779,7 @@ The molecular makeup of the offspring of a dividing cell gradually becomes pheno
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1730,7 +1799,7 @@ The molecular makeup of the offspring of a dividing cell gradually becomes pheno
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1750,7 +1819,7 @@ The molecular makeup of the offspring of a dividing cell gradually becomes pheno
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1770,7 +1839,7 @@ The molecular makeup of the offspring of a dividing cell gradually becomes pheno
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1790,7 +1859,7 @@ The molecular makeup of the offspring of a dividing cell gradually becomes pheno
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -1810,7 +1879,7 @@ The molecular makeup of the offspring of a dividing cell gradually becomes pheno
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2051,7 +2120,7 @@ discontinuous state changes phase-locked to the brain rhythm.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2072,7 +2141,7 @@ discontinuous state changes phase-locked to the brain rhythm.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -2093,7 +2162,7 @@ discontinuous state changes phase-locked to the brain rhythm.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2114,7 +2183,7 @@ discontinuous state changes phase-locked to the brain rhythm.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2135,7 +2204,7 @@ discontinuous state changes phase-locked to the brain rhythm.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2881,7 +2950,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -2902,7 +2971,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -2922,7 +2991,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2942,7 +3011,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3382,7 +3451,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3402,7 +3471,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3422,7 +3491,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3442,7 +3511,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3462,7 +3531,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3482,7 +3551,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -3502,7 +3571,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3522,7 +3591,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3542,7 +3611,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3562,7 +3631,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3582,7 +3651,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3602,7 +3671,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3622,7 +3691,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3642,7 +3711,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3662,7 +3731,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3682,7 +3751,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3702,7 +3771,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3722,7 +3791,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3742,7 +3811,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3762,7 +3831,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3782,7 +3851,7 @@ ESCRT proteins participate in the fission step of exocytic membrane budding, by 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3846,7 +3915,7 @@ will provide insights into the processes of long-term synaptic plasticity.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3867,7 +3936,7 @@ will provide insights into the processes of long-term synaptic plasticity.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3888,7 +3957,7 @@ will provide insights into the processes of long-term synaptic plasticity.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3909,7 +3978,7 @@ will provide insights into the processes of long-term synaptic plasticity.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3930,7 +3999,7 @@ will provide insights into the processes of long-term synaptic plasticity.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -3950,7 +4019,7 @@ will provide insights into the processes of long-term synaptic plasticity.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4032,7 +4101,7 @@ will provide insights into the processes of long-term synaptic plasticity.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -4052,7 +4121,7 @@ will provide insights into the processes of long-term synaptic plasticity.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4072,7 +4141,7 @@ will provide insights into the processes of long-term synaptic plasticity.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4092,7 +4161,7 @@ will provide insights into the processes of long-term synaptic plasticity.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4112,7 +4181,7 @@ will provide insights into the processes of long-term synaptic plasticity.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4132,7 +4201,7 @@ will provide insights into the processes of long-term synaptic plasticity.
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4152,7 +4221,7 @@ will provide insights into the processes of long-term synaptic plasticity.
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4341,7 +4410,7 @@ will provide insights into the processes of long-term synaptic plasticity.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2018-08-24T17:00:12+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4360,7 +4429,7 @@ will provide insights into the processes of long-term synaptic plasticity.
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -4380,7 +4449,7 @@ will provide insights into the processes of long-term synaptic plasticity.
 			<title type="html">Current Opinion in Neurobiology - Just Published</title>
 			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
 			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 			<rights type="html">Copyright Elsevier Ltd</rights>
 		</source>
 	</entry>
@@ -4403,7 +4472,7 @@ The adherens junctions between epithelial cells involve a protein complex formed
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4426,7 +4495,7 @@ It is estimated that the Earth’s biocapacity is unable to meet current demands
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4449,7 +4518,7 @@ We present ggsashimi, a command-line tool for the visualization of splicing even
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4472,7 +4541,7 @@ Like other animals, lampreys have a central pattern generator (CPG) circuit that
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4495,7 +4564,7 @@ Metabolic engineering increasingly depends upon RNA technology to customly rewir
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4536,7 +4605,7 @@ Metabolic engineering increasingly depends upon RNA technology to customly rewir
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -4556,7 +4625,7 @@ Metabolic engineering increasingly depends upon RNA technology to customly rewir
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4576,7 +4645,7 @@ Metabolic engineering increasingly depends upon RNA technology to customly rewir
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4725,7 +4794,7 @@ MD, PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -4745,7 +4814,7 @@ MD, PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4765,7 +4834,7 @@ MD, PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4785,7 +4854,7 @@ MD, PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4805,7 +4874,7 @@ MD, PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4825,7 +4894,7 @@ MD, PhD</name>
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4845,7 +4914,7 @@ MD, PhD</name>
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4865,7 +4934,7 @@ MD, PhD</name>
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2018-08-24T17:00:09+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4885,7 +4954,7 @@ MD, PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4905,7 +4974,7 @@ MD, PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4925,7 +4994,7 @@ MD, PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4945,7 +5014,7 @@ MD, PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5070,7 +5139,7 @@ Evolve and Resequencing (E&amp;amp;R) studies allow us to monitor adaptation at 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5093,7 +5162,7 @@ Understanding the epidemiology of seasonal influenza is critical for healthcare 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5556,7 +5625,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5603,21 +5672,22 @@ The spread of disease through human populations is complex. The characteristics 
 
 	<entry>
 		<title type="html">Regulation of synaptic plasticity in hippocampal area CA2</title>
-		<link href="https://www.sciencedirect.com/science/article/pii/S0959438818300412"/>
+		<link href="https://www.sciencedirect.com/science/article/pii/S0959438818300412?dgcid=rss_sd_all"/>
 		<id>https://www.sciencedirect.com/science/article/pii/S0959438818300412</id>
 		<updated>2018-08-15T11:00:14+00:00</updated>
 		<content type="html">
- Kelly E Carstens | Serena M Dudek</content>
+ &lt;p&gt;Publication date: Available online 14 August 2018&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology&lt;/p&gt;&lt;p&gt;Author(s): Kelly E Carstens, Serena M Dudek&lt;/p&gt;&lt;div&gt;&lt;p&gt;Synaptic plasticity in the hippocampus is thought to play a vital role in both the refinement of neuronal circuits during development and in learning in the mature brain. Synapses in hippocampal area CA1 are known for a robust capacity for long-term potentiation (LTP), whereas synapses in the stratum radiatum of hippocampal area CA2 are particularly resistant to such changes. Although we have yet to fully understand the mechanisms behind this resistance to plasticity, a number of genes and extracellular matrix components highly expressed in CA2 appear to function as molecular brakes on plasticity and develop postnatally in the rodent brain. Curiously, the developmental profile of several CA2-enriched molecules is suggestive of a still undefined critical window of plasticity in the hippocampus.&lt;/p&gt;&lt;/div&gt;</content>
 		<author>
-			<name>Current Opinion in Neurobiology - Just Published</name>
-			<uri>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</uri>
+			<name>ScienceDirect Publication: Current Opinion in Neurobiology</name>
+			<uri>https://www.sciencedirect.com/journal/current-opinion-in-neurobiology</uri>
 		</author>
 		<source>
-			<title type="html">Current Opinion in Neurobiology - Just Published</title>
-			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
-			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
-			<rights type="html">Copyright Elsevier Ltd</rights>
+			<title type="html">ScienceDirect Publication: Current Opinion in Neurobiology</title>
+			<subtitle type="html">ScienceDirect RSS</subtitle>
+			<link rel="self" href="http://rss.sciencedirect.com/publication/science/09594388"/>
+			<id>https://www.sciencedirect.com/journal/current-opinion-in-neurobiology</id>
+			<updated>2018-08-24T23:00:10+00:00</updated>
+			<rights type="html">Copyright © 2018 Elsevier Ltd.  All rights reserved</rights>
 		</source>
 	</entry>
 
@@ -5637,7 +5707,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2018-08-24T17:00:09+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5657,7 +5727,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -5677,7 +5747,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -5697,7 +5767,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5717,7 +5787,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5737,7 +5807,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5757,7 +5827,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5777,7 +5847,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Frontiers in Synaptic Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/synaptic-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/synaptic-neuroscience</id>
-			<updated>2018-08-24T17:00:09+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5797,7 +5867,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5817,7 +5887,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5837,7 +5907,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5857,7 +5927,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5877,7 +5947,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5897,7 +5967,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2018-08-24T17:00:09+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5917,7 +5987,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5937,7 +6007,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5957,7 +6027,7 @@ The spread of disease through human populations is complex. The characteristics 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6249,7 +6319,7 @@ The hippocampus is known to store cognitive representations, or maps, that encod
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -6272,7 +6342,7 @@ Hebbian plasticity describes a basic mechanism for synaptic plasticity whereby s
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -6293,7 +6363,7 @@ Hebbian plasticity describes a basic mechanism for synaptic plasticity whereby s
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6313,7 +6383,7 @@ Hebbian plasticity describes a basic mechanism for synaptic plasticity whereby s
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6333,7 +6403,7 @@ Hebbian plasticity describes a basic mechanism for synaptic plasticity whereby s
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6353,7 +6423,7 @@ Hebbian plasticity describes a basic mechanism for synaptic plasticity whereby s
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2018-08-24T17:00:09+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6373,7 +6443,7 @@ Hebbian plasticity describes a basic mechanism for synaptic plasticity whereby s
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6512,7 +6582,7 @@ PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6532,7 +6602,7 @@ PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6552,7 +6622,7 @@ PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6572,7 +6642,7 @@ PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6592,7 +6662,7 @@ PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -6612,7 +6682,7 @@ PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6632,7 +6702,7 @@ PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6652,7 +6722,7 @@ PhD</name>
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2018-08-24T17:00:09+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6672,7 +6742,7 @@ PhD</name>
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6692,7 +6762,7 @@ PhD</name>
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6712,7 +6782,7 @@ PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6732,7 +6802,7 @@ PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6752,7 +6822,7 @@ PhD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -6965,7 +7035,7 @@ Manually curating biomedical knowledge from publications is necessary to build a
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -6988,53 +7058,7 @@ Gene co-expression network analysis is extremely useful in interpreting a comple
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Regulation of Pom cluster dynamics in &amp;lt;i&amp;gt;Myxococcus xanthus&amp;lt;/i&amp;gt;</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/SKZXSeDaTnk/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006358</id>
-		<updated>2018-08-13T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Silke Bergeler, Erwin Frey&lt;/p&gt;
-
-Precise positioning of the cell division site is essential for the correct segregation of the genetic material into the two daughter cells. In the bacterium &lt;i&gt;Myxococcus xanthus&lt;/i&gt;, the proteins PomX and PomY form a cluster on the chromosome that performs a biased random walk to midcell and positively regulates cell division there. PomZ, an ATPase, is necessary for tethering of the cluster to the nucleoid and regulates its movement towards midcell. It has remained unclear how the cluster dynamics change when the biochemical parameters, such as the attachment rates of PomZ dimers to the nucleoid and the cluster, the ATP hydrolysis rate of PomZ or the mobility of PomZ interacting with the nucleoid and cluster, are varied. To answer these questions, we investigate a one-dimensional model that includes the nucleoid, the Pom cluster and PomZ proteins. We find that a mechanism based on the diffusive PomZ fluxes on the nucleoid into the cluster can explain the latter’s midnucleoid localization for a broad parameter range. Furthermore, there is an ATP hydrolysis rate that minimizes the time the cluster needs to reach midnucleoid. If the dynamics of PomZ on the nucleoid is slow relative to the cluster’s velocity, we observe oscillatory cluster movements around midnucleoid. To understand midnucleoid localization, we developed a semi-analytical approach that dissects the net movement of the cluster into its components: the difference in PomZ fluxes into the cluster from either side, the force exerted by a single PomZ dimer on the cluster and the effective friction coefficient of the cluster. Importantly, we predict that the Pom cluster oscillates around midnucleoid if the diffusivity of PomZ on the nucleoid is reduced. A similar approach to that applied here may also prove useful for cargo localization in ParAB&lt;i&gt;S&lt;/i&gt; systems.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/SKZXSeDaTnk&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Erwin Frey</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">riboWaltz: Optimization of ribosome P-site positioning in ribosome profiling data</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/OhaOvd6bTyU/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006169</id>
-		<updated>2018-08-13T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Fabio Lauria, Toma Tebaldi, Paola Bernabò, Ewout J. N. Groen, Thomas H. Gillingwater, Gabriella Viero&lt;/p&gt;
-
-Ribosome profiling is a powerful technique used to study translation at the genome-wide level, generating unique information concerning ribosome positions along RNAs. Optimal localization of ribosomes requires the proper identification of the ribosome P-site in each ribosome protected fragment, a crucial step to determine the trinucleotide periodicity of translating ribosomes, and draw correct conclusions concerning where ribosomes are located. To determine the P-site within ribosome footprints at nucleotide resolution, the precise estimation of its offset with respect to the protected fragment is necessary. Here we present riboWaltz, an R package for calculation of optimal P-site offsets, diagnostic analysis and visual inspection of ribosome profiling data. Compared to existing tools, riboWaltz shows improved accuracies for P-site estimation and neat ribosome positioning in multiple case studies. riboWaltz was implemented in R and is available as an R package at https://github.com/LabTranslationalArchitectomics/RiboWaltz.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/OhaOvd6bTyU&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Gabriella Viero</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
+			<updated>2018-08-24T22:56:04+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -7136,7 +7160,7 @@ Ribosome profiling is a powerful technique used to study translation at the geno
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7156,7 +7180,7 @@ Ribosome profiling is a powerful technique used to study translation at the geno
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7176,7 +7200,7 @@ Ribosome profiling is a powerful technique used to study translation at the geno
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -7196,7 +7220,7 @@ Ribosome profiling is a powerful technique used to study translation at the geno
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7216,7 +7240,7 @@ Ribosome profiling is a powerful technique used to study translation at the geno
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurogenesis</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7236,7 +7260,7 @@ Ribosome profiling is a powerful technique used to study translation at the geno
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7438,29 +7462,6 @@ seizure onset zones in focal epilepsy.
 	</entry>
 
 	<entry>
-		<title type="html">scPipe: A flexible R/Bioconductor preprocessing pipeline for single-cell RNA-sequencing data</title>
-		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/SlKOJy98vdo/article"/>
-		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006361</id>
-		<updated>2018-08-10T21:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;by Luyi Tian, Shian Su, Xueyi Dong, Daniela Amann-Zalcenstein, Christine Biben, Azadeh Seidi, Douglas J. Hilton, Shalin H. Naik, Matthew E. Ritchie&lt;/p&gt;
-
-Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile the transcriptomes of thousands of cells simultaneously. Protocols that incorporate both designed and random barcodes have greatly increased the throughput of scRNA-seq, but give rise to a more complex data structure. There is a need for new tools that can handle the various barcoding strategies used by different protocols and exploit this information for quality assessment at the sample-level and provide effective visualization of these results in preparation for higher-level analyses. To this end, we developed &lt;i&gt;scPipe&lt;/i&gt;, an R/Bioconductor package that integrates barcode demultiplexing, read alignment, UMI-aware gene-level quantification and quality control of raw sequencing data generated by multiple protocols that include CEL-seq, MARS-seq, Chromium 10X, Drop-seq and Smart-seq. &lt;i&gt;scPipe&lt;/i&gt; produces a count matrix that is essential for downstream analysis along with an HTML report that summarises data quality. These results can be used as input for downstream analyses including normalization, visualization and statistical testing. &lt;i&gt;scPipe&lt;/i&gt; performs this processing in a few simple R commands, promoting reproducible analysis of single-cell data that is compatible with the emerging suite of open-source scRNA-seq analysis tools available in R/Bioconductor and beyond. The &lt;i&gt;scPipe&lt;/i&gt; R package is available for download from https://www.bioconductor.org/packages/scPipe.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/SlKOJy98vdo&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Matthew E. Ritchie</name>
-			<uri>http://journals.plos.org/ploscompbiol/</uri>
-		</author>
-		<source>
-			<title type="html">PLOS Computational Biology: New Articles</title>
-			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
-			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
-			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2018-08-24T16:49:36+00:00</updated>
-			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html">Proteomic Analysis of Dendritic Filopodia-Rich Fraction Isolated by Telencephalin and Vitronectin Interaction</title>
 		<link href="https://www.frontiersin.org/articles/10.3389/fnsyn.2018.00027"/>
 		<id>https://www.frontiersin.org/articles/10.3389/fnsyn.2018.00027</id>
@@ -7476,7 +7477,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Synaptic Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/synaptic-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/synaptic-neuroscience</id>
-			<updated>2018-08-24T17:00:09+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7516,7 +7517,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7536,7 +7537,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7556,7 +7557,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
+			<updated>2018-08-24T23:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -7576,7 +7577,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7596,7 +7597,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7616,7 +7617,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7758,7 +7759,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -7778,7 +7779,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -7798,7 +7799,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2018-08-24T17:00:09+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7818,7 +7819,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7838,7 +7839,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7939,7 +7940,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7959,7 +7960,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7979,7 +7980,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -7999,7 +8000,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2018-08-24T17:00:09+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8019,7 +8020,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8039,7 +8040,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8059,7 +8060,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2018-08-24T17:00:09+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8079,7 +8080,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8099,7 +8100,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -8119,7 +8120,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -8139,7 +8140,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -8159,7 +8160,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8205,21 +8206,22 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 
 	<entry>
 		<title type="html">Dendrite morphogenesis from birth to adulthood</title>
-		<link href="https://www.sciencedirect.com/science/article/pii/S0959438818301284"/>
+		<link href="https://www.sciencedirect.com/science/article/pii/S0959438818301284?dgcid=rss_sd_all"/>
 		<id>https://www.sciencedirect.com/science/article/pii/S0959438818301284</id>
 		<updated>2018-08-06T23:00:21+00:00</updated>
 		<content type="html">
- Cameron L Prigge | Jeremy N Kay</content>
+ &lt;p&gt;Publication date: December 2018&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 53&lt;/p&gt;&lt;p&gt;Author(s): Cameron L Prigge, Jeremy N Kay&lt;/p&gt;&lt;div&gt;&lt;p&gt;Dendrites are the conduits for receiving (and in some cases transmitting) neural signals; their ability to do these jobs is a direct result of their morphology. Developmental patterning mechanisms are critical to ensuring concordance between dendritic form and function. This article reviews recent studies in vertebrate retina and brain that elucidate key strategies for dendrite functional maturation. Specific cellular and molecular signals control the initiation and elaboration of dendritic arbors, and facilitate integration of young neurons into particular circuits. In some cells, dendrite growth and remodeling continues into adulthood. Once formed, dendrites subdivide into compartments with distinct physiological properties that enable dendritic computations. Understanding these key stages of dendrite patterning will help reveal how circuit functional properties arise during development.&lt;/p&gt;&lt;/div&gt;</content>
 		<author>
-			<name>Current Opinion in Neurobiology - Just Published</name>
-			<uri>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</uri>
+			<name>ScienceDirect Publication: Current Opinion in Neurobiology</name>
+			<uri>https://www.sciencedirect.com/journal/current-opinion-in-neurobiology</uri>
 		</author>
 		<source>
-			<title type="html">Current Opinion in Neurobiology - Just Published</title>
-			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
-			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
-			<rights type="html">Copyright Elsevier Ltd</rights>
+			<title type="html">ScienceDirect Publication: Current Opinion in Neurobiology</title>
+			<subtitle type="html">ScienceDirect RSS</subtitle>
+			<link rel="self" href="http://rss.sciencedirect.com/publication/science/09594388"/>
+			<id>https://www.sciencedirect.com/journal/current-opinion-in-neurobiology</id>
+			<updated>2018-08-24T23:00:10+00:00</updated>
+			<rights type="html">Copyright © 2018 Elsevier Ltd.  All rights reserved</rights>
 		</source>
 	</entry>
 
@@ -8259,7 +8261,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -8279,7 +8281,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8299,7 +8301,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8319,7 +8321,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8339,7 +8341,7 @@ Single-cell RNA sequencing (scRNA-seq) technology allows researchers to profile 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8708,7 +8710,7 @@ MD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8728,7 +8730,7 @@ MD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8748,7 +8750,7 @@ MD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8768,7 +8770,7 @@ MD</name>
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8788,7 +8790,7 @@ MD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8808,7 +8810,7 @@ MD</name>
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8828,7 +8830,7 @@ MD</name>
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8854,21 +8856,22 @@ MD</name>
 
 	<entry>
 		<title type="html">Regulation of neurogenesis in the adult and aging brain</title>
-		<link href="https://www.sciencedirect.com/science/article/pii/S0959438818301296"/>
+		<link href="https://www.sciencedirect.com/science/article/pii/S0959438818301296?dgcid=rss_sd_all"/>
 		<id>https://www.sciencedirect.com/science/article/pii/S0959438818301296</id>
 		<updated>2018-08-02T17:00:11+00:00</updated>
 		<content type="html">
- Lida Katsimpardi | Pierre-Marie Lledo</content>
+ &lt;p&gt;Publication date: December 2018&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 53&lt;/p&gt;&lt;p&gt;Author(s): Lida Katsimpardi, Pierre-Marie Lledo&lt;/p&gt;&lt;div&gt;&lt;p&gt;Neural stem cells (NSCs) represent a remarkable developmental unit, necessary for the proper functioning of neurogenesis, by retaining their plasticity to self-renew and give rise to progeny throughout life in specific regions of the adult brain. Although NSCs were thought to merely represent a stem cell type in the brain, recent advances have demonstrated the incredible complexity of NSC identity and functions. Ranging between quiescence, activation and intermediary subtypes, NSCs choose their fate through their developmental inheritance, regional positioning within the niche, as well as dynamic transcriptional and metabolic states. The plasticity of their developmental program is reflected in the tremendous changes they undergo upon external environmental cues and extrinsic manipulations, and harnessing these potentials can open new avenues to fight against brain injury, neurodegenerative and age-related diseases.&lt;/p&gt;&lt;/div&gt;</content>
 		<author>
-			<name>Current Opinion in Neurobiology - Just Published</name>
-			<uri>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</uri>
+			<name>ScienceDirect Publication: Current Opinion in Neurobiology</name>
+			<uri>https://www.sciencedirect.com/journal/current-opinion-in-neurobiology</uri>
 		</author>
 		<source>
-			<title type="html">Current Opinion in Neurobiology - Just Published</title>
-			<link rel="self" href="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/"/>
-			<id>http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/</id>
-			<updated>2018-08-24T17:00:11+00:00</updated>
-			<rights type="html">Copyright Elsevier Ltd</rights>
+			<title type="html">ScienceDirect Publication: Current Opinion in Neurobiology</title>
+			<subtitle type="html">ScienceDirect RSS</subtitle>
+			<link rel="self" href="http://rss.sciencedirect.com/publication/science/09594388"/>
+			<id>https://www.sciencedirect.com/journal/current-opinion-in-neurobiology</id>
+			<updated>2018-08-24T23:00:10+00:00</updated>
+			<rights type="html">Copyright © 2018 Elsevier Ltd.  All rights reserved</rights>
 		</source>
 	</entry>
 
@@ -8888,7 +8891,7 @@ MD</name>
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -8908,7 +8911,7 @@ MD</name>
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurogenesis</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -9055,7 +9058,7 @@ MD,MBA</name>
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -9075,7 +9078,7 @@ MD,MBA</name>
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2018-08-24T17:00:10+00:00</updated>
+			<updated>2018-08-24T23:00:08+00:00</updated>
 		</source>
 	</entry>
 
