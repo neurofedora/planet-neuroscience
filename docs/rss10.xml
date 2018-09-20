@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006412" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006405" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818300709" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnhum.2018.00383" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnhum.2018.00378" />
@@ -50,10 +52,14 @@
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(18)30739-6?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(18)30738-4?rss=yes" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/423129v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/423038v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/422873v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/422857v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/422691v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/422576v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/422535v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/422477v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/422238v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/421370v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/409045v1?rss=1" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818300345" />
@@ -124,10 +130,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/421826v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/421743v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/421727v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/421669v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/421602v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/421479v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/421461v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006456" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006433" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818301429" />
@@ -340,8 +342,6 @@
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fninf.2018.00058" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41583-018-0054-8" />
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(18)30236-4?rss=yes" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006430" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006416" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnagi.2018.00261" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2018.00551" />
 			<rdf:li rdf:resource="https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25287?af=R" />
@@ -419,6 +419,24 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006412">
+	<title>PLOS Computational Biology: New Articles: Maintaining maximal metabolic flux by gene expression control</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/xhqkoxj5QT8/article</link>
+	<content:encoded>&lt;p&gt;by Robert Planqué, Josephus Hulshof, Bas Teusink, Johannes C. Hendriks, Frank J. Bruggeman&lt;/p&gt;
+
+One of the marvels of biology is the phenotypic plasticity of microorganisms. It allows them to maintain high growth rates across conditions. Studies suggest that cells can express metabolic enzymes at tuned concentrations through adjustment of gene expression. The associated transcription factors are often regulated by intracellular metabolites. Here we study metabolite-mediated regulation of metabolic-gene expression that maximises metabolic fluxes across conditions. We developed an adaptive control theory, &lt;i&gt;q&lt;/i&gt;ORAC (for ‘Specific Flux (q) Optimization by Robust Adaptive Control’), and illustrate it with several examples of metabolic pathways. The key feature of the theory is that it does not require knowledge of the regulatory network, only of the metabolic part. We derive that maximal metabolic flux can be maintained in the face of varying &lt;i&gt;N&lt;/i&gt; environmental parameters only if the number of transcription-factor binding metabolites is at least equal to &lt;i&gt;N&lt;/i&gt;. The controlling circuits appear to require simple biochemical kinetics. We conclude that microorganisms likely can achieve maximal rates in metabolic pathways, in the face of environmental changes.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/xhqkoxj5QT8&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2018-09-20T21:00:00+00:00</dc:date>
+	<dc:creator>Frank J. Bruggeman</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006405">
+	<title>PLOS Computational Biology: New Articles: Transition state characteristics during cell differentiation</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/US819jwYZK0/article</link>
+	<content:encoded>&lt;p&gt;by Rowan D. Brackston, Eszter Lakatos, Michael P. H. Stumpf&lt;/p&gt;
+
+Models describing the process of stem-cell differentiation are plentiful, and may offer insights into the underlying mechanisms and experimentally observed behaviour. Waddington’s epigenetic landscape has been providing a conceptual framework for differentiation processes since its inception. It also allows, however, for detailed mathematical and quantitative analyses, as the landscape can, at least in principle, be related to mathematical models of dynamical systems. Here we focus on a set of dynamical systems features that are intimately linked to cell differentiation, by considering exemplar dynamical models that capture important aspects of stem cell differentiation dynamics. These models allow us to map the paths that cells take through gene expression space as they move from one fate to another, e.g. from a stem-cell to a more specialized cell type. Our analysis highlights the role of the transition state (TS) that separates distinct cell fates, and how the nature of the TS changes as the underlying landscape changes—change that can be induced by e.g. cellular signaling. We demonstrate that models for stem cell differentiation may be interpreted in terms of either a static or transitory landscape. For the static case the TS represents a particular transcriptional profile that all cells approach during differentiation. Alternatively, the TS may refer to the commonly observed period of heterogeneity as cells undergo stochastic transitions.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/US819jwYZK0&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2018-09-20T21:00:00+00:00</dc:date>
+	<dc:creator>Michael P. H. Stumpf</dc:creator>
+</item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818300709">
 	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Plasticity of intrinsic neuronal excitability</title>
 	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300709?dgcid=rss_sd_all</link>
@@ -769,6 +787,27 @@ examining stochastic dominance only.
 	<dc:date>2018-09-20T00:00:00+00:00</dc:date>
 	<dc:creator>Higham, J. P.</dc:creator>
 </item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/423038v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: An Extreme Value Theory Model of Cross-Modal Sensory Information Integration in Modulation of Vertebrate Visual System Functions</title>
+	<link>http://biorxiv.org/cgi/content/short/423038v1?rss=1</link>
+	<content:encoded>We propose a computational model of vision that describes the relationship between olfactory input and visual sensitivity of zebrafish based on the principles of the statistical extreme value theory. This relationship is mediated through centrifugal input which makes possible the physical connections between the neural retina and olfactory bulb. Motivation for using extreme value theory stems from physiological evidence suggesting that extremes and not the mean of the cell responses direct cellular activity in the vertebrate brain. We argue that the visual system, as measured by retinal ganglion cell responses in spikes/sec, follows an extreme value process for sensory integration and the increase in visual sensitivity from the olfactory input can be better modeled using extreme value distributions. As zebrafish maintains high evolutionary proximity to mammals, our model can be extended to other vertebrates as well.</content:encoded>
+	<dc:date>2018-09-20T00:00:00+00:00</dc:date>
+	<dc:creator>Banerjee, S.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/422873v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Neuronal population correlates of target selection and distractor filtering</title>
+	<link>http://biorxiv.org/cgi/content/short/422873v1?rss=1</link>
+	<content:encoded>Frontal Eye Field (FEF) single-cell neuronal activity discriminates between relevant and irrelevant visual stimuli and its magnitude has been shown to predict conscious perception. How this is reflected at the population level in terms of spatial codes is unknown. We recorded neuronal population activity in the FEF while monkeys were performing a forced choice cued detection task with identical target and distractor stimuli. Using machine learning techniques, we quantified information about the spatial estimate of targets and distracters in the FEF population activity and we analyzed how these relate to the report of perception. We found that the FEF population activity provides a precise estimate of the spatial location of perception. This estimate does not necessarily match the actual physical world. Importantly, the closer this prefrontal population estimate is to the veridical spatial information, the higher the probability that the stimulus was reported as perceived. This was observed both when the reported stimulus was a target (i.e. correct detection trials) or a distractor (i.e. false alarm trials). Overall, we thus show that how and what we perceive of our environments depends on the precision with which this environment is coded by prefrontal neuronal populations.</content:encoded>
+	<dc:date>2018-09-20T00:00:00+00:00</dc:date>
+	<dc:creator>Astrand, E.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/422857v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: High-density multi-fiber photometry for studying large-scale brain circuit dynamics</title>
+	<link>http://biorxiv.org/cgi/content/short/422857v1?rss=1</link>
+	<content:encoded>Animal behavior originates from neuronal activity distributed and coordinated across brain-wide networks. However, techniques to assess large-scale brain circuit dynamics in behaving animals remain limited. Here we present compact, high-density arrays of optical fibers that can be chronically implanted into the mammalian brain, enabling multi-fiber photometry as well as optogenetic perturbations across many regions. In mice engaged in a texture discrimination task we achieved simultaneous photometric calcium recordings from networks of 12 to 48 brain regions, including striatal, thalamic, hippocampal, and cortical areas. Furthermore, we optically perturbed specific subsets of regions in VGAT-ChR2 mice by using a spatial light modulator to address the respective fiber channels. Perturbation of ventral thalamic nuclei caused distributed network modulation and behavioral deficits. Finally, we demonstrate multi-fiber photometry in freely moving animals, including simultaneous recordings from two mice during social interaction. Thus, high-density multi-fiber arrays are simple, low-cost, and versatile tools that open novel ways to investigate large-scale brain dynamics during behavior.</content:encoded>
+	<dc:date>2018-09-20T00:00:00+00:00</dc:date>
+	<dc:creator>Sych, Y.</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/422691v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Beta and theta oscillations differentially support free versus forced control over target selection in visual search</title>
 	<link>http://biorxiv.org/cgi/content/short/422691v1?rss=1</link>
@@ -796,6 +835,13 @@ examining stochastic dominance only.
 	<content:encoded>Brain function is determined by connectivity among brain areas, and disruption of this connectivity leads to neuropsychiatric disorders. Understanding connectivity is essential to modern neuroscience, but mesoscale connectivity atlases are currently slow and expensive to generate, exist for few model systems, and require pooling across many brains. Here we present a method, muMAPseq (multisource Multiplexed Analysis of Projections by sequencing), which leverages barcoding and high-throughput sequencing to generate atlases from single animals rapidly and at low cost. We apply muMAPseq to tracing the neocortical connectome of individual mice, and demonstrate high reproducibility, and accuracy. Applying muMAPseq to the mutant BTBR mouse strain, which lacks a corpus callosum, we recapitulate its known connectopathies, and also uncover novel deficits. muMAPseq allows individual laboratories to generate atlases tailored to individuals, disease models, and new model species, and will facilitate quantitative comparative connectomics, permitting examination of how age, sex, environment, genetics and species affect neuronal wiring.</content:encoded>
 	<dc:date>2018-09-20T00:00:00+00:00</dc:date>
 	<dc:creator>Huang, L.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/422238v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Thalamocortical dynamics underlying spontaneous transitions in beta power in Parkinsonism</title>
+	<link>http://biorxiv.org/cgi/content/short/422238v1?rss=1</link>
+	<content:encoded>Parkinson's disease (PD) is a neurodegenerative condition in which aberrant oscillatory synchronization of neuronal activity at beta frequencies (15-35 Hz) across the cortico-basal ganglia-thalamocortical circuit is associated with debilitating motor symptoms, such as bradykinesia and rigidity. Mounting evidence suggests that the magnitude of beta synchrony in the parkinsonian state fluctuates over time, but the mechanisms by which thalamocortical circuitry regulates the dynamic properties of cortical beta in PD are poorly understood. Using the recently developed generic dynamic causal modelling framework, we recursively optimised a set of plausible models of the thalamocortical circuit (n=144) to infer the neural mechanisms that best explain the transitions between low and high beta power states observed in recordings of field potentials made in the motor cortex of anesthetized Parkinsonian rats. Bayesian model comparison suggests that upregulation of cortical rhythmic activity in the beta-frequency band results from changes in the coupling strength both between and within the thalamus and motor cortex. Specifically, our model indicates that high levels of cortical beta synchrony are mainly achieved by a delayed (extrinsic) input from thalamic relay cells to deep pyramidal cells and a fast (intrinsic) input from middle pyramidal cells to superficial pyramidal cells. We therefore hypothesize that beta synchronisation at the cortical level could selectively be modulated via interventions that are capable of finely regulating cortical excitability in a spatial (delivered to either the superficial or deep cortical laminae) and time specific manner.</content:encoded>
+	<dc:date>2018-09-20T00:00:00+00:00</dc:date>
+	<dc:creator>Reis, C.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/421370v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Distinct nanoscale calcium channel and synaptic vesicle topographies contribute to the diversity of synaptic function</title>
@@ -1325,34 +1371,6 @@ complexities of living matter.
 	<dc:date>2018-09-19T00:00:00+00:00</dc:date>
 	<dc:creator>Verschueren, E.</dc:creator>
 </item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/421669v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Drosophila insulin-like peptide 1 (DILP1) promotes organismal growth during non-feeding stages</title>
-	<link>http://biorxiv.org/cgi/content/short/421669v1?rss=1</link>
-	<content:encoded>The insulin/IGF-signaling pathway is central in control of nutrient-dependent growth during development, and in adult physiology and longevity. Eight insulin-like peptides (DILP1-8) have been identified in Drosophila and several of these are known to regulate growth, metabolism, reproduction, stress responses and lifespan. However, the functional role of DILP1 is not fully understood. Previous work showed that dilp1/DILP1 is transiently expressed during the non-feeding pupal stage and the first days of adult life. Here we show that mutation of dilp1 diminishes organismal weight during pupal development, whereas overexpression increases it. Overexpression of dilp1 additionally increases body size of flies, but reduces stores of larval-derived energy, leading to increased feeding the first days after eclosion. No effects of dilp1 manipulations were detected during larval development. An earlier study demonstrated interactions between dilp1 and dilp2 in regulation of adult lifespan. Here we monitored the effects of dilp1, dilp2 and dilp1/dilp2 mutations on growth and found that only the single mutants displayed lower body mass. In recently eclosed flies, survival during starvation is strongly diminished in dilp1 mutants, but not in dilp2 and double mutants, whereas in older flies double mutants display reduced starvation resistance. Egg to pupal viability is decreased both after overexpression of dilp1, and in the double mutants. In conclusion, dilp1 promotes growth of adult tissues during the non-feeding pupal stage, likely due to reallocation of stored energy. This results in larger newly-eclosed flies with reduced stores of larval/pupal energy and diminished starvation tolerance and fecundity.</content:encoded>
-	<dc:date>2018-09-19T00:00:00+00:00</dc:date>
-	<dc:creator>Liao, S.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/421602v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Opposing roles of dopamine receptor D1- and D2-expressing neurons in the anteromedial olfactory tubercle in acquisition of place preference in mice</title>
-	<link>http://biorxiv.org/cgi/content/short/421602v1?rss=1</link>
-	<content:encoded>Olfaction induces adaptive motivated behaviors. Odors associated with food induce attractive behavior, whereas those associated with dangers induce aversive behavior. We previously reported that learned odor-induced attractive and aversive behaviors accompany activation of the olfactory tubercle (OT) in a domain- and cell type-specific manner. Odor cues associated with a sugar reward induced attractive behavior and c-fos expression in the dopamine receptor D1-expressing neurons (D1 neurons) in the anteromedial OT. In contrast, odor cues associated with electrical shock induced aversive behavior and c-fos expression in the D2 neurons in the anteromedial OT, as well as the D1 neurons in the lateral OT. Here, we investigated whether the D1 and D2 neurons in the anteromedial OT play distinct roles in attractive or aversive behaviors, using optogenetic stimulation and real-time place preference (RTPP) tests. Mice expressing ChETA (ChR2/E123T)-EYFP in the D1 neurons in the anteromedial OT spent a longer time in the photo-stimulation side of the place preference chamber than the control mice expressing EYFP. On the other hand, upon optogenetic stimulation of the D2 neurons in the anteromedial OT, the mice spent a shorter time in the photo-stimulation side than the control mice. Local neural activation in the anteromedial OT during the RTPP tests was confirmed by c-fos mRNA expression. These results suggest that the D1 and D2 neurons in the anteromedial OT play distinct roles in attractive and aversive behaviors, respectively.</content:encoded>
-	<dc:date>2018-09-19T00:00:00+00:00</dc:date>
-	<dc:creator>Murata, K.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/421479v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Temporal pattern separation in hippocampal neurons through multiplexed neural codes</title>
-	<link>http://biorxiv.org/cgi/content/short/421479v1?rss=1</link>
-	<content:encoded>Pattern separation is a central concept in current theories of episodic memory: this computation is thought to support our ability to avoid confusion between similar memories by transforming similar cortical input patterns of neural activity into dissimilar output patterns before their long-term storage in the hippocampus. Because there are many ways one can define patterns of neuronal activity and the similarity between them, pattern separation could in theory be achieved through multiple coding strategies. Using our recently developed assay that evaluates pattern separation in isolated tissue by controlling and recording the input and output spiketrains of single hippocampal neurons, we explored neural codes through which pattern separation is performed by systematic testing of different similarity metrics and various time resolutions. We discovered that granule cells, the projection neurons of the dentate gyrus, can exhibit both pattern separation and its opposite computation, pattern convergence, depending on the neural code considered and the statistical structure of the input patterns. Pattern separation is favored when inputs are highly similar, and is achieved through spike time reorganization at short timescales (&amp;lt; 100 ms) as well as through variations in firing rate and burstiness at longer timescales. These multiplexed forms of pattern separation are network phenomena, notably controlled by GABAergic inhibition, that involve many celltypes with input-output transformations that participate in pattern separation to different extent and with complementary neural codes: a rate code for dentate fast-spiking interneurons, a burstiness code for hilar mossy cells and a synchrony code at long timescales for CA3 pyramidal cells. Therefore, the isolated hippocampal circuit itself is capable of performing temporal pattern separation using multiplexed coding strategies that might be essential to optimally disambiguate multimodal mnemonic representations.</content:encoded>
-	<dc:date>2018-09-19T00:00:00+00:00</dc:date>
-	<dc:creator>Madar, A. D.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/421461v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Intuitive planning: global navigation through cognitive maps based on grid-like codes</title>
-	<link>http://biorxiv.org/cgi/content/short/421461v1?rss=1</link>
-	<content:encoded>It is proposed that a cognitive map encoding the relationships between objects supports the ability to flexibly navigate the world. Place cells and grid cells provide evidence for such a map in a spatial context. Emerging evidence suggests analogous cells code for non-spatial information. Further, it has been shown that grid cells resemble the eigenvectors of the relationship between place cells and can be learnt from local inputs. Here we show that these locally-learnt eigenvectors contain not only local information but also global knowledge that can provide both distributions over future states as well as a global distance measure encoding approximate distances between every object in the world. By simply changing the weights in the grid cell population, it is possible to switch between computing these different measures. We demonstrate a simple algorithm can use these measures to globally navigate arbitrary topologies without searching more than one step ahead. We refer to this as intuitive planning.</content:encoded>
-	<dc:date>2018-09-19T00:00:00+00:00</dc:date>
-	<dc:creator>Baram, A. B.</dc:creator>
-</item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006456">
 	<title>PLOS Computational Biology: New Articles: All-atom normal mode dynamics of HIV-1 capsid</title>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/6rrbmtVPD1U/article</link>
@@ -1372,9 +1390,9 @@ The spiking activity of principal cells in mammalian hippocampus encodes an inte
 	<dc:creator>Yuri Dabaghian</dc:creator>
 </item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818301429">
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Synaptic and intrinsic plasticity in the ventral tegmental area after chronic cocaine</title>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301429?dgcid=rss_sd_all</link>
-	<content:encoded>&lt;p&gt;Publication date: February 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 54&lt;/p&gt;&lt;p&gt;Author(s): Tanner Chase Francis, Stephanie C Gantz, Khaled Moussawi, Antonello Bonci&lt;/p&gt;&lt;div&gt;&lt;p&gt;Cocaine exposure induces persistent changes in synaptic transmission and intrinsic properties of ventral tegmental area (VTA) dopamine neurons. Despite significant progress in understanding cocaine-induced plasticity, an effective treatment of cocaine addiction is lacking. Chronic cocaine potentiates excitatory and alters inhibitory transmission to dopamine neurons, induces dopamine neuron hyperexcitability, and reduces dopamine release in projection areas. Understanding how intrinsic and synaptic plasticity interact to control dopamine neuron firing and dopamine release could prove useful in the development of new therapeutics. In this review, we examine recent literature discussing cocaine-induced plasticity in the VTA and highlight potential therapeutic interventions.&lt;/p&gt;&lt;/div&gt;</content:encoded>
+	<title>Current Opinion in Neurobiology - Just Published: Synaptic and intrinsic plasticity in the ventral tegmental area after chronic cocaine</title>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301429</link>
+	<content:encoded>Tanner Chase Francis | Stephanie C Gantz | Khaled Moussawi | Antonello Bonci</content:encoded>
 	<dc:date>2018-09-18T17:00:13+00:00</dc:date>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnhum.2018.00370">
@@ -2538,9 +2556,9 @@ Computational models predicting symptomatic progression at the individual level 
 	<dc:creator>Hunter, D. V., Smaila, B. D., Lopes, D. M., Takatoh, J., Denk, F., Ramer, M. S.</dc:creator>
 </item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818300680">
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: State-dependent plasticity of innate behavior in fruit flies</title>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300680?dgcid=rss_sd_all</link>
-	<content:encoded>&lt;p&gt;Publication date: February 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 54&lt;/p&gt;&lt;p&gt;Author(s): Ilona C Grunwald Kadow&lt;/p&gt;&lt;div&gt;&lt;p&gt;Behaviors are often categorized into innate or learned. Innate behaviors are thought to be genetically encoded and hardwired into the brain, while learned behavior is a product of the interaction between experience and the plasticity of synapses and neurons. Recent work in different models show that innate behavior, too, is plastic and depends on the current behavioral context and the internal state of an animal. Furthermore, these studies suggest that the neural circuits underpinning innate and learned behavior interact and even overlap. For instance, hunger modulates several innate behaviors relying in part on neural circuits required for learning and memory such as the mushroom body in the fruit fly. These new findings suggest that state-dependent innate behavior and learning rely on functionally and anatomically overlapping and shared neural circuits indicating a common evolutionary history.&lt;/p&gt;&lt;/div&gt;</content:encoded>
+	<title>Current Opinion in Neurobiology - Just Published: State-dependent plasticity of innate behavior in fruit flies</title>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300680</link>
+	<content:encoded>Ilona C Grunwald Kadow</content:encoded>
 	<dc:date>2018-09-14T11:00:12+00:00</dc:date>
 </item>
 <item rdf:about="http://eneuro.org//cgi/content/short/ENEURO.0019-18.2018v2?rss=1">
@@ -2908,9 +2926,9 @@ Bacterial and human voltage-gated sodium channels (Na&lt;sub&gt;v&lt;/sub&gt;s) 
 	<dc:creator>Koon, A. C., Chen, Z. S., Peng, S., Fung, J. M. S., Zhang, X., Lembke, K. M., Chow, H. K., Frank, C. A., Jiang, L., Lau, K.-F., Chan, H. Y. E.</dc:creator>
 </item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818301132">
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Synaptic encoding of fear memories in the amygdala</title>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301132?dgcid=rss_sd_all</link>
-	<content:encoded>&lt;p&gt;Publication date: February 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 54&lt;/p&gt;&lt;p&gt;Author(s): Reed L Ressler, Stephen Maren&lt;/p&gt;&lt;div&gt;&lt;p&gt;Over the years Pavlovian fear conditioning has proved to be a powerful model to investigate the neural underpinnings of aversive associative memory formation. Although it is well appreciated that plasticity occurring at excitatory synapses within the basolateral complex of the amygdala (BLA) plays a critical role in associative memory formation, recent evidence suggests that plasticity within the amygdala is more distributed than previously appreciated. In particular, studies demonstrate that plasticity in the central nucleus (CeA) is critical for the acquisition of conditioned fear. In addition, a variety of interneuron populations within the amygdala, defined by unique neurochemical markers, contribute to distinct aspects of stimulus processing and memory formation during fear conditioning. Here, we will review and summarize recent advances in our understanding of amygdala networks and how unique players within this network contribute to synaptic plasticity associated with the acquisition of conditioned fear.&lt;/p&gt;&lt;/div&gt;</content:encoded>
+	<title>Current Opinion in Neurobiology - Just Published: Synaptic encoding of fear memories in the amygdala</title>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301132</link>
+	<content:encoded>Reed L Ressler | Stephen Maren</content:encoded>
 	<dc:date>2018-09-12T11:00:28+00:00</dc:date>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnsys.2018.00045">
@@ -3067,15 +3085,15 @@ Cancer cells frequently undergo chromosome missegregation events during mitosis,
 	<dc:creator>Carney, R. S. E.</dc:creator>
 </item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818301338">
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Homeostatic synaptic plasticity as a metaplasticity mechanism — a molecular and cellular perspective</title>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301338?dgcid=rss_sd_all</link>
-	<content:encoded>&lt;p&gt;Publication date: February 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 54&lt;/p&gt;&lt;p&gt;Author(s): Jie Li, Esther Park, Lei R. Zhong, Lu Chen&lt;/p&gt;&lt;div&gt;&lt;p&gt;The molecular mechanisms underlying various types of synaptic plasticity are historically regarded as separate processes involved in independent cellular events. However, recent progress in our molecular understanding of Hebbian and homeostatic synaptic plasticity supports the observation that these two types of plasticity share common cellular events, and are often altered together in neurological diseases. Here, we discuss the emerging concept of homeostatic synaptic plasticity as a metaplasticity mechanism with a focus on cellular signaling processes that enable a direct interaction between Hebbian and homeostatic plasticity. We also identify distinct and shared molecular players involved in these cellular processes that may be explored experimentally in future studies to test the hypothesis that homeostatic synaptic plasticity serves as a metaplasticity mechanism to integrate changes in neuronal activity and support optimal Hebbian learning.&lt;/p&gt;&lt;/div&gt;</content:encoded>
+	<title>Current Opinion in Neurobiology - Just Published: Homeostatic synaptic plasticity as a metaplasticity mechanism?—?a molecular and cellular perspective</title>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301338</link>
+	<content:encoded>Jie Li | Esther Park | Lei R. Zhong | Lu Chen</content:encoded>
 	<dc:date>2018-09-11T11:00:11+00:00</dc:date>
 </item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818301041">
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Neuromodulation of hippocampal long-term synaptic plasticity</title>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301041?dgcid=rss_sd_all</link>
-	<content:encoded>&lt;p&gt;Publication date: February 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 54&lt;/p&gt;&lt;p&gt;Author(s): Jon Palacios-Filardo, Jack R Mellor&lt;/p&gt;&lt;div&gt;&lt;p&gt;Multiple neuromodulators including acetylcholine, noradrenaline, dopamine and serotonin are released in response to uncertainty to focus attention on events where the predicted outcome does not match observed reality. In these situations, internal representations need to be updated, a process that requires long-term synaptic plasticity. Through a variety of common and divergent mechanisms, it is recently shown that all these neuromodulators facilitate the induction and/or expression of long-term synaptic plasticity within the hippocampus. Under physiological conditions, this may be critical for suprathreshold induction of plasticity endowing neuromodulators with a gating function and providing a mechanism by which neuromodulators enable the targeted updating of memory with relevant information to improve the accuracy of future predictions.&lt;/p&gt;&lt;/div&gt;</content:encoded>
+	<title>Current Opinion in Neurobiology - Just Published: Neuromodulation of hippocampal long-term synaptic plasticity</title>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301041</link>
+	<content:encoded>Jon Palacios-Filardo | Jack R Mellor</content:encoded>
 	<dc:date>2018-09-11T11:00:11+00:00</dc:date>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnhum.2018.00351">
@@ -3314,15 +3332,15 @@ The mitotic checkpoint (also called spindle assembly checkpoint) is a signaling 
 	<dc:creator>Angelo Pirrone, Wen Wen and Sheng Li</dc:creator>
 </item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818300163">
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Sensory and descending motor circuitry during development and injury</title>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300163?dgcid=rss_sd_all</link>
-	<content:encoded>&lt;p&gt;Publication date: December 2018&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 53&lt;/p&gt;&lt;p&gt;Author(s): Giles W Plant, Jarret AP Weinrich, Julia A Kaltschmidt&lt;/p&gt;&lt;div&gt;&lt;p&gt;Proprioceptive sensory input and descending supraspinal projections are two major inputs that feed into and influence spinal circuitry and locomotor behaviors. Here we review their influence on each other during development and after spinal cord injury. We highlight developmental mechanisms of circuit formation as they relate to the sensory–motor circuit and its reciprocal interactions with local spinal interneurons, as well as competitive interactions between proprioceptive and descending supraspinal inputs in the setting of spinal cord injury.&lt;/p&gt;&lt;/div&gt;</content:encoded>
+	<title>Current Opinion in Neurobiology - Just Published: Sensory and descending motor circuitry during development and injury</title>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300163</link>
+	<content:encoded>Giles W Plant | Jarret AP Weinrich | Julia A Kaltschmidt</content:encoded>
 	<dc:date>2018-09-09T11:00:12+00:00</dc:date>
 </item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818300485">
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Dendritic solutions to the credit assignment problem</title>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300485?dgcid=rss_sd_all</link>
-	<content:encoded>&lt;p&gt;Publication date: February 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 54&lt;/p&gt;&lt;p&gt;Author(s): Blake A Richards, Timothy P Lillicrap&lt;/p&gt;&lt;div&gt;&lt;p&gt;Guaranteeing that synaptic plasticity leads to effective learning requires a means for assigning credit to each neuron for its contribution to behavior. The ‘credit assignment problem’ refers to the fact that credit assignment is non-trivial in hierarchical networks with multiple stages of processing. One difficulty is that if credit signals are integrated with other inputs, then it is hard for synaptic plasticity rules to distinguish credit-related activity from non-credit-related activity. A potential solution is to use the spatial layout and non-linear properties of dendrites to distinguish credit signals from other inputs. In cortical pyramidal neurons, evidence hints that top-down feedback signals are integrated in the distal apical dendrites and have a distinct impact on spike-firing and synaptic plasticity. This suggests that the distal apical dendrites of pyramidal neurons help the brain to solve the credit assignment problem.&lt;/p&gt;&lt;/div&gt;</content:encoded>
+	<title>Current Opinion in Neurobiology - Just Published: Dendritic solutions to the credit assignment problem</title>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300485</link>
+	<content:encoded>Blake A Richards | Timothy P Lillicrap</content:encoded>
 	<dc:date>2018-09-09T11:00:12+00:00</dc:date>
 </item>
 <item rdf:about="https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25334?af=R">
@@ -3675,9 +3693,9 @@ Mutational correlation patterns found in population-level sequence data for the 
 	<dc:date>2018-09-07T05:00:12+00:00</dc:date>
 </item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818300527">
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Long-term plasticity of hippocampal interneurons during in vivo memory processes</title>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300527?dgcid=rss_sd_all</link>
-	<content:encoded>&lt;p&gt;Publication date: February 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 54&lt;/p&gt;&lt;p&gt;Author(s): Karri Lamsa, Petrina Lau&lt;/p&gt;&lt;div&gt;&lt;p&gt;Formation of a cell assembly, a group of cortical neurons that function co-operatively to sustain an active memory trace, arises from changes in the connections between neurons. Establishment of memory traces is thought to rely on long-term plasticity in excitatory glutamatergic synapses interconnecting principal cells. In addition, recent studies in the hippocampus &lt;em&gt;in vivo&lt;/em&gt; indicate that reconfiguration of GABAergic inhibitory interneuron activity also occurs during long-term memory encoding. Recent experiments in anesthetized, as well as in freely moving animals, demonstrate that learning-related hippocampal activities are associated with persistent changes in GABAergic interneuron firing rates and alterations in protein expression levels regulating GABA release.&lt;/p&gt;&lt;/div&gt;</content:encoded>
+	<title>Current Opinion in Neurobiology - Just Published: Long-term plasticity of hippocampal interneurons during in vivo memory processes</title>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300527</link>
+	<content:encoded>Karri Lamsa | Petrina Lau</content:encoded>
 	<dc:date>2018-09-07T05:00:11+00:00</dc:date>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fninf.2018.00058">
@@ -3699,24 +3717,6 @@ Mutational correlation patterns found in population-level sequence data for the 
 	<content:encoded>Precisely wired neuronal circuits process sensory information in a learning- and context-dependent manner in order to govern behavior. Simple sensory decision-making tasks in rodents are now beginning to reveal the contributions of distinct cell types and brain regions participating in the conversion of sensory information into learned goal-directed motor output. Task learning is accompanied by target-specific routing of sensory information to specific downstream cortical regions, with higher-order cortical regions such as the posterior parietal cortex, medial prefrontal cortex, and hippocampus appearing to play important roles in learning- and context-dependent processing of sensory input.</content:encoded>
 	<dc:date>2018-09-07T00:00:00+00:00</dc:date>
 	<dc:creator>Sylvain Crochet, Seung-Hee Lee, Carl C.H. Petersen</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006430">
-	<title>PLOS Computational Biology: New Articles: Network mechanisms underlying the role of oscillations in cognitive tasks</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/Bbt9ElVGJQM/article</link>
-	<content:encoded>&lt;p&gt;by Helmut Schmidt, Daniele Avitabile, Ernest Montbrió, Alex Roxin&lt;/p&gt;
-
-Oscillatory activity robustly correlates with task demands during many cognitive tasks. However, not only are the network mechanisms underlying the generation of these rhythms poorly understood, but it is also still unknown to what extent they may play a functional role, as opposed to being a mere epiphenomenon. Here we study the mechanisms underlying the influence of oscillatory drive on network dynamics related to cognitive processing in simple working memory (WM), and memory recall tasks. Specifically, we investigate how the frequency of oscillatory input interacts with the intrinsic dynamics in networks of recurrently coupled spiking neurons to cause changes of state: the neuronal correlates of the corresponding cognitive process. We find that slow oscillations, in the delta and theta band, are effective in activating network states associated with memory recall. On the other hand, faster oscillations, in the beta range, can serve to clear memory states by resonantly driving transient bouts of spike synchrony which destabilize the activity. We leverage a recently derived set of exact mean-field equations for networks of quadratic integrate-and-fire neurons to systematically study the bifurcation structure in the periodically forced spiking network. Interestingly, we find that the oscillatory signals which are most effective in allowing flexible switching between network states are not smooth, pure sinusoids, but rather burst-like, with a sharp onset. We show that such periodic bursts themselves readily arise spontaneously in networks of excitatory and inhibitory neurons, and that the burst frequency can be tuned via changes in tonic drive. Finally, we show that oscillations in the gamma range can actually stabilize WM states which otherwise would not persist.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/Bbt9ElVGJQM&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-09-06T21:00:00+00:00</dc:date>
-	<dc:creator>Alex Roxin</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006416">
-	<title>PLOS Computational Biology: New Articles: Inter-nucleosomal communication between histone modifications for nucleosome phasing</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/dbMl2WeMTC0/article</link>
-	<content:encoded>&lt;p&gt;by Weizhong Chen, Yi Liu, Shanshan Zhu, Guoyu Chen, Jing-Dong J. Han&lt;/p&gt;
-
-Combinatorial effects of epigenetic modifications on transcription activity have been proposed as “histone codes”. However, it is unclear whether there also exist inter-nucleosomal communications among epigenetic modifications at single nucleosome level, and if so, what functional roles they play. Meanwhile, how clear nucleosome patterns, such as nucleosome phasing and depletion, are formed at functional regions remains an intriguing enigma. To address these questions, we developed a Bayesian network model for interactions among different histone modifications across neighboring nucleosomes, based on the framework of dynamic Bayesian network (DBN). From this model, we found that robust inter-nucleosomal interactions exist around transcription start site (TSS), transcription termination sites (TTS) or around CTCF binding sites; and these inter-nucleosomal interactions are often involved in transcription regulation. In addition to these general principles, DBN also uncovered a novel specific epigenetic interaction between H2A.Z and H4K20me1 on neighboring nucleosomes, involved in nucleosome free region (NFR) and nucleosome phasing establishment or maintenance. The level of negative correlation between neighboring H2A.Z and H4K20me1 strongly correlate with the size of NFR and the strength of nucleosome phasing around TSS. Our study revealed inter-nucleosomal communications as important players in signal propagation, chromatin remodeling and transcription regulation.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/dbMl2WeMTC0&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-09-06T21:00:00+00:00</dc:date>
-	<dc:creator>Jing-Dong J. Han</dc:creator>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnagi.2018.00261">
 	<title>Frontiers in Aging Neuroscience | New and Recent Articles: Distinct Patterns of Interhemispheric Connectivity in Patients With Early- and Late-Onset Alzheimer’s Disease</title>
@@ -4778,9 +4778,9 @@ MD</dc:creator>
 	<dc:creator>Massimiliano Di Filippo</dc:creator>
 </item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S095943881830014X">
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Decoding neuronal diversity in the developing cerebral cortex: from single cells to functional networks</title>
-	<link>https://www.sciencedirect.com/science/article/pii/S095943881830014X?dgcid=rss_sd_all</link>
-	<content:encoded>&lt;p&gt;Publication date: December 2018&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 53&lt;/p&gt;&lt;p&gt;Author(s): Sara Mancinelli, Simona Lodato&lt;/p&gt;&lt;div&gt;&lt;p&gt;The neocortex is by far one of the most complex regions of the mammalian brain, characterized by an extraordinary diversity of neuronal and non-neuronal cell types, whose coordinated development and function guarantee the execution of high-order cognitive, sensory, and motor behaviours. Decoding its heterogeneity and understanding the molecular strategies upon which the cerebral cortex is built during development have been at the core of neuroscientists’ work for decades. Here, we will focus on the current classification of neuronal types (both excitatory and inhibitory) of the neocortex in light of the insights provided by recent single-cell omic technologies, which have offered — with unprecedented resolution — an extended framework to interpret cortical diversity and its developmental origin. We will cover the impact of neuronal subtype identity on generating specific neuronal networks (neuron-to-neuron interaction), as well as their effect on the development of the non-neuronal populations in the cerebral cortex.&lt;/p&gt;&lt;/div&gt;</content:encoded>
+	<title>Current Opinion in Neurobiology - Just Published: Decoding neuronal diversity in the developing cerebral cortex: from single cells to functional networks</title>
+	<link>https://www.sciencedirect.com/science/article/pii/S095943881830014X</link>
+	<content:encoded>Sara Mancinelli | Simona Lodato</content:encoded>
 	<dc:date>2018-08-28T23:00:13+00:00</dc:date>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnins.2018.00589">
