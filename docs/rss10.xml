@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/425033v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/424994v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/424929v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/424838v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/424713v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/424622v1?rss=1" />
@@ -24,6 +27,7 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/424176v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/424168v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/423947v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/423921v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/423913v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/423830v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/423749v1?rss=1" />
@@ -54,10 +58,6 @@
 			<rdf:li rdf:resource="https://dx.doi.org/10.7554/eLife.35316" />
 			<rdf:li rdf:resource="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-018-0460-x" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/424499v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/424416v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/424135v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/424127v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/424101v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006412" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006405" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818300709" />
@@ -419,6 +419,27 @@
 	</items>
 </channel>
 
+<item rdf:about="http://biorxiv.org/cgi/content/short/425033v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Covariate Assisted Principal Regression for Covariance Matrix Outcomes</title>
+	<link>http://biorxiv.org/cgi/content/short/425033v1?rss=1</link>
+	<content:encoded>Modeling variances in data has been an important topic in many fields, including in financial and neuroimaging analysis. We consider the problem of regressing covariance matrices on a vector covariates, collected from each observational unit. The main aim is to uncover the variation in the covariance matrices across units that are explained by the covariates. This paper introduces Covariate Assisted Principal (CAP) regression, an optimization-based method for identifying the components predicted by (generalized) linear models of the covariates. We develop computationally efficient algorithms to jointly search the projection directions and regression coefficients, and we establish the asymptotic properties. Using extensive simulation studies, our method shows higher accuracy and robustness in coefficient estimation than competing methods. Applied to a resting-state functional magnetic resonance imaging study, our approach identifies the human brain network changes associated with age and sex.</content:encoded>
+	<dc:date>2018-09-23T00:00:00+00:00</dc:date>
+	<dc:creator>Zhao, Y.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/424994v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Topological exploration of artificial neuronal network dynamics</title>
+	<link>http://biorxiv.org/cgi/content/short/424994v1?rss=1</link>
+	<content:encoded>One of the paramount challenges in neuroscience is to understand the dynamics of individual neurons and how they give rise to network dynamics when interconnected. Historically, researchers have resorted to graph theory, statistics, and statistical mechanics to describe the spatiotemporal structure of such network dynamics. Our novel approach employs tools from algebraic topology to characterize the global properties of network structure and dynamics. We propose a method based on persistent homology to automatically classify network dynamics using topological features of spaces built from various spike-train distances. We investigate the efficacy of our method by simulating activity in three small artificial neural networks with different sets of parameters, giving rise to dynamics that can be classified into four regimes. We then compute three measures of spike train similarity and use persistent homology to extract topological features that are fundamentally different from those used in traditional methods. Our results show that a machine learning classifier trained on these features can accurately predict the regime of the network it was trained on and also generalize to other networks that were not presented during training. Moreover, we demonstrate that using features extracted from multiple spike-train distances systematically improves the performance of our method.</content:encoded>
+	<dc:date>2018-09-23T00:00:00+00:00</dc:date>
+	<dc:creator>Bardin, J.-B.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/424929v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Optimization of Energy State Transition Trajectory Supports the Development of Executive Function During Youth</title>
+	<link>http://biorxiv.org/cgi/content/short/424929v1?rss=1</link>
+	<content:encoded>Executive function develops rapidly during adolescence, and failures of executive function are associated with both risk-taking behaviors and psychopathology. However, it remains relatively unknown how structural brain networks mature during this critical period to facilitate energetically demanding transitions to activate the frontoparietal system, which is critical for executive function. In a sample of 946 human youths (ages 8-23 yr) who completed diffusion imaging as part of the Philadelphia Neurodevelopment Cohort, we capitalized upon recent advances in network control theory in order to calculate the control energy necessary to activate the frontoparietal system given the existing structural network topology. We found that the control energy required to activate the frontoparietal system declined with development. Moreover, we found that this control energy pattern contains sufficient information to make accurate predictions about individuals' brain maturity. Finally, the control energy costs of the cingulate cortex were negatively correlated with executive performance, and partially mediated the development of executive performance with age. These results could not be explained by changes in general network control properties or in network modularity. Taken together, our results reveal a mechanism by which structural networks develop during adolescence to facilitate the instantiation of activation states necessary for executive function.</content:encoded>
+	<dc:date>2018-09-23T00:00:00+00:00</dc:date>
+	<dc:creator>Cui, Z.</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/424838v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: An Amyloid beta-derived Septapeptide has hMCP-1 Chemokine Activity</title>
 	<link>http://biorxiv.org/cgi/content/short/424838v1?rss=1</link>
@@ -481,6 +502,13 @@
 	<content:encoded>Metacognition is an important component in basic science and clinical psychology, often studied through complex, cognitive experiments. While Signal Detection Theory (SDT) provides a popular and pervasive framework for modelling responses from such experiments, a shortfall remains that it cannot in a straightforward manner account for the often complex designs. Additionally, SDT does not provide direct estimates of metacognitive ability. This latter shortcoming has recently been sought remedied by introduction of a measure for metacognitive sensitivity dubbed meta-d'. The need for a flexible regression model framework remains, however, which should also incorporate the new sensitivity measure. In the present paper, we argue that a straightforward extension of SDT is obtained by identifying the model with the proportional odds model, a widely implemented, ordinal regression technique. We go on to develop a formal statistical framework for metacognitive sensitivity by defining a model that combines standard SDT with meta-d' in a latent variable model. We show how this agrees with the literature on meta-d' and constitutes a practical framework for extending the model. We supply several teoretical considerations on the model, including closed-form approximate estimates of meta-d' and optimal weighing of response-specific meta-sensitivities. We discuss regression analysis as an application of the obtained model and illustrate our points through simulations. Lastly, we present R-software that implements the model. Our methods and their implementation extend the computational possibilities of SDT and meta-d' and are useful for theoretical and practical researchers of metacognition.</content:encoded>
 	<dc:date>2018-09-23T00:00:00+00:00</dc:date>
 	<dc:creator>Kristensen, S. B.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/423921v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Modeling neuronal avalanches and long-range temporal correlations at the emergence of collective oscillations: continuously varying exponents mimic M/EEG results</title>
+	<link>http://biorxiv.org/cgi/content/short/423921v1?rss=1</link>
+	<content:encoded>We revisit the CROS (&quot;CRitical OScillations&quot;) model which was recently proposed as an attempt to reproduce both scale-invariant neuronal avalanches and long-range time correlations. With excitatory and inhibitory stochastic neurons locally connected in a two-dimensional disordered network, the model exhibits a transition from an active to an oscillating state. Precisely at the transition, the fluctuations of the network activity have detrended fluctuation analysis (DFA) exponents close to one, and avalanches (defined as supra-threshold activity) have power law distributions of size and duration. By simulating larger system sizes, we show that, differently from previous results, the exponents governing the distributions of avalanche size and duration are not necessarily those of the mean-field directed percolation universality class (3/2 and 2, respectively). Instead, exponents obtained via a maximum-likelihood estimator vary continuously in a narrow region of parameter space. Around that critical region, moreover, the values of avalanche and DFA exponents display a spread with negative correlations, in qualitative agreement with the interindividual variability that was experimentally observed in M/EEG data.</content:encoded>
+	<dc:date>2018-09-23T00:00:00+00:00</dc:date>
+	<dc:creator>Dalla Porta, L.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/423913v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: D.sort: template based automatic spike sorting tool</title>
@@ -730,34 +758,6 @@ first experimental evidence.
 	<content:encoded>Many animals exhibit morning and evening peaks of locomotor behavior. In Drosophila, previous studies identified two corresponding circadian neural oscillators: M (morning) cells which exhibit a morning neural activity peak, and E (evening) cells which exhibit a corresponding evening peak of activity. Yet we know little of how these distinct circadian oscillators produce specific outputs that regulate pre-motor circuits to precisely control behavioral episodes. Here we show that the Ring Neurons of the Ellipsoid Body (EB-RNs), a defined pre-motor center, display a spontaneous in vivo neural activity rhythm, with peaks in the morning and in the evening. The two EB-RN activity peaks coincide with the major bouts of locomotor activity and result from independent activation by M and E cells, respectively. Further, M and E cells regulate EB-RNs via two identified dopaminergic neurons PPM3-EB, which project to the EB and which are normally co-active with EB-RNs. Blocking the dopaminergic modulation onto EB-RNs prevents the daily two-peak pattern of neural activity in the EB-RN and greatly impairs circadian locomotor activity. These in vivo findings establish the fundamental elements of a circadian neuronal output pathway: distinct circadian oscillators independently drive a common pre-motor center through the agency of specific dopaminergic interneurons.</content:encoded>
 	<dc:date>2018-09-21T00:00:00+00:00</dc:date>
 	<dc:creator>Liang, X.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/424416v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Transsynaptic interactions between IgSF proteins DIP-{alpha} and Dpr10 are required for motor neuron targeting specificity in Drosophila</title>
-	<link>http://biorxiv.org/cgi/content/short/424416v1?rss=1</link>
-	<content:encoded>The Drosophila larval neuromuscular system provides an ideal context in which to study synaptic partner choice, because it contains a small number of pre- and postsynaptic cells connected in an invariant pattern. The discovery of interactions between two subfamilies of IgSF cell surface proteins, the Dprs and the DIPs, provided new candidates for cellular labels controlling synaptic specificity. Here we show that DIP- is expressed by two identified motor neurons, while its binding partner Dpr10 is expressed by postsynaptic muscle targets. Removal of either DIP- or Dpr10 results in loss of specific axonal branches and NMJs formed by one motor neuron, MNISN-1s, while other branches of the MNISN-1s axon develop normally. The temporal and spatial expression pattern of dpr10 correlates with muscle innervation by MNISN-1s during embryonic development. We propose a model whereby DIP- and Dpr10 on opposing synaptic partners interact with each other to generate proper motor neuron connectivity.</content:encoded>
-	<dc:date>2018-09-21T00:00:00+00:00</dc:date>
-	<dc:creator>Ashley, J.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/424135v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: A collective modulatory basis for multisensory integration in C. elegans</title>
-	<link>http://biorxiv.org/cgi/content/short/424135v1?rss=1</link>
-	<content:encoded>In the natural environment, animals often encounter multiple sensory cues that are simultaneously present. The nervous system integrates the relevant sensory information to generate behavioral responses that have adaptive values. However, the signal transduction pathways and the molecules that regulate integrated behavioral response to multiple sensory cues are not well defined. Here, we characterize a collective modulatory basis for a behavioral decision in C. elegans when the animal is presented with an attractive food source together with a repulsive odorant. We show that distributed neuronal components in the worm nervous system and several neuromodulators orchestrate the decision-making process, suggesting that various states and contexts may modulate the multisensory integration. Among these modulators, we identify a new function of a conserved TGF-{beta} pathway that regulates the integrated decision by inhibiting the signaling from a set of central neurons. Interestingly, we find that a common set of modulators, including the TGF-{beta} pathway, regulate the integrated response to the pairing of different foods and repellents. Together, our results provide insights into the modulatory signals regulating multisensory integration and reveal potential mechanistic basis for the complex pathology underlying defects in multisensory processing shared by common neurological diseases.</content:encoded>
-	<dc:date>2018-09-21T00:00:00+00:00</dc:date>
-	<dc:creator>Harris, G.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/424127v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Microstimulation in a spiking neural network model of the midbrain superior colliculus</title>
-	<link>http://biorxiv.org/cgi/content/short/424127v1?rss=1</link>
-	<content:encoded>The midbrain superior colliculus (SC) generates a rapid saccadic eye movement to a sensory stimulus by recruiting a population of cells in its topographically organized motor map. Supra-threshold electrical microstimulation in the SC reveals that the site of stimulation produces a normometric saccade vector with little effect of the stimulation parameters. Moreover, electrically evoked saccades (E-saccades) have kinematic properties that strongly resemble natural, visual-evoked saccades (V-saccades). These findings support models in which the saccade vector is determined by a center-of-gravity computation of activated neurons, while its trajectory and kinematics arise from downstream feedback circuits in the brainstem. Recent single-unit recordings, however, have indicated that the SC population also specifies instantaneous kinematics. These results support an alternative model, in which the desired saccade trajectory, including its kinematics, follows from instantaneous summation of movement effects of all SC spike trains. But how to reconcile this model with microstimulation results? Although it is thought that microstimulation activates a large population of SC neurons, the mechanism through which it arises is unknown. We developed a spiking neural network model of the SC, in which microstimulation directly activates a relatively small set of neurons around the electrode tip, which subsequently sets up a large population response through lateral synaptic interactions. We show that through this mechanism the population drives an E-saccade with near-normal kinematics that are largely independent of the stimulation parameters. Only at very low stimulus intensities the network recruits a population with low firing rates, resulting in abnormally slow saccades.</content:encoded>
-	<dc:date>2018-09-21T00:00:00+00:00</dc:date>
-	<dc:creator>Van Opstal, A. J.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/424101v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Characterizing changes in glucocorticoid receptor internalization in the fear circuit in an animal model of post traumatic stress disorder</title>
-	<link>http://biorxiv.org/cgi/content/short/424101v1?rss=1</link>
-	<content:encoded>Glucocorticoid receptors (GRs) shuttle from the cytoplasm (cy) to the nucleus (nu) when bound with glucocorticoids (i.e. GR internalization) and alter transcriptional activity. GR activation within the fear circuit has been implicated in fear memory and post traumatic stress disorder (PTSD). However, no study to date has characterized GR internalization within the fear circuit during fear memory formation or examined how traumatic stress impacts this process. To address this, we assayed cy and nu GR levels at baseline and after auditory fear conditioning (FC) in the single prolonged stress (SPS) model of PTSD. Cy and nu GRs within the medial prefrontal cortex (mPFC), dorsal hippocampus (dHipp), ventral hippocampus (vHipp), and amygdala (AMY) were assayed using western blot. The distribution of GR in the cy and nu (at baseline and after FC) was varied across individual nodes of the fear circuit. At baseline, SPS enhanced cyGRs in the dHipp, but decreased cyGRs in the AMY. FC only enhanced GR internalization in the AMY and this effect was attenuated by SPS exposure. SPS also decreased cyGRs in the dHipp after FC. The results of this study suggests that GR internalization is varied across the fear circuit, which in turn suggests GR activation is selectively regulated within individual nodes of the fear circuit. The findings also suggest that changes in GR dynamics in the dHipp and AMY modulate the enhancing effect SPS has on fear memory persistence.</content:encoded>
-	<dc:date>2018-09-21T00:00:00+00:00</dc:date>
-	<dc:creator>Moulton, E.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006412">
 	<title>PLOS Computational Biology: New Articles: Maintaining maximal metabolic flux by gene expression control</title>
