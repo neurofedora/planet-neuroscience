@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://arxiv.org/abs/1810.01174" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818300795" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnhum.2018.00396" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnhum.2018.00392" />
@@ -73,7 +74,16 @@
 			<rdf:li rdf:resource="https://dx.doi.org/10.7554/eLife.38012" />
 			<rdf:li rdf:resource="https://dx.doi.org/10.7554/eLife.34081" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(18)30767-0?rss=yes" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/433789v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/433615v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/433581v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/433565v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/433516v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/433458v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/433425v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/433409v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/433276v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/433243v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/432971v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/432732v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006506" />
@@ -146,15 +156,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/432385v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/432229v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/432153v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/431957v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/431916v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/431866v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/431833v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/431726v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/431718v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/431684v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/430868v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/424150v1?rss=1" />
 			<rdf:li rdf:resource="https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25350?af=R" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006421" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818301405" />
@@ -294,7 +295,6 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1809.08504" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1809.08461" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1809.08291" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1809.08273" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006492" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006371" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006256" />
@@ -419,6 +419,33 @@
 	</items>
 </channel>
 
+<item rdf:about="http://arxiv.org/abs/1810.01174">
+	<title>q-bio.NC updates on arXiv.org: Note on the Estimation of Embedded Hermitian Gaussian Graphical Models for MEEG Source Activity and Connectivity Analysis in the Frequency Domain. Part I: Single Frequency Component and Subject. (arXiv:1810.01174v1 [stat.ME])</title>
+	<link>http://arxiv.org/abs/1810.01174</link>
+	<content:encoded>&lt;p&gt;This technical note presents an inference framework for hierarchically
+conditioned (embedded) Hermitian Gaussian Graphical Models (GGM). Our
+methodology, although extendible to several GGMs applications, is mainly
+centered on the specific neuroscientific context encompassing the estimation of
+brain sources activity and connectivity from Magnetoencephalography or
+Electroencephalography (MEEG) signals. This will be conceived in a series of
+papers with two parts. Part I: Analysis of a single frequency component from a
+single subject. Part II: Analysis of the Cross-Spectra for multiple subjects in
+a population. The strategy is based on Maximum Posterior Analysis, via the
+Expectation Maximization (EM) algorithm, of the Hermitian GGMs Parameters and
+Hyperparameters. The Hyperparameters set, which comprises MEEG signal noise
+covariance and source precision (connectivity) matrices of the MEEG generative
+model, is informed with Priors of special interest in the field and whose
+implementation in GGM estimation still poses a technical challenge. The theory
+presented here encapsulates two essential contributions. First: The formulation
+of a target function for the connectivity estimator that resembles an effective
+GGM of source activity, which is merged to the maximization step of the
+iterative EM strategy. Second: A new procedure for the estimation of the source
+activity effective GGM. These theoretical contributions provide for an explicit
+and highly optimal connectivity estimation procedure.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2018-10-03T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/stat/1/au:+Paz_Linares_D/0/1/0/all/0/1">Deirel Paz-Linares</a>, <a href="http://arxiv.org/find/stat/1/au:+Gonzalez_Moreira_E/0/1/0/all/0/1">Eduardo Gonzalez-Moreira</a>, <a href="http://arxiv.org/find/stat/1/au:+Martinez_Montes_E/0/1/0/all/0/1">Eduardo Martinez-Montes</a>, <a href="http://arxiv.org/find/stat/1/au:+Valdes_Sosa_P/0/1/0/all/0/1">Pedro A. Valdes-Sosa</a></dc:creator>
+</item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818300795">
 	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Rejuvenation of plasticity in the brain: opening the critical period</title>
 	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300795?dgcid=rss_sd_all</link>
@@ -851,12 +878,75 @@ domain adaptation problem.
 	<dc:date>2018-10-02T00:00:00+00:00</dc:date>
 	<dc:creator>Giuseppe Condomitti, Keimpe D. Wierda, Anna Schroeder, Sara E. Rubio, Kristel M. Vennekens, Cesare Orlandi, Kirill A. Martemyanov, Natalia V. Gounko, Jeffrey N. Savas, Joris de Wit</dc:creator>
 </item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/433789v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Factors Affecting Electroconvulsive Therapy Ictal Outcomes: Duration and Postictal Suppression</title>
+	<link>http://biorxiv.org/cgi/content/short/433789v1?rss=1</link>
+	<content:encoded>Electroconvulsive therapy (ECT) is an effective and rapid treatment for severe depression, however predictors of therapeutic outcomes remain insufficiently understood. Ictal duration and postictal suppression are two outcomes that may be correlated with patient response, yet patient and treatment variables which may influence these outcomes have not been thoroughly explored. We collected ECT stimulus metrics, EEG parameters, patient demographics, primary diagnosis, and anesthesia type for retrospective ECTs. Univariate and multivariate mixed-effects linear regression models were used to identify variables associated with ictal duration and postictal suppression index. For both outcomes, multivariate models which included all variables resulted in the best fit, reflecting the complex influences of a variety of factors on the ictal response. These results are an important step forward in elucidating patterns in retrospective ECT clinical data which may lead to new clinical knowledge of modifiable factors to optimize ECT treatment outcomes.</content:encoded>
+	<dc:date>2018-10-02T00:00:00+00:00</dc:date>
+	<dc:creator>Ingram, W. M.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/433615v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Urgency reveals an attentional vortex during antisaccade performance</title>
+	<link>http://biorxiv.org/cgi/content/short/433615v1?rss=1</link>
+	<content:encoded>In the antisaccade task, which is considered a sensitive assay of cognitive function, a salient visual cue appears and the participant must look away from it. This requires sensory, motor-planning, and cognitive neural mechanisms. But what are the unique contributions of these mechanisms to performance, and when exactly are they engaged? By introducing an urgency requirement into the antisaccade task, we track the evolution of the choice process with millisecond resolution and find a singular, nonlinear dependence on cue exposure: when viewed briefly (~100--140 ms), the cue captures attention so powerfully that looking at it (erroneously) is virtually inevitable, but as the cue viewing time increases, the probability of success quickly rises and saturates. The psychophysical and modeling results reveal concerted interactions between reflexive and voluntary cognitive mechanisms that (1) unfold extremely rapidly, (2) are qualitatively consistent across participants, and (3) are nevertheless quantitatively distinctive of each individual's perceptual capacities.</content:encoded>
+	<dc:date>2018-10-02T00:00:00+00:00</dc:date>
+	<dc:creator>Salinas, E.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/433581v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Strengthening of the efferent olivocochlear system leads to synaptic dysfunction and tonotopy disruption of a central auditory nucleus</title>
+	<link>http://biorxiv.org/cgi/content/short/433581v1?rss=1</link>
+	<content:encoded>The auditory system in many mammals is immature at birth but precisely organized in adults. Spontaneous activity in the inner ear plays a critical role in guiding this process. This is shaped by an efferent pathway that descends from the brainstem and makes transient direct synaptic contacts with inner hair cells (IHCs). In this work, we used an 9 cholinergic receptor knock-in mouse model (of either sex) with enhanced medial efferent activity (Chrna9L9'T, L9'T) to understand the role of the olivocochlear system in the correct establishment of auditory circuits. Wave III of auditory brainstem responses (which represents synchronized activity of synapses within the superior olivary complex) were smaller in L9'T mice, suggesting a central dysfunction. The mechanism underlying this functional alteration was analysed in brain slices containing the medial nucleus of the trapezoid body (MNTB), where neurons are topographically organized along a medio-lateral axis. The topographic organization of MNTB physiological properties observed in WT mice was abolished in the L9'T mice. Additionally, electrophysiological recordings in slices evidenced MNTB synaptic alterations, which were further supported by morphological alterations. The present results suggest that the transient cochlear efferent innervation to IHCs during the critical period before the onset of hearing is involved in the refinement of topographic maps as well as in setting the correct synaptic transmission at central auditory nuclei.</content:encoded>
+	<dc:date>2018-10-02T00:00:00+00:00</dc:date>
+	<dc:creator>Di Guilmi, M. N.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/433565v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Dorsal Hippocampus not always necessary in a Radial Arm Maze Delayed Win-shift Task</title>
+	<link>http://biorxiv.org/cgi/content/short/433565v1?rss=1</link>
+	<content:encoded>Spatial working memory is important for foraging and navigating the environment. However, its neural underpinnings remain poorly understood. The hippocampus, known for its spatial coding and involvement in spatial memory, is widely understood to be necessary for spatial working memory when retention intervals increase beyond seconds into minutes. Here, we describe new evidence that the dorsal hippocampus is not always necessary for spatial working memory for retention intervals of 8 minutes. Rats were trained to perform a delayed spatial win shift radial arm maze task (DSWS) with an 8-minute delay between study and test phases. We then tested whether bilateral inactivation of the dorsal hippocampus between the study and test phases impaired behavioral performance at test. Inactivation was achieved through a bilateral infusion of lidocaine. Performance following lidocaine was compared to control trials, in which, sterile phosphate buffered saline (PBS) was infused. Test performance did not differ between the lidocaine and PBS conditions, remaining high in each. To explore the possibility that this insensitivity to inactivation was a result of overtraining, a second cohort of animals received substantially less training prior to the infusions. In this second cohort, lidocaine infusions did significantly impair task performance. These data indicate that successful performance of a spatial win-shift task on the 8-arm maze need not always be hippocampally dependent.</content:encoded>
+	<dc:date>2018-10-02T00:00:00+00:00</dc:date>
+	<dc:creator>Layfield, D.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/433516v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Heading direction with respect to a reference point modulates place-cell activity</title>
+	<link>http://biorxiv.org/cgi/content/short/433516v1?rss=1</link>
+	<content:encoded>Utilizing electrophysiological recordings from CA1 pyramidal cells in freely moving mice, we find that a majority of neural responses are modulated by the heading-direction of the animal relative to a point within or outside their enclosure that we call a reference point. Our findings identify a novel representation in the neuronal responses in the dorsal hippocampus</content:encoded>
+	<dc:date>2018-10-02T00:00:00+00:00</dc:date>
+	<dc:creator>Jercog, P. E.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/433458v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Discrete stepping and nonlinear ramping dynamics underlie spiking responses of LIP neurons during decision-making</title>
+	<link>http://biorxiv.org/cgi/content/short/433458v1?rss=1</link>
+	<content:encoded>Neurons in macaque area LIP exhibit gradual ramping in their trial-averaged spike responses during sensory decision-making. However, recent work has sparked debate over whether single-trial LIP spike trains are better described by discrete &quot;stepping&quot; or continuous drift-diffusion (&quot;ramping'') dynamics. Here we address this controversy using powerful model-based analyses of LIP spike responses. We extended latent dynamical models of LIP spike trains to incorporate non-Poisson spiking, baseline firing rates, and various nonlinear relationships between the latent variable and firing rate. Moreover, we used advanced model-comparison methods, including cross-validation and a fully Bayesian information criterion, to evaluate and compare models. These analyses revealed that when non-Poisson spiking was incorporated into existing stepping and ramping models, a majority of neurons remained better described by stepping dynamics, even when conditioning on evidence level or choice. However, an extended ramping model with a non-zero baseline and a compressive output nonlinearity accounted for roughly as many neurons as the stepping model. The latent dynamics inferred under this model exhibited high diffusion variance for many neurons, making them qualitatively different than slowly-evolving continuous dynamics. These findings generalized to alternative tasks, suggesting that a robust fraction of LIP neurons are better described by each model class.</content:encoded>
+	<dc:date>2018-10-02T00:00:00+00:00</dc:date>
+	<dc:creator>Zoltowski, D. M.</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/433425v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Robust and sensitive GFP-based cGMP sensor for real time imaging in intact Caenorhabditis elegans</title>
 	<link>http://biorxiv.org/cgi/content/short/433425v1?rss=1</link>
 	<content:encoded>cGMP is a ubiquitous second messenger that plays a role in sensory signaling and plasticity through its regulation of ion channels and kinases. Previous studies that primarily used genetic and biochemical tools suggest that cGMP is spatiotemporally regulated in multiple sensory modalities, including light, heat, gases, salt and odor. FRET- and GFP-based cGMP sensors were developed to visualize cGMP in primary cell culture and Caenorhabditis elegans to corroborate these findings. While a FRET-based sensor has been used in an intact animal to visualize cGMP, the requirement of a multiple emission system limits its ability to be used on its own as well as with other sensors and fluorescent markers. Here, we demonstrate that WincG2, a codon-optimized version of the cpEGFP-based cGMP sensor FlincG3, can be used in C. elegans to visualize rapidly changing cGMP levels in living, behaving animals using a single fluorophore. We coexpressed the sensor with the blue light-activated guanylyl cyclases BeCyclOp and bPGC in body wall muscles and found that the rate of WincG2 fluorescence correlated with the rate of cGMP production by each cyclase. Furthermore, we show that WincG2 responds linearly upon NaCl concentration changes and SDS presentation in the cell bodies of the gustatory neuron ASER and the nociceptive phasmid neuron PHB, respectively. Intriguingly, WincG2 fluorescence in the ASER cell body decreased in response to a NaCl concentration downstep and either stopped decreasing or increased in response to a NaCl concentration upstep, which is opposite in sign to previously published calcium recordings. These results illustrate that WincG2 can be used to report rapidly changing cGMP levels in an intact animal and that the reporter can potentially reveal unexpected spatiotemporal landscapes of cGMP in response to stimuli.</content:encoded>
 	<dc:date>2018-10-02T00:00:00+00:00</dc:date>
 	<dc:creator>Woldemariam, S.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/433409v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Response outcomes gate the impact of expectations on perceptual decisions</title>
+	<link>http://biorxiv.org/cgi/content/short/433409v1?rss=1</link>
+	<content:encoded>Perceptual decisions are not only determined by current sensory information but are also influenced by recent experience. Can the magnitude of history-dependent decision biases be flexibly modulated based on the outcome of previous decisions? We trained rats in several two-alternative forced choice auditory tasks, where the probability to repeat the previous stimulus category was varied in blocks of trials. All rats capitalized on the serial correlations of the stimulus sequence by consistently exploiting a transition bias: a tendency to repeat or alternate their previous response using an internal trial-by-trial estimate of the sequence repeating probability. Surprisingly, this bias was null in trials immediately following an error. The internal estimate however was not reset and it became effective again causing a bias after the next correct response. This ability to rapidly activate and inactivate the bias was captured by a non-linear generative model of rat behavior, whereby a reward-driven modulatory signal gated the use of the latent estimate of the environment statistics on the current decision. These results demonstrate that rats use behavioral outcomes to flexibly modulate how expectations derived from the recent history influence their decisions.</content:encoded>
+	<dc:date>2018-10-02T00:00:00+00:00</dc:date>
+	<dc:creator>Hermoso-Mendizabal, A.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/433276v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: A post-decisional neural marker of confidence predicts information-seeking</title>
+	<link>http://biorxiv.org/cgi/content/short/433276v1?rss=1</link>
+	<content:encoded>Theoretical work predicts that decisions made with low confidence should lead to increased information-seeking. This is an adaptive strategy because it can increase the quality of a decision, and previous behavioral work has shown that decision-makers engage in such confidence-driven information seeking. The present study aimed to characterize the neural markers that mediate the relationship between confidence and information-seeking. A paradigm was used in which human participants made an initial perceptual decision, and then decided whether or not they wanted to sample more evidence before committing to a final decision and confidence judgment. Pre-decisional and post-decisional ERP components were similarly modulated by the level of confidence and by information-seeking choices. Time-resolved multivariate decoding of scalp EEG signals first revealed that information-seeking choices could be decoded from the time of the initial decision to the time of the subsequent information-seeking choice (within-condition decoding). No above-chance decoding was visible in the pre-response time window. Crucially, a classifier trained to decode high versus low confidence predicted information-seeking choices after the initial perceptual decision (across-condition decoding). This time window corresponds to that of a post-decisional neural marker of confidence. Collectively, our findings demonstrate for the first time that neural indices of confidence are functionally involved in information-seeking decisions.</content:encoded>
+	<dc:date>2018-10-02T00:00:00+00:00</dc:date>
+	<dc:creator>Desender, K.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/433243v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Explicit instruction differentially affects subcomponents of procedural learning and consolidation</title>
+	<link>http://biorxiv.org/cgi/content/short/433243v1?rss=1</link>
+	<content:encoded>Procedural learning facilitates the efficient processing of complex environmental stimuli and contributes to the acquisition of automatic behaviour. In the present study, we investigated two sub-components of procedural learning: statistical learning and sequence learning. The former one refers to the acquisition of frequency-based associations between stimuli, while the latter one refers to the acquisition of order-based relationship of a series of events. It is still unclear whether these sub-processes are differentially affected by explicit awareness during learning and consolidation. Our goal was to compare explicit and implicit procedural memory formation and consolidation in the same task to directly test the effect of the explicit instruction on procedural learning. Second, we aimed to distinguish sequence learning and statistical learning within procedural learning and measured the two processes in parallel. Seventy-four young adults performed either the original implicit (N = 37) or the modified cued (N = 37) version of the Alternating Serial Reaction Time (ASRT) task. To test the effect of delay on retention, performance was retested after a 12-hour offline period. Statistical learning performance was similar in the two groups, while the explicit cues boosted sequence learning performance. Nevertheless, awareness had no effect on consolidation: both statistical and sequence knowledge was preserved over the 12-hour delay and retention was comparable in the two experimental groups. Our findings could provide a better insight into the role of awareness in procedural learning and consolidation.</content:encoded>
+	<dc:date>2018-10-02T00:00:00+00:00</dc:date>
+	<dc:creator>Horvath, K.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/432971v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Common and dissociable contributions of alexithymia and autism to domain-specific interoceptive dysregulations - a dimensional neuroimaging approach</title>
@@ -1386,69 +1476,6 @@ in the default mode network commonly implicated in this ruminative disorder.
 	<content:encoded>The cerebellum integrates sensory stimuli and motor actions to enable smooth coordination and motor learning. We use population imaging and single-cell electrophysiology while monitoring behavior to find the neural correlates of sensory and motor variables in the cerebellar Purkinje cell population during visually-driven behaviors in larval zebrafish. We find that Purkinje cells functionally cluster into three regions that receive similarly tuned, sensory climbing fiber input relating to distinct visual features. In contrast, the simple spike output of nearly all Purkinje cells is strongly driven by motor-related tail and eye signals. At rest, complex spikes modulate simple spike rates over hundreds of milliseconds in a cell-specific way, whereas during swimming, complex spikes have a very acute temporal effect on already high simple spike rates. Our findings highlight the importance of motor context for cerebellar computations and provide the first comprehensive description of sensorimotor coding across the Purkinje cell population during behavior.</content:encoded>
 	<dc:date>2018-10-01T00:00:00+00:00</dc:date>
 	<dc:creator>Knogler, L. D.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/431957v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: A spatial atlas of inhibitory cell types in mouse hippocampus</title>
-	<link>http://biorxiv.org/cgi/content/short/431957v1?rss=1</link>
-	<content:encoded>Understanding the function of a tissue requires knowing the spatial organization of its constituent cell types. In the cerebral cortex, single-cell RNA sequencing (scRNA-seq) has revealed the genome-wide expression patterns that define its many, closely related cell types, but cannot reveal their spatial arrangement. Here we introduce probabilistic cell typing by in situ sequencing (pciSeq), an approach that leverages prior scRNA-seq classification to identify cell types using multiplexed in situ RNA detection. We applied this method to map the inhibitory neurons of hippocampal area CA1, a cell system critical for memory function, for which ground truth is available from extensive prior work identifying the laminar organization of subtly differing cell types. Our method confidently identified 16 interneuron classes, in a spatial arrangement closely matching ground truth. This method will allow identifying the spatial organization of fine cell types across the brain and other tissues.</content:encoded>
-	<dc:date>2018-10-01T00:00:00+00:00</dc:date>
-	<dc:creator>Qian, X.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/431916v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Poly(ADP-ribose) Polymerase-1 Hyperactivity at DNA Single-Strand Breaks Triggers Seizures and Shortened Lifespan</title>
-	<link>http://biorxiv.org/cgi/content/short/431916v1?rss=1</link>
-	<content:encoded>Defects in DNA strand break repair can trigger seizures that are often intractable and life-threatening. However, the molecular mechanism/s by which unrepaired DNA breaks trigger seizures are unknown. Here, we show that hyperactivity of the DNA break sensor protein poly(ADP-ribose) polymerase-1 is widespread in DNA single-strand break repair defective XRCC1-mutant mouse brain, including the hippocampus and cortex. We demonstrate elevated seizure-like activity in XRCC1-mutant hippocampus in vitro and increased seizures in vivo, and we show that Parp1 deletion reduces or prevents both. We also show that the increased seizures in Xrcc1 mutant mice result in juvenile mortality, and that Parp1 deletion extends the lifespan of these mice up to 25-fold. Parp1 hyperactivation is thus a major molecular mechanism by which unrepaired endogenous DNA strand breaks trigger disease pathology, including neurological seizures and death. These data implicate inhibitors of PARP activity as a possible therapeutic approach for the treatment of single-strand break induced neurodegenerative disease.</content:encoded>
-	<dc:date>2018-10-01T00:00:00+00:00</dc:date>
-	<dc:creator>Komulainen, E.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/431866v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Presynaptic Endoplasmic Reticulum Contributes Crucially to Short-term Plasticity in Small Hippocampal Synapses</title>
-	<link>http://biorxiv.org/cgi/content/short/431866v1?rss=1</link>
-	<content:encoded>Short-term plasticity (STP) of the presynaptic terminal maintains a brief history of activity experienced by the synapse that may otherwise remain unseen by the postsynaptic neuron. These synaptic changes are primarily regulated by calcium dynamics in the presynaptic terminal. A rapid increase in intracellular calcium is initiated by the opening of voltage-dependent calcium channels in response to depolarization, the main source of calcium required for vesicle fusion. Separately, electron-microscopic studies of hippocampal CA3-CA1 synapses reveal the strong presence of endoplasmic reticulum (ER) in all presynaptic terminals. However, the precise role of the ER in modifying STP at the presynaptic terminal remains unexplored. To investigate the contribution of ER in modulating calcium dynamics in small hippocampal boutons, we performed in silico experiments in a physiologically-realistic canonical synaptic geometry based on reconstructions of CA3-CA1 Schaffer collaterals in the rat hippocampus. The model predicts that presynaptic calcium stores are critical in generating the observed paired-pulse ratio (PPR) of normal CA3-CA1 synapses. In control synapses with intact ER, SERCA pumps act as additional calcium buffers, lowering the intrinsic release probability of vesicle release and increasing PPR. In addition, the presence of ER allows ongoing activity to trigger calcium influx from the presynaptic ER via ryanodine receptors (RyRs) and inositol trisphosphate receptors (IP3Rs). Intracellular stores and their associated machinery also allows a synapse with a low release probability to operate more reliably due to attenuation of calcium fluctuations. Finally, blocking ER activity in the presynaptic terminal mimics the pathological state of a low facilitating synapse characterized in animal models of Alzheimer's disease, and underscores the critical role played by presynaptic stores in normal function.</content:encoded>
-	<dc:date>2018-10-01T00:00:00+00:00</dc:date>
-	<dc:creator>Singh, N.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/431833v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: There is no single functional atlas even for a single individual: Parcellation of the human brain is state dependent</title>
-	<link>http://biorxiv.org/cgi/content/short/431833v1?rss=1</link>
-	<content:encoded>The goal of human brain mapping has long been to delineate the functional subunits in the brain and elucidate the functional role of each of these brain regions. Recent work has focused on whole-brain parcellation of functional Magnetic Resonance Imaging (fMRI) data to identify these subunits and create a functional atlas. Functional connectivity approaches to understand the brain at the network level, require such an atlas to assess connections between nodes and extract network properties. While no single functional atlas has emerged as the dominant atlas to date, there remains an underlying assumption that such an atlas exists. Using fMRI data from a highly sampled subject as well as two independent replication data sets, we demonstrate that functional atlases reconfigure substantially and in a meaningful manner, according to brain state.</content:encoded>
-	<dc:date>2018-10-01T00:00:00+00:00</dc:date>
-	<dc:creator>Salehi, M.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/431726v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Visual word recognition relies on an orthographic prediction error signal</title>
-	<link>http://biorxiv.org/cgi/content/short/431726v1?rss=1</link>
-	<content:encoded>Current cognitive models of reading assume that word recognition involves the 'bottom-up' assembly of perceived low-level visual features into letters, letter combinations, and words. This rather inefficient strategy, however, is incompatible with neurophysiological theories of Bayesian-like predictive neural computations during perception. Here we propose that prior knowledge of the words in a language is used to 'explain away' redundant and highly expected parts of the percept. As a result, subsequent processing stages operate upon an optimized representation highlighting information relevant for word identification, i.e., the orthographic prediction error. We demonstrate empirically that the orthographic prediction error accounts for word recognition behavior. We then report neurophysiological data showing that this informationally optimized orthographic prediction error is processed around 200 ms after word-onset in the occipital cortex. The remarkable efficiency of reading, thus, is achieved by optimizing the mental representation of the visual percept, based on prior visual-orthographic knowledge.</content:encoded>
-	<dc:date>2018-10-01T00:00:00+00:00</dc:date>
-	<dc:creator>Gagl, B.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/431718v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Dynamic mode decomposition of resting-state and task fMRI</title>
-	<link>http://biorxiv.org/cgi/content/short/431718v1?rss=1</link>
-	<content:encoded>Component analysis is a powerful tool to identify dominant patterns of interactions in multivariate datasets. In the context of fMRI data, methods such as principal component analysis or independent component analysis have been used to identify the brain networks shaping functional connectivity (FC). Importantly, these approaches are static in the sense that they ignore the temporal information contained in fMRI time series. Therefore, the corresponding components provide a static characterization of FC. Building upon recent findings suggesting that FC dynamics encode richer information about brain functional organization, we use a dynamic extension of component analysis to identify dynamic modes (DMs) of fMRI time series. We demonstrate the feasibility and relevance of this approach using resting-state and motor-task fMRI data of 730 healthy subjects of the Human Connectome Project (HCP). In resting-state, dominant DMs have strong resemblance with classical resting-state networks, with an additional temporal characterization of the networks in terms of oscillatory periods and damping times. In motor-task conditions, dominant DMs reveal interactions between several brain areas, including but not limited to the posterior parietal cortex and primary motor areas, that are not found with classical activation maps. Finally, we identify two canonical components linking the temporal properties of the resting-state DMs with 158 behavioral and demographic HCP measures. Altogether, these findings illustrate the benefits of the proposed dynamic component analysis framework, making it a promising tool to characterize the spatio-temporal organization of brain activity.</content:encoded>
-	<dc:date>2018-10-01T00:00:00+00:00</dc:date>
-	<dc:creator>Casorso, J.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/431684v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Temporal control of cortico-thalamic neuron specification by regulation of Neurogenin activity and Polycomb repressive complexes</title>
-	<link>http://biorxiv.org/cgi/content/short/431684v1?rss=1</link>
-	<content:encoded>Neural progenitor cells (NPCs) in the embryonic mammalian neocortex generate different neuronal subtypes sequentially. A long-standing hypothesis to account for this temporal fate specification process is that NPCs change their differentiation potential over time. However, the molecular mechanisms underlying these temporal changes in NPC properties are poorly understood. Here we show that Neurogenin1 and Neurogenin2 (Neurog1/2), two proneural transcription factors expressed in NPCs throughout cortical neurogenesis, specify the identity of one of the first cortical neuron subtypes generated, layer 6 cortico-thalamic neurons (CTNs). We found that Neurog1/2 specify the CTN fate through regulation of the cortical fate determinants Fezf2 and Foxp2 and that this Neurog-induced programme becomes inactive after the period of CTN production. Two independent mechanisms contribute to the arrest of CTN neuron generation at the end of layer 6 neurogenesis, including a reduction in the transcriptional activity of Neurog1/2 and the deposition of epigenetic repressive modifications mediated by Polycomb repressive complexes at the Foxp2 gene. Therefore, the duration of production of a cortical neuron subtype is controlled by multiple locking mechanisms involving both transcriptional and epigenetic processes.</content:encoded>
-	<dc:date>2018-10-01T00:00:00+00:00</dc:date>
-	<dc:creator>Oishi, K.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/430868v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Diverse Pathophysiological Processes Converge on Network Disruption in Mania</title>
-	<link>http://biorxiv.org/cgi/content/short/430868v1?rss=1</link>
-	<content:encoded>Background: Neuroimaging of psychiatric disease is challenged by the difficulty of establishing the causal role of neuroimaging abnormalities. Lesions that cause mania present a unique opportunity to understand how brain network disruption may cause mania in both lesions and in bipolar disorder. Methods: A literature search revealed 23 case reports with imaged lesions that caused mania in patients without history of bipolar disorder. We traced these lesions and examined resting-state functional Magnetic Resonance Imaging (rsfMRI) connectivity to these lesions and control lesions to find networks that would be disrupted specifically by mania-causing lesions. The results were then used as regions-of-interest to examine rsfMRI connectivity in patients with bipolar disorder (n=16) who underwent imaging longitudinally across states of both mania and euthymia alongside a cohort of healthy participants scanned longitudinally. We then sought to replicate these results in independent cohorts of manic (n=26) and euthymic (n=21) participants with bipolar disorder. Results: Mania-inducing lesions overlap significantly in network connectivity. Mania-causing lesions selectively disrupt networks that include orbitofrontal cortex, dorsolateral prefrontal cortex, and temporal lobes. In bipolar disorder, the manic state was reflected in strong, significant, and specific disruption in network communication between these regions and regions implicated in bipolar pathophysiology: the amygdala and ventro-lateral prefrontal cortex. Limitations: The was heterogeneity in the clinical characterization of mania causing lesions. Conclusions: Lesions causing mania demonstrate shared and specific network disruptions. These disruptions are also observed in bipolar mania and suggest a convergence of multiple disorders on shared circuit dysfunction to cause mania.</content:encoded>
-	<dc:date>2018-10-01T00:00:00+00:00</dc:date>
-	<dc:creator>Lee, I.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/424150v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Structural connectivity analysis using Finsler geometry</title>
-	<link>http://biorxiv.org/cgi/content/short/424150v1?rss=1</link>
-	<content:encoded>In this work we demonstrate how Finsler geometry -- and specifically the related geodesic tractography -- can be levied to analyze structural connections between different brain regions. We present new theoretical developments which support the definition of a novel Finsler metric and associated connectivity measures, based on closely related works on the Riemannian framework for diffusion MRI. Using data from the Human Connectome Project, as well as population data from an autism spectrum disorder study, we demonstrate that this new Finsler metric, together with the new connectivity measures, results in connectivity maps that are much closer to known tract anatomy compared to previous geodesic connectivity methods. Our implementation can be used to compute geodesic distance and connectivity maps for segmented areas, and is publicly available.</content:encoded>
-	<dc:date>2018-10-01T00:00:00+00:00</dc:date>
-	<dc:creator>Dela Haije, T.</dc:creator>
 </item>
 <item rdf:about="https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25350?af=R">
 	<title>Wiley: Annals of Neurology: Table of Contents: NBEA: developmental disease gene with early generalized epilepsy phenotypes</title>
@@ -2892,26 +2919,6 @@ use to navigate conceptual spaces.
 &lt;/p&gt;</content:encoded>
 	<dc:date>2018-09-25T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/cs/1/au:+Boyce_Jacino_C/0/1/0/all/0/1">Christina Boyce-Jacino</a>, <a href="http://arxiv.org/find/cs/1/au:+DeDeo_S/0/1/0/all/0/1">Simon DeDeo</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1809.08273">
-	<title>q-bio.NC updates on arXiv.org: EEG-based Inter-Subject Correlation Schemes in a Stimuli-Shared Framework: Interplay with Valence and Arousal. (arXiv:1809.08273v1 [q-bio.NC])</title>
-	<link>http://arxiv.org/abs/1809.08273</link>
-	<content:encoded>&lt;p&gt;Affective computing is confronted to high inter-subject variability, in both
-emotional and physiological responses to a given stimulus. In a stimuli-shared
-framework, that is to say for different subjects who watch the same stimuli,
-Inter-Subject Correlation (ISC) measured from Electroencephalographic (EEG)
-recordings characterize the correlations between the respective signals at the
-different EEG channels. In order to investigate the interplay between ISC and
-emotion, we propose to study the effect of valence and arousal on the ISC
-score. To this end, we exploited various computational schemes corresponding to
-different subsets of the dataset: all the data, stimulus-wise, subject
-pairwise, and both stimulus-wise and subject pairwise. We thus applied these
-schemes to the HCI MAHNOB and DEAP databases. Our results suggest that the ISC
-score decreases with valence and increases with arousal, as already shown by
-previous results on functional MRI.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2018-09-25T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Hajlaoui_A/0/1/0/all/0/1">Ayoub Hajlaoui</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Chetouani_M/0/1/0/all/0/1">Mohamed Chetouani</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Essid_S/0/1/0/all/0/1">Slim Essid</a></dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006492">
 	<title>PLOS Computational Biology: New Articles: OptMDFpathway: Identification of metabolic pathways with maximal thermodynamic driving force and its application for analyzing the endogenous CO&lt;sub&gt;2&lt;/sub&gt; fixation potential of Escherichia coli</title>
