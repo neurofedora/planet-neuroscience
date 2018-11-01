@@ -9,6 +9,36 @@
 	<atom:link rel="self" href="https://sanjayankur31.github.io/planet-neuroscience/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>PLOS Computational Biology: New Articles: Efficient pedigree recording for fast population genetics simulation</title>
+	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006581</guid>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/K2Bw7mxuTw0/article</link>
+	<description>&lt;p&gt;by Jerome Kelleher, Kevin R. Thornton, Jaime Ashander, Peter L. Ralph&lt;/p&gt;
+
+In this paper we describe how to efficiently record the entire genetic history of a population in forwards-time, individual-based population genetics simulations with arbitrary breeding models, population structure and demography. This approach dramatically reduces the computational burden of tracking individual genomes by allowing us to simulate only those loci that may affect reproduction (those having non-neutral variants). The genetic history of the population is recorded as a succinct tree sequence as introduced in the software package msprime, on which neutral mutations can be quickly placed afterwards. Recording the results of each breeding event requires storage that grows linearly with time, but there is a great deal of redundancy in this information. We solve this storage problem by providing an algorithm to quickly ‘simplify’ a tree sequence by removing this irrelevant history for a given set of genomes. By periodically simplifying the history with respect to the extant population, we show that the total storage space required is modest and overall large efficiency gains can be made over classical forward-time simulations. We implement a general-purpose framework for recording and simplifying genealogical data, which can be used to make simulations of any population model more efficient. We modify two popular forwards-time simulation frameworks to use this new approach and observe efficiency gains in large, whole-genome simulations of one to two orders of magnitude. In addition to speed, our method for recording pedigrees has several advantages: (1) All marginal genealogies of the simulated individuals are recorded, rather than just genotypes. (2) A population of &lt;i&gt;N&lt;/i&gt; individuals with &lt;i&gt;M&lt;/i&gt; polymorphic sites can be stored in &lt;i&gt;O&lt;/i&gt;(&lt;i&gt;N&lt;/i&gt; log &lt;i&gt;N&lt;/i&gt; + &lt;i&gt;M&lt;/i&gt;) space, making it feasible to store a simulation’s entire final generation as well as its history. (3) A simulation can easily be initialized with a more efficient coalescent simulation of deep history. The software for recording and processing tree sequences is named tskit.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/K2Bw7mxuTw0&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 01 Nov 2018 21:00:00 +0000</pubDate>
+  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
+	<title>PLOS Computational Biology: New Articles: Motif-Aware PRALINE: Improving the alignment of motif regions</title>
+	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006547</guid>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/KBwcHKOmgY0/article</link>
+	<description>&lt;p&gt;by Maurits Dijkstra, Punto Bawono, Sanne Abeln, K. Anton Feenstra, Wan Fokkink, Jaap Heringa&lt;/p&gt;
+
+Protein or DNA motifs are sequence regions which possess biological importance. These regions are often highly conserved among homologous sequences. The generation of multiple sequence alignments (MSAs) with a correct alignment of the conserved sequence motifs is still difficult to achieve, due to the fact that the contribution of these typically short fragments is overshadowed by the rest of the sequence. Here we extended the PRALINE multiple sequence alignment program with a novel motif-aware MSA algorithm in order to address this shortcoming. This method can incorporate explicit information about the presence of externally provided sequence motifs, which is then used in the dynamic programming step by boosting the amino acid substitution matrix towards the motif. The strength of the boost is controlled by a parameter, &lt;i&gt;α&lt;/i&gt;. Using a benchmark set of alignments we confirm that a good compromise can be found that improves the matching of motif regions while not significantly reducing the overall alignment quality. By estimating &lt;i&gt;α&lt;/i&gt; on an unrelated set of reference alignments we find there is indeed a strong conservation signal for motifs. A number of typical but difficult MSA use cases are explored to exemplify the problems in correctly aligning functional sequence motifs and how the motif-aware alignment method can be employed to alleviate these problems.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/KBwcHKOmgY0&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 01 Nov 2018 21:00:00 +0000</pubDate>
+  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
+	<title>PLOS Computational Biology: New Articles: Active dendrites regulate the spatiotemporal spread of signaling microdomains</title>
+	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006485</guid>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/SMnJLZ99N1Y/article</link>
+	<description>&lt;p&gt;by Reshma Basak, Rishikesh Narayanan&lt;/p&gt;
+
+Microdomains that emerge from spatially constricted spread of biochemical signaling components play a central role in several neuronal computations. Although dendrites, endowed with several voltage-gated ion channels, form a prominent structural substrate for microdomain physiology, it is not known if these channels regulate the spatiotemporal spread of signaling microdomains. Here, we employed a multiscale, morphologically realistic, conductance-based model of the hippocampal pyramidal neuron that accounted for experimental details of electrical and calcium-dependent biochemical signaling. We activated synaptic N-Methyl-d-Aspartate receptors through theta-burst stimulation (TBS) or pairing (TBP) and assessed microdomain propagation along a signaling pathway that included calmodulin, calcium/calmodulin-dependent protein kinase II (CaMKII) and protein phosphatase 1. We found that the spatiotemporal spread of the TBS-evoked microdomain in phosphorylated CaMKII (pCaMKII) was amplified in comparison to that of the corresponding calcium microdomain. Next, we assessed the role of two dendritically expressed inactivating channels, one restorative (&lt;i&gt;A&lt;/i&gt;-type potassium) and another regenerative (&lt;i&gt;T&lt;/i&gt;-type calcium), by systematically varying their conductances. Whereas &lt;i&gt;A&lt;/i&gt;-type potassium channels suppressed the spread of pCaMKII microdomains by altering the voltage response to TBS, &lt;i&gt;T&lt;/i&gt;-type calcium channels enhanced this spread by modulating TBS-induced calcium influx without changing the voltage. Finally, we explored cross-dependencies of these channels with other model components, and demonstrated the heavy mutual interdependence of several biophysical and biochemical properties in regulating microdomains and their spread. Our conclusions unveil a pivotal role for dendritic voltage-gated ion channels in actively amplifying or suppressing biochemical signals and their spatiotemporal spread, with critical implications for clustered synaptic plasticity, robust information transfer and efficient neural coding.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/SMnJLZ99N1Y&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 01 Nov 2018 21:00:00 +0000</pubDate>
+  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Orbitofrontal Lesion Alters Brain Dynamics of Emotion-Attention and Emotion-Cognitive Control Interaction in Humans</title>
 	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnhum.2018.00437</guid>
 	<link>https://www.frontiersin.org/articles/10.3389/fnhum.2018.00437</link>
@@ -195,12 +225,55 @@ for accurate prediction of IQ.
   <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
 </item>
 <item>
+	<title>eLife: latest articles: Cryo-EM structure of the mechanically activated ion channel OSCA1.2</title>
+	<guid isPermaLink="false">https://dx.doi.org/10.7554/eLife.41845</guid>
+	<link>https://elifesciences.org/articles/41845</link>
+	<description>Mechanically activated ion channels underlie touch, hearing, shear-stress sensing, and response to turgor pressure. OSCA/TMEM63s are a newly-identified family of eukaryotic mechanically activated ion channels opened by membrane tension. The structural underpinnings of OSCA/TMEM63 function are not explored. Here, we elucidate high resolution cryo-electron microscopy structures of OSCA1.2, revealing a dimeric architecture containing eleven transmembrane helices per subunit and surprising topological similarities to TMEM16 proteins. We locate the ion permeation pathway within each subunit by demonstrating that a conserved acidic residue is a determinant of channel conductance. Molecular dynamics simulations reveal membrane interactions, suggesting the role of lipids in OSCA1.2 gating. These results lay a foundation to decipher how the structural organization of OSCA/TMEM63 is suited for their roles as MA ion channels.</description>
+	<pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+	<author>ardem@scripps.edu (Andrew B Ward)</author>
+  <source url="https://elifesciences.org">eLife: latest articles</source>
+</item>
+<item>
+	<title>eLife: latest articles: OSCA/TMEM63 are an evolutionarily conserved family of mechanically activated ion channels</title>
+	<guid isPermaLink="false">https://dx.doi.org/10.7554/eLife.41844</guid>
+	<link>https://elifesciences.org/articles/41844</link>
+	<description>Mechanically activated (MA) ion channels convert physical forces into electrical signals, and are essential for eukaryotic physiology. Despite their importance, few bona-fide MA channels have been described in plants and animals. Here, we show that various members of the OSCA and TMEM63 family of proteins from plants, flies, and mammals confer mechanosensitivity to naïve cells. We conclusively demonstrate that OSCA1.2, one of the &lt;i&gt;Arabidopsis thaliana &lt;/i&gt;OSCA proteins, is an inherently mechanosensitive, pore-forming ion channel. Our results suggest that OSCA/TMEM63 proteins are the largest family of MA ion channels identified, and are conserved across eukaryotes. Our findings will enable studies to gain deep insight into molecular mechanisms of MA channel gating, and will facilitate a better understanding of mechanosensory processes &lt;i&gt;in vivo&lt;/i&gt; across plants and animals.</description>
+	<pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+	<author>ardem@scripps.edu (Adrienne E Dubin)</author>
+  <source url="https://elifesciences.org">eLife: latest articles</source>
+</item>
+<item>
+	<title>eLife: latest articles: Correction: A long non-coding RNA is required for targeting centromeric protein A to the human centromere</title>
+	<guid isPermaLink="false">https://dx.doi.org/10.7554/eLife.41593</guid>
+	<link>https://elifesciences.org/articles/41593</link>
+	<pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+  <source url="https://elifesciences.org">eLife: latest articles</source>
+</item>
+<item>
+	<title>eLife: latest articles: From molecular manipulation of domesticated Chlamydomonas reinhardtii to survival in nature</title>
+	<guid isPermaLink="false">https://dx.doi.org/10.7554/eLife.39233</guid>
+	<link>https://elifesciences.org/articles/39233</link>
+	<description>In the mid-20th century, the unicellular and genetically tractable green alga &lt;i&gt;Chlamydomonas reinhardtii&lt;/i&gt; was first developed as a model organism to elucidate fundamental cellular processes such as photosynthesis, light perception and the structure, function and biogenesis of cilia. Various studies of &lt;i&gt;C. reinhardtii&lt;/i&gt; have profoundly advanced plant and cell biology, and have also impacted algal biotechnology and our understanding of human disease. However, the 'real' life of &lt;i&gt;C. reinhardtii&lt;/i&gt; in the natural environment has largely been neglected. To extend our understanding of the biology of &lt;i&gt;C. reinhardtii&lt;/i&gt;, it will be rewarding to explore its behavior in its natural habitats, learning more about its abundance and life cycle, its genetic and physiological diversity, and its biotic and abiotic interactions.</description>
+	<pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+	<author>severin.sasso@uni-jena.de (Arthur R Grossman)</author>
+  <source url="https://elifesciences.org">eLife: latest articles</source>
+</item>
+<item>
 	<title>eLife: latest articles: Deletion of KCNQ2/3 potassium channels from PV+ interneurons leads to homeostatic potentiation of excitatory transmission</title>
 	<guid isPermaLink="false">https://dx.doi.org/10.7554/eLife.38617</guid>
 	<link>https://elifesciences.org/articles/38617</link>
 	<description>KCNQ2/3 channels, ubiquitously expressed neuronal potassium channels, have emerged as indispensable regulators of brain network activity. Despite their critical role in brain homeostasis, the mechanisms by which KCNQ2/3 dysfunction lead to hypersychrony are not fully known. Here, we show that deletion of KCNQ2/3 channels changed PV&lt;sup&gt;+&lt;/sup&gt; interneurons’, but not SST&lt;sup&gt;+&lt;/sup&gt; interneurons’, firing properties. We also find that deletion of either KCNQ2/3 or KCNQ2 channels from PV&lt;sup&gt;+&lt;/sup&gt; interneurons led to elevated homeostatic potentiation of fast excitatory transmission in pyramidal neurons. &lt;i&gt;Pvalb-Kcnq2&lt;/i&gt; null-mice showed increased seizure susceptibility, suggesting that decreases in interneuron KCNQ2/3 activity remodels excitatory networks, providing a new function for these channels.</description>
 	<pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
 	<author>atul.maheshwari@bcm.edu (Anastasios V Tzingounis)</author>
+  <source url="https://elifesciences.org">eLife: latest articles</source>
+</item>
+<item>
+	<title>eLife: latest articles: A resource for the Drosophila antennal lobe provided by the connectome of glomerulus VA1v</title>
+	<guid isPermaLink="false">https://dx.doi.org/10.7554/eLife.37550</guid>
+	<link>https://elifesciences.org/articles/37550</link>
+	<description>Using FIB-SEM we report the entire synaptic connectome of glomerulus VA1v of the right antennal lobe in &lt;i&gt;Drosophila melanogaster&lt;/i&gt;. Within the glomerulus we densely reconstructed all neurons, including hitherto elusive local interneurons. The &lt;i&gt;fruitless&lt;/i&gt;-positive, sexually dimorphic VA1v included &amp;gt;11,140 presynaptic sites with ~38,050 postsynaptic dendrites. These connected input olfactory receptor neurons (ORNs, 51 ipsilateral, 56 contralateral), output projection neurons (18 PNs), and local interneurons (56 of &amp;gt;150 previously reported LNs). ORNs are predominantly presynaptic and PNs predominantly postsynaptic; newly reported LN circuits are largely an equal mixture and confer extensive synaptic reciprocity, except the newly reported LN2V with input from ORNs and outputs mostly to monoglomerular PNs, however. PNs were more numerous than previously reported from genetic screens, suggesting that the latter failed to reach saturation. We report a matrix of 192 bodies each having &lt;span class=&quot;underline&quot;&gt;&amp;gt;&lt;/span&gt;50 connections; these form 88% of the glomerulus' pre/postsynaptic sites.</description>
+	<pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+	<author>jah@dal.ca (Carlie Langille)</author>
   <source url="https://elifesciences.org">eLife: latest articles</source>
 </item>
 <item>
@@ -233,6 +306,78 @@ for accurate prediction of IQ.
 	<description>In a 2016 paper, Huth and colleagues probed, in a general way, how word meanings map onto cortical locations. By comparing the fit between alternative maps, this methodology offered a means to evaluate what sorts of meaning representations the brain handles under ecologically realistic conditions.</description>
 	<pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
   <source url="http://www.cell.com/trends/neurosciences/current.rss">Trends in Neurosciences</source>
+</item>
+<item>
+	<title>Neuron: Food Sensation Modulates Locomotion by Dopamine and Neuropeptide Signaling in a Distributed Neuronal Network</title>
+	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30912-7?rss=yes</guid>
+	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30912-7?rss=yes</link>
+	<description>In this study of C. elegans food response behavior, the underlying circuitry is identified by dopaminergic neurons signaling the presence of food to interneurons that release neuropeptides and regulate locomotion by conferring distinct motoneuron responses via specific neuropeptide receptor expression.</description>
+	<pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
+</item>
+<item>
+	<title>Neuron: Topography of a Visuomotor Transformation</title>
+	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30909-7?rss=yes</guid>
+	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30909-7?rss=yes</link>
+	<description>Helmbrecht et al. identify neural pathways connecting the tectum to target areas. Combining optogenetics, imaging, and single-cell reconstructions, they assign behavioral functions to distinct classes of projection neurons conveying information about valence and location of visual objects to premotor circuits.</description>
+	<pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
+</item>
+<item>
+	<title>Neuron: Scale-Invariant Visual Capabilities Explained by Topographic Representations of Luminance and Texture in Primate V1</title>
+	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30908-5?rss=yes</guid>
+	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30908-5?rss=yes</link>
+	<description>Benvenuti et al. describe a novel retinotopic representation of low-spatial-frequency luminance stimuli in V1 of behaving macaques. This distributed representation could solve the “aperture problem” for computation of orientation of low-spatial-frequency stimuli by single V1 neurons.</description>
+	<pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
+</item>
+<item>
+	<title>Neuron: FOXG1 Orchestrates Neocortical Organization and Cortico-Cortical Connections</title>
+	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30904-8?rss=yes</guid>
+	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30904-8?rss=yes</link>
+	<description>Cargnin et al. report essential roles of the FOXG1 transcription factor in building the functional cerebral cortex. This study sheds light on the disease mechanism of human disorder FOXG1 syndrome.</description>
+	<pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
+</item>
+<item>
+	<title>Neuron: Changes in the Synaptic Proteome in Tauopathy and Rescue of Tau-Induced Synapse Loss by C1q Antibodies</title>
+	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30902-4?rss=yes</guid>
+	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30902-4?rss=yes</link>
+	<description>Unbiased proteomics reveals multiple molecular changes at hippocampal synapses that occur prior to neurodegeneration in a taupathy/Alzheimer’s disease mouse model. Complement C1q labels phospho-Tau-containing synapses and drives microglia-mediated synapse loss that can be rescued by a C1q-blocking antibody.</description>
+	<pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
+</item>
+<item>
+	<title>Neuron: h-Channels Contribute to Divergent Intrinsic Membrane Properties of Supragranular Pyramidal Neurons in Human versus Mouse Cerebral Cortex</title>
+	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30900-0?rss=yes</guid>
+	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30900-0?rss=yes</link>
+	<description>h-channel-related gene expression is more prominent in human than mouse supragranular cortex. Consequently, h-channels contribute to supragranular pyramidal neuron physiology more in human than mouse neocortex. These differences produce fundamental differences in synaptic integration in human supragranular pyramidal neurons.</description>
+	<pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
+</item>
+<item>
+	<title>Neuron: Light Prior to Eye Opening Promotes Retinal Waves and Eye-Specific Segregation</title>
+	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30899-7?rss=yes</guid>
+	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30899-7?rss=yes</link>
+	<description>Tiriac, Smith, and Feller show that prior to eye opening, glutamatergic waves can be triggered with light with spatiotemporal precision. They show that dark rearing prior to eye opening reduces eye-specific segregation of retinal afferents to the dorsal lateral geniculate nucleus.</description>
+	<pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
+</item>
+<item>
+	<title>Neuron: Polarity Acquisition in Cortical Neurons Is Driven by Synergistic Action of Sox9-Regulated Wwp1 and Wwp2 E3 Ubiquitin Ligases and Intronic miR-140</title>
+	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30896-1?rss=yes</guid>
+	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30896-1?rss=yes</link>
+	<description>Ambrozkiewicz et al. describe a synergistic signaling pathway that involves Sox9-driven expression of the E3 ubiquitin ligases Wwp1 and Wwp2 and of Wwp2-intron-encoded miR-140, and miR-140-dependent control of Fyn expression to regulate axon-dendrite polarity in developing neurons.</description>
+	<pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: Homeostatic Inhibitory Control of Cortical Hyperexcitability in Fragile X Syndrome</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/459511v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/459511v1?rss=1</link>
+	<description>In mouse models of Fragile X Syndrome (FXS), cellular and circuit hyperexcitability are a consequence of altered brain development [reviewed in (Contractor et al., 2015)]. Mechanisms that favor or hinder plasticity of synapses could affect neuronal excitability. This includes inhibitory long term depression (I-LTD): a heterosynaptic form of plasticity that requires the activation of metabotropic glutamate receptors (mGluRs). Differential circuit maturation leads to shifted time points for critical periods of synaptic plasticity across multiple brain regions (Harlow et al., 2010; He et al., 2014), and disruptions of the development of excitatory and inhibitory synaptic function are also observed both during development and into adulthood (Vislay et al., 2013). However, little is known about how this hyperexcitable environment affects inhibitory synaptic plasticity. Our results demonstrate that the somatosensory cortex of the Fmr1 KO mouse model of FXS exhibits increased GABAergic spontaneous activity, a faulty mGluR-mediated inhibitory input and impaired plasticity processes. We find the overall diminished mGluR activation in the Fmr1 KO mice leads to both a decreased spontaneous inhibitory postsynaptic input to principal cells and also to a disrupted form of inhibitory long term depression (I-LTD). In cortical synapses, this I-LTD is dependent on mGluR activation and the mobilization endocannabinoids (eCBs). Notably, these data suggest enhanced hyperexcitable phenotypes in FXS may be homeostatically counterbalanced by the inhibitory drive of the network and its altered response to mGluR modulation.</description>
+	<pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
 <item>
 	<title>PLOS Computational Biology: New Articles: A Pareto approach to resolve the conflict between information gain and experimental costs: Multiple-criteria design of carbon labeling experiments</title>
@@ -1400,24 +1545,6 @@ important area of future research.
   <source url="https://elifesciences.org">eLife: latest articles</source>
 </item>
 <item>
-	<title>eLife: latest articles: Organisms with alternative genetic codes resolve unassigned codons via mistranslation and ribosomal rescue</title>
-	<guid isPermaLink="false">https://dx.doi.org/10.7554/eLife.34878</guid>
-	<link>https://elifesciences.org/articles/34878</link>
-	<description>Organisms possessing genetic codes with unassigned codons raise the question of how cellular machinery resolves such codons and how this could impact horizontal gene transfer. Here, we use a genomically recoded &lt;i&gt;Escherichia coli&lt;/i&gt; to examine how organisms address translation at unassigned UAG codons, which obstruct propagation of UAG-containing viruses and plasmids. Using mass spectrometry, we show that recoded organisms resolve translation at unassigned UAG codons via near-cognate suppression, dramatic frameshifting from at least −3 to +19 nucleotides, and rescue by &lt;i&gt;ssrA&lt;/i&gt;-encoded tmRNA, ArfA, and ArfB. We then demonstrate that deleting tmRNA restores expression of UAG-ending proteins and propagation of UAG-containing viruses and plasmids in the recoded strain, indicating that tmRNA rescue and nascent peptide degradation is the cause of impaired virus and plasmid propagation. The ubiquity of tmRNA homologs suggests that genomic recoding is a promising path for impairing horizontal gene transfer and conferring genetic isolation in diverse organisms.</description>
-	<pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
-	<author>jesse.rinehart@yale.edu (Colin F Hemez)</author>
-  <source url="https://elifesciences.org">eLife: latest articles</source>
-</item>
-<item>
-	<title>eLife: latest articles: Decoupling from yolk sac is required for extraembryonic tissue spreading in the scuttle fly Megaselia abdita</title>
-	<guid isPermaLink="false">https://dx.doi.org/10.7554/eLife.34616</guid>
-	<link>https://elifesciences.org/articles/34616</link>
-	<description>Extraembryonic tissues contribute to animal development, which often entails spreading over embryo or yolk. Apart from changes in cell shape, the requirements for this tissue spreading are not well understood. Here we analyze spreading of the extraembryonic serosa in the scuttle fly &lt;i&gt;Megaselia&lt;/i&gt; &lt;i&gt;abdita&lt;/i&gt;. The serosa forms from a columnar blastoderm anlage, becomes a squamous epithelium, and eventually spreads over the embryo proper. We describe the dynamics of this process in long-term, whole-embryo time-lapse recordings, demonstrating that free serosa spreading is preceded by a prolonged pause in tissue expansion. Closer examination of this pause reveals mechanical coupling to the underlying yolk sac, which is later released. We find mechanical coupling prolonged and serosa spreading impaired after knockdown of &lt;i&gt;M. abdita&lt;/i&gt; &lt;i&gt;Matrix&lt;/i&gt; &lt;i&gt;metalloprotease&lt;/i&gt;&lt;i&gt; 1&lt;/i&gt;. We conclude that tissue-tissue interactions provide a critical functional element to constrain spreading epithelia.</description>
-	<pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
-	<author>steffen.lemke@cos.uni-heidelberg.de (Dimitri Kromm)</author>
-  <source url="https://elifesciences.org">eLife: latest articles</source>
-</item>
-<item>
 	<title>bioRxiv Subject Collection: Neuroscience: Choice-Related Activity during Visual Slant Discrimination in Macaque CIP but Not V3A</title>
 	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/457531v1?rss=1</guid>
 	<link>http://biorxiv.org/cgi/content/short/457531v1?rss=1</link>
@@ -1454,14 +1581,6 @@ important area of future research.
 	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/457093v1?rss=1</guid>
 	<link>http://biorxiv.org/cgi/content/short/457093v1?rss=1</link>
 	<description>Friedreich ataxia (FRDA) is a rare childhood neurodegenerative disorder with no effective treatment. FRDA is caused by transcriptional silencing of the FXN gene and consequent loss of the essential mitochondrial protein frataxin. Based on the knowledge that a GAA{middle dot}TTC repeat expansion in the first intron of FXN leads to heterochromatin formation and gene silencing, we have shown that members of the 2-aminobenzamide family of histone deacetylase inhibitors (HDACi) reproducibly increase FXN mRNA levels in induced pluripotent stem cell (iPSC)-derived FRDA neuronal cells and in peripheral blood mononuclear cells from patients treated with the drug in a phase I clinical trial. How the reduced expression of frataxin leads to neurological and other systemic symptoms in FRDA patients remains unclear. Similarly to other triplet repeat disorders, it is not known why only specific cells types are affected in the disease, primarily the large sensory neurons of the dorsal root ganglia and cardiomyocytes. The combination of iPSC technology and genome editing techniques offers the unique possibility of addressing these questions in a relevant cell model of the disease, without the confounding effect of different genetic backgrounds. We derived a set of isogenic iPSC lines that differ only in the length of the GAA{middle dot}TTC repeats, using &quot;scarless&quot; gene-editing methods (helper-dependent adenovirus-mediated homologous recombination). To uncover the gene expression signature due to GAA{middle dot}TTC repeat expansion in FRDA neuronal cells and the effect of HDACi on these changes, we performed transcriptomic analysis of iPSC-derived central nervous system (CNS) and isogenic sensory neurons by RNA sequencing. We find that multiple cellular pathways are commonly affected by the loss of frataxin in CNS and peripheral nervous system neurons and these changes are partially restored by HDACi treatment.</description>
-	<pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: Adjusting for Variable Brain Coverage in Voxel-Based fMRI Meta-Analysis</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/457028v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/457028v1?rss=1</link>
-	<description>Meta-analyses of fMRI studies are vital to establish consistent findings across the literature. However, fMRI data are susceptible to signal dropout (i.e. incomplete brain coverage), which varies across studies and brain regions. In other words, for some brain regions, only a variable subset of the studies included in an fMRI meta-analysis have data present. These missing data can mean activations in fMRI meta-analysis are underestimated (type II errors). Here we present SPM (MATLAB) code to run a novel method of adjusting random-effects models for meta-analytic averaging of a group of studies and mixed-effects models for comparison between two groups of studies. In two separate datasets, meta-analytic effect sizes and z-scores were larger in the adjusted, compared to the unadjusted analysis. Relevantly, these changes were in regions such as the ventromedial prefrontal cortex where coverage was lowest. Limitations of the method, including issues of how to threshold the adjusted maps are discussed. Code and demonstration data for the adjusted method are available at https://doi.org/10.25377/sussex.c.4223411.</description>
 	<pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
   <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
@@ -1669,24 +1788,6 @@ Distance, in both source and connectivity space.
   <source url="http://feeds.nature.com/nrn/rss/current">Nature Reviews Neuroscience - Issue - nature.com science feeds</source>
 </item>
 <item>
-	<title>eLife: latest articles: Aberrant information transfer interferes with functional axon regeneration</title>
-	<guid isPermaLink="false">https://dx.doi.org/10.7554/eLife.38829</guid>
-	<link>https://elifesciences.org/articles/38829</link>
-	<description>Functional axon regeneration requires regenerating neurons to restore appropriate synaptic connectivity and circuit function. To model this process, we developed an assay in &lt;i&gt;C. elegans&lt;/i&gt; that links axon and synapse regeneration of a single neuron to recovery of behavior. After axon injury and regeneration of the DA9 neuron, synapses reform at their pre-injury location. However, these regenerated synapses often lack key molecular components. Further, synaptic vesicles accumulate in the dendrite in response to axon injury. Dendritic vesicle release results in information misrouting that suppresses behavioral recovery. Dendritic synapse formation depends on dynein and &lt;i&gt;jnk-1&lt;/i&gt;. But even when information transfer is corrected, axonal synapses fail to adequately transmit information. Our study reveals unexpected plasticity during functional regeneration. Regeneration of the axon is not sufficient for the reformation of correct neuronal circuits after injury. Rather, synapse reformation and function are also key variables, and manipulation of circuit reformation improves behavioral recovery.</description>
-	<pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
-	<author>marc.hammarlund@yale.edu (Chen Ding)</author>
-  <source url="https://elifesciences.org">eLife: latest articles</source>
-</item>
-<item>
-	<title>eLife: latest articles: Engineering induction of singular neural rosette emergence within hPSC-derived tissues</title>
-	<guid isPermaLink="false">https://dx.doi.org/10.7554/eLife.37549</guid>
-	<link>https://elifesciences.org/articles/37549</link>
-	<description>Human pluripotent stem cell (hPSC)-derived neural organoids display unprecedented emergent properties. Yet in contrast to the singular neuroepithelial tube from which the entire central nervous system (CNS) develops in vivo, current organoid protocols yield tissues with multiple neuroepithelial units, a.k.a. neural rosettes, each acting as independent morphogenesis centers and thereby confounding coordinated, reproducible tissue development. Here, we discover that controlling initial tissue morphology can effectively (&amp;gt;80%) induce single neural rosette emergence within hPSC-derived forebrain and spinal tissues. Notably, the optimal tissue morphology for observing singular rosette emergence was distinct for forebrain versus spinal tissues due to previously unknown differences in ROCK-mediated cell contractility. Following release of geometric confinement, the tissues displayed radial outgrowth with maintenance of a singular neuroepithelium and peripheral neuronal differentiation. Thus, we have identified neural tissue morphology as a critical biophysical parameter for controlling in vitro neural tissue morphogenesis furthering advancement towards biomanufacture of CNS tissues with biomimetic anatomy and physiology.</description>
-	<pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
-	<author>rashton2@wisc.edu (Brady F Lundin)</author>
-  <source url="https://elifesciences.org">eLife: latest articles</source>
-</item>
-<item>
 	<title>Cerebral Cortex Advance Access: Dissociation of Appetitive Overexpectation and Extinction in the Infralimic Cortex</title>
 	<guid isPermaLink="false">http://doi.org/10.1093/cercor/bhy248</guid>
 	<link>https://academic.oup.com/cercor/advance-article/doi/10.1093/cercor/bhy248/5146174?rss=1</link>
@@ -1717,12 +1818,12 @@ Distance, in both source and connectivity space.
   <source url="http://bmcneurosci.biomedcentral.com/articles/most-recent/rss.xml">Most Recent Articles: BMC Neuroscience</source>
 </item>
 <item>
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Homeostatic plasticity—a presynaptic perspective</title>
-	<guid isPermaLink="false">https://www.sciencedirect.com/science/article/pii/S0959438818300436</guid>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300436?dgcid=rss_sd_all</link>
-	<description>&lt;p&gt;Publication date: February 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 54&lt;/p&gt;&lt;p&gt;Author(s): Igor Delvendahl, Martin Müller&lt;/p&gt;&lt;div&gt;&lt;p&gt;Plastic changes in synaptic transmission are thought to underlie learning and memory formation. However, changes in synaptic function are only meaningful in the context of stable baseline function. Accumulating evidence suggests that homeostatic signaling systems actively stabilize synaptic transmission in response to neural activity perturbation. Homeostatic mechanisms control both presynaptic and postsynaptic function. Here, we review recent advances in the field of presynaptic homeostatic plasticity (PHP). We discuss PHP in the context of basic mechanisms controlling neurotransmitter release, highlight emerging similarities between different synapses in different species, and summarize new insights into the molecular mechanisms underlying this evolutionary conserved form of synaptic plasticity.&lt;/p&gt;&lt;/div&gt;</description>
+	<title>Current Opinion in Neurobiology - Just Published: Homeostatic plasticity—a presynaptic perspective</title>
+	<guid isPermaLink="true">https://www.sciencedirect.com/science/article/pii/S0959438818300436</guid>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300436</link>
+	<description>Igor Delvendahl | Martin Müller</description>
 	<pubDate>Sat, 27 Oct 2018 05:00:10 +0000</pubDate>
-  <source url="http://rss.sciencedirect.com/publication/science/09594388">ScienceDirect Publication: Current Opinion in Neurobiology</source>
+  <source url="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/">Current Opinion in Neurobiology - Just Published</source>
 </item>
 <item>
 	<title>PLOS Computational Biology: New Articles: Representations of regular and irregular shapes by deep Convolutional Neural Networks, monkey inferotemporal neurons and human judgments</title>
@@ -1810,12 +1911,12 @@ Substrate permissiveness has long been regarded as the raw materials for the evo
   <source url="http://www.eneuro.org/rss/current.xml">eNeuro current issue</source>
 </item>
 <item>
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Connectomics and function of a memory network: the mushroom body of larval Drosophila</title>
-	<guid isPermaLink="false">https://www.sciencedirect.com/science/article/pii/S0959438818301582</guid>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301582?dgcid=rss_sd_all</link>
-	<description>&lt;p&gt;Publication date: February 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 54&lt;/p&gt;&lt;p&gt;Author(s): Andreas S Thum, Bertram Gerber&lt;/p&gt;&lt;div&gt;&lt;p&gt;The &lt;em&gt;Drosophila&lt;/em&gt; larva is a relatively simple, 10 000-neuron study case for learning and memory with enticing analytical power, combining genetic tractability, the availability of robust behavioral assays, the opportunity for single-cell transgenic manipulation, and an emerging synaptic connectome of its complete central nervous system. Indeed, although the insect mushroom body is a much-studied memory network, the connectome revealed that more than half of the classes of connection within the mushroom body had escaped attention. The connectome also revealed circuitry that integrates, both within and across brain hemispheres, higher-order sensory input, intersecting valence signals, and output neurons that instruct behavior. Further, it was found that activating individual dopaminergic mushroom body input neurons can have a rewarding or a punishing effect on olfactory stimuli associated with it, depending on the relative timing of this activation, and that larvae form molecularly dissociable short-term, long-term, and amnesia-resistant memories. Together, the larval mushroom body is a suitable study case to achieve a nuanced account of molecular function in a behaviorally meaningful memory network.&lt;/p&gt;&lt;/div&gt;</description>
+	<title>Current Opinion in Neurobiology - Just Published: Connectomics and function of a memory network: the mushroom body of larval Drosophila</title>
+	<guid isPermaLink="true">https://www.sciencedirect.com/science/article/pii/S0959438818301582</guid>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301582</link>
+	<description>Andreas S Thum | Bertram Gerber</description>
 	<pubDate>Fri, 26 Oct 2018 11:00:10 +0000</pubDate>
-  <source url="http://rss.sciencedirect.com/publication/science/09594388">ScienceDirect Publication: Current Opinion in Neurobiology</source>
+  <source url="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/">Current Opinion in Neurobiology - Just Published</source>
 </item>
 <item>
 	<title>Frontiers in Cellular Neuroscience | New and Recent Articles: Short-Term Plasticity at Olfactory Cortex to Granule Cell Synapses Requires CaV2.1 Activation</title>
@@ -2087,15 +2188,6 @@ robust and reliable.
 &lt;/p&gt;</description>
 	<pubDate>Fri, 26 Oct 2018 01:30:00 +0000</pubDate>
   <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
-</item>
-<item>
-	<title>eLife: latest articles: Not so benign</title>
-	<guid isPermaLink="false">https://dx.doi.org/10.7554/eLife.42181</guid>
-	<link>https://elifesciences.org/articles/42181</link>
-	<description>Susceptibility to uterine fibroids, benign tumors that affect the health of many women, is linked to genes that are responsible for preserving genome integrity and promoting genitourinary development.</description>
-	<pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
-	<author>barbara.riverapolo@mcgill.ca (Barbara Rivera)</author>
-  <source url="https://elifesciences.org">eLife: latest articles</source>
 </item>
 <item>
 	<title>PLOS Computational Biology: New Articles: Modeling sensory-motor decisions in natural behavior</title>
@@ -2442,12 +2534,12 @@ Multicellular tumour spheroids capture many characteristics of human tumour micr
   <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
 </item>
 <item>
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Roles for sleep in memory: insights from the fly</title>
-	<guid isPermaLink="false">https://www.sciencedirect.com/science/article/pii/S0959438818301302</guid>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301302?dgcid=rss_sd_all</link>
-	<description>&lt;p&gt;Publication date: February 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 54&lt;/p&gt;&lt;p&gt;Author(s): Jeffrey M Donlea&lt;/p&gt;&lt;div&gt;&lt;p&gt;Sleep has been universally conserved across animal species. The basic functions of sleep remain unclear, but insufficient sleep impairs memory acquisition and retention in both vertebrates and invertebrates. Sleep is also a homeostatic process that is influenced not only by the amount of time awake, but also by neural activity and plasticity. Because of the breadth and precision of available genetic tools, the fruit fly has become a powerful model system to understand sleep regulation and function. Importantly, these tools enable the dissection of memory-encoding circuits at the level of individual neurons, and have allowed the development of genetic tools to induce sleep on-demand. This review describes recent investigations of the role for sleep in memory using &lt;em&gt;Drosophila&lt;/em&gt; and current hypotheses of sleep’s functions for supporting plasticity, learning, and memory.&lt;/p&gt;&lt;/div&gt;</description>
+	<title>Current Opinion in Neurobiology - Just Published: Roles for sleep in memory: insights from the fly</title>
+	<guid isPermaLink="true">https://www.sciencedirect.com/science/article/pii/S0959438818301302</guid>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301302</link>
+	<description>Jeffrey M Donlea</description>
 	<pubDate>Wed, 24 Oct 2018 17:00:13 +0000</pubDate>
-  <source url="http://rss.sciencedirect.com/publication/science/09594388">ScienceDirect Publication: Current Opinion in Neurobiology</source>
+  <source url="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/">Current Opinion in Neurobiology - Just Published</source>
 </item>
 <item>
 	<title>Frontiers in Aging Neuroscience | New and Recent Articles: A Nonlinear Simulation Framework Supports Adjusting for Age When Analyzing BrainAGE</title>
@@ -2517,28 +2609,28 @@ Multicellular tumour spheroids capture many characteristics of human tumour micr
   <source url="http://journal.frontiersin.org/journal/human-neuroscience/rss">Frontiers in Human Neuroscience | New and Recent Articles</source>
 </item>
 <item>
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Neuroplasticity in the acoustic startle reflex in larval zebrafish</title>
-	<guid isPermaLink="false">https://www.sciencedirect.com/science/article/pii/S0959438818300503</guid>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300503?dgcid=rss_sd_all</link>
-	<description>&lt;p&gt;Publication date: February 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 54&lt;/p&gt;&lt;p&gt;Author(s): Hernán López-Schier&lt;/p&gt;&lt;div&gt;&lt;p&gt;Learning is essential for animal survival under changing environments. Even in its simplest form, learning involves interactions between a handful of neuronal circuits, hundreds of neurons and many thousand synapses. In this review I will focus on habituation – a form of non-associative learning during which organisms decrease their response to repetitions of identical sensory stimuli. I will discuss how recent studies of the acoustic startle reflex mediated by the Mauthner cell in the zebrafish larva are helping to understand the neuroplastic processes that underlie habituation. In addition to being a fascinating biological process, habituation is clinically relevant because it is affected in various neuropsychiatric disorders in humans, including autism, schizophrenia, Fragile-X and Tourette's syndromes.&lt;/p&gt;&lt;/div&gt;</description>
+	<title>Current Opinion in Neurobiology - Just Published: Neuroplasticity in the acoustic startle reflex in larval zebrafish</title>
+	<guid isPermaLink="true">https://www.sciencedirect.com/science/article/pii/S0959438818300503</guid>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300503</link>
+	<description>Hernán López-Schier</description>
 	<pubDate>Wed, 24 Oct 2018 05:00:10 +0000</pubDate>
-  <source url="http://rss.sciencedirect.com/publication/science/09594388">ScienceDirect Publication: Current Opinion in Neurobiology</source>
+  <source url="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/">Current Opinion in Neurobiology - Just Published</source>
 </item>
 <item>
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Learning and processing of navigational cues in the desert ant</title>
-	<guid isPermaLink="false">https://www.sciencedirect.com/science/article/pii/S0959438818300849</guid>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300849?dgcid=rss_sd_all</link>
-	<description>&lt;p&gt;Publication date: February 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 54&lt;/p&gt;&lt;p&gt;Author(s): Markus Knaden&lt;/p&gt;&lt;div&gt;&lt;p&gt;The desert ant &lt;em&gt;Cataglyphis&lt;/em&gt; inhabits the arid environment of North Africa where it forages individually for dead arthropods. Because of the ants’ high motivation to find the nest entrance and due to the almost lab-like conditions of their environment — the flat salt pan (where visual information and partly also olfactory information available to a homing ant can be easily manipulated) — &lt;em&gt;Cataglyphis&lt;/em&gt; has become an important model for animal navigation. So far, we know a lot about how &lt;em&gt;Cataglyphis&lt;/em&gt; uses path integration and learns visual and olfactory cues to return to its nest entrance after far-reaching foraging runs. We know, however, less regarding the neuronal processes involved in both path integration and landmark acquisition. In this article I discuss recent progress in molecular and neurophysiological techniques in other insect species. I furthermore speculate how these techniques might — in a hopefully not too far future — help us pinpointing the neuronal circuits involved in the fascinating navigation and learning capabilities of &lt;em&gt;Cataglyphis&lt;/em&gt;.&lt;/p&gt;&lt;/div&gt;</description>
+	<title>Current Opinion in Neurobiology - Just Published: Learning and processing of navigational cues in the desert ant</title>
+	<guid isPermaLink="true">https://www.sciencedirect.com/science/article/pii/S0959438818300849</guid>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300849</link>
+	<description>Markus Knaden</description>
 	<pubDate>Wed, 24 Oct 2018 05:00:10 +0000</pubDate>
-  <source url="http://rss.sciencedirect.com/publication/science/09594388">ScienceDirect Publication: Current Opinion in Neurobiology</source>
+  <source url="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/">Current Opinion in Neurobiology - Just Published</source>
 </item>
 <item>
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Dopaminergic regulation of vocal-motor plasticity and performance</title>
-	<guid isPermaLink="false">https://www.sciencedirect.com/science/article/pii/S0959438818301107</guid>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301107?dgcid=rss_sd_all</link>
-	<description>&lt;p&gt;Publication date: February 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 54&lt;/p&gt;&lt;p&gt;Author(s): Sarah C Woolley&lt;/p&gt;&lt;div&gt;&lt;p&gt;Dopaminergic projections to the basal ganglia and nucleus accumbens shape the learning and plasticity of motivated behaviors across species. In songbirds, vocal learning relies on an evolutionarily specialized basal ganglia nucleus, Area X, densely innervated by dopaminergic inputs from the ventral tegmental area (VTA). While this positions songbirds as a unique model in which to tease apart the contributions of VTA dopamine neurons to vocal learning and performance, that potential has been largely underrealized. Recent breakthroughs recording from and manipulating activity of Area X projecting VTA neurons (VTAx) provide early evidence of the role of VTAx neurons to internally-guided vocal plasticity. We discuss these novel studies in the context of previous data implicating dopamine in Area X in the social modulation of song performance and how to reconcile effects on learning versus performance.&lt;/p&gt;&lt;/div&gt;</description>
+	<title>Current Opinion in Neurobiology - Just Published: Dopaminergic regulation of vocal-motor plasticity and performance</title>
+	<guid isPermaLink="true">https://www.sciencedirect.com/science/article/pii/S0959438818301107</guid>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301107</link>
+	<description>Sarah C Woolley</description>
 	<pubDate>Wed, 24 Oct 2018 05:00:10 +0000</pubDate>
-  <source url="http://rss.sciencedirect.com/publication/science/09594388">ScienceDirect Publication: Current Opinion in Neurobiology</source>
+  <source url="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/">Current Opinion in Neurobiology - Just Published</source>
 </item>
 <item>
 	<title>Frontiers in Neuroscience | Systems Biology section | New and Recent Articles: MicroRNA-122 Mimic Improves Stroke Outcomes and Indirectly Inhibits NOS2 After Middle Cerebral Artery Occlusion in Rats</title>
@@ -2705,70 +2797,6 @@ Multicellular tumour spheroids capture many characteristics of human tumour micr
 	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30906-1?rss=yes</guid>
 	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30906-1?rss=yes</link>
 	<description>Changes in the number and properties of postsynaptic AMPARs are a fundamental mechanism of synaptic plasticity. Diering and Huganir discuss how AMPAR subunits, posttranslational modifications, and protein binding partners form combinatorial molecular codes relevant for understanding synapse function and plasticity.</description>
-	<pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
-</item>
-<item>
-	<title>Neuron: Perceptual Decision-Making: A Field in the Midst of a Transformation</title>
-	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30905-X?rss=yes</guid>
-	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30905-X?rss=yes</link>
-	<description>The field of perceptual decision-making has recently been bolstered by major advances in experimental approach. Resulting theoretical and experimental insights reveal how the brain interprets sensory signals, combines them with internal brain states, and selects the best course of action.</description>
-	<pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
-</item>
-<item>
-	<title>Neuron: Lost in Translation: Traversing the Complex Path from Genomics to Therapeutics in Autism Spectrum Disorder</title>
-	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30903-6?rss=yes</guid>
-	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30903-6?rss=yes</link>
-	<description>Sestan and State propose that the distinctive genomic findings in autism spectrum disorder, the deepening understanding of developing human brain, and the identification of spatiotemporal convergence of large-effect risk genes will help clarify pathophysiological mechanisms and identify novel treatment approaches.</description>
-	<pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
-</item>
-<item>
-	<title>Neuron: Activity-Regulated Transcription: Bridging the Gap between Neural Activity and Behavior</title>
-	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30901-2?rss=yes</guid>
-	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30901-2?rss=yes</link>
-	<description>Yap and Greenberg review advances in activity-dependent transcription gained from examining the vertebrate brain and propose integrated approaches to understand how activity promotes the refinement and plasticity of neural circuits through regulating transcription.</description>
-	<pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
-</item>
-<item>
-	<title>Neuron: Development and Functional Diversification of Cortical Interneurons</title>
-	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30897-3?rss=yes</guid>
-	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30897-3?rss=yes</link>
-	<description>GABAergic interneurons are critical for information processing in the cerebral cortex. Here, Lim and colleagues review recent advances on the cellular and molecular mechanisms regulating the emergence of interneuron diversity during development and their integration in cortical circuits.</description>
-	<pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
-</item>
-<item>
-	<title>Neuron: Building Models of Brain Disorders with Three-Dimensional Organoids</title>
-	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30895-X?rss=yes</guid>
-	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30895-X?rss=yes</link>
-	<description>Amin and Pasca review the use of human stem cell-derived 3D brain organoids to model neurological and psychiatric disorders. Human brain organoids are able to recapitulate key features of brain development and hold promise for advancing our understanding of disease biology.</description>
-	<pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
-</item>
-<item>
-	<title>Neuron: Navigating Social Space</title>
-	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30894-8?rss=yes</guid>
-	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30894-8?rss=yes</link>
-	<description>This Perspective highlights emerging work that suggests that the hippocampal formation encodes relational maps in spatial, non-spatial, and abstract domains. Additionally, Schafer and Schiller argues that these functions extend to the social domain and may include specialized social computations.</description>
-	<pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
-</item>
-<item>
-	<title>Neuron: Predictive Processing: A Canonical Cortical Computation</title>
-	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30857-2?rss=yes</guid>
-	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30857-2?rss=yes</link>
-	<description>In this perspective, Keller and Mrsic-Flogel describe the advantages of predictive processing as a computational framework for understanding cortical function in the context of emerging evidence with a focus on sensory processing.</description>
-	<pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
-</item>
-<item>
-	<title>Neuron: What Is a Cognitive Map? Organizing Knowledge for Flexible Behavior</title>
-	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(18)30856-0?rss=yes</guid>
-	<link>https://www.cell.com/neuron/fulltext/S0896-6273(18)30856-0?rss=yes</link>
-	<description>Behrens et al. review an emerging field building formalisms for understanding the neural basis of flexible behavior. The authors extend these ideas toward representations useful for generalization and structural abstraction, allowing rapid inferences and flexible behavior with little direct experience.</description>
 	<pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
   <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
 </item>
@@ -3203,12 +3231,12 @@ We have developed an easy-to-use and memory-efficient method called PhenotypeSee
   <source url="http://feeds.nature.com/nrn/rss/current">Nature Reviews Neuroscience - Issue - nature.com science feeds</source>
 </item>
 <item>
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Glial regulation of synapse maturation and stabilization in the developing nervous system</title>
-	<guid isPermaLink="false">https://www.sciencedirect.com/science/article/pii/S0959438818300448</guid>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300448?dgcid=rss_sd_all</link>
-	<description>&lt;p&gt;Publication date: February 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 54&lt;/p&gt;&lt;p&gt;Author(s): Marion R Van Horn, Edward S Ruthazer&lt;/p&gt;&lt;div&gt;&lt;p&gt;The dynamic interaction between neurons and glia is a fundamental aspect of developmental neurobiology. Astrocytic processes are extremely complex and can physically surround neuronal synapses where they are involved in regulating neuronal activity and synaptic plasticity. This review describes important roles glial cells play in synapse maturation and stabilization in the developing central nervous system. We highlight recent evidence showing that the motility of astrocytic and radial glial processes is modulated by neuronal signals and is important for normal synapse maturation and function. Examples of glia-derived molecules that influence synapse maturation and stabilization are presented. We close by touching on recent and future trends in neuron-glia research.&lt;/p&gt;&lt;/div&gt;</description>
+	<title>Current Opinion in Neurobiology - Just Published: Glial regulation of synapse maturation and stabilization in the developing nervous system</title>
+	<guid isPermaLink="true">https://www.sciencedirect.com/science/article/pii/S0959438818300448</guid>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300448</link>
+	<description>Marion R Van Horn | Edward S Ruthazer</description>
 	<pubDate>Sun, 21 Oct 2018 05:00:09 +0000</pubDate>
-  <source url="http://rss.sciencedirect.com/publication/science/09594388">ScienceDirect Publication: Current Opinion in Neurobiology</source>
+  <source url="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/">Current Opinion in Neurobiology - Just Published</source>
 </item>
 <item>
 	<title>Wiley: Annals of Neurology: Table of Contents: Cilostazol decreases duration of spreading depolarization and spreading ischemia after aneurysmal subarachnoid hemorrhage</title>
@@ -3261,50 +3289,20 @@ RAVEN is a commonly used MATLAB toolbox for genome-scale metabolic model (GEM) r
   <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
 </item>
 <item>
-	<title>PLOS Computational Biology: New Articles: Modeling large fluctuations of thousands of clones during hematopoiesis: The role of stem cell self-renewal and bursty progenitor dynamics in rhesus macaque</title>
-	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006489</guid>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/hrgk_-GnzwY/article</link>
-	<description>&lt;p&gt;by Song Xu, Sanggu Kim, Irvin S. Y. Chen, Tom Chou&lt;/p&gt;
-
-In a recent clone-tracking experiment, millions of uniquely tagged hematopoietic stem cells (HSCs) were autologously transplanted into rhesus macaques and peripheral blood containing thousands of tags were sampled and sequenced over 14 years to quantify the abundance of hundreds to thousands of tags or “clones.” Two major puzzles of the data have been observed: consistent differences and massive temporal fluctuations of clone populations. The large sample-to-sample variability can lead clones to occasionally go “extinct” but “resurrect” themselves in subsequent samples. Although heterogeneity in HSC differentiation rates, potentially due to tagging, and random sampling of the animals’ blood and cellular demographic stochasticity might be invoked to explain these features, we show that random sampling cannot explain the magnitude of the temporal fluctuations. Moreover, we show through simpler &lt;i&gt;neutral&lt;/i&gt; mechanistic and statistical models of hematopoiesis of tagged cells that a broad distribution in clone sizes can arise from stochastic HSC self-renewal instead of tag-induced heterogeneity. The very large clone population fluctuations that often lead to extinctions and resurrections can be naturally explained by a generation-limited proliferation constraint on the progenitor cells. This constraint leads to bursty cell population dynamics underlying the large temporal fluctuations. We analyzed experimental clone abundance data using a new statistic that counts clonal disappearances and provided least-squares estimates of two key model parameters in our model, the total HSC differentiation rate and the maximum number of progenitor-cell divisions.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/hrgk_-GnzwY&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 18 Oct 2018 21:00:00 +0000</pubDate>
-  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
-</item>
-<item>
-	<title>PLOS Computational Biology: New Articles: Virus and CTL dynamics in the extrafollicular and follicular tissue compartments in SIV-infected macaques</title>
-	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006461</guid>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/xkNLNCfLeo0/article</link>
-	<description>&lt;p&gt;by Dominik Wodarz, Pamela J. Skinner, David N. Levy, Elizabeth Connick&lt;/p&gt;
-
-Data from SIV-infected macaques indicate that virus-specific cytotoxic T lymphocytes (CTL) are mostly present in the extrafollicular (EF) compartment of the lymphoid tissue, with reduced homing to the follicular (F) site. This contributes to the majority of the virus being present in the follicle and represents a barrier to virus control. Using mathematical models, we investigate these dynamics. Two models are analyzed. The first assumes that CTL can only become stimulated and expand in the extrafollicular compartment, with migration accounting for the presence of CTL in the follicle. In the second model, follicular CTL can also undergo antigen-induced expansion. Consistent with experimental data, both models predict increased virus compartmentalization in the presence of stronger CTL responses and lower virus loads, and a more pronounced rise of extrafollicular compared to follicular virus during CD8 cell depletion experiments. The models, however, differ in other aspects. The follicular expansion model results in dynamics that promote the clearance of productive infection in the extrafollicular site, with any productively infected cells found being the result of immigration from the follicle. This is not observed in the model without follicular CTL expansion. The models further predict different consequences of introducing engineered, follicular-homing CTL, which has been proposed as a therapeutic means to improve virus control. Without follicular CTL expansion, this is predicted to result in a reduction of virus load in both compartments. The follicular CTL expansion model, however, makes the counter-intuitive prediction that addition of F-homing CTL not only results in a reduction of follicular virus load, but also in an increase in extrafollicular virus replication. These predictions remain to be experimentally tested, which will be relevant for distinguishing between models and for understanding how therapeutic introduction of F-homing CTL might impact the overall dynamics of the infection.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/xkNLNCfLeo0&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 18 Oct 2018 21:00:00 +0000</pubDate>
-  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
-</item>
-<item>
-	<title>PLOS Computational Biology: New Articles: A multi-scale layer-resolved spiking network model of resting-state dynamics in macaque visual cortical areas</title>
-	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006359</guid>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/0swIe6iJ5Ls/article</link>
-	<description>&lt;p&gt;by Maximilian Schmidt, Rembrandt Bakker, Kelly Shen, Gleb Bezgin, Markus Diesmann, Sacha Jennifer van Albada&lt;/p&gt;
-
-Cortical activity has distinct features across scales, from the spiking statistics of individual cells to global resting-state networks. We here describe the first full-density multi-area spiking network model of cortex, using macaque visual cortex as a test system. The model represents each area by a microcircuit with area-specific architecture and features layer- and population-resolved connectivity between areas. Simulations reveal a structured asynchronous irregular ground state. In a metastable regime, the network reproduces spiking statistics from electrophysiological recordings and cortico-cortical interaction patterns in fMRI functional connectivity under resting-state conditions. Stable inter-area propagation is supported by cortico-cortical synapses that are moderately strong onto excitatory neurons and stronger onto inhibitory neurons. Causal interactions depend on both cortical structure and the dynamical state of populations. Activity propagates mainly in the feedback direction, similar to experimental results associated with visual imagery and sleep. The model unifies local and large-scale accounts of cortex, and clarifies how the detailed connectivity of cortex shapes its dynamics on multiple scales. Based on our simulations, we hypothesize that in the spontaneous condition the brain operates in a metastable regime where cortico-cortical projections target excitatory and inhibitory populations in a balanced manner that produces substantial inter-area interactions while maintaining global stability.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/0swIe6iJ5Ls&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 18 Oct 2018 21:00:00 +0000</pubDate>
-  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
-</item>
-<item>
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Barrelette map formation in the prenatal mouse brainstem</title>
-	<guid isPermaLink="false">https://www.sciencedirect.com/science/article/pii/S0959438818300187</guid>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300187?dgcid=rss_sd_all</link>
-	<description>&lt;p&gt;Publication date: December 2018&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 53&lt;/p&gt;&lt;p&gt;Author(s): Taro Kitazawa, Filippo M Rijli&lt;/p&gt;&lt;div&gt;&lt;p&gt;The rodent whiskers are topographically mapped in brainstem sensory nuclei as neuronal modules known as barrelettes. Little is known about how the facial whisker pattern is copied into a brainstem barrelette topographic pattern, which serves as a template for the establishment of thalamic barreloid and, in turn, cortical barrel maps, and how precisely is the whisker pattern mapped in the brainstem during prenatal development. Here, we review recent insights advancing our understanding of the intrinsic and extrinsic patterning mechanisms contributing to establish topographical equivalence between the facial whisker pattern and the mouse brainstem during prenatal development and their relative importance.&lt;/p&gt;&lt;/div&gt;</description>
+	<title>Current Opinion in Neurobiology - Just Published: Barrelette map formation in the prenatal mouse brainstem</title>
+	<guid isPermaLink="true">https://www.sciencedirect.com/science/article/pii/S0959438818300187</guid>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300187</link>
+	<description>Taro Kitazawa | Filippo M Rijli</description>
 	<pubDate>Thu, 18 Oct 2018 17:00:14 +0000</pubDate>
-  <source url="http://rss.sciencedirect.com/publication/science/09594388">ScienceDirect Publication: Current Opinion in Neurobiology</source>
+  <source url="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/">Current Opinion in Neurobiology - Just Published</source>
 </item>
 <item>
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Assembly and repair of eye-to-brain connections</title>
-	<guid isPermaLink="false">https://www.sciencedirect.com/science/article/pii/S0959438818300151</guid>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300151?dgcid=rss_sd_all</link>
-	<description>&lt;p&gt;Publication date: December 2018&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 53&lt;/p&gt;&lt;p&gt;Author(s): Supraja G Varadarajan, Andrew D Huberman&lt;/p&gt;&lt;div&gt;&lt;p&gt;Vision is the sense humans rely on most to navigate the world and survive. A tremendous amount of research has focused on understanding the neural circuits for vision and the developmental mechanisms that establish them. The eye-to-brain, or ‘retinofugal’ pathway remains a particularly important model in these contexts because it is essential for sight, its overt anatomical features relate to distinct functional attributes and those features develop in a tractable sequence. Much progress has been made in understanding the growth of retinal axons out of the eye, their selection of targets in the brain, the development of laminar and cell type-specific connectivity within those targets, and also dendritic connectivity within the retina itself. Moreover, because the retinofugal pathway is prone to degeneration in many common blinding diseases, understanding the cellular and molecular mechanisms that establish connectivity early in life stands to provide valuable insights into approaches that re-wire this pathway after damage or loss. Here we review recent progress in understanding the development of retinofugal pathways and how this information is important for improving visual circuit regeneration.&lt;/p&gt;&lt;/div&gt;</description>
+	<title>Current Opinion in Neurobiology - Just Published: Assembly and repair of eye-to-brain connections</title>
+	<guid isPermaLink="true">https://www.sciencedirect.com/science/article/pii/S0959438818300151</guid>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300151</link>
+	<description>Supraja G Varadarajan | Andrew D Huberman</description>
 	<pubDate>Thu, 18 Oct 2018 17:00:13 +0000</pubDate>
-  <source url="http://rss.sciencedirect.com/publication/science/09594388">ScienceDirect Publication: Current Opinion in Neurobiology</source>
+  <source url="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/">Current Opinion in Neurobiology - Just Published</source>
 </item>
 <item>
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Retroactive Attentional Shifts Predict Performance in a Working Memory Task: Evidence by Lateralized EEG Patterns</title>
@@ -3643,20 +3641,20 @@ Cortical activity has distinct features across scales, from the spiking statisti
   <source url="https://academic.oup.com/rss/site_5122/advanceAccess_3011.xml">Cerebral Cortex Advance Access</source>
 </item>
 <item>
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Bridging the gap between striatal plasticity and learning</title>
-	<guid isPermaLink="false">https://www.sciencedirect.com/science/article/pii/S0959438818300497</guid>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300497?dgcid=rss_sd_all</link>
-	<description>&lt;p&gt;Publication date: February 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 54&lt;/p&gt;&lt;p&gt;Author(s): Elodie Perrin, Laurent Venance&lt;/p&gt;&lt;div&gt;&lt;p&gt;The striatum, the main input nucleus of the basal ganglia, controls goal-directed behavior and procedural learning. Striatal projection neurons integrate glutamatergic inputs from cortex and thalamus together with neuromodulatory systems, and are subjected to plasticity. Striatal projection neurons exhibit bidirectional plasticity (LTP and LTD) when exposed to Hebbian paradigms. Importantly, correlative and even causal links between procedural learning and striatal plasticity have recently been shown. This short review summarizes the current view on striatal plasticity (with a focus on spike-timing-dependent plasticity), recent studies aiming at bridging &lt;em&gt;in vivo&lt;/em&gt; skill acquisition and striatal plasticity, the temporal credit-assignment problem, and the gaps that remain to be filled.&lt;/p&gt;&lt;/div&gt;</description>
+	<title>Current Opinion in Neurobiology - Just Published: Bridging the gap between striatal plasticity and learning</title>
+	<guid isPermaLink="true">https://www.sciencedirect.com/science/article/pii/S0959438818300497</guid>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300497</link>
+	<description>Elodie Perrin | Laurent Venance</description>
 	<pubDate>Sat, 13 Oct 2018 23:00:11 +0000</pubDate>
-  <source url="http://rss.sciencedirect.com/publication/science/09594388">ScienceDirect Publication: Current Opinion in Neurobiology</source>
+  <source url="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/">Current Opinion in Neurobiology - Just Published</source>
 </item>
 <item>
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Non-linear calcium signalling and synaptic plasticity in interneurons</title>
-	<guid isPermaLink="false">https://www.sciencedirect.com/science/article/pii/S0959438818301119</guid>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301119?dgcid=rss_sd_all</link>
-	<description>&lt;p&gt;Publication date: February 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 54&lt;/p&gt;&lt;p&gt;Author(s): Lisa Topolnik, Olivier Camiré&lt;/p&gt;&lt;div&gt;&lt;p&gt;Understanding of how intracellular calcium (Ca&lt;sup&gt;2+&lt;/sup&gt;) signals regulate the efficacy of transmission at excitatory and inhibitory synapses in the central nervous system (CNS) has been a focus of intense investigation. This review discusses recent findings on how Ca&lt;sup&gt;2+&lt;/sup&gt; signals are integrated in dendrites of inhibitory interneurons to regulate their synapses. In particular, Ca&lt;sup&gt;2+&lt;/sup&gt; signaling through intracellular Ca&lt;sup&gt;2+&lt;/sup&gt; release plays an essential role in synaptic signal transduction and experience-dependent plasticity in dendrites of interneurons. Understanding the alternative pathways of Ca&lt;sup&gt;2+&lt;/sup&gt; signaling in the absence of canonical voltage-gated Ca&lt;sup&gt;2+&lt;/sup&gt; mechanisms is beginning to shed light on how their regulation can contribute to interneuron function and dysfunction in disease.&lt;/p&gt;&lt;/div&gt;</description>
+	<title>Current Opinion in Neurobiology - Just Published: Non-linear calcium signalling and synaptic plasticity in interneurons</title>
+	<guid isPermaLink="true">https://www.sciencedirect.com/science/article/pii/S0959438818301119</guid>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301119</link>
+	<description>Lisa Topolnik | Olivier Camiré</description>
 	<pubDate>Sat, 13 Oct 2018 23:00:11 +0000</pubDate>
-  <source url="http://rss.sciencedirect.com/publication/science/09594388">ScienceDirect Publication: Current Opinion in Neurobiology</source>
+  <source url="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/">Current Opinion in Neurobiology - Just Published</source>
 </item>
 <item>
 	<title>MIT Press: Neural Computation: Table of Contents: Omitted Variable Bias in GLMs of Neural Spiking Activity</title>
