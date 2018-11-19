@@ -26,6 +26,7 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1811.06866" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1811.06825" />
 			<rdf:li rdf:resource="https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25383?af=R" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/473009v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/472704v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/472621v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/472605v1?rss=1" />
@@ -71,7 +72,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/471839v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/471763v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/471755v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/471490v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006588" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006508" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006419" />
@@ -566,6 +566,13 @@ John H. Griffin,
 Berislav V. Zlokovic, 
 the NeuroNEXT Clinical Trials Network NN104 Investigators</dc:creator>
 </item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/473009v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: MosaicPlanner: Hardware Agnostic Array Tomography Acquisition Software</title>
+	<link>http://biorxiv.org/cgi/content/short/473009v1?rss=1</link>
+	<content:encoded>Array tomography (AT) is a technique for acquiring high resolution highly multiplexed imagery from series of ultra-thin sections arranged as an array on a rigid substrate. Specialized microscope control has been required to utilize AT as an imaging technique, which is often time consuming, and yields small volume data sets. Here we present MosaicPlanner, an open source software platform for light level AT, that streamlines the acquisition process and utilizes the general microscope control API provided by Micro-Manager, allowing AT data to be acquired on a wide variety of microscope hardware. This report provides a description of the MosaicPlanner software design, and platform improvements that were implemented to increase the acquisition speed of high volume, multiplexed AT datasets.</content:encoded>
+	<dc:date>2018-11-18T00:00:00+00:00</dc:date>
+	<dc:creator>Serafin, R.</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/472704v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Nanobodies reveal an extra-synaptic population of SNAP-25 and Syntaxin 1A in hippocampal neurons</title>
 	<link>http://biorxiv.org/cgi/content/short/472704v1?rss=1</link>
@@ -876,13 +883,6 @@ Essential metabolic reactions are shaping constituents of metabolic networks, en
 	<content:encoded>The transcription factor Nrf2 plays a critical role in the organism wide-regulation of the antioxidant stress response. The Nrf2 homolog SKN-1 functions in the intestine cell non-autonomously to negatively regulate neuromuscular (NMJ) function in Caenorhabditis elegans. To identify additional molecules that mediate SKN-1 signaling to the NMJ, we performed a candidate screen for suppressors of aldicarb-resistance caused by acute treatment with the SKN-1 activator, arsenite. We identified two receptor tyrosine kinases, EGL-15 (fibroblast growth factor receptor, FGFR) and DAF-2 (insulin-like peptide receptor, IR) that are required for NMJ regulation in response to stress. Through double mutant analysis, we found that EGL-15 functions downstream of SKN-1 and SPHK-1 (sphingosine kinase), and that the EGL-15 ligand EGL-17 FGF and canonical EGL-15 effectors are required for oxidative stress-mediated regulation of NMJ function. DAF-2 also functions downstream of SKN-1, independently of DAF-16/FOXO, to regulate NMJ function. Through tissue-specific rescue experiments, we found that FGFR signaling functions primarily in the hypodermis, whereas IR signaling is required in multiple tissues. Our results support the idea that the regulation of NMJ function by SKN-1 occurs via a complex organism-wide signaling network involving RTK signaling in multiple tissues.</content:encoded>
 	<dc:date>2018-11-16T00:00:00+00:00</dc:date>
 	<dc:creator>Kim, S.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/471490v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Concurrent Multisensory Integration and Segregation with Complementary Congruent and Opposite Neurons</title>
-	<link>http://biorxiv.org/cgi/content/short/471490v1?rss=1</link>
-	<content:encoded>Our brain perceives the world by exploiting multiple sensory modalities to extract information about various aspects of external stimuli. If these sensory cues are from the same stimulus of interest, they should be integrated to improve perception; otherwise, they should be segregated to distinguish different stimuli. In reality, however, the brain faces the challenge of recognizing stimuli without knowing in advance whether sensory cues come from the same or different stimuli. To address this challenge and to recognize stimuli rapidly, we argue that the brain should carry out multisensory integration and segregation concurrently with complementary neuron groups. Studying an example of inferring heading-direction via visual and vestibular cues, we develop a concurrent multisensory processing neural model which consists of two reciprocally connected modules, the dorsal medial superior temporal area (MSTd) and the ventral intraparietal area (VIP), and that at each module, there exists two distinguishing groups of neurons, congruent and opposite neurons. Specifically, congruent neurons implement cue integration, while opposite neurons compute the cue disparity, both optimally as described by Bayesian inference. The two groups of neurons provide complementary information which enables the neural system to assess the validity of cue integration and, if necessary, to recover the lost information associated with individual cues without re-gathering new inputs. Through this process, the brain achieves rapid stimulus perception if the cues come from the same stimulus of interest, and differentiates and recognizes stimuli based on individual cues with little time delay if the cues come from different stimuli of interest. Our study unveils the indispensable role of opposite neurons in multisensory processing and sheds light on our understanding of how the brain achieves multisensory processing efficiently and rapidly.</content:encoded>
-	<dc:date>2018-11-16T00:00:00+00:00</dc:date>
-	<dc:creator>Zhang, W.-H.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006588">
 	<title>PLOS Computational Biology: New Articles: Cytoplasmic flows in starfish oocytes are fully determined by cortical contractions</title>
