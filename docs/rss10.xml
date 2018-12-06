@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006640" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S095943881830182X" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/38/49/i?rss=1" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/38/49/10566?rss=1" />
@@ -70,6 +71,9 @@
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(18)31013-4?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(18)31011-0?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(18)30940-1?rss=yes" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/487967v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/487959v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/487942v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/487686v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006585" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006200" />
@@ -144,7 +148,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/485995v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/485888v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/483487v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/477927v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006643" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006629" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006628" />
@@ -182,8 +185,6 @@
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(18)31010-9?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(18)31009-2?rss=yes" />
 			<rdf:li rdf:resource="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-018-0476-2" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/486332v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/486191v1?rss=1" />
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(18)30285-6?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(18)30271-6?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(18)30256-X?rss=yes" />
@@ -306,7 +307,6 @@
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41593-018-0277-z" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41583-018-0095-z" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(18)30993-0?rss=yes" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006605" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnana.2018.00100" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fncom.2018.00093" />
 			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/ENEURO.0404-18.2018v1?rss=1" />
@@ -419,6 +419,15 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006640">
+	<title>PLOS Computational Biology: New Articles: Insights on the impact of mitochondrial organisation on bioenergetics in high-resolution computational models of cardiac cell architecture</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/2tbMz5eg2PA/article</link>
+	<content:encoded>&lt;p&gt;by Shouryadipta Ghosh, Kenneth Tran, Lea M. D. Delbridge, Anthony J. R. Hickey, Eric Hanssen, Edmund J. Crampin, Vijay Rajagopal&lt;/p&gt;
+
+Recent electron microscopy data have revealed that cardiac mitochondria are not arranged in crystalline columns but are organised with several mitochondria aggregated into columns of varying sizes often spanning the cell cross-section. This raises the question—how does the mitochondrial arrangement affect the metabolite distributions within cardiomyocytes and their impact on force dynamics? Here we employed finite element modelling of cardiac bioenergetics, using computational meshes derived from electron microscope images, to address this question. Our results indicate that heterogeneous mitochondrial distributions can lead to significant spatial variation across the cell in concentrations of inorganic phosphate, creatine (Cr) and creatine phosphate (PCr). However, our model predicts that sufficient activity of the creatine kinase (CK) system, coupled with rapid diffusion of Cr and PCr, maintains near uniform ATP and ADP ratios across the cell cross sections. This homogenous distribution of ATP and ADP should also evenly distribute force production and twitch duration with contraction. These results suggest that the PCr shuttle, and associated enzymatic reactions, act to maintain uniform force dynamics in the cell despite the heterogeneous mitochondrial organization. However, our model also predicts that under hypoxia—activity of mitochondrial CK enzyme and diffusion of high-energy phosphate compounds may be insufficient to sustain uniform ATP/ADP distribution and hence force generation.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/2tbMz5eg2PA&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2018-12-05T22:00:00+00:00</dc:date>
+	<dc:creator>Vijay Rajagopal</dc:creator>
+</item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S095943881830182X">
 	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Cell-type-specific programs for activity-regulated gene expression</title>
 	<link>https://www.sciencedirect.com/science/article/pii/S095943881830182X?dgcid=rss_sd_all</link>
@@ -862,6 +871,27 @@ by sharper transfer functions.
 	<content:encoded>In this perspective, Adesnik and Naka outline the road map to overcome the existing conceptual and technical challenges for obtaining a detailed understanding of the role of cortical layers in sensory computation and perception.</content:encoded>
 	<dc:date>2018-12-05T00:00:00+00:00</dc:date>
 	<dc:creator>Hillel Adesnik, Alexander Naka</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/487967v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Establishment and imaging evaluation of Guangxi Ba-Ma mini pigs as a model of cerebral hernia induced by acute intracranial hypertension</title>
+	<link>http://biorxiv.org/cgi/content/short/487967v1?rss=1</link>
+	<content:encoded>Objective: To establish an animal model of cerebral hernia induced by acute intracranial hypertension for subsequent research in emergency medicine. Methods: Six Guangxi Ba-Ma mini-pigs were injected with autologous arterial blood by micropump to induce intracranial hematoma in the frontal and temporal parietal lobes. Changes in intracranial pressure (ICP), mean arterial blood pressure (MAP) and cerebral perfusion pressure (CPP) were observed during hematoma formation. Morphological changes and the occupying effects of intracranial hematoma were analyzed using computed tomography (CT) and magnetic resonance imaging (MRI) of the head. Results: ICP, MAP and CPP gradually increased during blood injection, and they began to slowly decrease at 10 min after injection, though they remained higher than before injection. These three parameters were significantly different before blood injection, immediately after injection and at 10 min after injection (P &amp;lt; 0.05). Head CT and MRI showed cerebral hernia induced by acute intracranial hypertension. Conclusion: Micropump injection of autologous arterial blood can lead to acute intracranial hypertension in mini-pigs, which may be a useful model of cerebral hernia.</content:encoded>
+	<dc:date>2018-12-05T00:00:00+00:00</dc:date>
+	<dc:creator>Zhou, J.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/487959v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Error processing in the adolescent brain: Age-related differences in electrophysiology and links with post-error adjustments but no relationship to cingulate cortex structure</title>
+	<link>http://biorxiv.org/cgi/content/short/487959v1?rss=1</link>
+	<content:encoded>Detecting errors and adjusting behaviour appropriately are fundamental cognitive abilities that are known to improve through adolescence. The underlying mechanisms of this development, however, are still poorly understood. To address this knowledge gap, we performed a thorough investigation of error processing in a Flanker task in a cross-sectional sample of participants 8 to 19 years of age (n = 98). We examined age-differences in event related potentials known to be associated with error processing, namely the error-related negativity (ERN) and the error positivity (Pe), as well as their relationships with task performance, post-error adjustments and regional cingulate cortex thickness and surface area. We found that ERN amplitude increased with age, while Pe amplitude remained constant. A more negative ERN was associated with higher task accuracy and faster reaction times, while a more positive Pe was associated with higher accuracy, independently of age. When estimating post-error adjustments from trials following both incongruent and congruent trials, post-error slowing and post-error improvement in accuracy both increased with age, but this was only found for post-error slowing when only analysing trials following incongruent trials. There were no age-independent associations between either ERN or Pe amplitude and cingulate cortex thickness or area measures.</content:encoded>
+	<dc:date>2018-12-05T00:00:00+00:00</dc:date>
+	<dc:creator>Overbye, K.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/487942v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: The accuracy of estimating time to contact in transversal motion and head-on motion</title>
+	<link>http://biorxiv.org/cgi/content/short/487942v1?rss=1</link>
+	<content:encoded>The ability to estimate precisely the time to contact (TTC) of the objects is necessary for planning actions in dynamic environments. TTC estimation is involved in many everyday activities with different levels of difficulty. Although tracking a ball that moves at a constant speed and estimating the time it reaches a non-moving target can be fairly simple, tracking a fast moving car with inconsistent speeds and estimating the time it reaches another car is rather difficult. In this study, we asked participants to estimate TTC of an object in transversal and head-on motions. The object became invisible shortly after movement initiation. The results demonstrated that TTC estimation for transversal motion is more accurate than for head-on motion. We present a mathematical model to explain why humans are better in estimating TTC for transversal motion than for head-on motion.</content:encoded>
+	<dc:date>2018-12-05T00:00:00+00:00</dc:date>
+	<dc:creator>Daneshi, A.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/487686v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Face-selective units in human ventral temporal cortex reactivate during free recall</title>
@@ -1442,13 +1472,6 @@ reliability established by bootstrapping.
 	<dc:date>2018-12-04T00:00:00+00:00</dc:date>
 	<dc:creator>Kuzovkin, I.</dc:creator>
 </item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/477927v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Galectin-3, A Novel Endogenous TREM2 Ligand, Regulates Inflammatory Response And Aβ Fibrilation In Alzheimer\'s Disease.</title>
-	<link>http://biorxiv.org/cgi/content/short/477927v1?rss=1</link>
-	<content:encoded>Alzheimer's disease (AD) is a progressive neurodegenerative disease in which the formation of extracellular aggregates of amyloid beta peptide, intraneuronal tau neurofibrillary tangles and microglial activation are major pathological hallmarks. One of the key molecules involved in microglial activation is galectin-3 (gal3), and we demonstrate here for the first time a key role of gal3 in AD pathology. Gal3 was highly upregulated in the brains of AD patients and 5xFAD (familial Alzheimer's disease) mice, and found specifically expressed in microglia associated with A{beta} plaques. Single nucleotide polymorphisms in the LGALS3 gene, which encodes gal3, were associated to an increased risk of AD. Gal3 deletion in 5xFAD mice attenuated microglia-associated immune responses, particularly those associated with TLR and TREM2/DAP12 signaling. In vitro data demonstrated the requirement of gal3 to fully activate microglia in response to fibrillar A{beta}. Gal3 deletion decreased the A{beta} burden in 5xFAD mice and improved cognitive behavior. Electron microscopy of gal3 in AD mice demonstrated i) a preferential expression of gal3 by plaque-associated microglia, ii) its presence in the extracellular space and iii) its association to A{beta} plaques. Low concentrations (1 nM) of pure gal3 promoted cross-seeding fibrilization of pure A{beta}. Importantly, a single intrahippocampal injection of gal3 along with A{beta} monomers in WT mice was sufficient to induce the formation of insoluble A{beta} aggregates that were absent when gal3 was lacking. High-resolution microscopy (STORM) demonstrated close co-localization of gal3 and TREM2 in microglial processes, and a direct interaction was shown by a fluorescence anisotropy assay involving the gal3 CRD domain. Furthermore, gal3 stimulated the TREM2-DAP12 signaling pathway. In conclusion, we provide evidence that gal3 is a central regulator of microglial immune response in AD. It drives proinflammatory activation and A{beta} aggregation, as well as acting as an endogenous ligand to TREM2, a key receptor driving microglial response under disease conditions. Gal3 inhibition may, hence, be a potential pharmacological approach to counteract AD.</content:encoded>
-	<dc:date>2018-12-04T00:00:00+00:00</dc:date>
-	<dc:creator>Boza Serrano, A.</dc:creator>
-</item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006643">
 	<title>PLOS Computational Biology: New Articles: Detection and analysis of spatiotemporal patterns in brain activity</title>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/_y4dI44JGZA/article</link>
@@ -1735,20 +1758,6 @@ Non-Relativistic Quantum Mechanics&quot;.
 	<content:encoded>Low-intensity pulsed ultrasound stimulation (LIPUS) has been proven to be a noninvasive method with high spatial resolution and deep penetration. Previous studies have qualitatively demonstrated that the elect...</content:encoded>
 	<dc:date>2018-12-03T00:00:00+00:00</dc:date>
 	<dc:creator>Yi Yuan, Xingran Wang, Jiaqing Yan and Xiaoli Li</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/486332v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Cell type-specific modulation of sensory and affective components of itch in the periaqueductal gray</title>
-	<link>http://biorxiv.org/cgi/content/short/486332v1?rss=1</link>
-	<content:encoded>Itch is a distinct aversive sensation that elicits a strong urge to scratch. Despite recent advances in our understanding of the peripheral basis of itch, we know very little regarding how central neural circuits modulate acute and chronic itch processing. Here we establish the causal contributions of defined periaqueductal gray (PAG) neuronal populations in itch modulation. Chemogenetic manipulations demonstrate bidirectional modulation of scratching by neurons in the PAG. Fiber photometry studies show that activity of GABAergic and glutamatergic neurons in the PAG is modulated in an opposing manner during chloroquine-evoked scratching. Furthermore, activation of PAG GABAergic neurons or inhibition of glutamatergic neurons resulted in attenuation of scratching in both acute and chronic pruritis. Surprisingly, PAG GABAergic neurons, but not glutamatergic neurons, seem to encode the aversive component of itch. Thus, the PAG represents a neuromodulatory hub that regulates both the sensory and affective aspects of acute and chronic itch.</content:encoded>
-	<dc:date>2018-12-03T00:00:00+00:00</dc:date>
-	<dc:creator>Samineni, V. K.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/486191v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Visual mismatch negativity to disappearing parts of objects and textures</title>
-	<link>http://biorxiv.org/cgi/content/short/486191v1?rss=1</link>
-	<content:encoded>Visual mismatch negativity (vMMN), an event-related signature of automatic detection of events violating sequential regularities is traditionally investigated to the onset of frequent (standard) and rare (deviant) events. In a previous study [4] we obtained vMMN to vanishing parts of continuously presented objects (diamonds with diagonals), and we concluded that the offset-related vMMN is a model of sensitivity to irregular partial occlusion of objects. In the present study we replicated the previous results, but to test the object-related interpretation we applied a new condition with a set of separate visual stimuli: a texture of bars with two orientations. In the texture condition (offset of bars with irregular vs. regular orientation) we obtained vMMN, showing that the continuous presence of objects is unnecessary for offset-related vMMN. However, unlike in the object-related condition, reappearance of the previously vanishing lines also elicited vMMN. In a formal way reappearance of the stimuli is an event with probability 1.0, and according to the results, object condition reappearance is an expected event. However, offset and onset of texture elements seems to be treated separately by the system underlying vMMN. As an advantage of the present method, the whole stimulus set during the inter-stimulus interval saturates the visual structures sensitive to stimulus input. Accordingly, the offset-related vMMN is less sensitive to low-level adaptation difference between the deviant and standard stimuli.</content:encoded>
-	<dc:date>2018-12-03T00:00:00+00:00</dc:date>
-	<dc:creator>Gaal, Z. A.</dc:creator>
 </item>
 <item rdf:about="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(18)30285-6?rss=yes">
 	<title>Trends in Neurosciences: Editorial Board and Contents</title>
@@ -2276,9 +2285,9 @@ Jens P. Dreier,
 Michiyasu Suzuki</dc:creator>
 </item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818301831">
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Temporal control of Drosophila central nervous system development</title>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301831?dgcid=rss_sd_all</link>
-	<content:encoded>&lt;p&gt;Publication date: June 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 56&lt;/p&gt;&lt;p&gt;Author(s): Rosa Linda Miyares, Tzumin Lee&lt;/p&gt;&lt;div&gt;&lt;p&gt;A complex nervous system requires precise numbers of various neuronal types produced with exquisite spatiotemporal control. This striking diversity is generated by a limited number of neural stem cells (NSC), where spatial and temporal patterning intersect. &lt;em&gt;Drosophila&lt;/em&gt; is a genetically tractable model system that has significant advantages for studying stem cell biology and neuronal fate specification. Here we review the latest findings in the rich literature of temporal patterning of neuronal identity in the &lt;em&gt;Drosophila&lt;/em&gt; central nervous system. Rapidly changing consecutive transcription factors expressed in NSCs specify short series of neurons with considerable differences. More slowly progressing changes are orchestrated by NSC intrinsic temporal factor gradients which integrate extrinsic signals to coordinate nervous system and organismal development.&lt;/p&gt;&lt;/div&gt;</content:encoded>
+	<title>Current Opinion in Neurobiology - Just Published: Temporal control of Drosophila central nervous system development</title>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301831</link>
+	<content:encoded>Rosa Linda Miyares | Tzumin Lee</content:encoded>
 	<dc:date>2018-11-29T18:00:12+00:00</dc:date>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnagi.2018.00390">
@@ -2953,15 +2962,6 @@ Quality assessment is essential for the computational prediction and design of R
 	<dc:date>2018-11-27T00:00:00+00:00</dc:date>
 	<dc:creator>Jason E. Chung, Hannah R. Joo, Jiang Lan Fan, Daniel F. Liu, Alex H. Barnett, Supin Chen, Charlotte Geaghan-Breiner, Mattias P. Karlsson, Magnus Karlsson, Kye Y. Lee, Hexin Liang, Jeremy F. Magland, Jeanine A. Pebbles, Angela C. Tooker, Leslie F. Greengard, Vanessa M. Tolosa, Loren M. Frank</dc:creator>
 </item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006605">
-	<title>PLOS Computational Biology: New Articles: Binding of the general anesthetic sevoflurane to ion channels</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/R7l5I-sNaNM/article</link>
-	<content:encoded>&lt;p&gt;by Letícia Stock, Juliana Hosoume, Leonardo Cirqueira, Werner Treptow&lt;/p&gt;
-
-The direct-site hypothesis assumes general anesthetics bind ion channels to impact protein equilibrium and function, inducing anesthesia. Despite advancements in the field, a first principle all-atom demonstration of this structure-function premise is still missing. We focus on the clinically used sevoflurane interaction to anesthetic-sensitive Kv1.2 mammalian channel to resolve if sevoflurane binds protein’s well-characterized open and closed structures in a conformation-dependent manner to shift channel equilibrium. We employ an innovative approach relying on extensive docking calculations and free-energy perturbation of all potential binding sites revealed by the latter, and find sevoflurane binds open and closed structures at multiple sites under complex saturation and concentration effects. Results point to a non-trivial interplay of site and conformation-dependent modes of action involving distinct binding sites that increase channel open-probability at diluted ligand concentrations. Given the challenge in exploring more complex processes potentially impacting channel-anesthetic interaction, the result is revealing as it demonstrates the process of multiple anesthetic binding events alone may account for open-probability shifts recorded in measurements.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/R7l5I-sNaNM&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-11-26T22:00:00+00:00</dc:date>
-	<dc:creator>Werner Treptow</dc:creator>
-</item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnana.2018.00100">
 	<title>Frontiers in Neuroanatomy | New and Recent Articles: Structural Connectivity of the Anterior Cingulate Cortex, Claustrum, and the Anterior Insula of the Mouse</title>
 	<link>https://www.frontiersin.org/articles/10.3389/fnana.2018.00100</link>
@@ -3154,9 +3154,9 @@ P.M. Rossini,
 S. Micera</dc:creator>
 </item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818301806">
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Hypothalamic cell diversity: non-neuronal codes for long-distance volume transmission by neuropeptides</title>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301806?dgcid=rss_sd_all</link>
-	<content:encoded>&lt;p&gt;Publication date: June 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 56&lt;/p&gt;&lt;p&gt;Author(s): Alán Alpár, Marco Benevento, Roman A Romanov, Tomas Hökfelt, Tibor Harkany&lt;/p&gt;&lt;div&gt;&lt;p&gt;Volume transmission is a mode of intercellular communication using cerebral liquor to deliver signal molecules over long distances and allow their action for extended periods. For hypothalamic neuropeptides, nerve endings amongst ependymal cells are seen as a site of release into the cerebrospinal fluid. Recent single-cell RNA-seq data identify tanycytes and ventricular ependyma as alternative sources by being unexpectedly rich in neuroactive substances. This notion, coupled with circuit analysis showing regionalized innervation of periventricular ependyma by intrahypothalamic neurons, could allow for the integration of hypothalamic neuronal activity patterns with brain-wide activity changes upon metabolic challenges through phasic volume transmission primed by neuron–ependyma coupling. Here, we discuss emerging data for an ependymal interface and its breaches in neuropsychiatric disease.&lt;/p&gt;&lt;/div&gt;&lt;h5&gt;Graphical abstract&lt;/h5&gt;&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;Graphical abstract for this article&quot; src=&quot;https://ars.els-cdn.com/content/image/1-s2.0-S0959438818301806-fx1.jpg&quot; title=&quot;&quot; width=&quot;301&quot; /&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</content:encoded>
+	<title>Current Opinion in Neurobiology - Just Published: Hypothalamic cell diversity: non-neuronal codes for long-distance volume transmission by neuropeptides</title>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818301806</link>
+	<content:encoded>Alán Alpár | Marco Benevento | Roman A Romanov | Tomas Hökfelt | Tibor Harkany</content:encoded>
 	<dc:date>2018-11-23T18:00:13+00:00</dc:date>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnagi.2018.00388">
@@ -3816,9 +3816,9 @@ John Vissing</dc:creator>
 	<dc:creator>Tomasz J. Nowakowski</dc:creator>
 </item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S095943881830179X">
-	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Function first: classifying cell types and circuits of the retina</title>
-	<link>https://www.sciencedirect.com/science/article/pii/S095943881830179X?dgcid=rss_sd_all</link>
-	<content:encoded>&lt;p&gt;Publication date: June 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 56&lt;/p&gt;&lt;p&gt;Author(s): Anna L Vlasits, Thomas Euler, Katrin Franke&lt;/p&gt;&lt;div&gt;&lt;p&gt;Cell type classification has been a major part of retina research for over one hundred years. In recent years, the ability to sample large populations of retinal cells has accelerated cell type classification based on different criteria like genetics, morphology, function, and circuitry. For example, recent work includes bipolar and retinal ganglion cell classifications based on single-cell transcriptomes, large-scale electron microscopy reconstruction, and population-level functional imaging. With comprehensive descriptions of several retinal cell classes now within reach, it is important to reflect on the priority of these different criteria to create an accurate and useful classification. Here, we argue that functional information about retinal cells should be prioritized over other criteria when addressing questions of visual function because this criterion provides the most meaningful information about how the retina works.&lt;/p&gt;&lt;/div&gt;</content:encoded>
+	<title>Current Opinion in Neurobiology - Just Published: Function first: classifying cell types and circuits of the retina</title>
+	<link>https://www.sciencedirect.com/science/article/pii/S095943881830179X</link>
+	<content:encoded>Anna L Vlasits | Thomas Euler | Katrin Franke</content:encoded>
 	<dc:date>2018-11-16T12:00:14+00:00</dc:date>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnins.2018.00851">
