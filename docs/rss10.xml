@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/498261v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/494443v1?rss=1" />
 			<rdf:li rdf:resource="http://doi.org/10.1093/cercor/bhy314" />
 			<rdf:li rdf:resource="http://doi.org/10.1093/cercor/bhy313" />
 			<rdf:li rdf:resource="http://doi.org/10.1093/cercor/bhy245" />
@@ -93,8 +95,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/495887v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/495796v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/495572v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/495564v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/495523v1?rss=1" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(18)31014-6?rss=yes" />
 			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/ENEURO.0339-17.2018v1?rss=1" />
 			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/ENEURO.0161-18.2018v1?rss=1" />
@@ -419,6 +419,20 @@
 	</items>
 </channel>
 
+<item rdf:about="http://biorxiv.org/cgi/content/short/498261v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Blood vessels guide Schwann cell migration in the adult demyelinated CNS through Eph/ephrin signaling</title>
+	<link>http://biorxiv.org/cgi/content/short/498261v1?rss=1</link>
+	<content:encoded>Schwann cells (SC) enter the central nervous system (CNS) in pathophysiological conditions. However, how SC invade the CNS to remyelinate central axons remains undetermined. We studied SC migratory behavior ex vivo and in vivo after exogenous transplantation in the demyelinated spinal cord. Data highlight for the first time that SC migrate preferentially along blood vessel in perivascular ECM, avoiding CNS myelin. We demonstrate in vitro and in vivo that this migration route occurs by virtue of a dual mode of action of Eph/ephrin receptor. Indeed, EphrinB3, enriched in myelin, interacts with SC Eph receptors, to drive SC away from CNS myelin, and triggers their preferential adhesion to ECM components, such as fibronectin via integrin{beta}1 interactions. This complex interplay enhances SC migration along the blood vessel network and together with lesion-induced vascular remodeling facilitates their timely invasion of the lesion site. These novel findings elucidate the mechanism by which SC invade and contribute to spinal cord repair.</content:encoded>
+	<dc:date>2018-12-16T00:00:00+00:00</dc:date>
+	<dc:creator>Garcia-Diaz, B.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/494443v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Insoluble Aβ overexpression in an App knock-in mouse model alters microstructure and gamma oscillations in the prefrontal cortex, and social and anxiety-related behaviours</title>
+	<link>http://biorxiv.org/cgi/content/short/494443v1?rss=1</link>
+	<content:encoded>We studied two new App knock-in mice models of Alzheimers disease (AppNL-F and AppNL-G-F), which generate elevated levels of A{beta}40 and A{beta}42 without the confounds associated with APP overexpression. This enabled us to assess changes in anxiety-related and social behaviours, and neural alterations potentially underlying such changes, driven specifically by A{beta} accumulation. AppNL-G-F knock-in mice exhibited subtle deficits in tasks assessing social memory, but not in social motivation tasks. In anxiety-assessing tasks, AppNL-G-F knock-in mice exhibited: 1) increased thigmotaxis in the Open Field (OF), yet; 2) reduced closed-arm, and increased open-arm, time in the Elevated Plus Maze (EPM). Their ostensibly-anxiogenic OF profile, yet ostensibly-anxiolytic EPM profile, could hint at altered cortical mechanisms affecting decision-making (e.g. disinhibition), rather than simple core deficits in emotional motivation. Consistent with this possibility, alterations in microstructure, glutamatergic-dependent gamma oscillations, and glutamatergic gene expression were all observed in the prefrontal cortex, but not the amygdala, of AppNL-G-F knock-in mice. Thus, insoluble A{beta} overexpression drives prefrontal cortical alterations, potentially underlying changes in social and anxiety-related behavioural tasks.</content:encoded>
+	<dc:date>2018-12-16T00:00:00+00:00</dc:date>
+	<dc:creator>Pervolaraki, E.</dc:creator>
+</item>
 <item rdf:about="http://doi.org/10.1093/cercor/bhy314">
 	<title>Cerebral Cortex Advance Access: A Breakdown of Imagined Visuomotor Transformations and Its Neural Correlates in Young Elderly Subjects</title>
 	<link>https://academic.oup.com/cercor/advance-article/doi/10.1093/cercor/bhy314/5248516?rss=1</link>
@@ -1175,20 +1189,6 @@ with 85% accuracy.
 	<content:encoded>Epilepsy is a devastating neurological disorder that affects approximately 1-3% population worldwide. Wearables have recently gained more popularity as having a promising future in epilepsy management including seizure alert and close-loop therapy for severe forms of seizures. Due to the random and low frequency of seizures, seizure evaluation requires continuous, long-term EEG monitoring, which produces a large volume of data. The future treatment systems will rely on algorithms that can detect seizures with high precision and low computational cost. Previous implemented algorithms have used various computationally expensive methods of data transformation and feature extraction. In the present study, we developed a new computationally efficient seizure detection algorithm based on analysis of the broad, global shape EEG data of tonic-clonic seizures from a mouse model of temporal lobe epilepsy (TLE). To perform this algorithm, EEG data was normalized and processed through a rolling mean function, producing smoothed, simplified EEG clips that represent the global shape of the clip. These signals were then directly inputted for SVM training and testing. This novel method of seizure analysis only requires a small fraction of EEG data points, yet achieved an accuracy rate of approximately 98.51%. Our study provides a proof of principle that this simpler method could have an advantage in low-power platform such as wearables. Recently, the FDA approved a seizure detection app called embrace2 by Empatica. However, their algorithm detects seizures indirectly by monitoring heart rate and muscle contractions. Our novel algorithm detects seizures directly through analysis of brain activity. Thus, our algorithm may be better suited for future wearables in epilepsy management.</content:encoded>
 	<dc:date>2018-12-13T00:00:00+00:00</dc:date>
 	<dc:creator>Huang, Z.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/495564v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Characterization of young and old adult brains: An EEG functional connectivity analysis</title>
-	<link>http://biorxiv.org/cgi/content/short/495564v1?rss=1</link>
-	<content:encoded>Brain connectivity studies have reported that functional networks change with older age. We aim to (1) investigate whether electroencephalography (EEG) data can be used to distinguish between individual functional networks of young and old adults; and (2) identify the functional connections that contribute to this classification. Two eyes-open resting-state EEG recording sessions with 64 electrodes for each of 22 younger adults (19-37 years) and 22 older adults (63-85 years) were conducted. For each session, imaginary coherence matrices in theta, alpha, beta and gamma bands were computed. A range of machine learning classification methods were utilized to distinguish younger and older adult brains. A support vector machine (SVM) classifier was 94% accurate in classifying the brains by age group. We report decreased functional connectivity with older age in theta, alpha and gamma bands, and increased connectivity with older age in beta band. Most connections involving frontal, temporal, and parietal electrodes, and approximately two-thirds of connections involving occipital electrodes, showed decreased connectivity with older age. Just over half of the connections involving central electrodes showed increased connectivity with older age. Functional connections showing decreased strength with older age had significantly longer electrode-to-electrode distance than those that increased with older age. Most of the connections used by the classifier to distinguish participants by age group belonged to the alpha band. Findings suggest a decrease in connectivity in key networks and frequency bands associated with attention and awareness, and an increase in connectivity of the sensorimotor functional networks with ageing during a resting state.</content:encoded>
-	<dc:date>2018-12-13T00:00:00+00:00</dc:date>
-	<dc:creator>Moezzi, B.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/495523v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: CHANCE: a method that enables a researcher to fully know the content of consciousness of a subject in scientific experiments</title>
-	<link>http://biorxiv.org/cgi/content/short/495523v1?rss=1</link>
-	<content:encoded>The content of consciousness (cC) constitutes an essential part of our human life and the very heart of the hard problem of consciousness. In science, the cC of a subject (participant) has been examined indirectly through measuring his/her behavioral reports, bodily signs, or neural signals. None of them, however, reflects the full spectrum of the subject's cC, hampering a researcher to fully know the subject's cC and find its neural basis precisely and extensively. Here we propose a method, termed CHANCE that enables a researcher to experience and know directly the full spectrum of the subject's cC in scientific experiments. The degree of epistemic objectivity of a specific entity has been reasonably judged by relevant individuals who have the ability to judge the faithfulness of the entity to the truth (the true facts). More number of relevant individuals who judge the entity as the truth results in more objectivity of the entity epistemically. Thus, even the knowledge of a specific cC itself would be regarded as epistemically objective if it was judged as the truth (being truly had) by multiple relevant individuals. We propose CHANCE consisting of three empirical steps to change the knowledge of the cC itself from epistemically subjective to objective: (1) finding a minimally-sufficient content-knowledge-specific neural correlates of consciousness (msckNCC), and (2) selecting an msckNCC that produces the knowledge of only one specific cC but not others, and finally, (3) among the msckNCCs that verified the 2nd step, selecting an msckNCC that is reproducible in multiple brains.</content:encoded>
-	<dc:date>2018-12-13T00:00:00+00:00</dc:date>
-	<dc:creator>Tanaka, D. H.</dc:creator>
 </item>
 <item rdf:about="https://www.cell.com/neuron/fulltext/S0896-6273(18)31014-6?rss=yes">
 	<title>Neuron: Engagement of Pulvino-cortical Feedforward and Feedback Pathways in Cognitive Computations</title>
