@@ -24,6 +24,26 @@
   <source url="http://www.cell.com/trends/neurosciences/current.rss">Trends in Neurosciences</source>
 </item>
 <item>
+	<title>PLOS Computational Biology: New Articles: Phylogenies from dynamic networks</title>
+	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006761</guid>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/rV4sMhN-YuU/article</link>
+	<description>&lt;p&gt;by Cornelia Metzig, Oliver Ratmann, Daniela Bezemer, Caroline Colijn&lt;/p&gt;
+
+The relationship between the underlying contact network over which a pathogen spreads and the pathogen phylogenetic trees that are obtained presents an opportunity to use sequence data to learn about contact networks that are difficult to study empirically. However, this relationship is not explicitly known and is usually studied in simulations, often with the simplifying assumption that the contact network is static in time, though human contact networks are dynamic. We simulate pathogen phylogenetic trees on dynamic Erdős-Renyi random networks and on two dynamic networks with skewed degree distribution, of which one is additionally clustered. We use tree shape features to explore how adding dynamics changes the relationships between the overall network structure and phylogenies. Our tree features include the number of small substructures (cherries, pitchforks) in the trees, measures of tree imbalance (Sackin index, Colless index), features derived from network science (diameter, closeness), as well as features using the internal branch lengths from the tip to the root. Using principal component analysis we find that the network dynamics influence the shapes of phylogenies, as does the network type. We also compare dynamic and time-integrated static networks. We find, in particular, that static network models like the widely used Barabasi-Albert model can be poor approximations for dynamic networks. We explore the effects of mis-specifying the network on the performance of classifiers trained identify the transmission rate (using supervised learning methods). We find that both mis-specification of the underlying network and its parameters (mean degree, turnover rate) have a strong adverse effect on the ability to estimate the transmission parameter. We illustrate these results by classifying HIV trees with a classifier that we trained on simulated trees from different networks, infection rates and turnover rates. Our results point to the importance of correctly estimating and modelling contact networks with dynamics when using phylodynamic tools to estimate epidemiological parameters.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/rV4sMhN-YuU&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 22:00:00 +0000</pubDate>
+  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
+	<title>PLOS Computational Biology: New Articles: 16S rRNA sequence embeddings: Meaningful numeric feature representations of nucleotide sequences that are convenient for downstream analyses</title>
+	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006721</guid>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/R28Evhi6UHc/article</link>
+	<description>&lt;p&gt;by Stephen Woloszynek, Zhengqiao Zhao, Jian Chen, Gail L. Rosen&lt;/p&gt;
+
+Advances in high-throughput sequencing have increased the availability of microbiome sequencing data that can be exploited to characterize microbiome community structure &lt;i&gt;in situ&lt;/i&gt;. We explore using word and sentence embedding approaches for nucleotide sequences since they may be a suitable numerical representation for downstream machine learning applications (especially deep learning). This work involves first encoding (“embedding”) each sequence into a dense, low-dimensional, numeric vector space. Here, we use Skip-Gram word2vec to embed &lt;i&gt;k&lt;/i&gt;-mers, obtained from 16S rRNA amplicon surveys, and then leverage an existing sentence embedding technique to embed all sequences belonging to specific body sites or samples. We demonstrate that these representations are meaningful, and hence the embedding space can be exploited as a form of feature extraction for exploratory analysis. We show that sequence embeddings preserve relevant information about the sequencing data such as &lt;i&gt;k&lt;/i&gt;-mer context, sequence taxonomy, and sample class. Specifically, the sequence embedding space resolved differences among phyla, as well as differences among genera within the same family. Distances between sequence embeddings had similar qualities to distances between alignment identities, and embedding multiple sequences can be thought of as generating a consensus sequence. In addition, embeddings are versatile features that can be used for many downstream tasks, such as taxonomic and sample classification. Using sample embeddings for body site classification resulted in negligible performance loss compared to using OTU abundance data, and clustering embeddings yielded high fidelity species clusters. Lastly, the &lt;i&gt;k&lt;/i&gt;-mer embedding space captured distinct &lt;i&gt;k&lt;/i&gt;-mer profiles that mapped to specific regions of the 16S rRNA gene and corresponded with particular body sites. Together, our results show that embedding sequences results in meaningful representations that can be used for exploratory analyses or for downstream machine learning applications that require numeric data. Moreover, because the embeddings are trained in an unsupervised manner, unlabeled data can be embedded and used to bolster supervised machine learning tasks.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/R28Evhi6UHc&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 22:00:00 +0000</pubDate>
+  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Impaired Modulation of Corticospinal Excitability in Drug-Free Patients With Major Depressive Disorder: A Theta-Burst Stimulation Study</title>
 	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnhum.2019.00072</guid>
 	<link>https://www.frontiersin.org/articles/10.3389/fnhum.2019.00072</link>
@@ -46,6 +66,166 @@
 	<description>Sreya Banerjee, Walter J. Scheirer, Lei Li</description>
 	<pubDate>Tue, 26 Feb 2019 18:00:12 +0000</pubDate>
   <source url="http://journal.frontiersin.org/journal/computational-neuroscience/rss">Frontiers in Computational Neuroscience | New and Recent Articles</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Correction for Wang et al., Interplay of the Norrin and Wnt7a/Wnt7b signaling systems in blood-brain barrier and blood-retina barrier development and maintenance [Correction]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3934.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/eVTm1cAgye0/3934.short</link>
+	<description>NEUROSCIENCE Correction for “Interplay of the Norrin and Wnt7a/Wnt7b signaling systems in blood–brain barrier and blood–retina barrier development and maintenance,” by Yanshu Wang, Chris Cho, John Williams, Philip M. Smallwood, Chi Zhang, Harald J. Junge, and Jeremy Nathans, which was first published November 26, 2018; 10.1073/pnas.1813217115 (Proc Natl Acad Sci...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/eVTm1cAgye0&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Correction for Hassall et al., Climate-induced phenological shifts in a Batesian mimicry complex [Correction]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3933.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/f2AZeuiAycQ/3933.short</link>
+	<description>EVOLUTION Correction for “Climate-induced phenological shifts in a Batesian mimicry complex,” by Christopher Hassall, Jac Billington, and Thomas N. Sherratt, which was first published December 3, 2018; 10.1073/pnas.1813367115 (Proc Natl Acad Sci USA 116:929–933). Fig. 3. Trends in the number of high-fidelity model-mimic pairs in which (A) the model emerges...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/f2AZeuiAycQ&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Correction for Street et al., Coevolution of cultural intelligence, extended life history, sociality, and brain size in primates [Correction]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3929.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/DSUo53aixpE/3929.short</link>
+	<description>COLLOQUIUM Correction for “Coevolution of cultural intelligence, extended life history, sociality, and brain size in primates,” by Sally E. Street, Ana F. Navarrete, Simon M. Reader, and Kevin N. Laland, which was first published July 25, 2017; 10.1073/pnas.1620734114 (Proc Natl Acad Sci USA 114:7908–7914). The authors wish to note the...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/DSUo53aixpE&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Plasma lipidome reveals critical illness and recovery from human Ebola virus disease [Systems Biology]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3919.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/UKW6iGIGkQc/3919.short</link>
+	<description>Ebola virus disease (EVD) often leads to severe and fatal outcomes in humans with early supportive care increasing the chances of survival. Profiling the human plasma lipidome provides insight into critical illness as well as diseased states, as lipids have essential roles as membrane structural components, signaling molecules, and energy...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/UKW6iGIGkQc&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Elucidating cancer metabolic plasticity by coupling gene regulation with metabolic pathways [Systems Biology]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3909.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/w2iK_GVRtdc/3909.short</link>
+	<description>Metabolic plasticity enables cancer cells to switch their metabolism phenotypes between glycolysis and oxidative phosphorylation (OXPHOS) during tumorigenesis and metastasis. However, it is still largely unknown how cancer cells orchestrate gene regulation to balance their glycolysis and OXPHOS activities. Previously, by modeling the gene regulation of cancer metabolism we have...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/w2iK_GVRtdc&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Anaphase-promoting complex/cyclosome regulates RdDM activity by degrading DMS3 in Arabidopsis [Plant Biology]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3899.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/dYcK6L6Vw6Q/3899.short</link>
+	<description>During RNA-directed DNA methylation (RdDM), the DDR complex, composed of DRD1, DMS3, and RDM1, is responsible for recruiting DNA polymerase V (Pol V) to silence transposable elements (TEs) in plants. However, how the DDR complex is regulated remains unexplored. Here, we show that the anaphase-promoting complex/cyclosome (APC/C) regulates the assembly...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/dYcK6L6Vw6Q&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: PILS6 is a temperature-sensitive regulator of nuclear auxin input and organ growth in Arabidopsis thaliana [Plant Biology]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3893.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/MxilCxaUZlE/3893.short</link>
+	<description>Temperature modulates growth and development throughout the entire lifecycle of a plant. High temperature (HT) triggers the auxin biosynthesis-dependent growth in aerial tissues. On the other hand, the contribution of auxin to HT-induced root growth is currently under debate. Here we show that the putative intracellular auxin carrier PIN-LIKES 6...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/MxilCxaUZlE&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Activin-like kinase 5 (ALK5) inactivation in the mouse uterus results in metastatic endometrial carcinoma [Physiology]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3883.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/YkFt1VpY4g0/3883.short</link>
+	<description>The endometrial lining of the uterine cavity is a highly dynamic tissue that is under the continuous control of the ovarian steroid hormones, estrogen and progesterone. Endometrial adenocarcinoma arises from the uncontrolled growth of the endometrial glands, which is typically associated with unopposed estrogen action and frequently occurs in older...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/YkFt1VpY4g0&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Uterine double-conditional inactivation of Smad2 and Smad3 in mice causes endometrial dysregulation, infertility, and uterine cancer [Physiology]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3873.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/UkjAIHz1rqg/3873.short</link>
+	<description>SMAD2 and SMAD3 are downstream proteins in the transforming growth factor-β (TGF β) signaling pathway that translocate signals from the cell membrane to the nucleus, bind DNA, and control the expression of target genes. While SMAD2/3 have important roles in the ovary, we do not fully understand the roles of...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/UkjAIHz1rqg&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Therapeutic targeting of HER2-CB2R heteromers in HER2-positive breast cancer [Pharmacology]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3863.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/OjKJUGSyzaw/3863.short</link>
+	<description>Although human epidermal growth factor receptor 2 (HER2)-targeted therapies have dramatically improved the clinical outcome of HER2-positive breast cancer patients, innate and acquired resistance remains an important clinical challenge. New therapeutic approaches and diagnostic tools for identification, stratification, and treatment of patients at higher risk of resistance and recurrence are...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/OjKJUGSyzaw&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Structural, functional, and behavioral insights of dopamine dysfunction revealed by a deletion in SLC6A3 [Neuroscience]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3853.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/7pNQ9J16Ygc/3853.short</link>
+	<description>The human dopamine (DA) transporter (hDAT) mediates clearance of DA. Genetic variants in hDAT have been associated with DA dysfunction, a complication associated with several brain disorders, including autism spectrum disorder (ASD). Here, we investigated the structural and behavioral bases of an ASD-associated in-frame deletion in hDAT at N336 (∆N336)....&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/7pNQ9J16Ygc&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Nonlinear dynamics underlying sensory processing dysfunction in schizophrenia [Neuroscience]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3847.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/t5rXzvD4ZFQ/3847.short</link>
+	<description>Natural systems, including the brain, often seem chaotic, since they are typically driven by complex nonlinear dynamical processes. Disruption in the fluid coordination of multiple brain regions contributes to impairments in information processing and the constellation of symptoms observed in neuropsychiatric disorders. Schizophrenia (SZ), one of the most debilitating mental...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/t5rXzvD4ZFQ&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Functional diversity of motoneurons in the oculomotor system [Neuroscience]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3837.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/ydMl47X4lv4/3837.short</link>
+	<description>Extraocular muscles contain two types of muscle fibers according to their innervation pattern: singly innervated muscle fibers (SIFs), similar to most skeletal muscle fibers, and multiply innervated muscle fibers (MIFs). Morphological studies have revealed that SIF and MIF motoneurons are segregated anatomically and receive different proportions of certain afferents, suggesting...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/ydMl47X4lv4&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Linkage between retinal ganglion cell density and the nonuniform spatial integration across the visual field [Neuroscience]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3827.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/2s8lg3kjjZg/3827.short</link>
+	<description>The ability to integrate visual information over space is a fundamental component of human pattern vision. Regardless of whether it is for detecting luminance contrast or for recognizing objects in a cluttered scene, the position of the target in the visual field governs the size of a window within which...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/2s8lg3kjjZg&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Dopamine neuron-derived IGF-1 controls dopamine neuron firing, skill learning, and exploration [Neuroscience]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3817.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/_TDHb2r-EyE/3817.short</link>
+	<description>Midbrain dopamine neurons, which can be regulated by neuropeptides and hormones, play a fundamental role in controlling cognitive processes, reward mechanisms, and motor functions. The hormonal actions of insulin-like growth factor 1 (IGF-1) produced by the liver have been well described, but the role of neuronally derived IGF-1 remains largely...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/_TDHb2r-EyE&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Cold sensing by NaV1.8-positive and NaV1.8-negative sensory neurons [Neuroscience]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3811.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/qyItbO26Zxg/3811.short</link>
+	<description>The ability to detect environmental cold serves as an important survival tool. The sodium channels NaV1.8 and NaV1.9, as well as the TRP channel Trpm8, have been shown to contribute to cold sensation in mice. Surprisingly, transcriptional profiling shows that NaV1.8/NaV1.9 and Trpm8 are expressed in nonoverlapping neuronal populations. Here...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/qyItbO26Zxg&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Tyramine action on motoneuron excitability and adaptable tyramine/octopamine ratios adjust Drosophila locomotion to nutritional state [Neuroscience]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3805.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/CzX5ky9yjNc/3805.short</link>
+	<description>Adrenergic signaling profoundly modulates animal behavior. For example, the invertebrate counterpart of norepinephrine, octopamine, and its biological precursor and functional antagonist, tyramine, adjust motor behavior to different nutritional states. In Drosophila larvae, food deprivation increases locomotor speed via octopamine-mediated structural plasticity of neuromuscular synapses, whereas tyramine reduces locomotor speed, but...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/CzX5ky9yjNc&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Basolateral amygdala input to the medial prefrontal cortex controls obsessive-compulsive disorder-like checking behavior [Neuroscience]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3799.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/_m7ALQQWWhU/3799.short</link>
+	<description>Obsessive-compulsive disorder (OCD) affects ∼1 to 3% of the world’s population. However, the neural mechanisms underlying the excessive checking symptoms in OCD are not fully understood. Using viral neuronal tracing in mice, we found that glutamatergic neurons from the basolateral amygdala (BLAGlu) project onto both medial prefrontal cortex glutamate (mPFCGlu)...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/_m7ALQQWWhU&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Dopamine modulates the reward experiences elicited by music [Psychological and Cognitive Sciences]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3793.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/Vp54M93claI/3793.short</link>
+	<description>Understanding how the brain translates a structured sequence of sounds, such as music, into a pleasant and rewarding experience is a fascinating question which may be crucial to better understand the processing of abstract rewards in humans. Previous neuroimaging findings point to a challenging role of the dopaminergic system in...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/Vp54M93claI&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
+</item>
+<item>
+	<title>Proceedings of the National Academy of Sciences Recent Issues: Rhizobium induces DNA damage in Caenorhabditis elegans intestinal cells [Microbiology]</title>
+	<guid isPermaLink="false">http://www.pnas.org/content/116/9/3784.short?rss=1</guid>
+	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/bMaFfNo1oro/3784.short</link>
+	<description>In their natural habitat of rotting fruit, the nematode Caenorhabditis elegans feeds on the complex bacterial communities that thrive in this rich growth medium. Hundreds of diverse bacterial strains cultured from such rotting fruit allow C. elegans growth and reproduction when tested individually. In screens for C. elegans responses to...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/bMaFfNo1oro&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 26 Feb 2019 17:26:48 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
 </item>
 <item>
 	<title>Frontiers in Human Neuroscience | New and Recent Articles: Exploring Hemodynamic Responses Using Mirror Visual Feedback With Electromyogram-Triggered Stimulation and Functional Near-Infrared Spectroscopy</title>
@@ -2242,166 +2422,6 @@ Rare variants are of increasing interest to genetic association studies because 
   <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
 </item>
 <item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Correction for Narayanan et al., Prefrontal D1 dopamine signaling is required for temporal control [Correction]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3339.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/cfx24pyGkvk/3339.short</link>
-	<description>NEUROSCIENCE Correction for “Prefrontal D1 dopamine signaling is required for temporal control,” by Nandakumar S. Narayanan, Benjamin B. Land, John E. Solder, Karl Deisseroth, and Ralph J. DiLeone, which was first published November 26, 2012; 10.1073/pnas.1211258109 (Proc Natl Acad Sci USA 109:20726–20731). The authors note that, on page 20727, left...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/cfx24pyGkvk&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Correction for Madhivanan et al., Cellular clearance of circulating transthyretin decreases cell-nonautonomous proteotoxicity in Caenorhabditis elegans [Correction]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3338.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/A3jHXAK14FU/3338.short</link>
-	<description>BIOCHEMISTRY Correction for “Cellular clearance of circulating transthyretin decreases cell-nonautonomous proteotoxicity in Caenorhabditis elegans,” by Kayalvizhi Madhivanan, Erin R. Greiner, Miguel Alves-Ferreira, David Soriano-Castell, Nirvan Rouzbeh, Carlos A. Aguirre, Johan F. Paulsson, Justin Chapman, Xin Jiang, Felicia K. Ooi, Carolina Lemos, Andrew Dillin, Veena Prahlad, Jeffery W. Kelly, and Sandra...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/A3jHXAK14FU&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Genome-wide colocalization of RNA-DNA interactions and fusion RNA pairs [Systems Biology]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3328.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/_nunwhsN5hk/3328.short</link>
-	<description>Fusion transcripts are used as biomarkers in companion diagnoses. Although more than 15,000 fusion RNAs have been identified from diverse cancer types, few common features have been reported. Here, we compared 16,410 fusion transcripts detected in cancer (from a published cohort of 9,966 tumor samples of 33 cancer types) with...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/_nunwhsN5hk&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Impacts of the Northwest Forest Plan on forest composition and bird populations [Sustainability Science]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3322.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/8-1rUvTOeYw/3322.short</link>
-	<description>The Northwest Forest Plan (NWFP) initiated one of the most sweeping changes to forest management in the world, affecting 10 million hectares of federal land. The NWFP is a science-based plan incorporating monitoring and adaptive management and provides a unique opportunity to evaluate the influence of policy. We used &amp;gt;25...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/8-1rUvTOeYw&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Hippocampal atrophy and intrinsic brain network dysfunction relate to alterations in mind wandering in neurodegeneration [Psychological and Cognitive Sciences]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3316.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/vd5ptL8fcC0/3316.short</link>
-	<description>Mind wandering represents the human capacity for internally focused thought and relies upon the brain’s default network and its interactions with attentional networks. Studies have characterized mind wandering in healthy people, yet there is limited understanding of how this capacity is affected in clinical populations. This paper used a validated...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/vd5ptL8fcC0&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Musical reward prediction errors engage the nucleus accumbens and motivate learning [Psychological and Cognitive Sciences]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3310.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/kg_PFbPRUS8/3310.short</link>
-	<description>Enjoying music reliably ranks among life’s greatest pleasures. Like many hedonic experiences, it engages several reward-related brain areas, with activity in the nucleus accumbens (NAc) most consistently reflecting the listener’s subjective response. Converging evidence suggests that this activity arises from musical “reward prediction errors” (RPEs) that signal the difference between...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/kg_PFbPRUS8&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Regulatory cascade involving transcriptional and N-end rule pathways in rice under submergence [Plant Biology]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3300.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/ee9yKiROo8Y/3300.short</link>
-	<description>The rice SUB1A-1 gene, which encodes a group VII ethylene response factor (ERFVII), plays a pivotal role in rice survival under flooding stress, as well as other abiotic stresses. In Arabidopsis, five ERFVII factors play roles in regulating hypoxic responses. A characteristic feature of Arabidopsis ERFVIIs is a destabilizing N...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/ee9yKiROo8Y&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Ca2+ allostery in PTH-receptor signaling [Pharmacology]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3294.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/bbLMARLj42o/3294.short</link>
-	<description>The parathyroid hormone (PTH) and its related peptide (PTHrP) activate PTH receptor (PTHR) signaling, but only the PTH sustains GS-mediated adenosine 3′,5′-cyclic monophosphate (cAMP) production after PTHR internalization into early endosomes. The mechanism of this unexpected behavior for a G-protein–coupled receptor is not fully understood. Here, we show that extracellular...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/bbLMARLj42o&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Diverse GPCRs exhibit conserved water networks for stabilization and activation [Pharmacology]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3288.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/6hWrWoVOUIw/3288.short</link>
-	<description>G protein-coupled receptors (GPCRs) have evolved to recognize incredibly diverse extracellular ligands while sharing a common architecture and structurally conserved intracellular signaling partners. It remains unclear how binding of diverse ligands brings about GPCR activation, the common structural change that enables intracellular signaling. Here, we identify highly conserved networks of...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/6hWrWoVOUIw&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Inositol hexakisphosphate kinase 3 promotes focal adhesion turnover via interactions with dynein intermediate chain 2 [Neuroscience]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3278.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/ajqqm_cQEjI/3278.short</link>
-	<description>Cells express a family of three inositol hexakisphosphate kinases (IP6Ks). Although sharing the same enzymatic activity, individual IP6Ks mediate different cellular processes. Here we report that IP6K3 is enriched at the leading edge of migrating cells where it associates with dynein intermediate chain 2 (DIC2). Using immunofluorescence microscopy and total...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/ajqqm_cQEjI&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: High-dimensional representation of texture in somatosensory cortex of primates [Neuroscience]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3268.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/ZBJV2FhBCoM/3268.short</link>
-	<description>In the somatosensory nerves, the tactile perception of texture is driven by spatial and temporal patterns of activation distributed across three populations of afferents. These disparate streams of information must then be integrated centrally to achieve a unified percept of texture. To investigate the representation of texture in somatosensory cortex,...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/ZBJV2FhBCoM&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Presynaptic SNAP-25 regulates retinal waves and retinogeniculate projection via phosphorylation [Neuroscience]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3262.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/gz9Fvr-nlWU/3262.short</link>
-	<description>Patterned spontaneous activity periodically displays in developing retinas termed retinal waves, essential for visual circuit refinement. In neonatal rodents, retinal waves initiate in starburst amacrine cells (SACs), propagating across retinal ganglion cells (RGCs), further through visual centers. Although these waves are shown temporally synchronized with transiently high PKA activity, the...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/gz9Fvr-nlWU&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: TrkB-expressing neurons in the dorsomedial hypothalamus are necessary and sufficient to suppress homeostatic feeding [Neuroscience]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3256.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/TiFIEcJ3ifE/3256.short</link>
-	<description>Genetic evidence indicates that brain-derived neurotrophic factor (BDNF) signaling through the TrkB receptor plays a critical role in the control of energy balance. Mutations in the BDNF or the TrkB-encoding NTRK2 gene have been found to cause severe obesity in humans and mice. However, it remains unknown which brain neurons...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/TiFIEcJ3ifE&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Persistent metabolic youth in the aging female brain [Neuroscience]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3251.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/Ss6LSlOuU5I/3251.short</link>
-	<description>Sex differences influence brain morphology and physiology during both development and aging. Here we apply a machine learning algorithm to a multiparametric brain PET imaging dataset acquired in a cohort of 20- to 82-year-old, cognitively normal adults (n = 205) to define their metabolic brain age. We find that throughout...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/Ss6LSlOuU5I&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Genetically eliminating Purkinje neuron GABAergic neurotransmission increases their response gain to vestibular motion [Neuroscience]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3245.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/9QQMtBcGZUc/3245.short</link>
-	<description>Purkinje neurons in the caudal cerebellar vermis combine semicircular canal and otolith signals to segregate linear and gravitational acceleration, evidence for how the cerebellum creates internal models of body motion. However, it is not known which cerebellar circuit connections are necessary to perform this computation. We first showed that this...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/9QQMtBcGZUc&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Local homogeneity of tonotopic organization in the primary auditory cortex of marmosets [Neuroscience]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3239.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/JlNk9TBJj6Q/3239.short</link>
-	<description>Marmoset has emerged as a useful nonhuman primate species for studying brain structure and function. Previous studies on the mouse primary auditory cortex (A1) showed that neurons with preferential frequency-tuning responses are mixed within local cortical regions, despite a large-scale tonotopic organization. Here we found that frequency-tuning properties of marmoset...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/JlNk9TBJj6Q&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: CD4 receptor diversity in chimpanzees protects against SIV infection [Microbiology]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3229.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/r5QmB66Cjj8/3229.short</link>
-	<description>Human and simian immunodeficiency viruses (HIV/SIVs) use CD4 as the primary receptor to enter target cells. Here, we show that the chimpanzee CD4 is highly polymorphic, with nine coding variants present in wild populations, and that this diversity interferes with SIV envelope (Env)–CD4 interactions. Testing the replication fitness of SIVcpz...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/r5QmB66Cjj8&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Legionella pneumophila translocated translation inhibitors are required for bacterial-induced host cell cycle arrest [Microbiology]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3221.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/ISfzQrpI1bk/3221.short</link>
-	<description>The cell cycle machinery controls diverse cellular pathways and is tightly regulated. Misregulation of cell division plays a central role in the pathogenesis of many disease processes. Various microbial pathogens interfere with the cell cycle machinery to promote host cell colonization. Although cell cycle modulation is a common theme among...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/ISfzQrpI1bk&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: Movement dynamics of divisome proteins and PBP2x:FtsW in cells of Streptococcus pneumoniae [Microbiology]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3211.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/-lW4sTyZh9Y/3211.short</link>
-	<description>Bacterial cell division and peptidoglycan (PG) synthesis are orchestrated by the coordinated dynamic movement of essential protein complexes. Recent studies show that bidirectional treadmilling of FtsZ filaments/bundles is tightly coupled to and limiting for both septal PG synthesis and septum closure in some bacteria, but not in others. Here we...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/-lW4sTyZh9Y&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
-	<title>Proceedings of the National Academy of Sciences Recent Issues: The Mycobacterium tuberculosis Pup-proteasome system regulates nitrate metabolism through an essential protein quality control pathway [Microbiology]</title>
-	<guid isPermaLink="false">http://www.pnas.org/content/116/8/3202.short?rss=1</guid>
-	<link>http://feedproxy.google.com/~r/pnas/UJrK/~3/V98O9DLolWo/3202.short</link>
-	<description>The human pathogen Mycobacterium tuberculosis encodes a proteasome that carries out regulated degradation of bacterial proteins. It has been proposed that the proteasome contributes to nitrogen metabolism in M. tuberculosis, although this hypothesis had not been tested. Upon assessing M. tuberculosis growth in several nitrogen sources, we found that a...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/V98O9DLolWo&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 19 Feb 2019 20:06:56 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/pnas/UJrK">Proceedings of the National Academy of Sciences Recent Issues</source>
-</item>
-<item>
 	<title>Wiley: Annals of Neurology: Table of Contents: Homocysteine and Small Vessel Stroke: A Mendelian Randomization Analysis</title>
 	<guid isPermaLink="true">https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25440?af=R</guid>
 	<link>https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25440?af=R</link>
@@ -3148,26 +3168,6 @@ Phylogenomic research is accelerating the publication of landmark studies that a
 	<description>&lt;p&gt;by Brandon Monier, Adam McDermaid, Cankun Wang, Jing Zhao, Allison Miller, Anne Fennell, Qin Ma&lt;/p&gt;
 
 Next-Generation Sequencing has made available substantial amounts of large-scale Omics data, providing unprecedented opportunities to understand complex biological systems. Specifically, the value of RNA-Sequencing (RNA-Seq) data has been confirmed in inferring how gene regulatory systems will respond under various conditions (bulk data) or cell types (single-cell data). RNA-Seq can generate genome-scale gene expression profiles that can be further analyzed using correlation analysis, co-expression analysis, clustering, differential gene expression (DGE), among many other studies. While these analyses can provide invaluable information related to gene expression, integration and interpretation of the results can prove challenging. Here we present a tool called IRIS-EDA, which is a Shiny web server for expression data analysis. It provides a straightforward and user-friendly platform for performing numerous computational analyses on user-provided RNA-Seq or Single-cell RNA-Seq (scRNA-Seq) data. Specifically, three commonly used R packages (edgeR, DESeq2, and limma) are implemented in the DGE analysis with seven unique experimental design functionalities, including a user-specified design matrix option. Seven discovery-driven methods and tools (correlation analysis, heatmap, clustering, biclustering, Principal Component Analysis (PCA), Multidimensional Scaling (MDS), and t-distributed Stochastic Neighbor Embedding (t-SNE)) are provided for gene expression exploration which is useful for designing experimental hypotheses and determining key factors for comprehensive DGE analysis. Furthermore, this platform integrates seven visualization tools in a highly interactive manner, for improved interpretation of the analyses. It is noteworthy that, for the first time, IRIS-EDA provides a framework to expedite submission of data and results to NCBI’s Gene Expression Omnibus following the FAIR (Findable, Accessible, Interoperable and Reusable) Data Principles. IRIS-EDA is freely available at http://bmbl.sdstate.edu/IRIS/.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/XQ7EidTt2EQ&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 14 Feb 2019 22:00:00 +0000</pubDate>
-  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
-</item>
-<item>
-	<title>PLOS Computational Biology: New Articles: Identifying the mechanism for superdiffusivity in mouse fibroblast motility</title>
-	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006732</guid>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/KIPDgR1gWNs/article</link>
-	<description>&lt;p&gt;by Giuseppe Passucci, Megan E. Brasch, James H. Henderson, Vasily Zaburdaev, M. Lisa Manning&lt;/p&gt;
-
-We seek to characterize the motility of mouse fibroblasts on 2D substrates. Utilizing automated tracking techniques, we find that cell trajectories are super-diffusive, where displacements scale faster than &lt;i&gt;t&lt;/i&gt;&lt;sup&gt;1/2&lt;/sup&gt; in all directions. Two mechanisms have been proposed to explain such statistics in other cell types: run and tumble behavior with Lévy-distributed run times, and ensembles of cells with heterogeneous speed and rotational noise. We develop an automated toolkit that directly compares cell trajectories to the predictions of each model and demonstrate that ensemble-averaged quantities such as the mean-squared displacements and velocity autocorrelation functions are equally well-fit by either model. However, neither model correctly captures the short-timescale behavior quantified by the displacement probability distribution or the turning angle distribution. We develop a hybrid model that includes both run and tumble behavior and heterogeneous noise during the runs, which correctly matches the short-timescale behaviors and indicates that the run times are not Lévy distributed. The analysis tools developed here should be broadly useful for distinguishing between mechanisms for superdiffusivity in other cells types and environments.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/KIPDgR1gWNs&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 14 Feb 2019 22:00:00 +0000</pubDate>
-  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
-</item>
-<item>
-	<title>PLOS Computational Biology: New Articles: Bioinformatics calls the school: Use of smartphones to introduce Python for bioinformatics in high schools</title>
-	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006473</guid>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/DU--q7uExMA/article</link>
-	<description>&lt;p&gt;by Ana Julia Velez Rueda, Guillermo I. Benítez, Julia Marchetti, Marcia Anahí Hasenahuer, María Silvina Fornasari, Nicolas Palopoli, Gustavo Parisi&lt;/p&gt;
-
-The dynamic nature of technological developments invites us to rethink the learning spaces. In this context, science education can be enriched by the contribution of new computational resources, making the educational process more up-to-date, challenging, and attractive. Bioinformatics is a key interdisciplinary field, contributing to the understanding of biological processes that is often underrated in secondary schools. As a useful resource in learning activities, bioinformatics could help in engaging students to integrate multiple fields of knowledge (logical-mathematical, biological, computational, etc.) and generate an enriched and long-lasting learning environment. Here, we report our recent project in which high school students learned basic concepts of programming applied to solving biological problems. The students were taught the Python syntax, and they coded simple tools to answer biological questions using resources at hand. Notably, these were built mostly on the students’ own smartphones, which proved to be capable, readily available, and relevant complementary tools for teaching. This project resulted in an empowering and inclusive experience that challenged differences in social background and technological accessibility.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/DU--q7uExMA&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Thu, 14 Feb 2019 22:00:00 +0000</pubDate>
   <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
 </item>
