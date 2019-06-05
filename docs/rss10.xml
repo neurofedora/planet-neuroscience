@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007034" />
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006994" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818302630" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/39/23/4624?rss=1" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/39/23/4606?rss=1" />
@@ -64,12 +66,15 @@
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30393-9?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30378-2?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30342-3?rss=yes" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/661066v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/661033v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/660696v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/660662v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/660597v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/660589v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/660365v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/660357v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/657486v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/649665v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/644039v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007110" />
@@ -147,9 +152,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/659508v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/659268v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/659193v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/658906v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/658740v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/658567v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007092" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007066" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007054" />
@@ -264,8 +266,6 @@
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30396-4?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30395-2?rss=yes" />
 			<rdf:li rdf:resource="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0507-7" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007069" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007062" />
 			<rdf:li rdf:resource="https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25508?af=R" />
 			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/ENEURO.0176-19.2019v1?rss=1" />
 			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/ENEURO.0136-19.2019v1?rss=1" />
@@ -419,6 +419,24 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007034">
+	<title>PLOS Computational Biology: New Articles: Phenotypic heterogeneity and evolution of melanoma cells associated with targeted therapy resistance</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/KSNvbwW46_A/article</link>
+	<content:encoded>&lt;p&gt;by Yapeng Su, Marcus Bintz, Yezi Yang, Lidia Robert, Alphonsus H. C. Ng, Victoria Liu, Antoni Ribas, James R. Heath, Wei Wei&lt;/p&gt;
+
+Phenotypic plasticity is associated with non-genetic drug tolerance in several cancers. Such plasticity can arise from chromatin remodeling, transcriptomic reprogramming, and/or protein signaling rewiring, and is characterized as a cell state transition in response to molecular or physical perturbations. This, in turn, can confound interpretations of drug responses and resistance development. Using &lt;i&gt;BRAF-&lt;/i&gt;mutant melanoma cell lines as the prototype, we report on a joint theoretical and experimental investigation of the cell-state transition dynamics associated with BRAF inhibitor drug tolerance. Thermodynamically motivated surprisal analysis of transcriptome data was used to treat the cell population as an entropy maximizing system under the influence of time-dependent constraints. This permits the extraction of an epigenetic potential landscape for drug-induced phenotypic evolution. Single-cell flow cytometry data of the same system were modeled with a modified Fokker-Planck-type kinetic model. The two approaches yield a consistent picture that accounts for the phenotypic heterogeneity observed over the course of drug tolerance development. The results reveal that, in certain plastic cancers, the population heterogeneity and evolution of cell phenotypes may be understood by accounting for the competing interactions of the epigenetic potential landscape and state-dependent cell proliferation. Accounting for such competition permits accurate, experimentally verifiable predictions that can potentially guide the design of effective treatment strategies.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/KSNvbwW46_A&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2019-06-05T21:00:00+00:00</dc:date>
+	<dc:creator>Wei Wei</dc:creator>
+</item>
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006994">
+	<title>PLOS Computational Biology: New Articles: Modern technologies and algorithms for scaffolding assembled genomes</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/MyInqWh0jLM/article</link>
+	<content:encoded>&lt;p&gt;by Jay Ghurye, Mihai Pop&lt;/p&gt;
+
+The computational reconstruction of genome sequences from shotgun sequencing data has been greatly simplified by the advent of sequencing technologies that generate long reads. In the case of relatively small genomes (e.g., bacterial or viral), complete genome sequences can frequently be reconstructed computationally without the need for further experiments. However, large and complex genomes, such as those of most animals and plants, continue to pose significant challenges. In such genomes, assembly software produces incomplete and fragmented reconstructions that require additional experimentally derived information and manual intervention in order to reconstruct individual chromosome arms. Recent technologies originally designed to capture chromatin structure have been shown to effectively complement sequencing data, leading to much more contiguous reconstructions of genomes than previously possible. Here, we survey these technologies and the algorithms used to assemble and analyze large eukaryotic genomes, placed within the historical context of genome scaffolding technologies that have been in existence since the dawn of the genomic era.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/MyInqWh0jLM&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2019-06-05T21:00:00+00:00</dc:date>
+	<dc:creator>Mihai Pop</dc:creator>
+</item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818302630">
 	<title>ScienceDirect Publication: Current Opinion in Neurobiology: The chromatin landscape of neuronal plasticity</title>
 	<link>https://www.sciencedirect.com/science/article/pii/S0959438818302630?dgcid=rss_sd_all</link>
@@ -824,6 +842,13 @@ Changing focus from neurons to glial cells and their interactions is important s
 	<dc:date>2019-06-05T00:00:00+00:00</dc:date>
 	<dc:creator>Gregory J. Gage</dc:creator>
 </item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/661066v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Decoding Speech and Music Stimuli from the Frequency Following Response</title>
+	<link>http://biorxiv.org/cgi/content/short/661066v1?rss=1</link>
+	<content:encoded>The ability to differentiate complex sounds is essential for communication. Here, we propose using a machine-learning approach, called classification, to objectively evaluate auditory perception. In this study, we recorded frequency following responses (FFRs) from 13 normal-hearing adult participants to six short music and speech stimuli sharing similar fundamental frequencies but varying in overall spectral and temporal characteristics. Each participant completed a perceptual identification test using the same stimuli. We used linear discriminant analysis to classify FFRs. Results showed statistically significant FFR classification accuracies using both the full response epoch in the time domain (72.3% accuracy, p &amp;lt; 0.001) as well as real and imaginary Fourier coefficients up to 1 kHz (74.6%, p &amp;lt; 0.001). We classified decomposed versions of the responses in order to examine which response features contributed to successful decoding. Classifier accuracies using Fourier magnitude and phase alone in the same frequency range were lower but still significant (58.2% and 41.3% respectively, p &amp;lt; 0.001). Classification of overlapping 20-msec subsets of the FFR in the time domain similarly produced reduced but significant accuracies (42.3%-62.8%, p &amp;lt; 0.001). Participants' mean perceptual responses were most accurate (90.6%, p &amp;lt; 0.001). Confusion matrices from FFR classifications and perceptual responses were converted to distance matrices and visualized as dendrograms. FFR classifications and perceptual responses demonstrate similar patterns of confusion across the stimuli. Our results demonstrate that classification can differentiate auditory stimuli from FFR responses with high accuracy. Moreover, the reduced accuracies obtained when the FFR is decomposed in the time and frequency domains suggest that different response features contribute complementary information, similar to how the human auditory system is thought to rely on both timing and frequency information to accurately process sound. Taken together, these results suggest that FFR classification is a promising approach for objective assessment of auditory perception.</content:encoded>
+	<dc:date>2019-06-05T00:00:00+00:00</dc:date>
+	<dc:creator>Losorelli, S., Kaneshiro, B., Musacchia, G. A., Blevins, N. H., Fitzgerald, M. B.</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/661033v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Comprehensive Integrated Anatomical And Molecular Atlas Of Rodent Intrinsic Cardiac Nervous System</title>
 	<link>http://biorxiv.org/cgi/content/short/661033v1?rss=1</link>
@@ -837,6 +862,13 @@ Changing focus from neurons to glial cells and their interactions is important s
 	<content:encoded>High-frequency gamma activity (HFA: 45 to 95Hz) on invasive electroencephalogram coupled with verbal-memory encoding has laid the foundation for numerous studies testing the integrity of memory in diseased populations. Yet, the functional connectivity characteristics of networks subserving these HFA memory linkages remains uncertain. By integrating this electrophysiological biomarker of memory encoding from IEEG with resting-state BOLD fluctuations, we estimated the segregation and hubness of HFA memory regions in drug-resistant epilepsy patients and matched healthy controls. HFA memory regions express distinctly different hubness compared to neighboring regions in health and in epilepsy, and this hubness was more valuable than segregation in predicting verbal memory encoding. The HFA memory network comprised regions from both the cognitive control and sensorimotor processing networks, validating that effective verbal-memory encoding requires multiple functions, and is not dominated by a central cognitive core. Our results demonstrate a tonic intrinsic set of functional connectivity, which provides the necessary conditions for effective, phasic, task-dependent memory encoding.</content:encoded>
 	<dc:date>2019-06-05T00:00:00+00:00</dc:date>
 	<dc:creator>Chaitanya, G., Hinds, W., Kragel, J., He, X., Sideman, N., Ezzyat, Y., Sperling, M. R., Sharan, A., Tracy, J. I.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/660662v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: The transcription factor Shox2 shapes thalamocortical neuron firing properties by regulation of key ion channels</title>
+	<link>http://biorxiv.org/cgi/content/short/660662v1?rss=1</link>
+	<content:encoded>Thalamocortical neurons (TCNs) transmit information about sensory stimuli from the thalamus to the cortex and are capable of tonic and phasic burst firing modes in response to different physiological states. These firing properties of TCNs are supported by precisely-timed inhibitory synaptic inputs from the thalamic reticular nucleus and intrinsic T-type Ca2+ and HCN currents. These intrinsic currents are mediated by Cav3.1 and HCN channel subunits, and alterations in expression or these channels can have dramatic implications on thalamus function. The factors that modulate these currents controlling the firing patterns important for integration of the sensory stimuli and the consequences resulting from the disruption of these firing patterns are not well understood. Shox2 is a transcription factor important for pacemaker activity in the heart that is also expressed in adult mouse thalamus. We hypothesized that genes regulated by transcriptional activity of Shox2 may be important for firing properties of TCNs. In this study, we used RNA sequencing on control and Shox2 knockout mice to determine Shox2-affected genes and revealed a network of ion channel genes important for neuronal firing properties. Quantitative PCR confirmed that expression of Hcn2, 4 and Cav3.1 genes were affected by Shox2 KO. Western blotting showed expression of the proteins for these channels was decreased in the thalamus, and electrophysiological recordings showed that Shox2 KO impacted the firing properties of a subpopulation of TCNs. Finally, behavioral studies revealed that Shox2 expression in TCNs play a role in somatosensory function and object memory. Overall, these results reveal Shox2 as a transcription factor important for TCN function.</content:encoded>
+	<dc:date>2019-06-05T00:00:00+00:00</dc:date>
+	<dc:creator>Yu, D., Maroteaux, M., Song, Y., Han, X., Febbo, I., Namboodri, C., Meyer, E., Rowe, S., Chen, Y., Schrader, L.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/660597v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Neural correlates of conscious visual perception lie outside the visual system: evidence from the double-drift illusion</title>
@@ -865,6 +897,13 @@ Changing focus from neurons to glial cells and their interactions is important s
 	<content:encoded>Magnetic resonance imaging (MRI) offers the ability to non-invasively map the brain's metabolic oxygen consumption (CMRO2), which is essential for understanding and monitoring neural function in both health and disease. One MRI method of mapping CMRO2 is based on the simultaneous acquisition of cerebral blood flow (CBF) and blood oxygen level dependent (BOLD) weighted images during respiratory modulation of both oxygen and carbon dioxide. Although this dual-calibrated methodology has shown promise in the research setting, current analysis methods are unstable in the presence of noise and/or are computationally demanding. In this paper, we present a machine learning implementation for the multi-parametric assessment of dual-calibrated fMRI data. An extremely randomized trees regressor and a multi-layer perceptron (MLP) are cascaded to provide quantitative estimates of the resting CBF, CMRO2, and oxygen extraction fraction (OEF). The proposed implementation takes advantage of the inherent noise immunity of tree-based ensemble methods and MLPs to provide robust and computationally efficient estimates of CBF, CMRO2, and OEF. Synthetic data with additive noise are used to train the regressors, and their performance is compared to conventional analysis methods both in simulation and with in-vivo data (n=30). The proposed method is demonstrated to significantly reduce computation time, error, and proportional bias in both CMRO2 and OEF estimates.</content:encoded>
 	<dc:date>2019-06-05T00:00:00+00:00</dc:date>
 	<dc:creator>Germuska, M., Chandler, H., Okell, T., Fasano, F., Tomassini, V., Murphy, K., Wise, R.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/657486v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Precapillary sphincters control cerebral blood flow</title>
+	<link>http://biorxiv.org/cgi/content/short/657486v1?rss=1</link>
+	<content:encoded>Active nerve cells produce and release vasodilators that increase their energy supply by dilating local blood vessels, a mechanism termed neurovascular coupling, which is the basis of the BOLD (blood-oxygen-level-dependent) functional neuroimaging signals. We here reveal a unique mechanism for cerebral blood flow control, a precapillary sphincter at the transition between the penetrating arteriole and the first capillary that links blood flow in capillaries to the arteriolar inflow. Large NG2-positive cells, containing smooth muscle actin, encircle the sphincters and rises in nerve cell activity cause astrocyte and neuronal Ca2+ rises that correlate to dilation and shortening of the sphincter concomitant with substantial increases in the RBC flux. Global ischemia and cortical spreading depolarization constrict sphincters and cause vascular trapping of blood cells. These results reveal precapillary sphincters as bottlenecks for brain capillary blood flow.</content:encoded>
+	<dc:date>2019-06-05T00:00:00+00:00</dc:date>
+	<dc:creator>Grubb, S., Cai, C., Hald, B. O., Khennouf, L., Fordsmann, J. C., Murmu, R., Jensen, A. G. K., Zambach, S. A., Lauritzen, M. J.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/649665v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Transcranial focused ultrasound enhances behavioral and network mechanisms underlying response inhibition in humans</title>
@@ -1527,7 +1566,7 @@ This study showed that DTI is a more sensitive technique than ASL to detect alte
 <item rdf:about="http://biorxiv.org/cgi/content/short/659516v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: THE FREQUENCY OF CORTICAL MICROSTIMULATION SHAPES ARTIFICIAL TOUCH</title>
 	<link>http://biorxiv.org/cgi/content/short/659516v1?rss=1</link>
-	<content:encoded>Intracortical microstimulation (ICMS) of somatosensory cortex evokes vivid tactile sensations and can be used to convey sensory feedback in brain-controlled bionic hands. Changes in ICMS frequency result in discriminable percepts, but the effects of frequency have only been investigated over a narrow range of low frequencies, spanning only a small fraction of that relevant for neuroprosthetics. Furthermore, the sensory correlates of changes in ICMS frequency remain to be elucidated. To fill these gaps, we trained monkeys to discriminate the frequency of ICMS pulse trains over a wide range of frequencies (from 10 to 400 Hz). ICMS amplitude also varied across stimuli to reduce the animals' reliance on magnitude in making frequency judgments. We found that animals could discriminate ICMS frequency up to about 200 Hz but that the sensory correlates of frequency were highly electrode dependent. We discuss the implications of our findings for neural coding and brain-machine interfaces.</content:encoded>
+	<content:encoded>AO_SCPLOWBSTRACTC_SCPLOWIntracortical microstimulation (ICMS) of somatosensory cortex evokes vivid tactile sensations and can be used to convey sensory feedback in brain-controlled bionic hands. Changes in ICMS frequency result in discriminable percepts, but the effects of frequency have only been investigated over a narrow range of low frequencies, spanning only a small fraction of that relevant for neuroprosthetics. Furthermore, the sensory correlates of changes in ICMS frequency remain to be elucidated. To fill these gaps, we trained monkeys to discriminate the frequency of ICMS pulse trains over a wide range of frequencies (from 10 to 400 Hz). ICMS amplitude also varied across stimuli to reduce the animals reliance on magnitude in making frequency judgments. We found that animals could discriminate ICMS frequency up to about 200 Hz but that the sensory correlates of frequency were highly electrode dependent. We discuss the implications of our findings for neural coding and brain-machine interfaces.</content:encoded>
 	<dc:date>2019-06-04T00:00:00+00:00</dc:date>
 	<dc:creator>Callier, T., Brantly, N. W., Caravelli, A., Bensmaia, S. J.</dc:creator>
 </item>
@@ -1541,7 +1580,7 @@ This study showed that DTI is a more sensitive technique than ASL to detect alte
 <item rdf:about="http://biorxiv.org/cgi/content/short/659268v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Amplifying the Neural Power Spectrum</title>
 	<link>http://biorxiv.org/cgi/content/short/659268v1?rss=1</link>
-	<content:encoded>We introduce a novel method that employs a parametric model of human electroencephalographic (EEG) brain signal power spectra to evaluate cognitive science experiments and test scientific hypotheses. We develop the Neural Power Amplifier (NPA), a data-driven approach to EEG pre-processing that can replace current filtering strategies with a principled method based on combining filters with logarithmic and Gaussian magnitude responses. Presenting the first time domain evidence to validate an increasingly popular model for neural power spectra, we show that filtering out the 1/f background signal and selecting peaks improves a time-domain decoding experiment for visual stimulus of human faces versus random noise.</content:encoded>
+	<content:encoded>We introduce a novel method that employs a parametric model of human electroen-cephalographic (EEG) brain signal power spectra to evaluate cognitive science experiments and test scientific hypotheses. We develop the Neural Power Amplifier (NPA), a data-driven approach to EEG pre-processing that can replace current filtering strategies with a principled method based on combining filters with log-arithmic and Gaussian magnitude responses. Presenting the first time domain evidence to validate an increasingly popular model for neural power spectra [1], we show that filtering out the 1/f background signal and selecting peaks improves a time-domain decoding experiment for visual stimulus of human faces versus random noise.</content:encoded>
 	<dc:date>2019-06-04T00:00:00+00:00</dc:date>
 	<dc:creator>Doyle, J. A., Toussaint, P.-J., Evans, A. C.</dc:creator>
 </item>
@@ -1551,27 +1590,6 @@ This study showed that DTI is a more sensitive technique than ASL to detect alte
 	<content:encoded>Cognitive ability is a complex product of brain processes, yet it remains unknown how brain structure and function together lead to individual differences in developing cognitive skills. We performed multimodal neuroimaging in 1601 youths age 8-22 on the same 3-Tesla Magnetic Resonance Imaging scanner with contemporaneous neurocognitive assessment. Across age groups, high performers had larger volumes, greater gray matter density, lower mean diffusivity and lower cerebral blood flow, compared to low performers. These effects, which varied by region, were robust in males and females across age groups, but bigger in females for volume and in adult males for gray matter density and cerebral blood flow. Amplitude of low frequency fluctuations and regional homogeneity values positively related to performance in males but not in adult females for most regions. Regions showing strongest associations with performance include baso-striatal (thalamus), limbic (hippocampus), frontal (orbital and midfrontal) temporal (midtemporal), Parietal (precuneus and superior parietal) and occipital cortex (fusiform and lingual). Cross-validated regularized regressions of brain parameters combined explained ~20% of performance variance. Our cross-modal results indicate that abundance and integrity of neural tissue, as well as the maintenance of low energy metabolism while at rest, combine to optimize cognitive performance in humans.</content:encoded>
 	<dc:date>2019-06-04T00:00:00+00:00</dc:date>
 	<dc:creator>Gur, R. C., Moore, T. M., Rosen, A. F. G., Ruparel, K., Satterthwaite, T. D., Roalf, D. R., Gennatas, E. D., Bilker, W. B., Shinohara, R. T., Port, A., Elliott, M. A., Verma, R., Davatzikos, C., Wolf, D. H., Detre, J. A., Gur, R. E.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/658906v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Pilot Study of Metabolomic Clusters as State Markers of Major Depression and Outcomes to CBT Treatment</title>
-	<link>http://biorxiv.org/cgi/content/short/658906v1?rss=1</link>
-	<content:encoded>Major depressive disorder (MDD) is a common and disabling syndrome with multiple etiologies that is defined by clinically elicited signs and symptoms. In hopes of developing a list of candidate biological measures that reflect and relate closely to the severity of depressive symptoms, so-called &quot;state-dependent&quot; biomarkers of depression, this pilot study explored the biochemical underpinnings of treatment response to cognitive behavior therapy (CBT) in medication-freeMDD outpatients. Plasma samples were collected at baseline and week 12 from a subset of MDD patients (N=26) who completed a course of CBT treatment as part of the Predictors of Remission in Depression to Individual and Combined Treatments (PReDICT) study. Targeted metabolomic profiling using the the AbsoluteIDQ(R) p180 Kit and LC-MS identified eight &quot;co-expressed&quot; metabolomic modules. Of these eight, three were significantly associated with change in depressive symptoms over the course of the 12-weeks. Metabolites found to be most strongly correlated with change in depressive symptoms were branched chain amino acids, acylcarnitines, methionine sulfoxide, and -aminoadipic acid (negative correlations with symptom change) as well as several lipids, particularly the phosphatidlylcholines (positive correlation). These results implicate disturbed bioenergetics as an important state marker in the pathobiology of MDD. Exploratory analyses contrasting remitters to CBT versus those who failed the treatment further suggest these metabolites may serve as mediators of recovery during CBT treatment. Larger studies examining metabolomic change patterns in patients treated with pharmacotherapy or psychotherapy will be necessary to elucidate the biological underpinnings of MDD and the -specific biologies of treatment response.</content:encoded>
-	<dc:date>2019-06-04T00:00:00+00:00</dc:date>
-	<dc:creator>Bhattacharyya, S., Dunlop, B. W., Mahmoudiandehkordi, S., Ahmed, A. T., Louie, G., Frye, M. A., Weinshilboum, R. M., Krishnan, R. R., Rush, A. J., Mayberg, H. S., Craighead, W. E., Kaddurah-Daouk, R.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/658740v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Characteristics of University Students Supported by Counseling Services: Analysis of psychological tests and pulse rate variability</title>
-	<link>http://biorxiv.org/cgi/content/short/658740v1?rss=1</link>
-	<content:encoded>Objective The number of students who use counseling services is increasing in universities. We clarified the characteristics of the students who access counseling services using both psychological tests and pulse rate variability (PRV). Methods We recruited the participants for this study from the students who had counseling sessions at Kanazawa University (Group S). As a control group, we also recruited students who had no experience in counseling sessions (Group H). We obtained health information from the database of annual health check-ups. Participants received the Wechsler Adult Intelligence Scale (WAIS) III, Autism-Spectrum Quotient (AQ), Sukemune-Hiew (S-H) Resilience Test, and State-Trait Anxiety Inventory-JYZ (STAI). We also studied the SF-12v2 Health Survey. We examined the spectral analyses of pulse rate variability (PRV) by accelerating plethysmography. We performed linear analysis of PRV for LF, HF, and LF/HF as indexes of autonomic nervous function. We also performed non-linear analysis of PRV for the largest Lyapunov exponent (LLE). We examined participants' blood for autoantibodies against glutamate decarboxylase (GAD) 65. Results A total of 105 students participated in this study. Group S had 37 participants (Male: 26, Female: 11) and Group H had 68 participants (Male: 27, Female 41). There were 12 males and two females who had been diagnosed with autism spectrum disorder (ASD) in Group S. Group S had 1) lower Working Memory Index (WMI) despite relatively high Full-Scale IQ, 2) higher AQ scores, 3) lower resilience scores, 4) higher anxiety scores, 5) lower QOL in social health, and 6) shifting of autonomic nervous balance toward higher sympathetic activity. There were only two participants who had the anti-GAD65 antibody in Group S, and one participant had the anti-GAD65 antibody in Group H. Conclusion The results of our study revealed valuable information about the students who seek mental support in our university. Our results provide information that can be used in interventions for the university students who need counseling services.</content:encoded>
-	<dc:date>2019-06-04T00:00:00+00:00</dc:date>
-	<dc:creator>Adachi, Y., Yoshikawa, H., Iwasa, K., Yokoyama, S.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/658567v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: No Evidence for Associations Between the Big Five Personality Traits and Variability in Brain Gray or White Matter</title>
-	<link>http://biorxiv.org/cgi/content/short/658567v1?rss=1</link>
-	<content:encoded>Attempts to link the Big Five personality traits of Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism with variability in trait-like features of brain structure have produced inconsistent results. Small sample sizes and heterogeneous methodology have been suspected in driving these inconsistencies. Here, we tested for associations between the Big Five personality traits and multiple measures of brain structure using data from 1,107 university students (636 women, mean age 19.6, SD=1.24 years) representing the largest attempt to date. In addition to replication analyses based on a prior study, we conducted exploratory whole-brain analyses. Three supplementary analyses were also conducted to examine 1) possible associations with lower-order facets of personality; 2) modulatory effects of sex; and 3) effect of controlling for non-target personality traits. The analyses failed to identify any significant associations between the Big Five personality traits and variability in measures of cortical thickness, surface area, subcortical volume, or white matter microstructural integrity. The supplementary analyses supported these primary null findings, suggesting they were not substantively biased by our choice of analytic model. These results collectively indicate that if there are direct associations between the Big Five personality traits and variability in brain structure they are of likely very small effect sizes requiring very large samples for reliable detection.</content:encoded>
-	<dc:date>2019-06-04T00:00:00+00:00</dc:date>
-	<dc:creator>Avinun, R., Israel, S., Knodt, A. R., Hariri, A. R.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007092">
 	<title>PLOS Computational Biology: New Articles: Emergent decision-making behaviour and rhythm generation in a computational model of the ventromedial nucleus of the hypothalamus</title>
@@ -2970,22 +2988,6 @@ Our data indicate that the absence of Schwann cell p75NTR expression in vivo is 
 	<content:encoded>Brain iron is an essential as well as a toxic redox active element. Physiological levels are not uniform among the different cell types. Besides the availability of quantitative methods, the knowledge about th...</content:encoded>
 	<dc:date>2019-05-29T00:00:00+00:00</dc:date>
 	<dc:creator>Anja Reinert, Markus Morawski, Johannes Seeger, Thomas Arendt and Tilo Reinert</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007069">
-	<title>PLOS Computational Biology: New Articles: Comprehensively benchmarking applications for detecting copy number variation</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/jyx7m2HRmyI/article</link>
-	<content:encoded>&lt;p&gt;by Le Zhang, Wanyu Bai, Na Yuan, Zhenglin Du&lt;/p&gt;
-
-Motivation: Recently, copy number variation (CNV) has gained considerable interest as a type of genomic variation that plays an important role in complex phenotypes and disease susceptibility. Since a number of CNV detection methods have recently been developed, it is necessary to help investigators choose suitable methods for CNV detection depending on their objectives. For this reason, this study compared ten commonly used CNV detection applications, including CNVnator, ReadDepth, RDXplorer, LUMPY and Control-FREEC, benchmarking the applications by sensitivity, specificity and computational demands. Taking the DGV gold standard variants as a standard dataset, we evaluated the ten applications with real sequencing data at sequencing depths from 5X to 50X. Among the ten methods benchmarked, LUMPY performs the best for both high sensitivity and specificity at each sequencing depth. For the purpose of high specificity, Canvas is also a good choice. If high sensitivity is preferred, CNVnator and RDXplorer are better choices. Additionally, CNVnator and GROM-RD perform well for low-depth sequencing data. Our results provide a comprehensive performance evaluation for these selected CNV detection methods and facilitate future development and improvement in CNV prediction methods.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/jyx7m2HRmyI&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2019-05-28T21:00:00+00:00</dc:date>
-	<dc:creator>Zhenglin Du</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007062">
-	<title>PLOS Computational Biology: New Articles: Correction: Accounting for non-stationarity in epidemiology by embedding time-varying parameters in stochastic models</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/lsX1YL1Bl2k/article</link>
-	<content:encoded>&lt;p&gt;by The PLOS Computational Biology Staff &lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/lsX1YL1Bl2k&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2019-05-28T21:00:00+00:00</dc:date>
-	<dc:creator>The PLOS Computational Biology Staff</dc:creator>
 </item>
 <item rdf:about="https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25508?af=R">
 	<title>Wiley: Annals of Neurology: Table of Contents: Induction of brain‐infiltrating T‐bet‐expressing B cells in multiple sclerosis</title>
