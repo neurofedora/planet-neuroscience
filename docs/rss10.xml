@@ -15,12 +15,17 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://arxiv.org/abs/1906.05803" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1906.05624" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1906.05584" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1906.05369" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007150" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007145" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007117" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007030" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007026" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006989" />
+			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/ENEURO.0472-18.2019v1?rss=1" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1906.05166" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41593-019-0446-8" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2019.00151" />
@@ -57,12 +62,12 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/669804v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/669572v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/669457v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/669424v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/669390v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/669333v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/669259v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/669226v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/669218v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/669200v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/669135v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007146" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007140" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007114" />
@@ -234,7 +239,6 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1906.01704" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1906.01703" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1906.01700" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1906.01678" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41583-019-0189-2" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2019.00148" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2019.00585" />
@@ -264,10 +268,6 @@
 			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/6/3/ENEURO.0126-19.2019?rss=1" />
 			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/ENEURO.0479-18.2019v1?rss=1" />
 			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/ENEURO.0087-19.2019v1?rss=1" />
-			<rdf:li rdf:resource="http://eneuro.org//cgi/content/short/6/3/ENEURO.0151-19.2019?rss=1" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1906.01539" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1906.01094" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1906.01039" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41593-019-0441-0" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41593-019-0402-7" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41583-019-0194-5" />
@@ -419,6 +419,109 @@
 	</items>
 </channel>
 
+<item rdf:about="http://arxiv.org/abs/1906.05803">
+	<title>q-bio.NC updates on arXiv.org: Modeling and Interpreting Real-world Human Risk Decision Making with Inverse Reinforcement Learning. (arXiv:1906.05803v1 [cs.LG])</title>
+	<link>http://arxiv.org/abs/1906.05803</link>
+	<content:encoded>&lt;p&gt;We model human decision-making behaviors in a risk-taking task using inverse
+reinforcement learning (IRL) for the purposes of understanding real human
+decision making under risk. To the best of our knowledge, this is the first
+work applying IRL to reveal the implicit reward function in human risk-taking
+decision making and to interpret risk-prone and risk-averse decision-making
+policies. We hypothesize that the state history (e.g. rewards and decisions in
+previous trials) are related to the human reward function, which leads to
+risk-averse and risk-prone decisions. We design features that reflect these
+factors in the reward function of IRL and learn the corresponding weight that
+is interpretable as the importance of features. The results confirm the
+sub-optimal risk-related decisions of human-driven by the personalized reward
+function. In particular, the risk-prone person tends to decide based on the
+current pump number, while the risk-averse person relies on burst information
+from the previous trial and the average end status. Our results demonstrate
+that IRL is an effective tool to model human decision-making behavior, as well
+as to help interpret the human psychological process in risk decision-making.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-06-14T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/cs/1/au:+Liu_Q/0/1/0/all/0/1">Quanying Liu</a>, <a href="http://arxiv.org/find/cs/1/au:+Wu_H/0/1/0/all/0/1">Haiyan Wu</a>, <a href="http://arxiv.org/find/cs/1/au:+Liu_A/0/1/0/all/0/1">Anqi Liu</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1906.05624">
+	<title>q-bio.NC updates on arXiv.org: Self-organized critical balanced networks: a unified framework. (arXiv:1906.05624v1 [nlin.AO])</title>
+	<link>http://arxiv.org/abs/1906.05624</link>
+	<content:encoded>&lt;p&gt;Asynchronous irregular (AI) and critical states are two competing frameworks
+proposed to explain spontaneous neuronal activity. Here, we propose a
+mean-field model with simple stochastic neurons that generalizes the
+integrate-and-fire network of Brunel (2000). We show that the point with
+balanced inhibitory/excitatory synaptic weight ratio $g_c \approx 4$
+corresponds to a second order absorbing phase transition usual in
+self-organized critical (SOC) models. At the synaptic balance point $g_c$, the
+network exhibits power-law neuronal avalanches with the usual exponents,
+whereas for nonzero external field the system displays the four usual
+synchronicity states of balanced networks. We add homeostatic inhibition and
+firing rate adaption and obtain a self-organized quasi-critical balanced state
+with avalanches and AI-like activity. Our model might explain why different
+inhibition levels are obtained in different experimental conditions and for
+different regions of the brain, since at least two dynamical mechanisms are
+necessary to obtain a truly balanced state, without which the network may hover
+in different regions of the presented theoretical phase diagram.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-06-14T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/nlin/1/au:+Girardi_Schappo_M/0/1/0/all/0/1">Mauricio Girardi-Schappo</a>, <a href="http://arxiv.org/find/nlin/1/au:+Brochini_L/0/1/0/all/0/1">Ludmila Brochini</a>, <a href="http://arxiv.org/find/nlin/1/au:+Costa_A/0/1/0/all/0/1">Ariadne A. Costa</a>, <a href="http://arxiv.org/find/nlin/1/au:+Carvalho_T/0/1/0/all/0/1">Tawan T. A. Carvalho</a>, <a href="http://arxiv.org/find/nlin/1/au:+Kinouchi_O/0/1/0/all/0/1">Osame Kinouchi</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1906.05584">
+	<title>q-bio.NC updates on arXiv.org: Information capacity of a network of spiking neurons. (arXiv:1906.05584v1 [q-bio.NC])</title>
+	<link>http://arxiv.org/abs/1906.05584</link>
+	<content:encoded>&lt;p&gt;We study a model of spiking neurons, with recurrent connections that result
+from learning a set of spatio-temporal patterns with a spike-timing dependent
+plasticity rule and a global inhibition. We investigate the ability of the
+network to store and selectively replay multiple patterns of spikes, with a
+combination of spatial population and phase-of-spike code. Each neuron in a
+pattern is characterized by a binary variable determining if the neuron is
+active in the pattern, and a phase-lag variable representing the spike-timing
+order among the active units. After the learning stage, we study the dynamics
+of the network induced by a brief cue stimulation, and verify that the network
+is able to selectively replay the pattern correctly and persistently. We
+calculate the information capacity of the network, defined as the maximum
+number of patterns that can be encoded in the network times the number of bits
+carried by each pattern, normalized by the number of synapses, and find that it
+can reach a value $\alpha_\text{max}\simeq 0.27$, similar to the one of
+sequence processing neural networks, and almost double of the capacity of the
+static Hopfield model. We study the dependence of the capacity on the global
+inhibition, connection strength (or neuron threshold) and fraction of neurons
+participating to the patterns. The results show that a dual population and
+temporal coding can be optimal for the capacity of an associative memory.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-06-14T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Scarpetta_S/0/1/0/all/0/1">S. Scarpetta</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Candia_A/0/1/0/all/0/1">A. de Candia</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1906.05369">
+	<title>q-bio.NC updates on arXiv.org: Modeling functional resting-state brain networks through neural message passing on the human connectome. (arXiv:1906.05369v1 [q-bio.NC])</title>
+	<link>http://arxiv.org/abs/1906.05369</link>
+	<content:encoded>&lt;p&gt;Understanding the relationship between the structure and function of the
+human brain is one of the most important open questions in Neurosciences. In
+particular, Resting State Networks (RSN) and more specifically the Default Mode
+Network (DMN) of the brain, which are defined from the analysis of functional
+data lack a definitive justification consistent with the anatomical structure
+of the brain. In this work, we show that a possible connection may naturally
+rest on the idea that information flows in the brain through a neural
+message-passing dynamics between macroscopic structures, like those defined by
+the human connectome (HC). In our model, each brain region in the HC is assumed
+to have a binary behavior (active or not), the strength of interactions among
+them is encoded in the anatomical connectivity matrix defined by the HC, and
+the dynamics of the system is defined by a neural message-passing algorithm,
+Belief Propagation (BP), working near the critical point of the human
+connectome. We show that in the absence of direct external stimuli the BP
+algorithm converges to a spatial map of activations that is similar to the DMN.
+Moreover, we computed, using Susceptibility Propagation (SP), the matrix of
+correlations between the different regions and show that the modules defined by
+a clustering of this matrix resemble several Resting States Networks determined
+experimentally. Both results suggest that the functional DMN and RSNs can be
+seen as simple consequences of the anatomical structure of the brain and a
+neural message-passing dynamics between macroscopic regions. We then show
+preliminary results indicating our predictions on how functional DMN maps
+change when the anatomical brain network suffers structural anomalies, like in
+Alzheimers Disease and in lesions of the Corpus Callosum.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-06-14T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Peraza_Goicolea_J/0/1/0/all/0/1">Julio A. Peraza-Goicolea</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Martinez_Montes_E/0/1/0/all/0/1">Eduardo Mart&#xed;nez-Montes</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Aubert_E/0/1/0/all/0/1">Eduardo Aubert</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Valdes_Hernandez_P/0/1/0/all/0/1">Pedro A. Vald&#xe9;s-Hern&#xe1;ndez</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Mulet_R/0/1/0/all/0/1">Roberto Mulet</a></dc:creator>
+</item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007150">
 	<title>PLOS Computational Biology: New Articles: Integrative modeling of the HIV-1 ribonucleoprotein complex</title>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/PIz1FT_1HWo/article</link>
@@ -470,6 +573,13 @@ Bioinformatics has become an indispensable part of life science over the past 2 
 The Iowa Gambling Task (IGT) is one of the most common paradigms used to assess decision-making and executive functioning in neurological and psychiatric disorders. Several reinforcement-learning (RL) models were recently proposed to refine the qualitative and quantitative inferences that can be made about these processes based on IGT data. Yet, these models do not account for the complex exploratory patterns which characterize participants’ behavior in the task. Using a dataset of more than 500 subjects, we demonstrate the existence of sequential exploration in the IGT and we describe a new computational architecture disentangling exploitation, random exploration and sequential exploration in this large population of participants. The new Value plus Sequential Exploration (VSE) architecture provided a better fit than previous models. Parameter recovery, model recovery and simulation analyses confirmed the superiority of the VSE scheme. Furthermore, using the VSE model, we confirmed the existence of a significant reduction in directed exploration across lifespan in the IGT, as previously reported with other paradigms. Finally, we provide a user-friendly toolbox enabling researchers to easily and flexibly fit computational models on the IGT data, hence promoting reanalysis of the numerous datasets acquired in various populations of patients and contributing to the development of computational psychiatry.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/U7LFl-EDtNo&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2019-06-13T21:00:00+00:00</dc:date>
 	<dc:creator>Romain Ligneul</dc:creator>
+</item>
+<item rdf:about="http://eneuro.org//cgi/content/short/ENEURO.0472-18.2019v1?rss=1">
+	<title>RSS PAP: Dynamic brain interactions during picture naming</title>
+	<link>http://eneuro.org//cgi/content/short/ENEURO.0472-18.2019v1?rss=1</link>
+	<content:encoded>Abstract&lt;p&gt;Brain computations involve multiple processes by which sensory information is encoded and transformed to drive behavior. These computations are thought to be mediated by dynamic interactions between populations of neurons. Here we demonstrate that human brains exhibit a reliable sequence of neural interactions during speech production. We use an autoregressive hidden Markov model to identify dynamical network states exhibited by electrocorticographic signals recorded from human neurosurgical patients. Our method resolves dynamic latent network states on a trial-by-trial basis. We characterize individual network states according to the patterns of directional information flow between cortical regions of interest. These network states occur consistently and in a specific, interpretable sequence across trials and subjects: the data support the hypothesis of a fixed-length visual processing state, followed by a variable-length language state, and then by a terminal articulation state. This empirical evidence validates classical psycho-linguistic theories that have posited such intermediate states during speaking. It further reveals these state dynamics are not localized to one brain area or one sequence of areas, but are instead a network phenomenon.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Significance&lt;/b&gt; Cued speech production engages a distributed set of brain regions that must interact with each other to perform this behavior rapidly and precisely. To characterize the spatio-temporal properties of the networks engaged in picture naming, we recorded from electrodes placed directly on the brain surfaces of patients with epilepsy being evaluated for surgical resection. We used a flexible statistical model applied to broadband gamma to characterize changing brain interactions. Unlike conventional models, ours can identify changes on individual trials that correlate with behavior. Our results reveal that interactions between brain regions are consistent across trials. This flexible statistical model provides a useful platform for quantifying brain dynamics during cognitive processes.&lt;/p&gt;</content:encoded>
+	<dc:date>2019-06-13T16:30:09+00:00</dc:date>
+	<dc:creator>Giahi-Saravani, A., Forseth, K. J., Tandon, N., Pitkow, X.</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1906.05166">
 	<title>q-bio.NC updates on arXiv.org: Hysteresis, neural avalanches and critical behaviour near a first-order transition of a spiking neural network. (arXiv:1906.05166v1 [q-bio.NC])</title>
@@ -755,6 +865,13 @@ We for the first time showed that 17β-estradiol alleviated ketamine-induced neu
 	<dc:date>2019-06-13T00:00:00+00:00</dc:date>
 	<dc:creator>Nir, T., Jacob, Y., Huang, K.-H., Schwartz, A. E., Brallier, J. W., Ahn, H., Kundu, P., Tang, C. Y., Delman, B. N., McCormick, P. J., Sano, M., Deiner, S. G., Baxter, M. G., Mincer, J. S.</dc:creator>
 </item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/669424v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Neural correlates of perceptual switching while listening to bistable auditory streaming stimuli</title>
+	<link>http://biorxiv.org/cgi/content/short/669424v1?rss=1</link>
+	<content:encoded>Understanding the neural underpinning of conscious perception remains one of the primary challenges of cognitive neuroscience. Theories based mostly on studies of the visual system differ according to whether the neural activity giving rise to conscious perception occurs in modality-specific sensory cortex or in associative areas, such as the frontal and parietal cortices. Here, we search for modality-specific conscious processing in the auditory cortex using a bistable stream segregation paradigm that presents a constant stimulus without the confounding influence of physical changes to sound properties. ABA_ triplets (i.e., alternating low, A, and high, B, tones, and _ gap) with a 700 ms silent response period after every third triplet were presented repeatedly, and human participants reported nearly equivalent proportions of 1- and 2-stream percepts. The pattern of behavioral responses was consistent with previous studies of visual and auditory bistable perception. The intermittent response paradigm has the benefit of evoking spontaneous perceptual switches that can be attributed to a well-defined stimulus event, enabling precise identification of the timing of perception-related neural events with event-related potentials (ERPs). Significantly more negative ERPs were observed for 2-streams compared to 1-stream, and for switches compared to non-switches during the sustained potential (500-1000 ms post-stimulus onset). Further analyses revealed that the negativity associated with switching was independent of switch direction, suggesting that spontaneous changes in perception have a unique neural signature separate from the observation that 2-streams has more negative ERPs than 1-stream. Source analysis of the sustained potential showed activity associated with these differences originating in anterior superior temporal gyrus, indicating involvement of the ventral auditory pathway that is important for processing auditory objects.</content:encoded>
+	<dc:date>2019-06-13T00:00:00+00:00</dc:date>
+	<dc:creator>Higgins, N. C., Little, D. F., Yerkes, B. D., Nave, K. M., Kuruvilla-Mathew, A., Elhilali, M., Snyder, J. S.</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/669390v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: The thalamic basis of outcome and cognitive impairment in traumatic brain injury</title>
 	<link>http://biorxiv.org/cgi/content/short/669390v1?rss=1</link>
@@ -776,26 +893,19 @@ We for the first time showed that 17β-estradiol alleviated ketamine-induced neu
 	<dc:date>2019-06-13T00:00:00+00:00</dc:date>
 	<dc:creator>von Mohr, M., Kirsch, L. P., Loh, J. K., Fotopoulou, A.</dc:creator>
 </item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/669226v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: The spread of gap-junction mediated activity in neocortex is modulated by extracellular potassium</title>
+	<link>http://biorxiv.org/cgi/content/short/669226v1?rss=1</link>
+	<content:encoded>Parvalbumin-expressing interneurons in cortical networks are coupled by gap-junctions, thus forming a syncytium that supports propagating epileptiform discharges, induced by blocking voltage-gated K+ channels using 4-aminopyridine (4-AP). It remains unclear, however, whether these propagating events occur under more natural states, without pharmacological blockade. In particular, we investigated whether such propagation occurs when extracellular K+ rises, as is known to occur following intense network activity, such as during seizures. We examined how increasing [K+]o affects the likelihood of propagating activity away from a site of focal (200-400m), optogenetic activation of PV-interneurons. Activity was recorded using a linear 16-electrode array placed along layer 5 of primary visual cortex. At baseline levels of [K+]o (3.5mM), induced activity was recorded only within the illumination area. However, when [K+]o was increased above a threshold level (50th percentile = 8.0mM; interquartile range = 7.5-9.5mM), time-locked activity was also recorded outside the illumination area, propagating at 59.1 +/- 16.6 mm/s. Blockade of glutamatergic synaptic transmission reduced the efficacy of propagation. Propagation was further reduced, and in most cases prevented altogether, by pharmacological blockade of gap-junctions, achieved by any of three different drugs, quinine, mefloquine or carbenoxolone. Wash-out of quinine rapidly re-established the pattern of propagating activity. We modelled these activity patterns to illustrate key qualitative differences between propagating discharges in high [K+]o and 4-AP, arising from differences in the electrotonic effects of these two manipulations. We conclude that interneuronal syncytial interactions are likely to affect the complex electrographic dynamics of seizures, once [K+]o is raised above this threshold level.</content:encoded>
+	<dc:date>2019-06-13T00:00:00+00:00</dc:date>
+	<dc:creator>Papasavvas, C. A., Parrish, R. R., Trevelyan, A. J.</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/669218v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Approximate Bayesian Inference for a Mechanistic Model of Vesicle Release at a Ribbon Synapse</title>
 	<link>http://biorxiv.org/cgi/content/short/669218v1?rss=1</link>
 	<content:encoded>The inherent noise of neural systems makes it difficult to construct models which accurately capture experimental measurements of their activity. While much research has been done on how to efficiently model neural activity with descriptive models such as linear-nonlinear-models (LN), Bayesian inference for mechanistic models has received considerably less attention. One reason for this is that these models typically lead to intractable likelihoods and thus make parameter inference difficult. Here, we develop an approximate Bayesian inference scheme for a fully stochastic, biophysically inspired model of glutamate release at the ribbon synapse, a highly specialized synapse found in different sensory systems. The model translates known structural features of the ribbon synapse into a set of stochastically coupled equations. We approximate the posterior distributions by updating a parametric prior distribution via Bayesian updating rules. We show that model parameters can be efficiently estimated for synthetic and experimental data from in vivo two-photon experiments in the zebrafish retina. Also, we find that the model captures complex properties of the synaptic release such as the temporal precision. Our framework provides a viable path forward for linking mechanistic models of neural activity to measured data.</content:encoded>
 	<dc:date>2019-06-13T00:00:00+00:00</dc:date>
 	<dc:creator>Schroeder, C., James, B., Lagnado, L., Berens, P.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/669200v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Adaptability and efficiency in neural coding</title>
-	<link>http://biorxiv.org/cgi/content/short/669200v1?rss=1</link>
-	<content:encoded>Animals exhibit remarkable behavioral flexibility, robustly performing demanding tasks -- such as searching for food or avoiding predators -- in a variety of different contextual and environmental conditions. However, the demands that detecting and adjusting to changes in the environment place on a sensory system often differ from the demands associated with performing a specific behavioral task, even when both objectives rely on the same sensory modality. This necessitates neural encoding strategies that can dynamically balance these conflicting needs. Here, we develop a theoretical framework that explains how this balance can be achieved, and we use this framework to study tradeoffs in speed, performance, and information transmission that arise as a consequence of efficient coding in dynamic environments. This work generalizes current theories of efficient neural coding to dynamic environments, and thereby provides a unifying perspective on adaptive neural dynamics across different sensory systems, environments, and tasks.</content:encoded>
-	<dc:date>2019-06-13T00:00:00+00:00</dc:date>
-	<dc:creator>Mlynarski, W., Hermundstad, A. M.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/669135v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Early-Stage Ocular Hypertension Alters Retinal Ganglion Cell Synaptic Transmission in the Visual Thalamus</title>
-	<link>http://biorxiv.org/cgi/content/short/669135v1?rss=1</link>
-	<content:encoded>Axonopathy is a hallmark of many neurodegenerative diseases including glaucoma, where elevated intraocular pressure (ocular hypertension, OHT) stresses retinal ganglion cell (RGC) axons as they exit the eye and form the optic nerve. OHT causes early changes in the optic nerve such as axon atrophy, transport inhibition, and gliosis. Importantly, many of these changes appear to occur prior to irreversible neuronal loss, making them promising points for early diagnosis of glaucoma. It is unknown whether OHT has similarly early effects on the function of RGC output to the brain. To test this possibility, we elevated eye pressure in mice by anterior chamber injection of polystyrene microbeads. 5 weeks post-injection, bead-injected eyes showed a modest RGC loss in the peripheral retina, as evidenced by RBPMS antibody staining. Additionally, we observed reduced dendritic complexity and lower spontaneous spike rate of On-RGCs, targeted for patch clamp recording and dye filling using a Opn4-cre reporter mouse line. To determine the influence of OHT on retinal projections to the brain, we expressed Channelrhodopsin-2 (ChR2) in melanopsin-expressing retinal ganglion cells by crossing the Opn4-cre mouse line with a ChR2-reporter mouse line and recorded post-synaptic responses in thalamocortical relay neurons in the dorsal lateral geniculate nucleus (dLGN) of the thalamus evoked by stimulation with 460 nm light. The use of a Opn4-cre reporter system allowed for expression of ChR2 in a narrow subset of RGCs responsible for image-forming vision in mice. Five weeks following OHT induction, paired pulse and high-frequency stimulus train experiments revealed that presynaptic vesicle release probability at retinogeniculate synapses was elevated. Additionally, miniature synaptic current frequency was slightly reduced in brain slices from OHT mice and proximal dendrites of post-synaptic dLGN relay neurons, assessed using a Sholl analysis, showed a reduced complexity. Strikingly, these changes occurred prior to major loss of RGCs labeled with the Opn4-Cre mouse, as indicated by immunofluorescence staining of ChR2-expressing retinal neurons. Thus, OHT leads to pre- and post-synaptic functional and structural changes at retinogeniculate synapses. Along with RGC dendritic remodeling and optic nerve transport changes, these retinogeniculate synaptic changes are among the earliest signs of glaucoma.</content:encoded>
-	<dc:date>2019-06-13T00:00:00+00:00</dc:date>
-	<dc:creator>Bhandari, A., Smith, J. C., Zhang, Y., Reid, L., Goeser, T., Fan, S., Ghate, D., Van Hook, M. J.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007146">
 	<title>PLOS Computational Biology: New Articles: Correction: Infectious reactivation of cytomegalovirus explaining age- and sex-specific patterns of seroprevalence</title>
@@ -2691,27 +2801,6 @@ MAD.
 	<dc:date>2019-06-06T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Brink_Kjaer_A/0/1/0/all/0/1">Andreas Brink-Kjaer</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Olesen_A/0/1/0/all/0/1">Alexander Neergaard Olesen</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Peppard_P/0/1/0/all/0/1">Paul E. Peppard</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Stone_K/0/1/0/all/0/1">Katie L. Stone</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Jennum_P/0/1/0/all/0/1">Poul Jennum</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Mignot_E/0/1/0/all/0/1">Emmanuel Mignot</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Sorensen_H/0/1/0/all/0/1">Helge B.D. Sorensen</a></dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1906.01678">
-	<title>q-bio.NC updates on arXiv.org: Thermodynamic Neural Network. (arXiv:1906.01678v1 [q-bio.NC])</title>
-	<link>http://arxiv.org/abs/1906.01678</link>
-	<content:encoded>&lt;p&gt;This work describes a thermodynamically motivated neural network model that
-self-organizes to transport charge associated with internal and external
-potentials while in contact with a thermal bath. Isolated networks show
-multiscale dynamics and evidence of phase transitions, and externally driven
-networks evolve to efficiently connect external positive and negative
-potentials. The model implements techniques for rapid, global, reversible,
-conservative equilibration of node states followed by slow, local,
-irreversible, dissipative adaptation of the edge states as a means to create
-multiscale order. All interactions in the network are local and the network
-structures can be generic and recurrent. The model integrates concepts of
-fluctuation, dissipation, adaptation and equilibration and offers an
-illustration of the thermodynamic evolution of organization in open systems.
-The key conclusion of the work is that the dissipation of conserved physical
-quantities can drive the self-organization of open thermodynamic systems.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-06-06T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Hylton_T/0/1/0/all/0/1">Todd Hylton</a></dc:creator>
-</item>
 <item rdf:about="https://www.nature.com/articles/s41583-019-0189-2">
 	<title>Nature Reviews Neuroscience - Issue - nature.com science feeds: Striatal circuits for reward learning and decision-making</title>
 	<link>http://feeds.nature.com/~r/nrn/rss/current/~3/NY5PkaLoqtY/s41583-019-0189-2</link>
@@ -2957,83 +3046,6 @@ Dennis J. Selkoe</dc:creator>
 	<content:encoded>&lt;p&gt;The central nucleus of the amygdala (CeA) is a brain region implicated in anxiety, stress-related disorders and the reinforcing effects of drugs of abuse. Corticotropin-releasing factor (CRF, &lt;i&gt;Crh)&lt;/i&gt; acting at cognate type 1 receptors (CRF&lt;sub&gt;1&lt;/sub&gt;, &lt;i&gt;Crhr1&lt;/i&gt;) modulates inhibitory and excitatory synaptic transmission in the CeA. Here, we used CRF&lt;sub&gt;1&lt;/sub&gt;:GFP reporter mice to characterize the morphological, neurochemical and electrophysiological properties of CRF&lt;sub&gt;1&lt;/sub&gt; expressing (CRF&lt;sub&gt;1&lt;/sub&gt;+) and CRF&lt;sub&gt;1&lt;/sub&gt; non-expressing (CRF&lt;sub&gt;1&lt;/sub&gt;-) neurons in the CeA. We assessed these two neuronal populations for distinctions in the expression of GABAergic subpopulation markers and neuropeptides, dendritic spine density and morphology, and excitatory transmission. We observed that CeA CRF&lt;sub&gt;1&lt;/sub&gt;+ neurons are GABAergic but do not segregate with calbindin, calretinin, parvalbumin, or PKC. Among the neuropeptides analyzed, &lt;i&gt;Penk&lt;/i&gt; and &lt;i&gt;Sst&lt;/i&gt; had the highest percentage of co-expression with &lt;i&gt;Crhr1&lt;/i&gt; in both the medial and lateral CeA subdivisions. Additionally, CeA CRF&lt;sub&gt;1&lt;/sub&gt;+ neurons had a lower density of dendritic spines, which was offset by a higher proportion of mature spines compared to neighboring CRF&lt;sub&gt;1&lt;/sub&gt;- neurons. Accordingly, there was no difference in basal spontaneous glutamatergic transmission between the two populations. Application of CRF increased overall vescicular glutamate release onto both CRF&lt;sub&gt;1&lt;/sub&gt;+ and CRF&lt;sub&gt;1&lt;/sub&gt;- neurons, and does not effect amplitude or kinetics of excitatory post-synaptic currents in either population. These novel data highlight important differences in the neurochemical make-up and morphology of CRF&lt;sub&gt;1&lt;/sub&gt;+ compared to CRF&lt;sub&gt;1&lt;/sub&gt;- neurons, which may have important implications for the transduction of CRF signaling in the CeA.&lt;/p&gt;&lt;p&gt;&lt;b&gt;SIGNIFICANCE&lt;/b&gt; Corticotropin-releasing factor (CRF) is involved in emotional regulation via hypothalamic and amygdalar circuits, and is implicated in several psychiatric disorders including anxiety, depression, addiction, posttraumatic stress disorder, and eating disorders. Our novel identification of unique molecular, morphological and functional properties to distinguishing CRF&lt;sub&gt;1&lt;/sub&gt;+ neurons in the central amygdala represents a critical step in understanding the cellular role and dysregulation of the CRF system in pathological conditions.&lt;/p&gt;</content:encoded>
 	<dc:date>2019-06-05T16:30:15+00:00</dc:date>
 	<dc:creator>Wolfe, S. A., Sidhu, H., Patel, R. R., Kreifeldt, M., DAmbrosio, S. R., Contet, C., Roberto, M.</dc:creator>
-</item>
-<item rdf:about="http://eneuro.org//cgi/content/short/6/3/ENEURO.0151-19.2019?rss=1">
-	<title>eNeuro current issue: Characteristics of Waveform Shape in Parkinsons Disease Detected with Scalp Electroencephalography</title>
-	<link>http://eneuro.org//cgi/content/short/6/3/ENEURO.0151-19.2019?rss=1</link>
-	<content:encoded>Abstract
-&lt;p&gt;Neural activity in the β frequency range (13–30 Hz) is excessively synchronized in Parkinson’s disease (PD). Previous work using invasive intracranial recordings and non-invasive scalp electroencephalography (EEG) has shown that correlations between β phase and broad-band  (&amp;gt;50 Hz) amplitude [i.e., phase amplitude coupling (PAC)] are elevated in PD, perhaps a reflection of this synchrony. Recently, it has also been shown, in invasive human recordings, that non-sinusoidal features of β oscillation shape also characterize PD. Here, we show that these features of β waveform shape also distinguish PD patients on and off medication using non-invasive recordings in a dataset of 15 PD patients with resting scalp EEG. Specifically, β oscillations over sensorimotor electrodes in PD patients off medication had greater sharpness asymmetry and steepness asymmetry than on medication (sign rank, &lt;i&gt;p&lt;/i&gt; &amp;lt; 0.02, corrected). We also showed that β oscillations over sensorimotor cortex most often had a canonical shape, and that using this prototypical shape as an inclusion criteria increased the effect size of our findings. Together, our findings suggest that novel ways of measuring β synchrony that incorporate waveform shape could improve detection of PD pathophysiology in non-invasive recordings. Moreover, they motivate the consideration of waveform shape in future EEG studies.&lt;/p&gt;</content:encoded>
-	<dc:date>2019-06-05T14:17:16+00:00</dc:date>
-	<dc:creator>Jackson, N., Cole, S. R., Voytek, B., Swann, N. C.</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1906.01539">
-	<title>q-bio.NC updates on arXiv.org: Blackbox meets blackbox: Representational Similarity and Stability Analysis of Neural Language Models and Brains. (arXiv:1906.01539v2 [cs.AI] UPDATED)</title>
-	<link>http://arxiv.org/abs/1906.01539</link>
-	<content:encoded>&lt;p&gt;In this paper, we define and apply representational stability analysis
-(ReStA), an intuitive way of analyzing neural language models. ReStA is a
-variant of the popular representational similarity analysis (RSA) in cognitive
-neuroscience. While RSA can be used to compare representations in models, model
-components, and human brains, ReStA compares instances of the same model, while
-systematically varying single model parameter. Using ReStA, we study four
-recent and successful neural language models, and evaluate how sensitive their
-internal representations are to the amount of prior context. Using RSA, we
-perform a systematic study of how similar the representational spaces in the
-first and second (or higher) layers of these models are to each other and to
-patterns of activation in the human brain. Our results reveal surprisingly
-strong differences between language models, and give insights into where the
-deep linguistic processing, that integrates information over multiple
-sentences, is happening in these models. The combination of ReStA and RSA on
-models and brains allows us to start addressing the important question of what
-kind of linguistic processes we can hope to observe in fMRI brain imaging data.
-In particular, our results suggest that the data on story reading from Wehbe et
-al. (2014) contains a signal of shallow linguistic processing, but show no
-evidence on the more interesting deep linguistic processing.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-06-05T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/cs/1/au:+Abnar_S/0/1/0/all/0/1">Samira Abnar</a>, <a href="http://arxiv.org/find/cs/1/au:+Beinborn_L/0/1/0/all/0/1">Lisa Beinborn</a>, <a href="http://arxiv.org/find/cs/1/au:+Choenni_R/0/1/0/all/0/1">Rochelle Choenni</a>, <a href="http://arxiv.org/find/cs/1/au:+Zuidema_W/0/1/0/all/0/1">Willem Zuidema</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1906.01094">
-	<title>q-bio.NC updates on arXiv.org: A detailed study of recurrent neural networks used to model tasks in the cerebral cortex. (arXiv:1906.01094v1 [q-bio.NC])</title>
-	<link>http://arxiv.org/abs/1906.01094</link>
-	<content:encoded>&lt;p&gt;We studied the properties of simple recurrent neural networks trained to
-perform temporal tasks and also flow control tasks with temporal stimulus. We
-studied mainly three aspects: inner configuration sets, memory capacity with
-the scale of the models and finally immunity to induced damage on a trained
-network. Our results allow us to quantify different aspects of these models
-which are normally used as black boxes to model the biological response of
-cerebral cortex.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-06-05T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Jarne_C/0/1/0/all/0/1">C. Jarne</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Laje_R/0/1/0/all/0/1">R. Laje</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1906.01039">
-	<title>q-bio.NC updates on arXiv.org: Neural networks grown and self-organized by noise. (arXiv:1906.01039v1 [cs.NE])</title>
-	<link>http://arxiv.org/abs/1906.01039</link>
-	<content:encoded>&lt;p&gt;Living neural networks emerge through a process of growth and
-self-organization that begins with a single cell and results in a brain, an
-organized and functional computational device. Artificial neural networks,
-however, rely on human-designed, hand-programmed architectures for their
-remarkable performance. Can we develop artificial computational devices that
-can grow and self-organize without human intervention? In this paper, we
-propose a biologically inspired developmental algorithm that can 'grow' a
-functional, layered neural network from a single initial cell. The algorithm
-organizes inter-layer connections to construct a convolutional pooling layer, a
-key constituent of convolutional neural networks (CNN's). Our approach is
-inspired by the mechanisms employed by the early visual system to wire the
-retina to the lateral geniculate nucleus (LGN), days before animals open their
-eyes. The key ingredients for robust self-organization are an emergent
-spontaneous spatiotemporal activity wave in the first layer and a local
-learning rule in the second layer that 'learns' the underlying activity pattern
-in the first layer. The algorithm is adaptable to a wide-range of input-layer
-geometries, robust to malfunctioning units in the first layer, and so can be
-used to successfully grow and self-organize pooling architectures of different
-pool-sizes and shapes. The algorithm provides a primitive procedure for
-constructing layered neural networks through growth and self-organization.
-Broadly, our work shows that biologically inspired developmental algorithms can
-be applied to autonomously grow functional 'brains' in-silico.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-06-05T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/cs/1/au:+Raghavan_G/0/1/0/all/0/1">Guruprasad Raghavan</a>, <a href="http://arxiv.org/find/cs/1/au:+Thomson_M/0/1/0/all/0/1">Matt Thomson</a></dc:creator>
 </item>
 <item rdf:about="https://www.nature.com/articles/s41593-019-0441-0">
 	<title>Nature Neuroscience - Issue - nature.com science feeds: Publisher Correction: Neuronal deletion of Gtf2i, associated with Williams syndrome, causes behavioral and myelin alterations rescuable by a remyelinating drug</title>
