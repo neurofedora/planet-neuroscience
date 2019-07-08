@@ -15,7 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006681" />
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25533?af=R" />
+			<rdf:li rdf:resource="https://www.annualreviews.org/doi/abs/10.1146/annurev-neuro-080317-061906?ai=s2&amp;mi=3fndc3&amp;af=R" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1907.02936" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1907.02863" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1907.02862" />
@@ -45,6 +47,7 @@
 			<rdf:li rdf:resource="https://dx.doi.org/10.7554/eLife.43803" />
 			<rdf:li rdf:resource="https://dx.doi.org/10.7554/eLife.40499" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30532-X?rss=yes" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/696112v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/695825v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/695718v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/695692v1?rss=1" />
@@ -53,7 +56,9 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/695122v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/694778v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/694489v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/690958v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/690735v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/681130v1?rss=1" />
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25544?af=R" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/695288v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/695221v1?rss=1" />
@@ -63,9 +68,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/694653v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/694596v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/694471v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/694430v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/694356v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/694331v1?rss=1" />
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30092-X?rss=yes" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007126" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007088" />
@@ -287,7 +289,6 @@
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30531-8?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30521-5?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30496-9?rss=yes" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007105" />
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25522?af=R" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/39/26/5234?rss=1" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/39/26/5222?rss=1" />
@@ -414,11 +415,19 @@
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnana.2019.00062" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnana.2019.00059" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41583-019-0199-0" />
-			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2019.00155" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006681">
+	<title>PLOS Computational Biology: New Articles: Human online adaptation to changes in prior probability</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/It-Ebd4v1rU/article</link>
+	<content:encoded>&lt;p&gt;by Elyse H. Norton, Luigi Acerbi, Wei Ji Ma, Michael S. Landy&lt;/p&gt;
+
+Optimal sensory decision-making requires the combination of uncertain sensory signals with prior expectations. The effect of prior probability is often described as a shift in the decision criterion. Can observers track sudden changes in probability? To answer this question, we used a change-point detection paradigm that is frequently used to examine behavior in changing environments. In a pair of orientation-categorization tasks, we investigated the effects of changing probabilities on decision-making. In both tasks, category probability was updated using a sample-and-hold procedure: probability was held constant for a period of time before jumping to another probability state that was randomly selected from a predetermined set of probability states. We developed an ideal Bayesian change-point detection model in which the observer marginalizes over both the current run length (i.e., time since last change) and the current category probability. We compared this model to various alternative models that correspond to different strategies—from approximately Bayesian to simple heuristics—that the observers may have adopted to update their beliefs about probabilities. While a number of models provided decent fits to the data, model comparison favored a model in which probability is estimated following an exponential averaging model with a bias towards equal priors, consistent with a conservative bias and a flexible variant of the Bayesian change-point detection model with incorrect beliefs. We interpret the former as a simpler, more biologically plausible explanation suggesting that the mechanism underlying change of decision criterion is a combination of on-line estimation of prior probability and a stable, long-term equal-probability prior, thus operating at two very different timescales.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/It-Ebd4v1rU&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2019-07-08T21:00:00+00:00</dc:date>
+	<dc:creator>Michael S. Landy</dc:creator>
+</item>
 <item rdf:about="/doi/abs/10.1002/ana.25533?af=R">
 	<title>Wiley: Annals of Neurology: Table of Contents: Nusinersen in type 1 spinal muscular atrophy: Twelve‐month real‐world data</title>
 	<link>https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25533?af=R</link>
@@ -461,6 +470,13 @@ Giuseppe Vita,
 Francesco Danilo Tiziano, 
 Eugenio Mercuri, 
 on behalf of the Italian Expanded Access Program Working Group</dc:creator>
+</item>
+<item rdf:about="https://www.annualreviews.org/doi/abs/10.1146/annurev-neuro-080317-061906?ai=s2&amp;mi=3fndc3&amp;af=R">
+	<title>Annual Reviews: Annual Review of Neuroscience: Table of Contents: Peeling the Onion of Brain Representations</title>
+	<link>https://www.annualreviews.org/doi/abs/10.1146/annurev-neuro-080317-061906?ai=s2&amp;mi=3fndc3&amp;af=R</link>
+	<content:encoded>Annual Review of Neuroscience, &lt;a href=&quot;https://www.annualreviews.org/toc/neuro/42/1&quot;&gt;Volume 42, Issue 1&lt;/a&gt;, Page 407-432, July 2019. &lt;br /&gt;</content:encoded>
+	<dc:date>2019-07-08T10:16:33+00:00</dc:date>
+	<dc:creator>Nikolaus Kriegeskorte</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1907.02936">
 	<title>q-bio.NC updates on arXiv.org: An Approximate Bayesian Approach to Surprise-Based Learning. (arXiv:1907.02936v1 [stat.ML])</title>
@@ -829,6 +845,13 @@ areas, hence this special issue.
 	<dc:date>2019-07-08T00:00:00+00:00</dc:date>
 	<dc:creator>Yu Xin, Lin Zhong, Yuan Zhang, Taotao Zhou, Jingwei Pan, Ning-long Xu</dc:creator>
 </item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/696112v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Threat imminence dictates the role of the bed nucleus of the stria terminalis in contextual fear</title>
+	<link>http://biorxiv.org/cgi/content/short/696112v1?rss=1</link>
+	<content:encoded>Previous work indicates that the bed nucleus of the stria terminalis (BNST) is involved in defensive freezing to unpredictable Pavlovian conditioned stimuli (Goode et al., 2019). Here we show that the BNST mediates freezing to contexts paired with remote (unpredictable), but not imminent (predictable), footshock. Rats underwent a fear conditioning procedure in which a single footshock unconditioned stimulus (US) was delivered either 1 (imminent) or 9 minutes (remote) after placement in the context; each rat received a total of four conditioning trials over two days. Contexts associated with either imminent or remote USs produced distinct patterns of freezing and shock-induced activity but freezing in each case was context-dependent. Reversible inactivation of the BNST reduced the expression of contextual freezing in the context paired with remote, but not imminent, footshock. Implications of these data are discussed in light of recent conceptualizations of BNST function, as well as for anxiety behaviors.</content:encoded>
+	<dc:date>2019-07-08T00:00:00+00:00</dc:date>
+	<dc:creator>Goode, T. D., Acca, G. M., Maren, S.</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/695825v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Relationship between depressive symptoms and cumulative 24-hour urinary norepinephrine excretion level among undergraduate medical students in Uganda</title>
 	<link>http://biorxiv.org/cgi/content/short/695825v1?rss=1</link>
@@ -885,12 +908,26 @@ areas, hence this special issue.
 	<dc:date>2019-07-08T00:00:00+00:00</dc:date>
 	<dc:creator>Cui, Z., Li, H., Xia, C. H., Larsen, B., Adebimpe, A., Baum, G. L., Cieslak, M., Gur, R. E., Gur, R. C., Moore, T. M., Oathes, D. J., Alexander-Bloch, A. F., Raznahan, A., Roalf, D. R., Shinohara, R. T., Wolf, D. H., Davatzikos, C., Bassett, D. S., Fair, D. A., Fan, Y., Satterthwaite, T. D.</dc:creator>
 </item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/690958v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Sensitivity and specificity of a Bayesian single trial analysis for time varying neural signals</title>
+	<link>http://biorxiv.org/cgi/content/short/690958v1?rss=1</link>
+	<content:encoded>We recently reported the existence of fluctuations in neural signals that may permit neurons to code multiple simultaneous stimuli sequentially across time. This required deploying a novel statistical approach to permit investigation of neural activity at the scale of individual trials. Here we present tests using synthetic data to assess the sensitivity and specificity of this analysis. Data sets were fabricated to match each of several potential response patterns derived from single-stimulus response distributions. In particular, we simulated dual stimulus trial spike counts that reflected fluctuating mixtures of the single stimulus spike counts, stable intermediate averages, single stimulus winner-take-all, or response distributions that were outside the range defined by the single stimulus responses (such as summation or suppression). We then assessed how well the analysis recovered the correct response pattern as a function of the number of simulated trials and the difference between the simulated responses to each stimulus alone. We found excellent recovery of the mixture, intermediate, and outside categories (&amp;gt;97% correct), and good recovery of the single/winner-take-all category (&amp;gt;90% correct) when the number of trials was &amp;gt;20 and the single-stimulus response rates were 50Hz and 20Hz respectively. Both larger numbers of trials and greater separation between the single stimulus firing rates improved categorization accuracy. The results provide a valid benchmark, and guidelines for data collection, for use of this method to investigate coding of multiple items at the individual-trial time scale.</content:encoded>
+	<dc:date>2019-07-08T00:00:00+00:00</dc:date>
+	<dc:creator>Mohl, J. T., Caruso, V. C., Tokdar, S. T., Groh, J. M.</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/690735v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Development and validation of a novel oral oxycodone self-administration protocol for female and male rats</title>
 	<link>http://biorxiv.org/cgi/content/short/690735v1?rss=1</link>
 	<content:encoded>The increased abuse of opioids - such as oxycodone - poses major challenges for health and socioeconomic systems. Here we present a novel oral oxycodone self-administration paradigm in rats that recapitulates key aspects of prescription opioid abuse: voluntary drug intake, long-term opioid exposure, measurable levels of dependence, and increased motivation to take drug. Adult female and male Long-Evans rats were given unlimited, home cage access to two bottles containing water (Control rats) or one bottle of water and one bottle of Oxycodone dissolved in water (Experimental rats). Virtually all Experimental rats voluntarily drank oxycodone (~10 mg/kg/day) and escalated their intake over 22 weeks. Females self-administered twice as much oxycodone as males, leading to greater levels of oxycodone in blood, and engaged in more gnawing behavior. Precipitated withdrawal revealed high levels of dependence in both sexes in the total withdrawal score and in individual withdrawal behaviors. Reflecting motivation to drink oxycodone, citric acid at ascendant concentrations suppressed the intake of oxycodone (Experimental rats) and the intake of water (Control rats); however Experimental rats returned to pre-citric acid preference levels whereas Controls rats did not. Finally, long-term exposure to oxycodone reduced the alpha diversity of the gut microbiome compared to water Controls but had varying effects on the relative abundance of select bacterial Phyla. Thus, our model reproduces in female and male rats many of the features of human oxycodone abuse, and provides a paradigm for both understanding mechanisms that mediate long-term voluntary drug use and for exploring potential treatment options.</content:encoded>
 	<dc:date>2019-07-08T00:00:00+00:00</dc:date>
 	<dc:creator>Zanni, G., Featherstone, B. S., DeSalle, M. J., Deutsch, H. M., Barr, G. A., Eisch, A. J.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/681130v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Eye position signals in the dorsal pulvinar during fixation and goal-directed saccades</title>
+	<link>http://biorxiv.org/cgi/content/short/681130v1?rss=1</link>
+	<content:encoded>Most sensorimotor cortical areas contain eye position information thought to ensure perceptual stability across saccades and underlie spatial transformations supporting goal-directed actions. One pathway by which eye position signals could be relayed to and across cortical areas is via the dorsal pulvinar. Several studies demonstrated saccade-related activity in the dorsal pulvinar and we have recently shown that many neurons exhibit post-saccadic spatial preference long after the saccade execution. In addition, dorsal pulvinar lesions lead to gaze-holding deficits expressed as nystagmus or ipsilesional gaze bias, prompting us to investigate the effects of eye position. We tested three starting eye positions (-15{degrees}/0{degrees}/15{degrees}) in monkeys performing a visually-cued memory saccade task. We found two main types of gaze dependence. First, ~50% of neurons showed an effect of static gaze direction during initial and post-saccadic fixation. Eccentric gaze preference was more common than straight ahead. Some of these neurons were not visually-responsive and might be primarily signaling the position of the eyes in the orbit, or coding foveal targets in a head/body/world-centered reference frame. Second, many neurons showed a combination of eye-centered and gaze-dependent modulation of visual, memory and saccadic responses to a peripheral target. A small subset showed effects consistent with eye position-dependent gain modulation. Analysis of reference frames across task epochs from visual cue to post-saccadic target fixation indicated a transition from predominantly eye-centered encoding to representation of final gaze or foveated locations in non-retinocentric coordinates. These results show that dorsal pulvinar neurons carry information about eye position, which could contribute to steady gaze during postural changes and to reference frame transformations for visually-guided eye and limb movements.</content:encoded>
+	<dc:date>2019-07-08T00:00:00+00:00</dc:date>
+	<dc:creator>Schneider, L., Dominguez Vargas, A. U., Gibson, L., Kagan, I., Wilke, M.</dc:creator>
 </item>
 <item rdf:about="/doi/abs/10.1002/ana.25544?af=R">
 	<title>Wiley: Annals of Neurology: Table of Contents: IV Thrombolysis prior to Mechanical Thrombectomy in Large Vessel Occlusions</title>
@@ -984,27 +1021,6 @@ Georgios Tsivgoulis</dc:creator>
 	<content:encoded>Animal behaviour is dynamic, evolving over multiple timescales from milliseconds to days and even across a lifetime. To understand the mechanisms governing these dynamics, it is necessary to capture multi-timescale structure from behavioural data. Here, we develop computational tools and study the behaviour of hundreds of larval zebrafish tracked continuously across multiple 24-hour day/night cycles. We extracted millions of movements and pauses, termed bouts, and used unsupervised learning to reduce each larva's behaviour to an alternating sequence of active and inactive bout types, termed modules. Through hierarchical compression, we identified recurrent behavioural patterns, termed motifs. Module and motif usage varied across the day/night cycle, revealing structure at subsecond to day-long timescales. We further demonstrate that module and motif analysis can uncover novel pharmacological and genetic mutant phenotypes. Overall, our work reveals the organisation of larval zebrafish behaviour at multiple timescales and provides tools to identify structure from large-scale behavioural datasets.</content:encoded>
 	<dc:date>2019-07-07T00:00:00+00:00</dc:date>
 	<dc:creator>Ghosh, M., Rihel, J.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/694430v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Explicit strategies in force field adaptation</title>
-	<link>http://biorxiv.org/cgi/content/short/694430v1?rss=1</link>
-	<content:encoded>In recent years, it has become increasingly clear that a number of learning processes are at play in visuomotor adaptation tasks. In addition to the presumed formation of an internal model of the perturbation, learners can also develop explicit knowledge allowing them to select better actions in responding to a given perturbation. Advances in visuomotor rotation experiments have underscored the important role that such &quot;explicit learning&quot; plays in shaping adaptation to kinematic perturbations. Yet, in adaptation to dynamic perturbations, its contribution has been largely overlooked, potentially because compensation of a viscous force field, for instance, is difficult to assess by commonly-used verbalization-based approaches. We therefore sought to assess the contribution of explicit learning in learners adapting to a dynamic perturbation by two novel modifications of a force field experiment. First, via an elimination approach, we asked learners to abandon any cognitive strategy before selected force channel trials to expose consciously accessible parts of overall learning. Learners indeed reduced compensatory force compared to standard Catch channels. Second, via a manual reporting approach, we instructed a group of learners to mimic their right hand's adaptation by moving with their naive left hand. While a control group displayed negligible left-hand force compensation, the Mimic group reported forces that approximated right-hand adaptation but appeared to under-report the velocity component of the force field in favor of a more position-based component. We take these results to clearly demonstrate the contribution of explicit learning to force adaptation, underscoring its relevance to motor learning in general.</content:encoded>
-	<dc:date>2019-07-07T00:00:00+00:00</dc:date>
-	<dc:creator>Schween, R., McDougle, S. D., Hegele, M., Taylor, J. A.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/694356v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Brainstem mechanisms contributing to accurate source localisation are suited to the reverberant structure of natural acoustic scenes</title>
-	<link>http://biorxiv.org/cgi/content/short/694356v1?rss=1</link>
-	<content:encoded>Listeners perceive sound energy as originating from the direction of its source, even when followed only milliseconds later by reflected energy from multiple different directions. Here, modelling responses of brainstem neurons responsible for encoding auditory spatial cues, we demonstrate that accurate localisation in reverberant environments relies on pre- and post-synaptic specializations that emphasise spatial information in early-arriving sound energy. Synaptic depression in spherical bushy cells (SBCs) of the cochlear nucleus, and outwardly-rectifying membrane currents in SBCs and neurons of the medial superior olive (MSO) to which SBCs project bilaterally, are necessary to account for human listening performance. These biophysical properties appear suited to efficient coding of spatial information, emphasising early-arriving spatial information, particularly at sound frequencies where reverberant energy is relatively intense. Applied to lateralisation of human speech in a virtual reverberant room, we show that frequency-dependent membrane properties enhance correct, over spurious, localisation cues at the earliest stages of spatial processing.</content:encoded>
-	<dc:date>2019-07-07T00:00:00+00:00</dc:date>
-	<dc:creator>Brughera, A., Mikiel-Hunter, J., Dietz, M., McAlpine, D.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/694331v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Pattern recovery by recurrent circuits in piriform cortex</title>
-	<link>http://biorxiv.org/cgi/content/short/694331v1?rss=1</link>
-	<content:encoded>Pattern completion, or the ability to retrieve stable neural activity patterns from noisy or partial cues, is a fundamental feature of memory. Theoretical studies indicate that recurrently connected auto-associative or discrete attractor network models can perform this process. Although phenomenological evidence for pattern completion and attractor dynamics have been described in various recurrent neural circuits, the crucial role that recurrent circuitry plays in implementing these processes has not been shown. Here we show that although odor representations in mouse olfactory bulb degrade under anesthesia, responses in downstream piriform cortex remain robust. Recurrent connections are required to stabilize cortical odor representations across states. Moreover, piriform odor representations exhibit attractor dynamics, both within and across trials, and these are also abolished when recurrent circuitry is eliminated. Thus, an auto-associative cortical circuit stabilizes output in response to degraded input, and the recurrent circuitry that defines these networks is required for this stabilization.</content:encoded>
-	<dc:date>2019-07-07T00:00:00+00:00</dc:date>
-	<dc:creator>Bolding, K. A., Nagappan, S., Han, B.-X., Wang, F., Franks, K.</dc:creator>
 </item>
 <item rdf:about="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30092-X?rss=yes">
 	<title>Trends in Neurosciences: Can GBA1-Associated Parkinson Disease Be Modeled in the Mouse?</title>
@@ -3128,15 +3144,6 @@ Our findings show that centrality dynamics can be used to identify between-group
 	<dc:date>2019-06-27T00:00:00+00:00</dc:date>
 	<dc:creator>Samuele G. Marro, Soham Chanda, Nan Yang, Justyna A. Janas, Giulio Valperga, Justin Trotter, Bo Zhou, Sean Merrill, Issa Yousif, Hannah Shelby, Hannes Vogel, M. Yashar S. Kalani, Thomas C. Südhof, Marius Wernig</dc:creator>
 </item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007105">
-	<title>PLOS Computational Biology: New Articles: &lt;i&gt;Drosophila melanogaster&lt;/i&gt; grooming possesses syntax with distinct rules at different temporal scales</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/fwAAXXVTVxw/article</link>
-	<content:encoded>&lt;p&gt;by Joshua M. Mueller, Primoz Ravbar, Julie H. Simpson, Jean M. Carlson&lt;/p&gt;
-
-Mathematical modeling of behavioral sequences yields insight into the rules and mechanisms underlying sequence generation. Grooming in &lt;i&gt;Drosophila melanogaster&lt;/i&gt; is characterized by repeated execution of distinct, stereotyped actions in variable order. Experiments demonstrate that, following stimulation by an irritant, grooming progresses gradually from an early phase dominated by anterior cleaning to a later phase with increased walking and posterior cleaning. We also observe that, at an intermediate temporal scale, there is a strong relationship between the amount of time spent performing body-directed grooming actions and leg-directed actions. We then develop a series of data-driven Markov models that isolate and identify the behavioral features governing transitions between individual grooming bouts. We identify action order as the primary driver of probabilistic, but non-random, syntax structure, as has previously been identified. Subsequent models incorporate grooming bout duration, which also contributes significantly to sequence structure. Our results show that, surprisingly, the syntactic rules underlying probabilistic grooming transitions possess action duration-dependent structure, suggesting that sensory input-independent mechanisms guide grooming behavior at short time scales. Finally, the inclusion of a simple rule that modifies grooming transition probabilities over time yields a generative model that recapitulates the key features of observed grooming sequences at several time scales. These discoveries suggest that sensory input guides action selection by modulating internally generated dynamics. Additionally, the discovery of these principles governing grooming in &lt;i&gt;D. melanogaster&lt;/i&gt; demonstrates the utility of incorporating temporal information when characterizing the syntax of behavioral sequences.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/fwAAXXVTVxw&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2019-06-26T21:00:00+00:00</dc:date>
-	<dc:creator>Jean M. Carlson</dc:creator>
-</item>
 <item rdf:about="/doi/abs/10.1002/ana.25522?af=R">
 	<title>Wiley: Annals of Neurology: Table of Contents: Autism and developmental disability caused by KCNQ3 gain‐of‐function variants</title>
 	<link>https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25522?af=R</link>
@@ -4281,13 +4288,6 @@ This experiment suggests us that deep learning, is a powerful and convenient met
 	<content:encoded>&lt;p&gt;Nature Reviews Neuroscience, Published online: 18 June 2019; &lt;a href=&quot;https://www.nature.com/articles/s41583-019-0199-0&quot;&gt;doi:10.1038/s41583-019-0199-0&lt;/a&gt;&lt;/p&gt;The encoding of salient events as memory traces involves the selective activation of specific neurons in the hippocampus and the inhibition of others, a process shown here to be regulated by GABAergic input from the nucleus incertus in the brainstem.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nrn/rss/current/~4/ymqZJ855J_s&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2019-06-18T00:00:00+00:00</dc:date>
 	<dc:creator>Sian Lewis</dc:creator>
-</item>
-<item rdf:about="https://www.frontiersin.org/articles/10.3389/fnmol.2019.00155">
-	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Shank3 Mice Carrying the Human Q321R Mutation Display Enhanced Self-Grooming, Abnormal Electroencephalogram Patterns, and Suppressed Neuronal Excitability and Seizure Susceptibility</title>
-	<link>https://www.frontiersin.org/articles/10.3389/fnmol.2019.00155</link>
-	<content:encoded>Shank3, a postsynaptic scaffolding protein involved in regulating excitatory synapse assembly and function, has been implicated in several brain disorders, including autism spectrum disorders (ASD), Phelan-McDermid syndrome, schizophrenia, intellectual disability, and mania. Here we generated and characterized a Shank3 knock-in mouse line carrying the Q321R mutation (Shank3Q321R mice) identified in a human individual with ASD that affects the ankyrin repeat region (ARR) domain of the Shank3 protein. Homozygous Shank3Q321R/Q321R mice show a selective decrease in the level of Shank3a, an ARR-containing protein variant, but not other variants. CA1 pyramidal neurons in the Shank3Q321R/Q321R hippocampus show decreased neuronal excitability but normal excitatory and inhibitory synaptic transmission. Behaviorally, Shank3Q321R/Q321R mice show moderately enhanced self-grooming and anxiolytic-like behavior, but normal locomotion, social interaction, and object recognition and contextual fear memory. In addition, these mice show abnormal electroencephalogram (EEG) patterns and decreased susceptibility to induced seizures. These results indicate that the Q321R mutation alters Shank3 protein stability, neuronal excitability, repetitive and anxiety-like behavior, EEG patterns, and seizure susceptibility in mice.</content:encoded>
-	<dc:date>2019-06-18T00:00:00+00:00</dc:date>
-	<dc:creator>Ye-Eun Yoo</dc:creator>
 </item>
 
 </rdf:RDF>
