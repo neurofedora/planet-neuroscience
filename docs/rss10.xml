@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://arxiv.org/abs/1907.05395" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1907.05060" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007206" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007187" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007106" />
@@ -25,6 +27,7 @@
 			<rdf:li rdf:resource="http://www.eneuro.org/cgi/content/short/ENEURO.0095-19.2019v1?rss=1" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1907.04412" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1810.00816" />
+			<rdf:li rdf:resource="https://www.nature.com/articles/s41583-019-0204-7" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2019.00171" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2019.00719" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2019.00705" />
@@ -46,6 +49,7 @@
 			<rdf:li rdf:resource="https://dx.doi.org/10.7554/eLife.43235" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30561-6?rss=yes" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/699892v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/699884v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/699868v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/699785v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/699736v1?rss=1" />
@@ -127,7 +131,6 @@
 			<rdf:li rdf:resource="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0516-6" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/698282v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/698274v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/698241v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007156" />
 			<rdf:li rdf:resource="http://www.pnas.org/content/116/28/14386.short?rss=1" />
 			<rdf:li rdf:resource="http://www.pnas.org/content/116/28/14385.short?rss=1" />
@@ -163,8 +166,6 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1811.09588" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1811.07408" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1811.04512" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1310.1678" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1310.1668" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41583-019-0197-2" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2019.00169" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2019.00164" />
@@ -414,11 +415,55 @@
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818301405" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818301132" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818300497" />
-			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818300187" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://arxiv.org/abs/1907.05395">
+	<title>q-bio.NC updates on arXiv.org: Cortical Surface Parcellation using Spherical Convolutional Neural Networks. (arXiv:1907.05395v1 [q-bio.NC])</title>
+	<link>http://arxiv.org/abs/1907.05395</link>
+	<content:encoded>&lt;p&gt;We present cortical surface parcellation using spherical deep convolutional
+neural networks. Traditional multi-atlas cortical surface parcellation requires
+inter-subject surface registration using geometric features with high
+processing time on a single subject (2-3 hours). Moreover, even optimal surface
+registration does not necessarily produce optimal cortical parcellation as
+parcel boundaries are not fully matched to the geometric features. In this
+context, a choice of training features is important for accurate cortical
+parcellation. To utilize the networks efficiently, we propose cortical
+parcellation-specific input data from an irregular and complicated structure of
+cortical surfaces. To this end, we align ground-truth cortical parcel
+boundaries and use their resulting deformation fields to generate new pairs of
+deformed geometric features and parcellation maps. To extend the capability of
+the networks, we then smoothly morph cortical geometric features and
+parcellation maps using the intermediate deformation fields. We validate our
+method on 427 adult brains for 49 labels. The experimental results show that
+our method out-performs traditional multi-atlas and naive spherical U-Net
+approaches, while achieving full cortical parcellation in less than a minute.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-07-12T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Parvathaneni_P/0/1/0/all/0/1">Prasanna Parvathaneni</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Bao_S/0/1/0/all/0/1">Shunxing Bao</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Nath_V/0/1/0/all/0/1">Vishwesh Nath</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Woodward_N/0/1/0/all/0/1">Neil D. Woodward</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Claassen_D/0/1/0/all/0/1">Daniel O. Claassen</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Cascio_C/0/1/0/all/0/1">Carissa J. Cascio</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Zald_D/0/1/0/all/0/1">David H. Zald</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Huo_Y/0/1/0/all/0/1">Yuankai Huo</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Landman_B/0/1/0/all/0/1">Bennett A. Landman</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Lyu_I/0/1/0/all/0/1">Ilwoo Lyu</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1907.05060">
+	<title>q-bio.NC updates on arXiv.org: From Single Neurons to Behavior in the Jellyfish Aurelia aurita. (arXiv:1907.05060v1 [q-bio.NC])</title>
+	<link>http://arxiv.org/abs/1907.05060</link>
+	<content:encoded>&lt;p&gt;Jellyfish nerve nets provide insight into the origins of nervous systems, as
+both their taxonomic position and their evolutionary age imply that jellyfish
+resemble some of the earliest neuron-bearing, actively-swimming animals. Here
+we develop the first neuronal network model for the nerve nets of jellyfish.
+Specifically, we focus on the moon jelly Aurelia aurita and the control of its
+energy-efficient swimming motion. The proposed single neuron model disentangles
+the contributions of different currents to a spike. The network model
+identifies factors ensuring non-pathological activity and suggests an
+optimization for the transmission of signals. After modeling the jellyfish's
+muscle system and its bell in a hydrodynamic environment, we explore the
+swimming elicited by neural activity. We find that different delays between
+nerve net activations lead to well-controlled, differently directed movements.
+Our model bridges the scales from single neurons to behavior, allowing for a
+comprehensive understanding of jellyfish neural control.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-07-12T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Pallasdies_F/0/1/0/all/0/1">Fabian Pallasdies</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Goedeke_S/0/1/0/all/0/1">Sven Goedeke</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Braun_W/0/1/0/all/0/1">Wilhelm Braun</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Memmesheimer_R/0/1/0/all/0/1">Raoul-Martin Memmesheimer</a></dc:creator>
+</item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007206">
 	<title>PLOS Computational Biology: New Articles: PrediTALE: A novel model learned from quantitative data allows for new perspectives on TALE targeting</title>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/zalOH3GnNWw/article</link>
@@ -541,6 +586,13 @@ slow-wave dynamics and memory diseases.
 &lt;/p&gt;</content:encoded>
 	<dc:date>2019-07-11T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Nghiem_T/0/1/0/all/0/1">Trang-Anh E. Nghiem</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Tort_Colet_N/0/1/0/all/0/1">N&#xfa;ria Tort-Colet</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Gorski_T/0/1/0/all/0/1">Tomasz G&#xf3;rski</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Ferrari_U/0/1/0/all/0/1">Ulisse Ferrari</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Moghimyfiroozabad_S/0/1/0/all/0/1">Shayan Moghimyfiroozabad</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Goldman_J/0/1/0/all/0/1">Jennifer S. Goldman</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Telenczuk_B/0/1/0/all/0/1">Bartosz Tele&#x144;czuk</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Capone_C/0/1/0/all/0/1">Cristiano Capone</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Bal_T/0/1/0/all/0/1">Thierry Bal</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Volo_M/0/1/0/all/0/1">Matteo di Volo</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Destexhe_A/0/1/0/all/0/1">Alain Destexhe</a></dc:creator>
+</item>
+<item rdf:about="https://www.nature.com/articles/s41583-019-0204-7">
+	<title>Nature Reviews Neuroscience - Issue - nature.com science feeds: Amplifying stroke damage</title>
+	<link>http://feeds.nature.com/~r/nrn/rss/current/~3/04IO83MMfcs/s41583-019-0204-7</link>
+	<content:encoded>&lt;p&gt;Nature Reviews Neuroscience, Published online: 11 July 2019; &lt;a href=&quot;https://www.nature.com/articles/s41583-019-0204-7&quot;&gt;doi:10.1038/s41583-019-0204-7&lt;/a&gt;&lt;/p&gt;In a mouse model of stroke, induction of TREM1 expression on peripheral myeloid cells magnifies inflammatory responses and neurological dysfunction.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nrn/rss/current/~4/04IO83MMfcs&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2019-07-11T00:00:00+00:00</dc:date>
+	<dc:creator>Katherine Whalley</dc:creator>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnmol.2019.00171">
 	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Gut Microbiota Differs Between Parkinson’s Disease Patients and Healthy Controls in Northeast China</title>
@@ -698,6 +750,13 @@ Conclusions: Overall, decreased levels of dopaminergic neurotransmitters were li
 	<content:encoded>Medial ganglionic eminence (MGE)-derived somatostatin (SST)+ and parvalbumin (PV)+ cortical interneurons (CINs), have characteristic molecular, anatomical and physiological properties. However, mechanisms regulating their diversity remain poorly understood. Here, we show that conditional loss of the Tuberous Sclerosis (TS) gene, Tsc1, which inhibits mammalian target of rapamycin (MTOR), causes a subset of SST+ CINs, to express PV and adopt fast-spiking (FS) properties, characteristic of PV+ CINs. These changes also occur when only one allele of Tsc1 is deleted, making these findings relevant to individuals with TS. Notably, treatment with rapamycin, which inhibits MTOR, reverses these changes in adult mice. These data reveal novel functions of MTOR signaling in regulating PV expression and FS properties, which may contribute to some neuropsychiatric symptoms observed in TS. Moreover, they suggest that CINs can exhibit properties intermediate between those classically associated with PV+ or SST+ CINs, which may be dynamically regulated by the MTOR signaling.</content:encoded>
 	<dc:date>2019-07-11T00:00:00+00:00</dc:date>
 	<dc:creator>Malik, R., Pai, E. L.-L., Rubin, A. N., Stafford, A. M., Angara, K., Minasi, P., Rubenstein, J. L., Sohal, V. S., Vogt, D.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/699884v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Correspondence between population coding andpsychophysical scaling models of working memory</title>
+	<link>http://biorxiv.org/cgi/content/short/699884v1?rss=1</link>
+	<content:encoded>A mathematical idealization of the way neural populations encode sensory information has been found to provide a parsimonious account of errors made by human observers on perceptual and short-term memory tasks. This includes the effects of set size and flexible prioritization of items within a set (Bays, 2014), the frequency and identity of &quot;swap&quot; or misbinding errors (Schneegans &amp;amp; Bays, 2017), subjective judgments of confidence (Bays, 2016; van den Berg et al., 2017), and biases and variation in precision due to serial dependent and stimulus-specific effects (Bliss et al., 2017; Taylor &amp;amp; Bays, 2018). A superficially quite different account of short-term recall has recently been proposed in work by Schurgin et al. (2018), who argue that taking into account the differences between physical and perceptual distance in a feature space reduces recall to a classical signal detection problem. Here I document a remarkable similarity between the two models, demonstrating a favourable convergence of neural- and cognitive-level accounts of working memory.</content:encoded>
+	<dc:date>2019-07-11T00:00:00+00:00</dc:date>
+	<dc:creator>Bays, P. M.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/699868v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Changes in interictal pretreatment and posttreatment EEG in childhood absence epilepsy</title>
@@ -1122,16 +1181,18 @@ estimate this higher-order structure characteristic of biological systems.
 	<dc:creator><a href="http://arxiv.org/find/stat/1/au:+Baudot_P/0/1/0/all/0/1">Pierre Baudot</a>, <a href="http://arxiv.org/find/stat/1/au:+Tapia_M/0/1/0/all/0/1">Monica Tapia</a>, <a href="http://arxiv.org/find/stat/1/au:+Bennequin_D/0/1/0/all/0/1">Daniel Bennequin</a>, <a href="http://arxiv.org/find/stat/1/au:+Goaillard_J/0/1/0/all/0/1">Jean-Marc Goaillard</a></dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1907.03929">
-	<title>q-bio.NC updates on arXiv.org: Functional Brain Networks Discovery Using Dictionary Learning with Correlated Sparsity. (arXiv:1907.03929v1 [eess.SP])</title>
+	<title>q-bio.NC updates on arXiv.org: Functional Brain Networks Discovery Using Dictionary Learning with Correlated Sparsity. (arXiv:1907.03929v2 [eess.SP] UPDATED)</title>
 	<link>http://arxiv.org/abs/1907.03929</link>
-	<content:encoded>&lt;p&gt;Functional Magnetic Resonance Imaging (fMRI) helps constructing functional
-brain networks by using brain activity information. Principal component
-analysis (PCA) and independent component analysis (ICA) are widely used methods
-to generate functional brain networks. However, these methods lack modeling
-dependencies of the constructed methods. In this study as alternative to these
-conventional methods, we model dependencies of the network via correlated
-sparsity patterns. We formulate this challenge as a new dictionary learning
-problem and propose two approaches to solve the problem effectively.
+	<content:encoded>&lt;p&gt;Analysis of data from functional magnetic resonance imaging (fMRI) results in
+constructing functional brain networks. Principal component analysis (PCA) and
+independent component analysis (ICA) are widely used to generate functional
+brain networks. Moreover, dictionary learning and sparse representation provide
+some latent patterns that rules brain activities and they can be interpreted as
+brain networks. However, these methods lack modeling dependencies of the
+discovered networks. In this study an alternative to these conventional methods
+is presented in which dependencies of the networks are considered via
+correlated sparsity patterns. We formulate this challenge as a new dictionary
+learning problem and propose two approaches to solve the problem effectively.
 &lt;/p&gt;</content:encoded>
 	<dc:date>2019-07-10T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/eess/1/au:+Joneidi_M/0/1/0/all/0/1">Mohsen Joneidi</a></dc:creator>
@@ -1410,13 +1471,6 @@ knowledge stayed at lower accuracy levels.</content:encoded>
 	<content:encoded>Striatal dopamine (DA) is critical for action and learning. Recent data show DA release is under tonic inhibition by striatal GABA. Ambient striatal GABA tone on striatal projection neurons can be governed by plasma membrane GABA uptake transporters (GATs) on astrocytes. However, whether striatal GATs and astrocytes determine DA output are unknown. We reveal that DA release in mouse dorsolateral striatum, but not nucleus accumbens core, is governed by GAT-3 and GAT-1. These GATs are partly localized to astrocytes, and are enriched in dorsolateral striatum compared to accumbens core. In a mouse model of parkinsonism, GATs become downregulated and tonic GABAergic inhibition of DA release augmented, despite attenuated GABA co-release from dopaminergic axons. These data define previously unappreciated and important roles for GATs and astrocytes in determining DA release in striatum, and reveal that they underlie maladaptive plasticity in early parkinsonism that impairs DA output in vulnerable striatal regions.</content:encoded>
 	<dc:date>2019-07-10T00:00:00+00:00</dc:date>
 	<dc:creator>Roberts, B. M., Doig, N. M., Brimblecombe, K. R., Lopes, E. F., Siddorn, R. E., Threlfell, S., Connor-Robson, N., Bengoa-Vergniory, N., Pasternack, N., Wade-Martins, R., Magill, P. J., Cragg, S. J.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/698241v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: An annotation dataset facilitates automatic annotation of whole-brain activity imaging of C. elegans</title>
-	<link>http://biorxiv.org/cgi/content/short/698241v1?rss=1</link>
-	<content:encoded>Annotation of cell identity is an essential process in neuroscience that allows for comparing neural activities across different animals. In C. elegans, although unique identities have been assigned to all neurons, the number of annotatable neurons in an intact animal is limited in practice and comprehensive methods for cell annotation are required. Here we propose an efficient annotation method that can be integrated with the whole-brain imaging technique. We systematically identified neurons in the head region of 311 adult worms using 35 cell-specific promoters and created a dataset of the expression patterns and the positions of the neurons. The large positional variations illustrated the difficulty of the annotation task. We investigated multiple combinations of cell-specific promoters to tackle this problem. We also developed an automatic annotation method with human interaction functionality that facilitates annotation for whole-brain imaging.</content:encoded>
-	<dc:date>2019-07-10T00:00:00+00:00</dc:date>
-	<dc:creator>Toyoshima, Y., Wu, S., Kanamori, M., Sato, H., Jang, M. S., Oe, S., Murakami, Y., Teramoto, T., Park, C., Iwasaki, Y., Ishihara, T., Yoshida, R., Iino, Y.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007156">
 	<title>PLOS Computational Biology: New Articles: Remarkable structural transformations of actin bundles are driven by their initial polarity, motor activity, crosslinking, and filament treadmilling</title>
@@ -1863,44 +1917,6 @@ thought as thought in which the relevant concepts are considered from
 conventional contexts, and divergent thought as thought in which they are
 considered from unconventional contexts. Implications for the assessment of
 creativity are discussed.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-07-09T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Gabora_L/0/1/0/all/0/1">Liane Gabora</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1310.1678">
-	<title>q-bio.NC updates on arXiv.org: Cognitive Mechanisms Underlying the Creative Process. (arXiv:1310.1678v2 [q-bio.NC] UPDATED)</title>
-	<link>http://arxiv.org/abs/1310.1678</link>
-	<content:encoded>&lt;p&gt;This paper proposes an explanation of the cognitive change that occurs as the
-creative process proceeds. During the initial, intuitive phase, each thought
-activates, and potentially retrieves information from, a large region
-containing many memory locations. Because of the distributed,
-content-addressable structure of memory, the diverse contents of these many
-locations merge to generate the next thought. Novel associations often result.
-As one focuses on an idea, the region searched and retrieved from narrows, such
-that the next thought is the product of fewer memory locations. This enables a
-shift from association-based to causation-based thinking, which facilitates the
-fine-tuning and manifestation of the creative work.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-07-09T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Gabora_L/0/1/0/all/0/1">Liane Gabora</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1310.1668">
-	<title>q-bio.NC updates on arXiv.org: Why the Creative Process is Not Darwinian. (arXiv:1310.1668v2 [q-bio.PE] UPDATED)</title>
-	<link>http://arxiv.org/abs/1310.1668</link>
-	<content:encoded>&lt;p&gt;Simonton (2006) makes the unwarranted assumption that nonmonotonicity
-supports a Darwinian view of creativity. Darwin's theory of natural selection
-was motivated by a paradox that has no equivalent in creative thought: the
-paradox of how change accumulates when acquired traits are not inherited. To
-describe a process of cumulative change in which acquired traits are retained
-is outside of the scope of the theory of natural selection. Even the early
-evolution of life itself (prior to genetically mediated template replication)
-cannot be described by natural selection. Specifically, natural selection
-cannot describe change of state that involves horizontal (Lamarckian) exchange,
-or occurs through interaction with an incompletely specified context. It cannot
-describe change wherein variants are evaluated sequentially, and wherein this
-evaluation can itself change the state space and/or fitness function, because
-no two variants are ever evaluated according to the same selection criterion.
-Concerns are also raised as to the methodology used in Simonton's study.
 &lt;/p&gt;</content:encoded>
 	<dc:date>2019-07-09T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Gabora_L/0/1/0/all/0/1">Liane Gabora</a></dc:creator>
@@ -4195,12 +4211,6 @@ In this review we take the position that gut microbes and their molecules reach 
 	<title>Current Opinion in Neurobiology - Just Published: Bridging the gap between striatal plasticity and learning</title>
 	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300497</link>
 	<content:encoded>Elodie Perrin | Laurent Venance</content:encoded>
-	<dc:date>2019-06-25T10:04:50+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818300187">
-	<title>Current Opinion in Neurobiology - Just Published: Barrelette map formation in the prenatal mouse brainstem</title>
-	<link>https://www.sciencedirect.com/science/article/pii/S0959438818300187</link>
-	<content:encoded>Taro Kitazawa | Filippo M Rijli</content:encoded>
 	<dc:date>2019-06-25T10:04:50+00:00</dc:date>
 </item>
 
