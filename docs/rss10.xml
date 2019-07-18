@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007123" />
 			<rdf:li rdf:resource="http://www.eneuro.org/cgi/content/short/6/4/ENEURO.0417-18.2019?rss=1" />
 			<rdf:li rdf:resource="http://www.eneuro.org/cgi/content/short/6/4/ENEURO.0362-18.2019?rss=1" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818302502" />
@@ -39,18 +40,19 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/707208v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/707059v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/707042v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/706978v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/706945v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/706887v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/706838v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/706747v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/706408v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/706374v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/706291v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/706283v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/706200v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/706176v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/706150v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/706051v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/704510v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/693192v1?rss=1" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/39/29/5816?rss=1" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/39/29/5794?rss=1" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/39/29/5773?rss=1" />
@@ -127,7 +129,6 @@
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30568-9?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30477-5?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30434-9?rss=yes" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/706085v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007214" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007075" />
 			<rdf:li rdf:resource="http://www.pnas.org/content/116/29/14782.short?rss=1" />
@@ -356,7 +357,6 @@
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007126" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007088" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007078" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006635" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41583-019-0203-8" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnint.2019.00021" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2019.00697" />
@@ -419,6 +419,15 @@
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007123">
+	<title>PLOS Computational Biology: New Articles: From skylight input to behavioural output: A computational model of the insect polarised light compass</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/ZopicHSnpqw/article</link>
+	<content:encoded>&lt;p&gt;by Evripidis Gkanias, Benjamin Risse, Michael Mangan, Barbara Webb&lt;/p&gt;
+
+Many insects navigate by integrating the distances and directions travelled on an outward path, allowing direct return to the starting point. Fundamental to the reliability of this process is the use of a neural compass based on external celestial cues. Here we examine how such compass information could be reliably computed by the insect brain, given realistic constraints on the sky polarisation pattern and the insect eye sensor array. By processing the degree of polarisation in different directions for different parts of the sky, our model can directly estimate the solar azimuth and also infer the confidence of the estimate. We introduce a method to correct for tilting of the sensor array, as might be caused by travel over uneven terrain. We also show that the confidence can be used to approximate the change in sun position over time, allowing the compass to remain fixed with respect to ‘true north’ during long excursions. We demonstrate that the compass is robust to disturbances and can be effectively used as input to an existing neural model of insect path integration. We discuss the plausibility of our model to be mapped to known neural circuits, and to be implemented for robot navigation.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/ZopicHSnpqw&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2019-07-18T21:00:00+00:00</dc:date>
+	<dc:creator>Barbara Webb</dc:creator>
+</item>
 <item rdf:about="http://www.eneuro.org/cgi/content/short/6/4/ENEURO.0417-18.2019?rss=1">
 	<title>eNeuro current issue: Synaptic Strengths Dominate Phasing of Motor Circuit: Intrinsic Conductances of Neuron Types Need Not Vary across Animals</title>
 	<link>http://www.eneuro.org/cgi/content/short/6/4/ENEURO.0417-18.2019?rss=1</link>
@@ -604,12 +613,26 @@ Results confirm the feasibility to decode selective attention by means of single
 	<dc:date>2019-07-18T00:00:00+00:00</dc:date>
 	<dc:creator>Ball, G., Seidlitz, J., Beare, R., Seal, M. L.</dc:creator>
 </item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/706978v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Motor Output Matters: A Study on the Neural Correlates of Failed Inhibitory-Control.</title>
+	<link>http://biorxiv.org/cgi/content/short/706978v1?rss=1</link>
+	<content:encoded>Motor actions can be suppressed with varying degrees of success, but this variability is not often captured in traditional experiments where inhibitory-control is conceptualised as an all-or-none process. Although the Stop/No-go P300 (a frontocentral positivity in the event-related potential (ERP) occurring around 300 ms after a Stop/No-go stimulus) has been implicated as a measure of inhibitory-control, it is unclear how the range of motor outputs relates to the P300. We examined the nature of this association in two experiments using an Anticipatory Timing and a Go/No-go Task. Force, response onset time, and the P300 were measured. In both experiments, P300 amplitude was reduced and ERP onset latencies were delayed on Failed compared to Successful Inhibitions. On Failed Inhibitions, our results show that responses with higher force (reflecting a greater degree of error) were associated with smaller P300 amplitudes. Although the binary categorisation of inhibition-success (Successful vs. Failed) accounted for more variance in the data compared to force, it misses a reliable linear relationship that can mbe captured by continuous measures of motor output. Overall, the results provide strong evidence that inhibitory-control is not an all-or-none process, and that the engagement of inhibitory-control is reflected by the P300. We present an activation-to-threshold model of inhibitory-control to explain our results, which offers a new conceptual framework for describing the implementation of inhibitory-control in highly prepared motor responses. Our results also highlight the importance of studying the spectrum of motor outputs and the need for future models of inhibitory-control to account for motor output, and not just the presence and absence of responses.</content:encoded>
+	<dc:date>2019-07-18T00:00:00+00:00</dc:date>
+	<dc:creator>Nguyen, A. T., Albrecht, M. A., Lipp, O. V., Marinovic, W.</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/706945v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Long-term culturing of porcine nodose ganglia</title>
 	<link>http://biorxiv.org/cgi/content/short/706945v1?rss=1</link>
 	<content:encoded>Background: Neuronal cell cultures are widely used in the field of neuroscience. Cell dissociation allows for the isolation of a desired cell type, yet the complexity that distinguishes the nervous system is often lost as a result. Thus, culturing neural tissues in ex vivo format provides a physiological context that more closely resembles the in vivo environment. Nodose ganglia neurons have been extensively studied both in dissociated form and acutely in slice format. However, methods to culture long-term ex vivo have not been established. New Method: We developed a simple method to culture nodose ganglia neurons from neonatal pigs long-term in ex vivo format using an in-house media formulation derived from commercially available components. Results: Cultures were viable for approximately 12 months. mRNA expression for nestin, a marker of neural progenitor cells, was stable across time. Vasoactive intestinal peptide and tachykinin, markers of nodose neurons, showed either no statistically significant differences or decreased across time, respectively. mRNA expression for glia fibrillary acidic protein and myelin basic protein showed no statistically significant differences over time. Comparison with Existing Method(s): There are currently no methods that describe long-term culturing of porcine nodose ganglia. Further, the media formulation we developed is new and not previously reported. Conclusions: The simple procedure we developed for culturing nodose ganglia will enable both short-term and long-term investigations aimed at understanding peripheral ganglia in vitro. It is also possible that the methods described herein can be applied to other animal models, adult samples, and other neural tissues.</content:encoded>
 	<dc:date>2019-07-18T00:00:00+00:00</dc:date>
 	<dc:creator>Kuan, S.-P., Atanasova, K. R., Guevara, M. V., Collins, E. N., Reznikov, L. R.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/706887v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Ovarian hormone status dictates the neuroinflammatory and behavioural consequences of sub-chronic stress exposure in middle-aged female mice</title>
+	<link>http://biorxiv.org/cgi/content/short/706887v1?rss=1</link>
+	<content:encoded>Ovarian hormones influence the outcomes of stress exposure and are implicated in stress-related disorders including depression, yet their roles are often complex and seemingly contradictory. Importantly, depression and stress exposure are associated with immune dysregulation, and ovarian hormones have immunomodulatory properties. However, how ovarian hormones can influence the inflammatory outcomes of stress exposure is poorly understood. Here, we examined the effects of long-term ovariectomy on the behavioural and neuroinflammatory outcomes of sub-chronic stress exposure in middle-aged mice. Briefly, sham-operated and ovariectomized mice were assigned to non-stress groups or exposed to 6 days of variable stress. Mice were assessed on a battery of behavioural tests, and cytokine concentrations were quantified in the frontal cortex and hippocampus. Postsynaptic density protein-95 and phosphorylated mitogen-activated protein kinases (MAPKs) were also measured in the frontal cortex. Long-term ovariectomy modified the central cytokine profile by robustly reducing cytokine concentrations in the frontal cortex and modestly increasing concentrations in the hippocampus. Under non-stress conditions, long-term ovariectomy also reduced extracellular signal-regulated kinase (ERK) phosphoprotein expression in the frontal cortex and increased some measures of depressive-like behaviour. The effects of sub-chronic stress exposure were however more pronounced in sham-operated mice. Notably, in sham-operated mice only, sub-chronic stress exposure increased IL-1{beta} and IL-6:IL-10 ratio in the frontal cortex and hippocampus and reduced pERK1/2 expression in the frontal cortex. Further, although sub-chronic stress exposure increased anhedonia-like behaviour regardless of ovarian status, it increased passive-coping behaviour in sham-operated mice only. These data indicate that long-term ovariectomy has potent effects on the central cytokine milieu and mitigates the neuroinflammatory and behavioural effects of sub-chronic stress exposure in middle-aged mice. These findings therefore suggest that the immunomodulatory properties of ovarian hormones are of relevance in the context of stress and possibly depression.</content:encoded>
+	<dc:date>2019-07-18T00:00:00+00:00</dc:date>
+	<dc:creator>Eid, R. S., Lieblich, S. E., Wong, S. J., Galea, L.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/706838v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Connectivity domain analysis: characterization of connectivity frequency profile using filter banks</title>
@@ -653,6 +676,13 @@ Results confirm the feasibility to decode selective attention by means of single
 	<dc:date>2019-07-18T00:00:00+00:00</dc:date>
 	<dc:creator>Timmermann, C., Roseman, L., Schartner, M., Milliere, R., Williams, L., Erritzoe, D., Muthukumaraswamy, S., Ashton, M., Bendrioua, A., Kaur, O., Turton, S., Nour, M., Day, C., Leech, R., Nutt, D., Carhart-Harris, R.</dc:creator>
 </item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/706200v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Rapid Bayesian learning in the mammalian olfactory system</title>
+	<link>http://biorxiv.org/cgi/content/short/706200v1?rss=1</link>
+	<content:encoded>Many experimental studies suggest that animals can rapidly learn to identify odors and predict the rewards associated with them. However, the underlying plasticity mechanism remains elusive. In particular, it is not clear how olfactory circuits achieve rapid, data efficient learning with local synaptic plasticity. Here, we formulate olfactory learning as a Bayesian optimization process, then map the learning rules into a computational model of the mammalian olfactory circuit. The model is capable of odor identification from a small number of observations, while reproducing cellular plasticity commonly observed during development. We extend the framework to reward-based learning, and show that the circuit is able to rapidly learn odor-reward association with a plausible neural architecture. These results deepen our theoretical understanding of unsupervised learning in the mammalian brain.</content:encoded>
+	<dc:date>2019-07-18T00:00:00+00:00</dc:date>
+	<dc:creator>Hiratani, N., Latham, P. E.</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/706176v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Dopaminergic modulation of the exploration/exploitation trade-off in human decision-making</title>
 	<link>http://biorxiv.org/cgi/content/short/706176v1?rss=1</link>
@@ -673,20 +703,6 @@ Results confirm the feasibility to decode selective attention by means of single
 	<content:encoded>In the last few years the involvement of the medial prefrontal cortex (mPFC) in memory processing has received increased attention. It is centrally involved when we use prior knowledge (schemas) to improve learning of new material. With the mPFC also being one of the core hubs of the default mode network (DMN) and the DMN's role in memory retrieval, we decided to investigate whether the mPFC in a schema paradigm acts independently of the DMN. We tested this with data from a cross-sectional developmental study. During retrieval of schema items, the mPFC decoupled from the DMN with the degree of decoupling predicting memory performance. This finding suggests that a demand specific reconfiguration of the DMN supports schema memory. Additionally, we found that in the control condition, which relied on episodic memory, activity in the parahippocampal gyrus was positively related to memory performance. We interpret these results as a demand specific network reconfiguration of the DMN: a decoupling of the mPFC to support schema memory and a decoupling of the parahippocampal gyrus facilitating episodic memory. This supports the notion of dynamic reconfiguration of brain networks in response to task demands in the sense of process specific alliances.</content:encoded>
 	<dc:date>2019-07-18T00:00:00+00:00</dc:date>
 	<dc:creator>Mueller, N. C., Dresler, M., Janzen, G., Beckmann, C. F., Fernandez, G., Kohn, N.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/704510v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: A lab-on-a-chip model of glaucoma</title>
-	<link>http://biorxiv.org/cgi/content/short/704510v1?rss=1</link>
-	<content:encoded>We developed a glaucoma-on-a-chip (GOC) model to evaluate the viability of retinal ganglion cells (RGCs) against high pressure and neuroprotective treatments. A three-layered chip consisting of interconnecting microchannels and culture wells was fabricated based on simulation of physical parameters. The bottom surface of the wells was mechanically modified by air plasma and coated with different membranes to model an extracellular microenvironment. SH-SY5Y used as model cells to determine the best supporting membrane which was revealed to be PDL/laminin. RGCs were isolated from postnatal Wistar rats and purified by magnetic assisted cell sorting up to 70%. The cultured RGCs were exposed to normal (15 mmHg) or elevated pressure (33 mmHg) for 6, 12, 24, 36 and 48 hours, with and without adding brain-derived-neurotrophic factor (BDNF) or a novel BDNF mimetic (named RNYK). RGC survival rates were 85, 78, 70, 67 and 61% under normal pressure versus 40, 22, 18, 12 and 10% under high pressure at 6, 12, 24, 36 and 48 hours, respectively (P&amp;lt;0.0001). BDNF and RNYK reduced the rate of RGC death under both normal and elevated pressures, two-fold approximately (p&amp;lt;0.01-0.0001).</content:encoded>
-	<dc:date>2019-07-18T00:00:00+00:00</dc:date>
-	<dc:creator>Nafian, F., Kamali Doust Azad, B., Yazdani, S., Rasaee, M. J., Daftarian, N.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/693192v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Strongly correlated spatiotemporal encoding and simple decoding in the prefrontal cortex</title>
-	<link>http://biorxiv.org/cgi/content/short/693192v1?rss=1</link>
-	<content:encoded>We studied the fine temporal structure of spiking patterns of groups of up to 100 simultaneously recorded units in the prefrontal cortex of monkeys performing a visual discrimination task. We characterized the vocabulary of population activity patterns using 10 ms time bins and found that different sets of population activity patterns (codebooks) are used in different task epochs and that spiking correlations between units play a large role in defining those codebooks. Models that ignore those correlations fail to capture the population codebooks in all task epochs. Further, we show that temporal sequences of population activity patterns have strong history-dependence and are governed by different transition probabilities between patterns and different correlation time scales, in the different task epochs, suggesting different computational dynamics governing each epoch. Together, the large impact of spatial and temporal correlations on the dynamics of the population code makes the observed sequences of activity patterns many orders of magnitude more likely to appear than predicted by models that ignore these correlations and rely only on the population rates. Surprisingly, however, models that ignore these correlations perform quite well for decoding behavior from population responses. The difference of encoding and decoding complexity of the neural codebook suggests that one of the goals of the complex encoding scheme in the prefrontal cortex is to accommodate simple decoders that do not have to learn correlations.</content:encoded>
-	<dc:date>2019-07-18T00:00:00+00:00</dc:date>
-	<dc:creator>Karpas, E. D., Maoz, O., Kiani, R., Schneidman, E.</dc:creator>
 </item>
 <item rdf:about="http://www.jneurosci.org/cgi/content/short/39/29/5816?rss=1">
 	<title>Journal of Neuroscience current issue: A Model of Hereditary Sensory and Autonomic Neuropathy Type 1 Reveals a Role of Glycosphingolipids in Neuronal Polarity</title>
@@ -1463,13 +1479,6 @@ In sum, these studies suggest that aging particularly affects episodic memory af
 	<content:encoded>A deep understanding of any social species requires understanding why and how brains interact. In this issue of Neuron, Wheatley et al. highlight recent advances making this pursuit increasingly tractable, as well as the challenges of studying interacting brains.</content:encoded>
 	<dc:date>2019-07-17T00:00:00+00:00</dc:date>
 	<dc:creator>Thalia Wheatley, Adam Boncz, Ivan Toni, Arjen Stolk</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/706085v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Bilateral auditory processing studied by selective cold-deactivation of cricket hearing organs</title>
-	<link>http://biorxiv.org/cgi/content/short/706085v1?rss=1</link>
-	<content:encoded>We studied bilateral processing in the auditory ON neurons of crickets using reversible cold-deactivation of the hearing organs by means of Peltier elements. Intracellular recordings of the neurons activity in response to acoustic stimuli were obtained, while either the ipsilateral or the contralateral hearing organ was cold-deactivated. Afferent activity was abolished at a temperature of about 10{degrees}C. In ON1 contralateral inhibition has no effect on the latency and amplitude of the phasic onset activity, it enhances the decline of the onset activity and decreases the subsequent tonic spiking response to acoustic stimuli. As a consequence the phasic onset activity becomes more salient and reciprocal inhibition may support the detection of sound pulses. Contralateral inhibition had a significant impact on the tonic ON1 response, in line with its presumed function to enhance the bilateral auditory contrast. In ON2, experiments confirmed a bilateral excitatory input, with the ipsilateral input dominating the response, and no inhibitory coupling between the ON2 neurons.</content:encoded>
-	<dc:date>2019-07-17T00:00:00+00:00</dc:date>
-	<dc:creator>Zhang, X., Hedwig, B.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007214">
 	<title>PLOS Computational Biology: New Articles: Morphophenotypic classification of tumor organoids as an indicator of drug exposure and penetration potential</title>
@@ -3462,7 +3471,7 @@ In this paper, a new model based on game theory is proposed in order to understa
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/It-Ebd4v1rU/article</link>
 	<content:encoded>&lt;p&gt;by Elyse H. Norton, Luigi Acerbi, Wei Ji Ma, Michael S. Landy&lt;/p&gt;
 
-Optimal sensory decision-making requires the combination of uncertain sensory signals with prior expectations. The effect of prior probability is often described as a shift in the decision criterion. Can observers track sudden changes in probability? To answer this question, we used a change-point detection paradigm that is frequently used to examine behavior in changing environments. In a pair of orientation-categorization tasks, we investigated the effects of changing probabilities on decision-making. In both tasks, category probability was updated using a sample-and-hold procedure: probability was held constant for a period of time before jumping to another probability state that was randomly selected from a predetermined set of probability states. We developed an ideal Bayesian change-point detection model in which the observer marginalizes over both the current run length (i.e., time since last change) and the current category probability. We compared this model to various alternative models that correspond to different strategies—from approximately Bayesian to simple heuristics—that the observers may have adopted to update their beliefs about probabilities. While a number of models provided decent fits to the data, model comparison favored a model in which probability is estimated following an exponential averaging model with a bias towards equal priors, consistent with a conservative bias and a flexible variant of the Bayesian change-point detection model with incorrect beliefs. We interpret the former as a simpler, more biologically plausible explanation suggesting that the mechanism underlying change of decision criterion is a combination of on-line estimation of prior probability and a stable, long-term equal-probability prior, thus operating at two very different timescales.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/It-Ebd4v1rU&quot; width=&quot;1&quot; /&gt;</content:encoded>
+Optimal sensory decision-making requires the combination of uncertain sensory signals with prior expectations. The effect of prior probability is often described as a shift in the decision criterion. Can observers track sudden changes in probability? To answer this question, we used a change-point detection paradigm that is frequently used to examine behavior in changing environments. In a pair of orientation-categorization tasks, we investigated the effects of changing probabilities on decision-making. In both tasks, category probability was updated using a sample-and-hold procedure: probability was held constant for a period of time before jumping to another probability state that was randomly selected from a predetermined set of probability states. We developed an ideal Bayesian change-point detection model in which the observer marginalizes over both the current run length (i.e., time since last change) and the current category probability. We compared this model to various alternative models that correspond to different strategies—from approximately Bayesian to simple heuristics—that the observers may have adopted to update their beliefs about probabilities. While a number of models provided decent fits to the data, model comparison favored a model in which probability is estimated following an exponential averaging model with a bias towards equal priors, consistent with a conservative bias, and a flexible variant of the Bayesian change-point detection model with incorrect beliefs. We interpret the former as a simpler, more biologically plausible explanation suggesting that the mechanism underlying change of decision criterion is a combination of on-line estimation of prior probability and a stable, long-term equal-probability prior, thus operating at two very different timescales.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/It-Ebd4v1rU&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2019-07-08T21:00:00+00:00</dc:date>
 	<dc:creator>Michael S. Landy</dc:creator>
 </item>
@@ -3709,15 +3718,6 @@ Cancer is mainly caused by somatic genome alterations (SGAs). Precision oncology
 Network medicine approaches have been largely successful at increasing our knowledge of molecularly characterized diseases. Given a set of disease genes associated with a disease, neighbourhood-based methods and random walkers exploit the interactome allowing the prediction of further genes for that disease. In general, however, diseases with no known molecular basis constitute a challenge. Here we present a novel network approach to prioritize gene-disease associations that is able to also predict genes for diseases with no known molecular basis. Our method, which we have called Cardigan (ChARting DIsease Gene AssociatioNs), uses semi-supervised learning and exploits a measure of similarity between disease phenotypes. We evaluated its performance at predicting genes for both molecularly characterized and uncharacterized diseases in OMIM, using both weighted and binary interactomes, and compared it with state-of-the-art methods. Our tests, which use datasets collected at different points in time to replicate the dynamics of the disease gene discovery process, prove that Cardigan is able to accurately predict disease genes for molecularly uncharacterized diseases. Additionally, standard leave-one-out cross validation tests show how our approach outperforms state-of-the-art methods at predicting genes for molecularly characterized diseases by 14%-65%. Cardigan can also be used for disease module prediction, where it outperforms state-of-the-art methods by 87%-299%.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/8WzpOXWlG88&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2019-07-05T21:00:00+00:00</dc:date>
 	<dc:creator>Alberto Paccanaro</dc:creator>
-</item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006635">
-	<title>PLOS Computational Biology: New Articles: Modelling the mechanics of exploration in larval &lt;i&gt;Drosophila&lt;/i&gt;</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/JJidlxXe2c4/article</link>
-	<content:encoded>&lt;p&gt;by Jane Loveless, Konstantinos Lagogiannis, Barbara Webb&lt;/p&gt;
-
-The &lt;i&gt;Drosophila&lt;/i&gt; larva executes a stereotypical exploratory routine that appears to consist of stochastic alternation between straight peristaltic crawling and reorientation events through lateral bending. We present a model of larval mechanics for axial and transverse motion over a planar substrate, and use it to develop a simple, reflexive neuromuscular model from physical principles. The mechanical model represents the midline of the larva as a set of point masses which interact with each other via damped translational and torsional springs, and with the environment via sliding friction forces. The neuromuscular model consists of: 1. segmentally localised reflexes that amplify axial compression in order to counteract frictive energy losses, and 2. long-range mutual inhibition between reflexes in distant segments, enabling overall motion of the model larva relative to its substrate. In the absence of damping and driving, the mechanical model produces axial travelling waves, lateral oscillations, and unpredictable, chaotic deformations. The neuromuscular model counteracts friction to recover these motion patterns, giving rise to forward and backward peristalsis in addition to turning. Our model produces spontaneous exploration, even though the nervous system has no intrinsic pattern generating or decision making ability, and neither senses nor drives bending motions. Ultimately, our model suggests a novel view of larval exploration as a deterministic superdiffusion process which is mechanistically grounded in the chaotic mechanics of the body. We discuss how this may provide new interpretations for existing observations at the level of tissue-scale activity patterns and neural circuitry, and provide some experimental predictions that would test the extent to which the mechanisms we present translate to the real larva.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/JJidlxXe2c4&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2019-07-05T21:00:00+00:00</dc:date>
-	<dc:creator>Barbara Webb</dc:creator>
 </item>
 <item rdf:about="https://www.nature.com/articles/s41583-019-0203-8">
 	<title>Nature Reviews Neuroscience - Issue - nature.com science feeds: Turning up the heat</title>
