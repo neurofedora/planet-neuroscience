@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://arxiv.org/abs/1907.08549" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1907.08196" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1905.00414" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818302575" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/709345v1?rss=1" />
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25552?af=R" />
@@ -124,7 +127,6 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1409.4700" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1409.2210" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1409.2207" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1408.2314" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsys.2019.00030" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2019.00177" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2019.00170" />
@@ -189,8 +191,6 @@
 			<rdf:li rdf:resource="http://www.eneuro.org/cgi/content/short/ENEURO.0425-18.2019v1?rss=1" />
 			<rdf:li rdf:resource="http://www.eneuro.org/cgi/content/short/ENEURO.0349-18.2019v1?rss=1" />
 			<rdf:li rdf:resource="http://www.eneuro.org/cgi/content/short/ENEURO.0170-19.2019v1?rss=1" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1907.06486" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1907.06374" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41583-019-0205-6" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsys.2019.00026" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsys.2019.00025" />
@@ -419,6 +419,81 @@
 	</items>
 </channel>
 
+<item rdf:about="http://arxiv.org/abs/1907.08549">
+	<title>q-bio.NC updates on arXiv.org: Universality and individuality in neural dynamics across large populations of recurrent networks. (arXiv:1907.08549v1 [q-bio.NC])</title>
+	<link>http://arxiv.org/abs/1907.08549</link>
+	<content:encoded>&lt;p&gt;Task-based modeling with recurrent neural networks (RNNs) has emerged as a
+popular way to infer the computational function of different brain regions.
+These models are quantitatively assessed by comparing the low-dimensional
+neural representations of the model with the brain, for example using canonical
+correlation analysis (CCA). However, the nature of the detailed neurobiological
+inferences one can draw from such efforts remains elusive. For example, to what
+extent does training neural networks to solve common tasks uniquely determine
+the network dynamics, independent of modeling architectural choices? Or
+alternatively, are the learned dynamics highly sensitive to different model
+choices? Knowing the answer to these questions has strong implications for
+whether and how we should use task-based RNN modeling to understand brain
+dynamics. To address these foundational questions, we study populations of
+thousands of networks, with commonly used RNN architectures, trained to solve
+neuroscientifically motivated tasks and characterize their nonlinear dynamics.
+We find the geometry of the RNN representations can be highly sensitive to
+different network architectures, yielding a cautionary tale for measures of
+similarity that rely representational geometry, such as CCA. Moreover, we find
+that while the geometry of neural dynamics can vary greatly across
+architectures, the underlying computational scaffold---the topological
+structure of fixed points, transitions between them, limit cycles, and
+linearized dynamics---often appears universal across all architectures.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-07-22T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Maheswaranathan_N/0/1/0/all/0/1">Niru Maheswaranathan</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Williams_A/0/1/0/all/0/1">Alex H. Williams</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Golub_M/0/1/0/all/0/1">Matthew D. Golub</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Ganguli_S/0/1/0/all/0/1">Surya Ganguli</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Sussillo_D/0/1/0/all/0/1">David Sussillo</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1907.08196">
+	<title>q-bio.NC updates on arXiv.org: Exploiting bilateral symmetry in brain lesion segmentation. (arXiv:1907.08196v1 [eess.IV])</title>
+	<link>http://arxiv.org/abs/1907.08196</link>
+	<content:encoded>&lt;p&gt;Brain lesions, including stroke and tumours, have a high degree of
+variability in terms of location, size, intensity and form, making automatic
+segmentation difficult. We propose an improvement to existing segmentation
+methods by exploiting the bilateral quasi-symmetry of healthy brains, which
+breaks down when lesions are present. Specifically, we use nonlinear
+registration of a neuroimage to a reflected version of itself (&quot;reflective
+registration&quot;) to determine for each voxel its homologous (corresponding) voxel
+in the other hemisphere. A patch around the homologous voxel is added as a set
+of new features to the segmentation algorithm. To evaluate this method, we
+implemented two different CNN-based multimodal MRI stroke lesion segmentation
+algorithms, and then augmented them by adding extra symmetry features using the
+reflective registration method described above. For each architecture, we
+compared the performance with and without symmetry augmentation, on the SISS
+Training dataset of the Ischemic Stroke Lesion Segmentation Challenge (ISLES)
+2015 challenge. Using affine reflective registration improves performance over
+baseline, but nonlinear reflective registration gives significantly better
+results: an improvement in Dice coefficient of 13 percentage points over
+baseline for one architecture and 9 points for the other. We argue for the
+broad applicability of adding symmetric features to existing segmentation
+algorithms, specifically using nonlinear, template-free methods.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-07-22T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/eess/1/au:+Raina_K/0/1/0/all/0/1">Kevin Raina</a>, <a href="http://arxiv.org/find/eess/1/au:+Yahorau_U/0/1/0/all/0/1">Uladzimir Yahorau</a>, <a href="http://arxiv.org/find/eess/1/au:+Schmah_T/0/1/0/all/0/1">Tanya Schmah</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1905.00414">
+	<title>q-bio.NC updates on arXiv.org: Similarity of Neural Network Representations Revisited. (arXiv:1905.00414v4 [cs.LG] UPDATED)</title>
+	<link>http://arxiv.org/abs/1905.00414</link>
+	<content:encoded>&lt;p&gt;Recent work has sought to understand the behavior of neural networks by
+comparing representations between layers and between different trained models.
+We examine methods for comparing neural network representations based on
+canonical correlation analysis (CCA). We show that CCA belongs to a family of
+statistics for measuring multivariate similarity, but that neither CCA nor any
+other statistic that is invariant to invertible linear transformation can
+measure meaningful similarities between representations of higher dimension
+than the number of data points. We introduce a similarity index that measures
+the relationship between representational similarity matrices and does not
+suffer from this limitation. This similarity index is equivalent to centered
+kernel alignment (CKA) and is also closely connected to CCA. Unlike CCA, CKA
+can reliably identify correspondences between representations in networks
+trained from different initializations.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-07-22T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/cs/1/au:+Kornblith_S/0/1/0/all/0/1">Simon Kornblith</a>, <a href="http://arxiv.org/find/cs/1/au:+Norouzi_M/0/1/0/all/0/1">Mohammad Norouzi</a>, <a href="http://arxiv.org/find/cs/1/au:+Lee_H/0/1/0/all/0/1">Honglak Lee</a>, <a href="http://arxiv.org/find/cs/1/au:+Hinton_G/0/1/0/all/0/1">Geoffrey Hinton</a></dc:creator>
+</item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818302575">
 	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Vascular and neural basis of the BOLD signal</title>
 	<link>https://www.sciencedirect.com/science/article/pii/S0959438818302575?dgcid=rss_sd_all</link>
@@ -1537,26 +1612,6 @@ facilitate creativity.
 	<dc:date>2019-07-17T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Sowden_P/0/1/0/all/0/1">Paul Sowden</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Pringle_A/0/1/0/all/0/1">Andrew Pringle</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Gabora_L/0/1/0/all/0/1">Liane Gabora</a></dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1408.2314">
-	<title>q-bio.NC updates on arXiv.org: A Tentative Role for FOXP2 in the Evolution of Dual Processing Modes and Generative Abilities. (arXiv:1408.2314v2 [q-bio.NC] UPDATED)</title>
-	<link>http://arxiv.org/abs/1408.2314</link>
-	<content:encoded>&lt;p&gt;It has been suggested that the origins of cognitive modernity in the
-Middle/Upper Paleolithic following the appearance of anatomically modern humans
-was due to the onset of dual processing or contextual focus (CF), the ability
-to shift between different modes of thought: an explicit mode conducive to
-logical problem solving, and an implicit mode conducive to free-association and
-breaking out of a rut. Mathematical and computational models of CF supported
-this hypothesis, showing that CF is conducive to making creative connections by
-placing concepts in new contexts. This paper proposes that CF was made possible
-by mutation of the FOXP2 gene in the Paleolithic. FOXP2, once thought to be the
-'language gene', turned out not to be uniquely associated with language. In its
-modern form FOXP2 enabled fine-tuning of the neurological mechanisms underlying
-the capacity to shift between processing modes by varying the size of the
-activated region of memory.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-07-17T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Chrusch_C/0/1/0/all/0/1">Courtney Chrusch</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Gabora_L/0/1/0/all/0/1">Liane Gabora</a></dc:creator>
-</item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnsys.2019.00030">
 	<title>Frontiers in Systems Neuroscience | New and Recent Articles: Control of Presynaptic Parallel Fiber Efficacy by Activity-Dependent Regulation of the Number of Occupied Release Sites</title>
 	<link>https://www.frontiersin.org/articles/10.3389/fnsys.2019.00030</link>
@@ -2024,55 +2079,6 @@ Once biological systems are modeled by regulatory networks, the next step is to 
 	<content:encoded>Abstract&lt;p&gt;Brain oscillations from electro-encephalogram (EEG) and magneto-encephalogram (MEG) shed light on neurophysiological mechanisms of human behavior. However, to extract information on cortical processing, researchers have to rely on source localization methods that can be very broadly classified into current density estimates such as exact low resolution electromagnetic tomography (eLORETA), minimum norm estimates (MNE) and beamformers such as Dynamic Imaging of Coherent Sources (DICS) and Linearly Constrained Minimum Variance (LCMV). These algorithms produce a distributed map of brain activity underlying sustained and transient responses during neuroimaging studies of behavior. On the other hand, there are very few comparative analyses that evaluates the &quot;ground truth detection&quot; capabilities of these methods. The current article evaluates the reliability in estimation of sources of spectral event generators in the cortex using a two-pronged approach. First, simulated EEG data with point dipoles and distributed dipoles are used to validate the accuracy and sensitivity of each one of these methods of source localization. The abilities of the techniques were tested by comparing the localization error, focal width, false positive ratios while detecting already known location of neural activity generators under varying signal to noise ratios. Second, empirical EEG data during auditory steady state responses (ASSR) in human participants were used to compare the distributed nature of source localization. All methods were successful in recovery of point sources in favorable signal to noise scenarios and could achieve high hit rates if false positives are ignored. Interestingly, focal activation map is generated by LCMV and DICS when compared to eLORETA while control of false positives is much superior in eLORETA. Subsequently drawbacks and strengths of each method are highlighted with a detailed discussion on how to choose a technique based on empirical requirements.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Significance statement&lt;/b&gt; State-of-the-art methods of source localization techniques, e.g., current density methods, minimum norm estimates and beamformers report distributed brain activity patterns that are often not in consensus for a putative task. This article offers ground truth validation of these techniques in the context of different kind of source detections, e.g, determining the sources underlying key events (evoked potentials) and steady state brain oscillations (band limited brain activity). The broader goal is to help cognitive neuroscientists select the most effective source localization technique that is in sync with the signal processing needs required for targeting a specific question.&lt;/p&gt;</content:encoded>
 	<dc:date>2019-07-16T16:30:10+00:00</dc:date>
 	<dc:creator>Halder, T., Talwar, S., Jaiswal, A. K., Banerjee, A.</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1907.06486">
-	<title>q-bio.NC updates on arXiv.org: The Poincar\'e-Boltzmann Machine: from Statistical Physics to Machine Learning and back. (arXiv:1907.06486v1 [q-bio.NC])</title>
-	<link>http://arxiv.org/abs/1907.06486</link>
-	<content:encoded>&lt;p&gt;This paper presents the computational methods of information cohomology
-applied to genetic expression in and in the companion paper and proposes its
-interpretations in terms of statistical physics and machine learning. In order
-to further underline the Hochschild cohomological nature af information
-functions and chain rules, following, the computation of the cohomology in low
-degrees is detailed to show more directly that the $k$ multivariate
-mutual-informations (I_k) are k-coboundaries. The k-cocycles condition
-corresponds to I_k=0, generalizing statistical independence. Hence the
-cohomology quantifies the statistical dependences and the obstruction to
-factorization. The topological approach allows to investigate information in
-the multivariate case without the assumptions of independent identically
-distributed variables and without mean field approximations. We develop the
-computationally tractable subcase of simplicial information cohomology
-represented by entropy H_k and information I_k landscapes and their respective
-paths. The I_1 component defines a self-internal energy U_k, and I_k,k&amp;gt;1
-components define the contribution to a free energy G_k (the total correlation)
-of the k-body interactions. The set of information paths in simplicial
-structures is in bijection with the symmetric group and random processes,
-provides a trivial topological expression of the 2nd law of thermodynamic. The
-local minima of free-energy, related to conditional information negativity, and
-conditional independence, characterize a minimum free energy complex. This
-complex formalizes the minimum free-energy principle in topology, provides a
-definition of a complex system, and characterizes a multiplicity of local
-minima that quantifies the diversity observed in biology. I give an
-interpretation of this complex in terms of frustration in glass and of Van Der
-Walls k-body interactions for data points.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-07-16T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Baudot_P/0/1/0/all/0/1">Pierre Baudot</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1907.06374">
-	<title>q-bio.NC updates on arXiv.org: What does it mean to understand a neural network?. (arXiv:1907.06374v1 [cs.LG])</title>
-	<link>http://arxiv.org/abs/1907.06374</link>
-	<content:encoded>&lt;p&gt;We can define a neural network that can learn to recognize objects in less
-than 100 lines of code. However, after training, it is characterized by
-millions of weights that contain the knowledge about many object types across
-visual scenes. Such networks are thus dramatically easier to understand in
-terms of the code that makes them than the resulting properties, such as tuning
-or connections. In analogy, we conjecture that rules for development and
-learning in brains may be far easier to understand than their resulting
-properties. The analogy suggests that neuroscience would benefit from a focus
-on learning and development.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-07-16T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/cs/1/au:+Lillicrap_T/0/1/0/all/0/1">Timothy P. Lillicrap</a>, <a href="http://arxiv.org/find/cs/1/au:+Kording_K/0/1/0/all/0/1">Konrad P. Kording</a></dc:creator>
 </item>
 <item rdf:about="https://www.nature.com/articles/s41583-019-0205-6">
 	<title>Nature Reviews Neuroscience - Issue - nature.com science feeds: Keeping your cool</title>
