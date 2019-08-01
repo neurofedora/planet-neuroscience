@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://arxiv.org/abs/1907.13223" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1906.00092" />
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30117-1?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30114-6?rss=yes" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007172" />
@@ -77,6 +79,7 @@
 			<rdf:li rdf:resource="https://dx.doi.org/10.7554/eLife.46615" />
 			<rdf:li rdf:resource="https://dx.doi.org/10.7554/eLife.45905" />
 			<rdf:li rdf:resource="http://doi.org/10.1093/cercor/bhz126" />
+			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30130-4?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30601-4?rss=yes" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1006860" />
 			<rdf:li rdf:resource="http://www.eneuro.org/cgi/content/short/ENEURO.0200-19.2019v1?rss=1" />
@@ -206,8 +209,6 @@
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30123-7?rss=yes" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007014" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1907.11075" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1907.10944" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1907.10879" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2019.00775" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fncel.2019.00340" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnagi.2019.00191" />
@@ -414,11 +415,62 @@
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsys.2019.00029" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsys.2019.00027" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnint.2019.00025" />
-			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2019.00709" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://arxiv.org/abs/1907.13223">
+	<title>q-bio.NC updates on arXiv.org: Temporal coding in spiking neural networks with alpha synaptic function. (arXiv:1907.13223v1 [cs.NE])</title>
+	<link>http://arxiv.org/abs/1907.13223</link>
+	<content:encoded>&lt;p&gt;The timing of individual neuronal spikes is essential for biological brains
+to make fast responses to sensory stimuli. However, conventional artificial
+neural networks lack the intrinsic temporal coding ability present in
+biological networks. We propose a spiking neural network model that encodes
+information in the relative timing of individual neuron spikes. In
+classification tasks, the output of the network is indicated by the first
+neuron to spike in the output layer. This temporal coding scheme allows the
+supervised training of the network with backpropagation, using locally exact
+derivatives of the postsynaptic spike times with respect to presynaptic spike
+times. The network operates using a biologically-plausible alpha synaptic
+transfer function. Additionally, we use trainable synchronisation pulses that
+provide bias, add flexibility during training and exploit the decay part of the
+alpha function. We show that such networks can be trained successfully on noisy
+Boolean logic tasks and on the MNIST dataset encoded in time. The results show
+that the spiking neural network outperforms comparable spiking models on MNIST
+and achieves similar quality to fully connected conventional networks with the
+same architecture. We also find that the spiking network spontaneously
+discovers two operating regimes, mirroring the accuracy-speed trade-off
+observed in human decision-making: a slow regime, where a decision is taken
+after all hidden neurons have spiked and the accuracy is very high, and a fast
+regime, where a decision is taken very fast but the accuracy is lower. These
+results demonstrate the computational power of spiking networks with biological
+characteristics that encode information in the timing of individual neurons. By
+studying temporal coding in spiking networks, we aim to create building blocks
+towards energy-efficient and more complex biologically-inspired neural
+architectures.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-08-01T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/cs/1/au:+Comsa_I/0/1/0/all/0/1">Iulia M. Comsa</a>, <a href="http://arxiv.org/find/cs/1/au:+Potempa_K/0/1/0/all/0/1">Krzysztof Potempa</a>, <a href="http://arxiv.org/find/cs/1/au:+Versari_L/0/1/0/all/0/1">Luca Versari</a>, <a href="http://arxiv.org/find/cs/1/au:+Fischbacher_T/0/1/0/all/0/1">Thomas Fischbacher</a>, <a href="http://arxiv.org/find/cs/1/au:+Gesmundo_A/0/1/0/all/0/1">Andrea Gesmundo</a>, <a href="http://arxiv.org/find/cs/1/au:+Alakuijala_J/0/1/0/all/0/1">Jyrki Alakuijala</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1906.00092">
+	<title>q-bio.NC updates on arXiv.org: Signal Coding and Perfect Reconstruction using Spike Trains. (arXiv:1906.00092v2 [q-bio.NC] UPDATED)</title>
+	<link>http://arxiv.org/abs/1906.00092</link>
+	<content:encoded>&lt;p&gt;In many animal sensory pathways, the transformation from external stimuli to
+spike trains is essentially deterministic. In this context, a new mathematical
+framework for coding and reconstruction, based on a biologically plausible
+model of the spiking neuron, is presented. The framework considers encoding of
+a signal through spike trains generated by an ensemble of neurons via a
+standard convolve-then-threshold mechanism. Neurons are distinguished by their
+convolution kernels and threshold values. Reconstruction is posited as a convex
+optimization minimizing energy. Formal conditions under which perfect
+reconstruction of the signal from the spike trains is possible are then
+identified in this setup. Finally, a stochastic gradient descent mechanism is
+proposed to achieve these conditions. Simulation experiments are presented to
+demonstrate the strength and efficacy of the framework
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-08-01T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Chattopadhyay_A/0/1/0/all/0/1">Anik Chattopadhyay</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Banerjee_A/0/1/0/all/0/1">Arunava Banerjee</a></dc:creator>
+</item>
 <item rdf:about="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30117-1?rss=yes">
 	<title>Trends in Neurosciences: Subscription and Copyright Information</title>
 	<link>https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30117-1?rss=yes</link>
@@ -972,6 +1024,13 @@ PRDX6 is a member of the peroxiredoxin family and well-defined as a cystein-1 PR
 	<content:encoded>&lt;span class=&quot;paragraphSection&quot;&gt;&lt;div class=&quot;boxTitle&quot;&gt;ABSTRACT&lt;/div&gt;Cortical structure has been consistently related to cognitive abilities in children and adults, yet we know little about how the cortex develops to support emergent cognition in infancy and toddlerhood when cortical thickness (CT) and surface area (SA) are maturing rapidly. In this report, we assessed how regional and global measures of CT and SA in a sample (&lt;span style=&quot;font-style: italic;&quot;&gt;N&lt;/span&gt; = 487) of healthy neonates, 1-year-olds, and 2-year-olds related to motor, language, visual reception, and general cognitive ability. We report novel findings that thicker cortices at ages 1 and 2 and larger SA at birth, age 1, and age 2 confer a cognitive advantage in infancy and toddlerhood. While several expected brain–cognition relationships were observed, overlapping cortical regions were also implicated across cognitive domains, suggesting that infancy marks a period of plasticity and refinement in cortical structure to support burgeoning motor, language, and cognitive abilities. CT may be a particularly important morphological indicator of ability, but its impact on cognition is relatively weak when compared with gestational age and maternal education. Findings suggest that prenatal and early postnatal cortical developments are important for cognition in infants and toddlers but should be considered in relation to other child and demographic factors.&lt;/span&gt;</content:encoded>
 	<dc:date>2019-07-31T00:00:00+00:00</dc:date>
 	<dc:creator>Girault J, Cornea E, Goldman B, et al.</dc:creator>
+</item>
+<item rdf:about="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30130-4?rss=yes">
+	<title>Trends in Neurosciences: Machine Learning and Brain Imaging: Opportunities and Challenges</title>
+	<link>https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30130-4?rss=yes</link>
+	<content:encoded>Machine learning approaches may provide ways to link brain activation patterns to behavior at an individual-subject level. Using a comparative performance analysis, Jollans and colleagues (Neuroimage, 2019) highlight in a recent paper key considerations when applying machine learning algorithms to neuroimaging data.</content:encoded>
+	<dc:date>2019-07-31T00:00:00+00:00</dc:date>
+	<dc:creator>Martin P. Paulus, Rayus Kuplicki, Hung-Wen Yeh</dc:creator>
 </item>
 <item rdf:about="https://www.cell.com/neuron/fulltext/S0896-6273(19)30601-4?rss=yes">
 	<title>Neuron: Convergent Temperature Representations in Artificial and Biological Neural Networks</title>
@@ -2058,7 +2117,7 @@ expected to experience this loss.
 	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Towlson_E/0/1/0/all/0/1">Emma K. Towlson</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Barabasi_A/0/1/0/all/0/1">Albert-L&#xe1;szl&#xf3; Barab&#xe1;si</a></dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1902.10658">
-	<title>q-bio.NC updates on arXiv.org: Neural Networks as Model Selection with Incremental MDL Normalization. (arXiv:1902.10658v6 [cs.LG] UPDATED)</title>
+	<title>q-bio.NC updates on arXiv.org: Neural Networks as Model Selection with Incremental MDL Normalization. (arXiv:1902.10658v7 [cs.LG] UPDATED)</title>
 	<link>http://arxiv.org/abs/1902.10658</link>
 	<content:encoded>&lt;p&gt;If we consider the neural network optimization process as a model selection
 problem, the implicit space can be constrained by the normalizing factor, the
@@ -2307,36 +2366,6 @@ in laboratories currently.
 &lt;/p&gt;</content:encoded>
 	<dc:date>2019-07-26T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Warrington_A/0/1/0/all/0/1">Andrew Warrington</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Spencer_A/0/1/0/all/0/1">Arthur Spencer</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Wood_F/0/1/0/all/0/1">Frank Wood</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1907.10944">
-	<title>q-bio.NC updates on arXiv.org: Richardson diffusion in neurons. (arXiv:1907.10944v1 [physics.bio-ph])</title>
-	<link>http://arxiv.org/abs/1907.10944</link>
-	<content:encoded>&lt;p&gt;The dynamics of an initial wave packed affected by random noise is considered
-in the framework of a comb model. The model is relevant to a diffusion problem
-in neurons where the transport of ions can be accelerated by an external random
-field due to synapse fluctuations. In the present specific case, it acts as
-boundary conditions, which lead to a reaction transport equation with
-multiplicative noise. The temporal behavior of the mean squared displacement is
-estimated analytically, and it is shown that the spreading of the initial wave
-packet corresponds to Richardson diffusion.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-07-26T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/physics/1/au:+Iomin_A/0/1/0/all/0/1">Alexander Iomin</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1907.10879">
-	<title>q-bio.NC updates on arXiv.org: Synaptic Time-Dependent Plasticity Leads to Efficient Coding of Predictions. (arXiv:1907.10879v1 [q-bio.NC])</title>
-	<link>http://arxiv.org/abs/1907.10879</link>
-	<content:encoded>&lt;p&gt;Latency reduction of postsynaptic spikes is a well-known effect of Synaptic
-Time-Dependent Plasticity. We expand this notion for long postsynaptic spike
-trains, showing that, for a fixed input spike train, STDP reduces the number of
-postsynaptic spikes and concentrates the remaining ones. Then we study the
-consequences of this phenomena in terms of coding, finding that this mechanism
-improves the neural code by increasing the signal-to-noise ratio and lowering
-the metabolic costs of frequent stimuli. Finally, we illustrate that the
-reduction of postsynaptic latencies can lead to the emergence of predictions.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-07-26T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Aceituno_P/0/1/0/all/0/1">Pau Vilimelis Aceituno</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Ehsani_M/0/1/0/all/0/1">Masud Ehsani</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Jost_J/0/1/0/all/0/1">J&#xfc;rgen Jost</a></dc:creator>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnins.2019.00775">
 	<title>Frontiers in Neuroscience | Brain Imaging Methods section | New and Recent Articles: Evaluation of Functional Connectivity in the Brain Using Positron Emission Tomography: A Mini-Review</title>
@@ -4119,13 +4148,6 @@ Conclusion
 Vergence disorders (assessed by abnormal orthoptic and oculomotor parameters) can generate symptoms of dizziness in children. Orthoptic treatment and instruction to reduce screen usage has a significant and long term effect on vertigo symptoms as well as oculomotor performances. Dizzy children should be screened for vergence disorders.</content:encoded>
 	<dc:date>2019-07-10T00:00:00+00:00</dc:date>
 	<dc:creator>Sylvette R. Wiener-Vacher</dc:creator>
-</item>
-<item rdf:about="https://www.frontiersin.org/articles/10.3389/fnins.2019.00709">
-	<title>Frontiers in Neuroscience | Brain Imaging Methods section | New and Recent Articles: Fine-Grained Parcellation of the Macaque Nucleus Accumbens by High-Resolution Diffusion Tensor Tractography</title>
-	<link>https://www.frontiersin.org/articles/10.3389/fnins.2019.00709</link>
-	<content:encoded>Limited in part by the spatial resolution of typical in vivo magnetic resonance imaging (MRI) data, recent neuroimaging studies have only identified a connectivity-based shell-core-like partitioning of the nucleus accumbens (Acb) in humans. This has hindered the process of making a more refined description of the Acb using non-invasive neuroimaging technologies and approaches. In this study, high-resolution ex vivo macaque brain diffusion MRI data were acquired to investigate the tractography-based parcellation of the Acb. Our results identified a shell-core-like partitioning in macaques that is similar to that in humans as well as an alternative solution that subdivided the Acb into four parcels, the medial shell, the lateral shell, the ventral core, and the dorsal core. Furthermore, we characterized the specific anatomical and functional connectivity profiles of these Acb subregions and generalized their specialized functions to establish a fine-grained macaque Acb brainnetome atlas. This atlas should be helpful in neuroimaging, stereotactic surgery, and comparative neuroimaging studies to reveal the neurophysiological substrates of various diseases and cognitive functions associated with the Acb.</content:encoded>
-	<dc:date>2019-07-10T00:00:00+00:00</dc:date>
-	<dc:creator>Xiaoluan Xia</dc:creator>
 </item>
 
 </rdf:RDF>
