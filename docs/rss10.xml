@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007252" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818302113" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/39/32/6378?rss=1" />
 			<rdf:li rdf:resource="http://www.jneurosci.org/cgi/content/short/39/32/6365?rss=1" />
@@ -68,6 +69,7 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/728576v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/728485v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/728469v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/728113v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/728097v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/727842v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/727818v1?rss=1" />
@@ -145,6 +147,8 @@
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30129-8?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30128-6?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30632-4?rss=yes" />
+			<rdf:li rdf:resource="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0523-7" />
+			<rdf:li rdf:resource="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0520-x" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/727974v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/727735v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/727719v1?rss=1" />
@@ -157,7 +161,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/726893v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/726844v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/726760v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/726711v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007266" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007238" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007226" />
@@ -328,7 +331,6 @@
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25531?af=R" />
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25548?af=R" />
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30123-7?rss=yes" />
-			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007014" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2019.00775" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnagi.2019.00191" />
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25557?af=R" />
@@ -413,12 +415,19 @@
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2019.00720" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnhum.2019.00231" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnana.2019.00073" />
-			<rdf:li rdf:resource="http://doi.org/10.1093/cercor/bhz138" />
-			<rdf:li rdf:resource="https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01212?ai=sl&amp;mi=6c5u8v&amp;af=R" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007252">
+	<title>PLOS Computational Biology: New Articles: On the optimal design of metabolic RNA labeling experiments</title>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/1mYjBd9XxhI/article</link>
+	<content:encoded>&lt;p&gt;by Alexey Uvarovskii, Isabel S. Naarmann-de Vries, Christoph Dieterich&lt;/p&gt;
+
+Massively parallel RNA sequencing (RNA-seq) in combination with metabolic labeling has become the &lt;i&gt;de facto&lt;/i&gt; standard approach to study alterations in RNA transcription, processing or decay. Regardless of advances in the experimental protocols and techniques, every experimentalist needs to specify the key aspects of experimental design: For example, which protocol should be used (biochemical separation vs. nucleotide conversion) and what is the optimal labeling time? In this work, we provide approximate answers to these questions using the asymptotic theory of optimal design. Specifically, we investigate, how the variance of degradation rate estimates depends on the time and derive the optimal time for any given degradation rate. Subsequently, we show that an increase in sample numbers should be preferred over an increase in sequencing depth. Lastly, we provide some guidance on use cases when laborious biochemical separation outcompetes recent nucleotide conversion based methods (such as SLAMseq) and show, how inefficient conversion influences the precision of estimates. Code and documentation can be found at https://github.com/dieterich-lab/DesignMetabolicRNAlabeling.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/1mYjBd9XxhI&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2019-08-07T21:00:00+00:00</dc:date>
+	<dc:creator>Christoph Dieterich</dc:creator>
+</item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818302113">
 	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Diverse gene regulatory mechanisms mediated by Polycomb group proteins during neural development</title>
 	<link>https://www.sciencedirect.com/science/article/pii/S0959438818302113?dgcid=rss_sd_all</link>
@@ -840,6 +849,13 @@ We take a small step in this direction with the NEUROmotor integration and Desig
 	<content:encoded>A critical and emerging question in human episodic memory is how the hippocampus interacts with the prefrontal cortex during the encoding and retrieval of items and their contexts. In the present study, participants performed an episodic memory task (free recall) while intracranial electrodes were simultaneously inserted into the hippocampus and multiple prefrontal locations, allowing the quantification of relative onset times of gamma band activity in the cortex and the hippocampus in the same individual. We observed that in left anterior ventrolateral prefrontal cortex (aVLPFC) gamma band activity onset was significantly later than in the hippocampus during memory encoding, whereas its activity significantly preceded that in the hippocampus during memory retrieval. These findings provide direct evidence to support models of prefrontal-hippocampal interactions derived from studies of rodents, but suggest that in humans, it is the aVLPFC rather than medial prefrontal cortex that demonstrate these reciprocal interactions.</content:encoded>
 	<dc:date>2019-08-07T00:00:00+00:00</dc:date>
 	<dc:creator>Seger, S., Rugg, M., Lega, B. C.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/728113v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: MECP2 duplication causes aberrant GABA pathways, circuits and behaviors in transgenic monkeys: neural mappings to patients with autism</title>
+	<link>http://biorxiv.org/cgi/content/short/728113v1?rss=1</link>
+	<content:encoded>MECP2 gain- and loss-of-function in genetically-engineered monkeys demonstrably recapitulate typical phenotypes in patients, yet where MECP2 mutation affects the monkey brain and whether/how it relates to autism pathology remains unknown. Using expression profiles of 13,888 genes in 182 macaque neocortical samples, we first show that MECP2 coexpressed genes are enriched in GABA-related signaling pathways. We then perform analyses on multiple phenotypic levels including locomotive and cognitive behavior, resting-state electroencephalography and fMRI in MECP2 overexpressed and wild-type macaque monkeys. Behaviorally, transgenic monkeys exhibit hyperactive and repetitive locomotion, greater separation anxiety response, and less flexibility in rule switching. Moreover, decreased neural synchronization at beta frequency (12-30 Hz) is associated with greater locomotion after peer separation. Further analysis of fMRI-derived connectomics reveals widespread hyper- and hypo-connectivity, where hyper-connectivity prominently involving prefrontal and cingulate networks accounts for deficits in cognitive flexibility. To map MECP2-related aberrant circuits of monkeys to the pathological circuits of autistic patients, individuals in a large public neuroimaging database of autism were clustered using community detection on functional connectivity patterns. In a stratified cohort of 49 autisms and 72 controls, the dysfunctional connectivity profile particularly in prefrontal and temporal networks is highly correlated with that of transgenic monkeys, as is further responsible for the severity of social communicative deficits in patients. Through establishing a circuit-based construct link between transgenic animal models and stratified clinical patients, the present findings with explicable biological causes are potentially amenable to translation for accurate diagnosis and evaluation of future treatments in autism-related disorders.</content:encoded>
+	<dc:date>2019-08-07T00:00:00+00:00</dc:date>
+	<dc:creator>Cai, D.-C., Wang, Z., Bo, T., Yan, S., Liu, Y., Liu, Z., Zeljic, K., Chen, X., Zhan, Y., Xu, X., Du, Y., Wang, Y., Cang, J., Wang, G.-Z., Zhang, J., Sun, Q., Qiu, Z., Ge, S., Ye, Z., Wang, Z.</dc:creator>
 </item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/728097v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Developmental Characterization of Zswim5 Expression in the Progenitor Domains and Tangential Migration Pathways of Cortical Interneurons in the Mouse Forebrain</title>
@@ -1535,6 +1551,20 @@ Conclusions: Higher 24-h SBP, higher 24-h SBP-SD, and larger IMT were independen
 	<dc:date>2019-08-06T00:00:00+00:00</dc:date>
 	<dc:creator>Sunny Nigam, Sorin Pojoga, Valentin Dragoi</dc:creator>
 </item>
+<item rdf:about="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0523-7">
+	<title>Most Recent Articles: BMC Neuroscience: A safety study of 500 μA cathodal transcranial direct current stimulation in rat</title>
+	<link>https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0523-7</link>
+	<content:encoded>Transcranial direct current stimulation (tDCS) is a noninvasive neural control technology that has become a research hotspot. To facilitate further research of tDCS, the biosafety of 500 μA cathodal tDCS, a co...</content:encoded>
+	<dc:date>2019-08-06T00:00:00+00:00</dc:date>
+	<dc:creator>Keying Zhang, Ling Guo, Junping Zhang, Guangzhou An, Yan Zhou, Jiajin Lin, Junling Xing, Mai Lu and Guirong Ding</dc:creator>
+</item>
+<item rdf:about="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0520-x">
+	<title>Most Recent Articles: BMC Neuroscience: Isoliquiritigenin attenuates lipopolysaccharide-induced cognitive impairment through antioxidant and anti-inflammatory activity</title>
+	<link>https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0520-x</link>
+	<content:encoded>Oxidative stress and neuroinflammation are central pathogenic mechanisms common to many neurological diseases. Isoliquiritigenin (ISL) is a flavonoid in licorice with multiple pharmacological properties, inclu...</content:encoded>
+	<dc:date>2019-08-06T00:00:00+00:00</dc:date>
+	<dc:creator>Xiaobo Zhu, Jiankun Liu, Shaojie Chen, Jiang Xue, Shanying Huang, Yibiao Wang and Ou Chen</dc:creator>
+</item>
 <item rdf:about="http://biorxiv.org/cgi/content/short/727974v1?rss=1">
 	<title>bioRxiv Subject Collection: Neuroscience: Inferring neuronal ionic conductances from membrane potentials using CNNs</title>
 	<link>http://biorxiv.org/cgi/content/short/727974v1?rss=1</link>
@@ -1618,13 +1648,6 @@ Conclusions: Higher 24-h SBP, higher 24-h SBP-SD, and larger IMT were independen
 	<content:encoded>Myelination of central nervous system axons increases action potential conduction velocity and increases the speed of information transfer. However, it is unclear whether myelination optimizes action potential conduction to achieve synchronicity and facilitate information processing within cortical and associative circuits. Here we show that myelin sheaths remain plastic in the adult mouse and undergo subtle structural modifications to influence action potential conduction. Repetitive transcranial magnetic stimulation and spatial learning, two stimuli that modify neuronal activity, alter the length of the nodes of Ranvier and the size of the periaxonal space within active brain regions. This change in the axon-glial configuration, which is independent of oligodendrogenesis, tunes conduction velocity to increase the synchronicity of action potential conduction.</content:encoded>
 	<dc:date>2019-08-06T00:00:00+00:00</dc:date>
 	<dc:creator>Cullen, C. L., Pepper, R. E., Clutterbuck, M. T., Pitman, K. A., Oorschot, V., Auderset, L., Tang, A. D., Ramm, G., Emery, B., Rodger, J., Jolivet, R. B., Young, K. M.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/726711v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Taste quality representation in the human brain</title>
-	<link>http://biorxiv.org/cgi/content/short/726711v1?rss=1</link>
-	<content:encoded>In the mammalian brain, the insula is the primary cortical substrate involved in the perception of taste. Recent imaging studies in rodents have identified a &quot;gustotopic&quot; organization in the insula, whereby distinct insula regions are selectively responsive to one of the five basic tastes. However, numerous studies in monkeys have reported that gustatory cortical neurons are broadly-tuned to multiple tastes, and tastes are not represented in discrete spatial locations. Neuroimaging studies in humans have thus far been unable to discern between these two models, though this may be due to the relatively low spatial resolution employed in taste studies to date. In the present study, we examined the spatial representation of taste within the human brain using ultra-high resolution functional magnetic resonance imaging (MRI) at high magnetic field strength (7-Tesla). During scanning, participants tasted sweet, salty, sour and tasteless liquids, delivered via a custom-built MRI-compatible tastant-delivery system. Our univariate analyses revealed that all tastes (vs. tasteless) activated primary taste cortex within the bilateral dorsal mid-insula, but no brain region exhibited a consistent preference for any individual taste. However, our multivariate searchlight analyses were able to reliably decode the identity of distinct tastes within those mid-insula regions, as well as brain regions involved in affect and reward, such as the striatum, orbitofrontal cortex, and amygdala. These results suggest that taste quality is not represented topographically, but by a combinatorial spatial code, both within primary taste cortex as well as regions involved in processing the hedonic and aversive properties of taste.</content:encoded>
-	<dc:date>2019-08-06T00:00:00+00:00</dc:date>
-	<dc:creator>Avery, J. A., Liu, A. G., Ingeholm, J. E., Riddell, C. D., Gotts, S. J., Martin, A.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007266">
 	<title>PLOS Computational Biology: New Articles: Reduced model to predict thrombin and fibrin during thrombosis on collagen/tissue factor under venous flow: Roles of γ’-fibrin and factor XIa</title>
@@ -3567,15 +3590,6 @@ Walter Maetzler</dc:creator>
 	<dc:date>2019-07-27T00:00:00+00:00</dc:date>
 	<dc:creator>Michaela D. Filiou, Carmen Sandi</dc:creator>
 </item>
-<item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007014">
-	<title>PLOS Computational Biology: New Articles: Heterogeneous susceptibility to rotavirus infection and gastroenteritis in two birth cohort studies: Parameter estimation and epidemiological implications</title>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/QoFUEA-Zyaw/article</link>
-	<content:encoded>&lt;p&gt;by Joseph A. Lewnard, Benjamin A. Lopman, Umesh D. Parashar, Aisleen Bennett, Naor Bar-Zeev, Nigel A. Cunliffe, Prasanna Samuel, M. Lourdes Guerrero, Guillermo Ruiz-Palacios, Gagandeep Kang, Virginia E. Pitzer&lt;/p&gt;
-
-Cohort studies, randomized trials, and post-licensure studies have reported reduced natural and vaccine-derived protection against rotavirus gastroenteritis (RVGE) in low- and middle-income countries. While susceptibility of children to rotavirus is known to vary within and between settings, implications for estimation of immune protection are not well understood. We sought to re-estimate naturally-acquired protection against rotavirus infection and RVGE, and to understand how differences in susceptibility among children impacted estimates. We re-analyzed data from studies conducted in Mexico City, Mexico and Vellore, India. Cumulatively, 573 rotavirus-unvaccinated children experienced 1418 rotavirus infections and 371 episodes of RVGE over 17,636 child-months. We developed a model that characterized susceptibility to rotavirus infection and RVGE among children, accounting for aspects of the natural history of rotavirus and differences in transmission rates between settings. We tested whether model-generated susceptibility measurements were associated with demographic and anthropometric factors, and with the severity of RVGE symptoms. We identified greater variation in susceptibility to rotavirus infection and RVGE in Vellore than in Mexico City. In both cohorts, susceptibility to rotavirus infection and RVGE were associated with male sex, lower birth weight, lower maternal education, and having fewer siblings; within Vellore, susceptibility was also associated with lower socioeconomic status. Children who were more susceptible to rotavirus also experienced higher rates of rotavirus-negative diarrhea, and higher risk of moderate-to-severe symptoms when experiencing RVGE. Simulations suggested that discrepant estimates of naturally-acquired immunity against RVGE can be attributed, in part, to between-setting differences in susceptibility of children, but result primarily from the interaction of transmission rates with age-dependent risk for infections to cause RVGE. We found that more children in Vellore than in Mexico City belong to a high-risk group for rotavirus infection and RVGE, and demonstrate that unmeasured individual- and age-dependent susceptibility may influence estimates of naturally-acquired immune protection against RVGE.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/QoFUEA-Zyaw&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2019-07-26T21:00:00+00:00</dc:date>
-	<dc:creator>Virginia E. Pitzer</dc:creator>
-</item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnins.2019.00775">
 	<title>Frontiers in Neuroscience | Brain Imaging Methods section | New and Recent Articles: Evaluation of Functional Connectivity in the Brain Using Positron Emission Tomography: A Mini-Review</title>
 	<link>https://www.frontiersin.org/articles/10.3389/fnins.2019.00775</link>
@@ -4269,20 +4283,6 @@ Results confirm the feasibility to decode selective attention by means of single
 	<content:encoded>Brain tissue contains autofluorescing elements that potentially impede accurate identification of neurons when visualized with fluorescent microscopy. Age-related accumulation of molecules with autofluorescent properties, such as lipofuscin, can possess spectral profiles that invade the typical emission range of fluorophores commonly utilized in fluorescent microscopy. The traditional method for accounting for this native fluorescence is to apply lipophilic dyes that are able to sequester these unwanted signals. While effective, such dyes can present a range of problems including the obstruction of fluorescent probe emissions. The present study utilizes aged primate midbrain tissue stained for tyrosine hydroxylase and calbindin to investigate an image processing approach for removing autofluorescence utilizing spectral imaging and linear unmixing. This technique is then compared against the traditional, dye-based autofluorescence sequestration method using Sudan Black B (SBB). Spectral imaging and linear unmixing yielded significantly higher cell numbers than SBB treatment. This finding suggests that computational approaches for removing autofluorescence in neural tissue are both viable and preferential to dye-based approaches for estimation of cell body numbers.</content:encoded>
 	<dc:date>2019-07-18T00:00:00+00:00</dc:date>
 	<dc:creator>Wonn S. Pyon</dc:creator>
-</item>
-<item rdf:about="http://doi.org/10.1093/cercor/bhz138">
-	<title>Cerebral Cortex Advance Access: Auditory–Articulatory Neural Alignment between Listener and Speaker during Verbal Communication</title>
-	<link>https://academic.oup.com/cercor/advance-article/doi/10.1093/cercor/bhz138/5533478?rss=1</link>
-	<content:encoded>&lt;span class=&quot;paragraphSection&quot;&gt;&lt;div class=&quot;boxTitle&quot;&gt;Abstract&lt;/div&gt;Whether auditory processing of speech relies on reference to the articulatory motor information of speaker remains elusive. Here, we addressed this issue under a two-brain framework. Functional magnetic resonance imaging was applied to record the brain activities of speakers when telling real-life stories and later of listeners when listening to the audio recordings of these stories. Based on between-brain seed-to-voxel correlation analyses, we revealed that neural dynamics in listeners’ auditory temporal cortex are temporally coupled with the dynamics in the speaker’s larynx/phonation area. Moreover, the coupling response in listener’s left auditory temporal cortex follows the hierarchical organization for speech processing, with response lags in A1+, STG/STS, and MTG increasing linearly. Further, listeners showing greater coupling responses understand the speech better. When comprehension fails, such interbrain auditory-articulation coupling vanishes substantially. These findings suggest that a listener’s auditory system and a speaker’s articulatory system are inherently aligned during naturalistic verbal interaction, and such alignment is associated with high-level information transfer from the speaker to the listener. Our study provides reliable evidence supporting that references to the articulatory motor information of speaker facilitate speech comprehension under a naturalistic scene.&lt;/span&gt;</content:encoded>
-	<dc:date>2019-07-18T00:00:00+00:00</dc:date>
-	<dc:creator>Liu L, Zhang Y, Zhou Q, et al.</dc:creator>
-</item>
-<item rdf:about="https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01212?ai=sl&amp;mi=6c5u8v&amp;af=R">
-	<title>MIT Press: Neural Computation: Table of Contents: Variable Selection for Nonparametric Learning with Power Series Kernels</title>
-	<link>https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01212?ai=sl&amp;mi=6c5u8v&amp;af=R</link>
-	<content:encoded>Neural Computation, &lt;a href=&quot;https://www.mitpressjournals.org/toc/neco/31/8&quot;&gt;Volume 31, Issue 8&lt;/a&gt;, Page 1718-1750, August 2019. &lt;br /&gt;</content:encoded>
-	<dc:date>2019-07-17T07:49:36+00:00</dc:date>
-	<dc:creator>Kota Matsui</dc:creator>
 </item>
 
 </rdf:RDF>
