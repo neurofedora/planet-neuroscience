@@ -15,10 +15,12 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818302125" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007230" />
+			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25546?af=R" />
 			<rdf:li rdf:resource="http://www.eneuro.org/cgi/content/short/6/4/ENEURO.0281-19.2019?rss=1" />
 			<rdf:li rdf:resource="http://www.eneuro.org/cgi/content/short/ENEURO.0299-18.2019v1?rss=1" />
-			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25546?af=R" />
+			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25555?af=R" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1908.05627" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1908.05298" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1812.09218" />
@@ -112,7 +114,6 @@
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25542?af=R" />
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25539?af=R" />
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25538?af=R" />
-			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25537?af=R" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438818302162" />
 			<rdf:li rdf:resource="https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01215?ai=sl&amp;mi=6c5u8v&amp;af=R" />
 			<rdf:li rdf:resource="https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01214?ai=sl&amp;mi=6c5u8v&amp;af=R" />
@@ -414,11 +415,16 @@
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41593-019-0459-3" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41593-019-0457-5" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41593-019-0454-8" />
-			<rdf:li rdf:resource="https://www.nature.com/articles/s41593-019-0443-y" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818302125">
+	<title>ScienceDirect Publication: Current Opinion in Neurobiology: The quest for interpretable models of neural population activity</title>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438818302125?dgcid=rss_sd_all</link>
+	<content:encoded>&lt;p&gt;Publication date: October 2019&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 58&lt;/p&gt;&lt;p&gt;Author(s): Matthew R Whiteway, Daniel A Butts&lt;/p&gt;&lt;div&gt;&lt;p&gt;Many aspects of brain function arise from the coordinated activity of large populations of neurons. Recent developments in neural recording technologies are providing unprecedented access to the activity of such populations during increasingly complex experimental contexts; however, extracting scientific insights from such recordings requires the concurrent development of analytical tools that relate this population activity to system-level function. This is a primary motivation for latent variable models, which seek to provide a low-dimensional description of population activity that can be related to experimentally controlled variables, as well as uncontrolled variables such as internal states (e.g. attention and arousal) and elements of behavior. While deriving an understanding of function from traditional latent variable methods relies on low-dimensional visualizations, new approaches are targeting more interpretable descriptions of the components underlying system-level function.&lt;/p&gt;&lt;/div&gt;</content:encoded>
+	<dc:date>2019-08-17T11:00:07+00:00</dc:date>
+</item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007230">
 	<title>PLOS Computational Biology: New Articles: FAMoS: A Flexible and dynamic Algorithm for Model Selection to analyse complex systems dynamics</title>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/chXjj93krjA/article</link>
@@ -427,18 +433,6 @@
 Most biological systems are difficult to analyse due to a multitude of interacting components and the concomitant lack of information about the essential dynamics. Finding appropriate models that provide a systematic description of such biological systems and that help to identify their relevant factors and processes can be challenging given the sheer number of possibilities. Model selection algorithms that evaluate the performance of a multitude of different models against experimental data provide a useful tool to identify appropriate model structures. However, many algorithms addressing the analysis of complex dynamical systems, as they are often used in biology, compare a preselected number of models or rely on exhaustive searches of the total model space which might be unfeasible dependent on the number of possibilities. Therefore, we developed an algorithm that is able to perform model selection on complex systems and searches large model spaces in a dynamical way. Our algorithm includes local and newly developed non-local search methods that can prevent the algorithm from ending up in local minima of the model space by accounting for structurally similar processes. We tested and validated the algorithm based on simulated data and showed its flexibility for handling different model structures. We also used the algorithm to analyse experimental data on the cell proliferation dynamics of CD4&lt;sup&gt;+&lt;/sup&gt; and CD8&lt;sup&gt;+&lt;/sup&gt; T cells that were cultured under different conditions. Our analyses indicated dynamical changes within the proliferation potential of cells that was reduced within tissue-like 3D &lt;i&gt;ex vivo&lt;/i&gt; cultures compared to suspension. Due to the flexibility in handling various model structures, the algorithm is applicable to a large variety of different biological problems and represents a useful tool for the data-oriented evaluation of complex model spaces.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/chXjj93krjA&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2019-08-16T21:00:00+00:00</dc:date>
 	<dc:creator>Frederik Graw</dc:creator>
-</item>
-<item rdf:about="http://www.eneuro.org/cgi/content/short/6/4/ENEURO.0281-19.2019?rss=1">
-	<title>eNeuro current issue: Erratum: Boyer et al., &quot;Mammalian TRIM67 Functions in Brain Development and Behavior&quot;</title>
-	<link>http://www.eneuro.org/cgi/content/short/6/4/ENEURO.0281-19.2019?rss=1</link>
-	<dc:date>2019-08-16T16:30:37+00:00</dc:date>
-</item>
-<item rdf:about="http://www.eneuro.org/cgi/content/short/ENEURO.0299-18.2019v1?rss=1">
-	<title>RSS PAP: Bursts with high and low load of epileptiform spikes show context-dependent correlations in epileptic mice</title>
-	<link>http://www.eneuro.org/cgi/content/short/ENEURO.0299-18.2019v1?rss=1</link>
-	<content:encoded>Abstract&lt;p&gt;Hypersynchronous network activity is the defining hallmark of epilepsy and manifests in a wide spectrum of phenomena of which electrographic activity during seizures is only one extreme. The aim of this study was to differentiate between different types of epileptiform activity patterns and investigate their temporal succession and interactions. We analyzed local field potentials from freely behaving male mice that had received an intrahippocampal kainate injection to model mesial temporal lobe epilepsy. Epileptiform spikes occurred in distinct bursts. Using machine learning, we derived a scale reflecting the spike load of bursts and three main burst categories that we labeled high-load, medium-load and low-load bursts. We found that bursts of these categories were non-randomly distributed in time. High-load bursts formed clusters and were typically surrounded by transition phases with increased rates of medium-load and low-load bursts. In apparent contradiction to this, increased rates of low-load bursts were also associated with elongated background phases, i.e. periods lacking high-load bursting. Furthermore, the rate of low-load bursts was more strongly correlated with the duration of background phases than the overall rate of epileptiform spikes. Our findings are consistent with the hypothesis that low-level epileptiform activity could promote network stability but could also participate in transitions towards major epileptiform events, depending on the current state of the network.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Significance Statement&lt;/b&gt; It is a major challenge in epilepsy research to understand how different types of epileptiform activity interact and whether epileptiform spikes prevent or promote major epileptic events. In our mouse model for mesial temporal lobe epilepsy, epileptiform spikes occurred in bursts. Increased rates of bursts with low spike load were clearly associated with extended phases lacking high-load bursts, which is in line with the view that low-level activity could promote network stability in epilepsy. Low-load bursts, however, also occurred during transition phases to clusters of high-load bursts. Both findings are consistent with the hypothesis that low-level epileptiform activity could reduce the excitability of the network but that its impact depends on the current state of the network.&lt;/p&gt;</content:encoded>
-	<dc:date>2019-08-16T16:30:09+00:00</dc:date>
-	<dc:creator>Heining, K., Kilias, A., Janz, P., Ha&#x0308;ussler, U., Kumar, A., Haas, C. A., Egert, U.</dc:creator>
 </item>
 <item rdf:about="/doi/abs/10.1002/ana.25546?af=R">
 	<title>Wiley: Annals of Neurology: Table of Contents: An Intracerebral Hemorrhage Care Bundle Is Associated with Lower Case Fatality</title>
@@ -457,7 +451,7 @@ Most biological systems are difficult to analyse due to a multitude of interacti
 
 &lt;h2&gt;Interpretation&lt;/h2&gt;
 &lt;p&gt;Implementation of the ABC care bundle was significantly associated with lower 30‐day case fatality after ICH. ANN NEUROL 2019&lt;/p&gt;</content:encoded>
-	<dc:date>2019-08-16T13:13:11+00:00</dc:date>
+	<dc:date>2019-08-16T19:00:00+00:00</dc:date>
 	<dc:creator>Adrian R. Parry‐Jones, 
 Camilla Sammut‐Powell, 
 Kyriaki Paroutoglou, 
@@ -469,6 +463,24 @@ Mark Massyn,
 Richard Emsley, 
 Benjamin Bray, 
 Hiren Patel</dc:creator>
+</item>
+<item rdf:about="http://www.eneuro.org/cgi/content/short/6/4/ENEURO.0281-19.2019?rss=1">
+	<title>eNeuro current issue: Erratum: Boyer et al., &quot;Mammalian TRIM67 Functions in Brain Development and Behavior&quot;</title>
+	<link>http://www.eneuro.org/cgi/content/short/6/4/ENEURO.0281-19.2019?rss=1</link>
+	<dc:date>2019-08-16T16:30:37+00:00</dc:date>
+</item>
+<item rdf:about="http://www.eneuro.org/cgi/content/short/ENEURO.0299-18.2019v1?rss=1">
+	<title>RSS PAP: Bursts with high and low load of epileptiform spikes show context-dependent correlations in epileptic mice</title>
+	<link>http://www.eneuro.org/cgi/content/short/ENEURO.0299-18.2019v1?rss=1</link>
+	<content:encoded>Abstract&lt;p&gt;Hypersynchronous network activity is the defining hallmark of epilepsy and manifests in a wide spectrum of phenomena of which electrographic activity during seizures is only one extreme. The aim of this study was to differentiate between different types of epileptiform activity patterns and investigate their temporal succession and interactions. We analyzed local field potentials from freely behaving male mice that had received an intrahippocampal kainate injection to model mesial temporal lobe epilepsy. Epileptiform spikes occurred in distinct bursts. Using machine learning, we derived a scale reflecting the spike load of bursts and three main burst categories that we labeled high-load, medium-load and low-load bursts. We found that bursts of these categories were non-randomly distributed in time. High-load bursts formed clusters and were typically surrounded by transition phases with increased rates of medium-load and low-load bursts. In apparent contradiction to this, increased rates of low-load bursts were also associated with elongated background phases, i.e. periods lacking high-load bursting. Furthermore, the rate of low-load bursts was more strongly correlated with the duration of background phases than the overall rate of epileptiform spikes. Our findings are consistent with the hypothesis that low-level epileptiform activity could promote network stability but could also participate in transitions towards major epileptiform events, depending on the current state of the network.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Significance Statement&lt;/b&gt; It is a major challenge in epilepsy research to understand how different types of epileptiform activity interact and whether epileptiform spikes prevent or promote major epileptic events. In our mouse model for mesial temporal lobe epilepsy, epileptiform spikes occurred in bursts. Increased rates of bursts with low spike load were clearly associated with extended phases lacking high-load bursts, which is in line with the view that low-level activity could promote network stability in epilepsy. Low-load bursts, however, also occurred during transition phases to clusters of high-load bursts. Both findings are consistent with the hypothesis that low-level epileptiform activity could reduce the excitability of the network but that its impact depends on the current state of the network.&lt;/p&gt;</content:encoded>
+	<dc:date>2019-08-16T16:30:09+00:00</dc:date>
+	<dc:creator>Heining, K., Kilias, A., Janz, P., Ha&#x0308;ussler, U., Kumar, A., Haas, C. A., Egert, U.</dc:creator>
+</item>
+<item rdf:about="/doi/abs/10.1002/ana.25555?af=R">
+	<title>Wiley: Annals of Neurology: Table of Contents: Prognosis after intracerebral hemorrhage is uncertain, so why not do everything?</title>
+	<link>https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25555?af=R</link>
+	<dc:date>2019-08-16T14:42:11+00:00</dc:date>
+	<dc:creator>Lewis B. Morgenstern</dc:creator>
 </item>
 <item rdf:about="http://arxiv.org/abs/1908.05627">
 	<title>q-bio.NC updates on arXiv.org: Learning Signal Subgraphs from Longitudinal Brain Networks with Symmetric Bilinear Logistic Regression. (arXiv:1908.05627v1 [stat.AP])</title>
@@ -1529,15 +1541,6 @@ Romergryko G. Geocadin</dc:creator>
 	<dc:creator>Jeannette Hofmeijer, 
 Barry J. Ruijter, 
 Michel J. A. M. Putten</dc:creator>
-</item>
-<item rdf:about="/doi/abs/10.1002/ana.25537?af=R">
-	<title>Wiley: Annals of Neurology: Table of Contents: Silent Progression or Bout Onset Progressive Multiple Sclerosis?</title>
-	<link>https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25537?af=R</link>
-	<dc:date>2019-08-14T12:49:34+00:00</dc:date>
-	<dc:creator>Sara Gil‐Perotin, 
-Carmen Alcalá, 
-Francisco Carlos Pérez‐Miralles, 
-Bonaventura Casanova</dc:creator>
 </item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438818302162">
 	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Classes of dendritic information processing</title>
@@ -4093,13 +4096,6 @@ Keywords: neurocartography, array tomography, synapse, hippocampus, electron mic
 	<content:encoded>&lt;p&gt;Nature Neuroscience, Published online: 25 July 2019; &lt;a href=&quot;https://www.nature.com/articles/s41593-019-0454-8&quot;&gt;doi:10.1038/s41593-019-0454-8&lt;/a&gt;&lt;/p&gt;Mosquito-borne virus infections, such as West Nile and Zika, have debilitating cognitive effects that persist despite recovery from encephalitis. Garber et al. identify mechanisms by which antiviral T cell persistence after recovery from infection leads to impairments in cognition via virus-specific mediation of microglial synapse elimination.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/neuro/rss/current/~4/4Ny4t819Bqg&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2019-07-25T00:00:00+00:00</dc:date>
 	<dc:creator>Karen Krukowski</dc:creator>
-</item>
-<item rdf:about="https://www.nature.com/articles/s41593-019-0443-y">
-	<title>Nature Neuroscience - Issue - nature.com science feeds: Dynamic nonlinearities enable direction opponency in Drosophila elementary motion detectors</title>
-	<link>http://feeds.nature.com/~r/neuro/rss/current/~3/7LWsqcLWgdk/s41593-019-0443-y</link>
-	<content:encoded>&lt;p&gt;Nature Neuroscience, Published online: 25 July 2019; &lt;a href=&quot;https://www.nature.com/articles/s41593-019-0443-y&quot;&gt;doi:10.1038/s41593-019-0443-y&lt;/a&gt;&lt;/p&gt;Badwan et al. find direction-opponent responses in the most peripheral direction-selective cells of Drosophila. They analyze how this property constrains models for direction selectivity and how it impacts motion estimation in natural scenes.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/neuro/rss/current/~4/7LWsqcLWgdk&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2019-07-25T00:00:00+00:00</dc:date>
-	<dc:creator>Bara A. Badwan</dc:creator>
 </item>
 
 </rdf:RDF>
