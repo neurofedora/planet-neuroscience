@@ -5,8 +5,157 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscience/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscience/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscience/atom.xml</id>
-	<updated>2019-08-21T23:00:12+00:00</updated>
+	<updated>2019-08-22T05:00:12+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscience/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en-us">Mapping of Local and Global Synapses on Spiking Neuromorphic Hardware. (arXiv:1908.08024v1 [q-bio.NC])</title>
+		<link href="http://arxiv.org/abs/1908.08024"/>
+		<id>http://arxiv.org/abs/1908.08024</id>
+		<updated>2019-08-22T01:30:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Spiking Neural Networks (SNNs) are widely deployed to solve complex pattern
+recognition, function approximation and image classification tasks. With the
+growing size and complexity of these networks, hardware implementation becomes
+challenging because scaling up the size of a single array (crossbar) of fully
+connected neurons is no longer feasible due to strict energy budget. Modern
+neromorphic hardware integrates small-sized crossbars with time-multiplexed
+interconnects. Partitioning SNNs becomes essential in order to map them on
+neuromorphic hardware with the major aim to reduce the global communication
+latency and energy overhead. To achieve this goal, we propose our instantiation
+of particle swarm optimization, which partitions SNNs into local synapses
+(mapped on crossbars) and global synapses (mapped on time-multiplexed
+interconnects), with the objective of reducing spike communication on the
+interconnect. This improves latency, power consumption as well as application
+performance by reducing inter-spike interval distortion and spike disorders.
+Our framework is implemented in Python, interfacing CARLsim, a GPU-accelerated
+application-level spiking neural network simulator with an extended version of
+Noxim, for simulating time-multiplexed interconnects. Experiments are conducted
+with realistic and synthetic SNN-based applications with different computation
+models, topologies and spike coding schemes. Using power numbers from in-house
+neuromorphic chips, we demonstrate significant reductions in energy consumption
+and spike latency over PACMAN, the widely-used partitioning technique for SNNs
+on SpiNNaker.
+&lt;/p&gt;</content>
+		<author>
+			<name>&lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Das_A/0/1/0/all/0/1&quot;&gt;Anup Das&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Wu_Y/0/1/0/all/0/1&quot;&gt;Yuefeng Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Huynh_K/0/1/0/all/0/1&quot;&gt;Khanh Huynh&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+DellAnna_F/0/1/0/all/0/1&quot;&gt;Francesco Dell&amp;#x27;Anna&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Catthoor_F/0/1/0/all/0/1&quot;&gt;Francky Catthoor&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Schaafsma_S/0/1/0/all/0/1&quot;&gt;Siebren Schaafsma&lt;/a&gt;</name>
+			<uri>http://arxiv.org/</uri>
+		</author>
+		<source>
+			<title type="html">q-bio.NC updates on arXiv.org</title>
+			<subtitle type="html">Quantitative Biology -- Neurons and Cognition (q-bio.NC) updates on the arXiv.org e-print archive</subtitle>
+			<link rel="self" href="http://export.arxiv.org/rss/q-bio.NC/"/>
+			<id>http://arxiv.org/</id>
+			<updated>2019-08-22T01:30:00+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-us">DISCo for the CIA: Deep learning, Instance Segmentation, and Correlations for Calcium Imaging Analysis. (arXiv:1908.07957v1 [q-bio.NC])</title>
+		<link href="http://arxiv.org/abs/1908.07957"/>
+		<id>http://arxiv.org/abs/1908.07957</id>
+		<updated>2019-08-22T01:30:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Calcium imaging is one of the most important tools in neurophysiology as it
+enables the observation of neuronal activity for hundreds of cells in parallel
+and at single-cell resolution. In order to use the data gained with calcium
+imaging, it is necessary to extract individual cells and their activity from
+the recordings. Although many sophisticated methods have been proposed, the
+cell extraction from calcium imaging data can still be prohibitively laborious
+and require manual annotation and correction. We present DISCo, a novel
+approach for the cell segmentation in Calcium Imaging Analysis (CIA) that
+combines the advantages of Deep learning with a state-of-the-art Instance
+Segmentation algorithm and uses temporal information from the recordings in a
+computationally efficient way by computing Correlations between pixels.
+&lt;/p&gt;</content>
+		<author>
+			<name>&lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Kirschbaum_E/0/1/0/all/0/1&quot;&gt;Elke Kirschbaum&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Bailoni_A/0/1/0/all/0/1&quot;&gt;Alberto Bailoni&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Hamprecht_F/0/1/0/all/0/1&quot;&gt;Fred A. Hamprecht&lt;/a&gt;</name>
+			<uri>http://arxiv.org/</uri>
+		</author>
+		<source>
+			<title type="html">q-bio.NC updates on arXiv.org</title>
+			<subtitle type="html">Quantitative Biology -- Neurons and Cognition (q-bio.NC) updates on the arXiv.org e-print archive</subtitle>
+			<link rel="self" href="http://export.arxiv.org/rss/q-bio.NC/"/>
+			<id>http://arxiv.org/</id>
+			<updated>2019-08-22T01:30:00+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-us">An Experimental Protocol to Derive and Validate a Quantum Model of Decision-Making. (arXiv:1908.07935v1 [q-bio.NC])</title>
+		<link href="http://arxiv.org/abs/1908.07935"/>
+		<id>http://arxiv.org/abs/1908.07935</id>
+		<updated>2019-08-22T01:30:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;This study utilises an experiment famous in quantum physics, the
+Stern-Gerlach experiment, to inform the structure of an experimental protocol
+from which a quantum cognitive decision model can be developed. The
+'quantumness' of this model is tested by computing a discrete
+quasi-probabilistic Wigner function. Based on theory from quantum physics, our
+hypothesis is that the Stern-Gerlach protocol will admit negative values in the
+Wigner function, thus signalling that the cognitive decision model is quantum.
+A crowdsourced experiment of two images was used to collect decisions around
+three questions related to image trustworthiness. The resultant data was used
+to instantiate the quantum model and compute the Wigner function. Negative
+values in the Wigner functions of both images were encountered, thus
+substantiating our hypothesis. Findings also revealed that the quantum
+cognitive model was a more accurate predictor of decisions when compared to
+predictions computed using Bayes' rule.
+&lt;/p&gt;</content>
+		<author>
+			<name>&lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Fell_L/0/1/0/all/0/1&quot;&gt;Lauren Fell&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Dehdashti_S/0/1/0/all/0/1&quot;&gt;Shahram Dehdashti&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Bruza_P/0/1/0/all/0/1&quot;&gt;Peter Bruza&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Moreira_C/0/1/0/all/0/1&quot;&gt;Catarina Moreira&lt;/a&gt;</name>
+			<uri>http://arxiv.org/</uri>
+		</author>
+		<source>
+			<title type="html">q-bio.NC updates on arXiv.org</title>
+			<subtitle type="html">Quantitative Biology -- Neurons and Cognition (q-bio.NC) updates on the arXiv.org e-print archive</subtitle>
+			<link rel="self" href="http://export.arxiv.org/rss/q-bio.NC/"/>
+			<id>http://arxiv.org/</id>
+			<updated>2019-08-22T01:30:00+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-us">A Static Distributed-parameter Circuit Model Explains Electrical Stimulation on the Neuromuscular System. (arXiv:1812.00598v3 [q-bio.NC] UPDATED)</title>
+		<link href="http://arxiv.org/abs/1812.00598"/>
+		<id>http://arxiv.org/abs/1812.00598</id>
+		<updated>2019-08-22T01:30:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Finite Element Modeling (FEM) has been widely used to model the electric
+field distribution, to study the interaction between stimulation electrodes and
+neural tissue. However, due to the insufficient computational capability to
+represent neural tissue down to an atom-level, the existing FEM fails to model
+the real electric field that is perpendicular to neuron membrane to initiate an
+action potential. Thus, to reveal the real electrode-tissue interactions, we
+developed a circuit to model transmembrane voltage waveforms. Here, we show a
+distributed-parameter circuit model to systematically study how
+electrode-tissue interaction is affected by electrode position, input current
+waveform, and biological structures in the neuromuscular system. Our model
+explains and predicts various phenomena in neuromuscular stimulation, guides
+new stimulation electrode and method design, and more importantly, facilitates
+a fundamental understanding of the physical process during electrode-tissue
+interaction. In our model, myelin is assumed to be inductive. The voltage
+waveform resonance caused by this inductive myelin accounts for the much lower
+stimulation threshold to activate motoneurons than muscle fibers, which is
+observed with in vivo measurements. These findings confirmed the feasibility of
+studying electrode-tissue interaction using a proper distributed-parameter
+circuit. Our current application on the neuromuscular system also raises the
+possibility that this distributed-parameter circuit model could potentially be
+applied to study other neural tissues, including the Peripheral Nervous System
+(PNS) and the Central Nervous System (CNS).
+&lt;/p&gt;</content>
+		<author>
+			<name>&lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Wang_J/0/1/0/all/0/1&quot;&gt;Jiahui Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Wanga_H/0/1/0/all/0/1&quot;&gt;Hao Wanga&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Thow_X/0/1/0/all/0/1&quot;&gt;Xin Yuan Thow&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Thakor_N/0/1/0/all/0/1&quot;&gt;Nitish V. Thakor&lt;/a&gt;</name>
+			<uri>http://arxiv.org/</uri>
+		</author>
+		<source>
+			<title type="html">q-bio.NC updates on arXiv.org</title>
+			<subtitle type="html">Quantitative Biology -- Neurons and Cognition (q-bio.NC) updates on the arXiv.org e-print archive</subtitle>
+			<link rel="self" href="http://export.arxiv.org/rss/q-bio.NC/"/>
+			<id>http://arxiv.org/</id>
+			<updated>2019-08-22T01:30:00+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Integrating Hi-C links with assembly graphs for chromosome-scale assembly</title>
@@ -26,7 +175,7 @@ Long-read sequencing and novel long-range assays have revolutionized &lt;i&gt;de
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -49,7 +198,7 @@ A major tenet in theoretical neuroscience is that cognitive and behavioral proce
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -72,7 +221,7 @@ Phenotypic plasticity is a vital strategy for plants to deal with changing condi
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -95,7 +244,7 @@ Our understanding of how chromosomes structurally organize and dynamically inter
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -118,7 +267,7 @@ The formation of a membrane-enveloped virus starts with the assembly of a curved
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -498,6 +647,26 @@ The formation of a membrane-enveloped virus starts with the assembly of a curved
 	</entry>
 
 	<entry>
+		<title type="html">Long-lasting input-specific experience-dependent changes of hippocampus synaptic function measured in the anesthetized rat</title>
+		<link href="http://www.eneuro.org/cgi/content/short/ENEURO.0506-18.2019v1?rss=1"/>
+		<id>http://www.eneuro.org/cgi/content/short/ENEURO.0506-18.2019v1?rss=1</id>
+		<updated>2019-08-21T16:30:09+00:00</updated>
+		<content type="html">
+ Abstract&lt;p&gt;How experience causes long-lasting changes in the brain is a central question in neuroscience. The common view is that synaptic function is altered by experience to change brain circuit functions that underlie conditioned behavior. We examined hippocampus synaptic circuit function &lt;i&gt;in vivo,&lt;/i&gt; in three groups of animals, to assess the impact of experience on hippocampus function in rats. The &quot;Conditioned&quot; group acquired a shock-conditioned place response during a cognitively-challenging, hippocampus synaptic plasticity-dependent task. The &quot;No-Shock&quot; group had similar exposure to the environmental conditions but no conditioning. The &quot;Home-Cage&quot; group was experimentally naive. After the 1-week retention test, under anesthesia, we stimulated the perforant path inputs to CA1, which terminate in &lt;i&gt;stratum lacunosum moleculare&lt;/i&gt;, and to the dentate gyrus, which terminate in the molecular layer. We find synaptic compartment specific changes that differ amongst the groups. The evoked field EPSP and pre-spike field response are enhanced only at the dentate gyrus input layer and only in Conditioned animals. The dentate gyrus responses, measured by the population spiking activity and post-spike responses, are enhanced in both the Conditioned and No-Shock groups compared to Home-Cage animals. These changes are pathway specific because no differences are observed in &lt;i&gt;stratum lacunosum moleculare&lt;/i&gt; of CA1. These findings demonstrate long-term, experience-dependent, pathway-specific alterations to synaptic circuit function of the hippocampus.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Significance Statement&lt;/b&gt; We investigated whether a hippocampus-dependent place avoidance memory causes long-lasting changes of hippocampus circuit function, as is commonly assumed. Immediately after testing 1-week memory retention in rats, under anesthesia, the entorhinal cortex projection to dentate gyrus is strengthened, as estimated by the synaptic response to stimulation as well as the amplitude of the population action potential response. These changes are pathway specific because no differences are observed in the &lt;i&gt;stratum lacunosum moleculare&lt;/i&gt; of CA1 where the entorhinal cortex projection also terminates. These findings of experience-dependent, pathway-specific alterations to synaptic circuit function in hippocampus are consistent with theories that posit that memory formation causes persistent alterations of neural circuit function.&lt;/p&gt;</content>
+		<author>
+			<name>Levy, E. R. J., OReilly, K. C., Fenton, A. A.</name>
+			<uri>http://www.eneuro.org</uri>
+		</author>
+		<source>
+			<title type="html">RSS PAP</title>
+			<subtitle type="html">These are the RSS feeds for PAP articles.</subtitle>
+			<link rel="self" href="http://www.eneuro.org/rss/ahead.xml"/>
+			<id>http://www.eneuro.org</id>
+			<updated>2019-08-22T05:00:08+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
 		<title type="html" xml:lang="en-us">Playing magic tricks to deep neural networks untangles human deception. (arXiv:1908.07446v1 [q-bio.NC])</title>
 		<link href="http://arxiv.org/abs/1908.07446"/>
 		<id>http://arxiv.org/abs/1908.07446</id>
@@ -661,7 +830,7 @@ For biologically plausible parameters, including excitation/inhibition balance, 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -681,7 +850,7 @@ For biologically plausible parameters, including excitation/inhibition balance, 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -701,7 +870,7 @@ For biologically plausible parameters, including excitation/inhibition balance, 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -721,7 +890,7 @@ For biologically plausible parameters, including excitation/inhibition balance, 
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -741,7 +910,7 @@ For biologically plausible parameters, including excitation/inhibition balance, 
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -761,7 +930,7 @@ For biologically plausible parameters, including excitation/inhibition balance, 
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -788,7 +957,7 @@ This study highlights the potential of MRS to probe salvageable tissues within t
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -808,7 +977,7 @@ This study highlights the potential of MRS to probe salvageable tissues within t
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -828,7 +997,7 @@ This study highlights the potential of MRS to probe salvageable tissues within t
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -848,7 +1017,7 @@ This study highlights the potential of MRS to probe salvageable tissues within t
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -868,7 +1037,7 @@ This study highlights the potential of MRS to probe salvageable tissues within t
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -891,7 +1060,7 @@ This study highlights the potential of MRS to probe salvageable tissues within t
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -913,7 +1082,7 @@ The system is based on the FRET biosensor CST able to monitor the molecular dyna
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -933,7 +1102,7 @@ The system is based on the FRET biosensor CST able to monitor the molecular dyna
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -953,7 +1122,7 @@ The system is based on the FRET biosensor CST able to monitor the molecular dyna
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -973,7 +1142,7 @@ The system is based on the FRET biosensor CST able to monitor the molecular dyna
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -994,7 +1163,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -1014,7 +1183,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -1034,7 +1203,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -1055,7 +1224,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -1076,7 +1245,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -1097,7 +1266,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -1118,7 +1287,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -1139,7 +1308,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -1160,7 +1329,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -1181,7 +1350,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -1333,6 +1502,26 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 	</entry>
 
 	<entry>
+		<title type="html">Conserved abilities of individual recognition and genetically modulated social responses in young chicks (Gallus gallus)</title>
+		<link href="http://biorxiv.org/cgi/content/short/743765v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/743765v1?rss=1</id>
+		<updated>2019-08-21T00:00:00+00:00</updated>
+		<content type="html">
+ The ability to recognise familiar individuals and the motivation to stay in contact with conspecifics are important to establish social relationships from the beginning of life. To understand the genetic basis of early social behaviour, we studied the different responses to familiar/unfamiliar individuals and social reinstatement in 4-day-old domestic chicks (Gallus gallus) in three genetically isolated breeds: Padovana, Polverara and Robusta. All breeds showed a similar ability to discriminate between familiar and unfamiliar individuals, staying closer to familiar individuals. Social reinstatement motivation measured as the average distance between subjects, latency to the first step and exploration of the arena (a proxy for the lack of fear), differed between breeds. More socially motivated chicks that stayed in closer proximity, were also less fearful and explored the environment more extensively. These results suggest that modulation of social behaviour shows larger genetic variability than the ability to recognise social partners, which appears to be an adaptive ability widespread at the species level even for very young animals.</content>
+		<author>
+			<name>Versace, E., Ragusa, M., Pallante, V.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2019-08-22T05:00:07+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
 		<title type="html">The temporal structure of the inner retina at a single glance</title>
 		<link href="http://biorxiv.org/cgi/content/short/743047v1?rss=1"/>
 		<id>http://biorxiv.org/cgi/content/short/743047v1?rss=1</id>
@@ -1348,7 +1537,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
+			<updated>2019-08-22T05:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1368,7 +1557,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
+			<updated>2019-08-22T05:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1388,7 +1577,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
+			<updated>2019-08-22T05:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1408,7 +1597,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
+			<updated>2019-08-22T05:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1428,7 +1617,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
+			<updated>2019-08-22T05:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1448,7 +1637,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
+			<updated>2019-08-22T05:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1468,7 +1657,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
+			<updated>2019-08-22T05:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1488,7 +1677,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
+			<updated>2019-08-22T05:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1508,7 +1697,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
+			<updated>2019-08-22T05:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1528,7 +1717,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
+			<updated>2019-08-22T05:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1548,7 +1737,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
+			<updated>2019-08-22T05:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1568,7 +1757,67 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
+			<updated>2019-08-22T05:00:07+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Brunner syndrome associated MAOA dysfunction in human iPSC derived dopaminergic neurons results in dysregulated NMDAR expression and increased network activity</title>
+		<link href="http://biorxiv.org/cgi/content/short/741108v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/741108v1?rss=1</id>
+		<updated>2019-08-21T00:00:00+00:00</updated>
+		<content type="html">
+ Monoamine oxidase A (MAOA) is an enzyme that catalyzes the degradation of dopamine, noradrenaline, and serotonin. Regulation of monoamine neurotransmitter abundance through MAOA activity strongly affects motor control, emotion, and cognitive function. Mutations in MAOA cause Brunner Syndrome, which is characterized by impulsive aggressive behavior and mild intellectual disability (ID). The impaired MAOA activity in Brunner Syndrome patients results in bioamine aberration, but it is currently unknown how this affects neuronal function. MAOA is highly expressed in serotonergic and dopaminergic neurons, and dysfunction of both neurotransmission systems is associated with aggressive behavior in mice and humans. Research has so far mainly focused on the serotonergic system. Here, we generated human induced pluripotent stem cell-derived induced dopaminergic neurons (iDANs) from individuals with known MAOA mutations, to investigate MAOA-dependent effects on dopamine neuronal function in the context of Brunner Syndrome. We assessed iDAN lines from three patients and combined data from morphological analysis, gene expression, single-cell electrophysiology, and network analysis using micro-electrode arrays (MEAs). We observed mutation-dependent functional effects as well as overlapping changes in iDAN morphology. The most striking effect was a clear increase in N-methyl-D-aspartate (NMDA) receptor mRNA expression in all patient lines. A marked increase was also seen in coordinated network activity (network bursts) on the MEA in all patient lines, while single-cell intrinsic properties and spontaneous excitatory postsynaptic currents activity appeared normal. Together, our data indicate that dysfunction of MAOA leads to increased coordinated network activity in iDANs, possibly caused by increased synaptic NMDA receptor expression.</content>
+		<author>
+			<name>Shi, Y., van Rhijn, J.-R., Bormann, M., Mossink, B., Frega, M., Hakobjan, M., Kittel-Schneider, S., Schubert, D., Brunner, H., Franke, B., Nadif Kasri, N.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2019-08-22T05:00:07+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Prolonged tonic pain in healthy humans disrupts intrinsic brain networks implicated in pain modulation</title>
+		<link href="http://biorxiv.org/cgi/content/short/740779v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/740779v1?rss=1</id>
+		<updated>2019-08-21T00:00:00+00:00</updated>
+		<content type="html">
+ Neural mechanisms of ongoing nociceptive processing in the human brain remain largely obscured by the dual challenge of accessing neural dynamics and safely applying sustained painful stimuli. Recently, pain-related neural processing has been measured using fMRI resting state functional connectivity (FC) in chronic pain patients. However, ongoing pain-related processing in normally pain-free humans remains incompletely understood. Therefore, differences between chronic pain patients and controls may be due to comorbidities with chronic pain. Decreased FC among regions of the descending pain modulation network (DPMN) are associated with presence and severity of chronic pain disorders. We aimed to determine if the presence of prolonged tonic pain would lead to disruption of the DPMN. High (10%) concentration topical capsaicin was combined with a warm thermode applied to the leg to create a flexible, prolonged tonic pain model to study the FC of brain networks in otherwise healthy, pain-free subjects in two separate cohorts (n=18; n=32). We contrasted seed-based FC during prolonged tonic pain with a pain-free passive task. In seed-based FC analysis prolonged tonic pain led to enhanced FC between the anterior middle cingulate cortex (aMCC) and the somatosensory leg representation. Additionally, FC was enhanced between the pregenual anterior cingulate cortex (pACC), right mediodorsal thalamus and the posterior parietal cortex bilaterally. Further, in the seed-driven PAG network, positive FC with the left DLPFC became negative FC during prolonged tonic pain. These data suggest that some altered DPMN FC findings in chronic pain could partially be explained by the presence of ongoing pain.</content>
+		<author>
+			<name>Meeker, T. J., Schmid, A.-C., Keaser, M. L., Khan, S., Gullapalli, R. P., Dorsey, S. G., Greenspan, J. D., Seminowicz, D.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2019-08-22T05:00:07+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Hippocampal subfield volumes are uniquely affected in PTSD and depression: International analysis of 31 cohorts from the PGC-ENIGMA PTSD Working Group</title>
+		<link href="http://biorxiv.org/cgi/content/short/739094v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/739094v1?rss=1</id>
+		<updated>2019-08-21T00:00:00+00:00</updated>
+		<content type="html">
+ PTSD and depression commonly co-occur and have been associated with smaller hippocampal volumes compared to healthy and trauma-exposed controls. However, the hippocampus is heterogeneous, with subregions that may be uniquely affected in individuals with PTSD and depression. We used random effects regressions and a harmonized neuroimaging protocol based on FreeSurfer (v6.0) to identify sub-structural hippocampal markers of current PTSD (C-PTSD), depression, and the interaction of these conditions across 31 cohorts worldwide (N=3,115; Mage=38.9, SD=13.9 years). Secondary analyses tested these associations by sex and after modeling the simultaneous effects of remitted PTSD, childhood trauma, mild traumatic brain injury, and alcohol use disorder on hippocampal subfields. A significant negative main effect of depression (n=800, vs. no depression, n=1456) was observed in the hippocampal tail (beta=-0.13) and CA1 (beta=-0.09) after adjusting for covariates and multiple testing (FDR-adjusted p-values (q)=0.028). A main effect of C-PTSD (n=1042, vs. control, n=1359) was not significant, but an interaction between C-PTSD and depression was significant in the CA1 (beta=-0.24, q=0.044). Pairwise comparisons revealed significantly smaller CA1 volumes in individuals with C-PTSD+Depression than controls (beta=-0.12, q=0.012), C-PTSD-only (beta=-0.17, q=0.001), and Depression-only (beta=-0.18, q=0.023). Follow-up analyses revealed sex effects in the hippocampal tail of depressed females, and an interaction effect of C-PTSD and depression in the fimbria of males. Collectively our results suggest that depression is a stronger predictor of hippocampal volumetry than PTSD, particularly in the CA1, and provide compelling evidence of distinct and more pronounced hippocampal phenotypes in comorbid PTSD and depression compared to either condition alone.</content>
+		<author>
+			<name>Salminen, L. E., Sämann, P. G., Zheng, Y., Dennis, E. L., Clarke, E. K., Jahanshad, N., Iglesias, J. E., Whelan, C. D., Bruce, S. E., Hayes, J. P., Seedat, S., Averill, C. L., Baugh, L. A., Bomyea, J., Bright, J., Buckle, C. J., Choi, K., Davenport, N. D., Davidson, R. J., Densmore, M., Disner, S. G., du Plessis, S., Elman, J. A., Fani, N., Forster, G. L., Franz, C. E., Frijling, J. L., Gonenc, A., Gruber, S. A., Grupe, D. W., Guenette, J. P., Haswell, C. C., Hofmann, D., Hollifield, M., Hosseini, B., Hudson, A. R., Ipser, J., Jovanovic, T., Kennedy-Krage, A., Kennis, M., King, A., Kinzel, P.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2019-08-22T05:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1588,7 +1837,7 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
+			<updated>2019-08-22T05:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1608,7 +1857,27 @@ Our results suggest that somatosensory stimulation evokes astrocytic Ca2+ activi
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
+			<updated>2019-08-22T05:00:07+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Deformable mirror-based two-photon microscopy for axial mammalian brain imaging</title>
+		<link href="http://biorxiv.org/cgi/content/short/736124v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/736124v1?rss=1</id>
+		<updated>2019-08-21T00:00:00+00:00</updated>
+		<content type="html">
+ This work presents the design and implementation of an enhanced version of a traditional two-photon (2P) microscope with the addition of high-speed axial scanning for live mammalian brain imaging. Our implementation utilizes a deformable mirror (DM) that can rapidly apply different defocus shapes to manipulate the laser beam divergence and consequently control the axial position of the beam focus in the sample. We provide a mathematical model describing the DM curvature, then experimentally characterize the radius of curvature as well as the Zernike terms of the DM surface for a given set of defocuses. A description of the optical setup of the 2P microscope is detailed. We conduct a thorough calibration of the system, determining the point spread function, the total scanning range, the axial step size, and the intensity curvature as a function of depth. Finally, the instrument is used for imaging different neurobiological samples, including fixed brain slices and in vivo mouse cerebral cortex.</content>
+		<author>
+			<name>Peinado, A., Bendek, E., Yokoyama, S., Poskanzer, K. E.</name>
+			<uri>http://biorxiv.org</uri>
+		</author>
+		<source>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2019-08-22T05:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1630,7 +1899,7 @@ A persistent obstacle for constructing kinetic models of metabolism is uncertain
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -1653,7 +1922,7 @@ We provide a novel computational framework on how biological and artificial agen
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -2309,7 +2578,7 @@ supporting the &quot;no&quot; answer.
 			<subtitle type="html">RSS Feed for Frontiers in Synaptic Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/synaptic-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/synaptic-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2329,7 +2598,7 @@ supporting the &quot;no&quot; answer.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2349,7 +2618,7 @@ supporting the &quot;no&quot; answer.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2369,7 +2638,7 @@ supporting the &quot;no&quot; answer.
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2389,7 +2658,7 @@ supporting the &quot;no&quot; answer.
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2409,7 +2678,7 @@ supporting the &quot;no&quot; answer.
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2429,7 +2698,7 @@ supporting the &quot;no&quot; answer.
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2449,7 +2718,7 @@ supporting the &quot;no&quot; answer.
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2469,7 +2738,7 @@ supporting the &quot;no&quot; answer.
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2489,7 +2758,7 @@ supporting the &quot;no&quot; answer.
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2509,7 +2778,7 @@ supporting the &quot;no&quot; answer.
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2529,7 +2798,7 @@ supporting the &quot;no&quot; answer.
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2549,7 +2818,7 @@ supporting the &quot;no&quot; answer.
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2583,7 +2852,7 @@ supporting the &quot;no&quot; answer.
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2604,7 +2873,7 @@ Conclusion: Changes in GABA concentrations in the anterior cingulate cortex are 
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2624,7 +2893,7 @@ Conclusion: Changes in GABA concentrations in the anterior cingulate cortex are 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2644,7 +2913,7 @@ Conclusion: Changes in GABA concentrations in the anterior cingulate cortex are 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2664,7 +2933,7 @@ Conclusion: Changes in GABA concentrations in the anterior cingulate cortex are 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2684,7 +2953,7 @@ Conclusion: Changes in GABA concentrations in the anterior cingulate cortex are 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2704,7 +2973,7 @@ Conclusion: Changes in GABA concentrations in the anterior cingulate cortex are 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2724,7 +2993,7 @@ Conclusion: Changes in GABA concentrations in the anterior cingulate cortex are 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2744,7 +3013,7 @@ Conclusion: Changes in GABA concentrations in the anterior cingulate cortex are 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2764,7 +3033,7 @@ Conclusion: Changes in GABA concentrations in the anterior cingulate cortex are 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2784,7 +3053,7 @@ Conclusion: Changes in GABA concentrations in the anterior cingulate cortex are 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2804,7 +3073,7 @@ Conclusion: Changes in GABA concentrations in the anterior cingulate cortex are 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2825,7 +3094,7 @@ Conclusion: Changes in GABA concentrations in the anterior cingulate cortex are 
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -2891,106 +3160,6 @@ Conclusion: Changes in GABA concentrations in the anterior cingulate cortex are 
 	</entry>
 
 	<entry>
-		<title type="html">fMRI detects bilateral brain network activation following unilateral chemogenetic activation of direct striatal projection neurons</title>
-		<link href="http://biorxiv.org/cgi/content/short/741710v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/741710v1?rss=1</id>
-		<updated>2019-08-20T00:00:00+00:00</updated>
-		<content type="html">
- Although abnormal structural and functional connectivity in the striatum during neurological disorders has been reported using functional magnetic resonance imaging (fMRI), the effects of cell-type specific neuronal stimulation on fMRI and related behavioral alterations are not well understood. In this study, we successfully combined DREADD-technology with fMRI (chemo-fMRI) to investigate the alterations of spontaneous neuronal activity induced by the unilateral activation of dopamine D1 receptor-expressing neurons (D1-neurons) in the mouse dorsal striatum (DS). We compared the effects of two different DREADD ligands, clozapine (CLZ) and clozapine-N-oxide (CNO), on behavior and fMRI. We found that the effects of CLZ on behavior were more rapid than those of CNO. In fMRI, both systemic CLZ and CNO administrations, which evoked unilateral activations of D1-neurons in DS, increased the fractional amplitude of low frequency fluctuations (fALFF) in the thalamus and bilateral cortex. In addition, we found the increased gamma-band of local field potentials in DS and bilateral cortex after CLZ-evoked unilateral activation of D1-neuron in the striatum. These results provide bases for better interpretation of cell type-specific activity changes in fMRI.</content>
-		<author>
-			<name>Nakamura, Y., Nakamura, Y., Pelosi, A., Djemai, B., Debacker, C., Herve, D., Girault, J.-A., Tsurugizawa, T.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">GLAMbox: A Python toolbox for investigating the association between gaze allocation and decision behaviour</title>
-		<link href="http://biorxiv.org/cgi/content/short/741678v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/741678v1?rss=1</id>
-		<updated>2019-08-20T00:00:00+00:00</updated>
-		<content type="html">
- Recent empirical findings have indicated that gaze allocation plays a crucial role in simple decision behaviour. Many of these findings point towards an influence of gaze allocation onto the speed of evidence accumulation in an accumulation-to-bound decision process (resulting in generally higher choice probabilities for items that have been looked at longer). Further, researchers have shown that the strength of the association between gaze and choice behaviour is highly variable between individuals, encouraging future work to study this association on the individual level. However, only few decision models exist that easily allow studying the gaze-choice association on the individual level, due to the high cost of developing and implementing them. The model space is particularly scarce for choice sets with more than two choice alternatives. Here, we present GLAMbox, a Python-based toolbox that is built upon PyMC3 and allows the easy application of the gaze-weighted linear accumulator model (GLAM) to experimental choice data. The GLAM assumes gaze-dependent evidence accumulation in a linear stochastic race that extends to decision scenarios with many choice alternatives. GLAMbox enables Bayesian parameter estimation of the GLAM for individual, pooled or hierarchical models, provides an easy-to-use interface to predict choice behaviour and visualize choice data, and benefits from all of PyMC3's Bayesian statistical modeling functionality. Further documentation, resources and the toolbox itself are available at https://github.com/glamlab/glambox.</content>
-		<author>
-			<name>Molter, F., Thomas, A. W., Heekeren, H. R., Mohr, P. N.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Epigenetic mechanism of carbohydrate sulfotransferase 3 (CHST3) downregulation in the aging brain</title>
-		<link href="http://biorxiv.org/cgi/content/short/741355v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/741355v1?rss=1</id>
-		<updated>2019-08-20T00:00:00+00:00</updated>
-		<content type="html">
- Neural extracellular matrix (ECM) is a complex molecular meshwork surrounding neurons and glial cells in the extracellular space. Structural and functional state of ECM in the brain is tightly regulated by various components of neural ECM such as hyaluronic acid, chondroitin sulfate proteoglycans, link proteins, tenascins, various matrix-modifying enzymes such as chondroitin sulfate synthases and carbohydrate sulfotransferase together with matrix-degrading enzymes. Age-dependent accumulation of ECM molecules is implicated in the age-associated decline in synaptic and cognitive functions. Understanding age-associated changes in the expression of genes involved in regulating various components of ECM can provide an insight into the role of ECM in the aging brain. Hence, in this study, we compared the expression levels of ECM regulating genes in three groups of mice: 2-3 months old mice (2-3M), 22- to 26-month-old mice (22-26M) and more than 30-month-old mice (&amp;gt;30M). Using qPCR, we discovered that in the hippocampus of &amp;gt;30M old mice, the majority of ECM related genes are downregulated, while genes related to neuroinflammation are highly upregulated. This pattern was accompanied by a decrease in cognitive performance of the &amp;gt;30M old mice and was most correlated among ECM-related genes with the downregulation of carbohydrate sulfotransferase 3 (CHST3) gene expression. Interestingly, in 24-26M mice, no general decrease in the expression of ECM related genes was observed, although we still found the upregulation in neuroinflammatory genes and downregulation of CHST3. Further analysis of epigenetic mechanisms revealed a decrease in H3K4me3, three methyl groups at the lysine 4 on the histone H3 proteins, associated with the promoter region of CHST3 gene in non-neuronal (NeuN-negative) but not in neuronal (NeuN-positive) cells. We conclude that in 22-26 M old brains there are minor changes in expression of the studied bona fide neural ECM genes but there is a prominent epigenetic dysregulation of the CHST3 gene responsible for 6-sulfation of chondroitin sulfates, which may lead to impaired brain plasticity and cognitive decline.</content>
-		<author>
-			<name>Baidoe-Ansah, D., Sakib, M. S., Jia, S., Fischer, A., Kaushik, R., Dityatev, A.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">GABAA receptors are selectively expressed in NG2 glia of the cerebellar white matter</title>
-		<link href="http://biorxiv.org/cgi/content/short/741140v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/741140v1?rss=1</id>
-		<updated>2019-08-20T00:00:00+00:00</updated>
-		<content type="html">
- The cerebellum is involved in the coordination of movement. Its cellular composition is dominated by GABAergic neuronal types, and glial cells are known to express functional receptors. GABAergic signaling regulates cell proliferation, differentiation, and migration during neurodevelopment. However, little is known about the functional expression of GABA receptors in the cerebellar white matter (WM). Thus, the aim of this study was to test whether glial cells express functional GABA receptors during postnatal development (P7-P9) of cerebellar WM. Immunofluorescence studies showed that half of the astrocytes express GAD67, suggesting that GABA is synthetized by glial cells. Calcium imaging in cerebellar slices revealed that GABA and the GABAA agonist muscimol evoked calcium transients in sulforhodamine B (SRB) negative cells, whereas the GABAB agonist baclofen failed to evoke responses in cerebellar WM. Whole-cell patch-clamp recordings of GFAP+ cells showed dye coupling and a passive current-voltage relation typical of astrocytes. Surprisingly, these cells did not respond to muscimol. Two additional populations were identified as GFAP- cells. The first population showed dye coupling, slow decaying inward and outward currents with no voltage dependence and did not respond to GABAA agonists. The second population showed an outward-rectifying current-voltage relationship and responded to muscimol, but dye coupling was absent. These cells received synaptic input and were NG2+, but evoked calcium waves failed to modulate the frequency of sPSCs or signal directly to NG2 glia. We conclude that GABAA receptor-mediated signaling is selective for NG2 glia in the WM of the cerebellum.</content>
-		<author>
-			<name>Labrada-Moncada, E., Reyes-Haro, D., Martinez-Torres, A.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Motion Coherence and Luminance Contrast Interact in Driving Visual Gamma-Band Activity</title>
-		<link href="http://biorxiv.org/cgi/content/short/741066v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/741066v1?rss=1</id>
-		<updated>2019-08-20T00:00:00+00:00</updated>
-		<content type="html">
- Synchronized neuronal population activity in the gamma-frequency range (&amp;gt; 30 Hz) correlates with the bottom-up drive of various visual features. It has been hypothesized that gamma-band synchronization enhances the gain of neuronal representations, yet evidence remains sparse. We tested a critical prediction of the gain hypothesis, which is that features that drive synchronized gamma-band activity interact super-linearly. To test this prediction, we employed whole-head magnetencephalography (MEG) in human subjects and investigated if the strength of visual motion (motion coherence) and luminance contrast interact in driving gamma-band activity in visual cortex. We found that gamma-band activity (64 to 128 Hz) monotonically increased with coherence and contrast while lower frequency activity (8 to 32 Hz) decreased with both features. Furthermore, as predicted for a gain mechanism, we found a multiplicative interaction between motion coherence and contrast in their joint drive of gamma-band activity. The lower frequency activity did not show such an interaction. Our findings provide evidence, that gamma-band activity acts as a cortical gain mechanism that nonlinearly combines the bottom-up drive of different visual features in support of visually guided behavior.</content>
-		<author>
-			<name>Pellegrini, F., Hawellek, D. J., Pape, A.-A., Hipp, J. F., Siegel, M.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2019-08-21T23:00:07+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html">Characterising antibody kinetics from multiple influenza infection and vaccination events in ferrets</title>
 		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/of7eQ7vA7z4/article"/>
 		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007294</id>
@@ -3008,7 +3177,7 @@ The strength and breadth of an individual’s antibody repertoire is an importan
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3031,7 +3200,7 @@ The Long interspersed nuclear element 1 (LINE-1) is a primary source of genetic 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3054,7 +3223,7 @@ RNA-protein interaction plays important roles in post-transcriptional regulation
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3077,7 +3246,7 @@ Astrocytes, a glial cell type of the central nervous system, have emerged as det
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3098,7 +3267,7 @@ Astrocytes, a glial cell type of the central nervous system, have emerged as det
 			<subtitle type="html">These are the RSS feeds for PAP articles.</subtitle>
 			<link rel="self" href="http://www.eneuro.org/rss/ahead.xml"/>
 			<id>http://www.eneuro.org</id>
-			<updated>2019-08-20T17:00:09+00:00</updated>
+			<updated>2019-08-22T05:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3118,7 +3287,7 @@ Astrocytes, a glial cell type of the central nervous system, have emerged as det
 			<subtitle type="html">These are the RSS feeds for PAP articles.</subtitle>
 			<link rel="self" href="http://www.eneuro.org/rss/ahead.xml"/>
 			<id>http://www.eneuro.org</id>
-			<updated>2019-08-20T17:00:09+00:00</updated>
+			<updated>2019-08-22T05:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3138,7 +3307,7 @@ Astrocytes, a glial cell type of the central nervous system, have emerged as det
 			<subtitle type="html">These are the RSS feeds for PAP articles.</subtitle>
 			<link rel="self" href="http://www.eneuro.org/rss/ahead.xml"/>
 			<id>http://www.eneuro.org</id>
-			<updated>2019-08-20T17:00:09+00:00</updated>
+			<updated>2019-08-22T05:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3380,7 +3549,7 @@ CONCLUSION: It is suitable for clinicians to quickly complete the precise positi
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -3400,7 +3569,7 @@ CONCLUSION: It is suitable for clinicians to quickly complete the precise positi
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -3421,7 +3590,7 @@ CONCLUSION: It is suitable for clinicians to quickly complete the precise positi
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -3442,7 +3611,7 @@ CONCLUSION: It is suitable for clinicians to quickly complete the precise positi
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -3546,7 +3715,7 @@ Most biological systems are difficult to analyse due to a multitude of interacti
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3630,7 +3799,7 @@ Hiren Patel</name>
 			<subtitle type="html">These are the RSS feeds for PAP articles.</subtitle>
 			<link rel="self" href="http://www.eneuro.org/rss/ahead.xml"/>
 			<id>http://www.eneuro.org</id>
-			<updated>2019-08-20T17:00:09+00:00</updated>
+			<updated>2019-08-22T05:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -3785,7 +3954,7 @@ different stability properties yield different computational capabilities.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -3805,7 +3974,7 @@ different stability properties yield different computational capabilities.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -3825,7 +3994,7 @@ different stability properties yield different computational capabilities.
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -3845,7 +4014,7 @@ different stability properties yield different computational capabilities.
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -3865,7 +4034,7 @@ different stability properties yield different computational capabilities.
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -3885,7 +4054,7 @@ different stability properties yield different computational capabilities.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -3909,7 +4078,7 @@ Conclusions: These findings suggest that prosocial behaviors are different from 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -3929,7 +4098,7 @@ Conclusions: These findings suggest that prosocial behaviors are different from 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -3949,7 +4118,7 @@ Conclusions: These findings suggest that prosocial behaviors are different from 
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -3975,7 +4144,7 @@ CONCLUSIONS: This study demonstrates that spatial navigation while cycling is fe
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -4003,7 +4172,7 @@ Protocol version: Based on BB 004/18 version 1.2 (May, 17, 2019).</content>
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -4024,7 +4193,7 @@ Protocol version: Based on BB 004/18 version 1.2 (May, 17, 2019).</content>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -4045,7 +4214,7 @@ Protocol version: Based on BB 004/18 version 1.2 (May, 17, 2019).</content>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -4066,7 +4235,7 @@ Protocol version: Based on BB 004/18 version 1.2 (May, 17, 2019).</content>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -4087,7 +4256,7 @@ Protocol version: Based on BB 004/18 version 1.2 (May, 17, 2019).</content>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -4108,7 +4277,7 @@ Protocol version: Based on BB 004/18 version 1.2 (May, 17, 2019).</content>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -4129,7 +4298,7 @@ Protocol version: Based on BB 004/18 version 1.2 (May, 17, 2019).</content>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -4150,7 +4319,7 @@ Protocol version: Based on BB 004/18 version 1.2 (May, 17, 2019).</content>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -4171,7 +4340,7 @@ Protocol version: Based on BB 004/18 version 1.2 (May, 17, 2019).</content>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -4192,7 +4361,7 @@ Protocol version: Based on BB 004/18 version 1.2 (May, 17, 2019).</content>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://elifesciences.org"/>
 			<id>https://elifesciences.org</id>
-			<updated>2019-08-21T23:00:06+00:00</updated>
+			<updated>2019-08-22T05:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -4214,7 +4383,7 @@ The coding space of protein sequences is shaped by evolutionary constraints set 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4237,7 +4406,7 @@ Recent developments in cardiovascular modelling allow us to simulate blood flow 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4260,7 +4429,7 @@ Mutational robustness quantifies the effect of random mutations on fitness. When
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4281,7 +4450,7 @@ Mutational robustness quantifies the effect of random mutations on fitness. When
 			<subtitle type="html">These are the RSS feeds for PAP articles.</subtitle>
 			<link rel="self" href="http://www.eneuro.org/rss/ahead.xml"/>
 			<id>http://www.eneuro.org</id>
-			<updated>2019-08-20T17:00:09+00:00</updated>
+			<updated>2019-08-22T05:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -4662,7 +4831,7 @@ teaching in a classroom setting.
 			<subtitle type="html">These are the RSS feeds for PAP articles.</subtitle>
 			<link rel="self" href="http://www.eneuro.org/rss/ahead.xml"/>
 			<id>http://www.eneuro.org</id>
-			<updated>2019-08-20T17:00:09+00:00</updated>
+			<updated>2019-08-22T05:00:08+00:00</updated>
 		</source>
 	</entry>
 
@@ -5306,169 +5475,6 @@ learn and identify new gaits.
 	</entry>
 
 	<entry>
-		<title type="html" xml:lang="en-us">Inverse Rational Control with Partially Observable Continuous Nonlinear Dynamics. (arXiv:1908.04696v1 [cs.AI])</title>
-		<link href="http://arxiv.org/abs/1908.04696"/>
-		<id>http://arxiv.org/abs/1908.04696</id>
-		<updated>2019-08-14T01:30:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;Continuous control and planning remains a major challenge in robotics and
-machine learning. Neuroscience offers the possibility of learning from animal
-brains that implement highly successful controllers, but it is unclear how to
-relate an animal's behavior to control principles. Animals may not always act
-optimally from the perspective of an external observer, but may still act
-rationally: we hypothesize that animals choose actions with highest expected
-future subjective value according to their own internal model of the world.
-Their actions thus result from solving a different optimal control problem from
-those on which they are evaluated in neuroscience experiments. With this
-assumption, we propose a novel framework of model-based inverse rational
-control that learns the agent's internal model that best explains their actions
-in a task described as a partially observable Markov decision process (POMDP).
-In this approach we first learn optimal policies generalized over the entire
-model space of dynamics and subjective rewards, using an extended Kalman filter
-to represent the belief space, a neural network in the actor-critic framework
-to optimize the policy, and a simplified basis for the parameter space. We then
-compute the model that maximizes the likelihood of the experimentally
-observable data comprising the agent's sensory observations and chosen actions.
-Our proposed method is able to recover the true model of simulated agents
-within theoretical error bounds given by limited data. We illustrate this
-method by applying it to a complex naturalistic task currently used in
-neuroscience experiments. This approach provides a foundation for interpreting
-the behavioral and neural dynamics of highly adapted controllers in animal
-brains.
-&lt;/p&gt;</content>
-		<author>
-			<name>&lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Daptardar_S/0/1/0/all/0/1&quot;&gt;Saurabh Daptardar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Schrater_P/0/1/0/all/0/1&quot;&gt;Paul Schrater&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Pitkow_X/0/1/0/all/0/1&quot;&gt;Xaq Pitkow&lt;/a&gt;</name>
-			<uri>http://arxiv.org/</uri>
-		</author>
-		<source>
-			<title type="html">q-bio.NC updates on arXiv.org</title>
-			<subtitle type="html">Quantitative Biology -- Neurons and Cognition (q-bio.NC) updates on the arXiv.org e-print archive</subtitle>
-			<link rel="self" href="http://export.arxiv.org/rss/q-bio.NC/"/>
-			<id>http://arxiv.org/</id>
-			<updated>2019-08-14T01:30:00+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-us">Is the brain relativistic?. (arXiv:1908.04290v1 [q-bio.NC])</title>
-		<link href="http://arxiv.org/abs/1908.04290"/>
-		<id>http://arxiv.org/abs/1908.04290</id>
-		<updated>2019-08-14T01:30:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;Considering the very large body of knowledge which neuroimaging has put at
-our fingertips over the last three decades we looked at the brain with a fresh
-view which could unveil those 'old' things in new ways, in a framework which
-could help us making predictions tailored made for a scrutiny with the
-outstanding imaging instruments to come, such as ultra high field MRI. By doing
-so, switching back and forth between physics and neurobiology, we came across
-the view that time and space in the brain, as in the Universe, were, indeed,
-tightly mingled, and could fade away to be unified through a brain 'spacetime'.
-Considering that there is a speed limit for action potentials flowing along
-myelinated axons further thinking led us to envision that this 4-dimensional
-brain spacetime would obey a kind of relativistic pseudo-diffusion principle
-and present a functional curvature governed by brain activity, in a similar way
-gravitational masses give our 4-dimensional Universe spacetime its curvature.
-We then looked at how this whole-brain framework may shed light on brain
-dysfunction phenotypes (clinical expression of diseases) observed in some
-neuropsychiatric and consciousness disorders.
-&lt;/p&gt;</content>
-		<author>
-			<name>&lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Bihan_D/0/1/0/all/0/1&quot;&gt;Denis Le Bihan&lt;/a&gt;</name>
-			<uri>http://arxiv.org/</uri>
-		</author>
-		<source>
-			<title type="html">q-bio.NC updates on arXiv.org</title>
-			<subtitle type="html">Quantitative Biology -- Neurons and Cognition (q-bio.NC) updates on the arXiv.org e-print archive</subtitle>
-			<link rel="self" href="http://export.arxiv.org/rss/q-bio.NC/"/>
-			<id>http://arxiv.org/</id>
-			<updated>2019-08-14T01:30:00+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-us">Sex specific and Age dependent classification model improves automated Parkinson's diagnosis. (arXiv:1904.09651v4 [cs.LG] UPDATED)</title>
-		<link href="http://arxiv.org/abs/1904.09651"/>
-		<id>http://arxiv.org/abs/1904.09651</id>
-		<updated>2019-08-14T01:30:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;Accurate diagnosis is crucial for preventing the progression of Parkinson's,
-as well as improving the quality of life with individuals with Parkinson's
-disease. In this paper, we develop a sex-specific and age-dependent
-classification method to diagnose the Parkinson's disease using the online
-handwriting recorded from individuals with
-Parkinson's(n=37;m/f-19/18;age-69.3+-10.9years) and healthy
-controls(n=38;m/f-20/18;age-62.4+-11.3 years).The sex specific and age
-dependent classifier was observed significantly outperforming the generalized
-classifier. An improved accuracy of 83.75%(SD+1.63) with female specific
-classifier, and 79.55%(SD=1.58) with old age dependent classifier was observed
-in comparison to 75.76%(SD=1.17) accuracy with the generalized classifier.
-Finally, combining the age and sex information proved to be encouraging in
-classification. We performed a rigorous analysis to observe the dominance of
-sex specific and age dependent features for Parkinson's detection and ranked
-them using the support vector machine(SVM) ranking method. Distinct set of
-features were observed to be dominating for higher classification accuracy in
-different category of classification.
-&lt;/p&gt;</content>
-		<author>
-			<name>&lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gupta_U/0/1/0/all/0/1&quot;&gt;Ujjwal Gupta&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bansal_H/0/1/0/all/0/1&quot;&gt;Hritik Bansal&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Joshi_D/0/1/0/all/0/1&quot;&gt;Deepak Joshi&lt;/a&gt;</name>
-			<uri>http://arxiv.org/</uri>
-		</author>
-		<source>
-			<title type="html">q-bio.NC updates on arXiv.org</title>
-			<subtitle type="html">Quantitative Biology -- Neurons and Cognition (q-bio.NC) updates on the arXiv.org e-print archive</subtitle>
-			<link rel="self" href="http://export.arxiv.org/rss/q-bio.NC/"/>
-			<id>http://arxiv.org/</id>
-			<updated>2019-08-14T01:30:00+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-us">Effect of Interpopulation Spike-Timing-Dependent Plasticity on Synchronized Rhythms in Neuronal Networks with Inhibitory and Excitatory Populations. (arXiv:1903.05288v2 [q-bio.NC] UPDATED)</title>
-		<link href="http://arxiv.org/abs/1903.05288"/>
-		<id>http://arxiv.org/abs/1903.05288</id>
-		<updated>2019-08-14T01:30:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;We consider clustered small-world networks with both inhibitory (I) and
-excitatory (E) populations. This I-E neuronal network has adaptive dynamic I to
-E and E to I interpopulation synaptic strengths, governed by interpopulation
-spike-timing-dependent plasticity (STDP). In previous works without STDPs, fast
-sparsely synchronized rhythms, related to diverse cognitive functions, were
-found to appear in a range of noise intensity $D$ for static synaptic
-strengths. By varying $D$, we investigate the effect of interpopulation STDPs
-on diverse population and individual properties of fast sparsely synchronized
-rhythms that emerge in both the I- and the E-populations. Depending on values
-of $D$, long-term potentiation (LTP) and long-term depression (LTD) for
-population-averaged values of saturated interpopulation synaptic strengths are
-found to occur, and they make effects on the degree of fast sparse
-synchronization. In a broad region of intermediate $D$, the degree of good
-synchronization (with higher spiking measure) becomes decreased, while in a
-region of large $D$, the degree of bad synchronization (with lower spiking
-measure) gets increased. Consequently, in each I- or E-population, the
-synchronization degree becomes nearly the same in a wide range of $D$. This
-kind of &quot;equalization effect&quot; is found to occur via cooperative interplay
-between the average occupation and pacing degrees of fast sparsely synchronized
-rhythms. We note that the equalization effect in interpopulation synaptic
-plasticity is distinctly in contrast to the Matthew (bipolarization) effect in
-intrapopulation (I to I and E to E) synaptic plasticity where good (bad)
-synchronization gets better (worse). Finally, emergences of LTP and LTD of
-interpopulation synaptic strengths are intensively investigated via a
-microscopic method based on the distributions of time delays between the pre-
-and the post-synaptic spike times.
-&lt;/p&gt;</content>
-		<author>
-			<name>&lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Kim_S/0/1/0/all/0/1&quot;&gt;Sang-Yoon Kim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Lim_W/0/1/0/all/0/1&quot;&gt;Woochang Lim&lt;/a&gt;</name>
-			<uri>http://arxiv.org/</uri>
-		</author>
-		<source>
-			<title type="html">q-bio.NC updates on arXiv.org</title>
-			<subtitle type="html">Quantitative Biology -- Neurons and Cognition (q-bio.NC) updates on the arXiv.org e-print archive</subtitle>
-			<link rel="self" href="http://export.arxiv.org/rss/q-bio.NC/"/>
-			<id>http://arxiv.org/</id>
-			<updated>2019-08-14T01:30:00+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html" xml:lang="en">Rules of invasion</title>
 		<link href="http://feeds.nature.com/~r/nrn/rss/current/~3/5dxLuduk5hs/s41583-019-0215-4"/>
 		<id>https://www.nature.com/articles/s41583-019-0215-4</id>
@@ -5505,7 +5511,7 @@ and the post-synaptic spike times.
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5526,7 +5532,7 @@ Despite decades of technical and theoretical advances, distinguishing bona fide 
 			<subtitle type="html">RSS Feed for Frontiers in Synaptic Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/synaptic-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/synaptic-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5546,7 +5552,7 @@ Despite decades of technical and theoretical advances, distinguishing bona fide 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5570,7 +5576,7 @@ Conclusions: Ageing is an important risk factor of both NC progressing to SCD (p
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5590,7 +5596,7 @@ Conclusions: Ageing is an important risk factor of both NC progressing to SCD (p
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5612,7 +5618,7 @@ A multivariate random forest (RF) model identified age, gender, education, IQ, g
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5635,7 +5641,7 @@ Finally, we will discuss some of the uses to which the moving systemic low frequ
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5655,7 +5661,7 @@ Finally, we will discuss some of the uses to which the moving systemic low frequ
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5675,7 +5681,7 @@ Finally, we will discuss some of the uses to which the moving systemic low frequ
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5695,7 +5701,7 @@ Finally, we will discuss some of the uses to which the moving systemic low frequ
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5715,7 +5721,7 @@ Finally, we will discuss some of the uses to which the moving systemic low frequ
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5735,7 +5741,7 @@ Finally, we will discuss some of the uses to which the moving systemic low frequ
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5758,7 +5764,7 @@ Discussion: Projecte Moviment is a multi-domain intervention trial based on prio
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5782,7 +5788,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5802,7 +5808,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5927,7 +5933,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5947,7 +5953,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5967,7 +5973,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -5987,7 +5993,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6007,7 +6013,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6027,7 +6033,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6047,7 +6053,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6067,7 +6073,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6087,7 +6093,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6107,7 +6113,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6127,7 +6133,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6147,7 +6153,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6167,7 +6173,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6187,7 +6193,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6207,7 +6213,7 @@ Key Words: Mild cognitive impairment; Cognitive training; Working Memory; Transf
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6229,7 +6235,7 @@ Here, a learning rule for feed-forward SbS networks is derived. The properties o
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6251,7 +6257,7 @@ dynamics. As a novelty, we connect chemical compounds measured with positron emi
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6292,7 +6298,7 @@ These results unequivocally demonstrate the presence of an active glycogen metab
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6312,7 +6318,7 @@ These results unequivocally demonstrate the presence of an active glycogen metab
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6332,7 +6338,7 @@ These results unequivocally demonstrate the presence of an active glycogen metab
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6528,7 +6534,7 @@ Accurately predicting and testing the types of Pulmonary arterial hypertension (
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -6551,28 +6557,8 @@ Antimicrobial resistance is one of the major public health threats of the 21&lt;
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Background EEG Connectivity Captures the Time-Course of Epileptogenesis in a Mouse Model of Epilepsy</title>
-		<link href="http://www.eneuro.org/cgi/content/short/6/4/ENEURO.0059-19.2019?rss=1"/>
-		<id>http://www.eneuro.org/cgi/content/short/6/4/ENEURO.0059-19.2019?rss=1</id>
-		<updated>2019-08-12T16:30:31+00:00</updated>
-		<content type="html">
- &lt;p&gt;Large-scale brain networks are increasingly recognized as important for the generation of seizures in epilepsy. However, how a network evolves from a healthy state through the process of epileptogenesis remains unclear. To address this question, here, we study longitudinal epicranial background EEG recordings (30 electrodes, EEG free from epileptiform activity) of a mouse model of mesial temporal lobe epilepsy. We analyze functional connectivity networks and observe that over the time course of epileptogenesis the networks become increasingly asymmetric. Furthermore, computational modelling reveals that a set of nodes, located outside of the region of initial insult, emerges as particularly important for the network dynamics. These findings are consistent with experimental observations, thus demonstrating that ictogenic mechanisms can be revealed on the EEG, that computational models can be used to monitor unfolding epileptogenesis and that both the primary focus and epileptic network play a role in epileptogenesis.&lt;/p&gt;</content>
-		<author>
-			<name>S&amp;#x0142;owinski, P., Sheybani, L., Michel, C. M., Richardson, M. P., Quairiaux, C., Terry, J. R., Goodfellow, M.</name>
-			<uri>http://www.eneuro.org</uri>
-		</author>
-		<source>
-			<title type="html">eNeuro current issue</title>
-			<subtitle type="html">eNeuro RSS feed -- current issue</subtitle>
-			<link rel="self" href="http://www.eneuro.org/rss/current.xml"/>
-			<id>http://www.eneuro.org</id>
-			<updated>2019-08-20T17:00:10+00:00</updated>
 		</source>
 	</entry>
 
@@ -6737,7 +6723,7 @@ Plasticity in the oculomotor system ensures that saccadic eye movements reliably
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -6761,7 +6747,7 @@ Conclusions: In conclusion, our study might contribute to exploring the key circ
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6781,7 +6767,7 @@ Conclusions: In conclusion, our study might contribute to exploring the key circ
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6801,7 +6787,7 @@ Conclusions: In conclusion, our study might contribute to exploring the key circ
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6821,7 +6807,7 @@ Conclusions: In conclusion, our study might contribute to exploring the key circ
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6848,7 +6834,7 @@ display or interact with 2D objects.</content>
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6868,7 +6854,7 @@ display or interact with 2D objects.</content>
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6891,7 +6877,7 @@ Conclusions: The present study provides data for global researchers to understan
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6911,7 +6897,7 @@ Conclusions: The present study provides data for global researchers to understan
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6931,7 +6917,7 @@ Conclusions: The present study provides data for global researchers to understan
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -6991,7 +6977,7 @@ Spontaneous sub-cellular calcium release events (SCRE) are conjectured to promot
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -7014,7 +7000,7 @@ From the microscopic to the macroscopic level, biological life exhibits directed
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2019-08-21T22:34:28+00:00</updated>
+			<updated>2019-08-22T04:50:37+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -7135,7 +7121,7 @@ From the microscopic to the macroscopic level, biological life exhibits directed
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7155,7 +7141,7 @@ From the microscopic to the macroscopic level, biological life exhibits directed
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurogenesis</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7175,7 +7161,7 @@ From the microscopic to the macroscopic level, biological life exhibits directed
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7199,7 +7185,7 @@ Conclusion: Cathodal and anodal tDCS over the left DLPFC and right parietal area
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7221,7 +7207,7 @@ Obtained arrangements of DFA scaling exponent suggest that normal functioning of
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7241,7 +7227,7 @@ Obtained arrangements of DFA scaling exponent suggest that normal functioning of
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7264,7 +7250,7 @@ The current results suggest that the association between pre-tDCS brain activity
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7292,7 +7278,7 @@ Conclusion:Immersive virtual reality can help reduce the pain of children with l
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7316,7 +7302,7 @@ We have demonstrated that functional connectivity using ICA represents a useful 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7336,7 +7322,7 @@ We have demonstrated that functional connectivity using ICA represents a useful 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7360,7 +7346,7 @@ CONCLUSIONS: Preoperative insulin resistance is an effective predictor for the o
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7380,7 +7366,7 @@ CONCLUSIONS: Preoperative insulin resistance is an effective predictor for the o
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7483,7 +7469,7 @@ CONCLUSIONS: Preoperative insulin resistance is an effective predictor for the o
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7503,7 +7489,7 @@ CONCLUSIONS: Preoperative insulin resistance is an effective predictor for the o
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7523,7 +7509,7 @@ CONCLUSIONS: Preoperative insulin resistance is an effective predictor for the o
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7543,7 +7529,7 @@ CONCLUSIONS: Preoperative insulin resistance is an effective predictor for the o
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7563,7 +7549,7 @@ CONCLUSIONS: Preoperative insulin resistance is an effective predictor for the o
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7583,7 +7569,7 @@ CONCLUSIONS: Preoperative insulin resistance is an effective predictor for the o
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7616,7 +7602,7 @@ Our findings are in line with existing safety guidelines for retinal and neural 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7639,7 +7625,7 @@ Conclusions: Our data demonstrate that topical administration of XPro1595 for th
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7659,7 +7645,7 @@ Conclusions: Our data demonstrate that topical administration of XPro1595 for th
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7680,7 +7666,7 @@ We take a small step in this direction with the NEUROmotor integration and Desig
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7700,7 +7686,7 @@ We take a small step in this direction with the NEUROmotor integration and Desig
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7720,7 +7706,7 @@ We take a small step in this direction with the NEUROmotor integration and Desig
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7740,7 +7726,7 @@ We take a small step in this direction with the NEUROmotor integration and Desig
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -7760,7 +7746,7 @@ We take a small step in this direction with the NEUROmotor integration and Desig
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8011,7 +7997,7 @@ We take a small step in this direction with the NEUROmotor integration and Desig
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8031,7 +8017,7 @@ We take a small step in this direction with the NEUROmotor integration and Desig
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8051,7 +8037,7 @@ We take a small step in this direction with the NEUROmotor integration and Desig
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8071,7 +8057,7 @@ We take a small step in this direction with the NEUROmotor integration and Desig
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8091,7 +8077,7 @@ We take a small step in this direction with the NEUROmotor integration and Desig
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8115,7 +8101,7 @@ Several other techniques, such as diffusion tensor imaging, tau PET imaging and 
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8135,7 +8121,7 @@ Several other techniques, such as diffusion tensor imaging, tau PET imaging and 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8157,7 +8143,7 @@ In this Review, we discuss the recent advances in the derivation of telencephali
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8180,7 +8166,7 @@ In order to better understand the influence of pathological iron distribution on
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8201,7 +8187,7 @@ Neurons are known to express particular combinations of molecules, which can be 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8221,7 +8207,7 @@ Neurons are known to express particular combinations of molecules, which can be 
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8241,7 +8227,7 @@ Neurons are known to express particular combinations of molecules, which can be 
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8264,7 +8250,7 @@ Conclusions: Higher 24-h SBP, higher 24-h SBP-SD, and larger IMT were independen
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8469,7 +8455,7 @@ Conclusions: Higher 24-h SBP, higher 24-h SBP-SD, and larger IMT were independen
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8551,7 +8537,7 @@ Interpretation: Neuroradiological evidence of altered brain structure and functi
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8574,7 +8560,7 @@ Conclusions: This demonstration project employed collection of multiple biomarke
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8614,7 +8600,7 @@ Conclusions: This demonstration project employed collection of multiple biomarke
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8640,7 +8626,7 @@ Conclusions: PAS successfully induced corticospinal excitability enhancement in 
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8684,7 +8670,7 @@ To support the adoption of the framework by practitioners, we have exemplified i
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8704,7 +8690,7 @@ To support the adoption of the framework by practitioners, we have exemplified i
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8730,7 +8716,7 @@ Conclusion: In first interactions and during repeated cooperative interactions, 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8750,7 +8736,7 @@ Conclusion: In first interactions and during repeated cooperative interactions, 
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8770,7 +8756,7 @@ Conclusion: In first interactions and during repeated cooperative interactions, 
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8930,7 +8916,7 @@ Conclusion: In first interactions and during repeated cooperative interactions, 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8950,7 +8936,7 @@ Conclusion: In first interactions and during repeated cooperative interactions, 
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8973,7 +8959,7 @@ Conclusions: In conclusion, both light homomeric amyloid-β oligomers and hetero
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2019-08-21T23:00:03+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -8993,7 +8979,7 @@ Conclusions: In conclusion, both light homomeric amyloid-β oligomers and hetero
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2019-08-21T23:00:04+00:00</updated>
+			<updated>2019-08-22T05:00:04+00:00</updated>
 		</source>
 	</entry>
 
