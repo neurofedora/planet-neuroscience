@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://arxiv.org/abs/1908.08807" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1908.08655" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1908.08642" />
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25563?af=R" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/746651v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/746313v1?rss=1" />
@@ -242,9 +245,6 @@
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25546?af=R" />
 			<rdf:li rdf:resource="http://www.eneuro.org/cgi/content/short/6/4/ENEURO.0281-19.2019?rss=1" />
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25555?af=R" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1908.05627" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1908.05298" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1812.09218" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2019.00195" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2019.00192" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2019.00868" />
@@ -419,6 +419,82 @@
 	</items>
 </channel>
 
+<item rdf:about="http://arxiv.org/abs/1908.08807">
+	<title>q-bio.NC updates on arXiv.org: An encoding framework with brain inner state for natural image identification. (arXiv:1908.08807v1 [q-bio.NC])</title>
+	<link>http://arxiv.org/abs/1908.08807</link>
+	<content:encoded>&lt;p&gt;Neural encoding and decoding, which aim to characterize the relationship
+between stimuli and brain activities, have emerged as an important area in
+cognitive neuroscience. Traditional encoding models, which focus on feature
+extraction and mapping, consider the brain as an input-output mapper without
+inner states. In this work, inspired by the fact that human brain acts like a
+state machine, we proposed a novel encoding framework that combines information
+from both the external world and the inner state to predict brain activity. The
+framework comprises two parts: forward encoding model that deals with visual
+stimuli and inner state model that captures influence from intrinsic
+connections in the brain. The forward model can be any traditional encoding
+model, making the framework flexible. The inner state model is a linear model
+to utilize information in the prediction residuals of the forward model. The
+proposed encoding framework can achieve much better performance on natural
+image identification from fMRI response than forwardonly models. The
+identification accuracy will decrease slightly with the dataset size
+increasing, but remain relatively stable with different identification methods.
+The results confirm that the new encoding framework is effective and robust
+when used for brain decoding.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-08-26T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Wu_H/0/1/0/all/0/1">Hao Wu</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Zhu_Z/0/1/0/all/0/1">Ziyu Zhu</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Wang_J/0/1/0/all/0/1">Jiayi Wang</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Zheng_N/0/1/0/all/0/1">Nanning Zheng</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Chen_B/0/1/0/all/0/1">Badong Chen</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1908.08655">
+	<title>q-bio.NC updates on arXiv.org: Spiking Neural Predictive Coding for Continual Learning from Data Streams. (arXiv:1908.08655v1 [cs.NE])</title>
+	<link>http://arxiv.org/abs/1908.08655</link>
+	<content:encoded>&lt;p&gt;For energy-efficient computation in specialized neuromorphic hardware, we
+present the Spiking Neural Coding Network, an instantiation of a family of
+artificial neural models strongly motivated by the theory of predictive coding.
+The model, in essence, works by operating in a never-ending process of
+&quot;guess-and-check&quot;, where neurons predict the activity values of one another and
+then immediately adjust their own activities to make better future predictions.
+The interactive, iterative nature of our neural system fits well into the
+continuous time formulation of data sensory stream prediction and, as we show,
+the model's structure yields a simple, local synaptic update rule, which could
+be used to complement or replace online spike-timing dependent plasticity
+rules. In this article, we experiment with an instantiation of our model that
+consists of leaky integrate-and-fire units. However, the general framework
+within which our model is situated can naturally incorporate more complex,
+formal neurons such as the Hodgkin-Huxley model. Our experimental results in
+pattern recognition demonstrate the potential of the proposed model when binary
+spike trains are the primary paradigm for inter-neuron communication. Notably,
+our model is competitive in terms of classification performance, capable of
+conducting online semi-supervised learning, and more computationally economical
+and biologically-plausible than popular artificial neural networks.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-08-26T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/cs/1/au:+Ororbia_A/0/1/0/all/0/1">Alexander Ororbia</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1908.08642">
+	<title>q-bio.NC updates on arXiv.org: A novel approach to multivariate redundancy and synergy. (arXiv:1908.08642v1 [cs.IT])</title>
+	<link>http://arxiv.org/abs/1908.08642</link>
+	<content:encoded>&lt;p&gt;Consider a situation in which a set of $n$ &quot;source&quot; random variables
+$X_{1},\dots,X_{n}$ have information about some &quot;target&quot; random variable $Y$.
+For example, in neuroscience $Y$ might represent the state of an external
+stimulus and $X_{1},\dots,X_{n}$ the activity of $n$ different brain regions.
+Recent work in information theory has considered how to decompose the
+information that the sources $X_{1},\dots,X_{n}$ provide about the target $Y$
+into separate terms such as (1) the &quot;redundant information&quot; that is shared
+among all of sources, (2) the &quot;unique information&quot; that is provided only by a
+single source, (3) the &quot;synergistic information&quot; that is provided by all
+sources only when considered jointly, and (4) the &quot;union information&quot; that is
+provided by at least one source. We propose a novel framework deriving such a
+decomposition that can be applied to any number of sources. Our measures are
+motivated in three distinct ways: via a formal analogy to intersection and
+union operators in set theory, via a decision-theoretic operationalization
+based on Blackwell's theorem, and via an axiomatic derivation. A key aspect of
+our approach is that we relax the assumption that measures of redundancy and
+union information should be related by the inclusion-exclusion principle. We
+discuss relations to previous proposals as well as possible generalizations.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-08-26T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/cs/1/au:+Kolchinsky_A/0/1/0/all/0/1">Artemy Kolchinsky</a></dc:creator>
+</item>
 <item rdf:about="/doi/abs/10.1002/ana.25563?af=R">
 	<title>Wiley: Annals of Neurology: Table of Contents: Standards for Detecting, Interpreting, and Reporting Noncontrast Computed Tomographic Markers of Intracerebral Hemorrhage Expansion</title>
 	<link>https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25563?af=R</link>
@@ -2727,82 +2803,6 @@ Hiren Patel</dc:creator>
 	<link>https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25555?af=R</link>
 	<dc:date>2019-08-16T14:42:11+00:00</dc:date>
 	<dc:creator>Lewis B. Morgenstern</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1908.05627">
-	<title>q-bio.NC updates on arXiv.org: Learning Signal Subgraphs from Longitudinal Brain Networks with Symmetric Bilinear Logistic Regression. (arXiv:1908.05627v1 [stat.AP])</title>
-	<link>http://arxiv.org/abs/1908.05627</link>
-	<content:encoded>&lt;p&gt;Modern neuroimaging technologies, combined with state-of-the-art data
-processing pipelines, have made it possible to collect longitudinal
-observations of an individual's brain connectome at different ages. It is of
-substantial scientific interest to study how brain connectivity varies over
-time in relation to human cognitive traits. In brain connectomics, the
-structural brain network for an individual corresponds to a set of
-interconnections among brain regions. We propose a symmetric bilinear logistic
-regression to learn a set of small subgraphs relevant to a binary outcome from
-longitudinal brain networks as well as estimating the time effects of the
-subgraphs. We enforce the extracted signal subgraphs to have clique structure
-which has appealing interpretations as they can be related to neurological
-circuits. The time effect of each signal subgraph reflects how its predictive
-effect on the outcome varies over time, which may improve our understanding of
-interactions between the aging of brain structure and neurological disorders.
-Application of this method on longitudinal brain connectomics and cognitive
-capacity data shows interesting discovery of relevant interconnections among a
-small set of brain regions in frontal and temporal lobes with better predictive
-performance than competitors.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-08-16T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/stat/1/au:+Wang_L/0/1/0/all/0/1">Lu Wang</a>, <a href="http://arxiv.org/find/stat/1/au:+Zhang_Z/0/1/0/all/0/1">Zhengwu Zhang</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1908.05298">
-	<title>q-bio.NC updates on arXiv.org: Cartilage-binding antibodies induce pain through immune complex-mediated activation of neurons. (arXiv:1908.05298v1 [q-bio.NC])</title>
-	<link>http://arxiv.org/abs/1908.05298</link>
-	<content:encoded>&lt;p&gt;Rheumatoid arthritis-associated joint pain is frequently observed independent
-of disease activity, suggesting unidentified pain mechanisms. We demonstrate
-that antibodies binding to cartilage, specific for collagen type II (CII) or
-cartilage oligomeric matrix protein (COMP), elicit mechanical hypersensitivity
-in mice, uncoupled from visual, histological and molecular indications of
-inflammation. Cartilage antibody-induced pain-like behavior does not depend on
-complement activation or joint inflammation, but instead on tissue antigen
-recognition and local immune complex (IC) formation. smFISH and IHC suggest
-that neuronal Fcgr1 and Fcgr2b mRNA are transported to peripheral ends of
-primary afferents. CII-ICs directly activate cultured WT but not FcR{\gamma}
-chain-deficient DRG neurons. In line with this observation, CII-IC does not
-induce mechanical hypersensitivity in FcR{\gamma} chain-deficient mice.
-Furthermore, injection of CII antibodies does not generate pain-like behavior
-in FcR{\gamma} chain-deficient mice or mice lacking activating Fc{\gamma}Rs in
-neurons. In summary, this study defines functional coupling between
-autoantibodies and pain transmission that may facilitate the development of new
-disease-relevant pain therapeutics.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-08-16T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Farinotti_A/0/1/0/all/0/1">Alex Bersellini Farinotti</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Wigerblad_G/0/1/0/all/0/1">Gustaf Wigerblad</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Nascimento_D/0/1/0/all/0/1">Diana Nascimento</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Bas_D/0/1/0/all/0/1">Duygu B Bas</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Urbina_C/0/1/0/all/0/1">Carlos Morado Urbina</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Nandakumar_K/0/1/0/all/0/1">Kutty Selva Nandakumar</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Sandor_K/0/1/0/all/0/1">Katalin Sandor</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Xu_B/0/1/0/all/0/1">Bingze Xu</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Abdelmoaty_S/0/1/0/all/0/1">Sally Abdelmoaty</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Hunt_M/0/1/0/all/0/1">Matthew A Hunt</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Moller_K/0/1/0/all/0/1">Kristina &#xc4;ngeby M&#xf6;ller</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Baharpoor_A/0/1/0/all/0/1">Azar Baharpoor</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Sinclair_J/0/1/0/all/0/1">Jon Sinclair</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Jardemark_K/0/1/0/all/0/1">Kent Jardemark</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Lanner_J/0/1/0/all/0/1">Johanna T Lanner</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Khmaladze_I/0/1/0/all/0/1">Ia Khmaladze</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Borm_L/0/1/0/all/0/1">Lars E. Borm</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Zhang_L/0/1/0/all/0/1">Lu Zhang</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Wermeling_F/0/1/0/all/0/1">Fredrik Wermeling</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Cragg_M/0/1/0/all/0/1">Mark S Cragg</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Lengqvist_J/0/1/0/all/0/1">Johan Lengqvist</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Chabot_Dore_A/0/1/0/all/0/1">Anne-Julie Chabot-Dor&#xe9;</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Diatchenko_L/0/1/0/all/0/1">Luda Diatchenko</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Belfer_I/0/1/0/all/0/1">Inna Belfer</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Collin_M/0/1/0/all/0/1">Mattias Collin</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Kultima_K/0/1/0/all/0/1">Kim Kultima</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Heyman_B/0/1/0/all/0/1">Birgitta Heyman</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Jimenez_Andrade_J/0/1/0/all/0/1">Juan M. Jimenez-Andrade</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Codeluppi_S/0/1/0/all/0/1">Simone Codeluppi</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Holmdahl_R/0/1/0/all/0/1">Rikard Holmdahl</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Svensson_C/0/1/0/all/0/1">Camilla I Svensson</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1812.09218">
-	<title>q-bio.NC updates on arXiv.org: Dynamics and computation in mixed networks containing neurons that accelerate towards spiking. (arXiv:1812.09218v2 [q-bio.NC] UPDATED)</title>
-	<link>http://arxiv.org/abs/1812.09218</link>
-	<content:encoded>&lt;p&gt;Networks in the brain consist of different types of neurons. Here we
-investigate the influence of neuron diversity on the dynamics, phase space
-structure and computational capabilities of spiking neural networks. We find
-that already a single neuron of a different type can qualitatively change the
-network dynamics and that mixed networks may combine the computational
-capabilities of ones with a single neuron type. We study inhibitory networks of
-concave leaky (LIF) and convex &quot;anti-leaky&quot; (XIF) integrate-and-fire neurons
-that generalize irregularly spiking non-chaotic LIF neuron networks. Endowed
-with simple conductance-based synapses for XIF neurons, our networks can
-generate a balanced state of irregular asynchronous spiking as well. We
-determine the voltage probability distributions and self-consistent firing
-rates assuming Poisson input with finite size spike impacts. Further, we
-compute the full spectrum of Lyapunov exponents (LEs) and the covariant
-Lyapunov vectors (CLVs) specifying the corresponding perturbation directions.
-We find that there is approximately one positive LE for each XIF neuron. This
-indicates in particular that a single XIF neuron renders the network dynamics
-chaotic. A simple mean-field approach, which can be justified by properties of
-the CLVs, explains the finding. As an application, we propose a spike-based
-computing scheme where our networks serve as computational reservoirs and their
-different stability properties yield different computational capabilities.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-08-16T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Manz_P/0/1/0/all/0/1">Paul Manz</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Goedeke_S/0/1/0/all/0/1">Sven Goedeke</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Memmesheimer_R/0/1/0/all/0/1">Raoul-Martin Memmesheimer</a></dc:creator>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnmol.2019.00195">
 	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Cystatin B Involvement in Synapse Physiology of Rodent Brains and Human Cerebral Organoids</title>
