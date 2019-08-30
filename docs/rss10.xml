@@ -18,6 +18,7 @@
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30145-6?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30142-0?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30124-9?rss=yes" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1806.10181" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007274" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007269" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007267" />
@@ -52,6 +53,7 @@
 			<rdf:li rdf:resource="https://dx.doi.org/10.7554/eLife.47596" />
 			<rdf:li rdf:resource="https://dx.doi.org/10.7554/eLife.46831" />
 			<rdf:li rdf:resource="https://dx.doi.org/10.7554/eLife.45909" />
+			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30131-6?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30655-5?rss=yes" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/750919v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/750711v1?rss=1" />
@@ -224,7 +226,6 @@
 			<rdf:li rdf:resource="http://www.eneuro.org/cgi/content/short/ENEURO.0085-19.2019v1?rss=1" />
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25566?af=R" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1908.08095" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1905.04367" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsyn.2019.00023" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2019.00208" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2019.00207" />
@@ -414,7 +415,6 @@
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2019.00829" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2019.00778" />
 			<rdf:li rdf:resource="https://www.cell.com/neuron/fulltext/S0896-6273(19)30634-8?rss=yes" />
-			<rdf:li rdf:resource="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0522-8" />
 		</rdf:Seq>
 	</items>
 </channel>
@@ -435,6 +435,27 @@
 	<content:encoded>Recent open science efforts to improve rigor and reliability have sparked great enthusiasm. Among these, the Registered Report publication format integrates best practices in hypothesis-driven research with peer review that occurs before the research is conducted. Here, we detail practical recommendations to help researchers negotiate the mechanics of this developing format.</content:encoded>
 	<dc:date>2019-09-01T00:00:00+00:00</dc:date>
 	<dc:creator>Anastasia Kiyonaga, Jason M. Scimeca</dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1806.10181">
+	<title>q-bio.NC updates on arXiv.org: Unsupervised Learning by Competing Hidden Units. (arXiv:1806.10181v2 [cs.LG] UPDATED)</title>
+	<link>http://arxiv.org/abs/1806.10181</link>
+	<content:encoded>&lt;p&gt;It is widely believed that the backpropagation algorithm is essential for
+learning good feature detectors in early layers of artificial neural networks,
+so that these detectors are useful for the task performed by the higher layers
+of that neural network. At the same time, the traditional form of
+backpropagation is biologically implausible. In the present paper we propose an
+unusual learning rule, which has a degree of biological plausibility, and which
+is motivated by Hebb's idea that change of the synapse strength should be local
+- i.e. should depend only on the activities of the pre and post synaptic
+neurons. We design a learning algorithm that utilizes global inhibition in the
+hidden layer, and is capable of learning early feature detectors in a
+completely unsupervised way. These learned lower layer feature detectors can be
+used to train higher layer weights in a usual supervised way so that the
+performance of the full network is comparable to the performance of standard
+feedforward networks trained end-to-end with a backpropagation algorithm.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-08-30T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/cs/1/au:+Krotov_D/0/1/0/all/0/1">Dmitry Krotov</a>, <a href="http://arxiv.org/find/cs/1/au:+Hopfield_J/0/1/0/all/0/1">John Hopfield</a></dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007274">
 	<title>PLOS Computational Biology: New Articles: A benchmark of computational CRISPR-Cas9 guide design methods</title>
@@ -785,6 +806,13 @@ Conclusion: Higher intake of riboflavin and USFA can improve multi-dimensional c
 	<content:encoded>RecQ helicases promote genomic stability through their unique ability to suppress illegitimate recombination and resolve recombination intermediates. These DNA structure-specific activities of RecQ helicases are mediated by the helicase-and-RNAseD like C-terminal (HRDC) domain, via unknown mechanisms. Here, employing single-molecule magnetic tweezers and rapid kinetic approaches we establish that the HRDC domain stabilizes intrinsic, sequence-dependent, pauses of the core helicase (lacking the HRDC) in a DNA geometry-dependent manner. We elucidate the core unwinding mechanism in which the unwinding rate depends on the stability of the duplex DNA leading to transient sequence-dependent pauses. We further demonstrate a non-linear amplification of these transient pauses by the controlled binding of the HRDC domain. The resulting DNA sequence- and geometry-dependent pausing may underlie a homology sensing mechanism that allows rapid disruption of unstable (illegitimate) and stabilization of stable (legitimate) DNA strand invasions, which suggests an intrinsic mechanism of recombination quality control by RecQ helicases.</content:encoded>
 	<dc:date>2019-08-29T00:00:00+00:00</dc:date>
 	<dc:creator>Gábor M Harami</dc:creator>
+</item>
+<item rdf:about="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30131-6?rss=yes">
+	<title>Trends in Neurosciences: The CNS Immune Landscape from the Viewpoint of a T Cell</title>
+	<link>https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30131-6?rss=yes</link>
+	<content:encoded>Neuro-immune interactions are not only vital for the control of neurotropic pathogens, but also appear to influence brain development and homeostasis. During immune surveillance, T cells can patrol the CNS-associated border regions to sense pathogenic alterations. While access to the CNS parenchyma is restricted in the steady state, various disease processes can initiate parenchymal T cell CNS invasion. However, to breach the glia limitans, T cells must become reactivated within the meningeal spaces.</content:encoded>
+	<dc:date>2019-08-29T00:00:00+00:00</dc:date>
+	<dc:creator>Sarah Mundt, Melanie Greter, Alexander Flügel, Burkhard Becher</dc:creator>
 </item>
 <item rdf:about="https://www.cell.com/neuron/fulltext/S0896-6273(19)30655-5?rss=yes">
 	<title>Neuron: Feedback-Driven Assembly of the Axon Initial Segment</title>
@@ -2453,24 +2481,6 @@ dataset.
 &lt;/p&gt;</content:encoded>
 	<dc:date>2019-08-23T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/stat/1/au:+Ye_Y/0/1/0/all/0/1">Yuting Ye</a>, <a href="http://arxiv.org/find/stat/1/au:+Xia_Y/0/1/0/all/0/1">Yin Xia</a>, <a href="http://arxiv.org/find/stat/1/au:+Li_L/0/1/0/all/0/1">Lexin Li</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1905.04367">
-	<title>q-bio.NC updates on arXiv.org: Emergence of Subcritical Bifurcations in a System of Randomly Coupled Supercritical Andronov-Hopf Oscillators: A Potential Mechanism for Neural Network Type Switching. (arXiv:1905.04367v2 [math.DS] UPDATED)</title>
-	<link>http://arxiv.org/abs/1905.04367</link>
-	<content:encoded>&lt;p&gt;Experimental evidence suggests that the computational state of cortical
-systems change according to behavioral and stimulus context. However, it is
-still unknown what mechanisms underlie this adaptive processing in cortical
-circuitry. In this paper, we present a model of randomly coupled supercritical
-Andronov-Hopf oscillators which can act as an adaptive processor by exhibiting
-drastically different dynamics depending on the value of a single network
-parameter. Despite being only composed of supercritical subunits, the full
-system can exhibit either supercritical or subcritical Andronov-Hopf
-bifurcations. This model might provide a novel mechanism for switching between
-globally asymptotically stable and nonhyperbolic neural network types in
-pattern recognition theory.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-08-23T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/math/1/au:+Hayton_K/0/1/0/all/0/1">Keith Hayton</a>, <a href="http://arxiv.org/find/math/1/au:+Moirogiannis_D/0/1/0/all/0/1">Dimitrios Moirogiannis</a></dc:creator>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnsyn.2019.00023">
 	<title>Frontiers in Synaptic Neuroscience | New and Recent Articles: Interrogating Synaptic Architecture: Approaches for Labeling Organelles and Cytoskeleton Components</title>
@@ -4235,13 +4245,6 @@ Conclusions: The present study provides data for global researchers to understan
 	<content:encoded>Mayrhofer et al. map the location of mouse tongue-jaw motor cortex, finding that its neuronal activity encodes licking direction and is necessary for contralateral goal-directed licking but does not encode which sensory cue initiates licking, in contrast to sensory cortex.</content:encoded>
 	<dc:date>2019-08-08T00:00:00+00:00</dc:date>
 	<dc:creator>Johannes M. Mayrhofer, Sami El-Boustani, Georgios Foustoukos, Matthieu Auffret, Keita Tamura, Carl C.H. Petersen</dc:creator>
-</item>
-<item rdf:about="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0522-8">
-	<title>Most Recent Articles: BMC Neuroscience: Comparative study of striatum GABA concentrations and magnetic resonance spectroscopic imaging in Parkinson's disease monkeys</title>
-	<link>https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0522-8</link>
-	<content:encoded>Parkinson's disease is a progressive degenerative nervous system disease. Recent studies have shown that secondary changes in the GABA system play directly affect the pathogenesis of PD. There is still much de...</content:encoded>
-	<dc:date>2019-08-08T00:00:00+00:00</dc:date>
-	<dc:creator>Lixuan Huang, Yande Ren, Zisan Zeng, Hao Ren, Shaojun Li, Shengnan He, Fan He and Xiangrong Li</dc:creator>
 </item>
 
 </rdf:RDF>
