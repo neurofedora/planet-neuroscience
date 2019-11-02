@@ -9,6 +9,14 @@
 	<atom:link rel="self" href="https://sanjayankur31.github.io/planet-neuroscience/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>bioRxiv Subject Collection: Neuroscience: Data architecture and visualization for a large-scale neuroscience collaboration</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/827873v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/827873v1?rss=1</link>
+	<description>The International Brain laboratory (IBL) is a collaboration aiming to understand the neural basis of decision-making. Ten experimental labs use multiple neural recording modalities in diverse brain structures of mice making perceptual decisions. A primary requirement of IBL is to establish a data architecture that integrates data from all labs and modalities together. We have developed a system that allow users across 5 countries to automatically contribute data and metadata, search for relevant data, and share code for exploratory analysis. To accurately record metadata about subjects and experiments in a searchable and accessible way, we have developed a user-friendly, web-based electronic lab notebook system for colony and experiment management (Alyx). Alyx is a small relational metadatabase that records relevant information about each subject (age, strain, procedures), alongside information about experiments and their resulting data files. Once an experiment is completed, data registered in Alyx is automatically uploaded to a central server via Globus transfer. Users can search and access the data using a lightweight interface called the Open Neurophysiology Environment (ONE), implemented in Python and MATLAB. ONE defines a list of DatasetTypes, as arrays of predetermined shapes and units. Users search the database by running a command that returns an ID identifying experiments matching their criteria. A command one.load returns the requested DatasetTypes as a numerical array, downloading it from the central server and caching on the user's machine to avoid repeated downloads. Additional commands provide further ways to list experiments on the server, and the dataset types they each contain. This system allows users to search, load and process data that was collected in laboratories spanning multiple geographical locations. To visualize these data, we have developed a pipeline for automated analysis, based on the DataJoint framework.</description>
+	<pubDate>Sat, 02 Nov 2019 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
 	<title>PLOS Computational Biology: New Articles: Competing endogenous RNA crosstalk at system level</title>
 	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007474</guid>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/3lY_PVh3HUI/article</link>
@@ -879,14 +887,6 @@ Adopting a systems approach, we devise a general workflow to define actionable s
 	<pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
 	<author>garymcdow@gmail.com (Gary S McDowell)</author>
   <source url="https://elifesciences.org">eLife: latest articles</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: On the Boundary Conditions of Avoidance Memory Reconsolidation: An Attractor Network Perspective</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/826909v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/826909v1?rss=1</link>
-	<description>The reconsolidation and extinction of aversive memories and their boundary conditions have been extensively studied. Knowing their network mechanisms may lead to the development of better strategies for the treatment of fear and anxiety-related disorders. In 2011, Osan et al. developed a computational model for exploring such phenomena based on attractor dynamics, Hebbian plasticity and synaptic degradation induced by prediction error. This model was able to explain, in a single formalism, experimental findings regarding the freezing behavior of rodents submitted to contextual fear conditioning. In 2017, through the study of inhibitory avoidance in rats, Radiske et al. showed that the previous knowledge of a context as non-aversive is a boundary condition for the reconsolidation of the shock memory subsequently experienced in that context. In the present work, by adapting the model of Osan et al. (2011) to simulate the experimental protocols of Radiske et al. (2017), we show that such boundary condition is compatible with the dynamics of an attractor network that supports synaptic labilization common to reconsolidation and extinction. Additionally, by varying parameters such as the levels of protein synthesis and degradation, we predict behavioral outcomes, and thus boundary conditions that can be tested experimentally.</description>
-	<pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
 <item>
 	<title>PLOS Computational Biology: New Articles: EAGLE: An algorithm that utilizes a small number of genomic features to predict tissue/cell type-specific enhancer-gene interactions</title>
