@@ -15,6 +15,10 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://arxiv.org/abs/1911.12755" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1911.12656" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1911.12549" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1307.6445" />
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438819301035" />
 			<rdf:li rdf:resource="https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01242?ai=sl&amp;mi=6c5u8v&amp;af=R" />
 			<rdf:li rdf:resource="https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01241?ai=sl&amp;mi=6c5u8v&amp;af=R" />
@@ -172,10 +176,6 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/1911.10943" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1911.10617" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1911.10559" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1911.10227" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1909.08466" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1906.05584" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/0903.1856" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41583-019-0251-0" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsys.2019.00071" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnmol.2019.00289" />
@@ -419,6 +419,108 @@
 	</items>
 </channel>
 
+<item rdf:about="http://arxiv.org/abs/1911.12755">
+	<title>q-bio.NC updates on arXiv.org: Reliability and comparability of human brain structural covariance networks. (arXiv:1911.12755v1 [q-bio.NC])</title>
+	<link>http://arxiv.org/abs/1911.12755</link>
+	<content:encoded>&lt;p&gt;Structural covariance analysis is a promising and increasingly used
+structural Magnetic Resonance Imaging (MRI) analysis method which characterises
+the co-relations of morphology between brain regions over a group of subjects.
+However, to our knowledge, little has been investigated in terms of the
+comparability of results between different data sets of healthy human subjects
+as well as the reliability of results over different rescan sessions and
+FreeSurfer versions.
+&lt;/p&gt;
+&lt;p&gt;Our results show (significant) differences of structural covariance between
+two data sets of age- and sex-matched healthy human adults. This low
+comparability is unaltered by site correction, and is most severe when using
+average cortical thickness as a measure of cortical morphology. The low
+comparability further extends to significant differences in graph theoretic
+measures. Similar results of low reliability were found when comparing rescan
+sessions of the same subjects, and even between different FreeSurfer versions
+of the same scans. To understand our observations of low reliability, we
+estimated a measurement error covariance, and we show that it is largest in
+cortical thickness. On simulated data we further demonstrated that stronger
+errors cause stronger attenuation of correlations and proportionally decreases
+reliability, which agrees with associations we observed in the real data.
+&lt;/p&gt;
+&lt;p&gt;To our knowledge this study is the first highlight the problem of reliability
+and comparability in structural covariance. Practically, we suggest that (1)
+combining data from different scanners and sites for structural covariance
+analysis in a naive manner should be avoided, (2) surface area and volume
+should be preferred as morphological measures of structural covariance over
+cortical thickness, and (3) some analysis of robustness of the results should
+be performed for every structural covariance study.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-12-02T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Carmon_J/0/1/0/all/0/1">Jona Carmon</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Heege_J/0/1/0/all/0/1">Jil Heege</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Necus_J/0/1/0/all/0/1">Joe H Necus</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Owen_T/0/1/0/all/0/1">Thomas W Owen</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Pipa_G/0/1/0/all/0/1">Gordon Pipa</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Kaiser_M/0/1/0/all/0/1">Marcus Kaiser</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Taylor_P/0/1/0/all/0/1">Peter N Taylor</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Wang_Y/0/1/0/all/0/1">Yujiang Wang</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1911.12656">
+	<title>q-bio.NC updates on arXiv.org: Optimal Multivariate Tuning with Neuron-Level and Population-Level Energy Constraints. (arXiv:1911.12656v1 [q-bio.NC])</title>
+	<link>http://arxiv.org/abs/1911.12656</link>
+	<content:encoded>&lt;p&gt;Optimality principles have been useful in explaining many aspects of
+biological systems. In the context of neural encoding in sensory areas,
+optimality is naturally formulated in a Bayesian setting, as neural tuning
+which minimizes mean decoding error. Many works optimize Fisher information,
+which approximates the Minimum Mean Square Error (MMSE) of the optimal decoder
+for long encoding time, but may be misleading for short encoding times. We
+study MMSE-optimal neural encoding of a multivariate stimulus by uniform
+populations of spiking neurons, under firing rate constraints for each neuron
+as well as for the entire population. We show that the population-level
+constraint is essential for the formulation of a well-posed problem having
+finite optimal tuning widths, and optimal tuning aligns with the principal
+components of the prior distribution. Numerical evaluation of the
+two-dimensional case shows that encoding only the dimension with higher
+variance is optimal for short encoding times. We also compare direct MMSE
+optimization to optimization of several proxies to MMSE, namely Fisher
+information, Maximum Likelihood estimation error, and the Bayesian Cram\'er-Rao
+bound. We find that optimization of these measures yield qualitatively
+misleading results regarding MMSE-optimal tuning and its dependence on encoding
+time and energy constraints.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-12-02T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Harel_Y/0/1/0/all/0/1">Yuval Harel</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Meir_R/0/1/0/all/0/1">Ron Meir</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1911.12549">
+	<title>q-bio.NC updates on arXiv.org: The Form of a Half-baked Creative Idea: Empirical Explorations into the Structure of Ill-defined Mental Representations. (arXiv:1911.12549v1 [q-bio.NC])</title>
+	<link>http://arxiv.org/abs/1911.12549</link>
+	<content:encoded>&lt;p&gt;Creative thought is conventionally believed to involve searching memory and
+generating multiple independent candidate ideas followed by selection and
+refinement of the most promising. Honing theory, which grew out of the quantum
+approach to describing how concepts interact, posits that what appears to be
+discrete, separate ideas are actually different projections of the same
+underlying mental representation, which can be described as a superposition
+state, and which may take different outward forms when reflected upon from
+different perspectives. As creative thought proceeds, this representation loses
+potentiality to be viewed from different perspectives and manifest as different
+outcomes. Honing theory yields different predictions from conventional theories
+about the mental representation of an idea midway through the creative process.
+These predictions were pitted against one another in two studies: one
+closed-ended and one open-ended. In the first study, participants were
+interrupted midway through solving an analogy problem and wrote down what they
+were thinking in terms of a solution. In the second, participants were
+instructed to create a painting that expressed their true essence and describe
+how they conceived of the painting. For both studies, na\&quot;ive judges
+categorized these responses as supportive of either the conventional view or
+the honing theory view. The results of both studies were significantly more
+consistent with the predictions of honing theory. Some implications for
+creative cognition, and cognition in general, are discussed.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-12-02T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Scotney_V/0/1/0/all/0/1">Victoria S. Scotney</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Schwartz_J/0/1/0/all/0/1">Jasmine Schwartz</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Carbert_N/0/1/0/all/0/1">Nicole Carbert</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Saab_A/0/1/0/all/0/1">Adam Saab</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Gabora_L/0/1/0/all/0/1">Liane Gabora</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1307.6445">
+	<title>q-bio.NC updates on arXiv.org: On the Asymptotic, Near-Equilibrium Sensory Response. (arXiv:1307.6445v5 [q-bio.NC] UPDATED)</title>
+	<link>http://arxiv.org/abs/1307.6445</link>
+	<content:encoded>&lt;p&gt;The asymptotic, near-equilibrium neural response of the sensory periphery can
+be derived theoretically using information theory, asymptotic Bayesian
+statistics and a theory of complex systems. Almost no biological knowledge is
+required. The theoretical approach shows good agreement with experimental data
+across different sensory modalities and animal species. The theory is
+reminiscent of statistical physics.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-12-02T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Wong_W/0/1/0/all/0/1">Willy Wong</a></dc:creator>
+</item>
 <item rdf:about="https://www.sciencedirect.com/science/article/pii/S0959438819301035">
 	<title>ScienceDirect Publication: Current Opinion in Neurobiology: Egocentric and allocentric representations of space in the rodent brain</title>
 	<link>https://www.sciencedirect.com/science/article/pii/S0959438819301035?dgcid=rss_sd_all</link>
@@ -2057,110 +2159,6 @@ underlying the worm's movement control.
 &lt;/p&gt;</content:encoded>
 	<dc:date>2019-11-26T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Ahamed_T/0/1/0/all/0/1">Tosif Ahamed</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Costa_A/0/1/0/all/0/1">Antonio Carlos Costa</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Stephens_G/0/1/0/all/0/1">Greg J. Stephens</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1911.10227">
-	<title>q-bio.NC updates on arXiv.org: Prediction of individual progression rate in Parkinson's disease using clinical measures and biomechanical measures of gait and postural stability. (arXiv:1911.10227v1 [eess.SP])</title>
-	<link>http://arxiv.org/abs/1911.10227</link>
-	<content:encoded>&lt;p&gt;Parkinson's disease (PD) is a common neurological disorder characterized by
-gait impairment. PD has no cure, and an impediment to developing a treatment is
-the lack of any accepted method to predict disease progression rate. The
-primary aim of this study was to develop a model using clinical measures and
-biomechanical measures of gait and postural stability to predict an
-individual's PD progression over two years. Data from 160 PD subjects were
-utilized. Machine learning models, including XGBoost and Feed Forward Neural
-Networks, were developed using extensive model optimization and
-cross-validation. The highest performing model was a neural network that used a
-group of clinical measures, achieved a PPV of 71% in identifying fast
-progressors, and explained a large portion (37%) of the variance in an
-individual's progression rate on held-out test data. This demonstrates the
-potential to predict individual PD progression rate and enrich trials by
-analyzing clinical and biomechanical measures with machine learning.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-11-26T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/eess/1/au:+Raval_V/0/1/0/all/0/1">Vyom Raval</a>, <a href="http://arxiv.org/find/eess/1/au:+Nguyen_K/0/1/0/all/0/1">Kevin P. Nguyen</a>, <a href="http://arxiv.org/find/eess/1/au:+Gerald_A/0/1/0/all/0/1">Ashley Gerald</a>, <a href="http://arxiv.org/find/eess/1/au:+Dewey_R/0/1/0/all/0/1">Richard B. Dewey Jr.</a>, <a href="http://arxiv.org/find/eess/1/au:+Montillo_A/0/1/0/all/0/1">Albert Montillo</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1909.08466">
-	<title>q-bio.NC updates on arXiv.org: Retinal analysis of a mouse model of Alzheimer's disease with multi-contrast optical coherence tomography. (arXiv:1909.08466v2 [physics.med-ph] UPDATED)</title>
-	<link>http://arxiv.org/abs/1909.08466</link>
-	<content:encoded>&lt;p&gt;Recent Alzheimer's disease (AD) patient studies have focused on retinal
-analysis, as the retina is the only part of the central nervous system which
-can be imaged non-invasively by optical methods. However as this is a
-relatively new approach, the occurrence and role of pathological features such
-as retinal layer thinning, extracellular amyloid beta (A$\beta$) accumulation
-and vascular changes is still debated. Animal models of AD are therefore often
-used in attempts to understand the disease. In this work, both eyes of 24
-APP/PS1 transgenic mice (age: 45-104 weeks) and 15 age-matched wildtype
-littermates were imaged by a custom-built multi-contrast optical coherence
-tomography (OCT) system. The system provided a combination of standard
-reflectivity data, polarization-sensitive data and OCT angiograms. This
-tri-fold contrast provided qualitative and quantitative information on retinal
-layer thickness and structure, presence of hyper-reflective foci, phase
-retardation abnormalities and retinal vasculature. While abnormal structural
-properties and phase retardation signals were observed in the retinas, the
-observations were very similar in transgenic and control mice. At the end of
-the experiment, retinas and brains were harvested from a subset of the mice (14
-transgenic, 7 age-matched control) in order to compare the in vivo results to
-histological analysis, and to quantify the cortical A$\beta$ plaque load.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-11-26T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/physics/1/au:+Harper_D/0/1/0/all/0/1">Danielle J. Harper</a>, <a href="http://arxiv.org/find/physics/1/au:+Augustin_M/0/1/0/all/0/1">Marco Augustin</a>, <a href="http://arxiv.org/find/physics/1/au:+Lichtenegger_A/0/1/0/all/0/1">Antonia Lichtenegger</a>, <a href="http://arxiv.org/find/physics/1/au:+Gesperger_J/0/1/0/all/0/1">Johanna Gesperger</a>, <a href="http://arxiv.org/find/physics/1/au:+Himmel_T/0/1/0/all/0/1">Tanja Himmel</a>, <a href="http://arxiv.org/find/physics/1/au:+Muck_M/0/1/0/all/0/1">Martina Muck</a>, <a href="http://arxiv.org/find/physics/1/au:+Merkle_C/0/1/0/all/0/1">Conrad W. Merkle</a>, <a href="http://arxiv.org/find/physics/1/au:+Eugui_P/0/1/0/all/0/1">Pablo Eugui</a>, <a href="http://arxiv.org/find/physics/1/au:+Kummer_S/0/1/0/all/0/1">Stefan Kummer</a>, <a href="http://arxiv.org/find/physics/1/au:+Woehrer_A/0/1/0/all/0/1">Adelheid Woehrer</a>, <a href="http://arxiv.org/find/physics/1/au:+Glosmann_M/0/1/0/all/0/1">Martin Gl&#xf6;smann</a>, <a href="http://arxiv.org/find/physics/1/au:+Baumann_B/0/1/0/all/0/1">Bernhard Baumann</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1906.05584">
-	<title>q-bio.NC updates on arXiv.org: Information capacity of a network of spiking neurons. (arXiv:1906.05584v2 [q-bio.NC] UPDATED)</title>
-	<link>http://arxiv.org/abs/1906.05584</link>
-	<content:encoded>&lt;p&gt;We study a model of spiking neurons, with recurrent connections that result
-from learning a set of spatio-temporal patterns with a spike-timing dependent
-plasticity rule and a global inhibition. We investigate the ability of the
-network to store and selectively replay multiple patterns of spikes, with a
-combination of spatial population and phase-of-spike code. Each neuron in a
-pattern is characterized by a binary variable determining if the neuron is
-active in the pattern, and a phase-lag variable representing the spike-timing
-order among the active units. After the learning stage, we study the dynamics
-of the network induced by a brief cue stimulation, and verify that the network
-is able to selectively replay the pattern correctly and persistently. We
-calculate the information capacity of the network, defined as the maximum
-number of patterns that can be encoded in the network times the number of bits
-carried by each pattern, normalized by the number of synapses, and find that it
-can reach a value $\alpha_\text{max}\simeq 0.27$, similar to the one of
-sequence processing neural networks, and almost double of the capacity of the
-static Hopfield model. We study the dependence of the capacity on the global
-inhibition, connection strength (or neuron threshold) and fraction of neurons
-participating to the patterns. The results show that a dual population and
-temporal coding can be optimal for the capacity of an associative memory.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-11-26T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Scarpetta_S/0/1/0/all/0/1">S. Scarpetta</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Candia_A/0/1/0/all/0/1">A. de Candia</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/0903.1856">
-	<title>q-bio.NC updates on arXiv.org: Quantum calcium-ion interactions with EEG. (arXiv:0903.1856v3 [q-bio.NC] UPDATED)</title>
-	<link>http://arxiv.org/abs/0903.1856</link>
-	<content:encoded>&lt;p&gt;Previous papers have developed a statistical mechanics of neocortical
-interactions (SMNI) fit to short-term memory and EEG data. Adaptive Simulated
-Annealing (ASA) has been developed to perform fits to such nonlinear stochastic
-systems. An N-dimensional path-integral algorithm for quantum systems,
-qPATHINT, has been developed from classical PATHINT. Both fold short-time
-propagators (distributions or wave functions) over long times. Previous papers
-applied qPATHINT to two systems, in neocortical interactions and financial
-options. \textbf{Objective}: In this paper the quantum path-integral for
-Calcium ions is used to derive a closed-form analytic solution at arbitrary
-time that is used to calculate interactions with classical-physics SMNI
-interactions among scales. Using fits of this SMNI model to EEG data, including
-these effects, will help determine if this is a reasonable approach.
-\textbf{Method}: Methods of mathematical-physics for optimization and for path
-integrals in classical and quantum spaces are used for this project. Studies
-using supercomputer resources tested various dimensions for their scaling
-limits. In this paper the quantum path-integral is used to derive a closed-form
-analytic solution at arbitrary time that is used to calculate interactions with
-classical-physics SMNI interactions among scales. \textbf{Results}: The
-mathematical-physics and computer parts of the study are successful, in that
-there is modest improvement of cost/objective functions used to fit EEG data
-using these models. \textbf{Conclusion}: This project points to directions for
-more detailed calculations using more EEG data and qPATHINT at each time slice
-to propagate quantum calcium waves, synchronized with PATHINT propagation of
-classical SMNI.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-11-26T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Ingber_L/0/1/0/all/0/1">Lester Ingber</a></dc:creator>
 </item>
 <item rdf:about="https://www.nature.com/articles/s41583-019-0251-0">
 	<title>Nature Reviews Neuroscience - Issue - nature.com science feeds: Publisher Correction: B cells in autoimmune and neurodegenerative central nervous system diseases</title>
