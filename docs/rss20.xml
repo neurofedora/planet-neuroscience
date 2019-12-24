@@ -9,6 +9,159 @@
 	<atom:link rel="self" href="https://sanjayankur31.github.io/planet-neuroscience/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>q-bio.NC updates on arXiv.org: SpikeDeep-Classifier: A deep-learning based fully automatic offline spike sorting algorithm. (arXiv:1912.10749v1 [q-bio.QM])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/1912.10749</guid>
+	<link>http://arxiv.org/abs/1912.10749</link>
+	<description>&lt;p&gt;Objective. Recent advancements in electrode designs and micro-fabrication
+technology has allowed existence of microelectrode arrays with hundreds of
+channels for single-cell recordings. In such electrophysiological recordings,
+each implanted micro-electrode can record the activities of more than one
+neuron in its vicinity. Recording the activities of multiple neurons may also
+be referred to as multiple unit activity. However, for any further analysis,
+the main goal is to isolate the activity of each recorded neuron and thus
+called single-unit activity. This process may also be referred to as spike
+sorting or spike classification. Recent approaches to extract SUA are time
+consuming, mainly due to the requirement of human intervention at various
+stages of spike sorting pipeline. Lack of standardization is another drawback
+of the current available approaches. Therefore, in this study we proposed a
+standard spike sorter: SpikeDeep-Classifier, a fully automatic spike sorting
+algorithm. Approach. We proposed a novel spike sorting pipeline, based on a set
+of supervised and unsupervised learning algorithms. We used supervised, deep
+learning-based algorithms for extracting meaningful channels and removing
+background activities (noise) from the extracted channels. We also showed that
+the process of clustering becomes straight-forward, once the noise/artifact is
+completely removed from the data. Therefore, in the next stage, we applied a
+simple clustering algorithm (K-mean) with predefined maximum number of
+clusters. Lastly, we used a similarity-based criterion to keep distinct
+clusters and merge similar-looking clusters. Main results. We evaluated our
+algorithm on a dataset collected from two different species (humans and
+non-human primates (NHPs)) without any retraining. We also validated our
+algorithm on two publicly available labeled datasets.
+&lt;/p&gt;</description>
+	<pubDate>Tue, 24 Dec 2019 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
+</item>
+<item>
+	<title>q-bio.NC updates on arXiv.org: Recurrent Feedback Improves Feedforward Representations in Deep Neural Networks. (arXiv:1912.10489v1 [q-bio.NC])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/1912.10489</guid>
+	<link>http://arxiv.org/abs/1912.10489</link>
+	<description>&lt;p&gt;The abundant recurrent horizontal and feedback connections in the primate
+visual cortex are thought to play an important role in bringing global and
+semantic contextual information to early visual areas during perceptual
+inference, helping to resolve local ambiguity and fill in missing details. In
+this study, we find that introducing feedback loops and horizontal recurrent
+connections to a deep convolution neural network (VGG16) allows the network to
+become more robust against noise and occlusion during inference, even in the
+initial feedforward pass. This suggests that recurrent feedback and contextual
+modulation transform the feedforward representations of the network in a
+meaningful and interesting way. We study the population codes of neurons in the
+network, before and after learning with feedback, and find that learning with
+feedback yielded an increase in discriminability (measured by d-prime) between
+the different object classes in the population codes of the neurons in the
+feedforward path, even at the earliest layer that receives feedback. We find
+that recurrent feedback, by injecting top-down semantic meaning to the
+population activities, helps the network learn better feedforward paths to
+robustly map noisy image patches to the latent representations corresponding to
+important visual concepts of each object class, resulting in greater robustness
+of the network against noises and occlusion as well as better fine-grained
+recognition.
+&lt;/p&gt;</description>
+	<pubDate>Tue, 24 Dec 2019 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
+</item>
+<item>
+	<title>q-bio.NC updates on arXiv.org: Learning temporal structure of the input with a network of integrate-and-fire neurons. (arXiv:1912.10262v1 [q-bio.NC])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/1912.10262</guid>
+	<link>http://arxiv.org/abs/1912.10262</link>
+	<description>&lt;p&gt;The task of the brain is to look for structure in the external input. We
+study a network of integrate-and-fire neurons with several types of recurrent
+connections that learns the structure of its time-varying feedforward input by
+attempting to efficiently represent this input with spikes. The efficiency of
+the representation arises from incorporating the structure of the input into
+the decoder, which is implicit in the learned synaptic connectivity of the
+network. While in the original work of [Boerlin, Machens, Den\`eve 2013] and
+[Brendel et al., 2017] the structure learned by the network to make the
+representation efficient was the low-dimensionality of the feedforward input,
+in the present work it is its temporal dynamics. The network achieves the
+efficiency by adjusting its synaptic weights in such a way, that for any neuron
+in the network, the recurrent input cancels the feedforward for most of the
+time. We show that if the only temporal structure that the input possesses is
+that it changes slowly on the time scale of neuronal integration, the
+dimensionality of the network dynamics is equal to the dimensionality of the
+input. However, if the input follows a linear differential equation of the
+first order, the efficiency of the representation can be increased by
+increasing the dimensionality of the network dynamics in comparison to the
+dimensionality of the input. If there is only one type of slow synaptic current
+in the network, the increase is two-fold, while if there are two types of slow
+synaptic currents that decay with different rates and whose amplitudes can be
+adjusted separately, it is advantageous to make the increase three-fold. We
+numerically simulate the network with synaptic weights that imply the most
+efficient input representation in the above cases. We also propose a learning
+rule by means of which the corresponding synaptic weights can be learned.
+&lt;/p&gt;</description>
+	<pubDate>Tue, 24 Dec 2019 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
+</item>
+<item>
+	<title>q-bio.NC updates on arXiv.org: Emergence of functional and structural properties of the head direction system by optimization of recurrent neural networks. (arXiv:1912.10189v1 [q-bio.NC])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/1912.10189</guid>
+	<link>http://arxiv.org/abs/1912.10189</link>
+	<description>&lt;p&gt;Recent work suggests goal-driven training of neural networks can be used to
+model neural activity in the brain. While response properties of neurons in
+artificial neural networks bear similarities to those in the brain, the network
+architectures are often constrained to be different. Here we ask if a neural
+network can recover both neural representations and, if the architecture is
+unconstrained and optimized, the anatomical properties of neural circuits. We
+demonstrate this in a system where the connectivity and the functional
+organization have been characterized, namely, the head direction circuits of
+the rodent and fruit fly. We trained recurrent neural networks (RNNs) to
+estimate head direction through integration of angular velocity. We found that
+the two distinct classes of neurons observed in the head direction system, the
+Ring neurons and the Shifter neurons, emerged naturally in artificial neural
+networks as a result of training. Furthermore, connectivity analysis and
+in-silico neurophysiology revealed structural and mechanistic similarities
+between artificial networks and the head direction system. Overall, our results
+show that optimization of RNNs in a goal-driven task can recapitulate the
+structure and function of biological circuits, suggesting that artificial
+neural networks can be used to study the brain at the level of both neural
+activity and anatomical organization.
+&lt;/p&gt;</description>
+	<pubDate>Tue, 24 Dec 2019 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
+</item>
+<item>
+	<title>q-bio.NC updates on arXiv.org: Multi-Modal Neuroimaging Analysis and Visualization Tool (MMVT). (arXiv:1912.10079v1 [q-bio.NC])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/1912.10079</guid>
+	<link>http://arxiv.org/abs/1912.10079</link>
+	<description>&lt;p&gt;Sophisticated visualization tools are essential for the presentation and
+exploration of human neuroimaging data. While two-dimensional orthogonal views
+of neuroimaging data are conventionally used to display activity and
+statistical analysis, three-dimensional (3D) representation is useful for
+showing the spatial distribution of a functional network, as well as its
+temporal evolution. For these purposes, there is currently no open-source, 3D
+neuroimaging tool that can simultaneously visualize desired combinations of
+MRI, CT, EEG, MEG, fMRI, PET, and intracranial EEG (i.e., ECoG, depth
+electrodes, and DBS). Here we present the Multi-Modal Visualization Tool
+(MMVT), which is designed for researchers to interact with their neuroimaging
+functional and anatomical data through simultaneous visualization of these
+existing imaging modalities. MMVT contains two separate modules: The first is
+an add-on to the open-source, 3D-rendering program Blender. It is an
+interactive graphical interface that enables users to simultaneously visualize
+multi-modality functional and statistical data on cortical and subcortical
+surfaces as well as MEEG sensors and intracranial electrodes. This tool also
+enables highly accurate 3D visualization of neuroanatomy, including the
+location of invasive electrodes relative to brain structures. The second module
+includes complete stand-alone pre-processing pipelines, from raw data to
+statistical maps. Each of the modules and module features can be integrated,
+separate from the tool, into existing data pipelines. This gives the tool a
+distinct advantage in both clinical and research domains as each has highly
+specialized visual and processing needs. MMVT leverages open-source software to
+build a comprehensive tool for data visualization and exploration.
+&lt;/p&gt;</description>
+	<pubDate>Tue, 24 Dec 2019 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
+</item>
+<item>
 	<title>PLOS Computational Biology: New Articles: Functional analysis of Rossmann-like domains reveals convergent evolution of topology and reaction pathways</title>
 	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007569</guid>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/PPTgrroAzzo/article</link>
@@ -345,6 +498,46 @@ priori covariate.
   <source url="https://elifesciences.org">eLife: latest articles</source>
 </item>
 <item>
+	<title>Most Recent Articles: BMC Neuroscience: Inhibition of autophagy triggers melatonin-induced apoptosis in glioblastoma cells</title>
+	<guid isPermaLink="true">https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0545-1</guid>
+	<link>https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0545-1</link>
+	<description>Autophagy is considered to be another restorative focus for the treatment of brain tumors. Although several research have demonstrated that melatonin induces autophagy in colon cancer and hepatoma cells, there...</description>
+	<pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+  <source url="http://bmcneurosci.biomedcentral.com/articles/most-recent/rss.xml">Most Recent Articles: BMC Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: TrkB agonists prevent post-ischemic BDNF-TrkB mediated emergence of refractory neonatal seizures in CD-1 pups.</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2019.12.23.887190v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2019.12.23.887190v1?rss=1</link>
+	<description>Refractory neonatal seizures do not respond to first-line anti-seizure medications (ASMs) like phenobarbital (PB), a positive allosteric modulator for GABA-A receptors, the most widely used ASM to treat neonatal seizures. GABA-A receptor-mediated inhibition is dependent upon neuronal chloride regulation. The electroneutral cation-chloride transporter KCC2 mediates neuronal chloride extrusion; an age-dependent increase of KCC2 expression enables the shift of GABAergic signaling from depolarizing to hyperpolarizing. BDNF-TrkB activation following excitotoxic injury recruits downstream targets like PLC{gamma}1, leading to KCC2 hypofunction. This study investigated the efficacy of partial and full TrkB agonists; LM22A-4 (LM), HIOC and Deoxygedunin (DG) respectively, on PB-refractory seizures, post-ischemic TrkB-pathway activation, and KCC2 membrane stability in a P7 CD-1 mouse model of refractory neonatal seizures. Anti-seizure efficacy was determined by quantifying seizure burdens with continuous video-EEG. LM rescued PB-refractory seizures in a sexually dimorphic manner. LM anti-seizure efficacy was associated with a significant reduction in the post-ischemic phosphorylation of TrkB at Y816, a site known to mediate post-ischemic KCC2 hypofunction via PLC{gamma}1 activation. LM additionally rescued ischemia-induced pKCC2-S940 dephosphorylation preserving its membrane stability. HIOC and DG, two novel full TrkB agonists, also rescued PB-refractoriness and post-ischemic TrkB-PLC{gamma}1 pathway activation. Additionally, chemogenetic inactivation of TrkB significantly reduced post-ischemic neonatal seizure burdens at P7. Developmental expression profiles of TrkB and KCC2 in naive pups identified developmental differences that may underlie the sex-dependent variance in anti-seizure efficacy. These results support a novel role for the TrkB receptor in the emergence of age-dependent refractory neonatal seizures.</description>
+	<pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: The dynamics of oligodendrocyte generation: how distinct is the mouse from the human?</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2019.12.23.887174v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2019.12.23.887174v1?rss=1</link>
+	<description>Murine oligodendrocyte generation dynamics are considered distinct from those in the human, with implications for cross-species differences in neural homeostasis, injury response and ability to functionally adapt circuits through myelin plasticity. We identify that murine oligodendrocyte precursors do not vary their cell division times in vivo and determine how daily production rates change over a lifespan. We show that murine oligodendrogenesis closely resembles what is reported for the human.</description>
+	<pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: Haplotype of the astrocytic water channel AQP4 modulates slow wave energy in human NREM sleep</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2019.12.23.886952v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2019.12.23.886952v1?rss=1</link>
+	<description>Cerebrospinal fluid (CSF) flow through the brain parenchyma is facilitated by the astrocytic water channel aquaporin 4 (AQP4). Homeostatically regulated electroencephalographic (EEG) slow waves are a hallmark of deep non-rapid-eye-movement (NREM) sleep and have been implicated in the regulation of parenchymal CSF flow and brain clearance. The human AQP4 gene harbors several single nucleotide polymorphisms (SNPs) associated with AQP4 expression, brain-water homeostasis and neurodegenerative diseases. To date, their role in sleep-wake regulation is unknown. To investigate whether functional variants in AQP4 modulate human sleep, nocturnal EEG-recordings and cognitive performance were investigated in 123 healthy participants genotyped for a common eight-SNP AQP4-haplotype. We show that this AQP4-haplotype is associated with distinct modulations of NREM slow wave energy, strongest in early sleep and mirrored by changes in sleepiness and reaction times during extended wakefulness. The study provides the first human evidence for a link between AQP4, deep NREM sleep and cognitive consequences of prolonged wakefulness.</description>
+	<pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: Individual head models for estimating the TMS-induced electric field in rat brain</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2019.12.23.886861v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2019.12.23.886861v1?rss=1</link>
+	<description>In transcranial magnetic stimulation (TMS), the initial cortical activation due to stimulation is determined by the state of the brain and the magnitude, waveform, and direction of the induced electric field (E-field) in the cortex. The E-field distribution depends on the conductivity geometry of the head. The effects of deviations from a spherically symmetric conductivity profile have been studied in detail in humans. In small mammals, such as rats, these effects are more pronounced due to their smaller and less spherical heads. In this study, we describe a simple method for building individual realistically shaped head models for rats from high-resolution X-ray tomography images. We computed the TMS-induced E-field with the boundary element method and assessed the effect of head-model simplifications on the estimated E-field. The deviations from spherical symmetry have large, non-trivial effects on the E-field distribution: in some cases, even the direction of the E-field in the cortex cannot be reliably predicted by the coil orientation unless these deviations are properly considered.</description>
+	<pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
 	<title>bioRxiv Subject Collection: Neuroscience: An integrated genomic approach to dissect the genetic landscape regulating the cell-to-cell transfer of a-synuclein</title>
 	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2019.12.23.886838v1?rss=1</guid>
 	<link>http://biorxiv.org/cgi/content/short/2019.12.23.886838v1?rss=1</link>
@@ -369,10 +562,26 @@ priori covariate.
   <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
 <item>
+	<title>bioRxiv Subject Collection: Neuroscience: Microglial homeostasis requires balanced CSF-1/CSF-2 receptor signaling</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2019.12.23.885186v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2019.12.23.885186v1?rss=1</link>
+	<description>CSF-1R haploinsufficiency causes adult-onset leukoencephalopathy with axonal spheroids and pigmented glia (ALSP). Previous studies in the Csf1r+/- mouse model of ALSP hypothesized a central role of elevated cerebral Csf2 expression. Here we show that monoallelic deletion of Csf2 rescues most behavioral deficits and histopathological changes in Csf1r+/- mice by preventing microgliosis and eliminating most microglial transcriptomic alterations, including those indicative of oxidative stress and demyelination. We also show elevation of Csf2 transcripts and of several CSF-2 downstream targets in the brains of ALSP patients, demonstrating that the mechanisms identified in the mouse model are functional in man. Our data provide new insights into the mechanisms underlying ALSP. Since both increased CSF2 levels and decreased microglial Csf1r expression have also been reported in Alzheimer disease and multiple sclerosis, we suggest that the unbalanced CSF-1R/CSF-2 signaling we describe in the present study may contribute to the pathogenesis of other neurodegenerative conditions.</description>
+	<pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
 	<title>bioRxiv Subject Collection: Neuroscience: Multimodal Learning of Pheromone Locations</title>
 	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2019.12.22.886564v1?rss=1</guid>
 	<link>http://biorxiv.org/cgi/content/short/2019.12.22.886564v1?rss=1</link>
 	<description>Memorizing pheromonal locations is critical for many mammalian species as it involves finding mates and avoiding competitors. In rodents, pheromonal sensing happens through both vomeronasal organ (VNO) and main olfactory epithelium (MOE). It remains unclear as to which modalities and cues are used by rodents to form these long-term memories efficiently. Here, we addressed this problem by training female mice on a multimodal task to locate pheromones by sampling volatiles emanating from male urine and associating with the dimensions of certain shapes sensed by their vibrissae. In this novel pheromone location assay, female mice preference towards male urine scent decayed over time while permitting them to explore pheromones versus neutral stimuli, water. On training the animals for associations involving olfactory and whisker systems, they were able to memorize the location of opposite sex pheromones, when tested 15 days later. This memory was not formed either when the somatosensory inputs through whisker pad were blocked or pheromonal cues were replaced by that of same sex. On investigating the neural correlates of volatile pheromone information processing, we observed increased neurogenesis in the main olfactory bulb (MOB) after two weeks of learning. However, the pheromonal exposure induced Whitten effect, the estrous cycle synchronization, did not cause any differences in the MOB mediated discrimination learning pace for various non-pheromonal volatiles. Our study thus provides the evidence for associations formed between different sensory modalities facilitating the long-term memory formation in social and reproductive behaviors.</description>
+	<pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: Heterogeneous habenular neuronal ensembles during selection of defensive behaviors</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2019.12.22.886457v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2019.12.22.886457v1?rss=1</link>
+	<description>Optimal selection of threat-driven defensive behaviors is paramount to an animal's survival. The lateral habenula (LHb) is a key neuronal hub coordinating behavioral responses to aversive stimuli. Yet, how individual LHb neurons represent defensive behaviors in response to threats remains unknown. Here we show that, in mice, a visual threat promotes distinct defensive behaviors, namely runaway (escape) and action-locking (immobile like). Fiber photometry of bulk LHb neuronal activity in behaving animals revealed an increase and decrease of calcium signal time-locked with runaway and action-locking, respectively. Imaging single-cell calcium dynamics across distinct threat-driven behaviors identified independently active LHb neuronal clusters. These clusters participate during specific time epochs of defensive behaviors. Decoding analysis of this neuronal activity unveiled that some LHb clusters either predict the upcoming selection of the defensive action or represent the selected action. Thus, heterogeneous neuronal clusters in LHb predict or reflect the selection of distinct threat-driven defensive behaviors.</description>
 	<pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
   <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
@@ -457,60 +666,12 @@ priori covariate.
   <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
 <item>
-	<title>bioRxiv Subject Collection: Neuroscience: A toolbox for automated video analysis of rodents engaged in string-pulling: Phenotyping motor behavior of mice for sensory, whole-body and bimanual skilled hand function</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2019.12.18.881342v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2019.12.18.881342v1?rss=1</link>
-	<description>String-pulling in rodents (rats and mice) is a task in which animals make hand-over-hand movements to spontaneously reel in a string with or without a food reward attached to its end. The task elicits bilateral skilled hand movements for which rodents require little training. The task is suitable for phenotyping physiology and pathophysiology of sensorimotor integration in rodent models of neurological and motor disorders. Because a rodent stands in the same location and its movements are repetitive, the task lends itself to quantification of topographical and kinematic parameters for on-line tactile tracking of the string, skilled hand movements for grasping, and rhythmical bilateral forearm movements to advance the string. Here we describe a Matlab(R) based software with a graphical user interface to assist researchers in analyzing the video record of string pulling. The software allows global characterization of position and motion using optical flow estimation, descriptive statistics, principal component, and independent component analyses as well as temporal measures of Fano factor, entropy, and Higuchi fractal dimension. Based on image segmentation and object tracking heuristic algorithms, the software also allows independent tracking of the body, ears, nose, and forehands for estimation of kinematic parameters such as body length, body angle, head roll, head yaw, head pitch, movement paths and speed of hand movement. The utility of the task and that of the software is presented by describing mouse strain characteristics in string-pulling behavior of two strains of mice, C57BL/6 and Swiss Webster. Postural and skilled hand kinematic differences that characterize the strains highlight the utility of the task and assessment methods for phenotypic and neurological analysis of healthy and rodent models of diseases such as Parkinson's, Huntington's, Alzheimer's and other neurological and motor disorders.</description>
-	<pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: The use of 'artificial saliva' as a neutral control condition in gustatory research</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2019.12.18.880880v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2019.12.18.880880v1?rss=1</link>
-	<description>Distilled water with NaHCO3 and KCl, a solution often referred to as &quot;artificial saliva&quot; because its chemical composition mimics human saliva, is the control liquid of choice in gustatory research, because it is believed to be entirely affectively neutral. Yet evidence that human research volunteers perceive this liquid as emotionally neutral is lacking. Unpublished data from our lab suggested that this solution might be perceived as aversive. This study set out to systematically test the parameters influencing taste neutrality. We used two different concentrations of distilled water with NaHCO3 and KCl, as well as bottled water as a control taste. Healthy adults rated all tastes on two separate scales to rule out an interpretation based on the specifics of a single scale. Our participants rated artificial saliva as aversive on both scales. The bottled water was rated as neutral on both scales, and as significantly less intense in sensation than both concentrations of the distilled water solution. This is the first study to have directly tested the subjective feelings that accompany the ingestion of these oft-used solutions. We found that these liquids, which were previously assumed to be neutral, may not be perceived as such by research participants. Therefore, future gustatory studies should take care when using this solution as a neutral baseline. It is advised that trial-by-trial ratings are collected. Also, depending on the nature of future studies, bottled water may be considered as a preferable neutral baseline.</description>
-	<pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
 	<title>Most Recent Articles: BMC Neuroscience: Amiodarone exacerbates brain injuries after hypoxic–ischemic insult in mice</title>
 	<guid isPermaLink="true">https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0544-2</guid>
 	<link>https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0544-2</link>
 	<description>Sodium ion transportation plays a crucial role in the pathogenesis of hypoxic–ischemic brain injury. Amiodarone, a Vaughan-Williams class III antiarrhythmic drug, has been widely used to treat life-threatening...</description>
 	<pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
   <source url="http://bmcneurosci.biomedcentral.com/articles/most-recent/rss.xml">Most Recent Articles: BMC Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: PiVR: an affordable and versatile closed-loop platform to study unrestrained sensorimotor behavior</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2019.12.20.885442v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2019.12.20.885442v1?rss=1</link>
-	<description>Tools enabling closed-loop experiments are crucial to delineate causal relationships between the activity of genetically-labeled neurons and specific behaviors. We developed the Raspberry Pi Virtual Reality system (PiVR) to conduct closed-loop optogenetic stimulation of neural functions in unrestrained animals. PiVR is an experimental platform that operates at high-temporal resolution (&amp;gt;50 Hz) with low latencies (~10 ms), while being affordable (&amp;lt;$500) and easy to build (&amp;lt;6 hours). This tool was designed to be accessible to a wide public, from highschool students to professional researchers studying systems neuroscience. We illustrate the functionality of PiVR by focusing on sensory navigation in response to gradients of chemicals (chemotaxis) and light (phototaxis). We show how Drosophila flies perform negative chemotaxis by modulating their locomotor speed to avoid locations associated with optogenetically-evoked bitter taste. In Drosophila larvae, we use innate positive chemotaxis to compare orientation behavior elicited by real- and virtual-odor gradients with static shapes as well as by turbulent virtual-odor plumes. Finally, we examine how positive phototaxis emerges in zebrafish larvae from the modulation of turning maneuvers during the ascent of virtual white-light gradients. Besides its application to study chemotaxis and phototaxis, PiVR is a versatile tool designed to bolster efforts to map and to functionally characterize neural circuits.</description>
-	<pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: Alzheimers disease-related dysregulation of protein synthesis causes key pathological features with ageing</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2019.12.20.884783v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2019.12.20.884783v1?rss=1</link>
-	<description>Alzheimer's disease (AD) is characterised by A{beta} and tau pathology as well as synaptic degeneration. Recently, it was suggested that the development of these key disease features may at least in part be due to increased protein synthesis that is regulated by fragile X mental retardation protein (FMRP) and its binding partner CYFIP2. Using an unbiased screen, we show that exposure of primary neurons to A{beta} increases FMRP-regulated protein synthesis and involves a reduction of CYFIP2 levels. Modelling this CYFIP2 reduction in mice, we find A{beta} accumulation, development of pre-tangle tau pathology, gliosis, loss of synapses, and deficits in memory formation with ageing. We conclude that reducing endogenous CYFIP2 expression is sufficient to cause some key features of AD in mice. We therefore propose a central role for CYFIP2 in AD as a modulator of protein synthesis, highlighting a novel direction for therapeutic targeting.</description>
-	<pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: Cerebellar dopamine D2 receptors regulate preference for social novelty</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2019.12.20.884288v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2019.12.20.884288v1?rss=1</link>
-	<description>The cerebellum, a primary center involved in the control of sensorimotor tasks, also contributes to higher cognitive functions including reward, emotion and social interaction. The regulation of these behaviors has been largely ascribed to the monoaminergic system in limbic regions. However, the contribution of cerebellar dopamine signaling in the modulation of these functions remains largely unknown due to the lack of precise characterization of cerebellar dopaminoceptive neurons. By combining cell type-specific transcriptomic and histological analyses, 3D imaging and electrophysiology we demonstrate that cerebellar dopamine D2 receptors (D2R) in mice are preferentially expressed in Purkinje cells (PCs). While activation of D2R regulate synaptic efficacy onto PCs, their deletion or overexpression in PCs bidirectionally controls preference for social novelty without affecting motor functions. Altogether, these findings demonstrate novel D2R's roles in PC function and causally link cerebellar D2R levels of expression to social behaviors.</description>
-	<pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: Pyk2 Overexpression in Postsynaptic Neurons Blocks Aβ1-42-induced Synaptotoxicity in a Microfluidic Co-Culture Model</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2019.12.20.884205v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2019.12.20.884205v1?rss=1</link>
-	<description>Recent meta-analyses identified a number of genetic risk factors of Alzheimer's disease (AD); however, little is known about the mechanisms by which they contribute to the pathological process. As synapse loss is observed at the earliest stage of AD, deciphering the impact of AD risk genes on synapse formation and maintenance is of great interest. In this paper, we report a microfluidic co-culture device that physically isolates synapses from pre- and postsynaptic neurons and chronically exposes them to toxic amyloid-beta (A{beta}) peptides secreted by model cell lines overexpressing wild-type or mutated (V717I) amyloid precursor protein (APP). Co-culture with cells overexpressing mutated APP exposed the synapses of primary hippocampal neurons to A{beta}1-42 molecules at physiologically-relevant concentrations and induced a significant decrease in synaptic connectivity, as evidenced by distance-based assignment of postsynaptic puncta to presynaptic puncta. Treating the cells with antibodies that target different forms of A{beta} suggested that low molecular weight oligomers are the likely culprit. As proof of concept, we demonstrate that overexpression of Pyk2 -an AD risk gene involved in synaptic plasticity- selectively in postsynaptic neurons is protective against A{beta}1-42-induced synaptotoxicity. In summary, our lab-on-a-chip device provides a physiologically-relevant model of AD-related synaptotoxicity, optimal for assessing the impact of risk genes in pre- and postsynaptic compartments.</description>
-	<pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
 <item>
 	<title>PLOS Computational Biology: New Articles: Regulatory context drives conservation of glycine riboswitch aptamers</title>
@@ -2445,75 +2606,6 @@ discussed.
   <source url="http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1531-8249">Wiley: Annals of Neurology: Table of Contents</source>
 </item>
 <item>
-	<title>q-bio.NC updates on arXiv.org: The effect of noise on the synchronization dynamics of the Kuramoto model on a large human connectome graph. (arXiv:1912.06018v2 [nlin.AO] UPDATED)</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/1912.06018</guid>
-	<link>http://arxiv.org/abs/1912.06018</link>
-	<description>&lt;p&gt;We have extended the study of the Kuramoto model with additive Gaussian noise
-running on the KKI-18 large human connectome graph. We determined the dynamical
-behavior of this model by solving it numerically in an assumed homeostatic
-state, below the synchronization crossover point we determined previously. The
-de-synchronization duration distributions exhibit power-law tails,
-characterized by the exponent in the range $1.1 &amp;lt; \tau_t &amp;lt; 2$, overlapping the
-in vivo human brain activity experiments by Palva et al. We show that these
-scaling results remain valid, by a transformation of the ultra-slow
-eigen-frequencies to Gaussian with unit variance. We also compare the
-connectome results with those, obtained on a regular cube with $N=10^6$ nodes,
-related to the embedding space, and show that the quenched internal frequencies
-themselves can cause frustrated synchronization scaling in an extended coupling
-space.
-&lt;/p&gt;</description>
-	<pubDate>Fri, 13 Dec 2019 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
-</item>
-<item>
-	<title>q-bio.NC updates on arXiv.org: On Neural Phone Recognition of Mixed-Source ECoG Signals. (arXiv:1912.05869v1 [eess.AS])</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/1912.05869</guid>
-	<link>http://arxiv.org/abs/1912.05869</link>
-	<description>&lt;p&gt;The emerging field of neural speech recognition (NSR) using
-electrocorticography has recently attracted remarkable research interest for
-studying how human brains recognize speech in quiet and noisy surroundings. In
-this study, we demonstrate the utility of NSR systems to objectively prove the
-ability of human beings to attend to a single speech source while suppressing
-the interfering signals in a simulated cocktail party scenario. The
-experimental results show that the relative degradation of the NSR system
-performance when tested in a mixed-source scenario is significantly lower than
-that of automatic speech recognition (ASR). In this paper, we have
-significantly enhanced the performance of our recently published framework by
-using manual alignments for initialization instead of the flat start technique.
-We have also improved the NSR system performance by accounting for the possible
-transcription mismatch between the acoustic and neural signals.
-&lt;/p&gt;</description>
-	<pubDate>Fri, 13 Dec 2019 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
-</item>
-<item>
-	<title>q-bio.NC updates on arXiv.org: A state-space model for dynamic functional connectivity. (arXiv:1912.05595v1 [stat.AP])</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/1912.05595</guid>
-	<link>http://arxiv.org/abs/1912.05595</link>
-	<description>&lt;p&gt;Dynamic functional connectivity (DFC) analysis involves measuring correlated
-neural activity over time across multiple brain regions. Significant regional
-correlations among neural signals, such as those obtained from resting-state
-functional magnetic resonance imaging (fMRI), may represent neural circuits
-associated with rest. The conventional approach of estimating the correlation
-dynamics as a sequence of static correlations from sliding time-windows has
-statistical limitations. To address this issue, we propose a multivariate
-stochastic volatility model for estimating DFC inspired by recent work in
-econometrics research. This model assumes a state-space framework where the
-correlation dynamics of a multivariate normal observation sequence is governed
-by a positive-definite matrix-variate latent process. Using this statistical
-model within a sequential Bayesian estimation framework, we use blood
-oxygenation level dependent activity from multiple brain regions to estimate
-posterior distributions on the correlation trajectory. We demonstrate the
-utility of this DFC estimation framework by analyzing its performance on
-simulated data, and by estimating correlation dynamics in resting state fMRI
-data from a patient with a disorder of consciousness (DoC). Our work advances
-the state-of-the-art in DFC analysis and its principled use in DoC biomarker
-exploration.
-&lt;/p&gt;</description>
-	<pubDate>Fri, 13 Dec 2019 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
-</item>
-<item>
 	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Linker Protein Repair of LAMA2 Dystrophic Neuromuscular Basement Membranes</title>
 	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnmol.2019.00305</guid>
 	<link>https://www.frontiersin.org/articles/10.3389/fnmol.2019.00305</link>
@@ -2616,66 +2708,6 @@ exploration.
 &lt;p&gt;When postmortem studies related to transgender individuals were first published, little was known about the function of the various identified nuclei. Now, over 2 decades later, significant progress has been made associating function with specific brain regions, as well as in identifying networks associated with groups of behaviors. However, much of this progress has not been integrated into the general conceptualization of gender dysphoria in humans. I hypothesize that in individuals with gender dysphoria, the aspects of chronic distress, gender atypical behavior, and incongruence between perception of gender identity and external primary sex characteristics are all directly related to functional differences in associated brain networks. I evaluated previously published neuroscience data related to these aspects and the associated functional networks, along with other relevant information. I find that the brain networks that give individuals their ownership of body parts, that influence gender typical behavior, and that are involved in chronic distress are different in individuals with and without gender dysphoria, leading to a new theory—that gender dysphoria is a sensory perception condition, an alteration in the sense of gender influenced by the reflexive behavioral responses associated with each of these networks. This theory builds upon previous work that supports the relevance of the body-ownership network and that questions the relevance of cerebral sexual dimorphism in regard to gender dysphoria. However, my theory uses a hierarchical executive function model to incorporate multiple reflexive factors (body ownership, gender typical/atypical behavior, and chronic distress) with the cognitive, reflective process of gender identity.  &lt;/p&gt;</description>
 	<pubDate>Thu, 12 Dec 2019 14:34:56 +0000</pubDate>
   <source url="http://www.eneuro.org/rss/current.xml">eNeuro current issue</source>
-</item>
-<item>
-	<title>q-bio.NC updates on arXiv.org: Sensitivity to grayscale textures is adapted to natural scene statistics. (arXiv:1912.05433v1 [q-bio.NC])</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/1912.05433</guid>
-	<link>http://arxiv.org/abs/1912.05433</link>
-	<description>&lt;p&gt;The efficient coding hypothesis posits that sensory circuits and animal
-behavior should be adapted to the statistical structure of natural signals.
-Here, we show that the perception of visual textures is adapted to the spatial
-distribution of light signals at a striking level of detail. We first identify
-a parametrized 66-dimensional space of grayscale textures defined by local
-spatial correlations between discrete light intensities. We then devise a
-method of measuring the contribution of each of these textures to the spatial
-structure of scenes. Efficient coding predicts that the perceptual salience of
-a complex sensory signal should be related to its variability in natural
-settings. Based on an analysis of contrast-equalized natural scenes, this
-theory predicts that textures involving two-point correlations will be most
-salient, and it further predicts the relative salience among second-order
-correlations of different types. We test our predictions by asking observers to
-locate a briefly-flashed texture strip in a background of white noise. The
-behavior of individual subjects is highly consistent: correlations beyond the
-second order are hard to distinguish from random noise, and detection
-thresholds within this salient second-order subspace are quantitatively
-predicted across 26 two-dimensional texture planes. We additionally find
-non-trivial symmetries of natural images that leave psychophysical thresholds
-unchanged, further supporting our hypothesis. These findings significantly
-extend previous results obtained for binary images, and they provide deeper
-insights into the relationship between natural signal statistics and human
-perception.
-&lt;/p&gt;</description>
-	<pubDate>Thu, 12 Dec 2019 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
-</item>
-<item>
-	<title>q-bio.NC updates on arXiv.org: Suppression of hypersynchronous network activity in cultured cortical neurons using an ultrasoft silicone scaffold. (arXiv:1912.05050v1 [q-bio.NC])</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/1912.05050</guid>
-	<link>http://arxiv.org/abs/1912.05050</link>
-	<description>&lt;p&gt;The spontaneous activity pattern of cortical neurons in dissociated culture
-is characterized by burst firing that is highly synchronized among a wide
-population of cells. The degree of synchrony, however, is excessively higher
-than that in cortical tissues. Here, we employed polydimethylsiloxane (PDMS)
-elastomers to establish a novel system for culturing neurons on a scaffold with
-an elastic modulus resembling brain tissue, and investigated the effect of the
-scaffold's elasticity on network activity patterns in cultured rat cortical
-neurons. Using whole-cell patch clamp to assess the scaffold effect on the
-development of synaptic connections, we found that the amplitude of excitatory
-postsynaptic current, as well as the frequency of spontaneous transmissions,
-was reduced in neuronal networks grown on an ultrasoft PDMS with an elastic
-modulus of 0.5 kPa. Furthermore, the ultrasoft scaffold was found to suppress
-neural correlations in the spontaneous activity of the cultured neuronal
-network. The dose of GsMTx-4, an antagonist of stretch-activated cation
-channels (SACs), required to reduce the generation of the events below 1.0
-event/min on PDMS substrates was lower than that for neurons on a glass
-substrate. This suggests that the difference in the baseline level of SAC
-activation is a molecular mechanism underlying the alteration in neuronal
-network activity depending on scaffold stiffness. Our results demonstrate the
-potential application of PDMS with biomimetic elasticity as cell-culture
-scaffold for bridging the in vivo-in vitro gap in neuronal systems.
-&lt;/p&gt;</description>
-	<pubDate>Thu, 12 Dec 2019 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
 </item>
 <item>
 	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: A Novel Microtubule-Binding Drug Attenuates and Reverses Protein Aggregation in Animal Models of Alzheimer’s Disease</title>
@@ -3782,14 +3814,6 @@ scaffold for bridging the in vivo-in vitro gap in neuronal systems.
 	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnana.2019.00096</guid>
 	<link>https://www.frontiersin.org/articles/10.3389/fnana.2019.00096</link>
 	<description>&lt;p&gt;There has been a surge of interest in the structure and function of the mammalian claustrum in recent years. However, most anatomical and physiological studies treat the claustrum as a relatively homogenous structure. Relatively little attention has been directed toward possible compartmentalization of the claustrum complex into anatomical subdivisions, and how this compartmentalization is reflected in claustrum connections with other brain structures. In this study, we examined the cyto- and myelo-architecture of the claustrum of the common marmoset (Callithrix jacchus), to determine whether the claustrum contains internal anatomical structures or compartments, which could facilitate studies focused on understanding its role in brain function. NeuN, Nissl, calbindin, parvalbumin, and myelin-stained sections from eight adult marmosets were studied using light microscopy and serial reconstruction to identify potential internal compartments. Ultra high resolution (9.4T) post-mortem magnetic resonance imaging was employed to identify tractographic differences between identified claustrum subcompartments by diffusion-weighted tractography. Our results indicate that the classically defined marmoset claustrum includes at least two major subdivisions, which correspond to the dorsal endopiriform and insular claustrum nuclei, as described in other species, and that the dorsal endopiriform nucleus (DEnD) contains architecturally distinct compartments. Furthermore, the dorsal subdivision of the DEnD is tractographically distinguishable from the insular claustrum with respect to cortical connections.&lt;/p&gt;</description>
-	<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/neuroanatomy/rss">Frontiers in Neuroanatomy | New and Recent Articles</source>
-</item>
-<item>
-	<title>Frontiers in Neuroanatomy | New and Recent Articles: Transcriptomic Characterization of the Human Insular Cortex and Claustrum</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnana.2019.00094</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fnana.2019.00094</link>
-	<description>&lt;p&gt;The insular cortex has been linked to a multitude of functions. In contrast, the nearby claustrum is a densely connected subcortical region with unclear function. To view the insula-claustrum region from the molecular perspective we analyzed the transcriptomic profile of these areas in six adult and four fetal human brains. We identified marker genes with specific expression and performed transcriptome-wide tests for enrichment of biological processes, molecular functions, and cellular components. In addition, specific insular and claustral expression of genes pertaining to diseases, addiction, and depression was tested. At the anatomical level, we used brain-wide analyses to determine the specificity of our results and to determine the transcriptomic similarity of the insula-claustrum region. We found UCMA to be the most significantly enriched gene in the insular cortex and confirmed specific expression of NR4A2, NTNG2, and LXN in the claustrum. Furthermore, the insula was found to have enriched expression of genes associated with mood disorders, learning, cardiac muscle contraction, oxygen transport, glutamate and dopamine signaling. Specific expression in the claustrum was enriched for genes pertaining to human immunodeficiency virus (HIV), severe intellectual disability, epileptic encephalopathy, intracellular transport, spine development, and macroautophagy. We tested for enrichment of genes related to addiction and depression, but they were generally not highly specific to the insula-claustrum region. Exceptions include high insular expression of genes linked to cocaine abuse and genes associated with ever smoking in the claustrum. Brain-wide, we find that markers of the adult claustrum are most specifically expressed in the fetal and adult insula. Altogether, our results provide a novel molecular perspective on the unique properties of the insula and claustrum.&lt;/p&gt;</description>
 	<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
   <source url="http://journal.frontiersin.org/journal/neuroanatomy/rss">Frontiers in Neuroanatomy | New and Recent Articles</source>
 </item>
