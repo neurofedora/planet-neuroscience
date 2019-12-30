@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://arxiv.org/abs/1912.12093" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1912.12047" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/1912.11494" />
 			<rdf:li rdf:resource="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0546-0" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/2019.12.28.890012v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/2019.12.28.890004v1?rss=1" />
@@ -208,8 +211,6 @@
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25661?af=R" />
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25662?af=R" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1912.07567" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1912.06690" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1912.06686" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41593-019-0553-6" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41583-019-0258-6" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsys.2019.00076" />
@@ -240,7 +241,6 @@
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnana.2019.00098" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnagi.2019.00352" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnagi.2019.00350" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1912.06615" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41593-019-0563-4" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41593-019-0557-2" />
 			<rdf:li rdf:resource="https://www.nature.com/articles/s41593-019-0556-3" />
@@ -419,6 +419,75 @@
 	</items>
 </channel>
 
+<item rdf:about="http://arxiv.org/abs/1912.12093">
+	<title>q-bio.NC updates on arXiv.org: Information Flow in Color Appearance Neural Networks. (arXiv:1912.12093v1 [q-bio.NC])</title>
+	<link>http://arxiv.org/abs/1912.12093</link>
+	<content:encoded>&lt;p&gt;Color Appearance Models are biological networks that consist of a cascade of
+linear+nonlinear layers that modify the linear measurements at the retinal
+photo-receptors leading to an internal (nonlinear) representation of color that
+correlates with psychophysical experience. The basic layers of these networks
+include: (1) chromatic adaptation (normalization of the mean and covariance of
+the color manifold), (2) change to opponent color channels (PCA-like rotation
+in the color space), and (3) saturating nonlinearities to get perceptually
+Euclidean color representations (similar to dimensionwise equalization). The
+Efficient Coding Hypothesis argues that these transforms should emerge from
+information-theoretic goals. In case this hypothesis holds in color vision, the
+question is, what is the coding gain due to the different layers of the color
+appearance networks?
+&lt;/p&gt;
+&lt;p&gt;In this work, a representative family of Color Appearance Models is analyzed
+in terms of how the redundancy among the chromatic components is modified along
+the network and how much information is transferred from the input data to the
+noisy response. The proposed analysis is done using data and methods that were
+not available before: (1) new colorimetrically calibrated scenes in different
+CIE illuminations for proper evaluation of chromatic adaptation, and (2) new
+statistical tools to estimate (multivariate) information-theoretic quantities
+between multidimensional sets based on Gaussianization. Results confirm that
+the Efficient Coding Hypothesis holds for current color vision models, and
+identify the psychophysical mechanisms critically responsible for gains in
+information transference: opponent channels and their nonlinear nature are more
+important than chromatic adaptation at the retina.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-12-30T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Malo_J/0/1/0/all/0/1">Jesus Malo</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1912.12047">
+	<title>q-bio.NC updates on arXiv.org: Structural plasticity on an accelerated analog neuromorphic hardware system. (arXiv:1912.12047v1 [q-bio.NC])</title>
+	<link>http://arxiv.org/abs/1912.12047</link>
+	<content:encoded>&lt;p&gt;In computational neuroscience, as well as in machine learning, neuromorphic
+devices promise an accelerated and scalable alternative to neural network
+simulations. Their neural connectivity and synaptic capacity depends on their
+specific design choices, but is always intrinsically limited. Here, we present
+a strategy to achieve structural plasticity that optimizes resource allocation
+under these constraints by constantly rewiring the pre- and postsynaptic
+partners while keeping the neuronal fan-in constant and the connectome sparse.
+In our implementation, the algorithm is executed on a custom embedded digital
+processor that accompanies a mixed-signal substrate consisting of spiking
+neurons and synapse circuits. We evaluated our proposed algorithm in a simple
+supervised learning scenario, showing its ability to optimize the network
+topology with respect to the nature of its training data, as well as its
+overall computational efficiency.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-12-30T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Billaudelle_S/0/1/0/all/0/1">Sebastian Billaudelle</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Cramer_B/0/1/0/all/0/1">Benjamin Cramer</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Petrovici_M/0/1/0/all/0/1">Mihai A. Petrovici</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Schreiber_K/0/1/0/all/0/1">Korbinian Schreiber</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Kappel_D/0/1/0/all/0/1">David Kappel</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Schemmel_J/0/1/0/all/0/1">Johannes Schemmel</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Meier_K/0/1/0/all/0/1">Karlheinz Meier</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/1912.11494">
+	<title>q-bio.NC updates on arXiv.org: Parallel optimization of fiber bundle segmentation for massive tractography datasets. (arXiv:1912.11494v1 [cs.DS])</title>
+	<link>http://arxiv.org/abs/1912.11494</link>
+	<content:encoded>&lt;p&gt;We present an optimized algorithm that performs automatic classification of
+white matter fibers based on a multi-subject bundle atlas. We implemented a
+parallel algorithm that improves upon its previous version in both execution
+time and memory usage. Our new version uses the local memory of each processor,
+which leads to a reduction in execution time. Hence, it allows the analysis of
+bigger subject and/or atlas datasets. As a result, the segmentation of a
+subject of 4,145,000 fibers is reduced from about 14 minutes in the previous
+version to about 6 minutes, yielding an acceleration of 2.34. In addition, the
+new algorithm reduces the memory consumption of the previous version by a
+factor of 0.79.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2019-12-30T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/cs/1/au:+Vazquez_A/0/1/0/all/0/1">Andrea V&#xe1;zquez</a>, <a href="http://arxiv.org/find/cs/1/au:+Lopez_Lopez_N/0/1/0/all/0/1">Narciso L&#xf3;pez-L&#xf3;pez</a>, <a href="http://arxiv.org/find/cs/1/au:+Labra_N/0/1/0/all/0/1">Nicole Labra</a>, <a href="http://arxiv.org/find/cs/1/au:+Figueroa_M/0/1/0/all/0/1">Miguel Figueroa</a>, <a href="http://arxiv.org/find/cs/1/au:+Poupon_C/0/1/0/all/0/1">Cyril Poupon</a>, <a href="http://arxiv.org/find/cs/1/au:+Mangin_J/0/1/0/all/0/1">Jean-Fran&#xe7;ois Mangin</a>, <a href="http://arxiv.org/find/cs/1/au:+Hernandez_C/0/1/0/all/0/1">Cecilia Hern&#xe1;ndez</a>, <a href="http://arxiv.org/find/cs/1/au:+Guevara_P/0/1/0/all/0/1">Pamela Guevara</a></dc:creator>
+</item>
 <item rdf:about="https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0546-0">
 	<title>Most Recent Articles: BMC Neuroscience: The Bdnf and Npas4 genes are targets of HDAC3-mediated transcriptional repression</title>
 	<link>https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-019-0546-0</link>
@@ -2347,55 +2416,6 @@ information about the underlying tissue histology.
 	<dc:date>2019-12-17T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Bobholz_S/0/1/0/all/0/1">Samuel Bobholz</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Lowman_A/0/1/0/all/0/1">Allison Lowman</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Barrington_A/0/1/0/all/0/1">Alexander Barrington</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Brehler_M/0/1/0/all/0/1">Michael Brehler</a>, <a href="http://arxiv.org/find/q-bio/1/au:+McGarry_S/0/1/0/all/0/1">Sean McGarry</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Cochran_E/0/1/0/all/0/1">Elizabeth J. Cochran</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Connelly_J/0/1/0/all/0/1">Jennifer Connelly</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Mueller_W/0/1/0/all/0/1">Wade M. Mueller</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Agarwal_M/0/1/0/all/0/1">Mohit Agarwal</a>, <a href="http://arxiv.org/find/q-bio/1/au:+ONeill_D/0/1/0/all/0/1">Darren O&#x27;Neill</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Banerjee_A/0/1/0/all/0/1">Anjishnu Banerjee</a>, <a href="http://arxiv.org/find/q-bio/1/au:+LaViolette_P/0/1/0/all/0/1">Peter S. LaViolette</a></dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1912.06690">
-	<title>q-bio.NC updates on arXiv.org: Control of excitable systems is optimal near criticality. (arXiv:1912.06690v1 [q-bio.NC])</title>
-	<link>http://arxiv.org/abs/1912.06690</link>
-	<content:encoded>&lt;p&gt;Experiments suggest that cerebral cortex gains several functional advantages
-by operating in a dynamical regime near the critical point of a phase
-transition. However, a long-standing criticism of this hypothesis is that
-critical dynamics are rather noisy, which might be detrimental to aspects of
-brain function that require precision. If the cortex does operate near
-criticality, how might it mitigate the noisy fluctuations? One possibility is
-that other parts of the brain may act to control the fluctuations and reduce
-cortical noise. To better understand this possibility, here we numerically and
-analytically study a network of binary neurons. We determine how efficacy of
-controlling the population firing rate depends on proximity to criticality as
-well as different structural properties of the network. We found that control
-is most effective - errors are minimal for the widest range of target firing
-rates - near criticality. Optimal control is slightly away from criticality for
-networks with heterogeneous degree distributions. Thus, while criticality is
-the noisiest dynamical regime, it is also the regime that is easiest to
-control, which may offer a way to mitigate the noise.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-12-17T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Finlinson_K/0/1/0/all/0/1">Kathleen Finlinson</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Shew_W/0/1/0/all/0/1">Woodrow L. Shew</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Larremore_D/0/1/0/all/0/1">Daniel B. Larremore</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Restrepo_J/0/1/0/all/0/1">Juan G. Restrepo</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1912.06686">
-	<title>q-bio.NC updates on arXiv.org: Systematic Overestimation of Machine Learning Performance in Neuroimaging Studies of Depression. (arXiv:1912.06686v1 [q-bio.NC])</title>
-	<link>http://arxiv.org/abs/1912.06686</link>
-	<content:encoded>&lt;p&gt;We currently observe a disconcerting phenomenon in machine learning studies
-in psychiatry: While we would expect larger samples to yield better results due
-to the availability of more data, larger machine learning studies consistently
-show much weaker performance than the numerous small-scale studies. Here, we
-systematically investigated this effect focusing on one of the most heavily
-studied questions in the field, namely the classification of patients suffering
-from Major Depressive Disorder (MDD) and healthy controls. Drawing upon a
-balanced sample of $N = 1,868$ MDD patients and healthy controls from our
-recent international Predictive Analytics Competition (PAC), we first trained
-and tested a classification model on the full dataset which yielded an accuracy
-of 61%. Next, we mimicked the process by which researchers would draw samples
-of various sizes ($N=4$ to $N=150$) from the population and showed a strong
-risk of overestimation. Specifically, for small sample sizes ($N=20$), we
-observe accuracies of up to 95%. For medium sample sizes ($N=100$) accuracies
-up to 75% were found. Importantly, further investigation showed that
-sufficiently large test sets effectively protect against performance
-overestimation whereas larger datasets per se do not. While these results
-question the validity of a substantial part of the current literature, we
-outline the relatively low-cost remedy of larger test sets.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-12-17T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Flint_C/0/1/0/all/0/1">Claas Flint</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Cearns_M/0/1/0/all/0/1">Micah Cearns</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Opel_N/0/1/0/all/0/1">Nils Opel</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Redlich_R/0/1/0/all/0/1">Ronny Redlich</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Mehler_D/0/1/0/all/0/1">David M. A. Mehler</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Emden_D/0/1/0/all/0/1">Daniel Emden</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Winter_N/0/1/0/all/0/1">Nils R. Winter</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Leenings_R/0/1/0/all/0/1">Ramona Leenings</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Eickhoff_S/0/1/0/all/0/1">Simon B. Eickhoff</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Kircher_T/0/1/0/all/0/1">Tilo Kircher</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Krug_A/0/1/0/all/0/1">Axel Krug</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Nenadic_I/0/1/0/all/0/1">Igor Nenadic</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Arolt_V/0/1/0/all/0/1">Volker Arolt</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Clark_S/0/1/0/all/0/1">Scott Clark</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Baune_B/0/1/0/all/0/1">Bernhard T. Baune</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Jiang_X/0/1/0/all/0/1">Xiaoyi Jiang</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Dannlowski_U/0/1/0/all/0/1">Udo Dannlowski</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Hahn_T/0/1/0/all/0/1">Tim Hahn</a></dc:creator>
-</item>
 <item rdf:about="https://www.nature.com/articles/s41593-019-0553-6">
 	<title>Nature Neuroscience - Issue - nature.com science feeds: Publisher Correction: Common brain disorders are associated with heritable patterns of apparent aging of the brain</title>
 	<link>http://feeds.nature.com/~r/neuro/rss/current/~3/Q8voAohKuIg/s41593-019-0553-6</link>
@@ -2603,28 +2623,6 @@ outline the relatively low-cost remedy of larger test sets.
 	<content:encoded>&lt;p&gt;Background: The National Institute on Aging-Alzheimer’s Association (NIA-AA) has proposed a biological definition of Alzheimer’s disease (AD): individuals with both abnormal amyloid and tau biomarkers (A+T+) would be defined as AD. It remains unclear why different cognitive status is present in subjects with biological AD. Resting-state functional magnetic resonance imaging (rsfMRI) has provided an opportunity to reveal the brain activity patterns in a biologically-defined AD cohort. Accordingly, we aimed to investigate distinct brain activity patterns in subjects with existed AD pathology but in the different cognitive stages.&lt;/p&gt;&lt;p&gt;Method: We selected individuals with AD pathology (A+T+) and healthy controls (HC, A−T−) based on the cerebrospinal fluid (CSF) biomarkers. According to the cognitive stage, we divided the A+T+ cohort into three groups: (1) preclinical AD; (2) prodromal AD; and (3) AD with dementia (d-AD). We compared spontaneous brain activity measured by a fractional amplitude of low-frequency fluctuation (fALFF) approach among four groups.&lt;/p&gt;&lt;p&gt;Results: The analysis of covariance (ANCOVA) results showed significant differences in fALFF in the posterior cingulate cortex/precuneus (PCC/PCu). Further, compared to HC, we found increased fALFF values in the right inferior frontal gyrus (IFG) in the preclinical AD stage, whereas prodromal AD patients showed reduced fALFF in the bilateral precuneus, right middle frontal gyrus (MFG), right precentral gyrus, and postcentral gyrus. Within the d-AD group, both hyperactivity (right fusiform gyrus, right parahippocampal gyrus (PHG)/hippocampus, and inferior temporal gyrus) and hypoactivity (bilateral precuneus, left posterior cingulate cortex, left cuneus and superior occipital gyrus) were detected.&lt;/p&gt;&lt;p&gt;Conclusion: We found the distinct brain activity patterns in different cognitive stages among the subjects defined as AD biologically. Our findings may be helpful in understanding mechanisms leading to cognitive changes in the AD pathophysiological process.&lt;/p&gt;</content:encoded>
 	<dc:date>2019-12-17T00:00:00+00:00</dc:date>
 	<dc:creator>Qingze Zeng</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/1912.06615">
-	<title>q-bio.NC updates on arXiv.org: Lessons from reinforcement learning for biological representations of space. (arXiv:1912.06615v1 [q-bio.NC])</title>
-	<link>http://arxiv.org/abs/1912.06615</link>
-	<content:encoded>&lt;p&gt;Neuroscientists postulate 3D representations in the brain in a variety of
-different coordinate frames (e.g. 'head-centred', 'hand-centred' and
-'world-based'). Recent advances in reinforcement learning demonstrate a quite
-different approach that may provide a more promising model for biological
-representations underlying spatial perception and navigation. In this paper, we
-focus on reinforcement learning methods that reward an agent for arriving at a
-target image without any attempt to build up a 3D 'map'. We test the ability of
-this type of representation to support geometrically consistent spatial tasks,
-such as interpolating between learned locations, and compare its performance to
-that of a hand-crafted representation which has, by design, a high degree of
-geometric consistency. Our comparison of these two models demonstrates that it
-is advantageous to include information about the persistence of features as the
-camera translates (e.g. distant features persist). It is likely that
-non-Cartesian representations of this sort will be increasingly important in
-the search for robust models of human spatial perception and navigation.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2019-12-16T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Muryy_A/0/1/0/all/0/1">Alex Muryy</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Siddharth_N/0/1/0/all/0/1">N. Siddharth</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Nardelli_N/0/1/0/all/0/1">Nantas Nardelli</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Glennerster_A/0/1/0/all/0/1">Andrew Glennerster</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Torr_P/0/1/0/all/0/1">Philip H. S. Torr</a></dc:creator>
 </item>
 <item rdf:about="https://www.nature.com/articles/s41593-019-0563-4">
 	<title>Nature Neuroscience - Issue - nature.com science feeds: Dopamine fuels its own release</title>
