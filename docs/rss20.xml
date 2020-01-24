@@ -9,6 +9,223 @@
 	<atom:link rel="self" href="https://sanjayankur31.github.io/planet-neuroscience/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>q-bio.NC updates on arXiv.org: Modeling state-transition dynamics in brain signals by memoryless Gaussian mixtures. (arXiv:2001.08369v1 [q-bio.NC])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2001.08369</guid>
+	<link>http://arxiv.org/abs/2001.08369</link>
+	<description>&lt;p&gt;Recent studies have proposed that one can summarize brain activity into
+dynamics among a relatively small number of hidden states and that such an
+approach is a promising tool for revealing brain function. Hidden Markov models
+(HMMs) are a prevalent approach to inferring dynamics among discrete states in
+neural data. However, the validity of modeling neural time series data with
+HMMs has not been established. Here, to address this situation and examine the
+performance of the HMM, we compare it with the Gaussian mixture model (GMM),
+which is a statistically simpler model than the HMM with no assumption of
+Markovianity. We do so by applying both models to synthetic and empirical
+resting-state functional magnetic resonance imaging (fMRI) data. We find that
+the GMM allows us to interpret the sequence of the estimated hidden states as a
+time series obeying some patterns. We show that GMMs are often better than HMMs
+in terms of the accuracy and consistency of estimating the time course of the
+hidden state. These results suggest that GMMs can be a model of first choice
+for investigating hidden-state dynamics in data even if the time series is
+apparently not memoryless.
+&lt;/p&gt;</description>
+	<pubDate>Fri, 24 Jan 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
+</item>
+<item>
+	<title>q-bio.NC updates on arXiv.org: Towards naturalistic human neuroscience and neuroengineering: behavior mining in long-term video and neural recordings. (arXiv:2001.08349v1 [q-bio.NC])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2001.08349</guid>
+	<link>http://arxiv.org/abs/2001.08349</link>
+	<description>&lt;p&gt;Recent advances in brain recording technology and artificial intelligence are
+propelling a new paradigm in neuroscience beyond the traditional controlled
+experiment. Naturalistic neuroscience studies neural computations associated
+with spontaneous behaviors performed in unconstrained settings. Analyzing such
+unstructured data lacking a priori experimental design remains a significant
+challenge, especially when the data is multi-modal and long-term. Here we
+describe an automated approach for analyzing large ($\approx$250 GB/subject)
+datasets of simultaneously recorded human electrocorticography (ECoG) and
+naturalistic behavior video data for 12 subjects. Our pipeline discovers and
+annotates thousands of instances of human upper-limb movement events in
+long-term (7--9 day) naturalistic behavior data using a combination of computer
+vision, discrete latent-variable modeling, and string pattern-matching.
+Analysis of the simultaneously recorded brain data uncovers neural signatures
+of movement that corroborate prior findings from traditional controlled
+experiments. We also prototype a decoder for a movement initiation detection
+task to demonstrate the efficacy of our pipeline as a source of training data
+for brain-computer interfacing applications. We plan to publish our curated
+dataset, which captures naturalistic neural and behavioral variability at a
+scale not previously available. We believe this data will enable further
+research on models of neural function and decoding that incorporate such
+naturalistic variability and perform more robustly in real-world settings.
+&lt;/p&gt;</description>
+	<pubDate>Fri, 24 Jan 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
+</item>
+<item>
+	<title>q-bio.NC updates on arXiv.org: Unsupervised learning of control signals and their encodings in $\textit{C. elegans}$ whole-brain recordings. (arXiv:2001.08346v1 [q-bio.QM])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2001.08346</guid>
+	<link>http://arxiv.org/abs/2001.08346</link>
+	<description>&lt;p&gt;Recent whole brain imaging experiments on $\textit{C. elegans}$ has revealed
+that the neural population dynamics encode motor commands and stereotyped
+transitions between behaviors on low dimensional manifolds. Efforts to
+characterize the dynamics on this manifold have used piecewise linear models to
+describe the entire state space, but it is unknown how a single, global
+dynamical model can generate the observed dynamics. Here, we propose a control
+framework to achieve such a global model of the dynamics, whereby underlying
+linear dynamics is actuated by sparse control signals. This method learns the
+control signals in an unsupervised way from data, then uses $\textit{ Dynamic
+Mode Decomposition with control}$ (DMDc) to create the first global, linear
+dynamical system that can reconstruct whole-brain imaging data. These control
+signals are shown to be implicated in transitions between behaviors. In
+addition, we analyze the time-delay encoding of these control signals, showing
+that these transitions can be predicted from neurons previously implicated in
+behavioral transitions, but also additional neurons previously unidentified.
+Moreover, our decomposition method allows one to understand the observed
+nonlinear global dynamics instead as linear dynamics with control. The proposed
+mathematical framework is generic and can be generalized to other neurosensory
+systems, potentially revealing transitions and their encodings in a completely
+unsupervised way.
+&lt;/p&gt;</description>
+	<pubDate>Fri, 24 Jan 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
+</item>
+<item>
+	<title>q-bio.NC updates on arXiv.org: Nonlinear control in the nematode C. elegans. (arXiv:2001.08332v1 [q-bio.NC])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2001.08332</guid>
+	<link>http://arxiv.org/abs/2001.08332</link>
+	<description>&lt;p&gt;Recent whole-brain calcium imaging recordings of the nematode C. elegans have
+demonstrated that neural activity is dominated by dynamics on a low-dimensional
+manifold that can be clustered according to behavioral states. Despite progress
+in modeling the dynamics with linear or locally linear models, it remains
+unclear how a single network of neurons can produce the observed features. In
+particular, there are multiple clusters, or fixed points, observed in the data
+which cannot be characterized by a single linear model. We propose a nonlinear
+control model which is global and parameterized by only four free parameters
+that match the features displayed by the low-dimensional C. elegans neural
+activity. In addition to reproducing the average probability distribution of
+the data, long and short time-scale changes in transition statistics can be
+characterized via changes in a single parameter. Some of these macro-scale
+transitions have experimental correlates to single neuro-modulators that seem
+to act as biological controls, allowing this model to generate testable
+hypotheses about the effect of these neuro-modulators on the global dynamics.
+The theory provides an elegant characterization of the neuron population
+dynamics in C. elegans. Moreover, the mathematical structure of the nonlinear
+control framework provides a paradigm that can be generalized to more complex
+systems with an arbitrary number of behavioral states.
+&lt;/p&gt;</description>
+	<pubDate>Fri, 24 Jan 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
+</item>
+<item>
+	<title>q-bio.NC updates on arXiv.org: An O(n) method of calculating Kendall correlations of spike trains. (arXiv:1806.02893v2 [q-bio.QM] UPDATED)</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/1806.02893</guid>
+	<link>http://arxiv.org/abs/1806.02893</link>
+	<description>&lt;p&gt;The ability to record from increasingly large numbers of neurons, and the
+increasing attention being paid to large scale neural network simulations,
+demands computationally fast algorithms to compute relevant statistical
+measures. We present an O(n) algorithm for calculating the Kendall correlation
+of spike trains, a correlation measure that is becoming especially recognized
+as an important tool in neuroscience. We show that our method is around 50
+times faster than the O (n ln n) method which is a current standard for quickly
+computing the Kendall correlation. In addition to providing a faster algorithm,
+we emphasize the role that taking the specific nature of spike trains had on
+reducing the run time. We imagine that there are many other useful algorithms
+that can be even more significantly sped up when taking this into
+consideration. A MATLAB function executing the method described here has been
+made freely available on-line.
+&lt;/p&gt;</description>
+	<pubDate>Fri, 24 Jan 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
+</item>
+<item>
+	<title>Frontiers in Systems Neuroscience | New and Recent Articles: Plasticity in Limbic Regions at Early Time Points in Experimental Models of Tinnitus</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnsys.2019.00088</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnsys.2019.00088</link>
+	<description>&lt;p&gt;Tinnitus is one of the most prevalent auditory disorders worldwide, manifesting in both chronic and acute forms. The pathology of tinnitus has been mechanistically linked to induction of harmful neural plasticity stemming from traumatic noise exposure, exposure to ototoxic medications, input deprivation from age-related hearing loss, and in response to injuries or disorders damaging the conductive apparatus of the ears, the cochlear hair cells, the ganglionic cells of the VIIIth cranial nerve, or neurons of the classical auditory pathway which link the cochlear nuclei through the inferior colliculi and medial geniculate nuclei to auditory cortices. Research attempting to more specifically characterize the neural plasticity occurring in tinnitus have used a wide range of techniques, experimental paradigms, and sampled at different windows of time to reach different conclusions about why and which specific brain regions are crucial in the induction or ongoing maintenance of tinnitus-related plasticity. Despite differences in experimental methodologies, evidence reveals similar findings that strongly suggest that immediate and prolonged activation of non-classical auditory structures (i.e., amygdala, hippocampus, and cingulate cortex) may contribute to the initiation and development of tinnitus in addition to the ongoing maintenance of this devastating condition. The overarching focus of this review, therefore, is to highlight findings from the field supporting the hypothesis that abnormal early activation of non-classical sensory limbic regions are involved in tinnitus induction, with activation of these regions continuing to occur at different temporal stages. Since initial/early stages of tinnitus are difficult to control and to quantify in human clinical populations, a number of different animal paradigms have been developed and assessed in experimental investigations. Reviews of traumatic noise exposure and ototoxic doses of sodium salicylate, the most prevalently used animal models to induce experimental tinnitus, indicate early limbic system plasticity (within hours, minutes, or days after initial insult), supports subsequent plasticity in other auditory regions, and contributes to the pathophysiology of tinnitus. Understanding this early plasticity presents additional opportunities for intervention to reduce or eliminate tinnitus from the human condition.&lt;/p&gt;</description>
+	<pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/systems-neuroscience/rss">Frontiers in Systems Neuroscience | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Regulator of G-Protein Signaling (RGS) Protein Modulation of Opioid Receptor Signaling as a Potential Target for Pain Management</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnmol.2020.00005</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnmol.2020.00005</link>
+	<description>&lt;p&gt;Opioid drugs are the gold standard for the management of pain, but their use is severely limited by dangerous and unpleasant side effects. All clinically available opioid analgesics bind to and activate the mu-opioid receptor (MOR), a heterotrimeric G-protein-coupled receptor, to produce analgesia. The activity of these receptors is modulated by a family of intracellular RGS proteins or regulators of G-protein signaling proteins, characterized by the presence of a conserved RGS Homology (RH) domain. These proteins act as negative regulators of G-protein signaling by serving as GTPase accelerating proteins or GAPS to switch off signaling by both the Gα and βγ subunits of heterotrimeric G-proteins. Consequently, knockdown or knockout of RGS protein activity enhances signaling downstream of MOR. In this review we discuss current knowledge of how this activity, across the different families of RGS proteins, modulates MOR activity, as well as activity of other members of the opioid receptor family, and so pain and analgesia in animal models, with particular emphasis on RGS4 and RGS9 families. We discuss inhibition of RGS proteins with small molecule inhibitors that bind to sensitive cysteine moieties in the RH domain and the potential for targeting this family of intracellular proteins as adjuncts to provide an opioid sparing effect or as standalone analgesics by promoting the activity of endogenous opioid peptides. Overall, we conclude that RGS proteins may be a novel drug target to provide analgesia with reduced opioid-like side effects, but that much basic work is needed to define the roles for specific RGS proteins, particularly in chronic pain, as well as a need to develop newer inhibitors.&lt;/p&gt;</description>
+	<pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/molecular-neuroscience/rss">Frontiers in Molecular Neuroscience | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Herpes Simplex Virus 1-Induced Blood-Brain Barrier Damage Involves Apoptosis Associated With GM130-Mediated Golgi Stress</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnmol.2020.00002</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnmol.2020.00002</link>
+	<description>&lt;p&gt;Herpes simplex encephalitis (HSE) caused by herpes simplex virus 1 (HSV-1) infection can lead to a high mortality rate and severe neurological sequelae. The destruction of the blood-brain barrier (BBB) is an important pathological mechanism for the development of HSE. However, the specific mechanism underlying the BBB destruction remains unclear. Our previous study found that the Golgi apparatus (GA) plays a crucial role in maintaining the integrity of the BBB. Therefore, this present study aimed to investigate the role of the GA in the destruction of the BBB and its underlying mechanisms. Mouse brain endothelial cells (Bend.3) were cultured to establish a BBB model in vitro, and then infected with HSV-1. The results showed that HSV-1 infection caused downregulation of the Golgi-associated protein GM130, accompanied by Golgi fragmentation, cell apoptosis, and downregulation of tight junction proteins occludin and claudin 5. Knockdown of GM130 with small interfering RNA in uninfected Bend.3 cells triggered Golgi fragmentation, apoptosis, and downregulation of occludin and claudin 5. However, overexpression of GM130 in HSV-1 infected Bend.3 cells by transient transfection partially attenuated the aforementioned damage caused by HSV-1 infection. When the pan-caspase inhibitor Z-VAD-fmk was used after HSV-1 infection to inhibit apoptosis, the protein levels of GM130, occludin and claudin 5 were partially restored. Taken together, these observations indicate that HSV-1 infection of Bend.3 cells triggers a GM130-mediated Golgi stress response that is involved in apoptosis, which in turn results in downregulation of occludin and claudin 5 protein levels. Meanwhile, GM130 downregulation is partially due to apoptosis triggered by HSV-1 infection. Our findings reveal an association between the GA and the BBB during HSV-1 infection and identify potentially novel targets for protecting the BBB and therapeutic approaches for patients with HSE.&lt;/p&gt;</description>
+	<pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/molecular-neuroscience/rss">Frontiers in Molecular Neuroscience | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Low and High Molecular Weight FGF-2 Have Differential Effects on Astrocyte Proliferation, but Are Both Protective Against Aβ-Induced Cytotoxicity</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnmol.2019.00328</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnmol.2019.00328</link>
+	<description>&lt;p&gt;Astrocytes are the most abundant type of glial cells in the brain, and they play a key role in Alzheimer’s disease (AD). Fibroblast Growth Factor-2 (FGF-2) has been implicated as a potential therapeutic agent for treating AD. In the present study, we investigated the protective effects of low molecular weight (LMW; 17 KDa) and high molecular weight (HMW; 23 KDa) forms of FGF-2 on Aβ&lt;sub&gt;1–42&lt;/sub&gt;-induced toxicity, and proliferation in astrocytes. We show that both isoforms of FGF-2 have similar protective effects against Aβ&lt;sub&gt;1–42&lt;/sub&gt;-induced cytotoxicity in primary cultured cortical astrocytes as measured by Lactate Dehydrogenase (LDH) release assay. Additionally, 17 KDa FGF-2 significantly promoted astrocyte proliferation as measured by Trypan Blue, DRAQ5 and 5-ethynyl-2’-deoxyuridine (EdU) staining, but not 23 kDa FGF-2. Furthermore, our results demonstrated that AKT signaling pathway was required for the protective and proliferative effects of FGF-2. Downstream effector studies indicated that 17 kDa FGF-2 promoted astrocyte proliferation by enhanced expression of c-Myc, Cyclin D1, Cyclin E. Furthermore, our data suggested that Cyclin D1 was required for the proliferative effect of LMW FGF2 in astrocytes. Taken together, our findings provide important information for the similarities and differences between 23 kDa and17 kDa isoforms of FGF-2 on astrocyte survival and proliferation.&lt;/p&gt;</description>
+	<pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/molecular-neuroscience/rss">Frontiers in Molecular Neuroscience | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Neurogranin Regulates Metaplasticity</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnmol.2019.00322</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnmol.2019.00322</link>
+	<description>&lt;p&gt;Long-term potentiation (LTP) and long-term depression (LTD) are two major forms of synaptic plasticity that are widely accepted as cellular mechanisms involved in learning and memory. Metaplasticity is a process whereby modifications in synaptic processes shift the threshold for subsequent plasticity. While metaplasticity has been functionally observed, its molecular basis is not well understood. Here, we report that neurogranin (Ng) regulates metaplasticity by shifting the threshold toward potentiation, i.e., increasing Ng in hippocampal neurons lowers the threshold for LTP and augments the threshold for LTD. We also show that Ng does not change the ultrastructural localization of calmodulin (CaM)-dependent protein Kinase II (CaMKII) or calcineurin, critical enzymes for the induction of LTP and LTD, respectively. Interestingly, while CaMKII concentrates close to the plasma membrane, calcineurin concentrates away from the plasma membrane. These data, along with the previous observation showing Ng targets CaM closer to the plasma membrane, suggesting that shifting the localization of CaM within the dendritic spines and closer to the plasma membrane, where there is more CaMKII, may be favoring the activation of CaMKII vs. that of calcineurin. Thus, the regulation of CaM localization/targeting within dendritic spines by Ng may provide a mechanistic basis for the regulation of metaplasticity.&lt;/p&gt;</description>
+	<pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/molecular-neuroscience/rss">Frontiers in Molecular Neuroscience | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Spaced Training Enhances Contextual Fear Memory via Activating Hippocampal 5-HT2A Receptors</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnmol.2019.00317</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnmol.2019.00317</link>
+	<description>&lt;p&gt;Spaced training is robustly superior to massed training, which is a well-documented phenomenon in humans and animals. However, the mechanisms underlying the spacing effect still remain unclear. We have reported previously that spacing training exerts memory-enhancing effects by inhibiting forgetting via decreasing hippocampal Rac1 activity. Here, using contextual fear conditioning in rat, we found that spaced but not massed training increased hippocampal 5-HT2A receptors’ expression. Furthermore, hippocampal administration of 5-HT2A receptor antagonist MDL11939 before spaced training blocked the enhanced memory, while hippocampal administration of 5-HT2A receptor agonist TCB-2 before massed training promoted the memory. Moreover, MDL11939 activated hippocampal Rac1, while TCB-2 decreased hippocampal Rac1 activity in naïve rats. These results indicated the possibility of interaction between 5-HT2A receptors and Rac1, which was demonstrated by co-immunoprecipitation experiments. Our study first demonstrates that activation of hippocampal 5-HT2A is a mechanism underlying the spacing effect, and forgetting related molecular Rac1 is engaged in this process through interacting with 5-HT2A receptors, which suggest a promising strategy to modulate abnormal learning in cognitive disorders.&lt;/p&gt;</description>
+	<pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/molecular-neuroscience/rss">Frontiers in Molecular Neuroscience | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Integrative Neuroscience | New and Recent Articles: Afterdischarges of Spinal Interneurons Following a Brief High-Frequency Stimulation of Ia Afferents in the Cat</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnint.2019.00075</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnint.2019.00075</link>
+	<description>&lt;p&gt;Spinal motoneurons exhibit sustained afterdischarges and plateau potentials following a brief high-frequency stimulation of Ia afferents. Also, there is evidence that spinal cord interneurons exhibit plateau potentials. However, to our knowledge, there are no reports about the possible afterdischarge behavior of lumbar spinal interneurons activated by Ia afferents. Given that there are spinal interneurons receiving monosynaptic inputs from Ia afferents, these cells could then be activated in parallel to motoneurons after repetitive muscle stretch. We explored this possibility in cats with a precollicular-postmammillary decerebration. We found that a brief high-frequency stimulation of Ia afferents produces afterdischarges that are highly correlated to a DC slow potential recorded at the cord dorsum. We conclude that in the cat spinal cord, not only the motoneurons but also the interneurons from the superficial and deep dorsal horn produce sustained afterdischarges, thus highlighting the importance of interneurons in the spinal neuronal circuitry. The significance of our finding is that it opens the possibility that the spinal cord interneurons activated by Ia afferents could also exhibit bistability, a relevant phenomenon well-characterized in the motoneurons.&lt;/p&gt;</description>
+	<pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/integrative-neuroscience/rss">Frontiers in Integrative Neuroscience | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Neuroscience | Neural Technology section | New and Recent Articles: Efficacy of Self-Management Smartphone-Based Apps for Post-traumatic Stress Disorder Symptoms: A Systematic Review and Meta-Analysis</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnins.2020.00003</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnins.2020.00003</link>
+	<description>&lt;p&gt;Post-traumatic stress disorder (PTSD) symptoms are prevalent in both civilian and military service members. As the number of smartphone-based applications (apps) grows rapidly in health care, apps are also increasingly used to help individuals with subthreshold PTSD or full PTSD. Yet, if the apps are self-managed, the feasibility and efficacy of such interventions are still rather unclear in these two populations with PTSD symptoms. Hence, the present meta-analysis set out to evaluate the effect of self-management smartphone-based apps on PTSD and depressive symptoms in populations with subthreshold PTSD or full PTSD. Studies were included if they conducted randomized controlled trials or pre-post comparisons. Six studies (n = 2 randomized controlled trials) were identified for meta-analysis. In pre-post comparisons, N = 209 participants were included in the analyses. In randomized controlled trials, N = 87 participants received smartphone-based self-management interventions and N = 82 participants were in waitlist control conditions. Meta-analysis for pre-post comparisons concluded an effect of g = 0.55 (p &amp;lt; 0.001) regarding the overall reduction in PTSD symptoms (n = 6) and g = 0.45 (p &amp;lt; 0.001) for reduction in depressive symptoms (n = 5). Yet, in randomized controlled trials, no significant difference was found between app-based treatment and waitlist control groups (g = 0.09, p = 0.574). The duration of the interventions did not significantly influence the results. Overall, despite positive pre-post effects, current results indicate that smartphone-apps for PTSD patients are not significantly more effective than waitlist control conditions. Nevertheless, a combined smartphone and standard therapy approach may be a fruitful field for future research.&lt;/p&gt;</description>
+	<pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss">Frontiers in Neuroscience | Neural Technology section | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Human Neuroscience | New and Recent Articles: Saccade Latency Provides Evidence for Reduced Face Inversion Effects With Higher Autism Traits</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnhum.2019.00470</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnhum.2019.00470</link>
+	<description>&lt;p&gt;Individuals on the autism spectrum are reported to show impairments in the processing of social information, including aspects of eye-movements towards faces. Abnormalities in basic-level visual processing are also reported. In the current study, we sought to determine if the latency of saccades made towards social targets (faces) in a natural scene as opposed to inanimate targets (cars) would be related to sub-clinical autism traits (ATs) in individuals drawn from a neurotypical population. The effect of stimulus inversion was also examined given that difficulties with processing inverted faces are thought to be a function of face expertise. No group differences in saccadic latency were established for face or car targets, regardless of image orientation. However, as expected, we found that individuals with higher autism-like traits did not demonstrate a saccadic face inversion effect, but those with lower autism-like traits did. Neither group showed a car inversion effect. Thus, these results suggest that neurotypical individuals with high autism-like traits also show anomalies in detecting and orienting to faces. In particular, the reduced saccadic face inversion effect established in these participants with high ATs suggests that speed of visual processing and orienting towards faces may be associated with the social difficulties found across the broader autism spectrum.&lt;/p&gt;</description>
+	<pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/human-neuroscience/rss">Frontiers in Human Neuroscience | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Cellular Neuroscience | New and Recent Articles: The Epilepsy of Infancy With Migrating Focal Seizures: Identification of de novo Mutations of the KCNT2 Gene That Exert Inhibitory Effects on the Corresponding Heteromeric KNa1.1/KNa1.2 Potassium Channel</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fncel.2020.00001</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fncel.2020.00001</link>
+	<description>&lt;p&gt;The epilepsy of infancy with migrating focal seizures (EIMFS; previously called Malignant migrating partial seizures of infancy) are early-onset epileptic encephalopathies (EOEE) that associate multifocal ictal discharges and profound psychomotor retardation. EIMFS have a genetic origin and are mostly caused by de novo mutations in the KCNT1 gene, and much more rarely in the KCNT2 gene. KCNT1 and KCNT2 respectively encode the K&lt;sub&gt;Na&lt;/sub&gt;1.1 (Slack) and K&lt;sub&gt;Na&lt;/sub&gt;1.2 (Slick) subunits of the sodium-dependent voltage-gated potassium channel K&lt;sub&gt;Na&lt;/sub&gt;. Functional analyses of the corresponding mutant homomeric channels in vitro suggested gain-of-function effects. Here, we report two novel, de novo truncating mutations of KCNT2: one mutation is frameshift (p.L48Qfs43), is situated in the N-terminal domain, and was found in a patient with EOEE (possibly EIMFS); the other mutation is nonsense (p.K564*), is located in the C-terminal region, and was found in a typical EIMFS patient. Using whole-cell patch-clamp recordings, we have analyzed the functional consequences of those two novel KCNT2 mutations on reconstituted K&lt;sub&gt;Na&lt;/sub&gt;1.2 homomeric and K&lt;sub&gt;Na&lt;/sub&gt;1.1/K&lt;sub&gt;Na&lt;/sub&gt;1.2 heteromeric channels in transfected chinese hamster ovary (CHO) cells. We report that both mutations significantly impacted on K&lt;sub&gt;Na&lt;/sub&gt; function; notably, they decreased the global current density of heteromeric channels by ~25% (p.K564*) and ~55% (p.L48Qfs43). Overall our data emphasize the involvement of KCNT2 in EOEE and provide novel insights into the role of heteromeric K&lt;sub&gt;Na&lt;/sub&gt; channel in the severe KCNT2-related epileptic phenotypes. This may have important implications regarding the elaboration of future treatment.&lt;/p&gt;</description>
+	<pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/cellular-neuroscience/rss">Frontiers in Cellular Neuroscience | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Cellular Neuroscience | New and Recent Articles: The Y172 Monoclonal Antibody Against p-c-Jun (Ser63) Is a Marker of the Postsynaptic Compartment of C-Type Cholinergic Afferent Synapses on Motoneurons</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fncel.2019.00582</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fncel.2019.00582</link>
+	<description>&lt;p&gt;C-bouton-type cholinergic afferents exert an important function in controlling motoneuron (MN) excitability. During the immunocytochemical analysis of the role of c-Jun in MNs with a monoclonal (clone Y172) antibody against phospho (p)-c-Jun (serine [Ser]63), unexpected labeling was identified in the cell body cytoplasm. As predicted for c-Jun in adult spinal cord, very few, if any MNs exhibited nuclear immunoreactivity with the Y172 antibody; conversely, virtually all MNs displayed strong Y172 immunostaining in cytoplasmic structures scattered throughout the soma and proximal dendrites. The majority of these cytoplasmic Y172-positive profiles was closely associated with VAChT-positive C-boutons, but not with other types of nerve afferents contacting MNs. Ultrastructural analysis revealed that cytoplasmic Y172 immunostaining was selectively located at the subsurface cistern (SSC) of C-boutons and also in the inner areas of the endoplasmic reticulum (ER). We also described changes in cytoplasmic Y172 immunoreactivity in injured and degenerating MNs. Moreover, we noticed that MNs from NRG1 type III-overexpressing transgenic mice, which show abnormally expanded SSCs, exhibited an increase in the density and size of peripherally located Y172-positive profiles. A similar immunocytochemical pattern to that of the Y172 antibody in MNs was found with a polyclonal antibody against p-c-Jun (Ser63) but not with another polyclonal antibody that recognizes c-Jun phosphorylated at a different site. No differential band patterns were found by western blotting with any of the antibodies against c-Jun or p-c-Jun used in our study. In cultured MNs, Y172-positive oval profiles were distributed in the cell body and proximal dendrites. The in vitro lentiviral-based knockdown of c-Jun resulted in a dramatic decrease in nuclear Y172 immunostaining in MNs without any reduction in the density of cytoplasmic Y172-positive profiles, suggesting that the synaptic antigen recognized by the antibody corresponds to a C-bouton-specific protein other than p-c-Jun. Our results lay the foundation for further studies aimed at identifying this protein and determining its role in this particular type of synapse.&lt;/p&gt;</description>
+	<pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/cellular-neuroscience/rss">Frontiers in Cellular Neuroscience | New and Recent Articles</source>
+</item>
+<item>
 	<title>PLOS Computational Biology: New Articles: An educational guide for nanopore sequencing in the classroom</title>
 	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007314</guid>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/_KTMj8f9HUs/article</link>
@@ -17,6 +234,35 @@
 The last decade has witnessed a remarkable increase in our ability to measure genetic information. Advancements of sequencing technologies are challenging the existing methods of data storage and analysis. While methods to cope with the data deluge are progressing, many biologists have lagged behind due to the fast pace of computational advancements and tools available to address their scientific questions. Future generations of biologists must be more computationally aware and capable. This means they should be trained to give them the computational skills to keep pace with technological developments. Here, we propose a model that bridges experimental and bioinformatics concepts using the Oxford Nanopore Technologies (ONT) sequencing platform. We provide both a guide to begin to empower the new generation of educators, scientists, and students in performing long-read assembly of bacterial and bacteriophage genomes and a standalone virtual machine containing all the required software and learning materials for the course.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/_KTMj8f9HUs&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Thu, 23 Jan 2020 22:00:00 +0000</pubDate>
   <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
+	<title>RSS PAP: Direct comparison of odor responses of homologous glomeruli in the medial and lateral maps of the mouse olfactory bulb</title>
+	<guid isPermaLink="true">http://www.eneuro.org/cgi/content/short/ENEURO.0449-19.2020v1?rss=1</guid>
+	<link>http://www.eneuro.org/cgi/content/short/ENEURO.0449-19.2020v1?rss=1</link>
+	<description>Abstract&lt;p&gt;Olfactory sensory neurons expressing same-type odorant receptors typically project to a pair of glomeruli in the medial and lateral sides of the olfactory bulbs (OBs) in rodents. This multiple glomerular representation of homologous inputs is considered to have more important functional roles for odor information processing than the redundant backup system. However, a consensus idea is lacking and this hinders interpretation of the phenomenon. In addition, the shared and unique odorant response properties of the homologous glomeruli remain unclear because the majority of medial glomeruli are hidden in the septal OB, and thus it is difficult to directly compare them. Olfactory sensory neurons, which express trace amine-associated odorant receptors (TAARs), were recently identified that project to a pair of glomeruli uniquely located in the dorsal OB. In this study, we measured the odorant-induced calcium responses of homologous pairs of TAAR glomeruli simultaneously in anesthetized mice and directly compared their response patterns. We found that they exhibited similar temporal response patterns and could not find differences in onset latency, rise time, decay time, or response amplitude. However, the medial glomeruli had significantly larger respiration-locked calcium fluctuations than the lateral glomeruli. This trend was observed with/without odorant stimulation in postsynaptic neurons of GABAergic, dopaminergic, and mitral/tufted cells, but not in presynaptic olfactory sensory axon terminals. This indicates that, at least in these TAAR glomeruli, the medial rather than the lateral OB map enhances the respiration-locked rhythm and transfers this information to higher brain centers.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Significance Statement&lt;/b&gt; This study directly compared the odor-evoked responses in paired homologous glomeruli in medial and lateral maps in the mouse dorsal olfactory bulb using the &lt;i&gt;in vivo&lt;/i&gt; calcium imaging technique, which revealed that the response amplitude, onset latency, rising time, and decay time were not significantly different between medial and lateral homologous glomeruli. However, postsynaptic but not presynaptic neuronal activity in medial glomeruli had stronger respiratory-locked calcium fluctuations than lateral glomeruli. These differences were also observed in the resting condition without odor stimulation. The results suggest that the medial map neurons enhance respiratory-linked odor representation and transmit it to higher brain centers.&lt;/p&gt;</description>
+	<pubDate>Thu, 23 Jan 2020 17:30:08 +0000</pubDate>
+  <source url="http://www.eneuro.org/rss/ahead.xml">RSS PAP</source>
+</item>
+<item>
+	<title>Wiley: Annals of Neurology: Table of Contents: Classification Accuracy of Transcranial Magnetic Stimulation for the Diagnosis of Neurodegenerative Dementias</title>
+	<guid isPermaLink="false">/doi/abs/10.1002/ana.25677?af=R</guid>
+	<link>https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25677?af=R</link>
+	<description>&lt;h2&gt;Objective&lt;/h2&gt;
+&lt;p&gt;Transcranial magnetic stimulation (TMS) has been suggested as a reliable, noninvasive, and inexpensive tool for the diagnosis of neurodegenerative dementias. In this study, we assessed the classification performance of TMS parameters in the differential diagnosis of common neurodegenerative disorders, including Alzheimer disease (AD), dementia with Lewy bodies (DLB), and frontotemporal dementia (FTD).&lt;/p&gt;
+
+
+&lt;h2&gt;Methods&lt;/h2&gt;
+&lt;p&gt;We performed a multicenter study enrolling patients referred to 4 dementia centers in Italy, in accordance with the Standards for Reporting of Diagnostic Accuracy. All patients underwent TMS assessment at recruitment (index test), with application of reference clinical criteria, to predict different neurodegenerative disorders. The investigators who performed the index test were masked to the results of the reference test and all other investigations. We trained and tested a random forest classifier using 5‐fold cross‐validation. The primary outcome measures were the classification accuracy, precision, recall, and F1 score of TMS in differentiating each neurodegenerative disorder.&lt;/p&gt;
+
+
+&lt;h2&gt;Results&lt;/h2&gt;
+&lt;p&gt;A total of 694 participants were included, namely 273 patients diagnosed as AD, 67 as DLB, and 207 as FTD, and 147 healthy controls (HC). A series of 3 binary classifiers was employed, and the prediction model exhibited high classification accuracy (ranging from 0.89 to 0.92), high precision (0.86–0.92), high recall (0.93–0.98), and high F1 scores (0.89–0.95) in differentiating each neurodegenerative disorder.&lt;/p&gt;
+
+
+&lt;h2&gt;Interpretation&lt;/h2&gt;
+&lt;p&gt;TMS is a noninvasive procedure that reliably and selectively distinguishes AD, DLB, FTD, and HC, representing a useful additional screening tool to be used in clinical practice. ANN NEUROL 2020&lt;/p&gt;</description>
+	<pubDate>Thu, 23 Jan 2020 10:05:24 +0000</pubDate>
+  <source url="http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1531-8249">Wiley: Annals of Neurology: Table of Contents</source>
 </item>
 <item>
 	<title>q-bio.NC updates on arXiv.org: Natural selection finds natural gradient. (arXiv:2001.08028v1 [q-bio.NC])</title>
@@ -239,10 +485,90 @@ Conclusions: Our results do not confirm an association of CR and hippocampal GM 
   <source url="https://elifesciences.org">eLife: latest articles</source>
 </item>
 <item>
+	<title>bioRxiv Subject Collection: Neuroscience: Stereo-EEG reveals rich cortical dynamics in humans coping with difficult action discrimination.</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.23.916569v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.01.23.916569v1?rss=1</link>
+	<description>Visual perception of others' actions is important for social interactions, and the ability to do so, even when one gets only brief glimpses of others' behavior, may be crucial for survival. At present it is unknown how the human brain solves this problem. Imaging studies have promoted the idea that the multiple demand (MD) system, a domain general system of the human brain, operates in difficult cognitive and perceptual tasks, but not in tasks in which sensory information is reduced. Functional imaging, based on slow hemodynamic responses, may miss or standardize neural events with very diverse time courses. Here we exploited the temporal resolution of stereo-EEG to study directly cortical activity when human subjects must judge the actions of others, but only get brief glimpses of others' activity, because the videos were truncated. Multiple cortical regions increased their activity in the difficult action discrimination, relative to the easy task when the complete video was visible. The majority of these regions belonged to the MD system, being located in parietal or prefrontal cortex.  The variety of time courses, lasting from a few 100ms to several seconds, allowed us to disentangle control from effector regions, the latter processing observed actions. This distinction was further supported by relationships with behavior. A key operation within the control clusters was the prediction of erroneous responses, which was initiated in the PPC soon after the end of the truncated video. The time courses further suggested that MD regions not only exert control, but also perform various evaluations of the effort, important for efficient and intelligent behavior. We observed also increases outside the MD system, in temporo-parietal cortex, which may provide contextual information about variables related to the observed action, such as the actor, the object or the scene. Furthermore, to cope with the brief sensory input, the MD system called upon warning regions reacting to the static picture of the actor presented just before the video. We conclude that discrimination of brief observed actions indeed involves the MD system, which is thus is more general than assumed so far. WE also show that the MD system is more complex than assumed, as it includes evaluation of control, and more flexible, as it interacts with other systems than simply the effector circuit of the task.</description>
+	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: A probabilistic functional parcellation of human occipito-temporal cortex</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.22.916239v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.01.22.916239v1?rss=1</link>
+	<description>Ventral visual cortex can be divided into a variety of retinotopically as well as category-specific regions. These brain areas have been the focus of a large body of functional MRI research, significantly expanding our understanding of high-level visual processing. As studying these regions requires accurate localization of their cortical location, it is usually necessary to perform functional localizer runs on an individual subject level. These runs are costly in terms of scanning time and a participant's capacity level. Moreover, certain patient populations are unable to undergo such localizers, for instance the congenitally blind. In the current paper, we aimed to overcome these challenges by developing a functional atlas based on localizer- and visual field mapping data acquired in 20 healthy subjects. Single subject functional maps were aligned to both volume and surface group space, after which a probabilistic functional group atlas was created. We subsequently quantified the inter-subject variability of category-selective regions in visual cortex and the specificity of each atlas region - to our knowledge the first such analyses. Additionally, we validated our atlas against existing atlases of retinotopic as well as category-specific regions. The resulting functional atlas is made publicly available for a variety of software packages (https://share.brainvoyager.com/index.php/s/m2E9oZTGWwXodRk).</description>
+	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: N-3 polyunsaturated fatty acids promote astrocyte differentiation and neurotrophin production independent of cAMP in patient-derived neural stem cells</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.22.916130v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.01.22.916130v1?rss=1</link>
+	<description>Evidence from epidemiological and laboratory studies, as well as randomized placebo-controlled trials, suggests supplementation with n-3 polyunsaturated fatty acids (PUFAs) may be efficacious for treatment of major depressive disorder (MDD). The mechanisms underlying n-3 PUFAs potential therapeutic properties remain unknown. There are suggestions in the literature that glial hypofunction is associated with depressive symptoms and that antidepressants may normalize glial function. In this study, iPSC-derived neuronal stem cell lines were generated from individuals with MDD. Astrocytes differentiated from patient-derived neuronal stem cells (iNSCs) were verified by GFAP. Cells were treated with eicosapentaenoic acid (EPA), docosahexaenoic acid (DHA) and stearic acid (SA). During astrocyte differentiation, we found that n-3 PUFAs increased GFAP expression and GFAP positive cell formation. BDNF and GDNF production were increased in the astrocytes derived from patients subsequent to n-3 PUFA treatment. Stearic Acid (SA) treatment did not have this effect. CREB activity (phosphorylated CREB) was also increased by DHA and EPA but not by SA. Furthermore, when these astrocytes were treated with n-3 PUFAs, the cAMP antagonist, RP-cAMPs did not block n-3 PUFA CREB activation. However, the CREB specific inhibitor (666-15) diminished BDNF and GDNF production induced by n-3 PUFA, suggesting CREB dependence. Together, these 47 results suggested that n-3 PUFAs facilitate astrocyte differentiation, and may mimic effects of some antidepressants by increasing production of neurotrophic factors. The CREB-dependence and cAMP independence of this process suggests a manner in which n-3 PUFA could augment antidepressant effects. These data also suggest a role for astrocytes in both MDD and antidepressant action.</description>
+	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: A standardized head-fixation system for performing large-scale, in-vivo physiological recordings in mice</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.22.916007v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.01.22.916007v1?rss=1</link>
+	<description>The Allen Institute recently built a set of high-throughput experimental pipelines to collect comprehensive in vivo surveys of physiological activity in the visual cortex of awake, head-fixed mice. Developing these large-scale, industrial-like pipelines posed many scientific, operational, and engineering challenges. Here we describe our strategies for collecting standardized, multi-modal in vivo datasets across many instrumental platforms over long periods of time. Our goal of creating a cross-platform reference space to which all pipeline datasets were mapped required development of 1) a robust headframe, 2) a reproducible clamping system, and 3) data-collection systems that are built, and maintained, around precise alignment with a reference artifact. When paired with our pipeline clamping system, the Allen Brain Observatory headframe exceeded deflection and reproducibility requirements. All headframe, surgical tooling, and clamp design documentation have been made freely available as an open resource to the scientific community.</description>
+	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: Membrane-associated α-tubulin is less acetylated in postmortem prefrontal cortex from depressed subjects relative to controls: cytoskeletal dynamics, HDAC6 and depression</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.22.915991v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.01.22.915991v1?rss=1</link>
+	<description>Cytoskeletal proteins and post-translational modifications play a role in mood disorders. Posttranslational modifications of tubulin also alter microtubule dynamics. Furthermore, tubulin interacts closely with Gs, the G-protein responsible for activation of adenylyl cyclase. Postmortem tissue derived from depressed suicide brain showed increased Gs in lipid-raft domains compared to normal subjects. Gs, when ensconced in lipid-rafts, couples less effectively with adenylyl cyclase to produce cAMP and this is reversed by antidepressant treatment. A recent in-vitro study demonstrated that tubulin anchors Gs to lipid-rafts and that increased tubulin acetylation (due to HDAC-6 inhibition) and antidepressant treatment decreased the proportion of Gs complexed with tubulin. This suggested that deacetylated-tubulin might be more prevalent in depression. This study, examined tubulin acetylation in whole tissue homogenate, plasma-membrane and lipid-raft membrane domains in tissue from normal control (NC) subjects, depressed suicides and depressed non-suicides. While tissue homogenate showed no changes in tubulin acetylation between control, depressed suicides and depressed non-suicides, plasma-membrane associated tubulin showed significant decreases in acetylation in depressed suicides and depressed non-suicides compared to controls. No change was seen in expression of the enzymes responsible for tubulin acetylation or deacetylation. These data suggest that during depression, membrane localized tubulin maintains a lower acetylation state, permitting increased sequestration of Gs in lipid-raft domains, where it is less likely to couple to adenylyl cyclase for cAMP production. Thus, membrane tubulin may play a role in mood disorders which could be exploited for diagnosis and treatment.</description>
+	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: Bone morphogenetic protein 4 reduces global H3K4me3 to inhibit proliferation and promote differentiation of human neural stem cells</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.22.915934v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.01.22.915934v1?rss=1</link>
+	<description>Posttranslational modifications (PTMs) on histone tails spatiotemporally dictate mammalian neural stem cell (NSC) fate. Bone morphogenetic protein 4 (BMP4), a member of the transforming growth factor {beta} (TGF-{beta}) superfamily, suppresses NSC proliferation and fosters differentiation into astroglial cells. Whether PTMs mediate these effects of BMP4 is unknown. Here we demonstrate that BMP4 signaling causes a net reduction in cellular histone H3 lysine 4 trimethylation (H3K4me3), an active histone mark at promoters of genes associated with human NSC proliferation. We also show that H3K4me3 reduction by BMP4 is mediated by decreased expression of SETD1A and WDR82, two methyltransferase components of SETD1A-COMPASS. Down-regulation of these components decreases expression of key genes expressed in hNSCs, while ectopic expression via transfection dedifferentiates human astrocytes (HAs). These observations suggest that BMP4 influences NSC fate by regulating PTMs and altering chromatin structure.</description>
+	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: The entorhinal cortical alvear pathway differentially excites interneuron subtypes in hippocampal CA1</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.22.915876v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.01.22.915876v1?rss=1</link>
+	<description>The entorhinal cortex alvear pathway is a major excitatory input to hippocampal CA1, yet nothing is known about its physiological impact. We investigated the alvear pathway projection and innervation of neurons in CA1 using optogenetics and whole cell patch clamp methods in transgenic mouse brain slices. Using this approach, we show that the medial entorhinal cortical alvear inputs onto both CA1 pyramidal cells and stratum oriens interneurons were monosynaptic, had low release probability, and were mediated by AMPA receptors. Optogenetic theta burst stimulation was unable to elicit suprathreshold activation of CA1 pyramidal neurons but was capable of activating CA1 stratum oriens interneurons. CA1 stratum oriens interneuron subtypes were not equally affected. Higher burst action potential frequencies were observed in parvalbumin-expressing interneurons relative to vasoactive-intestinal peptide-expressing or a subset of oriens lacunosum-moleculare interneurons. Furthermore, alvear excitatory synaptic responses were observed in greater than 70% of PV and VIP interneurons and less than 20% of O-LM cells. Finally, greater than 50% of theta burst-driven inhibitory postsynaptic current amplitudes in CA1 PCs were inhibited by optogenetic suppression of PV interneurons. Therefore, our data suggest that the alvear pathway primarily affects hippocampal CA1 function through feedforward inhibition of select interneuron subtypes.</description>
+	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
 	<title>bioRxiv Subject Collection: Neuroscience: Neuroligin3 Splice Isoforms Shape Mouse Hippocampal Inhibitory Synaptic Function</title>
 	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.22.915801v1?rss=1</guid>
 	<link>http://biorxiv.org/cgi/content/short/2020.01.22.915801v1?rss=1</link>
 	<description>Synapse formation is a dynamic process essential for neuronal circuit development and maturation. At the synaptic cleft, trans-synaptic protein-protein interactions constitute major biological determinants of proper synapse efficacy. The balance of excitatory and inhibitory synaptic transmission (E-I balance) stabilizes synaptic activity. Dysregulation of the E-I balance has been implicated in neurodevelopmental disorders including autism spectrum disorders. However, the molecular mechanisms underlying E-I balance remain to be elucidated. Here, we investigate Neuroligin (Nlgn) genes that encode a family of postsynaptic adhesion molecules known to shape excitatory and inhibitory synaptic function. We demonstrate that Nlgn3 protein differentially regulates inhibitory synaptic transmission in a splice isoform-dependent manner at hippocampal CA1 synapses. Distinct subcellular localization patterns of Nlgn3 isoforms contribute to the functional differences observed among splice variants. Finally, single-cell sequencing analysis reveals that Nlgn1 and Nlgn3 are the major Nlgn genes and that expression of Nlgn splice isoforms are highly diverse in CA1 pyramidal neurons.</description>
+	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: Ketamine blocks the correlation between morphine-induced conditioned place preference and anxiety-like behaviors in mice.</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.22.915728v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.01.22.915728v1?rss=1</link>
+	<description>Patients suffering from opioid use disorder often relapse during periods of abstinence, which is posited to be caused by negative reinforcement driving motivated behaviors. Here, we explored whether opioid-seeking behaviors in mice were correlated with the negative affect of anxiety. To do this, we conditioned mice to associate a specific context with morphine, an opioid with strongly addictive properties, using a three compartment chamber. 24 h following five days of morphine (10 mg/kg, i.p.) conditioning, anxiety levels were tested by measuring time in the open arms of an elevated plus maze. The next day, mice were placed in the three compartment chamber to measure morphine-induced conditioned place preference (CPP). Our results show that following morphine conditioning, mice spent significantly less time in the open arm of the elevated plus maze, which was negatively correlated with the CPP score. Furthermore, we found that an acute treatment with (R,S)-ketamine (10 mg/kg, i.p.), a medication demonstrating promise for preventing anxiety-related phenotypes, 30 min. prior to testing on post conditioning day 1, increased time spent in the open arm of the elevated plus maze in morphine conditioned mice. Lastly, we found that a second injection of ketamine 30 min. prior to CPP tests on post conditioning day 2 attenuated morphine-induced CPP, which lasted for up to 28 d. Overall, our results suggest that morphine-induced CPP may be driven by negative reinforcement, which can be prevented by acute ketamine administration.</description>
+	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: Epigenetic gene-expression links heart failure to memory impairment</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.22.915637v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.01.22.915637v1?rss=1</link>
+	<description>In current clinical practice care of diseased patients is often restricted to separated disciplines. However, such an organ-centered approach is not always suitable. For example, cognitive dysfunction is a severe burden in heart failure patients. Moreover, these patients have an increased risk for age-associated dementias. The underlying molecular mechanisms are presently unknown and thus corresponding therapeutic strategies to improve cognition in heart failure patients are missing. Using mice as model organisms we show that heart failure leads to specific changes in hippocampal gene-expression, a brain region intimately linked to cognition. These changes reflect increased cellular stress pathways which eventually lead to loss of neuronal euchromatin and reduced expression of a hippocampal gene cluster essential for cognition. Consequently, mice suffering from heart failure exhibit impaired memory function. These pathological changes are ameliorated via the administration of a drug that promotes neuronal euchromatin formation. Our study provides first insight to the molecular processes by which heart failure contributes to neuronal dysfunction and point to novel therapeutic avenues to treat cognitive defects in heart failure patients.</description>
+	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: The self-face automatically captures attention without consciousness</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.22.915595v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.01.22.915595v1?rss=1</link>
+	<description>It is intuitively clear and experimentally well established that stimuli representing ourselves, like our own name or face, benefit from preferential processing. However, two questions remain to be addressed. First, does the prioritization mechanism operate in an automatic manner during an early processing, or rather in a more controlled fashion at later processing stages? Second, which of the reported effects are specific to self-related stimuli, and which can also be observed for other familiar or salient stimuli? We used a dot-probe task and an N2pc ERP component analysis to investigate attentional mechanism of the self-face perception and to tackle both questions. The former, by employing a backwards masking procedure to render faces subliminal and thus isolate the early and preconscious processing stages. The latter, by investigating whether a face that is only visually familiar captures attention in a similar manner to the self-face. We demonstrate that both conscious and unconscious perception of the self-face image results in a robust attention capture, which indicates an early and automatic self-prioritization mechanism. Further, the visually familiar face did not attract attention in the conscious condition, suggesting that the attentional prioritization was specific to a self-referential stimulus. Unexpectedly, the visually familiar face did attract attention, but only in the second half of the unconscious block, after a sufficient number of presentations. Such attention shifts to an already visually familiar, but still highly degraded stimulus, might facilitate its recognition. More generally, our study provides further evidence supporting a dissociation between attention and consciousness.</description>
 	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
   <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
@@ -259,6 +585,14 @@ Conclusions: Our results do not confirm an association of CR and hippocampal GM 
 	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.22.915546v1?rss=1</guid>
 	<link>http://biorxiv.org/cgi/content/short/2020.01.22.915546v1?rss=1</link>
 	<description>Neuropathic pain is a common symptom of multiple sclerosis (MS) and current treatment options are ineffective. In this study, we investigated whether endoplasmic reticulum (ER) stress in dorsal root ganglia (DRG) contributes to the pain hypersensitivity in the experimental autoimmune encephalomyelitis (EAE) mouse model and by extension in MS. Firstly, we demonstrate inflammation and increased levels of ER stress markers in post-mortem DRGs from MS patients. Similarly, we observed ER stress in the DRG of EAE animals and relieving ER stress with a chemical chaperone, 4-phenylbutyric acid (4-PBA), reduced pain hypersensitivity. In vitro, 4-PBA and the selective PERK inhibitor, AMG44, normalize cytosolic Ca2+ transients in putative DRG nociceptors. In contrast, gene knockdown of CHOP and XBP1 mRNA had no effect on Ca2+ transients in EAE neurons suggesting that PERK signalling, independent of CHOP, may contribute to neuronal hyperexcitability in EAE. To investigate how aberrant Ca2+ dynamics affects neuronal excitability, we assessed disease-mediated changes in functional properties of Ca2+-sensitive BK-type K+ channels in IB4+ non-peptidergic DRG neurons. We found that the conductance-voltage (GV) relationship of BK channels was shifted to a more positive voltage, together with a more depolarized resting membrane potential in EAE cells. Changes in BK channel physiology correlated with reduced {beta}4 and {beta}1 subunit expression. 4-PBA and AMG44 normalized {beta} subunit levels and reversed BK channel pathophysiology. Our results suggest that ER stress in sensory neurons of MS patients and mice with EAE is a source of pain and that ER stress modulators can effectively counteract this phenotype.</description>
+	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv Subject Collection: Neuroscience: The lonely fish is not a loner fish: whole-brain mapping reveals abnormal activity in socially isolated zebrafish</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.22.915520v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.01.22.915520v1?rss=1</link>
+	<description>The zebrafish is used to assess the impact of social isolation on behaviour and brain function. As in humans and other social species, early social deprivation reduces social preference in juvenile zebrafish. Whole-brain functional maps of anti-social isolated fish were distinct from anti-social fish found in the normal population. These isolation-induced activity changes revealed profound disruption of neural activity in brain areas linked to social behaviour, such as the preoptic area and hypothalamus. Several of these affected regions are modulated by serotonin, and we found that social preference in isolated fish could be rescued by acutely reducing serotonin levels.</description>
 	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
   <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
@@ -311,94 +645,6 @@ Conclusions: Our results do not confirm an association of CR and hippocampal GM 
   <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
 <item>
-	<title>bioRxiv Subject Collection: Neuroscience: A motor axonopathy in a mouse model of Duchenne Muscular Dystrophy</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.22.914614v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.01.22.914614v1?rss=1</link>
-	<description>Skeletal muscle weakness due to loss of dystrophin is a well-documented pathological hallmark of Duchenne muscular dystrophy (DMD). In contrast, the neuropathology of this disease remains understudied. Here, we characterize an axonopathy in the phrenic and hypoglossal (XII) nerves of mdx mice. We observe nerve dysfunction that we propose contributes to respiratory failure, the most common cause of death in DMD.</description>
-	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: Automatic Three-Dimensional Reconstruction of Fascicles in Peripheral Nerves from Histological Images</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.22.913251v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.01.22.913251v1?rss=1</link>
-	<description>Computational studies can be used to support the development of peripheral nerve interfaces, but currently use simplified models of nerve anatomy, which may impact the applicability of simulation results. To better quantify and model neural anatomy across the population, we have developed an algorithm to automatically reconstruct accurate peripheral nerve models from histological cross-sections. We acquired serial median nerve cross-sections from human cadaveric samples, staining one set with hematoxylin and eosin (H&amp;amp;E) and the other using immunohistochemistry (IHC) with anti-neurofilament antibody. We developed a four-step processing pipeline involving registration, fascicle detection, segmentation, and reconstruction. We compared the output of each step to manual ground truths, and additionally compared the final models to commonly used extrusions, via intersection-over-union (IOU). Fascicle detection and segmentation required the use of a neural network and active contours in H&amp;amp;E-stained images, but only simple image processing methods for IHC-stained images. Reconstruction achieved an IOU of 0.42{+/-}0.07 for H&amp;amp;E and 0.37{+/-}0.16 for IHC images, with errors partially attributable to global misalignment at the registration step, rather than poor reconstruction. This work provides a quantitative baseline for fully automatic construction of peripheral nerve models. Our models provided fascicular shape and branching information that would be lost via extrusion.</description>
-	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: Remodeling of pre-existing myelinated axons and oligodendrocytes is stimulated by environmental enrichment in the young adult brain</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.21.914572v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.01.21.914572v1?rss=1</link>
-	<description>Neuronal activity influences oligodendrocyte production and myelination during brain development. While it is known that the myelinating process continues across the lifespan, the extent to which neuronal activity influences oligodendrocyte production and myelin acquisition during adulthood is not fully understood. Here, we find that using environmental enrichment (EE) to physiologically upregulate neuronal activity for 6-weeks during young adulthood in C57Bl/6 mice results in increased axon diameter in the corpus callosum, with a corresponding increased thickness of pre-existing myelin sheaths. Furthermore, EE uniformly promotes the differentiation of pre-existing oligodendroglia in both corpus callosum and cerebral somatosensory cortex, while differentially altering new OPC production in these regions. Together, results of this study suggest that neuronal activity induced by EE exerts a pronounced influence on adult myelination, promoting the remodeling of pre-existing myelinated axons and accelerating the differentiation of pre-existing oligodendroglia. Importantly, we show that these effects are independent of the addition of new myelin or contributions by newly-generated oligodendroglia. This impact on pre-existing oligodendroglia and pre-existing myelin sheaths is a previously undescribed form of adaptive myelination that potentially contributes to neuronal circuit maturation in the young adult central nervous system.</description>
-	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: Neural differentiation is moderated by age in scene- but not face-selective cortical regions</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.21.914432v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.01.21.914432v1?rss=1</link>
-	<description>The aging brain is characterized by neural dedifferentiation - an apparent decrease in the functional selectivity of category-selective cortical regions. Age-related reductions in neural differentiation have been proposed to play a causal role in cognitive aging. Recent findings suggest, however, that age-related dedifferentiation is not equally evident for all stimulus categories and, additionally, that the relationship between neural differentiation and cognitive performance is not moderated by age. In light of these findings, in the present experiment younger and older human adults (males and females) underwent fMRI as they studied words paired with images of scenes or faces prior to a subsequent memory task. Neural selectivity was measured in two scene-selective (parahippocampal place area and retrosplenial cortex) and two face-selective (fusiform and occipital face areas) regions of interest using both a univariate differentiation index and multivoxel pattern similarity analysis. Both methods provided highly convergent results which revealed evidence of age-related reductions in neural dedifferentiation in scene-selective but not face-selective cortical regions. Additionally, neural differentiation in the parahippocampal place area demonstrated a positive, age-invariant relationship with subsequent source memory performance (recall of the image category paired with each recognized test word). These findings extend prior findings suggesting that age-related neural dedifferentiation is not a ubiquitous phenomenon, and that the specificity of neural responses to scenes is predictive subsequent memory performance independently of age.</description>
-	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: Prepronociceptin expressing neurons in the extended amygdala encode and promote rapid arousal responses to motivationally salient stimuli</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.21.914341v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.01.21.914341v1?rss=1</link>
-	<description>Motivational states are complex and consist of cognitive, emotional, and physiological components controlled by a network across multiple brain regions. An integral component of this neural circuitry is the bed nucleus of the stria terminalis (BNST). Here, we identified a subpopulation of neurons within BNST expressing the gene prepronociceptin (PnocBNST), that can modulate the rapid changes in physiological arousal that occur upon exposure to stimuli with motivational salience. Using in vivo two-photon calcium imaging we found that excitatory responses from individual PnocBNST neurons directly corresponded with rapid increases in pupillary size and occurred upon exposure to both aversive and rewarding odors. Furthermore, optogenetic activation of these neurons increased pupillary size, but did not alter approach/avoidance or locomotor behaviors. These findings suggest that excitatory responses in PnocBNST neurons encode rapid arousal responses irrespective of tested behaviors. Further histological, electrophysiological, and single-cell RNA sequencing data revealed that PnocBNST neurons are composed of genetically and anatomically identifiable subpopulations that can be further investigated. Taken together, our findings demonstrate a key role for a PnocBNST neuronal ensemble in encoding the rapid arousal responses that are triggered by motivational stimuli.</description>
-	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: Self-generated whisker movements drive state-dependent sensory input to developing barrel cortex</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.21.914259v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.01.21.914259v1?rss=1</link>
-	<description>Brain development is an activity-dependent process. One persistent debate concerns the importance of sensory feedback from self-generated movements as a source of neural activity in developing sensorimotor cortex. Because previous research has demonstrated that behavioral state moderates the relationship between movement and cortical activity, inattention to behavioral state leads to erroneous assessments of their relationship. Thus, we recorded neural activity in the barrel cortex in 5-day-old rats while monitoring whisker movements and sleep-wake states. Over half of the observed cortical activity was attributable to whisker movements, especially to the myoclonic twitches that occur during active (REM) sleep. Also, higher-amplitude whisker movements-again, especially twitches-were more likely than lower-amplitude movements to trigger barrel activity. These results highlight the role of sensory feedback in driving early cortical activity and underscore the critical importance of monitoring sleep-wake states for accurate assessment of the contributions of the sensory periphery to somatosensory development.</description>
-	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: GPCR-mediated clearance of tau in post-synaptic compartments attenuates tau pathology in vivo</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.21.914135v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.01.21.914135v1?rss=1</link>
-	<description>Accumulation of pathological tau in synapses has been identified as an early pathogenic event in AD and correlates strongly with cognitive decline in patients with AD. Tau is a cytosolic, axonal protein. However, in the disease condition, tau accumulates in post-synaptic compartments and pre-synaptic terminals, either due to missorting within neurons, trans-synaptic transfer between neurons or due to failure of clearance systems in synapses. Using a sub-cellular fractionation assay, we show that progressive deposition of seed competent tau occurs predominantly in post-synaptic compartments in a tau transgenic mouse and in AD patient brain, making these neuronal structures particularly vulnerable to tau toxicity. Tau-mediated post-synaptic toxicity could be further exacerbated by impaired proteasome activity which we detected by measuring the levels of polyubiquitin chains that target proteins to proteasomal degradation. To combat the accumulation of tau and proteasome impairment at the subcellular level, we devised a therapeutic strategy of proteasome-mediated clearance of tau restricted to the post-synaptic compartment. Utilizing the pharmacology of GPCRs, we show that in vivo stimulation of the PAC1R receptor by its ligand can propagate intracellular PKA signaling leading to enhanced synaptic proteasome activity and reduced tau in the post-synaptic compartment. Over time, clearance of post-synaptic tau led to reduced tauopathy and cognitive decline in rTg4510 mice. Together, these results highlight a novel therapeutic strategy of targeting GPCRs that propagate cAMP/PKA signaling as a tool to activate proteolysis restricted to synapses to prevent the accumulation of tau in the early stages of AD.</description>
-	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: Shared and specific signatures of locomotor ataxia in mutant mice</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.21.914077v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.01.21.914077v1?rss=1</link>
-	<description>Several spontaneous mouse mutants with deficits in motor coordination and associated cerebellar neuropathology have been described. Intriguingly, both visible gait alterations and neuroanatomical abnormalities differ across mutants. We recently quantified specific deficits in locomotor coordination in mildly ataxic Purkinje cell degeneration mice (pcd). Here, we analyze the locomotor behavior of severely ataxic reeler mutants. Despite clearly visible behavioral differences, we find that on average, affected features of locomotor coordination are generally similarly perturbed in the two mutants. Direct comparison of locomotor kinematics and linear discriminant analysis reveal that differences in the locomotor phenotypes of these two lines are largely attributable to additional hindlimb abnormalities and increased movement variability in reeler. These findings capture shared and specific signatures of gait ataxia across mutants and provide a quantitative foundation for mapping specific locomotor impairments onto distinct neuropathologies.</description>
-	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: Capsaicin and its analogues impede nocifensive response of Caenorhabditis elegans to noxious heat</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.21.914010v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.01.21.914010v1?rss=1</link>
-	<description>Capsaicin is the most abundant pungent molecule identified in red chili peppers, and it is widely used for food flavoring, in pepper spray for self-defense devices and recently in ointments for the relief of neuropathic pain. Capsaicin and several other related vanilloid compounds are secondary plant metabolites. Capsaicin is a selective agonist of the transient receptor potential channel, vanilloid subfamily member 1 (TRPV1). After exposition to vanilloid solution, C. elegans wild type (N2) and mutants were placed on petri dishes divided in quadrants for heat stimulation. Thermal avoidance index was used to phenotype each tested C. elegans experimental groups. The data revealed for the first-time that capsaicin can impede nocifensive response of C. elegans to noxious heat (32{degrees}C - 35{degrees}C) following a sustained exposition. The effect was reversed 6h post capsaicin exposition. Additionally, we identified the capsaicin target, the C. elegans transient receptor potential channel OCR-2. Further experiments also undoubtedly revealed anti-nociceptive effect for capsaicin analogues, including ginger (Zingiber officinale) and turmeric (Curcuma longa) secondary metabolites.</description>
-	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: Local translation in perisynaptic astrocytic processes is specific and regulated by fear conditioning</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.21.913970v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.01.21.913970v1?rss=1</link>
-	<description>Local translation is a conserved molecular mechanism conferring cells the ability to quickly respond to local stimuli. It not only permits cells with complex morphology to bypass somatic protein synthesis and transport, but also contributes locally to the establishment of molecular and functional polarity. In the brain, local translation has been extensively studied in neurons and has only been recently reported in astrocytes, whose fine processes contact both blood vessels and synapses. Yet the specificity and regulation of astrocyte local translation remain unknown. Here, we studied hippocampal perisynaptic astrocytic processes (PAPs) and show that they contain all the machinery for translation. Using our recently refined polysome immunoprecipitation technique, we then characterized the pool of polysomal mRNAs in PAPs, referred to as the PAPome, and compared it to the one found in the whole astrocyte. We found that the PAPome encoded an unexpected molecular repertoire, mostly composed of cytoplasmic proteins and of proteins involved in iron homeostasis, translation, cell cycle and cytoskeleton. Among them, ezrin (Ezr), ferritin heavy chain 1 (Fth1) and 60S acidic ribosomal protein1 (Rplp1) were enriched in PAPs compared to perivascular astrocytic processes, indicating that local translation differs at these two interfaces. Remarkably, PAPs were also enriched in transcripts coding for proteins involved in learning and memory, such as ferritin (Ftl1 and Fth1), G1/S-specific cyclin-D2 (Ccnd2), E3 ubiquitin-protein ligase (Mdm2) , Receptor of activated protein C kinase 1 (Gnb2l1) and Elongation factor 1-alpha 1 (Eef1a1). To address their regulation in a physiological context, we assessed their local translation after fear conditioning. We found alterations in their density and/or distribution in astrocytes as well as a drop in their translation specifically in PAPs. In all, our results reveal an unexpected molecular repertoire of hippocampal PAPs, which is regulated by local translation during learning and memory processes.</description>
-	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv Subject Collection: Neuroscience: Early postnatal inhibitory circuit development in the mouse medial prefrontal and primary somatosensory cortex</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.01.21.913913v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.01.21.913913v1?rss=1</link>
-	<description>The prefrontal cortex (PFC) is characterized by delayed maturation that extends until adulthood. Although the adolescent PFC has been well investigated, the cellular mechanisms controlling the early development of prefrontal circuits are still largely unknown. Our study delineates the developmental cellular processes that are on-going in the mouse medial PFC (mPFC) during the second and third postnatal weeks and compares them to those in the barrel cortex (BC). We show that basal synaptic transmission decreases from the second to the third postnatal week in both brain areas due to increased spontaneous inhibitory currents and reduced excitatory ones. Furthermore, increasing GABAA receptor (GABAAR) activity leads to increased basal synaptic response of neonatal mPFC, but not BC. Additionally, the K-Cl co-transporter 2 (KCC2) expression is decreased in the neonatal mPFC compared to the pre-juvenile one as well as to the neonatal and pre-juvenile BC, suggesting that GABAAR function in the neonatal mPFC is non-inhibitory. Moreover, the intrinsic properties of both interneurons and pyramidal cells change with age and relate to augmented network activity across development.</description>
-	<pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
 	<title>PLOS Computational Biology: New Articles: Tissue-guided LASSO for prediction of clinical drug response using preclinical samples</title>
 	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007607</guid>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/rAZBxYSJIMs/article</link>
@@ -427,6 +673,54 @@ Prediction of clinical drug response (CDR) of cancer patients, based on their cl
 &lt;h2&gt;Interpretation&lt;/h2&gt;
 &lt;p&gt;Our findings suggest that IMPs are a clinically translatable acute intervention for TBI with a well‐defined mechanism of action and beneficial anatomic and physiologic preservation and recovery. ANN NEUROL 2020&lt;/p&gt;</description>
 	<pubDate>Wed, 22 Jan 2020 20:55:55 +0000</pubDate>
+  <source url="http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1531-8249">Wiley: Annals of Neurology: Table of Contents</source>
+</item>
+<item>
+	<title>Wiley: Annals of Neurology: Table of Contents: A Novel Recessive TNNT1 Congenital Core‐Rod Myopathy in French Canadians</title>
+	<guid isPermaLink="false">/doi/abs/10.1002/ana.25685?af=R</guid>
+	<link>https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25685?af=R</link>
+	<description>&lt;h2&gt;Abstract&lt;/h2&gt;
+
+&lt;h2&gt;Objective&lt;/h2&gt;
+&lt;p&gt;Recessive null variants of the slow skeletal muscle troponin T1 (&lt;i&gt;TNNT1&lt;/i&gt;) gene are a rare cause of nemaline myopathy that is fatal in infancy due to respiratory insufficiency. Muscle biopsy shows rods and fiber type disproportion. We report on four French Canadians with a novel form of recessive congenital &lt;i&gt;TNNT1&lt;/i&gt; core‐rod myopathy.&lt;/p&gt;
+
+
+&lt;h2&gt;Methods&lt;/h2&gt;
+&lt;p&gt;Patients underwent full clinical characterization, lower limb MRI, muscle biopsy and genetic testing. A zebrafish loss‐of‐function model using morpholinos was created to assess the pathogenicity of the identified variant. Wild type or mutated human &lt;i&gt;TNNT1&lt;/i&gt; mRNAs were co‐injected with morpholinos to assess their abilities to rescue the morphant phenotype.&lt;/p&gt;
+
+
+&lt;h2&gt;Results&lt;/h2&gt;
+&lt;p&gt;Three adults and one child shared a novel missense homozygous variant in the &lt;i&gt;TNNT1&lt;/i&gt; gene (c.287T&amp;gt;C; p.Leu96Pro). They developed from childhood very slowly progressive limb‐girdle weakness with rigid spine and disabling contractures. They suffered from restrictive lung disease requiring non‐invasive mechanical ventilation in three patients, as well as recurrent episodes of rhabdomyolysis triggered by infections, which were relieved by dantrolene in one patient. Older patients remained ambulatory into their sixties. MRI of the leg muscles showed fibro‐fatty infiltration predominating in the posterior thigh and the deep posterior leg compartments. Muscle biopsies showed multi‐minicores and lobulated fibers, rods in half the patients and no fiber type disproportion. Wild type &lt;i&gt;TNNT1&lt;/i&gt; mRNA rescued the zebrafish morphants but mutant transcripts failed to do so.&lt;/p&gt;
+
+
+&lt;h2&gt;Interpretation&lt;/h2&gt;
+&lt;p&gt;This study expands the phenotypic spectrum of &lt;i&gt;TNNT1&lt;/i&gt; myopathy and provides functional evidence for the pathogenicity of the newly identified missense mutation.&lt;/p&gt;
+&lt;p&gt;This article is protected by copyright. All rights reserved.&lt;/p&gt;</description>
+	<pubDate>Wed, 22 Jan 2020 17:49:33 +0000</pubDate>
+  <source url="http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1531-8249">Wiley: Annals of Neurology: Table of Contents</source>
+</item>
+<item>
+	<title>Wiley: Annals of Neurology: Table of Contents: Imaging Biomarkers of Alzheimer's Disease in Multiple Sclerosis</title>
+	<guid isPermaLink="false">/doi/abs/10.1002/ana.25684?af=R</guid>
+	<link>https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25684?af=R</link>
+	<description>&lt;h2&gt;Abstract&lt;/h2&gt;
+
+&lt;h2&gt;Objective&lt;/h2&gt;
+&lt;p&gt;To investigate β‐amyloid and tau depositions using Pittsburgh compound B (PiB) PET and AV1451 tau PET imaging in aging multiple sclerosis (MS) patients.&lt;/p&gt;
+
+
+&lt;h2&gt;Methods&lt;/h2&gt;
+&lt;p&gt;Patients with MS (n=16) and controls (n=80) matched for age, sex and &lt;i&gt;APOE&lt;/i&gt; ε4 status from the population‐based Mayo Clinic Study of Aging who underwent PiB PET imaging were studied. Of these individuals, 12 patients with MS and 60 matching controls also underwent AV1451 tau PET. Cortical PiB and AV1451 standard uptake value ratios (SUVr) from the entire cortex and previously determined Alzheimer's disease (AD) signature regions in the same population were calculated for group comparisons and testing for associations with age.&lt;/p&gt;
+
+
+&lt;h2&gt;Results&lt;/h2&gt;
+&lt;p&gt;AD‐signature PiB SUVr (OR(95%CI)=0.52(0.27,0.98),p=0.044), total cortical PiB SUVr (OR(95%CI)=0.52(0.28,0.99),p=0.048) and the frequency of abnormal PiB SUVrs (OR(95%CI)=0.10(0.01,0.90),p=0.040) were lower in MS than controls. While AD‐signature and total cortical AV1451 SUVrs were not different between the groups, the frequency of abnormal AV1451 SUVrs was higher (OR(95%CI)=10.65(1.10,103.35),p=0.041) in MS than controls. The association of AD‐signature PiB SUVr with age was steeper in the controls compared to patients with MS (estimate(95%CI))=‐0.14(‐0.023,‐0.006),p=0.002). Similarly, the association of total cortical PiB SUVr with age was steeper in the controls compared to patients with MS (estimate(95%CI))=‐0.13(‐0.021,‐0.005),p=0.002). There was no difference in the association of AV1451 SUVr findings with age between the MS patients and controls.&lt;/p&gt;
+
+
+&lt;h2&gt;Interpretation&lt;/h2&gt;
+&lt;p&gt;While both β‐amyloid and tau are biomarkers of cognitive aging and AD, cortical β‐amyloid deposition was lower in MS than age‐matched controls, suggesting that some aspect of MS pathobiology retards the accumulation of β‐amyloid, but not the accumulation of tau.&lt;/p&gt;
+&lt;p&gt;This article is protected by copyright. All rights reserved.&lt;/p&gt;</description>
+	<pubDate>Wed, 22 Jan 2020 17:45:06 +0000</pubDate>
   <source url="http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1531-8249">Wiley: Annals of Neurology: Table of Contents</source>
 </item>
 <item>
@@ -1952,55 +2246,6 @@ Pathogen timetrees are phylogenies scaled to time. They reveal the temporal hist
   <source url="http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1531-8249">Wiley: Annals of Neurology: Table of Contents</source>
 </item>
 <item>
-	<title>Wiley: Annals of Neurology: Table of Contents: Identification of Restless Legs Syndrome Genes by Mutational Load Analysis</title>
-	<guid isPermaLink="false">/doi/abs/10.1002/ana.25658?af=R</guid>
-	<link>https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25658?af=R</link>
-	<description>&lt;h2&gt;Objective&lt;/h2&gt;
-&lt;p&gt;Restless legs syndrome is a frequent neurological disorder with substantial burden on individual well‐being and public health. Genetic risk loci have been identified, but the causatives genes at these loci are largely unknown, so that functional investigation and clinical translation of molecular research data are still inhibited. To identify putatively causative genes, we searched for highly significant mutational burden in candidate genes.&lt;/p&gt;
-
-
-&lt;h2&gt;Methods&lt;/h2&gt;
-&lt;p&gt;We analyzed 84 candidate genes in 4,649 patients and 4,982 controls by next generation sequencing using molecular inversion probes that targeted mainly coding regions. The burden of low‐frequency and rare variants was assessed, and in addition, an algorithm (binomial performance deviation analysis) was established to estimate independently the sequence variation in the probe binding regions from the variation in sequencing depth.&lt;/p&gt;
-
-
-&lt;h2&gt;Results&lt;/h2&gt;
-&lt;p&gt;Highly significant results (considering the number of genes in the genome) of the conventional burden test and the binomial performance deviation analysis overlapped significantly. Fourteen genes were highly significant by one method and confirmed with Bonferroni‐corrected significance by the other to show a differential burden of low‐frequency and rare variants in restless legs syndrome. Nine of them (&lt;i&gt;AAGAB&lt;/i&gt;, &lt;i&gt;ATP2C1&lt;/i&gt;, &lt;i&gt;CNTN4&lt;/i&gt;, &lt;i&gt;COL6A6&lt;/i&gt;, &lt;i&gt;CRBN&lt;/i&gt;, &lt;i&gt;GLO1&lt;/i&gt;, &lt;i&gt;NTNG1&lt;/i&gt;, &lt;i&gt;STEAP4&lt;/i&gt;, &lt;i&gt;VAV3&lt;/i&gt;) resided in the vicinity of known restless legs syndrome loci, whereas 5 (&lt;i&gt;BBS7&lt;/i&gt;, &lt;i&gt;CADM1&lt;/i&gt;, &lt;i&gt;CREB5&lt;/i&gt;, &lt;i&gt;NRG3&lt;/i&gt;, &lt;i&gt;SUN1&lt;/i&gt;) have not previously been associated with restless legs syndrome. Burden test and binomial performance deviation analysis also converged significantly in fine‐mapping potentially causative domains within these genes.&lt;/p&gt;
-
-
-&lt;h2&gt;Interpretation&lt;/h2&gt;
-&lt;p&gt;Differential burden with intragenic low‐frequency variants reveals putatively causative genes in restless legs syndrome. ANN NEUROL 2020;87:184–193&lt;/p&gt;</description>
-	<pubDate>Fri, 17 Jan 2020 09:07:29 +0000</pubDate>
-  <source url="http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1531-8249">Wiley: Annals of Neurology: Table of Contents</source>
-</item>
-<item>
-	<title>Wiley: Annals of Neurology: Table of Contents: Randomized Placebo‐Controlled Trial of Intravenous Immunoglobulin in Autoimmune LGI1/CASPR2 Epilepsy</title>
-	<guid isPermaLink="false">/doi/abs/10.1002/ana.25655?af=R</guid>
-	<link>https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25655?af=R</link>
-	<description>&lt;h2&gt;Objective&lt;/h2&gt;
-&lt;p&gt;Drug‐resistant seizures are common in patients with leucine‐rich, glioma‐inactivated 1 (LGI1)‐IgG associated and contactin‐associated protein‐like 2 (CASPR2)‐IgG associated encephalitis. We performed the first randomized double‐blind placebo‐controlled trial to evaluate efficacy of intravenous immunoglobulin (IVIG) in reducing seizure frequency.&lt;/p&gt;
-
-
-&lt;h2&gt;Methods&lt;/h2&gt;
-&lt;p&gt;Our enrollment goal was 30 LGI1/CASPR2‐IgG–seropositive adult patients with ≥2 seizures per week. Patients were randomized to receive IVIG (0.5g/kg day 1, 1g/kg day 2, 0.6g/kg weeks 3 and 5) or volume‐matched intravenous normal saline. Following the blinded phase, the nonresponders in the placebo group received IVIG. The primary clinical outcome was 50% reduction in seizure frequency from baseline to 5 weeks.&lt;/p&gt;
-
-
-&lt;h2&gt;Results&lt;/h2&gt;
-&lt;p&gt;After enrollment of 17 patients (LGI1‐IgG, 14; CASPR2‐IgG, 3) over 34 months, the study was terminated due to slow enrollment. Six of 8 patients in the IVIG group were responders, compared to 2 of 9 in the placebo group (&lt;i&gt;p&lt;/i&gt; = 0.044, odds ratio = 10.5, 95% confidence interval = 1.1–98.9). For the LGI1‐IgG seropositive subgroup, 6 of 8 patients in the IVIG group were responders, compared to zero of 6 in the placebo group. Two LGI1‐IgG–seropositive patients receiving IVIG, but none receiving placebo, were seizure‐free at the end of the blinded phase. Four of the 6 patients entering the open‐label IVIG arm reported ≥50% reduction in seizure frequency. There were no correlations with LGI1/CASPR2‐IgG1–4 subclasses.&lt;/p&gt;
-
-
-&lt;h2&gt;Interpretation&lt;/h2&gt;
-&lt;p&gt;Superiority of IVIG to placebo reached statistical significance for the primary endpoint for all patients and the subset with LGI1‐IgG. These results have to be interpreted with the caveat that the study did not reach its originally selected sample size. ANN NEUROL 2020;87:313–323&lt;/p&gt;</description>
-	<pubDate>Fri, 17 Jan 2020 09:07:29 +0000</pubDate>
-  <source url="http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1531-8249">Wiley: Annals of Neurology: Table of Contents</source>
-</item>
-<item>
-	<title>Wiley: Annals of Neurology: Table of Contents: Pregnancy, N‐Methyl‐D‐Aspartate Receptor Antibodies, and Neuropsychiatric Diseases</title>
-	<guid isPermaLink="false">/doi/abs/10.1002/ana.25654?af=R</guid>
-	<link>https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25654?af=R</link>
-	<pubDate>Fri, 17 Jan 2020 09:07:29 +0000</pubDate>
-  <source url="http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1531-8249">Wiley: Annals of Neurology: Table of Contents</source>
-</item>
-<item>
 	<title>q-bio.NC updates on arXiv.org: End-to-End Pixel-Based Deep Active Inference for Body Perception and Action. (arXiv:2001.05847v1 [cs.CV])</title>
 	<guid isPermaLink="true">http://arxiv.org/abs/2001.05847</guid>
 	<link>http://arxiv.org/abs/2001.05847</link>
@@ -2204,109 +2449,6 @@ Since its origins, thousands of years ago, agriculture has been challenged by th
   <source url="http://www.eneuro.org/rss/ahead.xml">RSS PAP</source>
 </item>
 <item>
-	<title>q-bio.NC updates on arXiv.org: A Real-Time Retinomorphic Simulator Using a Conductance-Based Discrete Neuronal Network. (arXiv:2001.05430v1 [q-bio.NC])</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2001.05430</guid>
-	<link>http://arxiv.org/abs/2001.05430</link>
-	<description>&lt;p&gt;We present an optimized conductance-based retina microcircuit simulator which
-transforms light stimuli into a series of graded and spiking action potentials
-through photo transduction. We use discrete retinal neuron blocks based on a
-collation of single-compartment models and morphologically realistic
-formulations, and successfully achieve a biologically real-time simulator. This
-is done by optimizing the numerical methods employed to solve the system of
-over 270 nonlinear ordinary differential equations and parameters. Our
-simulator includes some of the most recent advances in compartmental modeling
-to include five intrinsic ion currents of each cell whilst ensuring real-time
-performance, in attaining the ion-current and membrane responses of the
-photoreceptor rod and cone cells, the bipolar and amacrine cells, their
-laterally connected electrical and chemical synapses, and the output ganglion
-cell. It exhibits dynamical retinal behavior such as spike-frequency
-adaptation, rebound activation, fast-spiking, and subthreshold responsivity.
-Light stimuli incident at the photoreceptor rod and cone cells is modulated
-through the system of differential equations, enabling the user to probe the
-neuronal response at any point in the network. This is in contrast to many
-other retina encoding schemes which prefer to `black-box' the preceding stages
-to the spike train output. Our simulator is made available open source, with
-the hope that it will benefit neuroscientists and machine learning
-practitioners in better understanding the retina sub-circuitries, how retina
-cells optimize the representation of visual information, and in generating
-large datasets of biologically accurate graded and spiking responses.
-&lt;/p&gt;</description>
-	<pubDate>Thu, 16 Jan 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
-</item>
-<item>
-	<title>q-bio.NC updates on arXiv.org: Efficient Coding in the Economics of Human Brain Connectomics. (arXiv:2001.05078v1 [q-bio.NC])</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2001.05078</guid>
-	<link>http://arxiv.org/abs/2001.05078</link>
-	<description>&lt;p&gt;In systems neuroscience, most models posit that brain regions communicate
-information under constraints of efficiency. Yet, metabolic and information
-transfer efficiency across structural networks are not understood. In a large
-cohort of youth, we find metabolic costs associated with structural path
-strengths supporting information diffusion. Metabolism is balanced with the
-coupling of structures supporting diffusion and network modularity. To
-understand efficient network communication, we develop a theory specifying
-minimum rates of message diffusion that brain regions should transmit for an
-expected fidelity, and we test five predictions from the theory. We introduce
-compression efficiency, which quantifies differing trade-offs between lossy
-compression and communication fidelity in structural networks. Compression
-efficiency evolves with development, heightens when metabolic gradients guide
-diffusion, constrains network complexity, explains how rich-club hubs integrate
-information, and correlates with cortical areal scaling, myelination, and
-speed-accuracy trade-offs. Our findings elucidate how network structures and
-metabolic resources support efficient neural communication.
-&lt;/p&gt;</description>
-	<pubDate>Thu, 16 Jan 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
-</item>
-<item>
-	<title>q-bio.NC updates on arXiv.org: Spike Train Cumulants for Linear-Nonlinear Poisson Cascade Models. (arXiv:2001.05057v1 [q-bio.NC])</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2001.05057</guid>
-	<link>http://arxiv.org/abs/2001.05057</link>
-	<description>&lt;p&gt;Spiking activity in cortical networks is nonlinear in nature. The
-linear-nonlinear cascade model, some versions of which are also known as
-point-process generalized linear model, can efficiently capture the nonlinear
-dynamics exhibited by such networks. Of particular interest in such models are
-theoretical predictions of spike train statistics. However, due to the
-moment-closure problem, approximations are inevitable. We suggest here a series
-expansion that explains how higher-order moments couple to lower-order ones.
-Our approach makes predictions in terms of certain integrals, the so-called
-loop integrals. In previous studies these integrals have been evaluated
-numerically, but numerical instabilities are sometimes encountered rendering
-the results unreliable. Analytic solutions are presented here to overcome this
-problem, and to arrive at more robust evaluations. We were able to deduce these
-analytic solutions by switching to Fourier space and making use of complex
-analysis, specifically Cauchy's residue theorem. We formalized the loop
-integrals and explicitly solved them for specific response functions. To
-quantify the importance of these corrections for spike train cumulants, we
-numerically simulated spiking networks and compared their sample statistics to
-our theoretical predictions. Our results demonstrate that the magnitude of the
-nonlinear corrections depends on the working point of the nonlinear network
-dynamics, and that it is related to the eigenvalues of the mean-field stability
-matrix. For our example, the corrections for the firing rates are in the range
-between 4 % and 21 % on average. Precise and robust predictions of spike train
-statistics accounting for nonlinear effects are, for example, highly relevant
-for theories involving spike-timing dependent plasticity (STDP).
-&lt;/p&gt;</description>
-	<pubDate>Thu, 16 Jan 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
-</item>
-<item>
-	<title>q-bio.NC updates on arXiv.org: Derivation of Fitts' law from the Task Dynamics model of speech production. (arXiv:2001.05044v2 [q-bio.NC] UPDATED)</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2001.05044</guid>
-	<link>http://arxiv.org/abs/2001.05044</link>
-	<description>&lt;p&gt;Fitts' law is a linear equation relating movement time to an index of
-movement difficulty. The recent finding that Fitts' law applies to voluntary
-movement of the vocal tract raises the question of whether the theory of speech
-production implies Fitts' law. The present letter establishes a theoretical
-connection between Fitts' law and the Task Dynamics model of speech production.
-We derive a variant of Fitts' law where the intercept and slope are functions
-of the parameters of the Task Dynamics model and the index of difficulty is a
-product logarithm, or Lambert W function, rather than a logarithm.
-&lt;/p&gt;</description>
-	<pubDate>Thu, 16 Jan 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
-</item>
-<item>
 	<title>PLOS Computational Biology: New Articles: A single reaction-diffusion equation for the multifarious eruptions of urticaria</title>
 	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007590</guid>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/agkwHgohOw4/article</link>
@@ -2386,39 +2528,6 @@ Environmental factors interact with internal rules of population regulation, som
 	<description>ABSTRACT&lt;p&gt;Brain-derived neurotrophic factor (BDNF) signals through its cognate receptor tropomyosin kinase B (TrkB) to promote the function of several classes of inhibitory interneurons. We previously reported that loss of BDNF-TrkB signaling in cortistatin-expressing (Cort) interneurons leads to behavioral hyperactivity and spontaneous seizures in mice. We performed bulk RNA sequencing (RNA-seq) from the cortex of mice with disruption of BDNF-TrkB signaling in cortistatin interneurons, and identified differential expression of genes important for excitatory neuron function. Using translating ribosome affinity purification (TRAP) and RNA-seq, we define a molecular profile for Cort-expressing inhibitory neurons and subsequently compared the translatome of normal and TrkB-depleted Cort neurons, revealing alterations in calcium signaling and axon development. Several of the genes enriched in Cort neurons and differentially expressed in TrkB depleted neurons are also implicated in autism and epilepsy. Our findings highlight TrkB-dependent molecular pathways as critical for the maturation of inhibitory interneurons and support the hypothesis that loss of BDNF signaling in Cort interneurons leads to altered excitatory/inhibitory balance.&lt;/p&gt;&lt;p&gt;&lt;b&gt;SIGNIFICANCE STATEMENT&lt;/b&gt; Mounting evidence suggests that brain-derived neurotrophic factor (BDNF) signals through its receptor TrkB to promote inhibitory interneuron function, including a sub-population of cortistatin-expressing (Cort) neurons. This study identifies how TrkB depletion in Cort neurons impacts the Cort interneuron transcriptome as well as gene expression in the surrounding cellular milieu of mouse cortex. Our findings highlight TrkB-dependent molecular pathways in the maturation of inhibitory interneurons and further implicate BDNF signaling as critical for regulating excitatory/inhibitory balance. We identified BDNF-regulation of a number of genes expressed in Cort neurons that are implicated in both autism and epilepsy, which is of note because these conditions are highly comorbid, and are hypothesized to share underlying molecular mechanisms.&lt;/p&gt;</description>
 	<pubDate>Wed, 15 Jan 2020 17:30:08 +0000</pubDate>
   <source url="http://www.eneuro.org/rss/ahead.xml">RSS PAP</source>
-</item>
-<item>
-	<title>q-bio.NC updates on arXiv.org: Computational analysis of a 9D model for a small DRG neuron. (arXiv:2001.04915v1 [q-bio.NC])</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2001.04915</guid>
-	<link>http://arxiv.org/abs/2001.04915</link>
-	<description>&lt;p&gt;Small dorsal root ganglion (DRG) neurons are primary nociceptors which are
-responsible for sensing pain. Elucidation of their dynamics is essential for
-understanding and controlling pain. To this end, we present a numerical
-bifurcation analysis of a small DRG neuron model in this paper. The model is of
-Hodgkin-Huxley type and has 9 state variables. It consists of a
-Na$\mathrm{_v}$1.7 and a Na$\mathrm{_v}$1.8 sodium channel, a leak channel, a
-delayed rectifier potassium and an A-type transient potassium channel. The
-dynamics of this model strongly depends on the maximal conductances of the
-voltage-gated ion channels and the external current, which can be adjusted
-experimentally. We show that the neuron dynamics are most sensitive to the
-Na$\mathrm{_v}$1.8 channel maximal conductance ($\bar{g}_{1.8}$). Numerical
-bifurcation analysis shows that depending on $\bar{g}_{1.8}$ and the external
-current, different parameter regions can be identified with stable steady
-states, periodic firing of action potentials, mixed-mode oscillations (MMOs),
-and bistability between stable steady states and stable periodic firing of
-action potentials. We illustrate and discuss the transitions between these
-different regimes. We further analyze the behavior of MMOs. Within this region,
-bifurcation analysis shows a sequence of isolated periodic solution branches
-with one large action potential and a number of small amplitude peaks per
-period. A closer inspection reveals more complex concatenated MMOs in between
-these periodic MMOs branches, forming Farey sequences. Lastly, we also find
-small solution windows with aperiodic oscillations, which seem to be chaotic.
-The dynamical patterns found here as a function of different parameters contain
-information of translational importance as their relation to pain sensation and
-its intensity is a potential source of insight into controlling pain.
-&lt;/p&gt;</description>
-	<pubDate>Wed, 15 Jan 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
 </item>
 <item>
 	<title>Frontiers in Systems Neuroscience | New and Recent Articles: Novel Activity Detection Algorithm to Characterize Spontaneous Stepping During Multimodal Spinal Neuromodulation After Mid-Thoracic Spinal Cord Injury in Rats</title>
@@ -2900,14 +3009,6 @@ Recent high-dimensional single-cell technologies such as mass cytometry are enab
   <source url="http://journal.frontiersin.org/journal/molecular-neuroscience/rss">Frontiers in Molecular Neuroscience | New and Recent Articles</source>
 </item>
 <item>
-	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Untangling the Conformational Polymorphism of Disordered Proteins Associated With Neurodegeneration at the Single-Molecule Level</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnmol.2019.00309</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fnmol.2019.00309</link>
-	<description>&lt;p&gt;A large fraction of the human genome encodes intrinsically disordered proteins/regions (IDPs/IDRs) that are involved in diverse cellular functions/regulation and dysfunctions. Moreover, several neurodegenerative disorders are associated with the pathological self-assembly of neuronal IDPs, including tau [Alzheimer’s disease (AD)], α-synuclein [Parkinson’s disease (PD)], and huntingtin exon 1 [Huntington’s disease (HD)]. Therefore, there is an urgent and emerging clinical interest in understanding the physical and structural features of their functional and disease states. However, their biophysical characterization is inherently challenging by traditional ensemble techniques. First, unlike globular proteins, IDPs lack stable secondary/tertiary structures under physiological conditions and may interact with multiple and distinct biological partners, subsequently folding differentially, thus contributing to the conformational polymorphism. Second, amyloidogenic IDPs display a high aggregation propensity, undergoing complex heterogeneous self-assembly mechanisms. In this review article, we discuss the advantages of employing cutting-edge single-molecule fluorescence (SMF) techniques to characterize the conformational ensemble of three selected neuronal IDPs (huntingtin exon 1, tau, and α-synuclein). Specifically, we survey the versatility of these powerful approaches to describe their monomeric conformational ensemble under functional and aggregation-prone conditions, and binding to biological partners. Together, the information gained from these studies provides unique insights into the role of gain or loss of function of these disordered proteins in neurodegeneration, which may assist the development of new therapeutic molecules to prevent and treat these devastating human disorders.&lt;/p&gt;</description>
-	<pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/molecular-neuroscience/rss">Frontiers in Molecular Neuroscience | New and Recent Articles</source>
-</item>
-<item>
 	<title>Frontiers in Integrative Neuroscience | New and Recent Articles: Multi-sensory Responsiveness and Personality Traits Predict Daily Pain Sensitivity</title>
 	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnint.2019.00077</guid>
 	<link>https://www.frontiersin.org/articles/10.3389/fnint.2019.00077</link>
@@ -3086,29 +3187,6 @@ Real-world agents, humans as well as animals, observe each other during interact
   <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
 </item>
 <item>
-	<title>eNeuro current issue: Erratum: Zaharia et al., Compound Stimuli Reveal the Structure of Visual Motion Selectivity in Macaque MT Neurons</title>
-	<guid isPermaLink="true">http://www.eneuro.org/cgi/content/short/7/1/ENEURO.0530-19.2019?rss=1</guid>
-	<link>http://www.eneuro.org/cgi/content/short/7/1/ENEURO.0530-19.2019?rss=1</link>
-	<pubDate>Thu, 09 Jan 2020 17:34:19 +0000</pubDate>
-  <source url="http://www.eneuro.org/rss/current.xml">eNeuro current issue</source>
-</item>
-<item>
-	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Transcriptome Analysis of Pineal Glands in the Mouse Model of Alzheimer’s Disease</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnmol.2019.00318</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fnmol.2019.00318</link>
-	<description>&lt;p&gt;The pineal gland maintains the circadian rhythm in the body by secreting the hormone melatonin. Alzheimer’s disease (AD) is the most common neurodegenerative disease. Pineal gland impairment in AD is widely observed, but no study to date has analyzed the transcriptome in the pineal glands of AD. To establish resources for the study on pineal gland dysfunction in AD, we performed a transcriptome analysis of the pineal glands of AD model mice and compared them to those of wild type mice. We identified the global change of diverse protein-coding RNAs, which are implicated in the alteration in cellular transport, protein transport, protein folding, collagen expression, histone dosage, and the electron transfer system. We also discovered various dysregulated long noncoding RNAs and circular RNAs in the pineal glands of mice with AD. This study showed that the expression of diverse RNAs with important functional implications in AD was changed in the pineal gland of the AD mouse model. The analyzed data reported in this study will be an important resource for future studies to elucidate the altered physiology of the pineal gland in AD.&lt;/p&gt;</description>
-	<pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/molecular-neuroscience/rss">Frontiers in Molecular Neuroscience | New and Recent Articles</source>
-</item>
-<item>
-	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Two Vanilloid Ligand Bindings Per Channel Are Required to Transduce Capsaicin-Activating Stimuli</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnmol.2019.00302</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fnmol.2019.00302</link>
-	<description>&lt;p&gt;The tetrameric capsaicin receptor transient receptor potential vanilloid 1 (TRPV1) in mammals has evolved the capability to integrate pain signal arising from harmful temperature and chemical irritants. The four repetitions of TRPV1 subunits result in an ion channel with excellent pain sensitivity, allowing this ionotropic receptor to differentiate graded injuries. We manipulated the stoichiometry and relative steric coordination of capsaicin-bound structures at the molecular level to determine the rules by which the receptor codes pain across a broad range of intensities. By introducing capsaicin-insensitive S512F mutant subunits into the TRPV1 channel, we found that binding of the first ligand results in low but clear channel activation. Maximal agonist-induced activation is already apparent in tetramers harboring two or three wild-type TRPV1 subunits, which display comparable activity to wild-type tetramer. The non-vanilloid agonist 2-aminoethoxydiphenyl borate (2-APB) differs from that of capsaicin in the TRPV1 channel opening mechanism activating all S512F-mutated TRPV1 channels. Two or more wild-type TRPV1 subunits are also required for full anandamide-induced channel activation, a cannabinoid that shares overlapping binding-pocket to capsaicin. Our results demonstrate that the stoichiometry of TRPV1 activation is conserved for two types of agonists.&lt;/p&gt;</description>
-	<pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/molecular-neuroscience/rss">Frontiers in Molecular Neuroscience | New and Recent Articles</source>
-</item>
-<item>
 	<title>Frontiers in Integrative Neuroscience | New and Recent Articles: Measuring the Brain-Gut Axis in Psychological Sciences: A Necessary Challenge</title>
 	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnint.2019.00073</guid>
 	<link>https://www.frontiersin.org/articles/10.3389/fnint.2019.00073</link>
@@ -3152,14 +3230,6 @@ Real-world agents, humans as well as animals, observe each other during interact
 	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnhum.2019.00447</guid>
 	<link>https://www.frontiersin.org/articles/10.3389/fnhum.2019.00447</link>
 	<description>&lt;p&gt;The centromedian (CM) nucleus is an intralaminar thalamic nucleus that is considered as a potentially effective target of deep brain stimulation (DBS) and ablative surgeries for the treatment of multiple neurological and psychiatric disorders. However, the structure of CM is invisible on the standard T1- and T2-weighted (T1w and T2w) magnetic resonance images, which hamper it as a direct DBS target for clinical applications. The purpose of the current study is to demonstrate the use of quantitative susceptibility mapping (QSM) technique to image the CM within the thalamic region. Twelve patients with Parkinson’s disease, dystonia, or schizophrenia were included in this study. A 3D multi-echo gradient recalled echo (GRE) sequence was acquired together with T1w and T2w images on a 3-T MR scanner. The QSM image was reconstructed from the GRE phase data. Direct visual inspection of the CM was made on T1w, T2w, and QSM images. Furthermore, the contrast-to-noise ratios (CNRs) of the CM to the adjacent posterior part of thalamus on T1w, T2w, and QSM images were compared using the one-way analysis of variance (ANOVA) test. QSM dramatically improved the visualization of the CM nucleus. Clear delineation of CM compared to the surroundings was observed on QSM but not on T1w and T2w images. Statistical analysis showed that the CNR on QSM was significantly higher than those on T1w and T2w images. Taken together, our results indicate that QSM is a promising technique for improving the visualization of CM as a direct targeting for DBS surgery.&lt;/p&gt;</description>
-	<pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/human-neuroscience/rss">Frontiers in Human Neuroscience | New and Recent Articles</source>
-</item>
-<item>
-	<title>Frontiers in Human Neuroscience | New and Recent Articles: The Effect of Meditation on Comprehension of Statements About One-Self and Others: A Pilot ERP and Behavioral Study</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnhum.2019.00437</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fnhum.2019.00437</link>
-	<description>&lt;p&gt;The main goal of this study was to examine the effect of long-term meditation practice on behavioral indicators and ERP peak characteristics during an error-recognition task, where participants were presented with emotionally negative (evoking anxiety or aggression) written sentences describing self-related or non-self-related emotional state and personality traits. In total, 200 sentences written in Russian with varying emotional coloring were presented during the task, with half of the sentences containing a grammatical error that the participants were asked to identify. The EEG was recorded in age-matched control individuals (n = 17) and two groups of Samatha meditators with relatively short- (3–5 years’ experience, n = 18) and long-term (10–30 years’ experience, n = 18) practice experience. Task performance time (TPT) and accuracy of error detection (AED) were chosen as behavioral values. Amplitude, time latency and cortical distribution of P300 and P600 peaks of ERP were used as a value of speech-related brain activity. All statistical effects of meditation were estimated, controlling for age and sex. No behavioral differences between two groups of meditators were found. General TPT was shorter for both groups of meditators compared to the control group. Non-meditators reacted significantly slower to sentences about aggression than to sentences about anxiety or non-emotional sentences, whereas no significance was found between meditator groups. Non-meditators had better AED for the sentences about one-self than for the sentences about other people, whereas the meditators did not show any significant difference. The amplitude of P300 peak in frontal and left temporal scalp regions was higher for long-term meditators in comparison with both intermediate and control groups. The latency of P300 and P600 in left frontal and temporal regions positively correlated with TPT, whereas the amplitude of P300 in these regions had a negative correlation with TPT. We demonstrate that long-term meditation practice increases the ability of an individual to process negative emotional stimuli. The differences in behavioral reactions after onset of negative information that was self-related and non-self-related, which is typical for non-meditators, disappeared due to the influence of meditation. ERP results could be interpreted as a value of increase in voluntary control over emotional state during meditational practice.&lt;/p&gt;</description>
 	<pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
   <source url="http://journal.frontiersin.org/journal/human-neuroscience/rss">Frontiers in Human Neuroscience | New and Recent Articles</source>
 </item>
@@ -3212,14 +3282,6 @@ Real-world agents, humans as well as animals, observe each other during interact
   <source url="http://journal.frontiersin.org/journal/systems-neuroscience/rss">Frontiers in Systems Neuroscience | New and Recent Articles</source>
 </item>
 <item>
-	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: KLHL1 Controls CaV3.2 Expression in DRG Neurons and Mechanical Sensitivity to Pain</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnmol.2019.00315</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fnmol.2019.00315</link>
-	<description>&lt;p&gt;Dorsal root ganglion (DRG) neurons process pain signaling through specialized nociceptors located in their peripheral endings. It has long been established low voltage-activated (LVA) Ca&lt;sub&gt;V&lt;/sub&gt;3.2 calcium channels control neuronal excitability during sensory perception in these neurons. Silencing Ca&lt;sub&gt;V&lt;/sub&gt;3.2 activity with antisense RNA or genetic ablation results in anti-nociceptive, anti-hyperalgesic and anti-allodynic effects. Ca&lt;sub&gt;V&lt;/sub&gt;3.2 channels are regulated by many proteins (Weiss and Zamponi, 2017), including KLHL1, a neuronal actin-binding protein that stabilizes channel activity by recycling it back to the plasma membrane through the recycling endosome. We explored whether manipulation of KLHL1 levels and thereby function as a Ca&lt;sub&gt;V&lt;/sub&gt;3.2 modifier can modulate DRG excitability and mechanical pain transmission or sensitivity to pain. We first assessed the mechanical sensitivity threshold and DRG properties in the KLHL1 KO mouse model. KO DRG neurons exhibited smaller T-type current density compared to WT without significant changes in voltage dependence, as expected in the absence of its modulator. Western blot analysis confirmed Ca&lt;sub&gt;V&lt;/sub&gt;3.2 but not Ca&lt;sub&gt;V&lt;/sub&gt;3.1, Ca&lt;sub&gt;V&lt;/sub&gt;3.3, Ca&lt;sub&gt;V&lt;/sub&gt;2.1, or Ca&lt;sub&gt;V&lt;/sub&gt;2.2 protein levels were significantly decreased; and reduced neuron excitability and decreased pain sensitivity were also found in the KLHL1 KO model. Analogously, transient down-regulation of KLHL1 levels in WT mice with viral delivery of anti-KLHL1 shRNA also resulted in decreased pain sensitivity. These two experimental approaches confirm KLHL1 as a physiological modulator of excitability and pain sensitivity, providing a novel target to control peripheral pain.&lt;/p&gt;</description>
-	<pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/molecular-neuroscience/rss">Frontiers in Molecular Neuroscience | New and Recent Articles</source>
-</item>
-<item>
 	<title>Frontiers in Neuroscience | Neurodegeneration section | New and Recent Articles: Vesicular Dysfunction and the Pathogenesis of Parkinson’s Disease: Clues From Genetic Studies</title>
 	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnins.2019.01381</guid>
 	<link>https://www.frontiersin.org/articles/10.3389/fnins.2019.01381</link>
@@ -3234,22 +3296,6 @@ Real-world agents, humans as well as animals, observe each other during interact
 	<description>&lt;p&gt;The invention of representational similarity analysis [RSA, following multi-voxel pattern analysis (MVPA)] has allowed cognitive neuroscientists to identify the representational structure of multiple brain regions, moving beyond functional localization. By comparing these structures, cognitive neuroscientists can characterize how brain areas form functional networks. Univariate analysis (UNIVAR) and functional connectivity analysis (FCA) are two other popular methods to identify functional networks. Despite their popularity, few studies have examined the relationship between networks from RSA with those from UNIVAR and FCA. Thus, the aim of the current study is to examine the similarities between neural networks derived from RSA with those from UNIVAR and FCA to explore how these methods relate to each other. We analyzed the data of a previously published study with the three methods and compared the results by performing (partial) correlation and multiple regression analysis. Our findings reveal that neural networks resulting from RSA, UNIVAR, and FCA methods are highly similar to each other even after ruling out the effect of anatomical proximity between the network nodes. Nevertheless, the neural network from each method shows unique organization that cannot be explained by any of the other methods. Thus, we conclude that the RSA, UNIVAR and FCA methods provide similar but not identical information on how brain regions are organized in functional networks.&lt;/p&gt;</description>
 	<pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
   <source url="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss">Frontiers in Neuroscience | Brain Imaging Methods section | New and Recent Articles</source>
-</item>
-<item>
-	<title>Frontiers in Cellular Neuroscience | New and Recent Articles: The Role of Neuronal Pentraxin 2 (NP2) in Regulating Glutamatergic Signaling and Neuropathology</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fncel.2019.00575</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fncel.2019.00575</link>
-	<description>&lt;p&gt;Pentraxins are a superfamily of evolutionarily conserved proteins that are characterized by their multimeric architecture and their calcium-dependent binding. They can be broadly grouped into two subfamilies: short pentraxins and long pentraxins. Pentraxins regulate many processes in the brain as well as the periphery. Neuronal pentraxin 2 (NP2/NPTX2), also known as neuronal activity-regulated pentraxin (Narp), is an immediate-early gene that has been shown to play a critical role in guiding synaptic plasticity. NP2 has been previously linked to excitatory neurotransmission, based on its ability to aggregate excitatory receptors in the central nervous system. The mechanisms mediating the effects of NP2 on excitatory neurotransmission remain unclear and warrants further investigation. This review article focuses on the biological features of NP2 and discusses the literature supporting a role for NP2 and other pentraxins in glutamatergic signaling. An analysis of evidence around the role of pentraxins in neuropathology is also reviewed.&lt;/p&gt;</description>
-	<pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/cellular-neuroscience/rss">Frontiers in Cellular Neuroscience | New and Recent Articles</source>
-</item>
-<item>
-	<title>Frontiers in Cellular Neuroscience | New and Recent Articles: Dynamic Balance of Microglia and Astrocytes Involved in the Remyelinating Effect of Ginkgolide B</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fncel.2019.00572</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fncel.2019.00572</link>
-	<description>&lt;p&gt;Multiple sclerosis (MS) is an inflammatory demyelinating disorder in the central nervous system (CNS), in which remyelination failure results in persistent neurologic impairment. Ginkgolide B (GB), a major terpene lactone and active component of Ginkgo biloba, has neuroprotective effects in several models of neurological diseases. Here, our results show, by using an in vivo cuprizone (CPZ)-induced demyelinating model, administration of GB improved behavior abnormalities, promoted myelin generation, and significantly regulated the dynamic balance of microglia and astrocytes by inhibiting the expression of TLR4, NF-κB and iNOS as well as IL-1β and TNF-α, and up-regulating the expression of Arg-1 and neurotrophic factors. GB treatment also induced the generation of oligodendrocyte precursor cells (OPCs). In vitro cell experiments yielded the results similar to those of the in vivo model. The dynamic balance by decreasing microglia-mediated neuroinflammation and promoting astrocyte-derived neurotrophic factors should contribute to endogenous remyelination. Despite GB treatment may represent a novel strategy for promoting myelin recovery, the precise mechanism of GB targeting microglia and astrocytes remains to be further explored.&lt;/p&gt;</description>
-	<pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/cellular-neuroscience/rss">Frontiers in Cellular Neuroscience | New and Recent Articles</source>
 </item>
 <item>
 	<title>Frontiers in Neuroanatomy | New and Recent Articles: Reelin Immunoreactivity in the Adult Spinal Cord: A Comparative Study in Rodents, Carnivores, and Non-human Primates</title>
@@ -3530,14 +3576,6 @@ Real-world agents, humans as well as animals, observe each other during interact
   <source url="http://journal.frontiersin.org/journal/synaptic-neuroscience/rss">Frontiers in Synaptic Neuroscience | New and Recent Articles</source>
 </item>
 <item>
-	<title>Frontiers in Molecular Neuroscience | New and Recent Articles: Single Cell and Single Nucleus RNA-Seq Reveal Cellular Heterogeneity and Homeostatic Regulatory Networks in Adult Mouse Stria Vascularis</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnmol.2019.00316</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fnmol.2019.00316</link>
-	<description>&lt;p&gt;The stria vascularis (SV) generates the endocochlear potential (EP) in the inner ear and is necessary for proper hair cell mechanotransduction and hearing. While channels belonging to SV cell types are known to play crucial roles in EP generation, relatively little is known about gene regulatory networks that underlie the ability of the SV to generate and maintain the EP. Using single cell and single nucleus RNA-sequencing, we identify and validate known and rare cell populations in the SV. Furthermore, we establish a basis for understanding molecular mechanisms underlying SV function by identifying potential gene regulatory networks as well as druggable gene targets. Finally, we associate known deafness genes with adult SV cell types. This work establishes a basis for dissecting the genetic mechanisms underlying the role of the SV in hearing and will serve as a basis for designing therapeutic approaches to hearing loss related to SV dysfunction.&lt;/p&gt;</description>
-	<pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/molecular-neuroscience/rss">Frontiers in Molecular Neuroscience | New and Recent Articles</source>
-</item>
-<item>
 	<title>Frontiers in Neuroscience | Neurodegeneration section | New and Recent Articles: Editorial: Iron and Neurodegeneration</title>
 	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnins.2019.01382</guid>
 	<link>https://www.frontiersin.org/articles/10.3389/fnins.2019.01382</link>
@@ -3750,30 +3788,6 @@ Real-world agents, humans as well as animals, observe each other during interact
 	<description>Ketamine has been reported to cause neonatal neurotoxicity in a variety of developing animal models. Various studies have been conducted to study the mechanism of neurotoxicity for general anesthetic use durin...</description>
 	<pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
   <source url="http://bmcneurosci.biomedcentral.com/articles/most-recent/rss.xml">Most Recent Articles: BMC Neuroscience</source>
-</item>
-<item>
-	<title>Nature Reviews Neuroscience - Issue - nature.com science feeds: Defending the gut</title>
-	<guid isPermaLink="false">https://www.nature.com/articles/s41583-019-0258-6</guid>
-	<link>http://feeds.nature.com/~r/nrn/rss/current/~3/6LPaFssg-kw/s41583-019-0258-6</link>
-	<description>&lt;p&gt;Nature Reviews Neuroscience, Published online: 17 December 2019; &lt;a href=&quot;https://www.nature.com/articles/s41583-019-0258-6&quot;&gt;doi:10.1038/s41583-019-0258-6&lt;/a&gt;&lt;/p&gt;Gut-innervating sensory neurons drive host defensive responses against Salmonella infection in mice.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nrn/rss/current/~4/6LPaFssg-kw&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/nrn/rss/current">Nature Reviews Neuroscience - Issue - nature.com science feeds</source>
-</item>
-<item>
-	<title>Frontiers in Systems Neuroscience | New and Recent Articles: A Case Series Clinical Trial of a Novel Approach Using Augmented Reality That Inspires Self-body Cognition in Patients With Stroke: Effects on Motor Function and Resting-State Brain Functional Connectivity</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnsys.2019.00076</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fnsys.2019.00076</link>
-	<description>&lt;p&gt;Barring a few studies, there are not enough established treatments to improve upper limb motor function in patients with severe impairments due to chronic stroke. This study aimed to clarify the effect of the kinesthetic perceptional illusion induced by visual stimulation (KINVIS) on upper limb motor function and the relationship between motor function and resting-state brain networks. Eleven patients with severe paralysis of upper limb motor function in the chronic phase (seven men and four women; age: 54.7 ± 10.8 years; 44.0 ± 29.0 months post-stroke) participated in the study. Patients underwent an intervention consisting of therapy using KINVIS and conventional therapeutic exercise (TherEX) for 10 days. Our originally developed KiNvis™ system was applied to induce KINVIS while watching the movement of the artificial hand. Clinical outcomes were examined to evaluate motor functions and resting-state brain functional connectivity (rsFC) by analyzing blood-oxygen-level-dependent (BOLD) signals measured using functional magnetic resonance imaging (fMRI). The outcomes of motor function (Fugle-Meyer Assessment, FMA) and spasticity (Modified Ashworth Scale, MAS) significantly improved after the intervention. The improvement in MAS scores for the fingers and the wrist flexors reached a minimum of clinically important differences. Before the intervention, strong and significant negative correlations between the motor functions and rsFC of the inferior parietal lobule (IPL) and premotor cortex (PMd) in the unaffected hemisphere was demonstrated. These strong correlations were disappeared after the intervention. A negative and strong correlation between the motor function and rsFC of the bilateral inferior parietal sulcus (IPS) significantly changed to strong and positive correlation after the intervention. These results may suggest that the combination approach of KINVIS therapy and TherEX improved motor functions and decreased spasticity in the paralyzed upper extremity after stroke in the chronic phase, possibly indicating the contribution of embodied-visual stimulation. The rsFC for the interhemispheric IPS and intrahemispheric IPL and PMd may be a possible regulatory factor for improving motor function and spasticity.&lt;/p&gt;&lt;p&gt;Clinical Trial Registration: www.ClinicalTrials.gov, identifier NCT01274117.&lt;/p&gt;</description>
-	<pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/systems-neuroscience/rss">Frontiers in Systems Neuroscience | New and Recent Articles</source>
-</item>
-<item>
-	<title>Frontiers in Systems Neuroscience | New and Recent Articles: Principles of Neurorehabilitation After Stroke Based on Motor Learning and Brain Plasticity Mechanisms</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnsys.2019.00074</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fnsys.2019.00074</link>
-	<description>&lt;p&gt;What are the principles underlying effective neurorehabilitation? The aim of neurorehabilitation is to exploit interventions based on human and animal studies about learning and adaptation, as well as to show that the activation of experience-dependent neuronal plasticity augments functional recovery after stroke. Instead of teaching compensatory strategies that do not reduce impairment but allow the patient to return home as soon as possible, functional recovery might be more sustainable as it ensures a long-term reduction in impairment and an improvement in quality of life. At the same time, neurorehabilitation permits the scientific community to collect valuable data, which allows inferring about the principles of brain organization. Hence neuroscience sheds light on the mechanisms of learning new functions or relearning lost ones. However, current rehabilitation methods lack the exact operationalization of evidence gained from skill learning literature, leading to an urgent need to bridge motor learning theory and present clinical work in order to identify a set of ingredients and practical applications that could guide future interventions. This work aims to unify the neuroscientific literature relevant to the recovery process and rehabilitation practice in order to provide a synthesis of the principles that constitute an effective neurorehabilitation approach. Previous attempts to achieve this goal either focused on a subset of principles or did not link clinical application to the principles of motor learning and recovery. We identified 15 principles of motor learning based on existing literature: massed practice, spaced practice, dosage, task-specific practice, goal-oriented practice, variable practice, increasing difficulty, multisensory stimulation, rhythmic cueing, explicit feedback/knowledge of results, implicit feedback/knowledge of performance, modulate effector selection, action observation/embodied practice, motor imagery, and social interaction. We comment on trials that successfully implemented these principles and report evidence from experiments with healthy individuals as well as clinical work.&lt;/p&gt;</description>
-	<pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/systems-neuroscience/rss">Frontiers in Systems Neuroscience | New and Recent Articles</source>
 </item>
 
 </channel>
