@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://arxiv.org/abs/2002.12776" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/2002.12637" />
+			<rdf:li rdf:resource="http://arxiv.org/abs/2002.12443" />
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(20)30034-5?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(20)30031-X?rss=yes" />
 			<rdf:li rdf:resource="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(20)30022-9?rss=yes" />
@@ -131,7 +134,6 @@
 			<rdf:li rdf:resource="http://arxiv.org/abs/2002.10804" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/2002.10568" />
 			<rdf:li rdf:resource="http://arxiv.org/abs/1909.08341" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/1808.10806" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2020.00106" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2020.00097" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnhum.2020.00059" />
@@ -180,8 +182,6 @@
 			<rdf:li rdf:resource="http://www.pnas.org/content/117/8/4281.short?rss=1" />
 			<rdf:li rdf:resource="http://www.pnas.org/content/117/8/4273.short?rss=1" />
 			<rdf:li rdf:resource="http://www.pnas.org/content/117/8/4262.short?rss=1" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/2002.10378" />
-			<rdf:li rdf:resource="http://arxiv.org/abs/2002.10284" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnsyn.2020.00001" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnint.2020.00007" />
 			<rdf:li rdf:resource="https://www.frontiersin.org/articles/10.3389/fnins.2020.00155" />
@@ -419,6 +419,83 @@
 	</items>
 </channel>
 
+<item rdf:about="http://arxiv.org/abs/2002.12776">
+	<title>q-bio.NC updates on arXiv.org: ResNets, NeuralODEs and CT-RNNs are Particular Neural Regulatory Networks. (arXiv:2002.12776v1 [q-bio.NC])</title>
+	<link>http://arxiv.org/abs/2002.12776</link>
+	<content:encoded>&lt;p&gt;This paper shows that ResNets, NeuralODEs, and CT-RNNs, are particular neural
+regulatory networks (NRNs), a biophysical model for the nonspiking neurons
+encountered in small species, such as the C.elegans nematode, and in the retina
+of large species. Compared to ResNets, NeuralODEs and CT-RNNs, NRNs have an
+additional multiplicative term in their synaptic computation, allowing them to
+adapt to each particular input. This additional flexibility makes NRNs $M$
+times more succinct than NeuralODEs and CT-RNNs, where $M$ is proportional to
+the size of the training set. Moreover, as NeuralODEs and CT-RNNs are $N$ times
+more succinct than ResNets, where $N$ is the number of integration steps
+required to compute the output $F(x)$ for a given input $x$, NRNs are in total
+$M\,{\cdot}\,N$ more succinct than ResNets. For a given approximation task,
+this considerable succinctness allows to learn a very small and therefore
+understandable NRN, whose behavior can be explained in terms of well
+established architectural motifs, that NRNs share with gene regulatory
+networks, such as, activation, inhibition, sequentialization, mutual exclusion,
+and synchronization. To the best of our knowledge, this paper unifies for the
+first time the mainstream work on deep neural networks with the one in biology
+and neuroscience in a quantitative fashion.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2020-03-02T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Grosu_R/0/1/0/all/0/1">Radu Grosu</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2002.12637">
+	<title>q-bio.NC updates on arXiv.org: Forces from Lipids and Ionic Diffusion: Probing lateral membrane effects by an optimized filter region of voltage dependent K+ channels. (arXiv:2002.12637v1 [physics.bio-ph])</title>
+	<link>http://arxiv.org/abs/2002.12637</link>
+	<content:encoded>&lt;p&gt;We investigate the possible influence of poly unsaturated fatty acids (PUFAs)
+in the lipid bilayer of cell membranes on the conduction properties of the
+selectivity filter of voltage gated ion channels. Any change of this
+conductivity can have major consequences on electrical signalling in brain and
+other cells. At the microscopic level a change in the concentration of PUFAs
+can cause a change in the pressure distribution within the lipid bilayer, and
+this in turn can lead to a change in the length of the selectivity filter. In
+order to estimate the consequences this might entail for the ion channel's
+conductivity we performed high resolution molecular dynamics (MD) simulations
+of the passage of K+ ions and H2O molecules through the selectivity filter of
+the KcsA potassium ion channel. Our results show that a change in length of the
+selectivity filter of as little as 4%, independent of whether the filter is
+made longer or shorter, will reduce the K+ ion current by around 50%. And
+further squeezing or stretching by about 10% can effectively stop the current.
+For instructive purposes and to facilitate further interpretation of the
+results, we give details of the force models employed in the MD simulations. We
+finally discuss the present results in the context of possible effects of
+membrane lipid compositions on Kv ion permeation.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2020-03-02T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/physics/1/au:+Summhammer_J/0/1/0/all/0/1">Johann Summhammer</a>, <a href="http://arxiv.org/find/physics/1/au:+Sulyok_G/0/1/0/all/0/1">Georg Sulyok</a>, <a href="http://arxiv.org/find/physics/1/au:+Bernroider_G/0/1/0/all/0/1">Gustav Bernroider</a>, <a href="http://arxiv.org/find/physics/1/au:+Cocchi_M/0/1/0/all/0/1">Massimo Cocchi</a></dc:creator>
+</item>
+<item rdf:about="http://arxiv.org/abs/2002.12443">
+	<title>q-bio.NC updates on arXiv.org: Optimal self-induced stochastic resonance in multiplex neural networks: electrical versus chemical synapses. (arXiv:2002.12443v1 [q-bio.NC])</title>
+	<link>http://arxiv.org/abs/2002.12443</link>
+	<content:encoded>&lt;p&gt;Electrical and chemical synapses shape the dynamics of neural networks and
+their functional roles in information processing has been an important question
+in neurobiology. In this paper, we investigate the role of synapses on the
+optimization of the phenomenon of self-induced stochastic resonance in a
+delayed multiplex neural network. We consider a two-layer multiplex network, in
+which at the intra-layer level neurons are coupled either by electrical
+synapses or by inhibitory chemical synapses. For each isolated layer, numerical
+computations indicate that weaker electrical and chemical synaptic couplings
+are better optimizers of self-induced stochastic resonance. In addition,
+regardless of the synaptic strengths, shorter electrical synaptic delays are
+found to be better optimizers of the phenomenon than shorter chemical synaptic
+delays, while longer chemical synaptic delays are a better optimizers than
+longer electrical synaptic delays - in both cases, the poorer optimizers are in
+fact worst. It is found that electrical, inhibitory, or excitatory chemical
+multiplexing of the two layers having only electrical synapses at the
+intra-layer levels can each optimize the phenomenon. And only excitatory
+chemical multiplexing of the two layers having only inhibitory chemical
+synapses at the intra-layer levels can optimize the phenomenon. These results
+should guide experiments aimed at confirming the mechanism of stochastic
+self-induced resonance in real biological neural networks.
+&lt;/p&gt;</content:encoded>
+	<dc:date>2020-03-02T01:30:00+00:00</dc:date>
+	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Yamakou_M/0/1/0/all/0/1">Marius E. Yamakou</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Hjorth_P/0/1/0/all/0/1">Poul G. Hjorth</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Martens_E/0/1/0/all/0/1">Erik A. Martens</a></dc:creator>
+</item>
 <item rdf:about="https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(20)30034-5?rss=yes">
 	<title>Trends in Neurosciences: Subscription and Copyright Information</title>
 	<link>https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(20)30034-5?rss=yes</link>
@@ -1531,26 +1608,6 @@ rates.
 	<dc:date>2020-02-26T01:30:00+00:00</dc:date>
 	<dc:creator><a href="http://arxiv.org/find/cs/1/au:+Zhang_S/0/1/0/all/0/1">Shao-Qun Zhang</a>, <a href="http://arxiv.org/find/cs/1/au:+Zhang_Z/0/1/0/all/0/1">Zhao-Yu Zhang</a>, <a href="http://arxiv.org/find/cs/1/au:+Zhou_Z/0/1/0/all/0/1">Zhi-Hua Zhou</a></dc:creator>
 </item>
-<item rdf:about="http://arxiv.org/abs/1808.10806">
-	<title>q-bio.NC updates on arXiv.org: Complete Inference of Causal Relations between Dynamical Systems. (arXiv:1808.10806v3 [q-bio.QM] UPDATED)</title>
-	<link>http://arxiv.org/abs/1808.10806</link>
-	<content:encoded>&lt;p&gt;From philosophers of ancient times to modern economists, biologists and other
-researchers are engaged in revealing causal relations. The most challenging
-problem is inferring the type of the causal relationship: whether it is uni- or
-bi-directional or only apparent - implied by a hidden common cause only. Modern
-technology provides us tools to record data from complex systems such as the
-ecosystem of our planet or the human brain, but understanding their functioning
-needs detection and distinction of causal relationships of the system
-components without interventions. Here we present a new method, which
-distinguishes and assigns probabilities to the presence of all the possible
-causal relations between two or more time series from dynamical systems. The
-new method is validated on synthetic datasets and applied to EEG
-(electroencephalographic) data recorded in epileptic patients. Given the
-universality of our method, it may find application in many fields of science.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2020-02-26T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/q-bio/1/au:+Benko_Z/0/1/0/all/0/1">Zsigmond Benk&#x151;</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Zlatniczki_A/0/1/0/all/0/1">&#xc1;d&#xe1;m Zlatniczki</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Stippinger_M/0/1/0/all/0/1">Marcell Stippinger</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Fabo_D/0/1/0/all/0/1">D&#xe1;niel Fab&#xf3;</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Solyom_A/0/1/0/all/0/1">Andr&#xe1;s S&#xf3;lyom</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Eross_L/0/1/0/all/0/1">Lor&#xe1;nd Er&#x151;ss</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Telcs_A/0/1/0/all/0/1">Andr&#xe1;s Telcs</a>, <a href="http://arxiv.org/find/q-bio/1/au:+Somogyvari_Z/0/1/0/all/0/1">Zolt&#xe1;n Somogyv&#xe1;ri</a></dc:creator>
-</item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnins.2020.00106">
 	<title>Frontiers in Neuroscience | Neural Technology section | New and Recent Articles: Trends of Repetitive Transcranial Magnetic Stimulation From 2009 to 2018: A Bibliometric Analysis</title>
 	<link>https://www.frontiersin.org/articles/10.3389/fnins.2020.00106</link>
@@ -1898,44 +1955,6 @@ Tumor growth curves are classically modeled by means of ordinary differential eq
 	<content:encoded>Long thought to be dispensable after establishing X chromosome inactivation (XCI), Xist RNA is now known to also maintain the inactive X (Xi). To what extent somatic X reactivation causes physiological abnormalities is an active area of inquiry. Here, we use multiple mouse models to investigate in vivo consequences. First,...&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/pnas/UJrK/~4/2Ir22eL0b-Y&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2020-02-25T17:21:02+00:00</dc:date>
 	<dc:creator>Lin Yang, Eda Yildirim, James E. Kirby, William Press, Jeannie T. Lee</dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/2002.10378">
-	<title>q-bio.NC updates on arXiv.org: Supervised Deep Similarity Matching. (arXiv:2002.10378v1 [cs.LG])</title>
-	<link>http://arxiv.org/abs/2002.10378</link>
-	<content:encoded>&lt;p&gt;We propose a novel biologically-plausible solution to the credit assignment
-problem, being motivated by observations in the ventral visual pathway and
-trained deep neural networks. In both, representations of objects in the same
-category become progressively more similar, while objects belonging to
-different categories becomes less similar. We use this observation to motivate
-a layer-specific learning goal in a deep network: each layer aims to learn a
-representational similarity matrix that interpolates between previous and later
-layers. We formulate this idea using a supervised deep similarity matching cost
-function and derive from it deep neural networks with feedforward, lateral and
-feedback connections, and neurons that exhibit biologically-plausible Hebbian
-and anti-Hebbian plasticity. Supervised deep similarity matching can be
-interpreted as an energy-based learning algorithm, but with significant
-differences from others in how a contrastive function is constructed.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2020-02-25T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/cs/1/au:+Qin_S/0/1/0/all/0/1">Shanshan Qin</a>, <a href="http://arxiv.org/find/cs/1/au:+Mudur_N/0/1/0/all/0/1">Nayantara Mudur</a>, <a href="http://arxiv.org/find/cs/1/au:+Pehlevan_C/0/1/0/all/0/1">Cengiz Pehlevan</a></dc:creator>
-</item>
-<item rdf:about="http://arxiv.org/abs/2002.10284">
-	<title>q-bio.NC updates on arXiv.org: Word Embeddings Inherently Recover the Conceptual Organization of the Human Mind. (arXiv:2002.10284v1 [cs.CL])</title>
-	<link>http://arxiv.org/abs/2002.10284</link>
-	<content:encoded>&lt;p&gt;Machine learning is a means to uncover deep patterns from rich sources of
-data. Here, we find that machine learning can recover the conceptual
-organization of the human mind when applied to the natural language use of
-millions of people. Utilizing text from billions of webpages, we recover most
-of the concepts contained in English, Dutch, and Japanese, as represented in
-large scale Word Association networks. Our results justify machine learning as
-a means to probe the human mind, at a depth and scale that has been
-unattainable using self-report and observational methods. Beyond direct
-psychological applications, our methods may prove useful for projects concerned
-with defining, assessing, relating, or uncovering concepts in any scientific
-field.
-&lt;/p&gt;</content:encoded>
-	<dc:date>2020-02-25T01:30:00+00:00</dc:date>
-	<dc:creator><a href="http://arxiv.org/find/cs/1/au:+Swift_V/0/1/0/all/0/1">Victor Swift</a></dc:creator>
 </item>
 <item rdf:about="https://www.frontiersin.org/articles/10.3389/fnsyn.2020.00001">
 	<title>Frontiers in Synaptic Neuroscience | New and Recent Articles: Gap Junction Coding Innexin in Lymnaea stagnalis: Sequence Analysis and Characterization in Tissues and the Central Nervous System</title>
