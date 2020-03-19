@@ -8,9 +8,22 @@
 >
 <foaf:Group>
 	<foaf:name>Planet Neuroscience</foaf:name>
-	<foaf:homepage>https://sanjayankur31.github.io/planet-neuroscience/</foaf:homepage>
+	<foaf:homepage>https://neurofedora.github.io/planet-neuroscience/</foaf:homepage>
 	<rdfs:seeAlso rdf:resource="" />
 
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name></foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="">
+					<dc:title></dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
 			<foaf:name>Annual Reviews: Annual Review of Neuroscience: Table of Contents</foaf:name>
@@ -69,19 +82,6 @@
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://academic.oup.com/cercor">
 					<dc:title>Cerebral Cortex:  Editor's Choice</dc:title>
-					<rdfs:seeAlso>
-						<rss:channel rdf:about="" />
-					</rdfs:seeAlso>
-				</foaf:Document>
-			</foaf:weblog>
-		</foaf:Agent>
-	</foaf:member>
-	<foaf:member>
-		<foaf:Agent>
-			<foaf:name>Current Opinion in Neurobiology - Just Published</foaf:name>
-			<foaf:weblog>
-				<foaf:Document rdf:about="http://www.current-opinion.com/rss/just-published/current-opinion-in-neurobiology/">
-					<dc:title>Current Opinion in Neurobiology - Just Published</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
 					</rdfs:seeAlso>
@@ -394,6 +394,19 @@
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://feeds.nature.com/nrn/rss/current">
 					<dc:title>Nature Reviews Neuroscience - Issue - nature.com science feeds</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Neuron</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://www.cell.com/archive?publicationCode=neuron&amp;rss=yes">
+					<dc:title>Neuron</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
 					</rdfs:seeAlso>
