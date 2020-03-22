@@ -16,6 +16,8 @@
 	<items>
 		<rdf:Seq>
 			<rdf:li rdf:resource="https://www.sciencedirect.com/science/article/pii/S0959438820300453" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/2020.03.21.001446v1?rss=1" />
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/2020.03.21.000323v1?rss=1" />
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25720?af=R" />
 			<rdf:li rdf:resource="/doi/abs/10.1002/ana.25721?af=R" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/2020.03.20.000190v1?rss=1" />
@@ -78,8 +80,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/2020.03.19.998476v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/2020.03.19.998468v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/2020.03.19.998419v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/2020.03.19.998161v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/2020.03.19.997098v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007732" />
 			<rdf:li rdf:resource="http://www.eneuro.org/cgi/content/short/7/2/ENEURO.0232-19.2020?rss=1" />
 			<rdf:li rdf:resource="http://www.eneuro.org/cgi/content/short/ENEURO.0412-19.2020v1?rss=1" />
@@ -424,6 +424,20 @@
 	<link>https://www.sciencedirect.com/science/article/pii/S0959438820300453?dgcid=rss_sd_all</link>
 	<content:encoded>&lt;p&gt;Publication date: August 2020&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 63&lt;/p&gt;&lt;p&gt;Author(s): Colin P O’Banion, Ryohei Yasuda&lt;/p&gt;</content:encoded>
 	<dc:date>2020-03-22T08:00:09+00:00</dc:date>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/2020.03.21.001446v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Mouse higher visual areas provide both distributed and discrete contributions to visually guided behaviors</title>
+	<link>http://biorxiv.org/cgi/content/short/2020.03.21.001446v1?rss=1</link>
+	<content:encoded>Cortical parallel processing streams segregate many diverse features of a sensory scene. However, some features are distributed across streams, begging the question of whether and how such distributed representations contribute to perception. We determined the necessity of primary visual cortex (V1) and three key higher visual areas (LM, AL and PM) for perception of orientation and contrast, two features that are robustly encoded across all four areas. Suppressing V1, LM or AL decreased sensitivity for both orientation discrimination and contrast detection, consistent with a role for these areas in sensory perception. In comparison, suppressing PM selectively increased false alarm rates during contrast detection, without any effect on orientation discrimination. This effect was not retinotopically-specific, suggesting a distinct role for PM in the regulation of noise during decision-making. Thus, we find that distributed representations in the visual system can nonetheless support specialized perceptual roles for higher visual cortical areas.</content:encoded>
+	<dc:date>2020-03-22T00:00:00+00:00</dc:date>
+	<dc:creator>Jin, M., Glickfeld, L.</dc:creator>
+</item>
+<item rdf:about="http://biorxiv.org/cgi/content/short/2020.03.21.000323v1?rss=1">
+	<title>bioRxiv Subject Collection: Neuroscience: Detection and skeletonization of single neurons and tracer injections using topological methods</title>
+	<link>http://biorxiv.org/cgi/content/short/2020.03.21.000323v1?rss=1</link>
+	<content:encoded>Neuroscientific data analysis has traditionally relied on linear algebra and stochastic process theory. However, the tree-like shapes of neurons cannot be described easily as points in a vector space (the subtraction of two neuronal shapes is not a meaningful operation), and methods from computational topology are better suited to their analysis. Here we introduce methods from Discrete Morse (DM) Theory to extract the tree-skeletons of individual neurons from volumetric brain image data, and to summarize collections of neurons labelled by tracer injections. Since individual neurons are topologically trees, it is sensible to summarize the collection of neurons using a consensus tree-shape that provides a richer information summary than the traditional regional 'connectivity matrix' approach. The conceptually elegant DM approach lacks hand-tuned parameters and captures global properties of the data as opposed to previous approaches which are inherently local. For individual skeletonization of sparsely labelled neurons we obtain substantial performance gains over state-of-the-art non-topological methods (over 10% improvements in precision and faster proofreading). The consensus-tree summary of tracer injections incorporates the regional connectivity matrix information, but in addition captures the collective collateral branching patterns of the set of neurons connected to the injection site, and provides a bridge between single-neuron morphology and tracer-injection data.</content:encoded>
+	<dc:date>2020-03-22T00:00:00+00:00</dc:date>
+	<dc:creator>Wang, D., Magee, L., Huo, B.-X., Banerjee, S., Li, X., Jayakumar, J., Lin, M. K., Ram, K., Wang, S., Wang, Y., Mitra, P. P.</dc:creator>
 </item>
 <item rdf:about="/doi/abs/10.1002/ana.25720?af=R">
 	<title>Wiley: Annals of Neurology: Table of Contents: Drebrin autoantibodies in patients with seizures and suspected encephalitis</title>
@@ -970,20 +984,6 @@ human brains remarkably puzzling mix of sequential and parallel capabilities.
 	<content:encoded>Noise is a ubiquitous component of motor systems which leads to behavioral variability of all types of movements, including saccadic eye movements. Nonetheless, systems-based models of saccadic eye movements are deterministic and do not explain the observed saccade variability, only their central tendencies. Using stochastic models, we studied the variability in saccade behavior to test and distinguish between previously proposed deterministic saccade models. For this, the inter-trial variability in saccade displacement trajectories of human subjects was quantified while they performed repeated saccadic eye movements to a peripheral target. Based on fits to the data, we showed that existing models based on either displacement or velocity failed to capture the observed patterns in the variability of saccade trajectories. However, the observed behavior was captured by a dual control system, using a combination of displacement and velocity signal. The proposed model fits the mean displacement trajectory as well as the existing deterministic models. Taken together, our results suggest that the saccade system uses both desired displacement and velocity information.</content:encoded>
 	<dc:date>2020-03-20T00:00:00+00:00</dc:date>
 	<dc:creator>Vasudevan, V., Padhi, R., Murthy, A.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/2020.03.19.998161v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Size Aftereffect is non-local</title>
-	<link>http://biorxiv.org/cgi/content/short/2020.03.19.998161v1?rss=1</link>
-	<content:encoded>It is well known that prolonged exposure to a certain size stimulus alters the perceived size of a subsequently presented stimulus at the same location. How the rest of the visual space is affected by this size adaptation, however, has not been systematically studied before. Here, to fill this gap in literature, we tested size adaptation at the adapter location as well as the rest of the visual space. We used peripherally presented solid discs (Experiment 1) and rings (Experiment 2) as adapter and target (test) stimuli. Observers adapted to a mid-sized stimulus and judged the size of the subsequently presented smaller or larger target stimuli. Results showed that the perceived sizes of target stimuli were repelled away from the adapter size, not only at the adapter location but also at distant locations. These findings demonstrate that size adaptation causes widespread distortion of the visual space and alters perceived size. We discuss possible computational models that may underpin the perceptual effect.</content:encoded>
-	<dc:date>2020-03-20T00:00:00+00:00</dc:date>
-	<dc:creator>Altan, E., Boyaci, H.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/2020.03.19.997098v1?rss=1">
-	<title>bioRxiv Subject Collection: Neuroscience: Reward learning and working memory: effects of massed versus spaced training and post-learning delay period</title>
-	<link>http://biorxiv.org/cgi/content/short/2020.03.19.997098v1?rss=1</link>
-	<content:encoded>Over the past few decades, neuroscience research has illuminated the neural mechanisms supporting learning from reward feedback, demonstrating a critical role for the striatum and ascending midbrain dopamine system. However, in humans, short- term working memory can also play an important role in reward-based learning, particularly in common paradigms that are relatively compressed in time. Given the growing use of reward-based learning tasks in translational studies in computational psychiatry, it is important to further investigate the degree to which apparent reinforcement learning is driven by working memory contributions. In our experiments, we manipulated the spacing between repetitions and also the post-learning delay period duration. Supporting a significant role for working memory in reward-based learning, we found that learning was faster for massed-trained compared to spaced-trained stimuli, and that brief interruptions of massed learning led to drops in subsequent performance. Further, individual differences in working memory capacity positively correlated with massed learning performance. Critically, after a delay period but not immediately, relative performance decayed in the massed condition and increased in the spaced condition. Overall, our results provide further support that working memory plays a large role in temporally condensed reward learning designs. We suggest that spacing training across or between sessions is a promising direction to pursue in future studies investigating the mechanisms of reward-based learning, and particularly in translational research.</content:encoded>
-	<dc:date>2020-03-20T00:00:00+00:00</dc:date>
-	<dc:creator>Wimmer, G. E., Poldrack, R. A.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007732">
 	<title>PLOS Computational Biology: New Articles: PPanGGOLiN: Depicting microbial diversity via a partitioned pangenome graph</title>
