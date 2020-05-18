@@ -9,6 +9,181 @@
 	<atom:link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscience/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Optimizing Neural Architecture Search using Limited GPU Time in a Dynamic Search Space: A Gene Expression Programming Approach. (arXiv:2005.07669v1 [cs.CV])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2005.07669</guid>
+	<link>http://arxiv.org/abs/2005.07669</link>
+	<description>&lt;p&gt;Efficient identification of people and objects, segmentation of regions of
+interest and extraction of relevant data in images, texts, audios and videos
+are evolving considerably in these past years, which deep learning methods,
+combined with recent improvements in computational resources, contributed
+greatly for this achievement. Although its outstanding potential, development
+of efficient architectures and modules requires expert knowledge and amount of
+resource time available. In this paper, we propose an evolutionary-based neural
+architecture search approach for efficient discovery of convolutional models in
+a dynamic search space, within only 24 GPU hours. With its efficient search
+environment and phenotype representation, Gene Expression Programming is
+adapted for network's cell generation. Despite having limited GPU resource time
+and broad search space, our proposal achieved similar state-of-the-art to
+manually-designed convolutional networks and also NAS-generated ones, even
+beating similar constrained evolutionary-based NAS works. The best cells in
+different runs achieved stable results, with a mean error of 2.82% in CIFAR-10
+dataset (which the best model achieved an error of 2.67%) and 18.83% for
+CIFAR-100 (best model with 18.16%). For ImageNet in the mobile setting, our
+best model achieved top-1 and top-5 errors of 29.51% and 10.37%, respectively.
+Although evolutionary-based NAS works were reported to require a considerable
+amount of GPU time for architecture search, our approach obtained promising
+results in little time, encouraging further experiments in evolutionary-based
+NAS, for search and network representation improvements.
+&lt;/p&gt;</description>
+	<pubDate>Mon, 18 May 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
+</item>
+<item>
+	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Mixed-Initiative Procedural Content Generation using Level Design Patterns and Interactive Evolutionary Optimisation. (arXiv:2005.07478v1 [cs.NE])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2005.07478</guid>
+	<link>http://arxiv.org/abs/2005.07478</link>
+	<description>&lt;p&gt;An approach for building mixed-initiative tools for the procedural generation
+of game levels using interactive evolutionary optimisation is introduced. A
+tool is created based on this approach which (a) is focused on supporting the
+designer to explore the design space and (b) only requires the designer to
+interact with it by designing levels. The tool identifies level design patterns
+in an initial hand-designed map and uses that information to drive an
+optimisation algorithm. This results in a number of suggestions which are
+presented to the designer, who can then edit them providing the system with
+valuable designer feedback. The effectiveness of this approach to create levels
+with similar level design patterns to a target is illustrated through a series
+of algorithm driven benchmark tests. To test the mixed-initiative aspect of the
+tool a triple-blind mixed-method, user study was conducted. When compared to a
+control group, provided with random level suggestions throughout the design
+process, the mixed-initiative approach increased engagement in the level design
+task and was effective in inspiring new ideas and design directions. This
+provides significant evidence that procedural content generation can be used as
+a powerful tool to support the human design process.
+&lt;/p&gt;</description>
+	<pubDate>Mon, 18 May 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
+</item>
+<item>
+	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Improving Neuroevolution Using Island Extinction and Repopulation. (arXiv:2005.07376v1 [cs.NE])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2005.07376</guid>
+	<link>http://arxiv.org/abs/2005.07376</link>
+	<description>&lt;p&gt;Neuroevolution commonly uses speciation strategies to better explore the
+search space of neural network architectures. One such speciation strategy is
+through the use of islands, which are also popular in improving performance and
+convergence of distributed evolutionary algorithms. However, in this approach
+some islands can become stagnant and not find new best solutions. In this
+paper, we propose utilizing extinction events and island repopulation to avoid
+premature convergence. We explore this with the Evolutionary eXploration of
+Augmenting Memory Models (EXAMM) neuro-evolution algorithm. In this strategy,
+all members of the worst performing island are killed of periodically and
+repopulated with mutated versions of the global best genome. This island based
+strategy is additionally compared to NEAT's (NeuroEvolution of Augmenting
+Topologies) speciation strategy. Experiments were performed using two different
+real world time series datasets (coal-fired power plant and aviation flight
+data). The results show that with statistical significance, this island
+extinction and repopulation strategy evolves better global best genomes than
+both EXAMM's original island based strategy and NEAT's speciation strategy.
+&lt;/p&gt;</description>
+	<pubDate>Mon, 18 May 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
+</item>
+<item>
+	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Learning Rate Annealing Can Provably Help Generalization, Even for Convex Problems. (arXiv:2005.07360v1 [cs.LG])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2005.07360</guid>
+	<link>http://arxiv.org/abs/2005.07360</link>
+	<description>&lt;p&gt;Learning rate schedule can significantly affect generalization performance in
+modern neural networks, but the reasons for this are not yet understood.
+Li-Wei-Ma (2019) recently proved this behavior can exist in a simplified
+non-convex neural-network setting. In this note, we show that this phenomenon
+can exist even for convex learning problems -- in particular, linear regression
+in 2 dimensions.
+&lt;/p&gt;
+&lt;p&gt;We give a toy convex problem where learning rate annealing (large initial
+learning rate, followed by small learning rate) can lead gradient descent to
+minima with provably better generalization than using a small learning rate
+throughout. In our case, this occurs due to a combination of the mismatch
+between the test and train loss landscapes, and early-stopping.
+&lt;/p&gt;</description>
+	<pubDate>Mon, 18 May 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
+</item>
+<item>
+	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Evo* 2020 -- Late-Breaking Abstracts Volume. (arXiv:2005.07235v1 [cs.NE])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2005.07235</guid>
+	<link>http://arxiv.org/abs/2005.07235</link>
+	<description>&lt;p&gt;This volume contains the Late-Breaking Abstracts submitted to the Evo* 2020
+Conference, that took place online, from 15 to 17 of April 2020. These papers
+where presented as short talks and also at the poster session of the conference
+together with other regular submissions. All of them present ongoing research
+and preliminary results investigating on the application of different
+approaches of Bioinspired Methods (mainly Evolutionary Computation) to
+different problems, most of them real world ones.
+&lt;/p&gt;</description>
+	<pubDate>Mon, 18 May 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
+</item>
+<item>
+	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Evolved Explainable Classifications for Lymph Node Metastases. (arXiv:2005.07229v1 [cs.CV])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2005.07229</guid>
+	<link>http://arxiv.org/abs/2005.07229</link>
+	<description>&lt;p&gt;A novel evolutionary approach for Explainable Artificial Intelligence is
+presented: the &quot;Evolved Explanations&quot; model (EvEx). This methodology consists
+in combining Local Interpretable Model Agnostic Explanations (LIME) with
+Multi-Objective Genetic Algorithms to allow for automated segmentation
+parameter tuning in image classification tasks. In this case, the dataset
+studied is Patch-Camelyon, comprised of patches from pathology whole slide
+images. A publicly available Convolutional Neural Network (CNN) was trained on
+this dataset to provide a binary classification for presence/absence of lymph
+node metastatic tissue. In turn, the classifications are explained by means of
+evolving segmentations, seeking to optimize three evaluation goals
+simultaneously. The final explanation is computed as the mean of all
+explanations generated by Pareto front individuals, evolved by the developed
+genetic algorithm. To enhance reproducibility and traceability of the
+explanations, each of them was generated from several different seeds, randomly
+chosen. The observed results show remarkable agreement between different seeds.
+Despite the stochastic nature of LIME explanations, regions of high explanation
+weights proved to have good agreement in the heat maps, as computed by
+pixel-wise relative standard deviations. The found heat maps coincide with
+expert medical segmentations, which demonstrates that this methodology can find
+high quality explanations (according to the evaluation metrics), with the novel
+advantage of automated parameter fine tuning. These results give additional
+insight into the inner workings of neural network black box decision making for
+medical data.
+&lt;/p&gt;</description>
+	<pubDate>Mon, 18 May 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
+</item>
+<item>
+	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Adversarial Perturbations Fool Deepfake Detectors. (arXiv:2003.10596v2 [cs.CV] UPDATED)</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2003.10596</guid>
+	<link>http://arxiv.org/abs/2003.10596</link>
+	<description>&lt;p&gt;This work uses adversarial perturbations to enhance deepfake images and fool
+common deepfake detectors. We created adversarial perturbations using the Fast
+Gradient Sign Method and the Carlini and Wagner L2 norm attack in both blackbox
+and whitebox settings. Detectors achieved over 95% accuracy on unperturbed
+deepfakes, but less than 27% accuracy on perturbed deepfakes. We also explore
+two improvements to deepfake detectors: (i) Lipschitz regularization, and (ii)
+Deep Image Prior (DIP). Lipschitz regularization constrains the gradient of the
+detector with respect to the input in order to increase robustness to input
+perturbations. The DIP defense removes perturbations using generative
+convolutional neural networks in an unsupervised manner. Regularization
+improved the detection of perturbed deepfakes on average, including a 10%
+accuracy boost in the blackbox case. The DIP defense achieved 95% accuracy on
+perturbed deepfakes that fooled the original detector, while retaining 98%
+accuracy in other cases on a 100 image subsample.
+&lt;/p&gt;</description>
+	<pubDate>Mon, 18 May 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
+</item>
+<item>
+	<title>Nature Communications: Extinction of eastern Sahul megafauna coincides with sustained environmental deterioration</title>
+	<guid isPermaLink="false">https://www.nature.com/articles/s41467-020-15785-w</guid>
+	<link>http://feeds.nature.com/~r/ncomms/rss/current/~3/YWX_4DjFik8/s41467-020-15785-w</link>
+	<description>&lt;p&gt;Nature Communications, Published online: 18 May 2020; &lt;a href=&quot;https://www.nature.com/articles/s41467-020-15785-w&quot;&gt;doi:10.1038/s41467-020-15785-w&lt;/a&gt;&lt;/p&gt;The causes of the Upper Pleistocene megafauna extinction in Australia and New Guinea are debated, but fossil data are lacking for much of this region. Here, Hocknull and colleagues report a new, diverse megafauna assemblage from north-eastern Australia that persisted until ~40,000 years ago.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ncomms/rss/current/~4/YWX_4DjFik8&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+  <source url="http://feeds.nature.com/ncomms/rss/current">Nature Communications - current - nature.com science feeds</source>
+</item>
+<item>
 	<title>Current Opinion in Neurobiology: Epigenetic regulation of cortical neurogenesis; orchestrating fate switches at the right time and place</title>
 	<guid isPermaLink="false">https://www.sciencedirect.com/science/article/pii/S0959438820300751</guid>
 	<link>https://www.sciencedirect.com/science/article/pii/S0959438820300751?dgcid=rss_sd_all</link>
@@ -23,6 +198,46 @@
 	<description>&lt;p&gt;Publication date: Available online 16 May 2020&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Neural Networks&lt;/p&gt;&lt;p&gt;Author(s): Allen Hart, James Hook, Jonathan Dawes&lt;/p&gt;</description>
 	<pubDate>Sun, 17 May 2020 13:00:11 +0000</pubDate>
   <source url="http://rss.sciencedirect.com/publication/science/08936080">ScienceDirect Publication: Neural Networks</source>
+</item>
+<item>
+	<title>Trends in Neurosciences: In press: Resurrecting the Mysteries of Big Tau</title>
+	<guid isPermaLink="true">https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(20)30098-9?rss=yes</guid>
+	<link>https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(20)30098-9?rss=yes</link>
+	<description>Tau, a microtubule-associated protein that modifies the dynamic properties and organization of microtubules in neurons and affects axonal transport, shows remarkable heterogeneity, with multiple isoforms (45–65 kDa) generated by alternative splicing. A high-molecular-weight (HMW) isoform (110 kDa) that contains an additional large exon termed 4a was discovered more than 25 years ago. This isoform, called Big tau, is expressed mainly in the adult peripheral nervous system (PNS), but also in adult neurons of the central nervous system (CNS) that extend processes into the periphery.</description>
+	<pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+  <source url="http://www.cell.com/trends/neurosciences/inpress.rss">Trends in Neurosciences</source>
+</item>
+<item>
+	<title>Cell Reports: In press: Cross-reactive antibody response between SARS-CoV-2 and SARS-CoV infections</title>
+	<guid isPermaLink="true">https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30702-6?rss=yes</guid>
+	<link>https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30702-6?rss=yes</link>
+	<description>The World Health Organization has declared the ongoing outbreak of COVID-19, which is caused by a novel coronavirus SARS-CoV-2, as pandemic. There is currently a lack of knowledge about the antibody response elicited from SARS-CoV-2 infection. One major immunological question concerns antigenic differences between SARS-CoV-2 and SARS-CoV. We address this question by analyzing plasma from patients infected by SARS-CoV-2 or SARS-CoV, and from infected or immunized mice. Our results show that, while cross-reactivity in antibody binding to the spike protein is common, cross-neutralization of the live viruses may be rare, indicating the presence of non-neutralizing antibody response to conserved epitopes in the spike.</description>
+	<pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+  <source url="https://www.cell.com/cell-reports/inpress.rss">Cell Reports</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Objective Extraction of Evoked Event-related Oscillations from Time-frequency Representation of Event-related Potentials</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.05.17.100511v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.05.17.100511v1?rss=1</link>
+	<description>Evoked event-related oscillations (EROs) have been widely used to explore the mechanisms of brain activities for both normal people and neuropsychiatric disease patients. The selection of regions of evoked EROs tends to be subjectively based on the previous studies and the visual inspection of grand averaged time-frequency representations (TFRs) which causes some missing or redundant information. Meanwhile, the evoked EROs cannot be fully extracted via the conventional time-frequency analysis (TFA) method because they are sometimes overlapped with each other or with artifacts in time, frequency, and space domains to some extent. Hence, these shortcomings may pose some challenges to investigate the related neuronal processes. A data-driven approach was introduced to fill the gaps as below: extracting the temporal and spatial components of interest simultaneously by principal component analysis and Promax rotation and projecting them to the electrode field to correct their variance and polarity indeterminacy, calculating the TFRs of the back-projected components, and determining the regions of interest objectively using the edge detection algorithm. We performed this novel approach and the conventional TFA method in analyzing both a synthetic dataset and an actual ERP dataset in a two-factor simple gambling paradigm of waiting time (short/long) and feedback (loss/gain) separately. Synthetic dataset results indicated that N2-theta and P3-delta oscillations were detected using the proposed approach, but, by comparison, only one oscillation was obtained via the conventional TFA method. Furthermore, the actual ERP dataset results of P3-delta for our approach revealed that it was sensitive to the waiting time (which also was found in the previous reports) but not for that of the conventional TFA method. This study manifested that the proposed approach can objectively extract evoked EROs, which allows a better understanding of the modulations of the oscillatory responses.</description>
+	<pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: The role of the vestibular system in value attribution to positive and negative reinforcers</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.05.17.100255v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.05.17.100255v1?rss=1</link>
+	<description>Somatic inputs originating from bioregulatory processes can guide cognition and behavior. One such bodily signal, mostly overlooked so far, is represented by visuo-vestibular coupling and its alteration, which in extreme cases may result in motion sickness. We argued that the inherently perturbed interoceptive state that follows can be a powerful determinant of human motivated behavior, resulting in a blunted response to appetitive stimuli and an exaggerated response to noxious ones. We sought to assess such differential impact of visuo-vestibular mismatches on value through a task involving conflict monitoring. We therefore administered to 42 healthy participants a modified version of the Flankers task, in which distractors (arrows, pointing in either a congruent or incongruent direction) signaled the availability of monetary incentives (gains, losses, or neutral trials). While performing the task, participants received either galvanic vestibular stimulation (GVS), or sham stimulation. We have found impaired behavioral performances when value, which was attached to task-irrelevant information, was at stake. Gains and losses, interestingly, dissociated, and only the latter caused enhanced interference costs in the task, suggesting that negative incentives may be more effective in capturing human attention than positive ones. Finally, we have found some weak evidence for GVS to further increase the processing of losses, as suggested by even larger interference costs in this condition. Results were, however, overall ambiguous, and suggest that much more research is needed to better understand the link between the vestibular system and motivation.</description>
+	<pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Optogenetic therapy: High spatiotemporal resolution and pattern recognition compatible with vision restoration in non-human primates</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.05.17.100230v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.05.17.100230v1?rss=1</link>
+	<description>Restoring vision using optogenetics is an ideal medical application because the eye offers a direct window to access and stimulate the pathological area: the retina. Optogenetic therapy could be applied to diseases with photoreceptor degeneration such as retinitis pigmentosa. Here, we select the specific optogenetic construct that is now used in the clinical trial and assess the opsin functional efficacy on non-human primates retinal ganglion cells (RGCs). We chose the microbial opsin ChrimsonR and showed that the vector AAV2.7m8 produced greater transfection in RGCs compared to AAV2, and that ChrimsonR attached to tdTomato (ChR-tdT) is more efficiently expressed than ChrimsonR. The 600 nm light activates the RGCs transfected with the vector AAV2.7m8-ChR-tdT from an irradiance of 1015 photons.cm-2.s-1. Vector doses of 5.1010 and 5.1011 vg/eye transfect up to 7000 RGCs/mm2 in the perifovea, with no significant immune reaction. Furthermore, using a multielectrode array we recorded RGCs responses starting from 1ms stimulus duration. Using the recorded activity we were able to decode stimulus information and estimate a theoretical visual acuity of 20/249, above legal blindness. Altogether, our results pave the way for the ongoing clinical trial with the AAV2.7m8-ChrimsonR-tdT vector for vision restoration in patients affected by retinitis pigmentosa.</description>
+	<pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
 <item>
 	<title>bioRxiv: Neuroscience: BrainGNN: Interpretable Brain Graph Neural Network for fMRI Analysis</title>
@@ -93,6 +308,14 @@
 	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.05.16.093559v1?rss=1</guid>
 	<link>http://biorxiv.org/cgi/content/short/2020.05.16.093559v1?rss=1</link>
 	<description>Background and Objective: PSEN1-H163Y carriers, at the presymptomatic stage, have reduced 18FDG-PET binding in the cerebrum of the brain [1]. This could imply dysfunctional energy metabolism in the brain. In this study, plasma of presymptomatic PSEN1 mutation carriers was analyzed to understand associated metabolic changes. Methods: We analyzed plasma from non-carriers (NC, n=8) and presymptomatic PSEN1-H163Y mutation carriers (MC, n=6) via untargeted metabolomics using gas and liquid chromatography coupled with mass spectrometry, which identified 1199 metabolites. All the metabolites were compared between MC and NC using univariate analysis, as well as correlated with the ratio of Abeta1-42/Abeta1-40, using Spearman correlation. Altered metabolites were subjected to Ingenuity Pathways Analysis (IPA). Results: When comparing between presymptomatic MC and NC, the levels of 116 different metabolites were altered. Out of 116, only 23 were annotated metabolites, which include amino acids, fatty acyls, bile acids, hexoses, purine nucleosides, carboxylic acids, and glycerophosphatidylcholine species. 1-docosapentaenoyl-GPC, glucose and uric acid were correlated with the ratio of plasma Abeta1-42/Abeta1-40 (p&amp;lt;0.05). Conclusion: This study finds dysregulated metabolite classes, which are changed before the disease onset. Also, it provides an opportunity to compare with sporadic Alzheimer Disease. Observed findings in this study need to be validated in a larger and independent Familial Alzheimer Disease (FAD) cohort.</description>
+	<pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Assumptions belief load impacts brain networks underlying logical reasoning</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.05.16.092304v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.05.16.092304v1?rss=1</link>
+	<description>Prior knowledge and beliefs influence our reasoning in daily life and may lead us to draw unwarranted conclusions with undesirable consequences. The underlying neural correlates of the interaction between belief and logic, prior to making logical decisions, are largely unknown. In this study, we aimed to identify brain regions important in distinguishing belief load of assumptions in logical decision making. Thirty-one healthy volunteers (18-29 years old) participated in an fMRI study and were asked to respond to a series of syllogistic arguments in which assumptions were either congruent (believable) or incongruent (unbelievable) with currently-held beliefs. An interpretable machine learning algorithm, an L1 regularized Support Vector Machine, was used to explain the discriminatory pattern of conditions given the brain activation patterns. Behavioral results confirmed that believable premises were endorsed more than unbelievable ones. Imaging results revealed that the thalamus, superior temporal gyrus, inferior frontal gyrus (IFG), posterior cingulate gyrus, precuneus, insula, and caudate are important in distinguishing belief load. Several connectivity patterns between the insula, amygdala, and IFG were deemed to be important in distinguishing believable from unbelievable assumptions. This is the first study to investigate neural mechanisms important in distinguishing belief load of assumptions using interpretable machine learning. We uncovered brain connections involved in differentiating belief load at different time points preceding the making of a logical decision. Our discovery provides new insights into the interaction between belief load of assumptions and logic systems and has important practical implications for social decisions.</description>
 	<pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
   <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
@@ -288,38 +511,6 @@
 	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.05.15.094938v1?rss=1</guid>
 	<link>http://biorxiv.org/cgi/content/short/2020.05.15.094938v1?rss=1</link>
 	<description>Background: Cerebellar damage is common in people with multiple sclerosis (pwMS) and is associated with worse progression and relapse recovery. Studies into the importance of the cerebellum in pwMS are hampered by limited understanding of cerebellar damage and its relation to cerebellar function in pwMS. Objective: Examine axonal loss, as a primary driver of progressive neurological decline, in the cerebellum using advanced diffusion MRI and compare axonal loss with cerebellar dysfunction in pwMS. Methods: We recruited 55 pwMS and 14 healthy controls. Clinical assessments included scale for the assessment and rating of ataxia (SARA), and Bain tremor ratings. Subjects underwent FLAIR, T1-weighted and diffusion MRI. Cerebellar grey and white matter and lesion volume were calculated. Cerebellar axonal loss was examined with fibre-specific markers. Fibre density and cross-section (FDC) accounts for microscopic and macroscopic changes in a fibre bundle. Results: Loss of cerebellar FDC was associated with increased SARA (r=-0.42, p&amp;lt;0.01) and tremor severity (rho=-0.35, p=0.01). Cerebellar lesion volume correlated with SARA (r=0.49, p&amp;lt;0.01) and tremor severity (rho=0.41, p=0.01). Conclusion: Fibre-specific measures of cerebellar pathology could provide a functionally relevant marker of cerebellar damage in MS. Future trials using fibre-specific markers are needed to further characterize cerebellar pathology in pwMS and understand its significance in disease progression.</description>
-	<pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Automated Quantification of Mitochondrial Fragmentation in an In-Vitro Parkinson's Disease Model.</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.05.15.093369v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.05.15.093369v1?rss=1</link>
-	<description>Neuronal mitochondrial fragmentation is a phenotype exhibited in models of neurodegeneration such as Parkinson's Disease. Delineating the dysfunction in mitochondrial dynamics found in diseased states can aid our understanding of underlying mechanisms for disease progression and possibly identify novel therapeutic approaches. Advances in microscopy and the availability of intuitive open-access software has accelerated the rate of image acquisition and analysis, respectively. These developments allow routine biology researchers to rapidly turn hypotheses into results. In this protocol, we describe the utilisation of cell culture techniques, high-content imaging (HCI), and subsequent open-source image analysis pipeline for the quantification of mitochondrial fragmentation in the context of a rotenone-based in-vitro Parkinson's Disease model.</description>
-	<pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Multifocal tDCS modulates resting-state functional connectivity in older adults depending on induced electric field and baseline connectivity</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.05.15.090860v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.05.15.090860v1?rss=1</link>
-	<description>Background: Advancing age affects the brain's resting-state functional networks. Combining non-invasive brain stimulation (NIBS) with neuroimaging is a promising approach to modulate activity across resting-state functional systems and explore their true contribution to cognitive function in aging. However, substantial individual variability in the response to NIBS has been reported and, hence, identifying the individual predictors of NIBS-induced modulatory effects is crucial if we are to harness their potential. Methods: Thirty-one cognitively healthy older adults (71.68 +/- 2.5 years; 19 females) underwent two different multifocal real tDCS conditions (C1 and C2) and a sham condition in a crossover design during a resting-state functional magnetic resonance imaging (rs-fMRI) acquisition. The real tDCS conditions were designed to induce two distinct electric field distribution patterns either targeting generalized cortical overactivity or a dissociation between the frontal areas and the posteromedial cortex. Stimulation was delivered through an MRI-compatible device using 8 small circular electrodes. Each individuals' anatomical T1-weighted MRI was used to generate a finite element model to define the individual electric field generated by each tDCS condition. Results: The two tDCS conditions modulated resting-state connectivity differently. C1 increased the coactivation of numerous functional couplings as compared to sham, however, a smaller amount of connections increased in C1 as compared to C2, while no differences between C2 and sham were appreciated. At the group level, C1-induced modulations primarily included temporo-occipital areas and distinct cerebellar regions. This functional pattern was anatomically consistent with the estimated distribution of the induced electric field in the C1 condition. Finally, at the individual level, the extent of tDCS-induced rs-fMRI modulation in C1 was predicted by baseline resting-state connectivity and simulation-based electric field magnitude. Discussion: Our results highlighted that multifocal tDCS procedures can effectively change neural dynamics in the elderly consistently with the spatial distribution of the estimated electric fields on the brain. Furthermore, we showed that specific brain factors that have been revealed to explain part of the individual variability to NIBS in young samples are also relevant in older adults. In accordance, designing multifocal tDCS configurations based on specific fMRI patterns appears to be a valuable approach to precisely adjust those complex neural dynamics sustaining cognition that are affected as a function of age. Furthermore, these innovative NIBS-based interventions should be individually-tailored based on subject-specific structural and functional data to ultimately boost their potential in aged populations.</description>
-	<pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Similar masking effects of natural backgrounds on detection performances in humans, macaques, and macaque-V1 population responses</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.05.15.082537v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.05.15.082537v1?rss=1</link>
-	<description>Visual systems evolve to process the stimuli that arise in the organism's natural environment and hence to fully understand the neural computations in the visual system it is important to measure behavioral and neural responses to natural visual stimuli. Here we measured psychometric and neurometric functions and thresholds in the macaque monkey for detection of a windowed sine-wave target in uniform backgrounds and in natural backgrounds of various contrasts. The neurometric functions and neurometric thresholds were obtained by near-optimal decoding of voltage-sensitive-dye-imaging (VSDI) responses at the retinotopic scale in primary visual cortex (V1). The results were compared with previous human psychophysical measurements made under the same conditions. We found that human and macaque behavioral thresholds followed the generalized Weber's law as function of contrast, and that both the slopes and the intercepts of the threshold functions match each other up to a single scale factor. We also found that the neurometric thresholds followed the generalized Weber's law and that the neurometric slopes and intercepts matched the behavioral slopes and intercepts up to a single scale factor. We conclude that human and macaque ability to detect targets in natural backgrounds are affected in the same way by background contrast, that these effects are consistent with population decoding at the retinotopic scale by downstream circuits, and that the macaque monkey is an appropriate animal model for gaining an understanding of the neural mechanisms in humans for detecting targets in natural backgrounds. Finally, we discuss limitations of the current study and potential next steps.</description>
-	<pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Elevated dietary ω-6 polyunsaturated fatty acids induce reversible peripheral nerve dysfunction that exacerbates comorbid pain conditions</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.05.15.077164v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.05.15.077164v1?rss=1</link>
-	<description>Chronic pain is the leading cause of disability worldwide1 and commonly associated with comorbid disorders2. However, the role of diet in chronic pain is poorly understood. Of particular interest is the Western-style diet, enriched with {omega}-6 polyunsaturated fatty acids (PUFAs) that accumulate in membrane phospholipids and oxidize into pronociceptive oxylipins3,4. Here we report that mice administered a diet enriched with {omega}-6 PUFAs develop persistent nociceptive hypersensitivities, spontaneously-active and hyper-responsive glabrous afferent fibers, and histologic markers of peripheral nerve damage reminiscent of a peripheral neuropathy. Linoleic and arachidonic acids accumulate in lumbar dorsal root ganglia, with increased liberation via elevated PLA2 activity. Pharmacological and molecular inhibition of PLA2g7 or diet reversal with high {omega}-3 PUFAs attenuate nociceptive behaviors, neurophysiologic abnormalities, and afferent histopathology induced by high {omega}-6 intake. In addition, {omega}-6 accumulation exacerbates the intensity or duration of allodynia observed in preclinical inflammatory and neuropathic pain models, as well as in clinical diabetic neuropathy. Collectively, these data reveal diet as a novel etiology of peripheral neuropathy and risk factor for chronic pain, and implicate multiple therapeutic considerations for clinical pain management.</description>
 	<pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
   <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
@@ -1324,7 +1515,7 @@ benchmarking.
   <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
 </item>
 <item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Binarizing MobileNet via Evolution-based Searching. (arXiv:2005.06305v1 [cs.CV])</title>
+	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Binarizing MobileNet via Evolution-based Searching. (arXiv:2005.06305v2 [cs.CV] UPDATED)</title>
 	<guid isPermaLink="true">http://arxiv.org/abs/2005.06305</guid>
 	<link>http://arxiv.org/abs/2005.06305</link>
 	<description>&lt;p&gt;Binary Neural Networks (BNNs), known to be one among the effectively compact
@@ -1497,91 +1688,6 @@ capability and performance of the suggested genetic algorithm. Genetic
 algorithms are used to depict or obtain a general solution of given problem.
 Using this feature of GA we have tried to evolve the cellular automata and
 shown that how with time it converges to the desired results.
-&lt;/p&gt;</description>
-	<pubDate>Thu, 14 May 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
-</item>
-<item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Proving $\mu&gt;1$. (arXiv:2004.11685v2 [cs.NE] UPDATED)</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2004.11685</guid>
-	<link>http://arxiv.org/abs/2004.11685</link>
-	<description>&lt;p&gt;Choosing the right selection rate is a long standing issue in evolutionary
-computation. In the continuous unconstrained case, we prove mathematically that
-$\mu=1$ leads to a sub-optimal simple regret in the case of the sphere
-function. We provide a theoretically-based selection rate $\mu/\lambda$ that
-leads to better convergence rates. With our choice of selection rate, we get a
-provable regret of order $O(\lambda^{-1})$ which has to be compared with
-$O(\lambda^{-2/d})$ in the case where $\mu=1$. We complete our study with
-experiments to confirm our theoretical claims.
-&lt;/p&gt;</description>
-	<pubDate>Thu, 14 May 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
-</item>
-<item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: dMFEA-II: An Adaptive Multifactorial Evolutionary Algorithm for Permutation-based Discrete Optimization Problems. (arXiv:2004.06559v3 [cs.AI] UPDATED)</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2004.06559</guid>
-	<link>http://arxiv.org/abs/2004.06559</link>
-	<description>&lt;p&gt;The emerging research paradigm coined as multitasking optimization aims to
-solve multiple optimization tasks concurrently by means of a single search
-process. For this purpose, the exploitation of complementarities among the
-tasks to be solved is crucial, which is often achieved via the transfer of
-genetic material, thereby forging the Transfer Optimization field. In this
-context, Evolutionary Multitasking addresses this paradigm by resorting to
-concepts from Evolutionary Computation. Within this specific branch, approaches
-such as the Multifactorial Evolutionary Algorithm (MFEA) has lately gained a
-notable momentum when tackling multiple optimization tasks. This work
-contributes to this trend by proposing the first adaptation of the recently
-introduced Multifactorial Evolutionary Algorithm II (MFEA-II) to
-permutation-based discrete optimization environments. For modeling this
-adaptation, some concepts cannot be directly applied to discrete search spaces,
-such as parent-centric interactions. In this paper we entirely reformulate such
-concepts, making them suited to deal with permutation-based search spaces
-without loosing the inherent benefits of MFEA-II. The performance of the
-proposed solver has been assessed over 5 different multitasking setups,
-composed by 8 datasets of the well-known Traveling Salesman (TSP) and
-Capacitated Vehicle Routing Problems (CVRP). The obtained results and their
-comparison to those by the discrete version of the MFEA confirm the good
-performance of the developed dMFEA-II, and concur with the insights drawn in
-previous studies for continuous optimization.
-&lt;/p&gt;</description>
-	<pubDate>Thu, 14 May 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
-</item>
-<item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: CNN-based fast source device identification. (arXiv:2001.11847v2 [cs.NE] UPDATED)</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2001.11847</guid>
-	<link>http://arxiv.org/abs/2001.11847</link>
-	<description>&lt;p&gt;Source identification is an important topic in image forensics, since it
-allows to trace back the origin of an image. This represents a precious
-information to claim intellectual property but also to reveal the authors of
-illicit materials. In this paper we address the problem of device
-identification based on sensor noise and propose a fast and accurate solution
-using convolutional neural networks (CNNs). Specifically, we propose a
-2-channel-based CNN that learns a way of comparing camera fingerprint and image
-noise at patch level. The proposed solution turns out to be much faster than
-the conventional approach and to ensure an increased accuracy. This makes the
-approach particularly suitable in scenarios where large databases of images are
-analyzed, like over social networks. In this vein, since images uploaded on
-social media usually undergo at least two compression stages, we include
-investigations on double JPEG compressed images, always reporting higher
-accuracy than standard approaches.
-&lt;/p&gt;</description>
-	<pubDate>Thu, 14 May 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
-</item>
-<item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Depth-Width Tradeoffs in Approximating Natural Functions with Neural Networks. (arXiv:1610.09887v3 [cs.LG] UPDATED)</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/1610.09887</guid>
-	<link>http://arxiv.org/abs/1610.09887</link>
-	<description>&lt;p&gt;We provide several new depth-based separation results for feed-forward neural
-networks, proving that various types of simple and natural functions can be
-better approximated using deeper networks than shallower ones, even if the
-shallower networks are much larger. This includes indicators of balls and
-ellipses; non-linear functions which are radial with respect to the $L_1$ norm;
-and smooth non-linear functions. We also show that these gaps can be observed
-experimentally: Increasing the depth indeed allows better learning than
-increasing width, when training neural networks to learn an indicator of a unit
-ball.
 &lt;/p&gt;</description>
 	<pubDate>Thu, 14 May 2020 01:30:00 +0000</pubDate>
   <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
@@ -1967,81 +2073,6 @@ Modeling the processes of neuronal progenitor proliferation and differentiation 
 	<description>Neural Computation, &lt;a href=&quot;https://www.mitpressjournals.org/toc/neco/32/6&quot;&gt;Volume 32, Issue 6&lt;/a&gt;, Page 1033-1068, June 2020. &lt;br /&gt;</description>
 	<pubDate>Wed, 13 May 2020 08:04:44 +0000</pubDate>
   <source url="http://www.mitpressjournals.org/action/showFeed?ui=0&amp;mi=6c5u8v&amp;ai=sl&amp;jc=neco&amp;type=etoc&amp;feed=rss">MIT Press: Neural Computation: Table of Contents</source>
-</item>
-<item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Planning to Explore via Self-Supervised World Models. (arXiv:2005.05960v1 [cs.LG])</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2005.05960</guid>
-	<link>http://arxiv.org/abs/2005.05960</link>
-	<description>&lt;p&gt;Reinforcement learning allows solving complex tasks, however, the learning
-tends to be task-specific and the sample efficiency remains a challenge. We
-present Plan2Explore, a self-supervised reinforcement learning agent that
-tackles both these challenges through a new approach to self-supervised
-exploration and fast adaptation to new tasks, which need not be known during
-exploration. During exploration, unlike prior methods which retrospectively
-compute the novelty of observations after the agent has already reached them,
-our agent acts efficiently by leveraging planning to seek out expected future
-novelty. After exploration, the agent quickly adapts to multiple downstream
-tasks in a zero or a few-shot manner. We evaluate on challenging control tasks
-from high-dimensional image inputs. Without any training supervision or
-task-specific interaction, Plan2Explore outperforms prior self-supervised
-exploration methods, and in fact, almost matches the performances oracle which
-has access to rewards. Videos and code at
-https://ramanans1.github.io/plan2explore/
-&lt;/p&gt;</description>
-	<pubDate>Wed, 13 May 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
-</item>
-<item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Training spiking neural networks using reinforcement learning. (arXiv:2005.05941v1 [cs.LG])</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2005.05941</guid>
-	<link>http://arxiv.org/abs/2005.05941</link>
-	<description>&lt;p&gt;Neurons in the brain communicate with each other through discrete action
-spikes as opposed to continuous signal transmission in artificial neural
-networks. Therefore, the traditional techniques for optimization of parameters
-in neural networks which rely on the assumption of differentiability of
-activation functions are no longer applicable to modeling the learning
-processes in the brain. In this project, we propose biologically-plausible
-alternatives to backpropagation to facilitate the training of spiking neural
-networks. We primarily focus on investigating the candidacy of reinforcement
-learning (RL) rules in solving the spatial and temporal credit assignment
-problems to enable decision-making in complex tasks. In one approach, we
-consider each neuron in a multi-layer neural network as an independent RL agent
-forming a different representation of the feature space while the network as a
-whole forms the representation of the complex policy to solve the task at hand.
-In other approach, we apply the reparameterization trick to enable
-differentiation through stochastic transformations in spiking neural networks.
-We compare and contrast the two approaches by applying them to traditional RL
-domains such as gridworld, cartpole and mountain car. Further we also suggest
-variations and enhancements to enable future research in this area.
-&lt;/p&gt;</description>
-	<pubDate>Wed, 13 May 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
-</item>
-<item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Localized convolutional neural networks for geospatial wind forecasting. (arXiv:2005.05930v2 [cs.LG] UPDATED)</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2005.05930</guid>
-	<link>http://arxiv.org/abs/2005.05930</link>
-	<description>&lt;p&gt;Convolutional Neural Networks (CNN) possess many positive qualities when it
-comes to spatial raster data. Translation invariance enables CNNs to detect
-features regardless of their position in the scene. But in some domains, like
-geospatial, not all locations are exactly equal. In this work we propose
-localized convolutional neural networks that enable convolutional architectures
-to learn local features in addition to the global ones. We investigate their
-instantiations in the form of learnable inputs, local weights, and a more
-general form. They can be added to any convolutional layers, easily end-to-end
-trained, introduce minimal additional complexity, and let CNNs retain most of
-their benefits to the extent that they are needed. In this work we address
-spatio-temporal prediction: test the effectiveness of our methods on a
-synthetic benchmark dataset and tackle three real-world wind prediction
-datasets. For one of them we propose a method to spatially order the unordered
-data. We compare against the recent state-of-the-art spatio-temporal prediction
-models on the same data. Models that use convolutional layers can be and are
-extended with our localizations. In all these cases our extensions improve the
-results, and thus often the state-of-the-art. We share all the code at a public
-repository.
-&lt;/p&gt;</description>
-	<pubDate>Wed, 13 May 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
 </item>
 <item>
 	<title>Nature: A positively selected FBN1 missense variant reduces height in Peruvian individuals</title>
@@ -2758,14 +2789,6 @@ Animals use auditory cues generated by defensive responses of others to detect i
 	<guid isPermaLink="false">https://www.nature.com/articles/s41467-020-16050-w</guid>
 	<link>http://feeds.nature.com/~r/ncomms/rss/current/~3/KTLUBvniZWo/s41467-020-16050-w</link>
 	<description>&lt;p&gt;Nature Communications, Published online: 12 May 2020; &lt;a href=&quot;https://www.nature.com/articles/s41467-020-16050-w&quot;&gt;doi:10.1038/s41467-020-16050-w&lt;/a&gt;&lt;/p&gt;Naked mole rats are the longest-lived rodents and produce very-high-molecular-mass hyaluronan (vHMM-HA). Here the authors show that naked mole rat vHMM-HA is better at protecting mouse and human cells from cell cycle arrest and cell death, compared to the high-molecular-mass hyaluronan produced by these species.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ncomms/rss/current/~4/KTLUBvniZWo&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/ncomms/rss/current">Nature Communications - current - nature.com science feeds</source>
-</item>
-<item>
-	<title>Nature Communications: PTSD is associated with neuroimmune suppression: evidence from PET imaging and postmortem transcriptomic studies</title>
-	<guid isPermaLink="false">https://www.nature.com/articles/s41467-020-15930-5</guid>
-	<link>http://feeds.nature.com/~r/ncomms/rss/current/~3/i1otEoS4QVI/s41467-020-15930-5</link>
-	<description>&lt;p&gt;Nature Communications, Published online: 12 May 2020; &lt;a href=&quot;https://www.nature.com/articles/s41467-020-15930-5&quot;&gt;doi:10.1038/s41467-020-15930-5&lt;/a&gt;&lt;/p&gt;Neuroinflammation has been proposed to accompany the peripheral inflammation observed in PTSD. Here, authors find lower in vivo and postmortem levels of neuroimmune marker TSPO (translocator protein) in PTSD, in association with greater PTSD severity and higher plasma CRP.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ncomms/rss/current/~4/i1otEoS4QVI&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
   <source url="http://feeds.nature.com/ncomms/rss/current">Nature Communications - current - nature.com science feeds</source>
 </item>
@@ -4851,22 +4874,6 @@ Phase synchronization of neuronal oscillations in specific frequency bands coord
 	<description>&lt;p&gt;Background: The effects of acupuncture on Alzheimer's disease (AD) outcomes remain controversial. The aim of this review was to evaluate the effectiveness and safety of acupuncture for the treatment of AD.&lt;/p&gt;&lt;p&gt;Methods: PubMed, Embase, Web of Science, the Cochrane Central Register of Controlled Trials, Chinese BioMedical Literature Database, VIP Database for Chinese Technical Periodicals, China National Knowledge Infrastructure, and Wanfang Data were searched to identify relevant randomized controlled trials from inception to January 19, 2019. Data were extracted and evaluated by two authors independently. The data analysis was conducted using R (version 3.6.0) and RStudio (version 1.2.1335) software.&lt;/p&gt;&lt;p&gt;Results: Thirty trials involving 2,045 patients were included. Acupuncture plus drug therapy may have been more beneficial for general cognitive function in AD patients than drug therapy alone (short-term treatment: MD, mean difference = 1.94, 95% CI: 1.11, 2.77; p &amp;lt; 0.01; medium-term treatment: MD = 4.41, 95% CI: 1.83, 7.00; p &amp;lt; 0.01). People who received acupuncture plus drug therapy attained higher ADL (Activities of Daily Living) scores than patients who received drug therapy alone for medium-term treatment duration (MD = −2.14; 95% CI: −3.69, −0.59; p &amp;lt; 0.01). However, there is no statistically significant difference in subgroup effect on MMSE (Mini-mental Status Examination) and ADLs (p &amp;gt; 0.05) when comparing acupuncture treatment with drug therapy (such as Donepezil hydrochloride, Nimodipine, or Yizhijiannao), or acupuncture plus drug therapy (such as Donepezil hydrochloride, Dangguishaoyaosan, or Jiannaosan) with drug therapy alone. There was also no significant difference in general cognitive function, ADLs, or incidence of adverse events between acupuncture treatment and drug therapy (p &amp;gt; 0.05).&lt;/p&gt;&lt;p&gt;Conclusions: This review indicates that acupuncture plus drug therapy may have a more beneficial effect for AD patients than drug therapy alone on general cognitive function in the short and medium term and on ADLs in the medium term. Acupuncture alone may not have superior effects compared with drug therapy on global cognitive function, ADLs, and incidence of adverse events. Duration of treatment may not modify the effect of acupuncture in comparison with drug therapy. Additional large-scale and high-quality clinical trials are needed.&lt;/p&gt;</description>
 	<pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
   <source url="http://journal.frontiersin.org/journal/aging-neuroscience/rss">Frontiers in Aging Neuroscience | New and Recent Articles</source>
-</item>
-<item>
-	<title>Neuron: Current Issue: Tau: A Novel Entry Point for mTOR-Based Treatments in Autism Spectrum Disorder?</title>
-	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(20)30311-1?rss=yes</guid>
-	<link>https://www.cell.com/neuron/fulltext/S0896-6273(20)30311-1?rss=yes</link>
-	<description>Dysregulation of the PI3K/Akt/mTOR pathway has become a point of convergence in autism spectrum disorder (ASD). In this issue of Neuron, Tai et al. (2020) identify a therapeutic role for tau reduction in downregulating this pathway and ameliorating ASD-like symptoms.</description>
-	<pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
-  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
-</item>
-<item>
-	<title>Neuron: Current Issue: Per Andersen 1930–2020</title>
-	<guid isPermaLink="true">https://www.cell.com/neuron/fulltext/S0896-6273(20)30308-1?rss=yes</guid>
-	<link>https://www.cell.com/neuron/fulltext/S0896-6273(20)30308-1?rss=yes</link>
-	<description>Nestor of neuroscience, Per Andersen, is no longer with us. He died February 17th at age 90. Per was a pioneer, a “trail blazer,” of modern neuroscience. According to The Royal Society, “…his discoveries shaped our understanding of neural circuitry.”</description>
-	<pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
-  <source url="http://www.cell.com/neuron/current.rss">Neuron</source>
 </item>
 
 </channel>
