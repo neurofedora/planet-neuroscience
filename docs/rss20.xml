@@ -9,6 +9,394 @@
 	<atom:link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscience/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Applying Dynamic Training-Subset Selection Methods Using Genetic Programming for Forecasting Implied Volatility. (arXiv:2007.07207v1 [q-fin.GN])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2007.07207</guid>
+	<link>http://arxiv.org/abs/2007.07207</link>
+	<description>&lt;p&gt;Volatility is a key variable in option pricing, trading and hedging
+strategies. The purpose of this paper is to improve the accuracy of forecasting
+implied volatility using an extension of genetic programming (GP) by means of
+dynamic training-subset selection methods. These methods manipulate the
+training data in order to improve the out of sample patterns fitting. When
+applied with the static subset selection method using a single training data
+sample, GP could generate forecasting models which are not adapted to some out
+of sample fitness cases. In order to improve the predictive accuracy of
+generated GP patterns, dynamic subset selection methods are introduced to the
+GP algorithm allowing a regular change of the training sample during evolution.
+Four dynamic training-subset selection methods are proposed based on random,
+sequential or adaptive subset selection. The latest approach uses an adaptive
+subset weight measuring the sample difficulty according to the fitness cases
+errors. Using real data from SP500 index options, these techniques are compared
+to the static subset selection method. Based on MSE total and percentage of non
+fitted observations, results show that the dynamic approach improves the
+forecasting performance of the generated GP models, specially those obtained
+from the adaptive random training subset selection method applied to the whole
+set of training samples.
+&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
+</item>
+<item>
+	<title>arXiv: Quantitative Biology: Neurons and Cognition: Domain Adaptation for Robust Workload Classification using fNIRS. (arXiv:2007.06706v1 [cs.CV])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2007.06706</guid>
+	<link>http://arxiv.org/abs/2007.06706</link>
+	<description>&lt;p&gt;Significance: We demonstrated the potential of using domain adaptation on
+functional Near-Infrared Spectroscopy (fNIRS) data to detect and discriminate
+different levels of n-back tasks that involve working memory across different
+experiment sessions and subjects.
+&lt;/p&gt;
+&lt;p&gt;Aim: To address the domain shift in fNIRS data across sessions and subjects
+for task label alignment, we exploited two domain adaptation approaches -
+Gromov-Wasserstein (G-W) and Fused Gromov-Wasserstein (FG-W).
+&lt;/p&gt;
+&lt;p&gt;Approach: We applied G-W for session-by-session alignment and FG-W for
+subject-by-subject alignment with Hellinger distance as underlying metric to
+fNIRS data acquired during different n-back task levels. We also compared with
+a supervised method - Convolutional Neural Network (CNN).
+&lt;/p&gt;
+&lt;p&gt;Results: For session-by-session alignment, using G-W resulted in alignment
+accuracy of 70 $\pm$ 4 % (weighted mean $\pm$ standard error), whereas using
+CNN resulted in classification accuracy of 58 $\pm$ 5 % across five subjects.
+For subject-by-subject alignment, using FG-W resulted in alignment accuracy of
+55 $\pm$ 3 %, whereas using CNN resulted in classification accuracy of 45 $\pm$
+1 %. Where in both cases 25 % represents chance. We also showed that removal of
+motion artifacts from the fNIRS data plays an important role in improving
+alignment performance.
+&lt;/p&gt;
+&lt;p&gt;Conclusions: Domain adaptation is potential for session-by-session and
+subject-by-subject alignment using fNIRS data.
+&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
+</item>
+<item>
+	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Dense Crowds Detection and Counting with a Lightweight Architecture. (arXiv:2007.06630v1 [cs.CV])</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2007.06630</guid>
+	<link>http://arxiv.org/abs/2007.06630</link>
+	<description>&lt;p&gt;In the context of crowd counting, most of the works have focused on improving
+the accuracy without regard to the performance leading to algorithms that are
+not suitable for embedded applications. In this paper, we propose a lightweight
+convolutional neural network architecture to perform crowd detection and
+counting using fewer computer resources without a significant loss on count
+accuracy. The architecture was trained using the Bayes loss function to further
+improve its accuracy and then pruned to further reduce the computational
+resources used. The proposed architecture was tested over the USF-QNRF
+achieving a competitive Mean Average Error of 154.07 and a superior Mean Square
+Error of 241.77 while maintaining a competitive number of parameters of 0.067
+Million. The obtained results suggest that the Bayes loss can be used with
+other architectures to further improve them and also the last convolutional
+layer provides no significant information and even encourage over-fitting at
+training.
+&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
+</item>
+<item>
+	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Learning Reasoning Strategies in End-to-End Differentiable Proving. (arXiv:2007.06477v2 [cs.AI] UPDATED)</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2007.06477</guid>
+	<link>http://arxiv.org/abs/2007.06477</link>
+	<description>&lt;p&gt;Attempts to render deep learning models interpretable, data-efficient, and
+robust have seen some success through hybridisation with rule-based systems,
+for example, in Neural Theorem Provers (NTPs). These neuro-symbolic models can
+induce interpretable rules and learn representations from data via
+back-propagation, while providing logical explanations for their predictions.
+However, they are restricted by their computational complexity, as they need to
+consider all possible proof paths for explaining a goal, thus rendering them
+unfit for large-scale applications. We present Conditional Theorem Provers
+(CTPs), an extension to NTPs that learns an optimal rule selection strategy via
+gradient-based optimisation. We show that CTPs are scalable and yield
+state-of-the-art results on the CLUTRR dataset, which tests systematic
+generalisation of neural models by learning to reason over smaller graphs and
+evaluating on larger ones. Finally, CTPs show better link prediction results on
+standard benchmarks in comparison with other neural-symbolic models, while
+being explainable. All source code and datasets are available online, at
+https://github.com/uclnlp/ctp.
+&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
+</item>
+<item>
+	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Real Time Detection of Small Objects. (arXiv:2003.07442v3 [cs.CV] UPDATED)</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2003.07442</guid>
+	<link>http://arxiv.org/abs/2003.07442</link>
+	<description>&lt;p&gt;The existing real time object detection algorithm is based on the deep neural
+network of convolution need to perform multilevel convolution and pooling
+operations on the entire image to extract a deep semantic characteristic of the
+image. The detection models perform better for large objects. However, these
+models do not detect small objects with low resolution and noise, because the
+features of existing models do not fully represent the essential features of
+small objects after repeated convolution operations. We have introduced a novel
+real time detection algorithm which employs upsampling and skip connection to
+extract multiscale features at different convolution levels in a learning task
+resulting a remarkable performance in detecting small objects. The detection
+precision of the model is shown to be higher and faster than that of the
+state-of-the-art models.
+&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
+</item>
+<item>
+	<title>arXiv: Quantitative Biology: Neurons and Cognition: Neural Networks on Random Graphs. (arXiv:2002.08104v2 [cs.LG] UPDATED)</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2002.08104</guid>
+	<link>http://arxiv.org/abs/2002.08104</link>
+	<description>&lt;p&gt;We performed a massive evaluation of neural networks with architectures
+corresponding to random graphs of various types. Apart from the classical
+random graph families including random, scale-free and small world graphs, we
+introduced a novel and flexible algorithm for directly generating random
+directed acyclic graphs (DAG) and studied a class of graphs derived from
+functional resting state fMRI networks. A majority of the best performing
+networks were indeed in these new families. We also proposed a general
+procedure for turning a graph into a DAG necessary for a feed-forward neural
+network. We investigated various structural and numerical properties of the
+graphs in relation to neural network test accuracy. Since none of the classical
+numerical graph invariants by itself seems to allow to single out the best
+networks, we introduced new numerical characteristics that selected a set of
+quasi-1-dimensional graphs, which were the majority among the best performing
+networks.
+&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
+</item>
+<item>
+	<title>arXiv: Quantitative Biology: Neurons and Cognition: Path-dependent connectivity, not modularity, consistently predicts controllability of structural brain networks. (arXiv:2002.06514v2 [q-bio.NC] UPDATED)</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/2002.06514</guid>
+	<link>http://arxiv.org/abs/2002.06514</link>
+	<description>&lt;p&gt;The human brain displays rich communication dynamics that are thought to be
+particularly well-reflected in its marked community structure. Yet, the precise
+relationship between community structure in structural brain networks and the
+communication dynamics that can emerge therefrom is not well-understood. In
+addition to offering insight into the structure-function relationship of
+networked systems, such an understanding is a critical step towards the ability
+to manipulate the brain's large-scale dynamical activity in a targeted manner.
+We investigate the role of community structure in the controllability of
+structural brain networks. At the region level, we find that certain network
+measures of community structure are sometimes statistically correlated with
+measures of linear controllability. However, we then demonstrate that this
+relationship depends on the distribution of network edge weights. We highlight
+the complexity of the relationship between community structure and
+controllability by performing numerical simulations using canonical graph
+models with varying mesoscale architectures and edge weight distributions.
+Finally, we demonstrate that weighted subgraph centrality, a measure rooted in
+the graph spectrum, and which captures higher-order graph architecture, is a
+stronger and more consistent predictor of controllability. Our study
+contributes to an understanding of how the brain's diverse mesoscale structure
+supports transient communication dynamics.
+&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
+</item>
+<item>
+	<title>arXiv: Quantitative Biology: Neurons and Cognition: Do readers use character information when programming return-sweep saccades?. (arXiv:1911.00716v2 [q-bio.NC] UPDATED)</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/1911.00716</guid>
+	<link>http://arxiv.org/abs/1911.00716</link>
+	<description>&lt;p&gt;Reading saccades that occur within a single line of text are guided by the
+size of letters. However, readers occasionally need to make longer saccades
+(known as return-sweeps) that take their eyes from the end of one line of text
+to the beginning of the next. In this study, we tested whether return-sweep
+saccades are also guided by font size information and whether this guidance
+depends on visual acuity of the return-sweep target area. To do this, we
+manipulated the font size of letters (0.29 vs 0.39 deg. per character) and the
+length of the first line of text (16 vs 26 deg.). The larger font resulted in
+return-sweeps that landed further to the right of the line start and in a
+reduction of under-sweeps compared to the smaller font. This suggests that font
+size information is used when programming return-sweeps. Return-sweeps in the
+longer line condition landed further to the right of the line start and the
+proportion of under-sweeps increased compared to the short line condition. This
+likely reflects an increase in saccadic undershoot error with the increase in
+intended saccade size. Critically, there was no interaction between font size
+and line length. This suggests that when programming return-sweeps, the use of
+font size information does not depend on visual acuity at the saccade target.
+Instead, it appears that readers rely on global typographic properties of the
+text in order to maintain an optimal number of characters to the left of their
+first fixation on a new line.
+&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
+</item>
+<item>
+	<title>arXiv: Computer Science: Neural and Evolutionary Computing: DeepVS: An Efficient and Generic Approach for Source Code Modeling Usage. (arXiv:1910.06500v2 [cs.NE] UPDATED)</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/1910.06500</guid>
+	<link>http://arxiv.org/abs/1910.06500</link>
+	<description>&lt;p&gt;The source code suggestions provided by current IDEs are mostly dependent on
+static type learning. These suggestions often end up proposing irrelevant
+suggestions for a peculiar context. Recently, deep learning-based approaches
+have shown great potential in the modeling of source code for various software
+engineering tasks. However, these techniques lack adequate generalization and
+resistance to acclimate the use of such models in a real-world software
+development environment. This letter presents \textit{DeepVS}, an end-to-end
+deep neural code completion tool that learns from existing codebases by
+exploiting the bidirectional Gated Recurrent Unit (BiGRU) neural net. The
+proposed tool is capable of providing source code suggestions instantly in an
+IDE by using pre-trained BiGRU neural net. The evaluation of this work is
+two-fold, quantitative and qualitative. Through extensive evaluation on ten
+real-world open-source software systems, the proposed method shows significant
+performance enhancement and its practicality. Moreover, the results also
+suggest that \textit{DeepVS} tool is capable of suggesting zero-day (unseen)
+code tokens by learning coding patterns from real-world software systems.
+&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
+</item>
+<item>
+	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Deep Transfer Learning for Source Code Modeling. (arXiv:1910.05493v2 [cs.LG] UPDATED)</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/1910.05493</guid>
+	<link>http://arxiv.org/abs/1910.05493</link>
+	<description>&lt;p&gt;In recent years, deep learning models have shown great potential in source
+code modeling and analysis. Generally, deep learning-based approaches are
+problem-specific and data-hungry. A challenging issue of these approaches is
+that they require training from starch for a different related problem. In this
+work, we propose a transfer learning-based approach that significantly improves
+the performance of deep learning-based source code models. In contrast to
+traditional learning paradigms, transfer learning can transfer the knowledge
+learned in solving one problem into another related problem. First, we present
+two recurrent neural network-based models RNN and GRU for the purpose of
+transfer learning in the domain of source code modeling. Next, via transfer
+learning, these pre-trained (RNN and GRU) models are used as feature
+extractors. Then, these extracted features are combined into attention learner
+for different downstream tasks. The attention learner leverages from the
+learned knowledge of pre-trained models and fine-tunes them for a specific
+downstream task. We evaluate the performance of the proposed approach with
+extensive experiments with the source code suggestion task. The results
+indicate that the proposed approach outperforms the state-of-the-art models in
+terms of accuracy, precision, recall, and F-measure without training the models
+from scratch.
+&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
+</item>
+<item>
+	<title>arXiv: Computer Science: Neural and Evolutionary Computing: CodeGRU: Context-aware Deep Learning with Gated Recurrent Unit for Source Code Modeling. (arXiv:1903.00884v2 [cs.NE] UPDATED)</title>
+	<guid isPermaLink="true">http://arxiv.org/abs/1903.00884</guid>
+	<link>http://arxiv.org/abs/1903.00884</link>
+	<description>&lt;p&gt;Recently deep learning based Natural Language Processing (NLP) models have
+shown great potential in the modeling of source code. However, a major
+limitation of these approaches is that they take source code as simple tokens
+of text and ignore its contextual, syntactical and structural dependencies. In
+this work, we present CodeGRU, a gated recurrent unit based source code
+language model that is capable of capturing source code's contextual,
+syntactical and structural dependencies. We introduce a novel approach which
+can capture the source code context by leveraging the source code token types.
+Further, we adopt a novel approach which can learn variable size context by
+taking into account source code's syntax, and structural information. We
+evaluate CodeGRU with real-world data set and it shows that CodeGRU outperforms
+the state-of-the-art language models and help reduce the vocabulary size up to
+24.93\%. Unlike previous works, we tested CodeGRU with an independent test set
+which suggests that our methodology does not requisite the source code comes
+from the same domain as training data while providing suggestions. We further
+evaluate CodeGRU with two software engineering applications: source code
+suggestion, and source code completion. Our experiment confirms that the source
+code's contextual information can be vital and can help improve the software
+language models. The extensive evaluation of CodeGRU shows that it outperforms
+the state-of-the-art models. The results further suggest that the proposed
+approach can help reduce the vocabulary size and is of practical use for
+software developers.
+&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 01:30:00 +0000</pubDate>
+  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
+</item>
+<item>
+	<title>Nature: Author Correction: Structure of human GABAB receptor in an inactive state</title>
+	<guid isPermaLink="false">https://www.nature.com/articles/s41586-020-2543-y</guid>
+	<link>http://feeds.nature.com/~r/nature/rss/current/~3/2bYGnCRegSc/s41586-020-2543-y</link>
+	<description>&lt;p&gt;Nature, Published online: 15 July 2020; &lt;a href=&quot;https://www.nature.com/articles/s41586-020-2543-y&quot;&gt;doi:10.1038/s41586-020-2543-y&lt;/a&gt;&lt;/p&gt;Author Correction: Structure of human GABA&lt;sub&gt;B&lt;/sub&gt; receptor in an inactive state&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/2bYGnCRegSc&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
+</item>
+<item>
+	<title>Nature: Publisher Correction: Imaging single glycans</title>
+	<guid isPermaLink="false">https://www.nature.com/articles/s41586-020-2518-z</guid>
+	<link>http://feeds.nature.com/~r/nature/rss/current/~3/Yrufjc6SEqs/s41586-020-2518-z</link>
+	<description>&lt;p&gt;Nature, Published online: 15 July 2020; &lt;a href=&quot;https://www.nature.com/articles/s41586-020-2518-z&quot;&gt;doi:10.1038/s41586-020-2518-z&lt;/a&gt;&lt;/p&gt;Publisher Correction: Imaging single glycans&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/Yrufjc6SEqs&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
+</item>
+<item>
+	<title>Nature: Publisher Correction: A planet within the debris disk around the pre-main-sequence star AU Microscopii</title>
+	<guid isPermaLink="false">https://www.nature.com/articles/s41586-020-2516-1</guid>
+	<link>http://feeds.nature.com/~r/nature/rss/current/~3/MJUReMIwrOg/s41586-020-2516-1</link>
+	<description>&lt;p&gt;Nature, Published online: 15 July 2020; &lt;a href=&quot;https://www.nature.com/articles/s41586-020-2516-1&quot;&gt;doi:10.1038/s41586-020-2516-1&lt;/a&gt;&lt;/p&gt;Publisher Correction: A planet within the debris disk around the pre-main-sequence star AU Microscopii&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/MJUReMIwrOg&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
+</item>
+<item>
+	<title>Frontiers in Molecular Neuroscience: RNA Binding Motif 5 (RBM5) in the CNS—Moving Beyond Cancer to Harness RNA Splicing to Mitigate the Consequences of Brain Injury</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnmol.2020.00126</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnmol.2020.00126</link>
+	<description>&lt;p&gt;Gene splicing modulates the potency of cell death effectors, alters neuropathological disease processes, influences neuronal recovery, but may also direct distinct mechanisms of secondary brain injury. Therapeutic targeting of RNA splicing is a promising avenue for next-generation CNS treatments. RNA-binding proteins (RBPs) regulate a variety of RNA species and are prime candidates in the hunt for druggable targets to manipulate and tailor gene-splicing responses in the brain. RBPs preferentially recognize unique consensus sequences in targeted mRNAs. Also, RBPs often contain multiple RNA-binding domains (RBDs)—each having a unique consensus sequence—suggesting the possibility that drugs could be developed to block individual functional domains, increasing the precision of RBP-targeting therapies. Empirical characterization of most RBPs is lacking and represents a major barrier to advance this emerging therapeutic area. There is a paucity of data on the role of RBPs in the brain including, identification of their unique mRNA targets, defining how CNS insults affect their levels and elucidating which RBPs (and individual domains within) to target to improve neurological outcomes. This review focuses on the state-of-the-art of the RBP tumor suppressor RNA binding motif 5 (RBM5) in the CNS. We discuss its potent pro-death roles in cancer, which motivated our interest to study it in the brain. We review recent studies showing that RBM5 levels are increased after CNS trauma and that it promotes neuronal death in vitro. Finally, we conclude with recent reports on the first set of RBM5 regulated genes identified in the intact brain, and discuss how those findings provide new clues germane to its potential function(s) in the CNS, and pose new questions on its therapeutic utility to mitigate CNS injury.&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/molecular-neuroscience/rss">Frontiers in Molecular Neuroscience | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Neuroscience: Brain Imaging Methods: A Radiomics Approach to Predicting Parkinson’s Disease by Incorporating Whole-Brain Functional Activity and Gray Matter Structure</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnins.2020.00751</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnins.2020.00751</link>
+	<description>&lt;p&gt;Parkinson’s disease (PD) is a progressive, chronic, and neurodegenerative disorder that is primarily diagnosed by clinical examinations and magnetic resonance imaging (MRI). In this study, we proposed a machine learning based radiomics method to predict PD. Fifty healthy controls (HC) along with 70 PD patients underwent resting-state magnetic resonance imaging (rs-fMRI). For all subjects, we extracted five types of 6664 features, including mean amplitude of low-frequency fluctuation (mALFF), mean regional homogeneity (mReHo), resting-state functional connectivity (RSFC), voxel-mirrored homotopic connectivity (VMHC) and gray matter (GM) volume. After conducting dimension reduction utilizing Least absolute shrinkage and selection operator (LASSO), fifty-three radiomic features including 46 RSFCs, 1 mALFF, 3 mReHos, 1 VMHC, 2 GM volumes and 1 clinical factor were retained. The selected features also indicated the most discriminative regions for PD. We further conducted model fitting procedure for classifying subjects in the training set employing random forest and support volume machine (SVM) to evaluate the performance of the two methods. After cross-validation, both methods achieved 100% accuracy and area under curve (AUC) for distinguishing between PD and HC in the training set. In the testing set, SVM performed better than random forest with the accuracy, true positive rate (TPR) and AUC being 85%, 1 and 0.97, respectively. These findings demonstrate the radiomics technique has the potential to support radiological diagnosis and to achieve high classification accuracy for clinical diagnostic systems for patients with PD.&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss">Frontiers in Neuroscience | Brain Imaging Methods section | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Neuroscience: Neurodegeneration: Mitochondrial Dysfunction, Neurogenesis, and Epigenetics: Putative Implications for Amyotrophic Lateral Sclerosis Neurodegeneration and Treatment</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnins.2020.00679</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnins.2020.00679</link>
+	<description>&lt;p&gt;Amyotrophic lateral sclerosis (ALS) is a progressive and devastating multifactorial neurodegenerative disorder. Although the pathogenesis of ALS is still not completely understood, numerous studies suggest that mitochondrial deregulation may be implicated in its onset and progression. Interestingly, mitochondrial deregulation has also been associated with changes in neural stem cells (NSC) proliferation, differentiation, and migration. In this review, we highlight the importance of mitochondrial function for neurogenesis, and how both processes are correlated and may contribute to the pathogenesis of ALS; we have focused primarily on preclinical data from animal models of ALS, since to date no studies have evaluated this link using human samples. As there is currently no cure and no effective therapy to counteract ALS, we have also discussed how improving neurogenic function by epigenetic modulation could benefit ALS. In support of this hypothesis, changes in histone deacetylation can alter mitochondrial function, which in turn might ameliorate cellular proliferation as well as neuronal differentiation and migration. We propose that modulation of epigenetics, mitochondrial function, and neurogenesis might provide new hope for ALS patients, and studies exploring these new territories are warranted in the near future.&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss">Frontiers in Neuroscience | Neurodegeneration section | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Neuroscience: Neurodegeneration: Progress in LRRK2-Associated Parkinson’s Disease Animal Models</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnins.2020.00674</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnins.2020.00674</link>
+	<description>&lt;p&gt;Mutations in the leucine-rich repeat kinase 2 (LRRK2) gene are the most frequent cause of familial Parkinson’s disease (PD). Several genetic manipulations of the LRRK2 gene have been developed in animal models such as rodents, Drosophila, Caenorhabditis elegans, and zebrafish. These models can help us further understand the biological function and derive potential pathological mechanisms for LRRK2. Here we discuss common phenotypic themes found in LRRK2-associated PD animal models, highlight several issues that should be addressed in future models, and discuss emerging areas to guide their future development.&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss">Frontiers in Neuroscience | Neurodegeneration section | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Human Neuroscience: Alterations of Spontaneous Brain Activity in Hemodialysis Patients</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnhum.2020.00278</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnhum.2020.00278</link>
+	<description>&lt;p&gt;Cognitive impairment is prevalent in hemodialysis end-stage renal disease (ESRD) patients. It might be associated with poor prognosis. Nevertheless, the underlying mechanisms have not been completely clarified. This study explored spontaneous brain activity in ESRD patients on hemodialysis by using the amplitude of low-frequency fluctuation (ALFF). Nineteen ESRD patients on regular hemodialysis were included in this study. Eighteen age-, sex- and education level-matched volunteers were enrolled as the healthy control group. All participants had resting-state functional MRI scanning, neuropsychological tests, and laboratory testing. ALFF was used for assessing intrinsic brain activity. Independent samples t-test was used for obtaining group differences. Spearman correlation analysis was applied to assess the association between ALFF changes, neuropsychological, and clinical indices. Compared to the healthy control group, hemodialysis patients showed decreased ALFF in the precuneus, right angular gyrus/inferior lobule as well as increased ALFF in the left parahippocampus/hippocampus and right precentral/postcentral gyrus. The ALFF abnormalities in these regions were closely associated with hemoglobin levels. Also, increased ALFF in the left parahippocampus/hippocampus showed a negative correlation with the score of long-delayed free recall. Hemodialysis patients had aberrant ALFF in the default mode network (DMN) regions, particularly in the precuneus and parahippocampus/hippocampus, which may be correlated with neuropathological mechanisms involved in hemodialysis.&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/human-neuroscience/rss">Frontiers in Human Neuroscience | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Human Neuroscience: Occupational Physical Stress Is Negatively Associated With Hippocampal Volume and Memory in Older Adults</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnhum.2020.00266</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnhum.2020.00266</link>
+	<description>&lt;p&gt;Our jobs can provide intellectually and socially enriched environments but also be the source of major psychological and physical stressors. As the average full-time worker spends &amp;gt;8 h at work per weekday and remains in the workforce for about 40 years, occupational experiences must be important factors in cognitive and brain aging. Therefore, we studied whether occupational complexity and stress are associated with hippocampal volume and cognitive ability in 99 cognitively normal older adults. We estimated occupational complexity, physical stress, and psychological stress using the Work Design Questionnaire (Morgeson and Humphrey, 2006), Quantitative Workload Inventory and Interpersonal Conflict at Work Scale (Spector and Jex, 1998). We found that physical stress, comprising physical demands and work conditions, was associated with smaller hippocampal volume and poorer memory performance. These associations were independent of age, gender, brain size, socioeconomic factors (education, income, and job title), duration of the job, employment status, leisure physical activity and general stress. This suggests that physical demands at work and leisure physical activity may have largely independent and opposite effects on brain and cognitive health. Our findings highlight the importance of considering midlife occupational experiences, such as work physical stress, in understanding individual trajectories of cognitive and brain aging.&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/human-neuroscience/rss">Frontiers in Human Neuroscience | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Human Neuroscience: Corrigendum: Cognitive Function Impairments Linked to Alcohol and Cannabis Use During Adolescence: A Study of Gender Differences</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnhum.2020.00239</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnhum.2020.00239</link>
+	<pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/human-neuroscience/rss">Frontiers in Human Neuroscience | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Neural Circuits: Challenges for Therapeutic Applications of Opsin-Based Optogenetic Tools in Humans</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fncir.2020.00041</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fncir.2020.00041</link>
+	<description>&lt;p&gt;As the technological hurdles are overcome and optogenetic techniques advance to have more control over neurons, therapies based on these approaches will begin to emerge in the clinic. Here, we consider the technical challenges surrounding the transition of this breakthrough technology from an investigative tool to a true therapeutic avenue. The emerging strategies and remaining tasks surrounding genetically encoded molecules which respond to light as well as the vehicles required to deliver them are discussed.The use of optogenetics in humans would represent a completely new paradigm in medicine and would be associated with unprecedented technical considerations. To be applied for stimulation of neurons in humans, an ideal optogenetic tool would need to be non-immunogenic, highly sensitive, and activatable with red light or near-infrared light (to maximize light penetration while minimizing photodamage). To enable sophisticated levels of neuronal control, the combined use of optogenetic actuators and indicators could enable closed-loop all-optical neuromodulation. Such systems would introduce additional challenges related to spectral orthogonality between actuator and indicator, the need for decision making computational algorithms and requirements for large gene cassettes. As in any gene therapy, the therapeutic efficiency of optogenetics will rely on vector delivery and expression in the appropriate cell type. Although viral vectors such as those based on AAVs are showing great potential in human trials, barriers to their general use remain, including immune responses, delivery/transport, and liver clearance. Limitations associated with the gene cassette size which can be packaged in currently approved vectors also need to be addressed.&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/neural-circuits/rss">Frontiers in Neural Circuits | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Cellular Neuroscience: Telomere Attrition in Neurodegenerative Disorders</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fncel.2020.00219</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fncel.2020.00219</link>
+	<description>&lt;p&gt;Telomere attrition is increased in various disorders and is therefore a potential biomarker for diagnosis and/or prognosis of these disorders. The contribution of telomere attrition in the pathogenesis of neurodegenerative disorders is yet to be fully elucidated. We are reviewing the current knowledge regarding the telomere biology in two common neurodegenerative disorders, Alzheimer’s disease (AD), and Parkinson’s disease (PD). Furthermore, we are discussing future prospective of telomere research in these disorders. The majority of studies reported consistent evidence of the accelerated telomere attrition in AD patients, possibly in association with elevated oxidative stress levels. On the other hand in PD, various studies reported contradictory evidence regarding telomere attrition. Consequently, due to the low specificity and sensitivity, the clinical benefit of telomere length as a biomarker of neurodegenerative disease development and progression is not yet recognized. Nevertheless, longitudinal studies in large carefully selected cohorts might provide further elucidation of the complex involvement of the telomeres in the pathogenesis of neurodegenerative diseases. Telomere length maintenance is a complex process characterized by environmental, genetic, and epigenetic determinants. Thus, in addition to the selection of the study cohort, also the selection of analytical methods and types of biological samples for evaluation of the telomere attrition is of utmost importance.&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/cellular-neuroscience/rss">Frontiers in Cellular Neuroscience | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Ageing Neuroscience: Heart Rate Variability Mainly Relates to Cognitive Executive Functions and Improves Through Exergame Training in Older Adults: A Secondary Analysis of a 6-Month Randomized Controlled Trial</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnagi.2020.00197</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnagi.2020.00197</link>
+	<description>&lt;p&gt;Heart rate variability (HRV) mirrors autonomic nervous system activities and might serve as a parameter to monitor health status in older adults. However, it is currently unknown which functional health measures, including cognitive, physical, and gait performance parameters, are most strongly related to HRV indices. This knowledge would enable implementing HRV assessments into health monitoring routines and training planning for older adults. Simultaneous cognitive–motor and exergame training may be effective to improve HRV indices but has not been investigated yet. Eighty-nine healthy older adults (≥70 years of age) were randomized into three groups: (1) virtual reality video game dancing, i.e., exergaming (DANCE); (2) treadmill walking with simultaneous verbal memory training (MEMORY); or (3) treadmill walking only (PHYS). Strength and balance exercises complemented each program. Over 6 months, two weekly 1-h training sessions were performed. HRV indices (standard deviation of N–N intervals, SDNN; root mean square of successive R–R interval differences, RMSSD; and absolute power of high-frequency band (0.15–0.4 Hz), HF power) and various measures of cognitive, physical, and gait performance were assessed at baseline and after 3 months and 6 months. Multiple linear regression analyses with planned comparisons were calculated. At baseline, 8–12% of HRV variance was significantly explained by cognitive executive functions and leg strength (inversely related). Verbal long-term memory, aerobic and functional fitness, and gait performance did not contribute to the model (SDNN: R&lt;sup&gt;2&lt;/sup&gt; = 0.082, p = 0.016; RMSSD: R&lt;sup&gt;2&lt;/sup&gt; = 0.121, p = 0.013; HF power: R&lt;sup&gt;2&lt;/sup&gt; = 0.119, p = 0.015). After 6 months, DANCE improved HRV indices, while MEMORY and PHYS did not (time × intervention interactions: first-contrast DANCE/MEMORY vs. PHYS: SDNN p = 0.014 one-tailed, ΔR&lt;sup&gt;2&lt;/sup&gt; = 0.020 and RMSSD p = 0.052 one-tailed (trend), ΔR&lt;sup&gt;2&lt;/sup&gt; = 0.007; second-contrast DANCE vs. MEMORY: SDNN p = 0.002 one-tailed, ΔR&lt;sup&gt;2&lt;/sup&gt; = 0.035, RMSSD p = 0.017 one-tailed, ΔR&lt;sup&gt;2&lt;/sup&gt; = 0.012, and HF power p = 0.011 one-tailed, ΔR&lt;sup&gt;2&lt;/sup&gt; = 0.013). We conclude that mainly cognitive executive functions are associated with HRV indices and that exergame training improves global and parasympathetic autonomic nervous system activities in older adults. Periodic assessments of HRV in older citizens could be particularly beneficial to monitor cognitive health and provide indications for preventative exercise measures.&lt;/p&gt;</description>
+	<pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/aging-neuroscience/rss">Frontiers in Aging Neuroscience | New and Recent Articles</source>
+</item>
+<item>
 	<title>PLoS Biology: PiVR: An affordable and versatile closed-loop platform to study unrestrained sensorimotor behavior</title>
 	<guid isPermaLink="false">http://feeds.plos.org/plosbiology/10.1371/journal.pbio.3000712</guid>
 	<link>http://feeds.plos.org/~r/plosbiology/NewArticles/~3/TZkBZnaofMc/article</link>
@@ -833,6 +1221,14 @@ femtosecond laser pulses for various tasks.
   <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
 </item>
 <item>
+	<title>Nature: Global methane levels soar to record high</title>
+	<guid isPermaLink="false">https://www.nature.com/articles/d41586-020-02116-8</guid>
+	<link>http://feeds.nature.com/~r/nature/rss/current/~3/IjyvFq5kLPo/d41586-020-02116-8</link>
+	<description>&lt;p&gt;Nature, Published online: 14 July 2020; &lt;a href=&quot;https://www.nature.com/articles/d41586-020-02116-8&quot;&gt;doi:10.1038/d41586-020-02116-8&lt;/a&gt;&lt;/p&gt;Annual emissions of the greenhouse gas have risen by almost 10% in the past two decades, driven by agriculture and the gas industry.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/IjyvFq5kLPo&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
+</item>
+<item>
 	<title>Nature: How frogs became green — again, and again, and again</title>
 	<guid isPermaLink="false">https://www.nature.com/articles/d41586-020-02103-z</guid>
 	<link>http://feeds.nature.com/~r/nature/rss/current/~3/7H54_UhXUtY/d41586-020-02103-z</link>
@@ -1401,10 +1797,186 @@ femtosecond laser pulses for various tasks.
   <source url="https://www.cell.com/cell-reports/current.rss">Cell Reports</source>
 </item>
 <item>
+	<title>bioRxiv: Neuroscience: The Grand Budapest Hotel: an fMRI dataset in response to a socially-rich, naturalistic movie</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.14.203257v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.14.203257v1?rss=1</link>
+	<description>Naturalistic stimuli evoke strong, consistent, and information-rich patterns of brain activity, and engage large extents of the human brain. They allow researchers to compare highly similar brain responses across subjects, and to study how complex representations are encoded in brain activity. Here, we describe and share a dataset where 25 subjects watched part of the feature film &quot;The Grand Budapest Hotel&quot; by Wes Anderson. The movie has a large cast with many famous actors. Throughout the story, the camera shots highlight faces and expressions, which are fundamental to understand the complex narrative of the movie. This movie was chosen to sample brain activity specifically related to social interactions and face processing. This dataset provides researchers with fMRI data that can be used to explore social cognitive processes and face processing, adding to the existing neuroimaging datasets that sample brain activity with naturalistic movies.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Primary and secondary motoneurons use different calcium channel types to control escape and swimming behaviors in zebrafish</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.14.202853v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.14.202853v1?rss=1</link>
+	<description>The escape response and rhythmic swimming in zebrafish are distinct behaviors mediated by two functionally distinct motoneuron (Mn) types. The primary (1{ring}Mn) type depresses, has a large quantal content (Qc), and a high release probability (Pr). Conversely, the secondary (2{ring}Mn) type facilitates and has low and variable Qc and Pr. This functional duality matches well the distinct associated behaviors, with the 1{ring}Mn providing the strong, singular C-bend initiating escape and the 2{ring}Mn confers weaker, rhythmic contractions. Contributing to these functional distinctions is our identification of P/Q type calcium channels mediating transmitter release in 1{ring}Mns and N type channels in 2{ring}Mns. Remarkably, despite these functional and behavioral distinctions, all ~15 individual synapses on each muscle cell are shared by a 1{ring}Mn bouton and at least one 2{ring}Mn bouton. This novel blueprint of synaptic sharing provides an efficient way of controlling two different behaviors at the level of a single postsynaptic cell.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Development of a genetically-encoded oxytocin sensor</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.14.202598v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.14.202598v1?rss=1</link>
+	<description>Oxytocin (OXT) is a neuropeptide originating in the paraventricular nucleus (PVN) of the hypothalamus, with a role in influencing various social behaviors. However, pinpointing its actions only during the time animals are performing specific behaviors has been difficult to study. Here we developed an optogenetic gene expression system designed to selectively label neuronal populations activated by OXT in the presence of blue-light, named OXTR-iTango2. The OXTR-iTango2 was capable of inducing gene expression of a reporter gene in both human embryonic kidney (HEK) cells and neurons in a quantitative manner. In vivo expression of OXTR-iTango2 selectively labeled OXT-sensitive neurons in a blue-light dependent manner. Furthermore, we were able to detect a subset of dopamine (DA) neurons in the ventral tegmental area (VTA) that receive OXT activation during social interaction. Thus, we provide a genetically-encoded, scalable optogenetic toolset to target neural circuits activated by OXT in behaving animals with a high temporal resolution.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: The dynamics of body category and emotion processing in high-level visual, prefrontal and parietal cortex.</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.14.202515v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.14.202515v1?rss=1</link>
+	<description>Recent studies provided an increasingly detailed understanding of how visual objects like faces or bodies are categorized. What is less clear is whether a category attribute like the emotional expression influences category representation as is limited to extra-category selective areas and whether the coding of the expression in category and extra category areas is influenced by the task. Using functional magnetic resonance imaging (fMRI) and multivariate methods, we measured BOLD responses while participants viewed whole body expressions and performed an explicit (emotion) and implicit (shape) recognition task. Our results show that the type of task can be decoded in EBA, VLPFC and IPL with higher activity for the explicit task condition in the first two areas and no evidence of emotion specificity processes in any of them. During explicit recognition of the body expression, category representation was strengthened while action related information was be suppressed. These results provide evidence that body representations in high level visual cortex and frontoparietal cortex are task sensitive and that body selective areas differentially contribute to expression representation based on their different anatomical connectivity.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Adult newborn granule cells confer emotional-state-dependent plasticity in memory retrieval</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.14.202481v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.14.202481v1?rss=1</link>
+	<description>Achieving optimal behavior requires animals to flexibly retrieve prior knowledge. Here we show that adult newborn granule cells (anbGCs) mediate emotional-state-dependent plasticity of memory retrieval. We find that acute social reward (aSR) enhances memory retrieval by increasing the reactivation of engram cells, while acute social stress (aSS) weakens retrieval and reduces the reactivation. Such bidirectional regulation relies on the activation of distinct populations of anbGCs by aSR and aSS, triggering opposing modifications of dDG activity, which is sufficient to regulate and predict the performance of memory retrieval. Concordantly, in emotional disorder models, aSR-dependent memory plasticity is impaired, while the effect of aSS remains intact. Together, our data revealed that anbGCs mediate plasticity of memory retrieval, allowing animals to flexibly retrieve memory according to the current emotional state, and suggested the essential roles of anbGCs in translating emotional information to the regulation of memory expression.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Cortico-subcortical functional connectivity profiles of resting-state networks in marmosets and humans</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.14.202382v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.14.202382v1?rss=1</link>
+	<description>Understanding the similarity of cortico-subcortical networks topologies between humans and nonhuman primate species is critical to study the origin of network alternations underlying human neurological and neuropsychiatric diseases. The New World common marmoset (Callithrix jacchus) has become popular as a non-human primate model for human brain function. Most marmoset connectomic research, however, has exclusively focused on cortical areas, with connectivity to subcortical networks less extensively explored. In this study, we aimed to first isolate patterns of subcortical connectivity with cortical resting-state networks (RSNs) in awake marmosets using resting-state functional magnetic resonance imaging (RS-fMRI), then to compare these networks to those in humans using connectivity fingerprinting. While we could match several marmoset and human RSNs based on their functional fingerprints, we also found a few striking differences, for example strong functional connectivity of the default mode network with the superior colliculus in marmosets that was much weaker in humans. Together, these findings demonstrate that many of the core cortico-subcortical networks in humans are also present in marmosets, but that small, potentially functionally relevant differences exist.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Molecular and cellular pathology of monogenic Alzheimer's disease at single cell resolution</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.14.202317v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.14.202317v1?rss=1</link>
+	<description>Cell and molecular biology analyses of sporadic Alzheimer's disease brain are confounded by clinical variability, ageing and genetic heterogeneity. Therefore, we used single-nucleus RNA sequencing to characterize cell composition and gene expression in the cerebral cortex in early-onset, monogenic Alzheimer's disease. Constructing a cellular atlas of frontal cortex from 8 monogenic AD individuals and 8 matched controls, provided insights into which neurons degenerate in AD and responses of different cell types to AD at the cellular and systems level. Such responses are a combination of positively adaptive and deleterious changes, including large-scale changes in synaptic transmission and marked metabolic reprogramming in neurons. The nature and scale of the transcriptional changes in AD emphasizes the global impact of the disease across all brain cell types.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Predictive pre-activation of orthographic and lexical-semantic representations facilitates visual word recognition</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.14.202226v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.14.202226v1?rss=1</link>
+	<description>The efficiency of reading, to a crucial extent, results from the fact that visual word recognition is faster in predictive contexts (like sentences or texts). This observation is consistent with predictive coding models, but it is so far not sufficiently understood which aspects of the rich set of linguistic representations that is activated during reading contribute to this context-dependent facilitation. Candidate representations are visual, orthographic, phonological, and/or lexical-semantic in nature. Our study investigates which representations contribute to efficient word recognition in predictive context with a well-controlled repetition priming paradigm, including words and pseudowords (i.e., pronounceable nonwords), that was combined with magnetoencephalography (MEG) measurements in human participants (both sexes). We used high-powered linear mixed modeling to test the hypothesis that context-dependent facilitation relies on the pre-activation of linguistic representations prior to perceiving the expected stimulus. Behavioral data from 49 participants indicate that word predictability (i.e., context present vs. absent) facilitated orthographic and lexical-semantic, but not visual or phonological processes. MEG data from 38 participants show sustained activation of orthographic and lexical-semantic codes in the interval between prime and target, i.e., before processing the predicted stimulus. Also, we found a positive correlation between these pre-activation effects and brain responses elicited when processing the expected letter string. Pre-activation was more stable across time in words than in pseudowords. These results suggest that readers use orthographic and lexical-semantic representations to actively predict upcoming words and that this predictive process is modulated by the presence of prior knowledge (in words as opposed to pseudowords).</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Hippocampal dentate gyrus coordinates brain-wide communication and memory updating through an inhibitory gating</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.14.202218v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.14.202218v1?rss=1</link>
+	<description>Distinct forms of memory processing are often causally identified with specific brain regions, but a key facet of memory processing includes linking separated neuronal populations. Using cell-specific manipulations of inhibitory neuronal activity, we discovered a key role of the dentate gyrus (DG) in coordinating dispersed neuronal populations during memory formation. In whole-brain fMRI and electrophysiological experiments, we found that parvalbumin (PV) interneurons in the DG control the functional coupling of the hippocampus within a wider network of neocortical and subcortical structures including the prefrontal cortex (PFC) and the nucleus accumbens (NAc). In a novel object-location task, regulation of PV interneuron activity enhanced or prevented memory encoding and, without effect upon the total number of task activated c-Fos+ cells, revealed a correlation between activated neuronal populations in the hippocampus-PFC-NAc network. These data suggest a critical regulatory role of PV interneurons in the dentate gyrus in brain-wide polysynaptic communication channels and the association of cell assemblies across multiple brain regions.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: A general-purpose mechanism of visual feature association at the core of word learning</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.14.202176v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.14.202176v1?rss=1</link>
+	<description>Writing systems are a recent cultural invention, which makes it unlikely that specific cognitive mechanisms have developed through selective pressure for reading itself. Instead, reading might capitalize on evolutionary older mechanisms that originally supported other tasks. Accordingly, animals such as baboons can be trained to perform visual word recognition. This suggests that the visual mechanisms supporting reading might be phylogenetically old and domain-general. Here we propose that if the human reading system relies on domain-general visual mechanisms, effects that are typically found within the domain of reading should also be observable with non-orthographic visual stimuli. To test this hypothesis, we systematically tested different types of visual material with the same experimental design. Subjects were passively familiarized with a set of composite visual items, and then tested in an oddball paradigm for their ability to detect novel stimuli. Some of these novel stimuli shared their statistical structure with the familiar items, and were found to be hard to detect in two experiments using strings of letter-like symbols; this replicates the well-known, and supposedly reading-specific, bigram effect. Crucially, in two further experiments we show that the same effect emerges with made-up, 3D objects and sinusoidal gratings. The effect size was equivalent across experiments, despite the use of radically different stimuli. These data suggest that a fundamental mechanism behind visual word learning also supports the learning of other visual stimuli, implying that such mechanism is general-purpose. This mechanism would enable the statistical learning of regularities in the visual environment.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: The imprinted lncRNA Peg13 regulates sexual preference and the gender-specific brain transcriptome in mice</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.14.202143v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.14.202143v1?rss=1</link>
+	<description>Mammalian genomes include many maternally or paternally imprinted genes. Most of these are also expressed in the brain and several were previously implicated in regulating specific behavioral traits. We have used here a knockout approach to study the function of Peg13. Peg13 codes for a fast evolving lncRNA and is part of a complex of imprinted genes on chromosome 15 in the mouse and chromosome 8 in humans. Two knockout constructs were analyzed, one with a full deletion of the gene, the other with a deletion of the three prime-half. The full deletion is semi lethal, while the partial deletion is fully viable, but the mice show distinctive behavioral differences. They lose interest in the opposite sex and show instead a preference for wildtype animals of the same sex. Further, they show a higher level of anxiety, as well as lowered activity and curiosity and females have a deficiency in pup retrieval behavior. Brain RNA expression analysis reveals that genes involved in the serotonergic system, formation of glutamergic synapses, olfactory processing and estrogen signaling, as well as more than half of the other known imprinted genes are affected in Peg13 deficient mice. Intriguingly, the pathways are differentially affected in the sexes, with the result that the male and female brains of Peg13 deficient mice differ more from each other than those of wildtype mice. We conclude that Peg13 is part of a developmental pathway that regulates the neurobiology of social interactions.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Distinct patterns of activity in individual cortical neurons and local networks in primary somatosensory cortex of mice evoked by mechanical limb stimulation</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.14.202101v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.14.202101v1?rss=1</link>
+	<description>To distinguish between somatic stimuli, the primary somatosensory cortex should process dissimilar stimuli with distinct patterns of neuronal activation. Two-photon calcium imaging permits simultaneous optical recording of sensory evoked activity in hundreds of cortical neurons during varied sensory stimulation. Hence, it allows a visualization of patterns of activity in individual neurons and local cortical networks in response to distinct stimulation. Here, flavoprotein autofluorescence imaging was used to map the somatosensory cortex of anaesthetized C57BL/6 mice, and in vivo two-photon Ca2+ imaging was used to define patterns of neuronal activation during mechanical stimulation of the contralateral forelimb or hindlimb at various frequencies (3, 10, 100, 200, and 300 Hz). The data revealed that neurons within the limb associated somatosensory cortex exhibit stimulus-specific patterns of activity. Subsets of neurons were found to have sensory-evoked activity that is either primarily responsive to single stimulus frequencies or broadly responsive to multiple frequencies of limb movement. High frequency stimuli were shown to elicit more activation across the population, with a greater percentage of the population responding and greater percentage of cells with high amplitude responses. Stimulus-evoked cell-cell correlations within these neuronal networks varied as a function of frequency of stimulation, such that each stimulus elicited a distinct pattern that was more consistent across multiple trials of the same stimulus compared to trials at different frequencies of stimulation. The variation in cortical response to these artificial stimuli can thus be represented by the population pattern of supra-threshold Ca2+ transients, the magnitude and temporal properties of the evoked activity, and the structure of the stimulus-evoked correlation between responsive neurons.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: 10 Years of EPOC: A scoping review of Emotiv's portable EEG device</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.14.202085v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.14.202085v1?rss=1</link>
+	<description>BACKGROUND Commercially-made low-cost electroencephalography (EEG) devices have become increasingly available over the last decade. One of these devices, Emotiv EPOC, is currently used in a wide variety of settings, including brain-computer interface (BCI) and cognitive neuroscience research. PURPOSE The aim of this study was to chart peer-reviewed reports of Emotiv EPOC projects to provide an informed summary on the use of this device for scientific purposes. METHODS We followed a five-stage methodological framework for a scoping review that included a systematic search using the Preferred Reporting Items for Systematic Reviews and Meta-Analyses Extension for Scoping Reviews (PRISMA-ScR) guidelines. We searched the following electronic databases: PsychINFO, MEDLINE, Embase, Web of Science, and IEEE Xplore. We charted study data according to application (BCI, clinical, signal processing, experimental research, and validation) and location of use (as indexed by the first authors address). RESULTS We identified 382 relevant studies. The top five publishing countries were the United States (n = 35), India (n = 25), China (n = 20), Poland (n = 17), and Pakistan (n = 17). The top five publishing cities were Islamabad (n = 11), Singapore (n = 10), Cairo, Sydney, and Bandung (n = 7 each). Most of these studies used Emotiv EPOC for BCI purposes (n = 277), followed by experimental research (n = 51). Thirty-one studies were aimed at validating EPOC as an EEG device and a handful of studies used EPOC for improving EEG signal processing (n = 12) or for clinical purposes (n = 11). CONCLUSIONS In its first 10 years, Emotiv EPOC has been used around the world in diverse applications, from control of robotic limbs and wheelchairs to user authentication in security systems to identification of emotional states. Given the widespread use and breadth of applications, it is clear that researchers are embracing this technology.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Neural Network Poisson Models for Behavioural and Neural Spike Train Data</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.13.201673v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.13.201673v1?rss=1</link>
+	<description>It is now possible to monitor the activity of a large number of neurons across the brain as animals perform behavioural tasks. A primary aim for modeling is to reveal (i) how sensory inputs are represented in neural activities and (ii) how these representations translate into behavioural responses. Predominant methods apply rather disjoint techniques to (i) and (ii); by contrast, we suggest an end-to-end model which jointly fits both behaviour and neural activities and tracks their covariabilities across trials using inferred noise correlations. Our model exploits recent developments of flexible, but tractable, neural network point-process models to characterize dependencies between stimuli, actions and neural data. We apply the framework to a dataset collected using Neuropixel probes in a visual discrimination task and analyse noise correlations to gain novel insights into the relationships between neural activities and behaviour.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Transient receptor potential canonical 5 (TRPC5) mediates inflammatory mechanical pain</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.13.201186v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.13.201186v1?rss=1</link>
+	<description>Persistent tactile pain is a poorly managed symptom of inflammatory and neuropathic injury. To develop therapies for this maladaptive sensation, the underlying molecular mediators must be identified. Using knockout mice and pharmacological inhibitors, we identified transient receptor canonical 5 (TRPC5) as a key contributor to the persistent tactile pain that occurs in many inflammatory and neuropathic preclinical rodent models. TRPC5 inhibition was effective in injuries associated with elevated levels of the bioactive phospholipid lysophosphatidylcholine (LPC). Exogenous application of LPC induced TRPC5-dependent behavioral mechanical allodynia, neuronal mechanical hypersensitivity, and spontaneous pain. In vitro, LPC activated both homomeric mouse and human TRPC5 channels, which upon examination of human dorsal root ganglia tissue, were expressed in 75% of human sensory neurons. Based on these results, TRPC5 inhibitors should be pursued as personalized therapy for spontaneous and tactile pain in conditions where elevated LPC is a biomarker.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Spontaneous alpha-band amplitude predicts subjective visibility but not discrimination accuracy during high-level perception</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.13.201178v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.13.201178v1?rss=1</link>
+	<description>Near-threshold perception is a paradigm case of perceptual reports diverging from reality - perception of an unchanging stimulus can vacillate from undetected to clearly perceived. Among the many factors that predict whether a stimulus will reach awareness, the amplitude of low-frequency brain oscillations - particularly in the alpha frequency band (8-13 Hz) - has emerged as a reliable predictor of trial-to-trial variability in perceptual decisions. Analysis grounded in signal detection theory suggest that strong prestimulus alpha oscillations diminish subjective perception without affecting the accuracy or sensitivity (d-prime) of perceptual decisions. These results, coupled with recent studies on sensory responses, point to an inhibitory influence of alpha-band amplitude on early visuocortical activity. The findings to date have been based on simple, low-level visual stimuli, which warrant a focus on early visual processing. However, the physiology of alpha in higher-level visual areas is known to be distinct from early visual cortex, with evidence indicating that alpha amplitude in the inferior temporal (IT) cortex is excitatory (rather than inhibitory, as in early visual cortex). Here, we addressed the question of how spontaneous oscillatory amplitude impacts subjective and objective aspects of perception using a high-level perceptual decision task. Human observers completed a near-threshold face/house discrimination task with subjective visibility ratings while electroencephalograms (EEG) were recorded. Using a single-trial multiple regression analysis, we found that spontaneous fluctuations in pre-stimulus alpha-band amplitude were negatively related to visibility ratings but did not predict trial-by-trial accuracy. These results suggest that the inhibitory influence of prestimulus alpha activity in early visual cortex, rather than the excitatory influence of alpha in IT, comes to bias high-level perceptual reports. Our findings provide further evidence that ongoing alpha amplitude dissociates subjective and objective measures of visual perception.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Linear vector models of time perception account for saccade and stimulus novelty interactions</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.13.201087v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.13.201087v1?rss=1</link>
+	<description>Various models (e.g. scalar, state-dependent network, and vector models) have been proposed to explain the global aspects of time perception, but they have not been tested against specific visual phenomena like perisaccadic time compression and novel stimulus time dilation. Here, we tested how the perceived duration of a novel stimulus is influenced by 1) a simultaneous saccade, in combination with 2) a prior series of repeated stimuli in human participants. This yielded a novel behavioral interaction: pre-saccadic stimulus repetition neutralizes perisaccadic time compression. We then tested these results against simulations of the above models. Our data yielded low correlations against scalar model simulations, high but non-specific correlations for our feedforward neural network, and correlations that were both high and specific for a vector model based on identity of objective and subjective time. These results demonstrate the power of global time perception models in explaining disparate empirical phenomena and suggest that subjective time has a similar essence to time's physical vector.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: An increase in dendritic plateau potentials is associated with experience-dependent cortical map reorganization</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.13.200923v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.13.200923v1?rss=1</link>
+	<description>The organization of sensory maps in the cerebral cortex depends on experience, which drives homeostatic and long-term synaptic plasticity of cortico-cortical circuits. In the mouse primary somatosensory cortex (S1) afferents from the higher-order, posterior medial thalamic nucleus (POm) gate synaptic plasticity in layer (L) 2/3 pyramidal neurons via disinhibition and the production of dendritic plateau potentials. Here we address whether these thalamocortically mediated responses play a role in whisker map plasticity in S1. We find that trimming all but two whiskers causes a partial fusion of the representations of the two spared whiskers, concomitantly with an increase in the occurrence of POm-driven, N-methyl-D-aspartate receptor (NMDAR)-dependent plateau potentials. Blocking the plateau potentials restores the archetypical organization of the sensory map. Our results reveal a novel mechanism for experience-dependent cortical map plasticity in which higher-order thalamocortically mediated plateau potentials facilitate the fusion of normally segregated cortical representations.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Atlas55+: Brain Functional Atlas of Resting-state Networks for Late Adulthood</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.13.200824v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.13.200824v1?rss=1</link>
+	<description>Currently, several human brain functional atlases are used to define the spatial constituents of the resting-state networks (RSNs). However, the only brain atlases available are derived from samples of young adults. As brain networks are continuously reconfigured throughout life, the lack of brain atlases derived from older populations may influence RSN results in late adulthood. To address this, we aimed to construct a reliable brain atlas derived from older participants only. To do so, we analyzed the resting-state functional MRI data from three cohorts of healthy individuals in late life (total N=563; age=55-95years) and a mid-life cohort (N=322; age=18-54years). First, we identified five major RSNs across the late-life cohorts. Then, we demonstrated: high spatial reproducibility across the late-life cohorts with an average spatial overlap of 67%; and RSNs derived from the late-life cohorts were spatially different from those derived from the mid-life cohort (p=0.016). In response, we constructed a novel brain atlas, called Atlas55+, which includes a consensus of the major RSNs across the late-life cohorts. Atlas55+ provides a reliable age-appropriate template for the major RSNs in late adulthood and is publicly available. Our results confirm the need to construct age-appropriate brain functional atlases for studies investigating aging-related brain mechanisms.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Adaptation of reach action to a novel force-field is not predicted by acuity of dynamic proprioception in either older or younger adults</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.13.200733v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.13.200733v1?rss=1</link>
+	<description>Healthy ageing involves degeneration of the neuromuscular system which impacts movement control and proprioception. Yet the relationship between these sensory and motor deficits in upper limb reaching has not been examined in detail. Recently, we reported that age-related proprioceptive deficits were unrelated to accuracy in rapid arm movements, but whether this applied in motor tasks more heavily dependent on proprioceptive feedback was not clear. To address this, we have tested groups of younger and older adults on a force-field adaptation task under either full or limited visual feedback conditions and examined how performance related to dynamic proprioceptive acuity. Adaptive performance was similar between the age groups, regardless of visual feedback condition, although older adults showed increased after-effects. Physically inactive individuals made larger systematic (but not variable) proprioceptive errors, irrespective of age. However, dynamic proprioceptive acuity was unrelated to adaptation and there was no consistent evidence of proprioceptive recalibration with adaptation to the force-field for any group. Finally, in spite of clear age-dependent loss of spatial working memory capacity, we found no relationship between memory capacity and adaptive performance or proprioceptive acuity. Thus, non-clinical levels of deficit in dynamic proprioception, due to age or physical inactivity, do not affect force-field adaptation, even under conditions of limited visual feedback that might require greater proprioceptive control.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
 	<title>bioRxiv: Neuroscience: Orienting spatial attention in time: Lateralized alpha power reflects spatio-temporal filtering</title>
 	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.13.200584v1?rss=1</guid>
 	<link>http://biorxiv.org/cgi/content/short/2020.07.13.200584v1?rss=1</link>
 	<description>The deployment of neural alpha (8-12 Hz) lateralization in service of spatial attention is well-established: Alpha power increases in the cortical hemisphere ipsilateral to the attended hemifield, and decreases in the contralateral hemisphere, respectively. Much less is known about humans ability to deploy such alpha lateralization in time, and to thus exploit alpha power as a spatio-temporal filter. Here we show that spatially lateralized alpha power does signify - beyond the direction of spatial attention - the distribution of attention in time and thereby qualifies as a spatio-temporal attentional filter. Participants (N = 20) selectively listened to spoken numbers presented on one side (left vs right), while competing numbers were presented on the other side. Key to our hypothesis, temporal foreknowledge was manipulated via a visual cue, which was either instructive and indicated the to-be-probed number position (70% valid) or neutral. Temporal foreknowledge did guide participants attention, as they recognized numbers from the to-be-attended side more accurately following valid cues. In the magnetoencephalogram (MEG), spatial attention to the left versus right side induced lateralization of alpha power in all temporal cueing conditions. Modulation of alpha lateralization at the 0.8-Hz presentation rate of spoken numbers was stronger following instructive compared to neutral temporal cues. Critically, we found stronger modulation of lateralized alpha power specifically at the onsets of temporally cued numbers. These results suggest that the precisely timed hemispheric lateralization of alpha power qualifies as a spatio-temporal attentional filter mechanism susceptible to top-down behavioral goals.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Acute stress impairs reward learning in men</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.13.200568v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.13.200568v1?rss=1</link>
+	<description>Acute stress is ubiquitous in everyday life, but the extent to which acute stress affects how people learn from the outcomes of their choices is still poorly understood. Here, we investigate how acute stress impacts reward and punishment learning in men using a reinforcement-learning task. Sixty-two male participants performed the task whilst under stress and control conditions. We observed that acute stress impaired participants' choice performance towards monetary gains, but not losses. To unravel the mechanism(s) underlying such impairment, we fitted a reinforcement-learning model to participants' trial-by-trial choices. Computational modeling indicated that under acute stress participants learned more slowly from positive prediction errors - when the outcomes were better than expected - consistent with stress-induced dopamine disruptions. Such mechanistic understanding of how acute stress impairs reward learning is particularly important given the pervasiveness of stress in our daily life and the impact that stress can have on our wellbeing and mental health.</description>
+	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: A synthetic kinematic index of trunk displacement conveying the overall motor condition in Parkinson's disease</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.13.199224v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.13.199224v1?rss=1</link>
+	<description>BACKGROUND: Parkinson's disease (PD) is characterized by motor impairment, affecting quality of life and increasing fall risk, due to ineffective postural control. To this day, the diagnosis remains based on clinical approach. Similarly, motor evaluation is based on heterogeneous, operator-dependent observational criteria. A synthetic, replicable index to quantify motor impairment is still lacking. In this paper, we build upon the idea that the trunk is crucial in balance control. Hence, we have designed a new measure of postural stability which assess the trunk displacement in relation to the center of mass, that we named trunk displacement index (TDI). METHODS: Twenty-three PD patients and twenty-three healthy controls underwent clinical (UPDRS-III) and motor examination (3D gait analysis). The TDI was extracted from kinematic measurements using a stereophotogrammetric system. A correlation analysis was performed to assess the relationship of TDI with typical gait parameters, to verify its biomechanical value, and UPDRS-III, to observe its clinical relevance. Finally, its sensitivity was measured, comparing pre- and post- L-DOPA subclinical intake. RESULTS: The TDI showed significant correlations with many gait parameters, including both velocity and stability characteristics of gait, and with the UPDRS-III. Finally, the TDI resulted capable in discriminating between off and on state in PD, whereas typical gait parameters failed two show any difference between those two conditions. CONCLUSIONS: Our results suggest that the TDI may be considered a highly sensitive biomechanical index, reflecting the overall motor condition in PD, and provided of clinical relevance due to the correlation with the clinical evaluation.</description>
 	<pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
   <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
@@ -1551,220 +2123,6 @@ faster at providing collections of solutions that are significantly more
 diverse and higher performing. Moreover, in the rare cases where no fruitful
 synergy can be found between the different emitters, ME-MAP-Elites is
 equivalent to the best of the compared algorithms.
-&lt;/p&gt;</description>
-	<pubDate>Mon, 13 Jul 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
-</item>
-<item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Artificial Neural Network Approach for the Identification of Clove Buds Origin Based on Metabolites Composition. (arXiv:2007.05125v1 [cs.NE])</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2007.05125</guid>
-	<link>http://arxiv.org/abs/2007.05125</link>
-	<description>&lt;p&gt;This paper examines the use of artificial neural network approach in
-identifying the origin of clove buds based on metabolites composition.
-Generally, large data sets are critical for accurate identification. Machine
-learning with large data sets lead to precise identification based on origins.
-However, clove buds uses small data sets due to lack of metabolites composition
-and their high cost of extraction. The results show that backpropagation and
-resilient propagation with one and two hidden layers identifies clove buds
-origin accurately. The backpropagation with one hidden layer offers 99.91% and
-99.47% for training and testing data sets, respectively. The resilient
-propagation with two hidden layers offers 99.96% and 97.89% accuracy for
-training and testing data sets, respectively.
-&lt;/p&gt;</description>
-	<pubDate>Mon, 13 Jul 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
-</item>
-<item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Improving Adversarial Robustness by Enforcing Local and Global Compactness. (arXiv:2007.05123v1 [cs.LG])</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2007.05123</guid>
-	<link>http://arxiv.org/abs/2007.05123</link>
-	<description>&lt;p&gt;The fact that deep neural networks are susceptible to crafted perturbations
-severely impacts the use of deep learning in certain domains of application.
-Among many developed defense models against such attacks, adversarial training
-emerges as the most successful method that consistently resists a wide range of
-attacks. In this work, based on an observation from a previous study that the
-representations of a clean data example and its adversarial examples become
-more divergent in higher layers of a deep neural net, we propose the Adversary
-Divergence Reduction Network which enforces local/global compactness and the
-clustering assumption over an intermediate layer of a deep neural network. We
-conduct comprehensive experiments to understand the isolating behavior of each
-component (i.e., local/global compactness and the clustering assumption) and
-compare our proposed model with state-of-the-art adversarial training methods.
-The experimental results demonstrate that augmenting adversarial training with
-our proposed components can further improve the robustness of the network,
-leading to higher unperturbed and adversarial predictive performances.
-&lt;/p&gt;</description>
-	<pubDate>Mon, 13 Jul 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
-</item>
-<item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Biological credit assignment through dynamic inversion of feedforward networks. (arXiv:2007.05112v1 [q-bio.NC])</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2007.05112</guid>
-	<link>http://arxiv.org/abs/2007.05112</link>
-	<description>&lt;p&gt;Learning depends on changes in synaptic connections deep inside the brain. In
-multilayer networks, these changes are triggered by error signals fed back from
-the output, generally through a stepwise inversion of the feedforward
-processing steps. The gold standard for this process -- backpropagation --
-works well in artificial neural networks, but is biologically implausible.
-Several recent proposals have emerged to address this problem, but many of
-these biologically-plausible schemes are based on learning an independent set
-of feedback connections. This complicates the assignment of errors to each
-synapse by making it dependent upon a second learning problem, and by fitting
-inversions rather than guaranteeing them. Here, we show that feedforward
-network transformations can be effectively inverted through dynamics. We derive
-this dynamic inversion from the perspective of feedback control, where the
-forward transformation is reused and dynamically interacts with fixed or random
-feedback to propagate error signals during the backward pass. Importantly, this
-scheme does not rely upon a second learning problem for feedback because
-accurate inversion is guaranteed through the network dynamics. We map these
-dynamics onto generic feedforward networks, and show that the resulting
-algorithm performs well on several supervised and unsupervised datasets. We
-also link this dynamic inversion to Gauss-Newton optimization, suggesting a
-biologically-plausible approximation to second-order learning. Overall, our
-work introduces an alternative perspective on credit assignment in the brain,
-and proposes a special role for temporal dynamics and feedback control during
-learning.
-&lt;/p&gt;</description>
-	<pubDate>Mon, 13 Jul 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
-</item>
-<item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Interpretation of Deep Temporal Representations by Selective Visualization of Internally Activated Nodes. (arXiv:2004.12538v2 [cs.LG] UPDATED)</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2004.12538</guid>
-	<link>http://arxiv.org/abs/2004.12538</link>
-	<description>&lt;p&gt;Recently deep neural networks demonstrate competitive performances in
-classification and regression tasks for many temporal or sequential data.
-However, it is still hard to understand the classification mechanisms of
-temporal deep neural networks. In this paper, we propose two new frameworks to
-visualize temporal representations learned from deep neural networks. Given
-input data and output, our algorithm interprets the decision of temporal neural
-network by extracting highly activated periods and visualizes a sub-sequence of
-input data which contributes to activate the units. Furthermore, we
-characterize such sub-sequences with clustering and calculate the uncertainty
-of the suggested type and actual data. We also suggest Layer-wise Relevance
-from the output of a unit, not from the final output, with backward Monte-Carlo
-dropout to show the relevance scores of each input point to activate units with
-providing a visual representation of the uncertainty about this impact.
-&lt;/p&gt;</description>
-	<pubDate>Mon, 13 Jul 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
-</item>
-<item>
-	<title>arXiv: Quantitative Biology: Neurons and Cognition: Falsification and consciousness. (arXiv:2004.03541v2 [q-bio.NC] UPDATED)</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2004.03541</guid>
-	<link>http://arxiv.org/abs/2004.03541</link>
-	<description>&lt;p&gt;The search for a scientific theory of consciousness should result in theories
-that are falsifiable. However, here we show that falsification is especially
-problematic for theories of consciousness. We formally describe the standard
-experimental setup for testing these theories. Based on a theory's application
-to some physical system, such as the brain, testing requires comparing a
-theory's predicted experience (given some internal observables of the system
-like brain imaging data) with an inferred experience (using report or
-behavior). If there is a mismatch between inference and prediction, a theory is
-falsified. We show that if inference and prediction are independent, it follows
-that any minimally informative theory of consciousness is automatically
-falsified. This is deeply problematic since the field's reliance on report or
-behavior to infer conscious experiences implies such independence, so this
-fragility affects many contemporary theories of consciousness. Furthermore, we
-show that if inference and prediction are strictly dependent, it follows that a
-theory is unfalsifiable. This affects theories which claim consciousness to be
-determined by report or behavior. Finally, we explore possible ways out of this
-dilemma.
-&lt;/p&gt;</description>
-	<pubDate>Mon, 13 Jul 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
-</item>
-<item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Optimized spiking neurons can classify images with high accuracy through temporal coding with two spikes. (arXiv:2002.00860v2 [cs.NE] UPDATED)</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2002.00860</guid>
-	<link>http://arxiv.org/abs/2002.00860</link>
-	<description>&lt;p&gt;Spike-based neuromorphic hardware is a promising option for reducing the
-energy consumption of image classification, or more generally of inference in
-large neural networks that have been trained by deep learning. A drastic
-reduction of this energy consumption is especially needed for implementing
-state-of-the-art results of deep learning in edge devices. However direct
-training of deep feedforward spiking neural networks is difficult, and previous
-methods for converting trained artificial neural networks to spiking neurons
-required too many spikes. We show that a substantially more efficient
-conversion from artificial neural networks to spike-based networks is possible
-if one optimizes the spiking neuron model for that purpose, and enables it to
-use the timing of spikes to encode information. This method allows us to
-significantly advance the accuracy that can be achieved for image
-classification with spiking neurons, and the resulting networks need on average
-just two spikes per neuron for classifying an image. In addition our new
-conversion method drastically improves latency and throughput of the resulting
-spiking networks.
-&lt;/p&gt;</description>
-	<pubDate>Mon, 13 Jul 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
-</item>
-<item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Resonator Networks outperform optimization methods at solving high-dimensional vector factorization. (arXiv:1906.11684v3 [cs.NE] UPDATED)</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/1906.11684</guid>
-	<link>http://arxiv.org/abs/1906.11684</link>
-	<description>&lt;p&gt;We develop theoretical foundations of Resonator Networks, a new type of
-recurrent neural network introduced in Frady et al. (2020) to solve a
-high-dimensional vector factorization problem arising in Vector Symbolic
-Architectures. Given a composite vector formed by the Hadamard product between
-a discrete set of high-dimensional vectors, a Resonator Network can efficiently
-decompose the composite into these factors. We compare the performance of
-Resonator Networks against optimization-based methods, including Alternating
-Least Squares and several gradient-based algorithms, showing that Resonator
-Networks are superior in several important ways. This advantage is achieved by
-leveraging a combination of nonlinear dynamics and &quot;searching in
-superposition,&quot; by which estimates of the correct solution are formed from a
-weighted superposition of all possible solutions. While the alternative methods
-also search in superposition, the dynamics of Resonator Networks allow them to
-strike a more effective balance between exploring the solution space and
-exploiting local information to drive the network toward probable solutions.
-Resonator Networks are not guaranteed to converge, but within a particular
-regime they almost always do. In exchange for relaxing this guarantee of global
-convergence, Resonator Networks are dramatically more effective at finding
-factorizations than all alternative approaches considered.
-&lt;/p&gt;</description>
-	<pubDate>Mon, 13 Jul 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
-</item>
-<item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Options as responses: Grounding behavioural hierarchies in multi-agent RL. (arXiv:1906.01470v3 [cs.LG] UPDATED)</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/1906.01470</guid>
-	<link>http://arxiv.org/abs/1906.01470</link>
-	<description>&lt;p&gt;This paper investigates generalisation in multi-agent games, where the
-generality of the agent can be evaluated by playing against opponents it hasn't
-seen during training. We propose two new games with concealed information and
-complex, non-transitive reward structure (think rock/paper/scissors). It turns
-out that most current deep reinforcement learning methods fail to efficiently
-explore the strategy space, thus learning policies that generalise poorly to
-unseen opponents. We then propose a novel hierarchical agent architecture,
-where the hierarchy is grounded in the game-theoretic structure of the game --
-the top level chooses strategic responses to opponents, while the low level
-implements them into policy over primitive actions. This grounding facilitates
-credit assignment across the levels of hierarchy. Our experiments show that the
-proposed hierarchical agent is capable of generalisation to unseen opponents,
-while conventional baselines fail to generalise whatsoever.
-&lt;/p&gt;</description>
-	<pubDate>Mon, 13 Jul 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
-</item>
-<item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: Approximation spaces of deep neural networks. (arXiv:1905.01208v3 [math.FA] UPDATED)</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/1905.01208</guid>
-	<link>http://arxiv.org/abs/1905.01208</link>
-	<description>&lt;p&gt;We study the expressivity of deep neural networks. Measuring a network's
-complexity by its number of connections or by its number of neurons, we
-consider the class of functions for which the error of best approximation with
-networks of a given complexity decays at a certain rate when increasing the
-complexity budget. Using results from classical approximation theory, we show
-that this class can be endowed with a (quasi)-norm that makes it a linear
-function space, called approximation space. We establish that allowing the
-networks to have certain types of &quot;skip connections&quot; does not change the
-resulting approximation spaces. We also discuss the role of the network's
-nonlinearity (also known as activation function) on the resulting spaces, as
-well as the role of depth. For the popular ReLU nonlinearity and its powers, we
-relate the newly constructed spaces to classical Besov spaces. The established
-embeddings highlight that some functions of very low Besov smoothness can
-nevertheless be well approximated by neural networks, if these networks are
-sufficiently deep.
 &lt;/p&gt;</description>
 	<pubDate>Mon, 13 Jul 2020 01:30:00 +0000</pubDate>
   <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
@@ -1942,6 +2300,14 @@ sufficiently deep.
 	<guid isPermaLink="false">https://www.nature.com/articles/d41586-020-02100-2</guid>
 	<link>http://feeds.nature.com/~r/nature/rss/current/~3/D_kBEddGqos/d41586-020-02100-2</link>
 	<description>&lt;p&gt;Nature, Published online: 13 July 2020; &lt;a href=&quot;https://www.nature.com/articles/d41586-020-02100-2&quot;&gt;doi:10.1038/d41586-020-02100-2&lt;/a&gt;&lt;/p&gt;Africa CDC announces that new coronavirus cases were up 24% on the continent in the past week. Plus, US universities sue the government in support of international foreign students, and the four pillars of a successful science spin-off.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/D_kBEddGqos&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+  <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
+</item>
+<item>
+	<title>Nature: How to use a live pig to revitalize a human lung</title>
+	<guid isPermaLink="false">https://www.nature.com/articles/d41586-020-02080-3</guid>
+	<link>http://feeds.nature.com/~r/nature/rss/current/~3/KzxApF1bzSU/d41586-020-02080-3</link>
+	<description>&lt;p&gt;Nature, Published online: 13 July 2020; &lt;a href=&quot;https://www.nature.com/articles/d41586-020-02080-3&quot;&gt;doi:10.1038/d41586-020-02080-3&lt;/a&gt;&lt;/p&gt;Unusual method could increase the supply of lungs available for transplantation.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/KzxApF1bzSU&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
   <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
 </item>
@@ -2162,38 +2528,6 @@ sufficiently deep.
   <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
 <item>
-	<title>bioRxiv: Neuroscience: Syndapin-2 mediates amyloid-β transcytosis at the brain endothelium: implications in Alzheimer's disease</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.12.199869v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.12.199869v1?rss=1</link>
-	<description>A faulty transport of amyloid-{beta} (A{beta}) across the blood-brain barrier (BBB), and its diminished clearance from the brain, contributes to neurodegenerative and vascular pathologies, including Alzheimer disease (AD) and cerebral amyloid angiopathy, respectively. At the BBB, A{beta} efflux transport is associated with the low-density lipoprotein receptor-related protein 1 (LRP1). However, the precise mechanisms governing the A{beta} transport across the BBB, in health and disease, remain to be fully understood. New evidences suggest that LRP1 transcytosis occur through a tubular mechanism mediated by an F-BAR protein, syndapin-2. We show here that syndapin-2 is associated with A{beta} clearance across the BBB. We further demonstrate whether risk factors for AD, A{beta} expression and ageing, impact on native syndapin-2 expression in the brain endothelium, with syndapin-2 mediating A{beta} transcytosis. Both increased A{beta} expression and ageing significantly decreased expression of syndapin-2. These are mirrored by an alteration of the endosome-associated protein Rab5, with an increase of expression with A{beta} accumulation and ageing. Collectively, our data reveal that the syndapin-2-mediated pathway and its balance with endosomal sorting at endothelial level are critical for the clearance of neuronally-derived A{beta}, and thus proposing a new measure to assess AD and ageing, as well as, a potential target for counteracting the build-up of brain A{beta}.</description>
-	<pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: miR6236, a microRNA suppressed by the anisotropic surface topography, regulates neuronal development and regeneration.</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.12.196675v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.12.196675v1?rss=1</link>
-	<description>It has been well studied that the surface topography affects the growth and development of neurons. However, the precise mechanism that the surface topography leads to cellular changes remains unknown. In this study, we created an anisotropic surface using nanodiamonds and discovered this surface topography accelerates the development of primary neurons from both the central and peripheral nervous systems. Using RNA sequencing technology, a previously uncharacterized microRNA (miR6236) was found to exhibit significant and the most substantial decrease when neurons are cultured on this nanodiamond surface. Gain- and loss-of-function assays confirm that miR6236 is the predominant molecule responsible for converting the surface topography into biological responses. We further demonstrate that the depletion of miR6236 can enhance neuroregeneration on inhibitory substrate, uncovering its therapeutic potential for promoting central nervous system regeneration.</description>
-	<pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Atomoxetine modulates the contribution of high- and low-level signals during free viewing of natural images in rhesus monkeys</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.12.195933v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.12.195933v1?rss=1</link>
-	<description>Visuo-spatial attentional orienting is fundamental to selectively process behaviorally relevant information, depending on both low-level visual attributes of stimuli in the environment and higher-level factors, such as goals, expectations and prior knowledge. Growing evidence suggests an impact of the locus-coeruleus-norepinephrine (LC-NE) system in attentional orienting that depends on task-context. Nonetheless, most of previous studies used visual displays encompassing a target and various distractors, often preceded by cues to orient the attentional focus. This emphasizes the contribution of goal-driven processes, at the expense of other factors related to the stimulus content. Here, we aimed to determine the impact of NE on attentional orienting in more naturalistic conditions, using complex images and without any explicit task manipulation. We tested the effects of atomoxetine (ATX) injections, a NE reuptake inhibitor, on four monkeys during free viewing of images belonging to three categories: landscapes, monkey faces and scrambled images. Analyses of the gaze exploration patterns revealed, first, that the monkeys spent more time on each fixation under ATX compared to the control condition, regardless of the image content. Second, we found that, depending on the image content, ATX modulated the impact of low-level visual salience on attentional orienting. This effect correlated with the effect of ATX on the number and duration of fixations. Taken together, our results demonstrate that ATX adjusts the contribution of salience on attentional orienting depending on the image content, indicative of its role in balancing the role of stimulus-driven and top-down control during free viewing of complex stimuli.</description>
-	<pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: DNMT3A haploinsufficiency results in behavioral deficits and global epigenomic dysregulation shared across neurodevelopment disorders</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.10.195859v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.10.195859v1?rss=1</link>
-	<description>Mutations in DNA methyltransferase 3A (DNMT3A) have been detected in autism and related disorders, but how these mutations disrupt nervous system function is unknown. Here we define the effects of neurodevelopmental disease-associated DNMT3A mutations. We show that diverse mutations affect different aspects of protein activity yet lead to shared deficiencies in neuronal DNA methylation. Heterozygous DNMT3A knockout mice mimicking DNMT3A disruption in disease display growth and behavioral alterations consistent with human phenotypes. Strikingly, in these mice we detect global disruption of neuron-enriched non-CG DNA methylation, a binding site for the Rett syndrome protein MeCP2. Loss of this methylation leads to enhancer and gene dysregulation that overlaps with models of Rett syndrome and autism. These findings define effects of DNMT3A haploinsufficiency in the brain and uncover disruption of the non-CG methylation pathway as a convergence point across neurodevelopmental disorders.</description>
-	<pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
 	<title>Neural Networks: Towards explainable deep neural networks (xDNN)</title>
 	<guid isPermaLink="false">https://www.sciencedirect.com/science/article/pii/S0893608020302513</guid>
 	<link>https://www.sciencedirect.com/science/article/pii/S0893608020302513?dgcid=rss_sd_all</link>
@@ -2307,170 +2641,6 @@ sufficiently deep.
   <source url="http://rss.sciencedirect.com/publication/science/08936080">ScienceDirect Publication: Neural Networks</source>
 </item>
 <item>
-	<title>bioRxiv: Neuroscience: A population of central complex neurons promoting orientation to airflow in Drosophila</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.12.199729v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.12.199729v1?rss=1</link>
-	<description>How brain circuits convert sensory signals from diverse modalities into goal-oriented movements is a central question in neuroscience. In insects, a brain region known as the Central Complex (Cx) is believed to support navigation, but how this area organizes and processes diverse sensory cues is not clear. We recorded from genetically-identified Cx cell types in Drosophila and presented directional visual, olfactory, and airflow cues known to elicit orienting behavior. We found that a group of columnar neurons targeting the ventral fan-shaped body (ventral P-FNs) were consistently tuned for airflow direction. Silencing these neurons prevented flies from adopting stable orientations relative to airflow in closed-loop flight. Specifically, silenced flies selected improper corrective turns following changes in airflow direction, but not following airflow offset, suggesting a specific deficit in sensory-motor conversion. Our work provides insight into the organization and function of the insect navigation center.</description>
-	<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Dynamics of history-dependent perceptual judgment</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.12.199489v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.12.199489v1?rss=1</link>
-	<description>Identical physical inputs do not always evoke identical percepts. To investigate the role of stimulus history in tactile perception, we designed a task in which rats had to judge each vibrissal vibration, in a long series, as strong or weak depending on its mean speed. After a low-speed stimulus (trial n-1), rats were more likely to report the next stimulus (trial n) as strong, and after a high-speed stimulus, they were more likely to report the next stimulus as weak, a repulsive effect that did not depend on choice or reward on trial n-1. This effect could be tracked over several preceding trials (i.e. n-2 and earlier) and was characterized by an exponential decay function, reflecting a trial-by-trial incorporation of sensory history. Surprisingly, the influence of trial n-1 strengthened as the time interval between n-1 and n grew. Human subjects receiving fingertip vibrations showed these same key findings. We are able to account for the repulsive stimulus history effect, and its detailed time scale, through a single-parameter model, wherein each new stimulus gradually updates the subject's decision criterion. This model points to mechanisms underlying how the past affects the ongoing subjective experience.</description>
-	<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Topographic organization of feedback projections to mouse primary visual cortex</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.12.198440v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.12.198440v1?rss=1</link>
-	<description>Context dependent top-down modulation in visual processing has been a topic of wide interest. Recent findings on context dependent modulation, combined with the tools available to investigate network mechanisms in the mouse, make the mouse primary visual cortex an ideal system to investigate context-dependent modulation. However, the distribution of inputs to V1 from across the brain is still relatively unknown. In this study, we investigate inputs to V1 by injecting cholera toxin B subunit (CTB), a retrograde tracer, across the extent of V1. To identify CTB labelled cell bodies and quantify their distribution across various brain regions, we developed a software pipeline that maps each labelled cell body to its corresponding brain region. We found over fourteen brain regions that provided inputs to V1. Higher visual areas (HVAs) provided the most inputs to V1, followed by the retrosplenial, cingulate, and other sensory cortices. As our injections spanned a range of coordinates along the mediolateral axis of V1, we asked if there was any topographic organisation of inputs to V1: do particular areas project preferentially to specific regions of V1. Based on the distribution of inputs from different HVAs, injection sites broadly clustered into two groups, consistent with a retinotopic separation into sites within the central visual field and the peripheral visual field. Furthermore, the number of cells detected in HVAs was correlated to the azimuthal retinotopic location of each injection site. This topographic organization of feedback projections along the medio-lateral axis of V1 suggests that V1 cells representing peripheral vs central visual fields are differentially modulated by HVAs, which may have an ethological relevance for a navigating animal.</description>
-	<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Independence of Cued and Contextual Components of Fear Conditioning is Gated by the Lateral Habenula</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.12.197319v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.12.197319v1?rss=1</link>
-	<description>The lateral habenula (LHb) encodes aversive information. However, there is little understanding of how the information provided by the LHb influences learning and memory processes. Fear conditioning (FC) is probably the best understood model of aversive associative learning. Thus, FC constitutes a good behavioral paradigm to analyze LHb function in associative learning. In the present work we studied in rats the effect of interfering with neuronal activity of the LHb on FC using optogenetics and pharmacological tools. We found that exciting or inhibiting the LHb during training, abolishes independent expression of contextual and cued memories, yet memory is normally expressed when the cue is played in the training context. Our results reveal that the formation of independent cued and contextual FC memories requires intact signaling by the LHb assigning to this structure a previously uncharacterized integrative role in brain circuits required for FC learning.</description>
-	<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Wide phenotypic spectrum of human stem cell-derived excitatory neurons with Rett syndrome-associated MECP2 mutations</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.12.189621v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.12.189621v1?rss=1</link>
-	<description>Rett syndrome (RTT) is a severe neurodevelopmental disorder primarily caused by heterozygous loss-of-function mutations in the X-linked gene methyl-CpG-binding protein 2 (MECP2) that is a global transcriptional regulator. Mutations in the methyl-binding domain (MBD) of MECP2 disrupt its interaction with methylated DNA required for proper function in the brain. Here, we investigate the effect of a novel MECP2 L124W missense mutation in the MBD in comparison to MECP2 null mutations. L124W protein had a limited ability to disrupt heterochromatic chromocenters due to decreased binding dynamics. We isolated two pairs of isogenic WT and L124W induced pluripotent stem cell lines. L124W induced excitatory neurons expressed stable protein, exhibited only increased input resistance and impaired voltage-gated Na+ and K+ currents, and their neuronal dysmorphology was limited to reduced dendritic complexity. Three isogenic pairs of MECP2 null neurons had the expected more pronounced morphological and electrophysiological phenotypes, exhibiting decreased soma area, dendrite length, capacitance and excitatory synaptic function. We examined development and maturation of excitatory neural networks using micro-electrode arrays to detect alterations in RTT connectivity. The L124W neurons had no detectable changes in network circuitry features, in contrast to MECP2 null neurons that suffered a significant change in synchronous network burst frequency and a transient extension of network burst duration. Our results from stem cell-derived RTT excitatory neurons reveal a wide range of morphological, electrophysiological and circuitry phenotypes that reflect the severity of the MECP2 mutation.</description>
-	<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Individual differences in frontal midline theta activity during visuomotor adaptation are related to execution noise</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.12.188581v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.12.188581v1?rss=1</link>
-	<description>Frontal midline EEG activity has been found to correlate with error magnitude during motor adaptation. We replicated a previous visuomotor adaptation experiment with very small perturbations, likely to invoke implicit adaptation, in a new group of 60 participants and combined it with EEG recordings. We used this data to explore 1) whether frontal midline activity will be evoked in the absence of awareness of the perturbation; 2) whether frontal midline activity is related to implicit adaptation; 3) whether individual differences in frontal midline activity are related to individual differences in motor learning. The results showed that frontal midline theta activity (FM{Theta}) is also present during small perturbations, does not drive between-trial error correction, and that the sensitivity of FM{Theta} to error magnitude was smaller for participants with greater execution noise. This relation between FM{Theta}-error-sensitivity and execution noise could be fully explained by looking at the relationship between FM{Theta} and error probability. This implies that frontal midline theta activity represents a surprise-like saliency signal, potentially driving awareness and cognitive control in situations with more salient errors.</description>
-	<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Deconvolution of ears' activity (DEA): A new experimental paradigm to investigate central auditory processing.</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.11.198929v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.11.198929v1?rss=1</link>
-	<description>A novel experimental paradigm, &quot;deconvolution of ears activity&quot; (DEA), is presented which allows to disentangle overlapping neural activity from both auditory cortices when two auditory stimuli are presented closely together in time in each ear.
-
-Pairs of multi-tone complexes were presented either binaurally, or sequentially by alternating presentation order in each ear (i.e., first tone complex of the pair presented to one ear and second tone complex to the other ear), using stimulus onset asynchronies (SOAs) shorter than the neural response length. This timing strategy creates overlapping responses, which can be mathematically separated using least-squares deconvolution.
-
-The DEA paradigm allowed the evaluation of the neural representation in the auditory cortex of responses to stimuli presented at syllabic rates (i.e., SOAs between 120 and 260 ms). Analysis of the neuromagnetic responses in each cortex offered a sensitive technique to study hemispheric lateralization, ear representation (right versus left), pathway advantage (contra- versus ipsi-lateral) and cortical binaural interaction.
-
-To provide a proof-of-concept of the DEA paradigm, data was recorded from three normal-hearing adults. Results showed good test-retest reliability, and indicated that the difference score between hemispheres can potentially be used to assess central auditory processing. This suggests that the method could be a potentially valuable tool for generating an objective &quot;auditory profile&quot; by assessing individual fine-grained auditory processing using a non-invasive recording method.</description>
-	<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Lateral phase differences in a population model of the visual cortex are sufficient for the development of rhythmic spatial sampling</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.11.198820v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.11.198820v1?rss=1</link>
-	<description>When attending to many spatially distributed visual stimuli, attention is reweighted rhythmically at 4-8 Hz. The probability of detection depends on the phase at which a stimulus is deployed relative to this intrinsic rhythm. The reweighting oscillations can be observed both electrophysiologically and behaviorally, and appear to be regulated by the pulvinar. Based on these findings, we considered the computational consequences of allowing feedback to shape the distribution of inhibitory oscillations from the thalamus, as measured by a local field potential (LFP) phases in the 8 Hz low alpha-band, across laterally-connected regions of the visual cortex. We constructed a population activity model with lateral and feedforward connections. In agreement with prior models, we found that the sign of the lateral phase difference in the inhibitory low-frequency oscillations regulated the direction of communication between the laterally-connected regions. Furthermore, the phase difference induced periodicity in the dynamics of a downstream winner-takes-all attractor network such that periodic switching between states was observed. We finally simulated a simple spatial attention task. We found rhythmic 8 Hz sampling between two regions when a lateral phase difference was present--an effect that disappeared when the lateral phase difference was zero. These findings are in agreement with spatial attention literature and suggest that lateral phase differences are essential for manifesting communicational asymmetries in laterally-connected visual cortices. Our model predicts that population-specific phase differences are critical for sampling the spatial extent of stimuli.
-
-Author summaryWe conducted a computational study of the effects of lateral phase differences in a simulated model of the visual cortex. Lateral phase differences are defined to be when the phase of an intrinsic low-frequency inhibitory oscillation varies consistently across populations in the same cortical area. For example, our model was intended to capture the dynamics of a retinotopic cortex where feedback from the frotoparietal areas via the pulvinar nucleus assigned laterally-connected regions of the visual cortex different phases. We found that the sign of the phase differences influenced the direction of lateral communication. Furthermore, the phase differences introduced rhythmicity in the downstream areas, thus allowing us to simulate rhythmic spatial selection of stimuli. Prior to the current study, the influence of inter-areal phase differences in feedforward models had been well characterized. Our model provides new insights into the dynamics of population-specific lateral phase differences and predicts that the development of phase differences across the visual cortex are critical for the allocation of attention in space.</description>
-	<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Controllability over stressor decreases responses in key threat-related brain areas</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.11.198762v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.11.198762v1?rss=1</link>
-	<description>Controllability over stressors has major impacts on brain and behavior. In humans, however, the effect of controllability on the responses to stressors themselves is poorly understood. Using functional magnetic resonance imaging, we investigated how controllability altered responses to a shock-plus-sound stressor. Using a between-group yoked design, participants in controlled and uncontrolled groups experienced the same amount of stressor exposure. Employing both Bayesian multilevel analysis targeting regions of interest and standard voxelwise analysis, we found that controllability decreased stressor-related responses across key threat-related regions, notably in the bed nucleus of the stria terminalis (part of the extended amygdala) and the anterior insula. The posterior cingulate cortex, the posterior insula, and possibly the medial frontal gyrus (in exploratory analyses) were uncovered as sites where control over the stressor increased brain responses. Our findings support the idea that the aversiveness of the stressor is reduced when controllable, leading to decreased responses across key regions involved in anxiety-related processing, even at the level of the extended amygdala.</description>
-	<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: The Contribution of Environmental Complexity to Phenotypic Variation in Mice and Rats</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.11.198705v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.11.198705v1?rss=1</link>
-	<description>The reproducibility and translation of neuroscience research is assumed to be undermined by introducing environmental complexity and heterogeneity. Rearing laboratory animals with minimal (if any) environmental stimulation is thought to control for biological variability but may not adequately test the robustness of our animal models. Standard laboratory housing is associated with reduced demonstrations of species typical behaviors and changes in neurophysiology that may impact the translation of research results. Moreover, modest increases in environmental enrichment (EE) mitigate against insults used to induce animal models of disease, directly calling into question the translatability of our work and may in part underlie the disconnect between preclinical and clinical research findings. Enhancing environmental stimulation for our model organisms promotes ethological natural behaviors but may simultaneously increase phenotypic trait variability. To test this assumption, we conducted a systematic review and evaluated coefficients of variation between EE and control housed animals. Overall, animals housed in enrichment were not more variable than controls. Therefore, environmental heterogeneity introduced into the laboratory does not compromise data integrity.
-
-Highlights-Environmental complexity is thought to increase phenotypic variability, undermining research translation
--We conducted a systematic review to compare between environmentally enriched and control housed animals
--Coefficients of variation were evaluated across several phenotypic traits
--Animals housed in environmental enrichment were not more variable than controls
--We also provide a methodological reporting table for environmental enrichment use in neuroscience research</description>
-	<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Distributed control of motor circuits for backward walking in Drosophila</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.11.198663v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.11.198663v1?rss=1</link>
-	<description>How do descending inputs from the brain control leg motor circuits to change the way an animal walks? Conceptually, descending neurons are thought to function either as command-type neurons, in which a single type of descending neuron exerts a high-level control to elicit a coordinated change in motor output, or through a more distributed population coding mechanism, whereby a group of neurons, each with local effects, act in combination to elicit a global motor response. The Drosophila Moonwalker Descending Neurons (MDNs), which alter leg motor circuit dynamics so that the fly walks backwards, exemplify the command-type mechanism. Here, we identify several dozen MDN target neurons within the leg motor circuits, and show that two of them mediate distinct and highly-specific changes in leg muscle activity during backward walking: LIN156 neurons provide the hindleg power stroke during stance phase; LIN128 neurons lift the legs at the end of stance to initiate swing. Through these two effector neurons, MDN directly controls both the stance and swing phases of the backward stepping cycle. MDN exerts these changes only upon the hindlegs; the fore- and midlegs follow passively through ground contact. These findings suggest that command-type descending neurons can also operate through the distributed control of local motor circuits.</description>
-	<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Task-induced modulations of neuronal activity along the auditory pathway</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.11.198481v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.11.198481v1?rss=1</link>
-	<description>Sensory processing varies depending on behavioral context. Here, we asked how task-engagement modulates neurons in the auditory system. We trained mice in a simple tone-detection task, and compared their neuronal activity during passive hearing and active listening. Electrophysiological extracellular recordings in the inferior colliculus, medial geniculate body, primary auditory cortex and anterior auditory field revealed widespread modulations across all regions and cortical layers, and in both putative regular and fast-spiking cortical neurons. Clustering analysis unveiled ten distinct modulation patterns that could either enhance or suppress neuronal activity. Task-engagement changed the tone-onset response in most neurons. Such modulations first emerged in subcortical areas, ruling out cortical feedback from primary auditory areas as the only mechanism underlying subcortical modulations. Half the neurons additionally displayed late modulations associated with licking, arousal or reward. Our results reveal the presence of functionally distinct subclasses of neurons, differentially sensitive to specific task-related variables but anatomically distributed along the auditory pathway.</description>
-	<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Is the &quot;end-of-study guess&quot; a valid measure of sham blinding during transcranial direct current stimulation?</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.11.198416v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.11.198416v1?rss=1</link>
-	<description>Studies using transcranial direct current stimulation (tDCS) typically incorporate a fade-in, short-stimulation, fade-out sham (placebo) protocol, which is assumed to be indistinct from a 10-30min active protocol on the scalp. However, many studies report that participants can dissociate active stimulation from sham, even during low-intensity 1mA currents. We recently identified differences in the perception of an active (10min of 1mA) and a sham (20s of 1mA) protocol that lasted for 5 mins after the cessation of sham. In the present study we assessed whether delivery of a higher-intensity 2mA current would exacerbate these differences. Two protocols were delivered to 32 adults in a double-blinded, within-subjects design (active: 10min of 2mA, and sham: 20s of 2mA), with the anode over the left primary motor cortex and the cathode on the right forehead. Participants were asked &quot;Is the stimulation on?&quot; and &quot;How sure are you?&quot; at 30s intervals during and after stimulation. The differences between active and sham were more consistent and sustained during 2mA than during 1mA. We then quantified how well participants were able to track the presence and absence of stimulation (i.e. their sensitivity) during the experiment using cross-correlations. Current strength was a good classifier of sensitivity during active tDCS, but exhibited only moderate specificity during sham. The accuracy of the end-of-study guess was no better than chance at predicting sensitivity. Our results indicate that the traditional end-of-study guess poorly reflects the sensitivity of participants to stimulation, and may not be a valid method of assessing sham blinding.</description>
-	<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Anxiety makes time pass quicker: neural correlates</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.11.198390v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.11.198390v1?rss=1</link>
-	<description>Anxiety can be an adaptive process that promotes harm avoidance. It is accompanied by shifts in cognitive processing, but the precise nature of these changes and the neural mechanisms that underlie them are not fully understood. One theory is that anxiety impairs concurrent (non-harm related) cognitive processing by commandeering finite neurocognitive resources. For example, we have previously shown that anxiety reliably  speeds up time, promoting temporal underestimation, possibly due to loss of temporal information. Whether this is due anxiety  overloading neurocognitive processing of time is unknown. We therefore set out to understand the neural correlates of this effect, examining whether anxiety and time processing overlap, particularly in regions of the cingulate cortex. Across two studies (an exploratory Study 1, N=13, followed by a pre-registered Study 2, N=29) we combined a well-established anxiety manipulation (threat of shock) with a temporal bisection task while participants were scanned using functional magnetic resonance imaging. Consistent with our previous work, time was perceived to pass more quickly under induced anxiety. Anxiety induction led to widespread activation in cingulate cortex, while the perception of longer intervals was associated with more circumscribed activation in a mid-cingulate area. Importantly, conjunction analysis identified convergence between anxiety and time processing in the insula and mid-cingulate cortex. These results provide tentative support for the hypothesis that anxiety impacts cognitive processing by overloading already-in-use neural resources. In particular, overloading mid-cingulate cortex capacity may drive emotion-related changes in temporal perception, consistent with the hypothesised role of this region in mediating cognitive affective and behavioural responses to anxiety.</description>
-	<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Plasticity in prefrontal cortex induced by coordinated nucleus reuniens and hippocampal synaptic transmission</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.11.197798v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.11.197798v1?rss=1</link>
-	<description>The nucleus reuniens of the thalamus (NRe) is reciprocally connected to a range of higher order cortices including hippocampus (HPC) and medial prefrontal cortex (mPFC). The physiological function of NRe is well predicted by requirement for interactions between mPFC and HPC, including associative recognition memory, spatial navigation and working memory. Although anatomical and electrophysiological evidence suggests NRe makes excitatory synapses in mPFC there is little data on the physiological properties of these projections, or whether NRe and HPC target overlapping cell populations and, if so, how they interact. We demonstrate in ex vivo mPFC slices that NRe and HPC afferent inputs converge onto more than two-thirds of layer 5 pyramidal neurons, show that NRe, but not HPC, undergoes marked short-term plasticity at theta, and that HPC, but not NRe, afferents are subject to neuromodulation by acetylcholine acting via muscarinic receptor M2. Finally, we demonstrate that pairing HPC followed by NRe (but not pairing NRe followed by HPC) at theta frequency induces associative, NMDA receptor dependent synaptic plasticity in both inputs to mPFC. These data provide vital physiological phenotypes of the synapses of this circuit and provide a novel mechanism for HPC-NRe-mPFC encoding.</description>
-	<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Evaluating High Spatial Resolution Diffusion Kurtosis Imaging at 3T: Reproducibility and Quality of Fit</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.10.197921v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.10.197921v1?rss=1</link>
-	<description>BackgroundDiffusion kurtosis imaging (DKI) quantifies the microstructures non-Gaussian diffusion properties. However, it has increased fitting parameters and requires higher b-values. Evaluation of DKI reproducibility is important for clinical purposes.
-
-PurposeTo assess reproducibility in whole-brain high resolution DKI at varying b-values.
-
-Study TypeProspective.
-
-Subjects and PhantomsForty-four individuals from the test-retest Human Connectome Project (HCP) database and twelve 3D-printed tissue mimicking phantoms.
-
-Field Strength/SequenceMultiband echo-planar imaging for in vivo and phantom diffusion-weighted imaging at 3T and 9.4T respectively. MPRAGE at 3T for in vivo structural data.
-
-AssessmentFrom HCP data with b-value =1000,2000,3000 s/mm2 (dataset A), two additional datasets with b-values=1000, 3000 s/mm2 (dataset B) and b-values=1000, 2000 s/mm2 (dataset C) were extracted. Estimated DKI metrics from each dataset were used for evaluating reproducibility and fitting quality in whole-brain white matter (WM), region of interest (ROI) and gray matter (GM).
-
-Statistical TestsDKI reproducibility was assessed using the within-subject coefficient of variation (CoV), fitting residuals to evaluate DKI fitting accuracy and Pearsons correlation to investigate presence of systematic biases.
-
-ResultsCompared to dataset C, the CoV from DKI parameters from datasets A and B were comparable, with WM and GM CoVs &amp;lt;20%, while differences between datasets were smaller for the DKI-derived DTI parameters. Slightly higher fitting residuals were observed in dataset C compared to A and B, but lower residuals in dataset B were detected for the WM ROIs. A similar trend was observed for the phantom data with comparable CoVs at varying fiber orientations for datasets A and B. In addition, dataset C was characterized by higher residuals across the different fiber crossings.
-
-Data ConclusionThe comparable reproducibility of DKI maps between datasets A and B observed in the in vivo and phantom data indicates that high reproducibility can still be achieved within a reasonable scan time, supporting DKI for clinical purposes.
-
-HIGHLIGHTS O_LIReproducibility and fitting accuracy of high resolution DKI were evaluated as function of available b-values.
-C_LIO_LIA DKI dataset with b-values of 1000 and 3000 s/mm2 performs equally well as the original HCP three-shell dataset, while a dataset with b-values of 1000 and 2000 s/mm2 has lower reproducibility and fitting quality.
-C_LIO_LIIn vivo results were verified using phantoms capable of mimicking different white matter configurations.
-C_LIO_LIThese results suggest that DKI data can be obtained within less time, without sacrificing data quality.
-C_LI</description>
-	<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
 	<title>Annals of Neurology: Absence of Subcerebral Projection Neurons Is Beneficial in a Mouse Model of Amyotrophic Lateral Sclerosis</title>
 	<guid isPermaLink="false">/doi/abs/10.1002/ana.25833?af=R</guid>
 	<link>https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25833?af=R</link>
@@ -2526,22 +2696,6 @@ C_LI</description>
 &lt;p&gt;In addition to memory deficits and reduction of NMDARs, CSF antibodies from patients with anti‐NMDAR encephalitis cause reversible psychotic‐like features accompanied by changes (D1R decrease, D2R increase) in cell‐surface dopamine receptor clusters. ANN NEUROL 2020&lt;/p&gt;</description>
 	<pubDate>Sat, 11 Jul 2020 08:11:59 +0000</pubDate>
   <source url="https://onlinelibrary.wiley.com/action/showFeed?jc=15318249&amp;type=etoc&amp;feed=rss">Wiley: Annals of Neurology: Table of Contents</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: ACE2-expressing endothelial cells in aging mouse brain</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.11.198770v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.11.198770v1?rss=1</link>
-	<description>Angiotensin-converting enzyme 2 (ACE2) is a key receptor mediating the entry of SARS-CoV-2 into the host cell. Through a systematic analysis of publicly available mouse brain sc/snRNA-seq data, we found that ACE2 is specifically expressed in small sub-populations of endothelial cells and mural cells, namely pericytes and vascular smooth muscle cells. Further, functional changes in viral mRNA transcription and replication, and impaired blood-brain barrier regulation were most prominently implicated in the aged, ACE2-expressing endothelial cells, when compared to the young adult mouse brains. Concordant EC transcriptomic changes were further found in normal aged human brains. Overall, this work reveals an outline of ACE2 distribution in the mouse brain and identify putative brain host cells that may underlie the selective susceptibility of the aging brain to viral infection.</description>
-	<pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Cortical propagation as a biomarker for recovery after stroke</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.07.10.197509v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.10.197509v1?rss=1</link>
-	<description>Stroke is a debilitating condition which affects millions of people worldwide. The development of improved rehabilitation paradigms rests on finding biomarkers suitable for tracking functional damage and recovery. We perform a detailed spatiotemporal analysis of wide-field calcium images from mice during longitudinal motor training before and after focal stroke induction. We define three indicators that characterise the duration, the angle of propagation and the smoothness of global movement-evoked activation patterns. During acute stroke we observe an increase in global event duration and a decrease in smoothness over the ipsilesional hemisphere. For both rehabilitation via motor training alone and combined with pharmacological therapy, we find clear signs of recovery, but surprisingly, cortical propagation in double treated mice with generalised recovery is even faster and smoother than before stroke. Our propagation-based biomarkers deliver unforeseen insight into brain mechanisms underlying motor recovery and thus pave the way towards a more targeted post-stroke therapy.</description>
-	<pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
 <item>
 	<title>PLoS Computational Biology: Unravelling the γ-butyrolactone network in &lt;i&gt;Streptomyces coelicolor&lt;/i&gt; by computational ensemble modelling</title>
@@ -2632,47 +2786,6 @@ Recent resting-state functional MRI (fMRI) studies have revealed that the global
 	<description>&lt;p&gt;Maintaining emotional well-being in late life is crucial for achieving successful and healthy aging. While previous research from Western cultures has documented that emotional well-being improves as individuals get older, previous research provided mixed evidence on the effects of age on well-being in Eastern Asian cultures. However, previous studies in East Asia do not always take into account the effects of cognitive control – an ability which has been considered as a key to enable older adults to regulate their emotions. In the current study, we tested whether cognitive control abilities interact with age in determining individuals’ well-being in 59 Japanese females (age range: 26-79; Mage = 64.95). Participants’ mental health and mental fatigue were tracked for 5 years together with their cognitive control abilities. We found that as individuals became older, they showed improved mental health and decreased mental fatigue. In addition, for mental fatigue, we found a quadratic effect of age which was further qualified by baseline cognitive control abilities; in those who had a lower level of cognitive control abilities, mental fatigue declined until the mid 60s, at which point it started increasing (a U-shape effect). In contrast, in those who had a higher level of cognitive control ability, mental fatigue showed a steady decrease with age even after their mid-60s. These results suggest that whether advancing age is associated with positive vs. negative changes in well-being depends on cognitive control abilities and that preserved cognitive control is a key to maintain well-being in late life.&lt;/p&gt;</description>
 	<pubDate>Fri, 10 Jul 2020 05:23:11 +0000</pubDate>
   <source url="http://journal.frontiersin.org/journal/aging-neuroscience/rss">Frontiers in Aging Neuroscience | New and Recent Articles</source>
-</item>
-<item>
-	<title>arXiv: Quantitative Biology: Neurons and Cognition: Recursion and evolution: Part II. (arXiv:2007.04982v1 [cs.LG])</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2007.04982</guid>
-	<link>http://arxiv.org/abs/2007.04982</link>
-	<description>&lt;p&gt;We examine the question of whether it is possible for a diagonalizing system,
-to learn to use environmental reward and punishment as an information, in order
-to appropriately adapt. More specifically, we study the possiblity of such a
-system, to learn to use diagonalization on the basis of a rewarding function.
-Relevant phenomena regarding memory are also investigated.
-&lt;/p&gt;</description>
-	<pubDate>Fri, 10 Jul 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/q-bio.NC/">q-bio.NC updates on arXiv.org</source>
-</item>
-<item>
-	<title>arXiv: Computer Science: Neural and Evolutionary Computing: A Study on Encodings for Neural Architecture Search. (arXiv:2007.04965v1 [cs.LG])</title>
-	<guid isPermaLink="true">http://arxiv.org/abs/2007.04965</guid>
-	<link>http://arxiv.org/abs/2007.04965</link>
-	<description>&lt;p&gt;Neural architecture search (NAS) has been extensively studied in the past few
-years. A popular approach is to represent each neural architecture in the
-search space as a directed acyclic graph (DAG), and then search over all DAGs
-by encoding the adjacency matrix and list of operations as a set of
-hyperparameters. Recent work has demonstrated that even small changes to the
-way each architecture is encoded can have a significant effect on the
-performance of NAS algorithms.
-&lt;/p&gt;
-&lt;p&gt;In this work, we present the first formal study on the effect of architecture
-encodings for NAS, including a theoretical grounding and an empirical study.
-First we formally define architecture encodings and give a theoretical
-characterization on the scalability of the encodings we study Then we identify
-the main encoding-dependent subroutines which NAS algorithms employ, running
-experiments to show which encodings work best with each subroutine for many
-popular algorithms. The experiments act as an ablation study for prior work,
-disentangling the algorithmic and encoding-based contributions, as well as a
-guideline for future work. Our results demonstrate that NAS encodings are an
-important design decision which can have a significant impact on overall
-performance. Our code is available at
-https://github.com/naszilla/nas-encodings.
-&lt;/p&gt;</description>
-	<pubDate>Fri, 10 Jul 2020 01:30:00 +0000</pubDate>
-  <source url="http://export.arxiv.org/rss/cs.NE">cs.NE updates on arXiv.org</source>
 </item>
 <item>
 	<title>Nature: Structural basis for RIFIN-mediated activation of LILRB1 in malaria</title>
@@ -3193,46 +3306,6 @@ CRISPR-&lt;i&gt;Staphylococcus aureus&lt;/i&gt; Cas9 (CRISPR-SaCas9) has been ha
 	<guid isPermaLink="false">https://www.nature.com/articles/d41586-020-02075-0</guid>
 	<link>http://feeds.nature.com/~r/nature/rss/current/~3/HRqGMy5Y0ro/d41586-020-02075-0</link>
 	<description>&lt;p&gt;Nature, Published online: 09 July 2020; &lt;a href=&quot;https://www.nature.com/articles/d41586-020-02075-0&quot;&gt;doi:10.1038/d41586-020-02075-0&lt;/a&gt;&lt;/p&gt;Researchers flocked to join Skype a Scientist after COVID-19 closed their labs. The squid biologist who founded it explains how the science-communication platform has adapted.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/HRqGMy5Y0ro&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
-</item>
-<item>
-	<title>Nature: The lockdown walk that inspired an experiment</title>
-	<guid isPermaLink="false">https://www.nature.com/articles/d41586-020-02074-1</guid>
-	<link>http://feeds.nature.com/~r/nature/rss/current/~3/k47w9Di-sos/d41586-020-02074-1</link>
-	<description>&lt;p&gt;Nature, Published online: 09 July 2020; &lt;a href=&quot;https://www.nature.com/articles/d41586-020-02074-1&quot;&gt;doi:10.1038/d41586-020-02074-1&lt;/a&gt;&lt;/p&gt;Why do garden plants suddenly become invasive? One scientist couple turned their balcony into a lab to find out.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/k47w9Di-sos&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
-</item>
-<item>
-	<title>Nature: The many roads to the red planet — a memoir</title>
-	<guid isPermaLink="false">https://www.nature.com/articles/d41586-020-02071-4</guid>
-	<link>http://feeds.nature.com/~r/nature/rss/current/~3/V29QmKrTdVg/d41586-020-02071-4</link>
-	<description>&lt;p&gt;Nature, Published online: 09 July 2020; &lt;a href=&quot;https://www.nature.com/articles/d41586-020-02071-4&quot;&gt;doi:10.1038/d41586-020-02071-4&lt;/a&gt;&lt;/p&gt;As three nations prepare to send spacecraft to Mars, a planetary scientist offers her personal tour of those who led the way. By Alexandra Witze&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/V29QmKrTdVg&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
-</item>
-<item>
-	<title>Nature: Bleak financial outlook for PhD students in Australia</title>
-	<guid isPermaLink="false">https://www.nature.com/articles/d41586-020-02069-y</guid>
-	<link>http://feeds.nature.com/~r/nature/rss/current/~3/QYIozV7PQYc/d41586-020-02069-y</link>
-	<description>&lt;p&gt;Nature, Published online: 09 July 2020; &lt;a href=&quot;https://www.nature.com/articles/d41586-020-02069-y&quot;&gt;doi:10.1038/d41586-020-02069-y&lt;/a&gt;&lt;/p&gt;Unable to afford medicines, utilities and housing, some students expect to suspend their doctoral programmes or drop out.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/QYIozV7PQYc&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
-</item>
-<item>
-	<title>Nature: Blood from fit mice bestows brain benefits of exercise</title>
-	<guid isPermaLink="false">https://www.nature.com/articles/d41586-020-02068-z</guid>
-	<link>http://feeds.nature.com/~r/nature/rss/current/~3/Luiel_IOtRI/d41586-020-02068-z</link>
-	<description>&lt;p&gt;Nature, Published online: 09 July 2020; &lt;a href=&quot;https://www.nature.com/articles/d41586-020-02068-z&quot;&gt;doi:10.1038/d41586-020-02068-z&lt;/a&gt;&lt;/p&gt;Workouts rejuvenate the brains of old mice — but so does plasma from well-conditioned rodents.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/Luiel_IOtRI&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
-</item>
-<item>
-	<title>Nature: This material is almost as hard as diamond — but as light as graphite</title>
-	<guid isPermaLink="false">https://www.nature.com/articles/d41586-020-02061-6</guid>
-	<link>http://feeds.nature.com/~r/nature/rss/current/~3/Wq82Zo2u4HU/d41586-020-02061-6</link>
-	<description>&lt;p&gt;Nature, Published online: 09 July 2020; &lt;a href=&quot;https://www.nature.com/articles/d41586-020-02061-6&quot;&gt;doi:10.1038/d41586-020-02061-6&lt;/a&gt;&lt;/p&gt;A theoretical form of carbon called pentadiamond becomes thicker when stretched.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/Wq82Zo2u4HU&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
   <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
 </item>
@@ -4785,85 +4858,6 @@ In the absence of any task, both the brain and spinal cord exhibit spontaneous i
 	<description>&lt;p&gt;Oxidative stress (OS) plays a critical role in the pathophysiology of several brain-related disorders, including neurodegenerative diseases and ischemic stroke, which are the major causes of dementia. The Nrf2-ARE (nuclear factor erythroid 2-related factor 2/antioxidant responsive element antioxidant) system, the primary cellular defense against OS, plays an essential role in neuroprotection by regulating the expressions of antioxidant molecules and enzymes. However, simultaneous events resulting in the overproduction of reactive oxygen species (ROS) and deregulation of the Nrf2-ARE system damage essential cell components and cause loss of neuron structural and functional integrity. On the other hand, TrkB (tropomyosin-related kinase B) signaling, a classical neurotrophin signaling pathway, regulates neuronal survival and synaptic plasticity, which play pivotal roles in memory and cognition. Also, TrkB signaling, specifically the TrkB/PI3K/Akt (TrkB/phosphatidylinositol 3 kinase/protein kinase B) pathway promotes the activation and nuclear translocation of Nrf2, and thus, confers neuroprotection against OS. However, the TrkB signaling pathway is also known to be downregulated in brain disorders due to lack of neurotrophin support. Therefore, activations of TrkB and the Nrf2-ARE signaling system offer a potential approach to the design of novel therapeutic agents for brain disorders. Here, we briefly overview the development of OS and the association between OS and the pathogenesis of neurodegenerative diseases and brain injury. We propose the cellular antioxidant defense and TrkB signaling-mediated cell survival systems be considered pharmacological targets for the treatment of neurodegenerative diseases, and review the literature on the neuroprotective effects of phytochemicals that can co-activate these neuronal defense systems.&lt;/p&gt;</description>
 	<pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
   <source url="http://journal.frontiersin.org/journal/molecular-neuroscience/rss">Frontiers in Molecular Neuroscience | New and Recent Articles</source>
-</item>
-<item>
-	<title>Frontiers in Neuroscience: Brain Imaging Methods: Functional MRI Signal Complexity Analysis Using Sample Entropy</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnins.2020.00700</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fnins.2020.00700</link>
-	<description>&lt;p&gt;Resting-state functional magnetic resonance imaging (rs-fMRI) is an immensely powerful method in neuroscience that uses the blood oxygenation level-dependent (BOLD) signal to record and analyze neural activity in the brain. We examined the complexity of brain activity acquired by rs-fMRI to determine whether it exhibits variation across brain regions. In this study the complexity of regional brain activity was analyzed by calculating the sample entropy of 200 whole-brain BOLD volumes as well as of distinct brain networks, cortical regions, and subcortical regions of these brain volumes. It can be seen that different brain regions and networks exhibit distinctly different levels of entropy/complexity, and that entropy in the brain significantly differs between brains at rest and during task performance.&lt;/p&gt;</description>
-	<pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss">Frontiers in Neuroscience | Brain Imaging Methods section | New and Recent Articles</source>
-</item>
-<item>
-	<title>Frontiers in Neuroscience: Neurodegeneration: Periodontitis Induced by P. gingivalis-LPS Is Associated With Neuroinflammation and Learning and Memory Impairment in Sprague-Dawley Rats</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnins.2020.00658</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fnins.2020.00658</link>
-	<description>Background&lt;p&gt;Periodontitis is one of the most common oral diseases and is a potential risk factor for systemic diseases. In this study, we aimed to investigate the association between periodontitis and learning and memory impairment.&lt;/p&gt;Methods&lt;p&gt;We established a periodontitis model by topical application of Porphyromonas gingivalis lipopolysaccharide (P. gingivalis-LPS) into the palatal gingival sulcus of the maxillary first molars of 10-week-old male rats for a 10-week period. We assessed alveolar bone resorption using micro–computed tomography analysis and learning and memory ability using the Morris water maze test. We determined the levels of cytokines [interleukin (IL)-1β, IL-6, IL-8, and IL-21] and LPS in the peripheral blood and cortex, as well as toll-like receptor 4 (TLR4)/NF-κB signaling pathway activation, using reverse transcription-polymerase chain reaction (RT-PCR), enzyme-linked immunosorbent assay (ELISA), and western blot. We determined activation of microglia and astrocytes, expression of Aβ1-42, APP and Tau by immunohistochemistry. Finally, we measured the expression of amyloid precursor protein (APP) and its key secretases, as well as the Aβ1-40/1-42 ratio, by RT-PCR, western blot, and ELISA.&lt;/p&gt;Results&lt;p&gt;We found that periodontitis induced learning and memory impairment in the rats. Further, we observed that it induced significant alveolar bone resorption. There was an increase in the levels of inflammatory cytokines and LPS. Moreover, we confirmed TLR4/NF-κB signaling pathway activation. We also observed activated microglia and astrocytes with enlarged cell bodies and irregular protrusions. Finally, we observed the promotion of β- and γ-secretases APP processing.&lt;/p&gt;Conclusion&lt;p&gt;Our findings indicated that periodontitis was associated with learning and memory impairment, probably induced by neuroinflammation via activating the TLR4/NF-κB signaling pathway. Furthermore, abnormal APP processing could be involved in this progress.&lt;/p&gt;</description>
-	<pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss">Frontiers in Neuroscience | Neurodegeneration section | New and Recent Articles</source>
-</item>
-<item>
-	<title>Frontiers in Human Neuroscience: Weighted Brain Network Metrics for Decoding Action Intention Understanding Based on EEG</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnhum.2020.00232</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fnhum.2020.00232</link>
-	<description>&lt;p&gt;Background: Understanding the action intentions of others is important for social and human-robot interactions. Recently, many state-of-the-art approaches have been proposed for decoding action intention understanding. Although these methods have some advantages, it is still necessary to design other tools that can more efficiently classify the action intention understanding signals.&lt;/p&gt;&lt;p&gt;New Method: Based on EEG, we first applied phase lag index (PLI) and weighted phase lag index (WPLI) to construct functional connectivity matrices in five frequency bands and 63 micro-time windows, then calculated nine graph metrics from these matrices and subsequently used the network metrics as features to classify different brain signals related to action intention understanding.&lt;/p&gt;&lt;p&gt;Results: Compared with the single methods (PLI or WPLI), the combination method (PLI+WPLI) demonstrates some overwhelming victories. Most of the average classification accuracies exceed 70%, and some of them approach 80%. In statistical tests of brain network, many significantly different edges appear in the frontal, occipital, parietal, and temporal regions.&lt;/p&gt;&lt;p&gt;Conclusions: Weighted brain networks can effectively retain data information. The integrated method proposed in this study is extremely effective for investigating action intention understanding. Both the mirror neuron and mentalizing systems participate as collaborators in the process of action intention understanding.&lt;/p&gt;</description>
-	<pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/human-neuroscience/rss">Frontiers in Human Neuroscience | New and Recent Articles</source>
-</item>
-<item>
-	<title>Frontiers in Computational Neuroscience: Temporal-Sequential Learning With a Brain-Inspired Spiking Neural Network and Its Application to Musical Memory</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fncom.2020.00051</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fncom.2020.00051</link>
-	<description>&lt;p&gt;Sequence learning is a fundamental cognitive function of the brain. However, the ways in which sequential information is represented and memorized are not dealt with satisfactorily by existing models. To overcome this deficiency, this paper introduces a spiking neural network based on psychological and neurobiological findings at multiple scales. Compared with existing methods, our model has four novel features: (1) It contains several collaborative subnetworks similar to those in brain regions with different cognitive functions. The individual building blocks of the simulated areas are neural functional minicolumns composed of biologically plausible neurons. Both excitatory and inhibitory connections between neurons are modulated dynamically using a spike-timing-dependent plasticity learning rule. (2) Inspired by the mechanisms of the brain's cortical-striatal loop, a dependent timing module is constructed to encode temporal information, which is essential in sequence learning but has not been processed well by traditional algorithms. (3) Goal-based and episodic retrievals can be achieved at different time scales. (4) Musical memory is used as an application to validate the model. Experiments show that the model can store a huge amount of data on melodies and recall them with high accuracy. In addition, it can remember the entirety of a melody given only an episode or the melody played at different paces.&lt;/p&gt;</description>
-	<pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/computational-neuroscience/rss">Frontiers in Computational Neuroscience | New and Recent Articles</source>
-</item>
-<item>
-	<title>Frontiers in Cellular Neuroscience: Advances in the Signaling Pathways Downstream of Glial-Scar Axon Growth Inhibitors</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fncel.2020.00174</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fncel.2020.00174</link>
-	<description>&lt;p&gt;Axon growth inhibitors generated by reactive glial scars play an important role in failure of axon regeneration after CNS injury in mature mammals. Among the inhibitory factors, chondroitin sulfate proteoglycans (CSPGs) are potent suppressors of axon regeneration and are important molecular targets for designing effective therapies for traumatic brain injury or spinal cord injury (SCI). CSPGs bind with high affinity to several transmembrane receptors, including two members of the leukocyte common antigen related (LAR) subfamily of receptor protein tyrosine phosphatases (RPTPs). Recent studies demonstrate that multiple intracellular signaling pathways downstream of these two RPTPs mediate the growth-inhibitory actions of CSPGs. A better understanding of these signaling pathways may facilitate development of new and effective therapies for CNS disorders characterized by axonal disconnections. This review will focus on recent advances in the downstream signaling pathways of scar-mediated inhibition and their potential as the molecular targets for CNS repair.&lt;/p&gt;</description>
-	<pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/cellular-neuroscience/rss">Frontiers in Cellular Neuroscience | New and Recent Articles</source>
-</item>
-<item>
-	<title>Frontiers in Cellular Neuroscience: MicroRNA-124 Overexpression in Schwann Cells Promotes Schwann Cell-Astrocyte Integration and Inhibits Glial Scar Formation Ability</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fncel.2020.00144</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fncel.2020.00144</link>
-	<description>&lt;p&gt;Schwann cell (SC) transplantation is a promising approach for the treatment of spinal cord injury (SCI); however, SC grafts show a low migratory capacity within the astrocytic environment, which inevitably hampers their therapeutic efficacy. The purpose of this study was to explore mechanisms to modify the characteristics of SCs and astrocytes (ASs), as well as to adjust the SC-AS interface to break the SC-AS boundary, thus improving the benefits of SCI treatment. We observed that the expression levels of miR-124 in SCs and ASs were significantly lower than those in the normal spinal cord. Furthermore, overexpressing miR-124 in SCs (miR-124-SCs) significantly inhibited gene and protein expression levels of SC-specific markers, such as GFAP and Krox20. The expression of neurotrophic factors, Bdnf and Nt-3, was up-regulated in miR-124-SCs without affecting their proliferation. Further, the boundary assay showed an increased number of miR-124-SCs that had actively migrated and entered the astrocytic region to intermingle with ASs, compared with normal SCs. In addition, although Krox20 protein expression was down-regulated in miR-124-SCs, the luciferase assay showed that Krox20 is not a direct target of miR-124. RNA sequencing of miR-124-SCs revealed seven upregulated and eleven downregulated genes involved in cell migration and motility. Based on KEGG pathway and KOG functional analyses, changes in these genes corresponded to the activation of Hippo, FoxO, and TGF-beta signaling pathways, cytokine-cytokine receptor interactions, and the cell cycle. Finally, co-culturing of miR-124-SCs and ASs in a transwell system revealed that GFAP and p-STAT3 protein expression in ASs was significantly reduced. Collectively, these results show that overexpression of miR-124 in SCs promotes SC-AS integration in vitro and may attenuate the capacity of ASs to form glial scars. Thus, this study provides novel insights into modifying SCs by overexpressing miR-124 to improve their therapeutic potential in SCI.&lt;/p&gt;</description>
-	<pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/cellular-neuroscience/rss">Frontiers in Cellular Neuroscience | New and Recent Articles</source>
-</item>
-<item>
-	<title>Frontiers in Ageing Neuroscience: Response: Commentary: Chronic PD-1 Checkpoint Blockade Does Not Affect Cognition or Promote Tau Clearance in a Tauopathy Mouse Model</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnagi.2020.00205</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fnagi.2020.00205</link>
-	<pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/aging-neuroscience/rss">Frontiers in Aging Neuroscience | New and Recent Articles</source>
-</item>
-<item>
-	<title>Frontiers in Ageing Neuroscience: Structural Covariance Network Disruption and Functional Compensation in Parkinson’s Disease</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnagi.2020.00199</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fnagi.2020.00199</link>
-	<description>&lt;p&gt;Purpose: To investigate the structural covariance network disruption in Parkinson’s disease (PD), and explore the functional alterations of disrupted structural covariance network.&lt;/p&gt;&lt;p&gt;Methods: A cohort of 100 PD patients and 70 healthy participants underwent structural and functional magnetic resonance scanning. Independent component analysis (ICA) was applied separately to both deformation-based morphometry (DBM) maps and functional maps with the same calculating parameters (both decomposed into 20 independent components (ICs) and computed 20 times the Infomax algorithm in ICASSO). Disrupted structural covariance network in PD patients was identified, and then, we performed goodness of fit analysis to obtain the functional network that showed the highest spatial overlap with it. We investigated the relationship between structural covariance network and functional network alterations. Finally, to further understand the structural and functional alterations over time, we performed a longitudinal subgroup analysis (51 patients were followed up for 2 years) with the same procedures.&lt;/p&gt;&lt;p&gt;Results: In a cross-sectional analysis, PD patients showed decreased structural covariance between anterior and posterior cingulate subnetworks. The functional components showed best overlap with anterior and posterior cingulate structural subnetworks were selected as anterior and posterior cingulate functional subnetworks. The functional connectivity between them was significantly increased [assessed by Functional Network Connectivity (FNC) toolbox]; and the increased functional connectivity was negatively correlated with cingulate structural covariance network integrity. Longitudinal subgroup analysis showed cingulate structural covariance network disruption was worse at follow-up, while the functional connectivity between anterior and posterior cingulate network was increased at baseline and decreased at follow-up.&lt;/p&gt;&lt;p&gt;Conclusion: This study indicated that the cingulate structural covariance network displayed a high susceptibility in PD patients. This study indicated that the cingulate structural covariance network displayed a high susceptibility in PD patients. Considering that disrupted structural covariance network coexisted with enhanced/remained functional activity during disease development, enhanced functional activity underlying the disrupted cingulate structural covariance network might represent a temporal compensation for maintaining clinical performance.&lt;/p&gt;</description>
-	<pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/aging-neuroscience/rss">Frontiers in Aging Neuroscience | New and Recent Articles</source>
-</item>
-<item>
-	<title>Frontiers in Ageing Neuroscience: Assessment of Alzheimer’s Disease Based on Texture Analysis of the Entorhinal Cortex</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnagi.2020.00176</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fnagi.2020.00176</link>
-	<description>&lt;p&gt;Alzheimer’s disease (AD) brain magnetic resonance imaging (MRI) biomarkers based on larger-scale tissue neurodegeneration changes, such as atrophy, are currently widely used. Texture analysis evaluates the statistical properties of the tissue image quantitatively; therefore, it could detect smaller-scale changes of neurodegeneration. Entorhinal cortex is the first region affected, and no study has investigated texture analysis on this region before. This study aims to differentiate AD patients from Normal Control (NC) and Mild Cognitive Impairment (MCI) subjects using entorhinal cortex texture features. Furthermore, it was evaluated whether texture has association to MCI beyond that of volume, to evaluate if atrophy development may precede. Texture features were extracted from 194 NC, 200 MCI, 84 MCI who converted to AD (MCIc), and 130 AD subjects. Receiving operating characteristic curves determined the performance of the various features in discriminating the groups, and a predictive model was used to predict conversion of MCIc subjects to AD. An area under the curve (AUC) of 0.872, 0.710, 0.730, and 0.764 was seen between NC vs. AD, NC vs. MCI, MCI vs. MCIc, and MCI vs. AD subjects, respectively. Including entorhinal cortex volume improved the AUCs to 0.914, 0.740, 0.756, and 0.780, respectively. For the disease prediction, binary logistic regression was applied on five randomly selected test groups and achieved on average AUC’s of 0.760 and 0.764 on the training and validation cohorts, respectively. Entorhinal cortex texture features were significantly different between the four groups and in many cases provided better results compared to other methods such as volumetry.&lt;/p&gt;</description>
-	<pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/aging-neuroscience/rss">Frontiers in Aging Neuroscience | New and Recent Articles</source>
-</item>
-<item>
-	<title>Frontiers in Ageing Neuroscience: Drum Communication Program Intervention in Older Adults With Cognitive Impairment and Dementia at Nursing Home: Preliminary Evidence From Pilot Randomized Controlled Trial</title>
-	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnagi.2020.00142</guid>
-	<link>https://www.frontiersin.org/articles/10.3389/fnagi.2020.00142</link>
-	<description>&lt;p&gt;Introduction: Inactivity and consequent deterioration of cognitive and physical function is a major concern among older adults with the limited walking ability and need a high level of care in nursing homes. We aimed to test whether a drumming communication program (DCP) that uses the rhythmic response function of the elderly with cognitive impairment, dementia, and other debilitating disorders would improve their cognitive and physical function.&lt;/p&gt;&lt;p&gt;Methods: We conducted a Randomized Controlled Trial (RCT) to investigate the effects of the DCP in 46 nursing home residents who needed high levels of nursing care. The participants were randomly assigned to an intervention and control group. The intervention group attended 30 min of the DCP thrice a week for 3 months. Cognitive function was measured using the Mini-Mental State Examination-Japanese (MMSE-J) and Frontal Assessment Battery (FAB). Physical function was measured using grip strength and active upper limb range of motion with the dominant hand. Body composition was measured using bioelectrical impedance analysis (BIA). These measures were analyzed before and after the DCP intervention period, and data for the two groups were compared thereafter.&lt;/p&gt;&lt;p&gt;Results: Initially, the participants had low scores on the MMSE-J, and 84.78% of them used wheelchairs. Following the DCP intervention, the MMSE-J and FAB scores of the DCP group improved significantly. In terms of motor function, the active range of motion of the wrist palmar and the shoulder flexion improved in the intervention group. Regarding body composition, the skeletal muscle mass index, total body protein, and the dominant hand muscle mass that was adding physical load decreased.&lt;/p&gt;&lt;p&gt;Conclusions: The DCP provided the participants with an opportunity to engage in continued exercise for 3 months. The intervention group exhibited improved cognitive function and upper limb motion range, and changes in body composition. The results suggest that DCP can be used as an intervention method to promote exercise and improve various health and cognitive functions.&lt;/p&gt;&lt;p&gt;Trial Registration: This trial was registered at the University Hospital Medical Information Network Clinical Trial Registry (UMIN000024714) on 4 November 2016. The URL is available at https://upload.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000028399.&lt;/p&gt;</description>
-	<pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-  <source url="http://journal.frontiersin.org/journal/aging-neuroscience/rss">Frontiers in Aging Neuroscience | New and Recent Articles</source>
 </item>
 
 </channel>
