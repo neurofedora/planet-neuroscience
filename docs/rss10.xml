@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/2020.07.17.209536v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1008020" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1008015" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007980" />
@@ -110,7 +111,6 @@
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/2020.07.16.206573v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/2020.07.16.206482v1?rss=1" />
 			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/2020.07.16.206383v1?rss=1" />
-			<rdf:li rdf:resource="http://biorxiv.org/cgi/content/short/2020.07.16.206375v1?rss=1" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1008053" />
 			<rdf:li rdf:resource="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1008035" />
 			<rdf:li rdf:resource="http://feeds.plos.org/plosbiology/10.1371/journal.pbio.3000737" />
@@ -519,6 +519,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://biorxiv.org/cgi/content/short/2020.07.17.209536v1?rss=1">
+	<title>bioRxiv: Neuroscience: Biased orientation representations can be explained by experience with non-uniform training set statistics</title>
+	<link>http://biorxiv.org/cgi/content/short/2020.07.17.209536v1?rss=1</link>
+	<content:encoded>Visual acuity is better for vertical and horizontal compared to other orientations. This cross-species phenomenon is often explained by &quot;efficient coding&quot;, whereby more neurons show sharper tuning for the orientations most common in natural vision. However, it is unclear if experience alone can account for such biases. Here, we measured orientation representations in a convolutional neural network, VGG-16, trained on modified versions of ImageNet (rotated by 0, 22.5, or 45 degrees counter-clockwise of upright). Discriminability for each model was highest near the orientations that were most common in the network's training set. Furthermore, there was an over-representation of narrowly tuned units selective for the most common orientations. These effects emerged in middle layers and increased with depth in the network. Our results suggest that biased orientation representations can emerge through experience with a non-uniform distribution of orientations. These findings thus support the efficient coding hypothesis and highlight that biased training data can systematically distort processing in CNNs.</content:encoded>
+	<dc:date>2020-07-18T00:00:00+00:00</dc:date>
+	<dc:creator>Henderson, M. M., Serences, J.</dc:creator>
+</item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1008020">
 	<title>PLoS Computational Biology: Computational principles of neural adaptation for binaural signal integration</title>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/jBJQd880EGA/article</link>
@@ -1498,13 +1505,6 @@ the groundwork for future event-driven based personalised brain models.
 	<content:encoded>Layer specific functional MRI requires high spatial resolution data. An approach often used for compensating for the poor signal to noise ratio (SNR) associated with small voxel sizes consists of integrating the signal from voxels at a given cortical depth over a patch of cortex. After this integration, physiological noise is expected to be the dominant noise source in the signal. In this context, the sensitivity gain in moving to higher static field strengths is expected to be lower than when thermal noise dominates. In this work, activation profiles in response to the same visual stimulus are compared at 1.5 T, 3 T and 7 T using a multi-echo, gradient echo (GE) FLASH sequence, with a 0.75 mm isotropic voxel size and the cortical integration approach. The results show that after integrating over a patch of cortex between 40 and 100 mm3(at 7 T and 1.5 T, respectively), the signal is in the physiological noise dominated regime, and that the obtained activation profiles are similar at the three different field strengths for equivalent echo times. The evolution of the resting-state signal over echo time indicates that BOLD-like noise is the dominant source of physiological noise. Consequently, the functional contrast to noise ratio is not strongly echo-time or field-strength dependent. The results show that compared to 7T, the gold standard, laminar GE-BOLD fMRI at lower field strengths is feasible at the cost of poorer spatial resolution (larger cortical integration extensions) and lower efficiency.</content:encoded>
 	<dc:date>2020-07-17T00:00:00+00:00</dc:date>
 	<dc:creator>Markuerkiaga, I., Marques, J. p., Bains, L. J., Norris, D.</dc:creator>
-</item>
-<item rdf:about="http://biorxiv.org/cgi/content/short/2020.07.16.206375v1?rss=1">
-	<title>bioRxiv: Neuroscience: Visual Search P300 Source Analysis Based On ERP-fMRI Integration</title>
-	<link>http://biorxiv.org/cgi/content/short/2020.07.16.206375v1?rss=1</link>
-	<content:encoded>Attention control can be achieved in two ways, stimulus-driven bottom-up attention and goal-driven top-down attention. Different visual search tasks involve different attention control. The pop-out task requires more bottom-up attention, whereas the search task involves more top-down attention. P300 which is the positive potential generated by the brain in the latency of 300-600 ms after the stimulus, reflects the processing of cognitive process and is an important component in visual attention. The P300 source is not consistent in the previous researches, our aim therefore, is to study the source location of P300 component based on visual search attention process. Here we use pop-out and search paradigm to get the ERP data of 13 subjects and the fMRI data of 25 subjects, and analyze the source location of P300 using the ERP-fMRI integration technology with high temporal resolution and high spatial resolution. The target differs from the distractor in color and orientation in the pop-out task, whereas the target and the distractor have different orientation and the same color in the search task. ERP results indicate that pop-out induces larger P300 concentrated in the parietal lobe, whereas search induced P300 is more distributed in the frontal lobe. Further ERP and fMRI integration analyses reveal that the left angular gyrus, right postcentral gyrus of parietal lobe and the left superior frontal gyrus (medial orbital) are the source of P300. Our study suggests the contribution of the frontal and parietal lobes to the P300 component.</content:encoded>
-	<dc:date>2020-07-17T00:00:00+00:00</dc:date>
-	<dc:creator>Zhang, Q., Luo, C., Zhang, J., Jin, Z., Li, L.</dc:creator>
 </item>
 <item rdf:about="http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1008053">
 	<title>PLoS Computational Biology: Estimation of neuron parameters from imperfect observations</title>
