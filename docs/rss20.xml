@@ -268,6 +268,72 @@
   <source url="https://link.springer.com/search.rss?search-within=Journal&amp;facet-journal-id=12031&amp;query=">Latest Results</source>
 </item>
 <item>
+	<title>PLoS Computational Biology: Inferring evolutionary pathways and directed genotype networks of foodborne pathogens</title>
+	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1008401</guid>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/skSNwJBSdDk/article</link>
+	<description>&lt;p&gt;by Oliver M. Cliff, Natalia McLean, Vitali Sintchenko, Kristopher M. Fair, Tania C. Sorrell, Stuart Kauffman, Mikhail Prokopenko&lt;/p&gt;
+
+Modelling the emergence of foodborne pathogens is a crucial step in the prediction and prevention of disease outbreaks. Unfortunately, the mechanisms that drive the evolution of such continuously adapting pathogens remain poorly understood. Here, we combine molecular genotyping with network science and Bayesian inference to infer directed genotype networks—and trace the emergence and evolutionary paths—of &lt;i&gt;Salmonella&lt;/i&gt; Typhimurium (STM) from nine years of Australian disease surveillance data. We construct networks where nodes represent STM strains and directed edges represent evolutionary steps, presenting evidence that the structural (i.e., network-based) features are relevant to understanding the functional (i.e., fitness-based) progression of co-evolving STM strains. This is argued by showing that outbreak severity, i.e., prevalence, correlates to: (i) the network path length to the most prevalent node (&lt;i&gt;r&lt;/i&gt; = −0.613, &lt;i&gt;N&lt;/i&gt; = 690); and (ii) the network connected-component size (&lt;i&gt;r&lt;/i&gt; = 0.739). Moreover, we uncover distinct exploration-exploitation pathways in the genetic space of STM, including a strong evolutionary drive through a transition region. This is examined via the 6,897 distinct evolutionary paths in the directed network, where we observe a dominant 66% of these paths decrease in network centrality, whilst increasing in prevalence. Furthermore, 72.4% of all paths originate in the transition region, with 64% of those following the dominant direction. Further, we find that the length of an evolutionary path strongly correlates to its increase in prevalence (&lt;i&gt;r&lt;/i&gt; = 0.497). Combined, these findings indicate that longer evolutionary paths result in genetically rare and virulent strains, which mostly evolve from a single transition point. Our results not only validate our widely-applicable approach for inferring directed genotype networks from data, but also provide a unique insight into the elusive functional and structural drivers of STM bacteria.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/skSNwJBSdDk&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 30 Oct 2020 21:00:00 +0000</pubDate>
+  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
+	<title>PLoS Computational Biology: RNA structure prediction using positive and negative evolutionary information</title>
+	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1008387</guid>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/K6G0tiAudRA/article</link>
+	<description>&lt;p&gt;by Elena Rivas&lt;/p&gt;
+
+Knowing the structure of conserved structural RNAs is important to elucidate their function and mechanism of action. However, predicting a conserved RNA structure remains unreliable, even when using a combination of thermodynamic stability and evolutionary covariation information. Here we present a method to predict a conserved RNA structure that combines the following three features. First, it uses significant covariation due to RNA structure and removes spurious covariation due to phylogeny. Second, it uses negative evolutionary information: basepairs that have variation but no significant covariation are prevented from occurring. Lastly, it uses a battery of probabilistic folding algorithms that incorporate all positive covariation into one structure. The method, named CaCoFold (Cascade variation/covariation Constrained Folding algorithm), predicts a nested structure guided by a maximal subset of positive basepairs, and recursively incorporates all remaining positive basepairs into alternative helices. The alternative helices can be compatible with the nested structure such as pseudoknots, or overlapping such as competing structures, base triplets, or other 3D non-antiparallel interactions. We present evidence that CaCoFold predictions are consistent with structures modeled from crystallography.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/K6G0tiAudRA&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 30 Oct 2020 21:00:00 +0000</pubDate>
+  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
+	<title>PLoS Computational Biology: Model-based and phylogenetically adjusted quantification of metabolic interaction between microbial species</title>
+	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1007951</guid>
+	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/mWEuPZFjMzI/article</link>
+	<description>&lt;p&gt;by Tony J. Lam, Moses Stamboulian, Wontack Han, Yuzhen Ye&lt;/p&gt;
+
+Microbial community members exhibit various forms of interactions. Taking advantage of the increasing availability of microbiome data, many computational approaches have been developed to infer bacterial interactions from the co-occurrence of microbes across diverse microbial communities. Additionally, the introduction of genome-scale metabolic models have also enabled the inference of cooperative and competitive metabolic interactions between bacterial species. By nature, phylogenetically similar microbial species are more likely to share common functional profiles or biological pathways due to their genomic similarity. Without properly factoring out the phylogenetic relationship, any estimation of the competition and cooperation between species based on functional/pathway profiles may bias downstream applications. To address these challenges, we developed a novel approach for estimating the competition and complementarity indices for a pair of microbial species, adjusted by their phylogenetic distance. An automated pipeline, PhyloMint, was implemented to construct competition and complementarity indices from genome scale metabolic models derived from microbial genomes. Application of our pipeline to 2,815 human-gut associated bacteria showed high correlation between phylogenetic distance and metabolic competition/cooperation indices among bacteria. Using a discretization approach, we were able to detect pairs of bacterial species with cooperation scores significantly higher than the average pairs of bacterial species with similar phylogenetic distances. A network community analysis of high metabolic cooperation but low competition reveals distinct modules of bacterial interactions. Our results suggest that niche differentiation plays a dominant role in microbial interactions, while habitat filtering also plays a role among certain clades of bacterial species.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/mWEuPZFjMzI&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 30 Oct 2020 21:00:00 +0000</pubDate>
+  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
+</item>
+<item>
+	<title>PLoS Biology: Differences in structure and hibernation mechanism highlight diversification of the microsporidian ribosome</title>
+	<guid isPermaLink="false">http://feeds.plos.org/plosbiology/10.1371/journal.pbio.3000958</guid>
+	<link>http://feeds.plos.org/~r/plosbiology/NewArticles/~3/0Rmv0IO0vHM/article</link>
+	<description>&lt;p&gt;by Kai Ehrenbolger, Nathan Jespersen, Himanshu Sharma, Yuliya Y. Sokolova, Yuri S. Tokarev, Charles R. Vossbrinck, Jonas Barandun&lt;/p&gt;
+
+Assembling and powering ribosomes are energy-intensive processes requiring fine-tuned cellular control mechanisms. In organisms operating under strict nutrient limitations, such as pathogenic microsporidia, conservation of energy via ribosomal hibernation and recycling is critical. The mechanisms by which hibernation is achieved in microsporidia, however, remain poorly understood. Here, we present the cryo–electron microscopy structure of the ribosome from &lt;i&gt;Paranosema locustae&lt;/i&gt; spores, bound by the conserved eukaryotic hibernation and recycling factor Lso2. The microsporidian Lso2 homolog adopts a V-shaped conformation to bridge the mRNA decoding site and the large subunit tRNA binding sites, providing a reversible ribosome inactivation mechanism. Although microsporidian ribosomes are highly compacted, the &lt;i&gt;P&lt;/i&gt;. &lt;i&gt;locustae&lt;/i&gt; ribosome retains several rRNA segments absent in other microsporidia, and represents an intermediate state of rRNA reduction. In one case, the near complete reduction of an expansion segment has resulted in a single bound nucleotide, which may act as an architectural co-factor to stabilize a protein–protein interface. The presented structure highlights the reductive evolution in these emerging pathogens and sheds light on a conserved mechanism for eukaryotic ribosome hibernation.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plosbiology/NewArticles/~4/0Rmv0IO0vHM&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 30 Oct 2020 21:00:00 +0000</pubDate>
+  <source url="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles">PLOS Biology: New Articles</source>
+</item>
+<item>
+	<title>PLoS Biology: Multiple systems in macaques for tracking prediction errors and other types of surprise</title>
+	<guid isPermaLink="false">http://feeds.plos.org/plosbiology/10.1371/journal.pbio.3000899</guid>
+	<link>http://feeds.plos.org/~r/plosbiology/NewArticles/~3/D-yL7V1x-bs/article</link>
+	<description>&lt;p&gt;by Jan Grohn, Urs Schüffelgen, Franz-Xaver Neubert, Alessandro Bongioanni, Lennart Verhagen, Jerome Sallet, Nils Kolling, Matthew F. S. Rushworth&lt;/p&gt;
+
+Animals learn from the past to make predictions. These predictions are adjusted after prediction errors (PEs), i.e., after surprising events. Generally, most reward PE models learn the average expected amount of reward. However, here we demonstrate the existence of distinct mechanisms for detecting other types of surprising events. Six macaques learned to respond to visual stimuli to receive varying amounts of juice rewards. Most trials ended with the delivery of either 1 or 3 juice drops so that animals learned to expect 2 juice drops on average even though instances of precisely 2 drops were rare. To encourage learning, we also included sessions during which the ratio between 1 and 3 drops changed. Additionally, in all sessions, the stimulus sometimes appeared in an unexpected location. Thus, 3 types of surprising events could occur: reward amount surprise (i.e., a scalar reward prediction error), rare reward surprise, and visuospatial surprise. Importantly, we can dissociate scalar reward prediction errors—rewards that deviated from the average reward amount expected—and rare reward events—rewards that accorded with the average reward expectation but that rarely occurred. We linked each type of surprise to a distinct pattern of neural activity using functional magnetic resonance imaging. Activity in the vicinity of the dopaminergic midbrain only reflected surprise about the amount of reward. Lateral prefrontal cortex had a more general role in detecting surprising events. Posterior lateral orbitofrontal cortex specifically detected RREs regardless of whether they followed average reward amount expectations, but only in learnable reward environments.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plosbiology/NewArticles/~4/D-yL7V1x-bs&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 30 Oct 2020 21:00:00 +0000</pubDate>
+  <source url="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles">PLOS Biology: New Articles</source>
+</item>
+<item>
+	<title>Current Opinion in Neurobiology: Modeling brain development and diseases with human cerebral organoids</title>
+	<guid isPermaLink="false">https://www.sciencedirect.com/science/article/pii/S0959438820301331</guid>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438820301331?dgcid=rss_sd_all</link>
+	<description>&lt;p&gt;Publication date: February 2021&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 66&lt;/p&gt;&lt;p&gt;Author(s): Yingchao Shi, Qian Wu, Xiaoqun Wang&lt;/p&gt;</description>
+	<pubDate>Fri, 30 Oct 2020 19:00:10 +0000</pubDate>
+  <source url="http://rss.sciencedirect.com/publication/science/09594388">ScienceDirect Publication: Current Opinion in Neurobiology</source>
+</item>
+<item>
+	<title>Current Opinion in Neurobiology: Trans-synaptic interactions of ionotropic glutamate receptors</title>
+	<guid isPermaLink="false">https://www.sciencedirect.com/science/article/pii/S0959438820301264</guid>
+	<link>https://www.sciencedirect.com/science/article/pii/S0959438820301264?dgcid=rss_sd_all</link>
+	<description>&lt;p&gt;Publication date: February 2021&lt;/p&gt;&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; Current Opinion in Neurobiology, Volume 66&lt;/p&gt;&lt;p&gt;Author(s): Matteo Fossati, Cécile Charrier&lt;/p&gt;</description>
+	<pubDate>Fri, 30 Oct 2020 19:00:10 +0000</pubDate>
+  <source url="http://rss.sciencedirect.com/publication/science/09594388">ScienceDirect Publication: Current Opinion in Neurobiology</source>
+</item>
+<item>
 	<title>arXiv: Quantitative Biology: Neurons and Cognition: Shared Space Transfer Learning for analyzing multi-site fMRI data. (arXiv:2010.15594v1 [cs.LG])</title>
 	<guid isPermaLink="true">http://arxiv.org/abs/2010.15594</guid>
 	<link>http://arxiv.org/abs/2010.15594</link>
@@ -597,6 +663,22 @@ through asymptotic stability.
   <source url="http://feeds.nature.com/ncomms/rss/current">Nature Communications - current - nature.com science feeds</source>
 </item>
 <item>
+	<title>Nature: Daily Briefing: Early pterosaurs were clumsy flyers</title>
+	<guid isPermaLink="false">https://www.nature.com/articles/d41586-020-03076-9</guid>
+	<link>http://feeds.nature.com/~r/nature/rss/current/~3/OcGTTHUecgI/d41586-020-03076-9</link>
+	<description>&lt;p&gt;Nature, Published online: 30 October 2020; &lt;a href=&quot;https://www.nature.com/articles/d41586-020-03076-9&quot;&gt;doi:10.1038/d41586-020-03076-9&lt;/a&gt;&lt;/p&gt;Fossil analysis suggests that the earliest winged reptiles were ungainly aviators. Plus: ancient dog DNA reveals 11,000 years of canine evolution, and how the US election will shape the future of science.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/OcGTTHUecgI&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+  <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
+</item>
+<item>
+	<title>Nature: Quantum-computing pioneer warns of complacency over Internet security</title>
+	<guid isPermaLink="false">https://www.nature.com/articles/d41586-020-03068-9</guid>
+	<link>http://feeds.nature.com/~r/nature/rss/current/~3/MU7fS1JSnzc/d41586-020-03068-9</link>
+	<description>&lt;p&gt;Nature, Published online: 30 October 2020; &lt;a href=&quot;https://www.nature.com/articles/d41586-020-03068-9&quot;&gt;doi:10.1038/d41586-020-03068-9&lt;/a&gt;&lt;/p&gt;Nature talks to Peter Shor 25 years after he showed how to make quantum computations feasible — and how they could endanger our data.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/MU7fS1JSnzc&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+  <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
+</item>
+<item>
 	<title>Nature: What 50 gravitational-wave events reveal about the Universe</title>
 	<guid isPermaLink="false">https://www.nature.com/articles/d41586-020-03047-0</guid>
 	<link>http://feeds.nature.com/~r/nature/rss/current/~3/ttsaym8tKMQ/d41586-020-03047-0</link>
@@ -627,6 +709,14 @@ through asymptotic stability.
 	<description>&lt;p&gt;In recent years, transition metal dichalcogenides have been attracting an increasing interest in the biomedical field, thus implying the need of a deeper understanding of their impact on cell behavior. In this study we investigate tungsten disulfide (WS&lt;sub&gt;2&lt;/sub&gt;) grown via chemical vapor deposition (CVD) on a transparent substrate (sapphire) as a platform for neural-like cell culture. We culture SH-SY5Y human neuroblastoma cells on WS&lt;sub&gt;2&lt;/sub&gt;, using graphene, sapphire and standard culture well as controls. The quality, thickness and homogeneity of the materials is analyzed using atomic force microscopy and Raman spectroscopy. The cytocompatibility of CVD WS&lt;sub&gt;2&lt;/sub&gt; is investigated for the first time by cell viability and differentiation assessment on SH-SY5Y cells. We find that cells differentiated on WS&lt;sub&gt;2&lt;/sub&gt;, displaying a viability and neurite length comparable with the controls. These findings shine light on the possibility of using WS&lt;sub&gt;2&lt;/sub&gt; as a cytocompatible material for interfacing neural cells.&lt;/p&gt;</description>
 	<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
   <source url="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss">Frontiers in Neuroscience | Neural Technology section | New and Recent Articles</source>
+</item>
+<item>
+	<title>Frontiers in Neuroscience: Neurodegeneration: microRNA-Based Biomarkers in Alzheimer’s Disease (AD)</title>
+	<guid isPermaLink="true">https://www.frontiersin.org/articles/10.3389/fnins.2020.585432</guid>
+	<link>https://www.frontiersin.org/articles/10.3389/fnins.2020.585432</link>
+	<description>&lt;p&gt;Alzheimer’s disease (AD) is a multifactorial, age-related neurological disease characterized by complex pathophysiological dynamics taking place at multiple biological levels, including molecular, genetic, epigenetic, cellular and large-scale brain networks. These alterations account for multiple pathophysiological mechanisms such as brain protein accumulation, neuroinflammatory/neuro-immune processes, synaptic dysfunction, and neurodegeneration that eventually lead to cognitive and behavioral decline. Alterations in microRNA (miRNA) signaling have been implicated in the epigenetics and molecular genetics of all neurobiological processes associated with AD pathophysiology. These changes encompass altered miRNA abundance, speciation and complexity in anatomical regions of the CNS targeted by the disease, including modified miRNA expression patterns in brain tissues, the systemic circulation, the extracellular fluid (ECF) and the cerebrospinal fluid (CSF). miRNAs have been investigated as candidate biomarkers for AD diagnosis, disease prediction, prognosis and therapeutic purposes because of their involvement in multiple brain signaling pathways in both health and disease. In this review we will: (i) highlight the significantly heterogeneous nature of miRNA expression and complexity in AD tissues and biofluids; (ii) address how information may be extracted from these data to be used as a diagnostic, prognostic and/or screening tools across the entire continuum of AD, from the preclinical stage, through the prodromal, i.e., mild cognitive impairment (MCI) phase all the way to clinically overt dementia; and (iii) consider how specific miRNA expression patterns could be categorized using miRNA reporters that span AD pathophysiological initiation and disease progression.&lt;/p&gt;</description>
+	<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+  <source url="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss">Frontiers in Neuroscience | Neurodegeneration section | New and Recent Articles</source>
 </item>
 <item>
 	<title>Frontiers in Human Neuroscience: A Single Session of Anodal Cerebellar Transcranial Direct Current Stimulation Does Not Induce Facilitation of Locomotor Consolidation in Patients With Multiple Sclerosis</title>
@@ -774,6 +864,94 @@ through asymptotic stability.
 	<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
 	<author>gallie@evolbio.mpg.de (Gökçe B Ayan)</author>
   <source url="https://observer.elifesciences.org/report/latest-articles">eLife: latest articles</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: The effects of CSTB duplication on APP/amyloid-β pathology and cathepsin activity in a mouse model</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.30.362004v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.10.30.362004v1?rss=1</link>
+	<description>People with Down syndrome (DS), caused by trisomy of chromosome 21 have a greatly increased risk of developing Alzheimer's disease (AD). This is in part because of triplication of a chromosome 21 gene, APP. This gene encodes amyloid precursor protein, which is cleaved to form amyloid-{beta} that accumulates in the brains of people who have AD. Recent experimental results demonstrate that a gene or genes on chromosome 21, other than APP, when triplicated significantly accelerate amyloid pathology in a transgenic mouse model of amyloid-{beta} deposition. Multiple lines of evidence indicate that cysteine cathepsin activity influences APP cleavage and amyloid-{beta} accumulation. Located on human chromosome 21 (Hsa21) is an endogenous inhibitor of cathepsin proteases, CYSTATIN B (CSTB) which is proposed to regulate cysteine cathepsin activity in vivo. Here we determined if three copies of the mouse gene Cstb is sufficient to modulate beta amyloid (A{beta}) accumulation and cathepsin activity in a transgenic APP mouse model. Duplication of Cstb resulted in an increase in transcriptional and translational levels of Cstb in the mouse cortex but had no effect on the deposition of insoluble A{beta} plaques or the levels of soluble or insoluble A{beta}42, A{beta}40, or A{beta}38 in 6-month old mice. In addition, the increased CSTB did not alter the activity of cathepsin B enzyme in the cortex of 3-month old mice. These results indicate that the single-gene duplication of Cstb is insufficient to elicit a disease-modifying phenotype in the dupCstb x tgAPP mice, underscoring the complexity of the genetic basis of AD-DS and the importance of multiple gene interactions in disease.</description>
+	<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Differential patterns of gyral and sulcal morphological changes during normal aging process</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.30.361626v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.10.30.361626v1?rss=1</link>
+	<description>The cerebral cortex is a highly convoluted structure with distinct morphologic features, namely the gyri and sulci, which are associated with the functional segregation or integration in the human brain. During the lifespan, the brain atrophy that is accompanied by cognitive decline is a well-accepted aging phenotype. However, the detailed patterns of cortical folding change during aging, especially the changing trajectories of gyri and sulci, which is essential to brain functioning, remain unclear. In this study, we investigated the morphology of the gyral and sulcal regions from pial and white matter surfaces using MR imaging data of 417 healthy participants across the lifespan (21-92y). To elucidate the age-related changes in the cortical pattern, we fitted cortical thickness and intrinsic curvature of gyri and sulci using the quadratic model to evaluate their trajectories during normal aging. Our findings show that comparing to gyri, the sulcal thinning is the most prominent pattern during the aging process, and the gyrification of pial and white matter surfaces were also affected differently, which implies the vulnerability of functional segregation during aging. Taken together, we propose a morphological model of aging that may provide a framework for understanding the mechanisms underlying the gray matter degeneration.</description>
+	<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Father-child dyads exhibit unique inter-subject synchronisation during co-viewing of animation video stimuli</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.30.361592v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.10.30.361592v1?rss=1</link>
+	<description>Inter-subject synchronisation reflects the entrainment of two individuals to each other's brain signals during passive joint tasks. Within the parent-child dyad, the temporal coordination of signals indicates an attunement to each other's emotional states. Despite the ubiquity with which parents and their children watch screen media together, no study has investigated inter-subject synchronisation in father-child dyads during such a co-viewing activity. The present study examined whether father-child dyads would exhibit unique inter-subject synchronisation during co-viewing of narrative visual scenes that is unique to the dyad and hence would not be observed in control dyads (i.e. randomly paired signals). Hyperscanning fNIRS was used to record the prefrontal cortex (PFC) signals of 29 fathers and their preschool-aged children (11 girls, 18 boys) as each pair engaged in a typical activity of watching children's shows together. Three 1-min video clips from &quot;Brave&quot;, &quot;Peppa Pig&quot; and &quot;The Incredibles&quot; were presented to each dyad and children's ratings of video positivity and familiarity were obtained afterwards. PFC activity was analysed according to four clusters: medial left, medial right, frontal left and frontal right clusters. Results from synchrony analyses demonstrated that true father-child dyads showed significantly greater inter-subject synchronisation than control dyads, especially in the medial left cluster during the emotionally arousing conflict scene. Dyads with older fathers displayed less synchrony and older fathers, compared to younger ones, were also found to exhibit greater activity in the frontal right cluster. These findings point to a unique inter-subject synchronisation that exists in father-child relationships during shared co-viewing of narrative scenes which could be potentially modulated by parental age.</description>
+	<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Head-free eye tracking, and efficient receptive field mapping in the marmoset</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.30.361238v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.10.30.361238v1?rss=1</link>
+	<description>The marmoset has emerged as a promising primate model system, in particular for visual neuroscience. Many common experimental paradigms rely on head fixation and a sustained period of eye fixation during the presentation of salient visual stimuli. Both of these behavioral requirements can be challenging for marmosets. Here, we present two methodological developments to overcome these difficulties. First, we show that it is possible to use a standard eye tracking system without head fixation to assess visual behavior in the marmoset. Eye tracking quality from head-free animals is sufficient to measure precise psychometric functions from a visual acuity task. Secondly, we introduce a novel method for efficient receptive field mapping that does not rely on moving stimuli but uses fast flashing annuli and wedges. We present data recorded in areas V1 and V6 and show that receptive field locations are readily obtained within a short period of recording time. Thus, the methodological advancements presented in this work will contribute to establish the marmoset as a valuable model in neuroscience.</description>
+	<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Dynamic connectivity analyses of intracranial EEG during recognition memory reveal various large-scale functional networks</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.30.360529v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.10.30.360529v1?rss=1</link>
+	<description>Recognition memory is the ability to recognize previously encountered events, objects, or people. It is characterized by its robustness and rapidness. Even this relatively simple ability requires the coordinated activity of a surprisingly large number of brain regions. These spatially distributed, but functionally linked regions are interconnected into large-scale networks. Understanding memory requires an examination of the involvement of these networks and the interactions between different regions while memory processes unfold. However, little is known about the dynamical organization of large-scale networks during the early phases of recognition memory. We recorded intracranial EEG, which affords high temporal and spatial resolution, while epileptic subjects performed a visual recognition memory task. We analyzed dynamic functional and effective connectivity as well as network properties. Various networks were identified, each with its specific characteristics regarding information flow (feedforward or feedback), dynamics, topology, and stability. The first network mainly involved the right visual ventral stream and bilateral frontal regions. It was characterized by early predominant feedforward activity, modular topology, and high stability. It was followed by the involvement of a second network, mainly in the left hemisphere, but notably also involving the right hippocampus, characterized by later feedback activity, integrated topology, and lower stability. The transition between networks was associated with a change in network topology. Overall, these results confirm that several large-scale brain networks, each with specific properties and temporal manifestation, are involved during recognition memory. Ultimately, understanding how the brain dynamically faces rapid changes in cognitive demand is vital to our comprehension of the neural basis of cognition.</description>
+	<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: BMPR-2 gates activity-dependent stabilization of dendrites during mitral cell remodeling</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.30.358861v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.10.30.358861v1?rss=1</link>
+	<description>Developing neurons initially form excessive neurites and then remodel them based on molecular cues and neuronal activity. Developing mitral cells in the olfactory bulb initially extend multiple primary dendrites. They then stabilize single primary dendrites, while eliminating others. However, the mechanisms underlying the selective dendrite remodeling remain elusive. Using CRISPR/Cas9-based knockout screening combined with in utero electroporation, we identified BMPR-2 as a key regulator for the selective dendrite stabilization. Bmpr2 knockout and its rescue experiments show that BMPR-2 inhibits LIMK without ligands and thereby facilitates dendrite destabilization. In contrast, the overexpression of antagonists and agonists indicate that ligand-bound BMPR-2 stabilizes dendrites, most likely by releasing LIMK. Using genetic and FRET imaging experiments, we also demonstrate that free LIMK is activated by NMDARs via Rac1, facilitating dendrite stabilization through F-actin formation. Thus, the selective stabilization of mitral cell dendrites is ensured by concomitant inputs of BMP ligands and neuronal activity.</description>
+	<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Value Shapes Abstraction During Learning</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.29.361469v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.10.29.361469v1?rss=1</link>
+	<description>Abstractions are critical for flexible behaviours and efficient learning. However, how the brain forgoes the sensory dimension to forge abstract entities remains elusive. Here, in two fMRI experiments, we demonstrate a mechanism of abstraction built upon valuation of task-relevant sensory features. Human volunteers learned hidden association rules between visual features. Computational modelling of participants' choice data with mixture-of-experts reinforcement learning algorithms revealed that, with learning, emerging high-value abstract representations increasingly guided behaviour. Moreover, the brain area encoding value signals - the ventromedial prefrontal cortex - also prioritized and selected latent task elements, both locally and through its connection to visual cortex. In a second experiment, we used multivoxel neural reinforcement to show how reward-tagging the neural sensory representation of a task's feature evoked abstraction-based decisions. Our findings redefine the logic of valuation as a goal-dependent, key factor in constructing the abstract representations that govern intelligent behaviour.</description>
+	<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Fluid Intelligence and Time Management and Artificial Neural Networks</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.29.361410v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.10.29.361410v1?rss=1</link>
+	<description>Attention deficit hyperactivity disorder (ADHD) is a neurodevelopmental disorder characterized by inattention, hyperactivity, and impulsivity. Our lab is currently conducting a pilot study to assess the effects of the online game Minecraft as a therapeutic video game (TVG) to train executive function deficits in children with ADHD. The effect of the TVG intervention in combination with stimulants is being investigated to develop a drug-device combination therapy that can address both the dopaminergic dysfunction and executive function deficits present in ADHD. Although the results of this study will be used to guide the clinical development process, additional guidance for the optimization of the executive function training activities will be provided by a computational model of executive functions built with artificial neural networks (ANNs). This model uses ANNs to complete virtual tasks resembling the executive function training activities that the study subjects practice in the Minecraft world, and the schedule of virtual tasks that result in maximum improvements in ANN performance on these tasks will be investigated as a method to inform the selection of training regimens in future clinical studies. This study first proposes the use of recurrent neural networks to model the fluid intelligence executive function. This model is then combined with a previously developed model using convolutional neural networks to model working memory and prepotent impulsivity to produce virtual &quot;subjects&quot; who complete a computational simulation of a Time Management task that requires the use of both of these executive functions to complete. The capability of this model to produce groups of virtual subjects with significantly different levels of performance on the Time Management task is demonstrated.</description>
+	<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Unsupervised Learning of Brain State Dynamics during Emotion Imagery using High-Density EEG</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.29.361394v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.10.29.361394v1?rss=1</link>
+	<description>Here we assume that emotional states correspond to functional dynamic states of brain and body, and attempt to characterize the appearance of these states in high-density scalp electroencephalographic (EEG) recordings acquired from 31 participants during 1-2 hour sessions, each including fifteen 3-5 min periods of self-induced emotion imagination using the method of guided imagery. EEG offers an objective and high-resolution measurement of whatever portion of cortical electrical dynamics is resolvable from scalp recordings. Despite preliminary progress in EEG-based emotion decoding using supervised machine learning methods, few studies have applied data-driven, unsupervised decomposition approaches to investigate the underlying EEG dynamics by characterizing brain temporal dynamics during emotional experience. This study applies an unsupervised approach - adaptive mixture independent component analysis (adaptive mixture ICA, AMICA) that learns a set of ICA models each accounted for portions of a given multi-channel EEG recording. We demonstrate that 20-model AMICA decomposition can identify distinct EEG patterns or dynamic states active during each of the fifteen emotion-imagery periods. The transition in EEG patterns revealed the time-courses of brain-state dynamics during emotional imagery. These time-courses varied across emotions: &quot;grief&quot; and &quot;happiness&quot; showed more abrupt transitions while &quot;contentment&quot; was nearly indistinguishable from the preceding rest period. The spatial distributions of independent components (ICs) of the AMICA models showed higher similarity within-subject across emotions than within-emotion across subjects. No significant differences in IC distributions were found between positive and negative emotions. However, significant changes in IC distributions during emotional imagery compared to rest were identified in brain areas such as the left prefrontal cortex, the posterior cingulate cortex, the motor cortex, and the visual cortex. The study demonstrates the feasibility of AMICA in modeling high-density and nonstationary EEG and its utility in providing data-driven insights into brain state dynamics during self-paced emotional experiences, which have been difficult to measure. This approach can advance our understanding of highly dynamical emotional processes and improve the performance of EEG-based emotion decoding for affective computing and human-computer interaction.</description>
+	<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: A prospective longitudinal study shows putamen volume is associated with moderate amphetamine use and resultant cognitive impairments</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.29.361378v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.10.29.361378v1?rss=1</link>
+	<description>Background: Amphetamine-type stimulants (ATS) have become a critical public health issue. Animal models have indicated a clear neurotoxic potential of ATSs. In humans, chronic use has been associated with cognitive deficits and structural brain abnormalities. However, cross-sectional retrospective designs in chronic users cannot truly determine the causal direction of the effects. Methods: In a prospective-longitudinal study design cognitive functioning and brain structure were assessed at baseline and at 12-months follow-up in occasional ATS users (cumulative lifetime use &amp;lt;10 units at baseline). Results: Examination of change-scores between the initial examination and follow-up revealed declined verbal memory performance and putamen volume in users with high relative to low interim ATS exposure. In the entire sample interim ATS use, memory decline and putamen volume reductions were strongly associated. Conclusions: The present findings support the hypothesis that ATS use is associated with deficient dorsal striatal morphology which might reflect alterations in dopaminergic pathways. More importantly, these findings strongly suggest that even occasional, low-dose ATS use disrupts striatal integrity and cognitive functioning.</description>
+	<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
+</item>
+<item>
+	<title>bioRxiv: Neuroscience: Ethanol's action at BK channels accelerates the transition from moderate to excessive alcohol consumption</title>
+	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.29.360107v1?rss=1</guid>
+	<link>http://biorxiv.org/cgi/content/short/2020.10.29.360107v1?rss=1</link>
+	<description>Large conductance potassium (BK) channels are among the most sensitive molecular targets of ethanol. Whether the action of ethanol at BK channels influences the motivation to drink alcohol remains to be determined. In the present study, we sought to investigate the behavioral relevance of this interaction by introducing in the mouse genome a point mutation (BK  K361N) known to render BK channels insensitive to ethanol while preserving their physiological function. We demonstrate that preventing ethanol's interaction with BK channels at this site hinders the escalation of voluntary alcohol intake induced by repeated cycles of alcohol intoxication and withdrawal. In contrast, the mutation does not alter ethanol's acute behavioral effects, nor the metabolic and activity changes induced by chronic exposure to alcohol. Our findings point at BK channel ethanol-sensing capacity as a vulnerability mechanism in the transition from moderate alcohol consumption to pathological patterns of alcohol abuse.</description>
+	<pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
 <item>
 	<title>PLoS Computational Biology: Ten simple rules for women principal investigators during a pandemic</title>
@@ -1828,78 +2006,6 @@ groups.
   <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
 <item>
-	<title>bioRxiv: Neuroscience: Leveraging big data for classification of children who stutter from fluent peers</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.28.359711v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.10.28.359711v1?rss=1</link>
-	<description>Large datasets, consisting of hundreds or thousands of subjects, are becoming the new data standard within the neuroimaging community. While big data creates numerous benefits, such as detecting smaller effects, many of these big datasets have focused on non-clinical populations. The heterogeneity of clinical populations makes creating datasets of equal size and quality more challenging. There is a need for methods to connect these robust large datasets with the carefully curated clinical datasets collected over the past decades. In this study, we use resting-state fMRI data from the Adolescent Brain Cognitive Development study and the Human Connectome Project to discover generalizable brain features for use in an out-of-sample predictive model to classify young (3-10yrs) children who stutter from fluent peers. We achieve up to 72% classification accuracy using 10-fold cross validation. This study suggests that big data has the potential to yield generalizable biomarkers that are clinically meaningful. Specifically, this is the first study to demonstrate that big data-derived brain features can help differentiate children who stutter from their fluent peers and provide novel information on brain networks relevant to stuttering pathophysiology. The results provide a significant expansion to previous understanding of the neural bases of stuttering. In addition to auditory, somatomotor, and subcortical networks, the big data-based models highlight the importance of considering large scale brain networks supporting error sensitivity, attention, cognitive control, and emotion regulation/self-inspection in the neural bases of stuttering.</description>
-	<pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Anesthetic Drug Concentration Rather Than Abrupt Behavioral Unresponsiveness Linearly Degrades Responses in the Rat Primary Auditory Cortex</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.28.359323v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.10.28.359323v1?rss=1</link>
-	<description>Despite extensive knowledge of its molecular and cellular effects, how anesthesia affects sensory processing remains poorly understood. In particular, it remains unclear whether anesthesia modestly or robustly degrades activity in primary sensory regions, and whether such changes are linked to anesthesia drug concentration vs. behavioral unresponsiveness, since these are typically confounded. To address these questions, we employed slow gradual intravenous propofol anesthesia induction (from 100 to 900-1200 mcg/kg/min) together with auditory stimulation and intermittent assessment of behavioral responsiveness while recording neuronal spiking activity in the primary auditory cortex (PAC) of eight male rats. We found that all main components of neuronal activity including spontaneous firing rates, onset response magnitudes, onset response latencies, post-onset neuronal silence duration, and late-locking to 40Hz click-trains, gradually deteriorated by 6-60% in a dose-dependent manner with increasing anesthesia levels, without showing abrupt changes around loss of righting reflex or other time-points. Thus, the dominant factor affecting PAC responses is the anesthesia drug concentration rather than any sudden, dichotomous behavioral state changes. Our findings recapitulate, within one experiment, a wide array of seemingly conflicting results in the literature that, depending on the precise definition of wakefulness (vigilant vs. drowsy) and anesthesia (just-hypnotic vs. deep surgical), report a spectrum of effects in primary regions ranging from minimal to dramatic differences.</description>
-	<pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Brunner syndrome associated MAOA dysfunction in human dopaminergic neurons results in NMDAR hyperfunction and increased network activity.</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.28.359224v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.10.28.359224v1?rss=1</link>
-	<description>Background: Monoamine neurotransmitter abundance affects motor control, emotion, and cognitive function and is regulated by monoamine oxidases. Amongst these, monoamine oxidase A (MAOA) catalyzes the degradation of dopamine, norepinephrine, and serotonin into their inactive metabolites. Loss-of-function mutations in the X-linked MAOA gene cause Brunner syndrome, which is characterized by various forms of impulsivity, maladaptive externalizing behavior, and mild intellectual disability. Impaired MAOA activity in individuals with Brunner syndrome results in bioamine aberration, but it is currently unknown how this affects neuronal function. Methods: We generated human induced pluripotent stem cell (hiPSC)-derived dopaminergic (DA) neurons from three individuals with Brunner syndrome carrying different mutations, and used CRISPR/Cas9 mediated homologous recombination to rescue MAOA function. We used these lines to characterize morphological and functional properties of DA neuronal cultures at the single cell and neuronal network level in vitro. Results: Brunner syndrome DA neurons showed reduced synaptic density but hyperactive network activity. Intrinsic functional properties and -amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor (AMPAR)-mediated synaptic transmission were not affected by MAOA dysfunction. Instead, we show that the neuronal network hyperactivity is mediated by upregulation of the GRIN2A and GRIN2B subunits of the N-methyl-D-aspartate receptor (NMDAR), and rescue of MAOA results in normalization of NMDAR function as well as restoration of network activity. Conclusions: Our data suggest that MAOA dysfunction in Brunner syndrome increases activity of dopaminergic neurons through upregulation of NMDAR function, which may contribute to Brunner syndrome associated phenotypes.</description>
-	<pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Characterization of spatial dynamics of fMRI data in white matter using diffusion-informed white matter harmonics</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.28.359125v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.10.28.359125v1?rss=1</link>
-	<description>In this work, we leverage the Laplacian eigenbasis of voxel-wise white matter (WM) graphs derived from diffusion-weighted MRI data, dubbed WM harmonics, to characterize the spatial structure of WM fMRI data. By quantifying the energy content of WM fMRI data associated with subsets of WM harmonics across multiple spectral bands, we show that the data exhibits notable subtle spatial modulations under functional load that are not manifested during rest. WM harmonics provide a novel means to study the spatial dynamics of WM fMRI data, in such way that the analysis is informed by the underlying anatomical structure.</description>
-	<pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Innervation and Neuronal Control of the Mammalian Sinoatrial Node: A Comprehensive Atlas</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.28.359109v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.10.28.359109v1?rss=1</link>
-	<description>Cardiac function is under exquisite intrinsic cardiac neural control. Neuroablative techniques to modulate control of cardiac function are currently being studied in patients, albeit with variable and sometimes deleterious results. Recognizing the major gaps in our understanding of cardiac neural control, we sought to evaluate neural regulation of impulse initiation in the sinoatrial node as an initial discovery step. Here, we report an in-depth, multi-scale structural and functional characterization of the innervation of the sinoatrial node (SAN) by the right atrial ganglionated plexus (RAGP) in porcine and human hearts. Combining intersectional strategies including tissue clearing, immunohistochemical and ultrastructural techniques, we have delineated a comprehensive neuroanatomic atlas of the RAGP-SAN complex. The RAGP shows significant phenotypic diversity of neurons while maintaining predominant cholinergic innervation. Cellular and tissue-level electrophysiologic mapping and ablation studies demonstrate interconnected ganglia with synaptic convergence within the RAGP to modulate SAN automaticity, atrioventricular (AV) conduction and left ventricular (LV) contractility. For the first time, we demonstrate that intrinsic cardiac neurons influence the pacemaking site in the heart. This provides an experimental demonstration of a discrete neuronal population controlling a specific geographic region of the heart (SAN) that can serve as a framework for further exploration of other parts of the intrinsic cardiac nervous system (ICNS) in mammalian hearts and for developing targeted therapies.</description>
-	<pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Endothelial iron homeostasis regulates BBB integrity via the HIF2α-Ve-cadherin pathway</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.28.358473v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.10.28.358473v1?rss=1</link>
-	<description>The blood-brain barrier serves as the guardian of the CNS, tightly regulating the movement of ions, molecules, and cells between the circulatory system and brain. We have used an in-vitro BBB injury model to gain a better understanding of the mechanisms controlling BBB integrity. This model exposes a co-culture of human stem-cell derived brain-like endothelial cells and brain pericytes that mimic the BBB, to the organophosphate paraoxon. This exposure results in rapid lipid peroxidation, initiating a ferroptosis-like process. Additionally, mitochondrial ROS formation (MRF) and increase in mitochondrial membrane permeability, were also detected leading to apoptotic cell death. Yet, these processes do not directly result in damage to barrier functionality since blocking them does not reverse the increased permeability. We found that the iron chelator, Desferal(C) significantly decreases MRF and apoptosis subsequent to paraoxon exposure, while also rescuing barrier integrity by inhibiting the liable iron pool increase, inducing HIF2 expression and preventing the degradation of Ve-cadherin on the cell surface. Moreover, the novel nitroxide JP4-039 significantly rescues both injury-induced endothelium cell toxicity and barrier functionality.</description>
-	<pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Intolerance to uncertainty modulates neural synchrony between political partisans</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.28.358051v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.10.28.358051v1?rss=1</link>
-	<description>Political partisans see the world through an ideologically biased lens. What drives political polarization? It has been posited that polarization arises because holding extreme political views satisfies a need for certain and stable beliefs about the world. We examined the relationship between uncertainty tolerance and political polarization using brain-to-brain synchrony analysis, which measured committed liberals' and conservatives' subjective interpretation of a continuous political narrative. Participants (N=44) watched a political debate while undergoing fMRI. Shared ideology between participants increased neural synchrony in many brain areas including key regions of the valuation and theory-of-mind networks (e.g. temporoparietal junction). The degree of neural synchrony was modulated by uncertainty aversion: Uncertainty-intolerant individuals experienced greater brain-to-brain synchrony with politically like-minded peers and lower synchrony with political opponents. This effect was observed for liberals and conservatives alike. Moreover, increasing neural synchrony between committed partisans predicted subsequent polarized attitude formation about the debate after the scanning session. These results suggest that uncertainty attitudes gate the shared neural processing of political narratives, thereby fueling polarized attitude formation about hot-button issues.</description>
-	<pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Magnetoencephalographic Signatures of Conscious Processing Before Birth</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.27.357129v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.10.27.357129v1?rss=1</link>
-	<description>The concept of fetal consciousness is a widely discussed topic. In this study, we applied a hierarchical rule learning paradigm to investigate the possibility of fetal conscious processing during the last trimester of pregnancy. We used fetal magnetoencephalography, to assess fetal brain activity in 56 healthy fetuses between gestational week 25 and 40, during an auditory oddball paradigm containing first- and second-order regularities. The comparison of fetal brain responses towards standard and deviant tones revealed that fetuses show signs of hierarchical rule learning, and thus the formation of a memory trace for the second-order regularity. This ability develops over the course of the last trimester of gestation, in accordance with processes in physiological brain development. On the whole, our results support the assumption that fetuses are capable of consciously processing stimuli that reach them from outside the womb.</description>
-	<pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Neural substrates of verbal repetition deficits in primary progressive aphasia</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.27.357038v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.10.27.357038v1?rss=1</link>
-	<description>This study examined the relationship between cortical thickness and performance on several verbal repetition tasks in patients with primary progressive aphasia (PPA) in order to test predictions generated by theoretical accounts of phonological working memory (PWM) that predict phonological content buffers in left posterior inferior frontal sulcus (pIFS) and supramarginal gyrus (SMG). Cortical surfaces were reconstructed from magnetic resonance imaging scans from 42 participants diagnosed with PPA. Cortical thickness was measured in a set of anatomical regions spanning the entire cerebral cortex. Correlation analyses were performed between cortical thickness and average score across three PWM related tasks: the Repetition subtest from the Western Aphasia Battery, a forward digit span task, and a backward digit span task. Significant correlations were found between average PWM score across tasks and cortical thickness in left SMG and left pIFS, in support of prior theoretical accounts of PWM. Exploratory whole-brain correlation analyses performed for each of the three behavioral tasks individually revealed a distinct set of positively-correlated regions for each task. Comparison of cortical thickness measures from different PPA subtypes to cortical thickness in age-matched controls further revealed unique patterns of atrophy in the different PPA subtypes.</description>
-	<pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
 	<title>PLoS Computational Biology: Membrane thinning and lateral gating are consistent features of BamA across multiple species</title>
 	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1008355</guid>
 	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/Ln96zc_HKJI/article</link>
@@ -2171,22 +2277,6 @@ off-the-shelf and specialized solvers.
 	<guid isPermaLink="false">https://www.nature.com/articles/s41586-020-2827-2</guid>
 	<link>http://feeds.nature.com/~r/nature/rss/current/~3/5pPofzvz92Q/s41586-020-2827-2</link>
 	<description>&lt;p&gt;Nature, Published online: 28 October 2020; &lt;a href=&quot;https://www.nature.com/articles/s41586-020-2827-2&quot;&gt;doi:10.1038/s41586-020-2827-2&lt;/a&gt;&lt;/p&gt;Polarization observations of the fast radio burst FRB 180301 with the FAST radio telescope show diverse polarization angle swings, consistent with a magnetospheric origin of the emission.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/5pPofzvz92Q&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
-</item>
-<item>
-	<title>Nature: Efficient epoxidation over dinuclear sites in titanium silicalite-1</title>
-	<guid isPermaLink="false">https://www.nature.com/articles/s41586-020-2826-3</guid>
-	<link>http://feeds.nature.com/~r/nature/rss/current/~3/HhYGwLCQxQg/s41586-020-2826-3</link>
-	<description>&lt;p&gt;Nature, Published online: 28 October 2020; &lt;a href=&quot;https://www.nature.com/articles/s41586-020-2826-3&quot;&gt;doi:10.1038/s41586-020-2826-3&lt;/a&gt;&lt;/p&gt;A combination of spectroscopy, microscopy and theoretical calculations shows that the reactivity of titanium silicalite-1 as an epoxidation catalyst is due to the presence of dinuclear titanium sites.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/HhYGwLCQxQg&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
-</item>
-<item>
-	<title>Nature: Strategic vision for improving human health at The Forefront of Genomics</title>
-	<guid isPermaLink="false">https://www.nature.com/articles/s41586-020-2817-4</guid>
-	<link>http://feeds.nature.com/~r/nature/rss/current/~3/ppm4fevehG0/s41586-020-2817-4</link>
-	<description>&lt;p&gt;Nature, Published online: 28 October 2020; &lt;a href=&quot;https://www.nature.com/articles/s41586-020-2817-4&quot;&gt;doi:10.1038/s41586-020-2817-4&lt;/a&gt;&lt;/p&gt;In this Perspective, authors from the National Human Genome Research Institute (NHGRI) present a vision for human genomics research for the coming decade.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/nature/rss/current/~4/ppm4fevehG0&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
   <source url="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</source>
 </item>
@@ -2478,22 +2568,6 @@ off-the-shelf and specialized solvers.
 	<pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
 	<author>ashish.lal@nih.gov (Aaron Schetter)</author>
   <source url="https://observer.elifesciences.org/report/latest-articles">eLife: latest articles</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Modularity and neural coding from a brainstem synaptic wiring diagram</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.28.359620v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.10.28.359620v1?rss=1</link>
-	<description>Neuronal wiring diagrams reconstructed from electron microscopic images are enabling new ways of attacking neuroscience questions. We address two central issues, modularity and neural coding, by reconstructing and analyzing a wiring diagram from a larval zebrafish brainstem. We identified a recurrently connected &quot;center&quot; within the 3000-node graph, and applied graph clustering algorithms to divide the center into two modules with stronger connectivity within than between modules. Outgoing connection patterns and registration to maps of neural activity suggested the modules were specialized for body and eye movements. The eye movement module further subdivided into two submodules corresponding to the control of the two eyes. We constructed a recurrent network model of the eye movement module with connection strengths estimated from synapse numbers. Neural activity in the model replicated the statistics of eye position encoding across multiple populations of neurons as observed by calcium imaging. Our findings show that synapse-level wiring diagrams can be used to extract structural modules with interpretable functions in the vertebrate brain, and can be related to the encoding of computational variables important for behavior. We also show through a potential synapse formalism that these modeling successes require true synaptic connectivity; connectivity inferred from arbor overlap is insufficient.</description>
-	<pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
-</item>
-<item>
-	<title>bioRxiv: Neuroscience: Altered neural oscillations and behavior in a genetic mouse model of NMDA receptor hypofunction</title>
-	<guid isPermaLink="true">http://biorxiv.org/cgi/content/short/2020.10.28.359547v1?rss=1</guid>
-	<link>http://biorxiv.org/cgi/content/short/2020.10.28.359547v1?rss=1</link>
-	<description>Introduction: Abnormalities in electroencephalographic (EEG) biomarkers occur in patients with schizophrenia and those clinically at high risk for transition to psychosis and are associated with cognitive impairment. While the pathophysiology of schizophrenia remains poorly understood, converging evidence suggests N-methyl-D-aspartate receptor (NMDAR) hypofunction plays a central role and likely contributes to biomarker impairments. Thus, the characterization of such biomarkers is of significant interest for both the early diagnosis of schizophrenia and the development of novel treatments. Methods: We utilized an established model of chronic NMDAR hypofunction, serine racemase knockout (SRKO) mice. In vivo EEG recording and behavioral analyses were performed on adult male and female SRKO mice and wild-type littermates to determine the impact of chronic NMDAR hypofunction on a battery of translationally-relevant electrophysiological biomarkers. Results: SRKO mice displayed impairments in investigation-elicited gamma power that corresponded with reduced short-term social recognition. This impairment was associated with enhanced background (pre-investigation) broadband gamma activity that only appeared during social task performance. Additionally, SRKO mice exhibited sensory gating impairments, in both gamma power and event-related potential amplitude. However, other biomarkers such as the auditory steady-state response, sleep spindles, and state-specific power spectral density were generally neurotypical. Conclusions: SRKO mice provide a useful model to understand how chronic NMDAR hypofunction contributes to deficits in a subset of translationally-relevant EEG biomarkers that are altered in schizophrenia. Importantly, our gamma band findings support the hypothesis that an aberrant signal-to-noise ratio impairing cognition occurs with NMDAR hypofunction, which may be tied to impaired task-dependent alteration in functional connectivity.</description>
-	<pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience">bioRxiv Subject Collection: Neuroscience</source>
 </item>
 <item>
 	<title>PLoS Computational Biology: Iterative point set registration for aligning scRNA-seq data</title>
@@ -4712,26 +4786,6 @@ Icosahedral viruses are under a micrometer in diameter, their infectious genome 
   <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
 </item>
 <item>
-	<title>PLoS Computational Biology: seekCRIT: Detecting and characterizing differentially expressed circular RNAs using high-throughput sequencing data</title>
-	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1008338</guid>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/sYHI90r064E/article</link>
-	<description>&lt;p&gt;by Mohamed Chaabane, Kalina Andreeva, Jae Yeon Hwang, Tae Lim Kook, Juw Won Park, Nigel G. F. Cooper&lt;/p&gt;
-
-Over the past two decades, researchers have discovered a special form of alternative splicing that produces a circular form of RNA. Although these circular RNAs (circRNAs) have garnered considerable attention in the scientific community for their biogenesis and functions, the focus of current studies has been on the tissue-specific circRNAs that exist only in one tissue but not in other tissues or on the disease-specific circRNAs that exist in certain disease conditions, such as cancer, but not under normal conditions. This approach was conducted in the relative absence of methods that analyze a group of common circRNAs that exist in both conditions, but are more abundant in one condition relative to another (differentially expressed). Studies of differentially expressed circRNAs (DECs) between two conditions would serve as a significant first step in filling this void. Here, we introduce a novel computational tool, seekCRIT (seek for differentially expressed CircRNAs In Transcriptome), that identifies the DECs between two conditions from high-throughput sequencing data. Using rat retina RNA-seq data from ischemic and normal conditions, we show that over 74% of identifiable circRNAs are expressed in both conditions and over 40 circRNAs are differentially expressed between two conditions. We also obtain a high qPCR validation rate of 90% for DECs with a FDR of &amp;lt; 5%. Our results demonstrate that seekCRIT is a novel and efficient approach to detect DECs using rRNA depleted RNA-seq data. seekCRIT is freely downloadable at https://github.com/UofLBioinformatics/seekCRIT. The source code is licensed under the MIT License. seekCRIT is developed and tested on Linux CentOS-7.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/sYHI90r064E&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 20 Oct 2020 21:00:00 +0000</pubDate>
-  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
-</item>
-<item>
-	<title>PLoS Computational Biology: Numerical knockouts–In silico assessment of factors predisposing to thoracic aortic aneurysms</title>
-	<guid isPermaLink="false">http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1008273</guid>
-	<link>http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/_lLAarBO2Bc/article</link>
-	<description>&lt;p&gt;by M. Latorre, J. D. Humphrey&lt;/p&gt;
-
-Myriad risk factors–including uncontrolled hypertension, aging, and diverse genetic mutations–contribute to the development and enlargement of thoracic aortic aneurysms. Detailed analyses of clinical data and longitudinal studies of murine models continue to provide insight into the natural history of these potentially lethal conditions. Yet, because of the co-existence of multiple risk factors in most cases, it has been difficult to isolate individual effects of the many different factors or to understand how they act in combination. In this paper, we use a data-informed computational model of the initiation and progression of thoracic aortic aneurysms to contrast key predisposing risk factors both in isolation and in combination; these factors include localized losses of elastic fiber integrity, aberrant collagen remodeling, reduced smooth muscle contractility, and dysfunctional mechanosensing or mechanoregulation of extracellular matrix along with superimposed hypertension and aortic aging. In most cases, mild-to-severe localized losses in cellular function or matrix integrity give rise to varying degrees of local dilatations of the thoracic aorta, with enlargement typically exacerbated in cases wherein predisposing risk factors co-exist. The simulations suggest, for the first time, that effects of compromised smooth muscle contractility are more important in terms of dysfunctional mechanosensing and mechanoregulation of matrix than in vessel-level control of diameter and, furthermore, that dysfunctional mechanobiological control can yield lesions comparable to those in cases of compromised elastic fiber integrity. Particularly concerning, therefore, is that loss of constituents such as fibrillin-1, as in Marfan syndrome, can compromise both elastic fiber integrity and mechanosensing.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/ploscompbiol/NewArticles/~4/_lLAarBO2Bc&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 20 Oct 2020 21:00:00 +0000</pubDate>
-  <source url="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles">PLOS Computational Biology: New Articles</source>
-</item>
-<item>
 	<title>PLoS Biology: Expression of concern: A chaperonin subunit with unique structures is essential for folding of a specific substrate</title>
 	<guid isPermaLink="false">http://feeds.plos.org/plosbiology/10.1371/journal.pbio.3000972</guid>
 	<link>http://feeds.plos.org/~r/plosbiology/NewArticles/~3/ls-UOa5Xgvo/article</link>
@@ -4883,54 +4937,6 @@ Movements overtly sample sensory information, making sensory analysis an active-
 	<description>SARS-CoV-2 is constantly evolving. Prior studies focused on high case-density locations, such as the U.S. Northern and Western metropolitan areas. This study demonstrates continued SARS-CoV-2 evolution in a suburban Southern U.S. region by high-density amplicon sequencing of symptomatic cases. 57% of strains carried the spike D614G variant, which was associated with higher genome copy numbers and its prevalence expanded with time. Four strains carried a deletion in a predicted stem loop of the 3’ untranslated region.</description>
 	<pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
   <source url="https://www.cell.com/cell-reports/inpress.rss">Cell Reports</source>
-</item>
-<item>
-	<title>Cell Reports: Current Issue: Gastrointestinal Neurons Expressing HCN4 Regulate Retrograde Peristalsis</title>
-	<guid isPermaLink="true">https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31303-6?rss=yes</guid>
-	<link>https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31303-6?rss=yes</link>
-	<description>(Cell Reports 30, 2879–2888.e1–e3; March 3, 2020)</description>
-	<pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="https://www.cell.com/cell-reports/current.rss">Cell Reports</source>
-</item>
-<item>
-	<title>Cell Reports: Current Issue: MYSM1 Represses Innate Immunity and Autoimmunity through Suppressing the cGAS-STING Pathway</title>
-	<guid isPermaLink="true">https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31286-9?rss=yes</guid>
-	<link>https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31286-9?rss=yes</link>
-	<description>Tian et al. show that MYSM1 cleaves STING ubiquitination to suppress the STING pathway. Mysm1-deficient mice exhibit tissue damage and high mortality upon virus infection. MYSM1 treatment represses pro-inflammatory cytokines in PBMCs from patients with systemic lupus erythematosus. Thus, MYSM1 acts a therapeutic agent for infectious and autoimmune diseases.</description>
-	<pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="https://www.cell.com/cell-reports/current.rss">Cell Reports</source>
-</item>
-<item>
-	<title>Cell Reports: Current Issue: SCLC-CellMiner: A Resource for Small Cell Lung Cancer Cell Line Genomics and Pharmacology Based on Genomic Signatures</title>
-	<guid isPermaLink="true">https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31285-7?rss=yes</guid>
-	<link>https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31285-7?rss=yes</link>
-	<description>Tlemsani et al. provide a unique resource, SCLC-CellMiner, integrating drug sensitivity and multi-omics data from 118 small cell lung cancer (SCLC) cell lines. They demonstrate that SCLCs have differential transcriptional networks driven by lineage-specific transcription factors (NEUROD1, ASCL1, POU2F3, and YAP1). Furthermore, YAP1-driven SCLCs have distinct drug sensitivity profiles.</description>
-	<pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="https://www.cell.com/cell-reports/current.rss">Cell Reports</source>
-</item>
-<item>
-	<title>Cell Reports: Current Issue: The Obesity-Susceptibility Gene TMEM18 Promotes Adipogenesis through Activation of PPARG</title>
-	<guid isPermaLink="true">https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31284-5?rss=yes</guid>
-	<link>https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31284-5?rss=yes</link>
-	<description>Landgraf et al. show that the obesity-susceptibility gene TMEM18 is of critical functional importance for adipose tissue biology. TMEM18 promotes adipogenesis by activating PPARG1 and thereby metabolically beneficial hyperplasia. The link between TMEM18 and PPARG1 is dysregulated in obesity and related inflammatory and metabolic parameters in children.</description>
-	<pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="https://www.cell.com/cell-reports/current.rss">Cell Reports</source>
-</item>
-<item>
-	<title>Cell Reports: Current Issue: Structural and Functional Insights into an Archaeal Lipid Synthase</title>
-	<guid isPermaLink="true">https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31283-3?rss=yes</guid>
-	<link>https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31283-3?rss=yes</link>
-	<description>Ren et al. report a member of superfamily UbiA which are transmembrane enzymes for lipophilic molecules biosynthesis. These structures reveal the unique cavity containing two long hydrophobic tunnels for substrates accommodation, and functional assays provide insights into mechanisms of lipid biosynthesis and membrane adaptation.</description>
-	<pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="https://www.cell.com/cell-reports/current.rss">Cell Reports</source>
-</item>
-<item>
-	<title>Cell Reports: Current Issue: Enhancer Reprogramming Confers Dependence on Glycolysis and IGF Signaling in KMT2D Mutant Melanoma</title>
-	<guid isPermaLink="true">https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31282-1?rss=yes</guid>
-	<link>https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31282-1?rss=yes</link>
-	<description>Through an in vivo epigenome-focused pooled RNAi screen, Maitituoheti et al. identify KMT2D as a tumor suppressor in melanoma. KMT2D-deficient tumors show substantial reprogramming of key metabolic pathways by reduction of H3K4me1-marked active enhancers, conferring sensitivity to glycolysis and IGFR inhibitors in melanoma with KMT2D-inactivating mutations.</description>
-	<pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
-  <source url="https://www.cell.com/cell-reports/current.rss">Cell Reports</source>
 </item>
 
 </channel>
