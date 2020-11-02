@@ -5,7 +5,7 @@
 	<link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscience/atom.xml"/>
 	<link href="https://neuroblog.fedoraproject.org/planet-neuroscience/"/>
 	<id>https://neuroblog.fedoraproject.org/planet-neuroscience/atom.xml</id>
-	<updated>2020-11-01T19:00:19+00:00</updated>
+	<updated>2020-11-02T08:00:18+00:00</updated>
     <generator uri="https://neuroblog.fedoraproject.org/planet-neuroscience/">http://intertwingly.net/code/venus/</generator>
 
 	<entry>
@@ -344,6 +344,431 @@
 	</entry>
 
 	<entry>
+		<title type="html" xml:lang="en-us">AgEBO-Tabular: Joint Neural Architecture and Hyperparameter Search with Autotuned Data-Parallel Training for Tabular Data. (arXiv:2010.16358v1 [cs.LG])</title>
+		<link href="http://arxiv.org/abs/2010.16358"/>
+		<id>http://arxiv.org/abs/2010.16358</id>
+		<updated>2020-11-02T01:30:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Developing high-performing predictive models for large tabular data sets is a
+challenging task. The state-of-the-art methods are based on expert-developed
+model ensembles from different supervised learning methods. Recently, automated
+machine learning (AutoML) is emerging as a promising approach to automate
+predictive model development. Neural architecture search (NAS) is an AutoML
+approach that generates and evaluates multiple neural network architectures
+concurrently and improves the accuracy of the generated models iteratively. A
+key issue in NAS, particularly for large data sets, is the large computation
+time required to evaluate each generated architecture. While data-parallel
+training is a promising approach that can address this issue, its use within
+NAS is difficult. For different data sets, the data-parallel training settings
+such as the number of parallel processes, learning rate, and batch size need to
+be adapted to achieve high accuracy and reduction in training time. To that
+end, we have developed AgEBO-Tabular, an approach to combine aging evolution
+(AgE), a parallel NAS method that searches over neural architecture space, and
+an asynchronous Bayesian optimization method for tuning the hyperparameters of
+the data-parallel training simultaneously. We demonstrate the efficacy of the
+proposed method to generate high-performing neural network models for large
+tabular benchmark data sets. Furthermore, we demonstrate that the automatically
+discovered neural network models using our method outperform the
+state-of-the-art AutoML ensemble models in inference speed by two orders of
+magnitude while reaching similar accuracy values.
+&lt;/p&gt;</content>
+		<author>
+			<name>&lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Egele_R/0/1/0/all/0/1&quot;&gt;Romain Egele&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Balaprakash_P/0/1/0/all/0/1&quot;&gt;Prasanna Balaprakash&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Vishwanath_V/0/1/0/all/0/1&quot;&gt;Venkatram Vishwanath&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Guyon_I/0/1/0/all/0/1&quot;&gt;Isabelle Guyon&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_Z/0/1/0/all/0/1&quot;&gt;Zhengying Liu&lt;/a&gt;</name>
+			<uri>http://arxiv.org/</uri>
+		</author>
+		<source>
+			<title type="html">cs.NE updates on arXiv.org</title>
+			<subtitle type="html">Computer Science -- Neural and Evolutionary Computing (cs.NE) updates on the arXiv.org e-print archive</subtitle>
+			<link rel="self" href="http://export.arxiv.org/rss/cs.NE"/>
+			<id>http://arxiv.org/</id>
+			<updated>2020-11-02T01:30:00+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-us">Experimental design for MRI by greedy policy search. (arXiv:2010.16262v1 [cs.CV])</title>
+		<link href="http://arxiv.org/abs/2010.16262"/>
+		<id>http://arxiv.org/abs/2010.16262</id>
+		<updated>2020-11-02T01:30:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;In today's clinical practice, magnetic resonance imaging (MRI) is routinely
+accelerated through subsampling of the associated Fourier domain. Currently,
+the construction of these subsampling strategies - known as experimental design
+- relies primarily on heuristics. We propose to learn experimental design
+strategies for accelerated MRI with policy gradient methods. Unexpectedly, our
+experiments show that a simple greedy approximation of the objective leads to
+solutions nearly on-par with the more general non-greedy approach. We offer a
+partial explanation for this phenomenon rooted in greater variance in the
+non-greedy objective's gradient estimates, and experimentally verify that this
+variance hampers non-greedy models in adapting their policies to individual MR
+images. We empirically show that this adaptivity is key to improving
+subsampling designs.
+&lt;/p&gt;</content>
+		<author>
+			<name>&lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Bakker_T/0/1/0/all/0/1&quot;&gt;Tim Bakker&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Hoof_H/0/1/0/all/0/1&quot;&gt;Herke van Hoof&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Welling_M/0/1/0/all/0/1&quot;&gt;Max Welling&lt;/a&gt;</name>
+			<uri>http://arxiv.org/</uri>
+		</author>
+		<source>
+			<title type="html">cs.NE updates on arXiv.org</title>
+			<subtitle type="html">Computer Science -- Neural and Evolutionary Computing (cs.NE) updates on the arXiv.org e-print archive</subtitle>
+			<link rel="self" href="http://export.arxiv.org/rss/cs.NE"/>
+			<id>http://arxiv.org/</id>
+			<updated>2020-11-02T01:30:00+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-us">Fusion-Catalyzed Pruning for Optimizing Deep Learning on Intelligent Edge Devices. (arXiv:2010.16165v1 [cs.NE])</title>
+		<link href="http://arxiv.org/abs/2010.16165"/>
+		<id>http://arxiv.org/abs/2010.16165</id>
+		<updated>2020-11-02T01:30:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;The increasing computational cost of deep neural network models limits the
+applicability of intelligent applications on resource-constrained edge devices.
+While a number of neural network pruning methods have been proposed to compress
+the models, prevailing approaches focus only on parametric operators (e.g.,
+convolution), which may miss optimization opportunities. In this paper, we
+present a novel fusion-catalyzed pruning approach, called FuPruner, which
+simultaneously optimizes the parametric and non-parametric operators for
+accelerating neural networks. We introduce an aggressive fusion method to
+equivalently transform a model, which extends the optimization space of pruning
+and enables non-parametric operators to be pruned in a similar manner as
+parametric operators, and a dynamic filter pruning method is applied to
+decrease the computational cost of models while retaining the accuracy
+requirement. Moreover, FuPruner provides configurable optimization options for
+controlling fusion and pruning, allowing much more flexible
+performance-accuracy trade-offs to be made. Evaluation with state-of-the-art
+residual neural networks on five representative intelligent edge platforms,
+Jetson TX2, Jetson Nano, Edge TPU, NCS, and NCS2, demonstrates the
+effectiveness of our approach, which can accelerate the inference of models on
+CIFAR-10 and ImageNet datasets.
+&lt;/p&gt;</content>
+		<author>
+			<name>&lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Li_G/0/1/0/all/0/1&quot;&gt;Guangli Li&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ma_X/0/1/0/all/0/1&quot;&gt;Xiu Ma&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wang_X/0/1/0/all/0/1&quot;&gt;Xueying Wang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Liu_L/0/1/0/all/0/1&quot;&gt;Lei Liu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Xue_J/0/1/0/all/0/1&quot;&gt;Jingling Xue&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Feng_X/0/1/0/all/0/1&quot;&gt;Xiaobing Feng&lt;/a&gt;</name>
+			<uri>http://arxiv.org/</uri>
+		</author>
+		<source>
+			<title type="html">cs.NE updates on arXiv.org</title>
+			<subtitle type="html">Computer Science -- Neural and Evolutionary Computing (cs.NE) updates on the arXiv.org e-print archive</subtitle>
+			<link rel="self" href="http://export.arxiv.org/rss/cs.NE"/>
+			<id>http://arxiv.org/</id>
+			<updated>2020-11-02T01:30:00+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-us">Stochastic quorum percolation and noise focusing in neuronal networks. (arXiv:2010.16124v1 [q-bio.NC])</title>
+		<link href="http://arxiv.org/abs/2010.16124"/>
+		<id>http://arxiv.org/abs/2010.16124</id>
+		<updated>2020-11-02T01:30:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Recent experiments have shown that the spontaneous activity of young
+dissociated neuronal cultures can be described as a process of highly
+inhomogeneous nucleation and front propagation due to the localization of noise
+activity, i.e., noise focusing. However, the basic understanding of the
+mechanisms of noise build-up leading to the nucleation remain an open
+fundamental problem. Here we present a minimal dynamical model called
+stochastic quorum percolation that can account for the observed phenomena,
+while providing a robust theoretical framework. The model reproduces the first
+and second order phase--transitions of bursting dynamics and neuronal
+avalanches respectively, and captures the profound effect metric correlations
+in the network topology can have on the dynamics. The application of our
+results to other systems such as in the propagation of infectious diseases and
+of rumors is discussed.
+&lt;/p&gt;</content>
+		<author>
+			<name>&lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Orlandi_J/0/1/0/all/0/1&quot;&gt;Javier G. Orlandi&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/q-bio/1/au:+Casademunt_J/0/1/0/all/0/1&quot;&gt;Jaume Casademunt&lt;/a&gt;</name>
+			<uri>http://arxiv.org/</uri>
+		</author>
+		<source>
+			<title type="html">q-bio.NC updates on arXiv.org</title>
+			<subtitle type="html">Quantitative Biology -- Neurons and Cognition (q-bio.NC) updates on the arXiv.org e-print archive</subtitle>
+			<link rel="self" href="http://export.arxiv.org/rss/q-bio.NC/"/>
+			<id>http://arxiv.org/</id>
+			<updated>2020-11-02T01:30:00+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-us">Unsupervised One-shot Learning of Both Specific Instances and Generalised Classes with a Hippocampal Architecture. (arXiv:2010.15999v1 [cs.LG])</title>
+		<link href="http://arxiv.org/abs/2010.15999"/>
+		<id>http://arxiv.org/abs/2010.15999</id>
+		<updated>2020-11-02T01:30:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Established experimental procedures for one-shot machine learning do not test
+the ability to learn or remember specific instances of classes, a key feature
+of animal intelligence. Distinguishing specific instances is necessary for many
+real-world tasks, such as remembering which cup belongs to you. Generalisation
+within classes conflicts with the ability to separate instances of classes,
+making it difficult to achieve both capabilities within a single architecture.
+We propose an extension to the standard Omniglot classification-generalisation
+framework that additionally tests the ability to distinguish specific instances
+after one exposure and introduces noise and occlusion corruption. Learning is
+defined as an ability to classify as well as recall training samples.
+Complementary Learning Systems (CLS) is a popular model of mammalian brain
+regions believed to play a crucial role in learning from a single exposure to a
+stimulus. We created an artificial neural network implementation of CLS and
+applied it to the extended Omniglot benchmark. Our unsupervised model
+demonstrates comparable performance to existing supervised ANNs on the Omniglot
+classification task (requiring generalisation), without the need for
+domain-specific inductive biases. On the extended Omniglot instance-recognition
+task, the same model also demonstrates significantly better performance than a
+baseline nearest-neighbour approach, given partial occlusion and noise.
+&lt;/p&gt;</content>
+		<author>
+			<name>&lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kowadlo_G/0/1/0/all/0/1&quot;&gt;Gideon Kowadlo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ahmed_A/0/1/0/all/0/1&quot;&gt;Abdelrahman Ahmed&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Rawlinson_D/0/1/0/all/0/1&quot;&gt;David Rawlinson&lt;/a&gt;</name>
+			<uri>http://arxiv.org/</uri>
+		</author>
+		<source>
+			<title type="html">cs.NE updates on arXiv.org</title>
+			<subtitle type="html">Computer Science -- Neural and Evolutionary Computing (cs.NE) updates on the arXiv.org e-print archive</subtitle>
+			<link rel="self" href="http://export.arxiv.org/rss/cs.NE"/>
+			<id>http://arxiv.org/</id>
+			<updated>2020-11-02T01:30:00+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-us">Hallucinating Saliency Maps for Fine-Grained Image Classification for Limited Data Domains. (arXiv:2007.12562v2 [cs.CV] UPDATED)</title>
+		<link href="http://arxiv.org/abs/2007.12562"/>
+		<id>http://arxiv.org/abs/2007.12562</id>
+		<updated>2020-11-02T01:30:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Most of the saliency methods are evaluated on their ability to generate
+saliency maps, and not on their functionality in a complete vision pipeline,
+like for instance, image classification. In the current paper, we propose an
+approach which does not require explicit saliency maps to improve image
+classification, but they are learned implicitely, during the training of an
+end-to-end image classification task. We show that our approach obtains similar
+results as the case when the saliency maps are provided explicitely. Combining
+RGB data with saliency maps represents a significant advantage for object
+recognition, especially for the case when training data is limited. We validate
+our method on several datasets for fine-grained classification tasks (Flowers,
+Birds and Cars). In addition, we show that our saliency estimation method,
+which is trained without any saliency groundtruth data, obtains competitive
+results on real image saliency benchmark (Toronto), and outperforms deep
+saliency models with synthetic images (SID4VAM).
+&lt;/p&gt;</content>
+		<author>
+			<name>&lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Figueroa_Flores_C/0/1/0/all/0/1&quot;&gt;Carola Figueroa-Flores&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Raducanu_B/0/1/0/all/0/1&quot;&gt;Bogdan Raducanu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Berga_D/0/1/0/all/0/1&quot;&gt;David Berga&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Weijer_J/0/1/0/all/0/1&quot;&gt;Joost van de Weijer&lt;/a&gt;</name>
+			<uri>http://arxiv.org/</uri>
+		</author>
+		<source>
+			<title type="html">cs.NE updates on arXiv.org</title>
+			<subtitle type="html">Computer Science -- Neural and Evolutionary Computing (cs.NE) updates on the arXiv.org e-print archive</subtitle>
+			<link rel="self" href="http://export.arxiv.org/rss/cs.NE"/>
+			<id>http://arxiv.org/</id>
+			<updated>2020-11-02T01:30:00+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-us">Neural Cellular Automata Manifold. (arXiv:2006.12155v2 [cs.NE] UPDATED)</title>
+		<link href="http://arxiv.org/abs/2006.12155"/>
+		<id>http://arxiv.org/abs/2006.12155</id>
+		<updated>2020-11-02T01:30:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Very recently, the Neural Cellular Automata (NCA) has been proposed to
+simulate the morphogenesis process with deep networks. NCA learns to grow an
+image starting from a fixed single pixel. In this work, we show that the neural
+network (NN) architecture of the NCA can be encapsulated in a larger NN. This
+allows us to propose a new model that encodes a manifold of NCA, each of them
+capable of generating a distinct image. Therefore, we are effectively learning
+a representation space of CA, which shows generalization capabilities. We
+accomplish this by introducing dynamic convolutions inside an Auto-Encoder
+architecture, for the first time used to join two different sources of
+information, the encoding and cell's environment information. In biological
+terms, our approach would play the role of the transcription factors,
+modulating the mapping of genes into specific proteins that drive cellular
+differentiation, which occurs right before the morphogenesis. We thoroughly
+evaluate our approach in a dataset of synthetic emojis and also in real images
+of CIFAR-10. Our model introduces a general-purpose network, which can be used
+in a broad range of problems beyond image generation.
+&lt;/p&gt;</content>
+		<author>
+			<name>&lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ruiz_A/0/1/0/all/0/1&quot;&gt;Alejandro Hernandez Ruiz&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Vilalta_A/0/1/0/all/0/1&quot;&gt;Armand Vilalta&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Moreno_Noguer_F/0/1/0/all/0/1&quot;&gt;Francesc Moreno-Noguer&lt;/a&gt;</name>
+			<uri>http://arxiv.org/</uri>
+		</author>
+		<source>
+			<title type="html">cs.NE updates on arXiv.org</title>
+			<subtitle type="html">Computer Science -- Neural and Evolutionary Computing (cs.NE) updates on the arXiv.org e-print archive</subtitle>
+			<link rel="self" href="http://export.arxiv.org/rss/cs.NE"/>
+			<id>http://arxiv.org/</id>
+			<updated>2020-11-02T01:30:00+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-us">A self-organizing fuzzy neural network for sequence learning. (arXiv:1908.00617v2 [cs.NE] UPDATED)</title>
+		<link href="http://arxiv.org/abs/1908.00617"/>
+		<id>http://arxiv.org/abs/1908.00617</id>
+		<updated>2020-11-02T01:30:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;In this paper, a new self-organizing fuzzy neural network model is presented
+which is able to learn and reproduce different sequences accurately. Sequence
+learning is important in performing skillful tasks, such as writing and playing
+piano. The structure of the proposed network is composed of two parts:
+1-sequence identifier which computes a novel sequence identity value based on
+initial samples of a sequence, and detects the sequence identity based on
+proper fuzzy rules, and 2-sequence locator, which locates the input sample in
+the sequence. Therefore, by integrating outputs of these two parts in fuzzy
+rules, the network is able to produce the proper output based on current state
+of the sequence. To learn the proposed structure, a gradual learning procedure
+is proposed. First, learning is performed by adding new fuzzy rules, based on
+coverage measure, using available correct data. Next, the initialized
+parameters are fine-tuned, by gradient descent algorithm, based on fed back
+approximated network output as the next input. The proposed method has a
+dynamic structure which is able to learn new sequences online. The proposed
+method is used to learn and reproduce different sequences simultaneously which
+is the novelty of this method.
+&lt;/p&gt;</content>
+		<author>
+			<name>&lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Salimi_Badr_A/0/1/0/all/0/1&quot;&gt;Armin Salimi-Badr&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ebadzadeh_M/0/1/0/all/0/1&quot;&gt;Mohammad Mehdi Ebadzadeh&lt;/a&gt;</name>
+			<uri>http://arxiv.org/</uri>
+		</author>
+		<source>
+			<title type="html">cs.NE updates on arXiv.org</title>
+			<subtitle type="html">Computer Science -- Neural and Evolutionary Computing (cs.NE) updates on the arXiv.org e-print archive</subtitle>
+			<link rel="self" href="http://export.arxiv.org/rss/cs.NE"/>
+			<id>http://arxiv.org/</id>
+			<updated>2020-11-02T01:30:00+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Experimental Brain Research</title>
+		<link href="http://link.springer.com/221"/>
+		<id>https://link.springer.com/221</id>
+		<updated>2020-11-02T00:00:00+00:00</updated>
+		<content type="html">
+ </content>
+		<author>
+			<name>Experimental Brain Research</name>
+			<uri>http://link.springer.com</uri>
+		</author>
+		<source>
+			<title type="html">Latest Results</title>
+			<subtitle type="html">The latest content available from Springer</subtitle>
+			<link rel="self" href="https://link.springer.com/search.rss?search-within=Journal&amp;facet-journal-id=221&amp;query="/>
+			<id>http://link.springer.com</id>
+			<updated>2020-11-02T08:00:11+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Neurophysiological correlates of dual tasking in people with Parkinson’s disease and freezing of gait</title>
+		<link href="http://link.springer.com/10.1007/s00221-020-05968-8"/>
+		<id>https://link.springer.com/10.1007/s00221-020-05968-8</id>
+		<updated>2020-11-02T00:00:00+00:00</updated>
+		<content type="html">
+ &lt;h3 class=&quot;a-plus-plus&quot;&gt;Abstract&lt;/h3&gt;
+                  &lt;p class=&quot;a-plus-plus&quot;&gt;Freezing of gait in people with Parkinson’s disease (PwP) is associated with executive dysfunction and motor preparation deficits. We have recently shown that electrophysiological markers of motor preparation, rather than decision-making, differentiate PwP with freezing of gait (FOG +) and without (FOG −) while sitting. To examine the effect of locomotion on these results, we measured behavioural and electrophysiological responses in PwP with and without FOG during a target response time task while sitting (single-task) and stepping-in-place (dual-task). Behavioural and electroencephalographic data were acquired from 18 PwP (eight FOG +) and seven young controls performing the task while sitting and stepping-in-place. FOG + had slower response times while stepping compared with sitting. However, response times were significantly faster while stepping compared with sitting for controls. Electrophysiological responses showed no difference in decision-making potentials (centroparietal positivity) between groups or conditions but there were differences in neurophysiological markers of response inhibition (N2) and motor preparation (lateralized readiness potential, LRP) in FOG + while performing a dual-task. This suggests that the addition of a second complex motor task (stepping-in-place) impacts automatic allocation of resources in FOG +, resulting in delayed response times. The impact of locomotion on the generation of the N2 and LRP potentials, particularly in freezers, indirectly implies that these functions compete with locomotion for resources. In the setting of multiple complex tasks or cognitive impairment, severe motor dysfunction may result, leading to freezing of gait.&lt;/p&gt;</content>
+		<author>
+			<name>Experimental Brain Research</name>
+			<uri>http://link.springer.com</uri>
+		</author>
+		<source>
+			<title type="html">Latest Results</title>
+			<subtitle type="html">The latest content available from Springer</subtitle>
+			<link rel="self" href="https://link.springer.com/search.rss?search-within=Journal&amp;facet-journal-id=221&amp;query="/>
+			<id>http://link.springer.com</id>
+			<updated>2020-11-02T08:00:11+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Control of visually guided braking using constant- $$\tau$$
+
+      τ and proportional rate</title>
+		<link href="http://link.springer.com/10.1007/s00221-020-05956-y"/>
+		<id>https://link.springer.com/10.1007/s00221-020-05956-y</id>
+		<updated>2020-11-02T00:00:00+00:00</updated>
+		<content type="html">
+ &lt;h3 class=&quot;a-plus-plus&quot;&gt;Abstract&lt;/h3&gt;
+                  &lt;p class=&quot;a-plus-plus&quot;&gt;This study investigated the optical information and control strategies used in visually guided braking. In such tasks, drivers exhibit two different braking behaviors: impulsive braking and continuously regulated braking. We designed two experiments involving a simulated braking task to investigate these two behaviors. Participants viewed computer displays simulating an approach along a linear path over a textured ground surface toward a set of road signs. The task was to use a joystick as a brake to stop as close as possible to the road signs. Our results showed that participants relied on a weak constant-&lt;span class=&quot;a-plus-plus inline-equation id-i-eq2&quot;&gt;
+      &lt;span class=&quot;a-plus-plus equation-source format-t-e-x&quot;&gt;\(\tau\)&lt;/span&gt;
+
+      &lt;/span&gt; strategy (Bingham 1995) when regulating the brake impulsively. They used discrete &lt;span class=&quot;a-plus-plus inline-equation id-i-eq3&quot;&gt;
+      &lt;span class=&quot;a-plus-plus equation-source format-t-e-x&quot;&gt;\(\tau\)&lt;/span&gt;
+
+      &lt;/span&gt; values as critical values and they regulated the brake so as not to let &lt;span class=&quot;a-plus-plus inline-equation id-i-eq4&quot;&gt;
+      &lt;span class=&quot;a-plus-plus equation-source format-t-e-x&quot;&gt;\(\tau\)&lt;/span&gt;
+
+      &lt;/span&gt; fall below these values. Our results also showed that proportional rate control (Anderson and Bingham 2010, 2011) is used in continuously regulated braking. Participants initiated braking at a certain proportional rate value and controlled braking so as to maintain that value constant during the approach. Proportional rate control is robust because the value can fluctuate within a range to yield good performance. We argue that proportional rate control unifies the information-based approach and affordance-based approach to visually guided braking.&lt;/p&gt;</content>
+		<author>
+			<name>Experimental Brain Research</name>
+			<uri>http://link.springer.com</uri>
+		</author>
+		<source>
+			<title type="html">Latest Results</title>
+			<subtitle type="html">The latest content available from Springer</subtitle>
+			<link rel="self" href="https://link.springer.com/search.rss?search-within=Journal&amp;facet-journal-id=221&amp;query="/>
+			<id>http://link.springer.com</id>
+			<updated>2020-11-02T08:00:11+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-us">The Interplay Between Beta-Amyloid 1–42 (Aβ1–42)-Induced Hippocampal Inflammatory Response, p-tau, Vascular Pathology, and Their Synergistic Contributions to Neuronal Death and Behavioral Deficits</title>
+		<link href="https://www.frontiersin.org/articles/10.3389/fnmol.2020.552073"/>
+		<id>https://www.frontiersin.org/articles/10.3389/fnmol.2020.552073</id>
+		<updated>2020-11-02T00:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Alzheimer’s disease (AD), the most common chronic neurodegenerative disorder, has complex neuropathology. The principal neuropathological hallmarks of the disease are the deposition of extracellular β-amyloid (Aβ) plaques and neurofibrillary tangles (NFTs) comprised of hyperphosphorylated tau (p-tau) protein. These changes occur with neuroinflammation, a compromised blood-brain barrier (BBB) integrity, and neuronal synaptic dysfunction, all of which ultimately lead to neuronal cell loss and cognitive deficits in AD. Aβ&lt;sub&gt;1–42&lt;/sub&gt; was stereotaxically administered bilaterally into the CA1 region of the hippocampi of 18-month-old male C57BL/6 mice. This study aimed to characterize, utilizing immunohistochemistry and behavioral testing, the spatial and temporal effects of Aβ&lt;sub&gt;1–42&lt;/sub&gt; on a broad set of parameters characteristic of AD: p-tau, neuroinflammation, vascular pathology, pyramidal cell survival, and behavior. Three days after Aβ&lt;sub&gt;1–42&lt;/sub&gt; injection and before significant neuronal cell loss was detected, acute neuroinflammatory and vascular responses were observed. These responses included the up-regulation of glial fibrillary acidic protein (GFAP), cell adhesion molecule-1 (PECAM-1, also known as CD31), fibrinogen labeling, and an increased number of activated astrocytes and microglia in the CA1 region of the hippocampus. From day 7, there was significant pyramidal cell loss in the CA1 region of the hippocampus, and by 30 days, significant localized up-regulation of p-tau, GFAP, Iba-1, CD31, and alpha-smooth muscle actin (α-SMA) in the Aβ&lt;sub&gt;1–42&lt;/sub&gt;-injected mice compared with controls. These molecular changes in Aβ&lt;sub&gt;1–42&lt;/sub&gt;-injected mice were accompanied by cognitive deterioration, as demonstrated by long-term spatial memory impairment. This study is reporting a comprehensive examination of a complex set of parameters associated with intrahippocampal administration of Aβ&lt;sub&gt;1–42&lt;/sub&gt; in mice, their spatiotemporal interactions and combined contribution to the disease progression. We show that a single Aβ injection can reproduce aspects of the inflammatory, vascular, and p-tau induced pathology occurring in the AD human brain that lead to cognitive deficits.&lt;/p&gt;</content>
+		<author>
+			<name>Beatriz Calvo-Flores Guzmán</name>
+			<uri>https://www.frontiersin.org/journals/molecular-neuroscience</uri>
+		</author>
+		<source>
+			<title type="html">Frontiers in Molecular Neuroscience | New and Recent Articles</title>
+			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
+			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
+			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
+			<updated>2020-11-02T08:00:05+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-us">Nanobody-Based Probes for Subcellular Protein Identification and Visualization</title>
+		<link href="https://www.frontiersin.org/articles/10.3389/fncel.2020.573278"/>
+		<id>https://www.frontiersin.org/articles/10.3389/fncel.2020.573278</id>
+		<updated>2020-11-02T00:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Understanding how building blocks of life contribute to physiology is greatly aided by protein identification and cellular localization. The two main labeling approaches developed over the past decades are labeling with antibodies such as immunoglobulin G (IgGs) or use of genetically encoded tags such as fluorescent proteins. However, IgGs are large proteins (150 kDa), which limits penetration depth and uncertainty of target position caused by up to ∼25 nm distance of the label created by the chosen targeting approach. Additionally, IgGs cannot be easily recombinantly modulated and engineered as part of fusion proteins because they consist of multiple independent translated chains. In the last decade single domain antigen binding proteins are being explored in bioscience as a tool in revealing molecular identity and localization to overcome limitations by IgGs. These nanobodies have several potential benefits over routine applications. Because of their small size (15 kDa), nanobodies better penetrate during labeling procedures and improve resolution. Moreover, nanobodies cDNA can easily be fused with other cDNA. Multidomain proteins can thus be easily engineered consisting of domains for targeting (nanobodies) and visualization by fluorescence microscopy (fluorescent proteins) or electron microscopy (based on certain enzymes). Additional modules for e.g., purification are also easily added. These nanobody-based probes can be applied in cells for live-cell endogenous protein detection or may be purified prior to use on molecules, cells or tissues. Here, we present the current state of nanobody-based probes and their implementation in microscopy, including pitfalls and potential future opportunities.&lt;/p&gt;</content>
+		<author>
+			<name>Marit A. de Beer</name>
+			<uri>https://www.frontiersin.org/journals/cellular-neuroscience</uri>
+		</author>
+		<source>
+			<title type="html">Frontiers in Cellular Neuroscience | New and Recent Articles</title>
+			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
+			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
+			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
+			<updated>2020-11-02T08:00:05+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-us">Interaction of Age and Self-reported Physical Sports Activity on White Matter Hyperintensity Volume in Healthy Older Adults</title>
+		<link href="https://www.frontiersin.org/articles/10.3389/fnagi.2020.576025"/>
+		<id>https://www.frontiersin.org/articles/10.3389/fnagi.2020.576025</id>
+		<updated>2020-11-02T00:00:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Cerebral white matter (WM) lesion load, as measured by white matter hyperintensity (WMH) volume with magnetic resonance imaging (MRI), has been associated with increasing age and cardiovascular risk factors, like hypertension. Physical sports activity (PSA) may play an important role in maintaining WM in the context of healthy aging. In 196 healthy older adults, we investigated whether participants reporting high levels of PSA (n = 36) had reduced total and regional WMH volumes compared to those reporting low levels of PSA (n = 160). Age group [young-old (YO) = 50–69 years; old-old (OO) = 70–89 years], PSA group, and age by PSA group interaction effects were tested, with sex, hypertension, and body mass index (BMI) as covariates. We found significant main effects for age group and age by PSA group interactions for total, frontal, temporal, and parietal WMH volumes. There were no main effects of PSA group on WMH volumes. The OO group with low PSA had greater total, frontal, temporal, and parietal WMH volumes than the YO with low PSA and OO with high PSA groups. WMH volumes for the YO and OO groups with high PSA were comparable. These findings indicate an age group difference in those with low PSA, with greater WMH volumes in older adults, which was not observed in those with high PSA. The results suggest that engaging in high levels of PSA may be an important lifestyle factor that can help to diminish WMH lesion load in old age, potentially reducing the impact of brain aging.&lt;/p&gt;</content>
+		<author>
+			<name>Mary Kathryn Franchetti</name>
+			<uri>https://www.frontiersin.org/journals/aging-neuroscience</uri>
+		</author>
+		<source>
+			<title type="html">Frontiers in Aging Neuroscience | New and Recent Articles</title>
+			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
+			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
+			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
+			<updated>2020-11-02T08:00:05+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
 		<title type="html">Journal of Neurology</title>
 		<link href="http://link.springer.com/415"/>
 		<id>https://link.springer.com/415</id>
@@ -360,26 +785,6 @@
 			<link rel="self" href="https://link.springer.com/search.rss?search-within=Journal&amp;facet-journal-id=415&amp;query="/>
 			<id>http://link.springer.com</id>
 			<updated>2020-10-24T13:00:13+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Experimental Brain Research</title>
-		<link href="http://link.springer.com/221"/>
-		<id>https://link.springer.com/221</id>
-		<updated>2020-11-01T00:00:00+00:00</updated>
-		<content type="html">
- </content>
-		<author>
-			<name>Experimental Brain Research</name>
-			<uri>http://link.springer.com</uri>
-		</author>
-		<source>
-			<title type="html">Latest Results</title>
-			<subtitle type="html">The latest content available from Springer</subtitle>
-			<link rel="self" href="https://link.springer.com/search.rss?search-within=Journal&amp;facet-journal-id=221&amp;query="/>
-			<id>http://link.springer.com</id>
-			<updated>2020-10-30T08:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -591,44 +996,22 @@
 	</entry>
 
 	<entry>
-		<title type="html">Association of ADH7 Gene Polymorphism with Schizophrenia in the Han Population of Northern China: a Case-Control Study</title>
-		<link href="http://link.springer.com/10.1007/s12031-020-01578-9"/>
-		<id>https://link.springer.com/10.1007/s12031-020-01578-9</id>
+		<title type="html">An integrated multi-omic analysis of iPSC-derived motor neurons from C9ORF72 ALS patients</title>
+		<link href="http://biorxiv.org/cgi/content/short/2020.11.01.362269v1?rss=1"/>
+		<id>http://biorxiv.org/cgi/content/short/2020.11.01.362269v1?rss=1</id>
 		<updated>2020-11-01T00:00:00+00:00</updated>
 		<content type="html">
- &lt;h3 class=&quot;a-plus-plus&quot;&gt;Abstract&lt;/h3&gt;
-                    &lt;p class=&quot;a-plus-plus&quot;&gt;Schizophrenia is a serious neurodevelopmental disorder. Genetics is an important factor leading to schizophrenia, but its exact role is still unclear. Many studies have focused on neurotransmitters and regulators that participate in the processes mediated by these neurotransmitters. Alcohol dehydrogenase may not only catalyze the oxidation of retinol and ethanol but also be involved in a variety of neurotransmitter metabolic pathways. Therefore, our study investigated whether &lt;em class=&quot;a-plus-plus&quot;&gt;ADH7&lt;/em&gt; gene variations in the Chinese Han population were associated with schizophrenia. Genomic DNA was extracted from a cohort of 275 schizophrenic patients (136 men and 139 women) and 313 healthy controls (160 men and 153 women) from the Northern Han Chinese population. The Hardy-Weinberg equilibrium test and linkage disequilibrium analysis were performed. Differences in genotypes, alleles, and haplotypes between the schizophrenic and control groups were determined using the chi-square test and correlation analysis. The distribution of the CC + TT genotype of rs284787 was statistically different between the case and control groups (&lt;em class=&quot;a-plus-plus&quot;&gt;p&lt;/em&gt; = 0.026, OR = 1.448); however, the difference disappeared after Bonferroni correction. Linkage analysis indicated that rs739147, rs284787, rs3805329, rs894369, rs3805331, and rs284786 were closely linked in one block. The haplotype analysis found no association between the composed haplotypes and the occurrence of schizophrenia. Our study showed that the &lt;em class=&quot;a-plus-plus&quot;&gt;ADH7&lt;/em&gt; gene was not associated with the risk of schizophrenia. Additional studies with larger cohorts of different ethnicities are needed to validate our findings.&lt;/p&gt;</content>
+ Neurodegenerative diseases present a challenge for systems biology, due to the lack of reliable animal models and the difficulties in obtaining samples from patients at early stages of disease, when interventions might be most effective. Studying induced pluripotent stem cell (iPSC)-derived neurons could overcome these challenges and dramatically accelerate and broaden therapeutic strategies. Here we undertook a network-based multi-omic characterization of iPSC-derived motor neurons from ALS patients carrying genetically dominant hexanucleotide expansions in C9orf72 to gain a deeper understanding of the relationship between DNA, RNA, epigenetics and protein in the same pool of tissue. ALS motor neurons showed the expected C9orf72-related alterations to specific nucleoporins and production of dipeptide repeats. RNA-seq, ATAC-seq and data-independent acquisition mass-spectrometry (DIA-MS) proteomics were then performed on the same motor neuron cultures. Using integrative computational methods that combined all of the omics, we discovered a number of novel dysregulated pathways including biological adhesion and extracellular matrix organization and disruption in other expected pathways such as RNA splicing and nuclear transport. We tested the relevance of these pathways in vivo in a C9orf72 Drosophila model, analyzing the data to determine which pathways were causing disease phenotypes and which were compensatory. We also confirmed that some pathways are altered in late-stage neurodegeneration by analyzing human postmortem C9 cervical spine data. To validate that these key pathways were integral to the C9 signature, we prepared a separate set of C9orf72 and control motor neuron cultures using a different differentiation protocol and applied the same methods. As expected, there were major overall differences between the differentiation protocols, especially at the level of in individual omics data. However, a number of the core dysregulated pathways remained significant using the integrated multiomic analysis. This new method of analyzing patient specific neural cultures allows the generation of disease-related hypotheses with a small number of patient lines which can be tested in larger cohorts of patients.</content>
 		<author>
-			<name>Journal of Molecular Neuroscience</name>
-			<uri>http://link.springer.com</uri>
+			<name>The NeuroLINCS Consortium,, Ornelas, L., Gomez, E., Panther, L., Frank, A., Lei, S., Mandefro, B., Banuelos, M. G., Shelley, B., Kaye, J. A., Lima, L., Wyman, S., Lim, R. G., Wu, J., Stocksdale, J., Casale, M., Dardov, V., Matlock, A., Venkatraman, V., Holewenski, R., Milani, P., Adam, M., Wassie, B. T., Cheng, A., Coyne, A. N., Daigle, J. G., Li, J., Yang, S., Cox, V., Wilhelm, M., Lloyd, T. E., Hayes, L., Pham, J., Escalante-Chong, R., Lenail, A., Sachs, K., Patel-Murray, N. L., Ramamoorthy, D., Thompson, T. G., NYGC ALS Consortium,, Finkbeiner, S., Fraenkel, E., Rothstein, J. D., Sareen</name>
+			<uri>http://biorxiv.org</uri>
 		</author>
 		<source>
-			<title type="html">Latest Results</title>
-			<subtitle type="html">The latest content available from Springer</subtitle>
-			<link rel="self" href="https://link.springer.com/search.rss?search-within=Journal&amp;facet-journal-id=12031&amp;query="/>
-			<id>http://link.springer.com</id>
-			<updated>2020-10-31T19:00:16+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Direct Conjugation of Retinoic Acid with Gold Nanoparticles to Improve Neural Differentiation of Human Adipose Stem Cells</title>
-		<link href="http://link.springer.com/10.1007/s12031-020-01577-w"/>
-		<id>https://link.springer.com/10.1007/s12031-020-01577-w</id>
-		<updated>2020-11-01T00:00:00+00:00</updated>
-		<content type="html">
- &lt;h3 class=&quot;a-plus-plus&quot;&gt;Abstract&lt;/h3&gt;
-                    &lt;p class=&quot;a-plus-plus&quot;&gt;Gold nanoparticles (AuNPs) have been proposed as useful medical carriers in the field of regenerative medicine. This study aimed to assess the direct conjugation ability of retinoic acid (RA) with AuNPs and to develop a strategy to differentiate the human adipose-derived stromal/stem cells (hADSCs) into neurons using AuNPs-RA. The physical properties of this nanocarrier were characterized using FT-IR, TEM, and FE-SEM. Moreover, the efficiency of RA conjugation on AuNPs was determined at 99% using UV-Vis spectroscopy. According to the MTT assay, an RA concentration of 66 μM caused a 50% inhibition of cell viability and AuNPs were not cytotoxic in concentrations below 5 μg/ml. Real-time PCR and immunocytochemistry proved that AuNPs-RA is able to increase the expression of neuronal marker genes and the number of neuronal protein (GFAP and MAP2)-positive cells, 14 days post-induction of hADSCs. Taken together, these results confirmed that the AuNPs-RA promote the neuronal differentiation of hADSCs.&lt;/p&gt;</content>
-		<author>
-			<name>Journal of Molecular Neuroscience</name>
-			<uri>http://link.springer.com</uri>
-		</author>
-		<source>
-			<title type="html">Latest Results</title>
-			<subtitle type="html">The latest content available from Springer</subtitle>
-			<link rel="self" href="https://link.springer.com/search.rss?search-within=Journal&amp;facet-journal-id=12031&amp;query="/>
-			<id>http://link.springer.com</id>
-			<updated>2020-10-31T19:00:16+00:00</updated>
+			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
+			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
+			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
+			<id>http://biorxiv.org</id>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -648,7 +1031,7 @@
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -668,7 +1051,7 @@
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -688,7 +1071,7 @@
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -708,7 +1091,7 @@
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -728,7 +1111,7 @@
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -748,7 +1131,7 @@
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -768,7 +1151,7 @@
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -865,7 +1248,7 @@ Julia Jacobs</name>
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -885,7 +1268,7 @@ Julia Jacobs</name>
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -907,7 +1290,7 @@ Modelling the emergence of foodborne pathogens is a crucial step in the predicti
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -930,7 +1313,7 @@ Knowing the structure of conserved structural RNAs is important to elucidate the
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -953,7 +1336,7 @@ Microbial community members exhibit various forms of interactions. Taking advant
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -976,7 +1359,7 @@ Assembling and powering ribosomes are energy-intensive processes requiring fine-
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles"/>
 			<id>http://journals.plos.org/plosbiology/feed/atom</id>
-			<updated>2020-11-01T18:41:47+00:00</updated>
+			<updated>2020-11-02T07:53:08+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -999,7 +1382,7 @@ Animals learn from the past to make predictions. These predictions are adjusted 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles"/>
 			<id>http://journals.plos.org/plosbiology/feed/atom</id>
-			<updated>2020-11-01T18:41:47+00:00</updated>
+			<updated>2020-11-02T07:53:08+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -1724,7 +2107,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -1744,7 +2127,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Frontiers in Synaptic Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/synaptic-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/synaptic-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -1764,7 +2147,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -1784,7 +2167,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -1804,7 +2187,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -1824,7 +2207,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -1844,7 +2227,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -1864,7 +2247,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -1884,7 +2267,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -1904,7 +2287,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -1924,7 +2307,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -1944,7 +2327,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -1964,7 +2347,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -1984,7 +2367,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -2004,7 +2387,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -2024,7 +2407,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -2044,7 +2427,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -2064,7 +2447,7 @@ through asymptotic stability.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -2085,7 +2468,7 @@ through asymptotic stability.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2106,7 +2489,7 @@ through asymptotic stability.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2127,7 +2510,7 @@ through asymptotic stability.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2148,7 +2531,7 @@ through asymptotic stability.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2168,7 +2551,7 @@ through asymptotic stability.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2188,7 +2571,7 @@ through asymptotic stability.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2208,7 +2591,7 @@ through asymptotic stability.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2228,7 +2611,7 @@ through asymptotic stability.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2248,7 +2631,7 @@ through asymptotic stability.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2268,7 +2651,7 @@ through asymptotic stability.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2288,7 +2671,7 @@ through asymptotic stability.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2308,7 +2691,7 @@ through asymptotic stability.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2328,7 +2711,7 @@ through asymptotic stability.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2348,7 +2731,7 @@ through asymptotic stability.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2368,7 +2751,7 @@ through asymptotic stability.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2388,7 +2771,7 @@ through asymptotic stability.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2408,7 +2791,7 @@ through asymptotic stability.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2428,7 +2811,7 @@ through asymptotic stability.
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -2451,7 +2834,7 @@ Despite being the focus of a thriving field of research, the biological mechanis
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -2474,7 +2857,7 @@ Medulloblastoma is a highly heterogeneous pediatric brain tumor with five molecu
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -2497,7 +2880,7 @@ The ongoing digital revolution in the age of big data is opening new research op
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles"/>
 			<id>http://journals.plos.org/plosbiology/feed/atom</id>
-			<updated>2020-11-01T18:41:47+00:00</updated>
+			<updated>2020-11-02T07:53:08+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -3026,265 +3409,6 @@ results presented show chance correction facilitates learning.
 	</entry>
 
 	<entry>
-		<title type="html" xml:lang="en-us">From Artificial Intelligence to Brain Intelligence: The basis learning and memory algorithm for brain-like intelligence. (arXiv:2010.14617v1 [cs.NE])</title>
-		<link href="http://arxiv.org/abs/2010.14617"/>
-		<id>http://arxiv.org/abs/2010.14617</id>
-		<updated>2020-10-29T01:30:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;The algorithm of brain learning and memory is still undetermined. The
-backpropagation algorithm of artificial neural networks was thought not
-suitable for brain cortex, and there is a lack of algorithm for memory engram.
-We designed a brain version of backpropagation algorithm, which are
-biologically plausible and could be implemented with virtual neurons to
-complete image classification task. An encoding algorithm that can
-automatically allocate engram cells is proposed, which is an algorithm
-implementation for memory engram theory, and could simulate how hippocampus
-achieve fast associative memory. The role of the LTP and LTD in the cerebellum
-is also explained in algorithm level. Our results proposed a method for the
-brain to deploy backpropagation algorithm, and sparse coding method for memory
-engram theory.
-&lt;/p&gt;</content>
-		<author>
-			<name>&lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Mao_Y/0/1/0/all/0/1&quot;&gt;Yifei Mao&lt;/a&gt;</name>
-			<uri>http://arxiv.org/</uri>
-		</author>
-		<source>
-			<title type="html">cs.NE updates on arXiv.org</title>
-			<subtitle type="html">Computer Science -- Neural and Evolutionary Computing (cs.NE) updates on the arXiv.org e-print archive</subtitle>
-			<link rel="self" href="http://export.arxiv.org/rss/cs.NE"/>
-			<id>http://arxiv.org/</id>
-			<updated>2020-10-29T01:30:00+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-us">Lineage Evolution Reinforcement Learning. (arXiv:2010.14616v1 [cs.NE])</title>
-		<link href="http://arxiv.org/abs/2010.14616"/>
-		<id>http://arxiv.org/abs/2010.14616</id>
-		<updated>2020-10-29T01:30:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;We propose a general agent population learning system, and on this basis, we
-propose lineage evolution reinforcement learning algorithm. Lineage evolution
-reinforcement learning is a kind of derivative algorithm which accords with the
-general agent population learning system. We take the agents in DQN and its
-related variants as the basic agents in the population, and add the selection,
-mutation and crossover modules in the genetic algorithm to the reinforcement
-learning algorithm. In the process of agent evolution, we refer to the
-characteristics of natural genetic behavior, add lineage factor to ensure the
-retention of potential performance of agent, and comprehensively consider the
-current performance and lineage value when evaluating the performance of agent.
-Without changing the parameters of the original reinforcement learning
-algorithm, lineage evolution reinforcement learning can optimize different
-reinforcement learning algorithms. Our experiments show that the idea of
-evolution with lineage improves the performance of original reinforcement
-learning algorithm in some games in Atari 2600.
-&lt;/p&gt;</content>
-		<author>
-			<name>&lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Zhang_Z/0/1/0/all/0/1&quot;&gt;Zeyu Zhang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Yin_G/0/1/0/all/0/1&quot;&gt;Guisheng Yin&lt;/a&gt;</name>
-			<uri>http://arxiv.org/</uri>
-		</author>
-		<source>
-			<title type="html">cs.NE updates on arXiv.org</title>
-			<subtitle type="html">Computer Science -- Neural and Evolutionary Computing (cs.NE) updates on the arXiv.org e-print archive</subtitle>
-			<link rel="self" href="http://export.arxiv.org/rss/cs.NE"/>
-			<id>http://arxiv.org/</id>
-			<updated>2020-10-29T01:30:00+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-us">Discrete-time signatures and randomness in reservoir computing. (arXiv:2010.14615v1 [cs.NE])</title>
-		<link href="http://arxiv.org/abs/2010.14615"/>
-		<id>http://arxiv.org/abs/2010.14615</id>
-		<updated>2020-10-29T01:30:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;A new explanation of geometric nature of the reservoir computing phenomenon
-is presented. Reservoir computing is understood in the literature as the
-possibility of approximating input/output systems with randomly chosen
-recurrent neural systems and a trained linear readout layer. Light is shed on
-this phenomenon by constructing what is called strongly universal reservoir
-systems as random projections of a family of state-space systems that generate
-Volterra series expansions. This procedure yields a state-affine reservoir
-system with randomly generated coefficients in a dimension that is
-logarithmically reduced with respect to the original system. This reservoir
-system is able to approximate any element in the fading memory filters class
-just by training a different linear readout for each different filter. Explicit
-expressions for the probability distributions needed in the generation of the
-projected reservoir system are stated and bounds for the committed
-approximation error are provided.
-&lt;/p&gt;</content>
-		<author>
-			<name>&lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Cuchiero_C/0/1/0/all/0/1&quot;&gt;Christa Cuchiero&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gonon_L/0/1/0/all/0/1&quot;&gt;Lukas Gonon&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Grigoryeva_L/0/1/0/all/0/1&quot;&gt;Lyudmila Grigoryeva&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Ortega_J/0/1/0/all/0/1&quot;&gt;Juan-Pablo Ortega&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Teichmann_J/0/1/0/all/0/1&quot;&gt;Josef Teichmann&lt;/a&gt;</name>
-			<uri>http://arxiv.org/</uri>
-		</author>
-		<source>
-			<title type="html">cs.NE updates on arXiv.org</title>
-			<subtitle type="html">Computer Science -- Neural and Evolutionary Computing (cs.NE) updates on the arXiv.org e-print archive</subtitle>
-			<link rel="self" href="http://export.arxiv.org/rss/cs.NE"/>
-			<id>http://arxiv.org/</id>
-			<updated>2020-10-29T01:30:00+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-us">Hybrid Backpropagation Parallel Reservoir Networks. (arXiv:2010.14611v1 [cs.NE])</title>
-		<link href="http://arxiv.org/abs/2010.14611"/>
-		<id>http://arxiv.org/abs/2010.14611</id>
-		<updated>2020-10-29T01:30:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;In many real-world applications, fully-differentiable RNNs such as LSTMs and
-GRUs have been widely deployed to solve time series learning tasks. These
-networks train via Backpropagation Through Time, which can work well in
-practice but involves a biologically unrealistic unrolling of the network in
-time for gradient updates, are computationally expensive, and can be hard to
-tune. A second paradigm, Reservoir Computing, keeps the recurrent weight matrix
-fixed and random. Here, we propose a novel hybrid network, which we call Hybrid
-Backpropagation Parallel Echo State Network (HBP-ESN) which combines the
-effectiveness of learning random temporal features of reservoirs with the
-readout power of a deep neural network with batch normalization. We demonstrate
-that our new network outperforms LSTMs and GRUs, including multi-layer &quot;deep&quot;
-versions of these networks, on two complex real-world multi-dimensional time
-series datasets: gesture recognition using skeleton keypoints from ChaLearn,
-and the DEAP dataset for emotion recognition from EEG measurements. We show
-also that the inclusion of a novel meta-ring structure, which we call HBP-ESN
-M-Ring, achieves similar performance to one large reservoir while decreasing
-the memory required by an order of magnitude. We thus offer this new hybrid
-reservoir deep learning paradigm as a new alternative direction for RNN
-learning of temporal or sequential data.
-&lt;/p&gt;</content>
-		<author>
-			<name>&lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Evanusa_M/0/1/0/all/0/1&quot;&gt;Matthew Evanusa&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Shrestha_S/0/1/0/all/0/1&quot;&gt;Snehesh Shrestha&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Girvan_M/0/1/0/all/0/1&quot;&gt;Michelle Girvan&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Fermuller_C/0/1/0/all/0/1&quot;&gt;Cornelia Ferm&amp;#xfc;ller&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Aloimonos_Y/0/1/0/all/0/1&quot;&gt;Yiannis Aloimonos&lt;/a&gt;</name>
-			<uri>http://arxiv.org/</uri>
-		</author>
-		<source>
-			<title type="html">cs.NE updates on arXiv.org</title>
-			<subtitle type="html">Computer Science -- Neural and Evolutionary Computing (cs.NE) updates on the arXiv.org e-print archive</subtitle>
-			<link rel="self" href="http://export.arxiv.org/rss/cs.NE"/>
-			<id>http://arxiv.org/</id>
-			<updated>2020-10-29T01:30:00+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-us">Neural Architecture Search of SPD Manifold Networks. (arXiv:2010.14535v1 [cs.LG])</title>
-		<link href="http://arxiv.org/abs/2010.14535"/>
-		<id>http://arxiv.org/abs/2010.14535</id>
-		<updated>2020-10-29T01:30:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;In this paper, we propose a new neural architecture search (NAS) problem of
-Symmetric Positive Definite (SPD) manifold networks. Unlike the conventional
-NAS problem, our problem requires to search for a unique computational cell
-called the SPD cell. This SPD cell serves as a basic building block of SPD
-neural architectures. An efficient solution to our problem is important to
-minimize the extraneous manual effort in the SPD neural architecture design. To
-accomplish this goal, we first introduce a geometrically rich and diverse SPD
-neural architecture search space for an efficient SPD cell design. Further, we
-model our new NAS problem using the supernet strategy which models the
-architecture search problem as a one-shot training process of a single
-supernet. Based on the supernet modeling, we exploit a differentiable NAS
-algorithm on our relaxed continuous search space for SPD neural architecture
-search. Statistical evaluation of our method on drone, action, and emotion
-recognition tasks mostly provides better results than the state-of-the-art SPD
-networks and NAS algorithms. Empirical results show that our algorithm excels
-in discovering better SPD network design, and providing models that are more
-than 3 times lighter than searched by state-of-the-art NAS algorithms.
-&lt;/p&gt;</content>
-		<author>
-			<name>&lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Sukthanker_R/0/1/0/all/0/1&quot;&gt;Rhea Sanjay Sukthanker&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Huang_Z/0/1/0/all/0/1&quot;&gt;Zhiwu Huang&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kumar_S/0/1/0/all/0/1&quot;&gt;Suryansh Kumar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Endsjo_E/0/1/0/all/0/1&quot;&gt;Erik Goron Endsjo&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Wu_Y/0/1/0/all/0/1&quot;&gt;Yan Wu&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Gool_L/0/1/0/all/0/1&quot;&gt;Luc Van Gool&lt;/a&gt;</name>
-			<uri>http://arxiv.org/</uri>
-		</author>
-		<source>
-			<title type="html">cs.NE updates on arXiv.org</title>
-			<subtitle type="html">Computer Science -- Neural and Evolutionary Computing (cs.NE) updates on the arXiv.org e-print archive</subtitle>
-			<link rel="self" href="http://export.arxiv.org/rss/cs.NE"/>
-			<id>http://arxiv.org/</id>
-			<updated>2020-10-29T01:30:00+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-us">Revisiting Batch Normalization for Training Low-latency Deep Spiking Neural Networks from Scratch. (arXiv:2010.01729v2 [cs.CV] UPDATED)</title>
-		<link href="http://arxiv.org/abs/2010.01729"/>
-		<id>http://arxiv.org/abs/2010.01729</id>
-		<updated>2020-10-29T01:30:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;Spiking Neural Networks (SNNs) have recently emerged as an alternative to
-deep learning owing to sparse, asynchronous and binary event (or spike) driven
-processing, that can yield huge energy efficiency benefits on neuromorphic
-hardware. Most existing approaches to create SNNs either convert the weights
-from pre-trained Artificial Neural Networks (ANNs) or directly train SNNs with
-surrogate gradient backpropagation. Each approach presents its pros and cons.
-The ANN-to-SNN conversion method requires at least hundreds of time-steps for
-inference to yield competitive accuracy that in turn reduces the energy
-savings. Training SNNs with surrogate gradients from scratch reduces the
-latency or total number of time-steps, but the training becomes
-slow/problematic and has convergence issues. Thus, the latter approach of
-training SNNs has been limited to shallow networks on simple datasets. To
-address this training issue in SNNs, we revisit batch normalization and propose
-a temporal Batch Normalization Through Time (BNTT) technique. Most prior SNN
-works till now have disregarded batch normalization deeming it ineffective for
-training temporal SNNs. Different from previous works, our proposed BNTT
-decouples the parameters in a BNTT layer along the time axis to capture the
-temporal dynamics of spikes. The temporally evolving learnable parameters in
-BNTT allow a neuron to control its spike rate through different time-steps,
-enabling low-latency and low-energy training from scratch. We conduct
-experiments on CIFAR-10, CIFAR-100, Tiny-ImageNet and event-driven DVS-CIFAR10
-datasets. BNTT allows us to train deep SNN architectures from scratch, for the
-first time, on complex datasets with just few 25-30 time-steps. We also propose
-an early exit algorithm using the distribution of parameters in BNTT to reduce
-the latency at inference, that further improves the energy-efficiency.
-&lt;/p&gt;</content>
-		<author>
-			<name>&lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kim_Y/0/1/0/all/0/1&quot;&gt;Youngeun Kim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Panda_P/0/1/0/all/0/1&quot;&gt;Priyadarshini Panda&lt;/a&gt;</name>
-			<uri>http://arxiv.org/</uri>
-		</author>
-		<source>
-			<title type="html">cs.NE updates on arXiv.org</title>
-			<subtitle type="html">Computer Science -- Neural and Evolutionary Computing (cs.NE) updates on the arXiv.org e-print archive</subtitle>
-			<link rel="self" href="http://export.arxiv.org/rss/cs.NE"/>
-			<id>http://arxiv.org/</id>
-			<updated>2020-10-29T01:30:00+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-us">Disentangling neural mechanisms for perceptual grouping. (arXiv:1906.01558v2 [cs.CV] UPDATED)</title>
-		<link href="http://arxiv.org/abs/1906.01558"/>
-		<id>http://arxiv.org/abs/1906.01558</id>
-		<updated>2020-10-29T01:30:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;Forming perceptual groups and individuating objects in visual scenes is an
-essential step towards visual intelligence. This ability is thought to arise in
-the brain from computations implemented by bottom-up, horizontal, and top-down
-connections between neurons. However, the relative contributions of these
-connections to perceptual grouping are poorly understood. We address this
-question by systematically evaluating neural network architectures featuring
-combinations bottom-up, horizontal, and top-down connections on two synthetic
-visual tasks, which stress low-level &quot;Gestalt&quot; vs. high-level object cues for
-perceptual grouping. We show that increasing the difficulty of either task
-strains learning for networks that rely solely on bottom-up connections.
-Horizontal connections resolve straining on tasks with Gestalt cues by
-supporting incremental grouping, whereas top-down connections rescue learning
-on tasks with high-level object cues by modifying coarse predictions about the
-position of the target object. Our findings dissociate the computational roles
-of bottom-up, horizontal and top-down connectivity, and demonstrate how a model
-featuring all of these interactions can more flexibly learn to form perceptual
-groups.
-&lt;/p&gt;</content>
-		<author>
-			<name>&lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Kim_J/0/1/0/all/0/1&quot;&gt;Junkyung Kim&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Linsley_D/0/1/0/all/0/1&quot;&gt;Drew Linsley&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Thakkar_K/0/1/0/all/0/1&quot;&gt;Kalpit Thakkar&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/cs/1/au:+Serre_T/0/1/0/all/0/1&quot;&gt;Thomas Serre&lt;/a&gt;</name>
-			<uri>http://arxiv.org/</uri>
-		</author>
-		<source>
-			<title type="html">cs.NE updates on arXiv.org</title>
-			<subtitle type="html">Computer Science -- Neural and Evolutionary Computing (cs.NE) updates on the arXiv.org e-print archive</subtitle>
-			<link rel="self" href="http://export.arxiv.org/rss/cs.NE"/>
-			<id>http://arxiv.org/</id>
-			<updated>2020-10-29T01:30:00+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html" xml:lang="en">The power of a picture</title>
 		<link href="http://feeds.nature.com/~r/nmeth/rss/current/~3/m1aWzxx7WfI/s41592-020-00997-1"/>
 		<id>https://www.nature.com/articles/s41592-020-00997-1</id>
@@ -3720,7 +3844,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -3740,7 +3864,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -3760,7 +3884,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -3780,7 +3904,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -3800,7 +3924,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -3820,7 +3944,7 @@ groups.
 			<subtitle type="html">RSS Feed for Systems Biology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/systems-biology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/systems-biology</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -3840,7 +3964,7 @@ groups.
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -3860,7 +3984,7 @@ groups.
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -3880,7 +4004,7 @@ groups.
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -3900,7 +4024,7 @@ groups.
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -3920,7 +4044,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -3940,7 +4064,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -3960,7 +4084,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -3980,7 +4104,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -4000,7 +4124,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -4020,7 +4144,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -4040,7 +4164,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -4060,7 +4184,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -4080,7 +4204,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -4100,7 +4224,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -4120,7 +4244,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -4140,7 +4264,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -4160,7 +4284,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -4180,7 +4304,7 @@ groups.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -4201,7 +4325,7 @@ groups.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4222,7 +4346,7 @@ groups.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4243,7 +4367,7 @@ groups.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4264,7 +4388,7 @@ groups.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4284,7 +4408,7 @@ groups.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4304,7 +4428,7 @@ groups.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4324,7 +4448,7 @@ groups.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4344,7 +4468,7 @@ groups.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4404,27 +4528,7 @@ groups.
 			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
 			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
 			<id>http://biorxiv.org</id>
-			<updated>2020-11-01T19:00:10+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Use-dependent plasticity enhances nociceptive and non-nociceptive somatosensory cortical responses in healthy individuals</title>
-		<link href="http://biorxiv.org/cgi/content/short/2020.10.29.360222v1?rss=1"/>
-		<id>http://biorxiv.org/cgi/content/short/2020.10.29.360222v1?rss=1</id>
-		<updated>2020-10-29T00:00:00+00:00</updated>
-		<content type="html">
- Repetitive movements and multisensory integration promote use-dependent plasticity, which has been consistently demonstrated using musical training as a model. Prolonged and repeated execution of motor patterns is also a main risk factor for developing pain syndromes, yet the neural underpinnings that link repetitive movements and use-dependent plasticity to abnormal pain processing in humans are unknown. Employing nociceptive and non-nociceptive electrical stimulation to evoke brain responses, we demonstrate that healthy musicians compared to non-musicians show larger non-nociceptive N140 and nociceptive N200 responses, smaller non-nociceptive P200 responses, and faster reaction times (RTs) to both stimuli. Across participants, larger N140 and N200 amplitudes predicted the RTs, whereas the amount of daily practice in musicians predicted RTs, non-nociceptive P200, and nociceptive P300 components. These novel findings indicate that the mechanisms by which repetitive sensorimotor training and multimodal integration promote neural plasticity in multisensory neural structures may also increase stimulus-selectivity to nociceptive cues in healthy individuals.</content>
-		<author>
-			<name>Zamorano, A. M., Kleber, B., Arguissain, F. G., Vuust, P., Flor, H., Graven-Nielsen, T.</name>
-			<uri>http://biorxiv.org</uri>
-		</author>
-		<source>
-			<title type="html">bioRxiv Subject Collection: Neuroscience</title>
-			<subtitle type="html">This feed contains articles for bioRxiv Subject Collection &quot;Neuroscience&quot;</subtitle>
-			<link rel="self" href="http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"/>
-			<id>http://biorxiv.org</id>
-			<updated>2020-10-30T19:00:10+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -4446,7 +4550,7 @@ In Gram-negative bacteria, the folding and insertion of β-barrel outer membrane
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4469,7 +4573,7 @@ Facial expressions carry key information about an individual’s emotional state
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4492,7 +4596,7 @@ Motion capture laboratories can measure multiple variables at high frame rates, 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4515,7 +4619,7 @@ Birth-death processes have given biologists a model-based framework to answer qu
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4538,7 +4642,7 @@ As sequencing methodologies continue to advance, the availability of protein seq
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4559,7 +4663,7 @@ As sequencing methodologies continue to advance, the availability of protein seq
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles"/>
 			<id>http://journals.plos.org/plosbiology/feed/atom</id>
-			<updated>2020-11-01T18:41:47+00:00</updated>
+			<updated>2020-11-02T07:53:08+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -4607,7 +4711,7 @@ Paola Malerba</name>
 			<subtitle type="html">Table of Contents for Hippocampus. List of articles from both the latest and EarlyView issues.</subtitle>
 			<link rel="self" href="https://onlinelibrary.wiley.com/feed/10981063/most-recent"/>
 			<id>https://onlinelibrary.wiley.com/journal/10981063?af=R</id>
-			<updated>2020-10-30T08:00:13+00:00</updated>
+			<updated>2020-11-02T08:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -4658,41 +4762,6 @@ Beau M. Ances</name>
 			<link rel="self" href="https://onlinelibrary.wiley.com/action/showFeed?jc=15318249&amp;type=etoc&amp;feed=rss"/>
 			<id>https://onlinelibrary.wiley.com/journal/15318249?af=R</id>
 			<updated>2020-10-31T19:00:12+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-us">An efficient nonconvex reformulation of stagewise convex optimization problems. (arXiv:2010.14322v1 [math.OC])</title>
-		<link href="http://arxiv.org/abs/2010.14322"/>
-		<id>http://arxiv.org/abs/2010.14322</id>
-		<updated>2020-10-28T01:30:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;Convex optimization problems with staged structure appear in several
-contexts, including optimal control, verification of deep neural networks, and
-isotonic regression. Off-the-shelf solvers can solve these problems but may
-scale poorly. We develop a nonconvex reformulation designed to exploit this
-staged structure. Our reformulation has only simple bound constraints, enabling
-solution via projected gradient methods and their accelerated variants. The
-method automatically generates a sequence of primal and dual feasible solutions
-to the original convex problem, making optimality certification easy. We
-establish theoretical properties of the nonconvex formulation, showing that it
-is (almost) free of spurious local minima and has the same global optimum as
-the convex problem. We modify PGD to avoid spurious local minimizers so it
-always converges to the global minimizer. For neural network verification, our
-approach obtains small duality gaps in only a few gradient steps. Consequently,
-it can quickly solve large-scale verification problems faster than both
-off-the-shelf and specialized solvers.
-&lt;/p&gt;</content>
-		<author>
-			<name>&lt;a href=&quot;http://arxiv.org/find/math/1/au:+Bunel_R/0/1/0/all/0/1&quot;&gt;Rudy Bunel&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Hinder_O/0/1/0/all/0/1&quot;&gt;Oliver Hinder&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Bhojanapalli_S/0/1/0/all/0/1&quot;&gt;Srinadh Bhojanapalli&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Krishnamurthy/0/1/0/all/0/1&quot;&gt;Krishnamurthy&lt;/a&gt; (Dj) &lt;a href=&quot;http://arxiv.org/find/math/1/au:+Dvijotham/0/1/0/all/0/1&quot;&gt;Dvijotham&lt;/a&gt;</name>
-			<uri>http://arxiv.org/</uri>
-		</author>
-		<source>
-			<title type="html">cs.NE updates on arXiv.org</title>
-			<subtitle type="html">Computer Science -- Neural and Evolutionary Computing (cs.NE) updates on the arXiv.org e-print archive</subtitle>
-			<link rel="self" href="http://export.arxiv.org/rss/cs.NE"/>
-			<id>http://arxiv.org/</id>
-			<updated>2020-10-28T01:30:00+00:00</updated>
 		</source>
 	</entry>
 
@@ -5300,7 +5369,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -5320,7 +5389,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -5340,7 +5409,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Systems Biology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/systems-biology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/systems-biology</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -5360,7 +5429,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5380,7 +5449,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -5400,7 +5469,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -5420,7 +5489,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -5440,7 +5509,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -5460,7 +5529,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -5480,7 +5549,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -5500,7 +5569,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -5520,7 +5589,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -5540,7 +5609,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -5560,7 +5629,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -5580,7 +5649,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -5600,7 +5669,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -5620,7 +5689,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -5641,7 +5710,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5662,7 +5731,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5683,7 +5752,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5704,7 +5773,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5725,7 +5794,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5746,7 +5815,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5767,7 +5836,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5788,7 +5857,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5809,7 +5878,7 @@ off-the-shelf and specialized solvers.
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -5831,7 +5900,7 @@ Several studies profile similar single cell RNA-Seq (scRNA-Seq) data using diffe
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -5854,7 +5923,7 @@ Flexible behavior is critical for everyday decision-making and has been implicat
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles"/>
 			<id>http://journals.plos.org/plosbiology/feed/atom</id>
-			<updated>2020-11-01T18:41:47+00:00</updated>
+			<updated>2020-11-02T07:53:08+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -6542,7 +6611,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">Table of Contents for Hippocampus. List of articles from both the latest and EarlyView issues.</subtitle>
 			<link rel="self" href="https://onlinelibrary.wiley.com/feed/10981063/most-recent"/>
 			<id>https://onlinelibrary.wiley.com/journal/10981063?af=R</id>
-			<updated>2020-10-30T08:00:13+00:00</updated>
+			<updated>2020-11-02T08:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -6772,7 +6841,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">RSS Feed for Frontiers in Synaptic Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/synaptic-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/synaptic-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -6792,7 +6861,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -6812,7 +6881,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -6832,7 +6901,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -6852,7 +6921,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -6872,7 +6941,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -6892,7 +6961,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -6913,7 +6982,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -6955,7 +7024,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -6976,7 +7045,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -6997,7 +7066,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -7018,7 +7087,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -7039,7 +7108,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -7081,7 +7150,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -7123,7 +7192,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -7144,7 +7213,7 @@ Mahyar Janahmadi</name>
 			<subtitle type="html">All of the latest articles published at eLife, including in-progress POA (publish-on-accept) articles.</subtitle>
 			<link rel="self" href="https://observer.elifesciences.org/report/latest-articles"/>
 			<id>https://elifesciences.org</id>
-			<updated>2020-11-01T19:00:09+00:00</updated>
+			<updated>2020-11-02T08:00:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -7187,7 +7256,7 @@ Substantive changes in gene expression, metabolism, and the proteome are manifes
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -7210,7 +7279,7 @@ Nongenetic phenotypic variation can either speed up or slow down adaptive evolut
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -7233,7 +7302,7 @@ Trends in time series generated by physiological control systems are ubiquitous.
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -7256,7 +7325,7 @@ Animal behavior is guided by the brain. Therefore, adaptations of brain structur
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles"/>
 			<id>http://journals.plos.org/plosbiology/feed/atom</id>
-			<updated>2020-11-01T18:41:47+00:00</updated>
+			<updated>2020-11-02T07:53:08+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -7539,7 +7608,7 @@ Daphne Soares</name>
 			<subtitle type="html">RSS Feed for Frontiers in Synaptic Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/synaptic-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/synaptic-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -7559,7 +7628,7 @@ Daphne Soares</name>
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -7579,7 +7648,7 @@ Daphne Soares</name>
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -7599,7 +7668,7 @@ Daphne Soares</name>
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7619,7 +7688,7 @@ Daphne Soares</name>
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7639,7 +7708,7 @@ Daphne Soares</name>
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7659,7 +7728,7 @@ Daphne Soares</name>
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7679,7 +7748,7 @@ Daphne Soares</name>
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7699,7 +7768,7 @@ Daphne Soares</name>
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -7719,7 +7788,7 @@ Daphne Soares</name>
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -7739,7 +7808,7 @@ Daphne Soares</name>
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -7759,7 +7828,7 @@ Daphne Soares</name>
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -7779,7 +7848,7 @@ Daphne Soares</name>
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -7799,7 +7868,7 @@ Daphne Soares</name>
 			<subtitle type="html">RSS Feed for Frontiers in Neural Circuits | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neural-circuits/rss"/>
 			<id>https://www.frontiersin.org/journals/neural-circuits</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -7819,7 +7888,7 @@ Daphne Soares</name>
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -7859,7 +7928,7 @@ Daphne Soares</name>
 			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -8011,7 +8080,7 @@ Jeremy M. Barry</name>
 			<subtitle type="html">Table of Contents for Hippocampus. List of articles from both the latest and EarlyView issues.</subtitle>
 			<link rel="self" href="https://onlinelibrary.wiley.com/feed/10981063/most-recent"/>
 			<id>https://onlinelibrary.wiley.com/journal/10981063?af=R</id>
-			<updated>2020-10-30T08:00:13+00:00</updated>
+			<updated>2020-11-02T08:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8047,7 +8116,32 @@ Srikanth Ramaswamy</name>
 			<subtitle type="html">Table of Contents for Hippocampus. List of articles from both the latest and EarlyView issues.</subtitle>
 			<link rel="self" href="https://onlinelibrary.wiley.com/feed/10981063/most-recent"/>
 			<id>https://onlinelibrary.wiley.com/journal/10981063?af=R</id>
-			<updated>2020-10-30T08:00:13+00:00</updated>
+			<updated>2020-11-02T08:00:11+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Hippocampal spatial memory representations in mice are heterogeneously stable</title>
+		<link href="https://onlinelibrary.wiley.com/doi/abs/10.1002/hipo.23272?af=R"/>
+		<id>/doi/abs/10.1002/hipo.23272?af=R</id>
+		<updated>2020-10-24T19:00:00+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The population of hippocampal neurons actively coding space continually changes across days as mice repeatedly perform tasks. Many hippocampal place cells become inactive while other previously silent neurons become active, challenging the idea that stable behaviors and memory representations are supported by stable patterns of neural activity. Active cell replacement may disambiguate unique episodes that contain overlapping memory cues, and could contribute to reorganization of memory representations. How active cell replacement affects the evolution of representations of different behaviors within a single task is unknown. We trained mice to perform a delayed nonmatching to place task over multiple weeks, and performed calcium imaging in area CA1 of the dorsal hippocampus using head‐mounted miniature microscopes. Cells active on the central stem of the maze “split” their calcium activity according to the animal's upcoming turn direction (left or right), the current task phase (study or test), or both task dimensions, even while spatial cues remained unchanged. We found that, among reliably active cells, different splitter neuron populations were replaced at unequal rates, resulting in an increasing number of cells modulated by turn direction and a decreasing number of cells with combined modulation by both turn direction and task phase. Despite continual reorganization, the ensemble code stably segregated these task dimensions. These results show that hippocampal memories can heterogeneously reorganize even while behavior is unchanging.&lt;/p&gt;</content>
+		<author>
+			<name>Samuel J. Levy, 
+Nathaniel R. Kinsky, 
+William Mau, 
+David W. Sullivan, 
+Michael E. Hasselmo</name>
+			<uri>https://onlinelibrary.wiley.com/journal/10981063?af=R</uri>
+		</author>
+		<source>
+			<title type="html">Wiley: Hippocampus: Table of Contents</title>
+			<subtitle type="html">Table of Contents for Hippocampus. List of articles from both the latest and EarlyView issues.</subtitle>
+			<link rel="self" href="https://onlinelibrary.wiley.com/feed/10981063/most-recent"/>
+			<id>https://onlinelibrary.wiley.com/journal/10981063?af=R</id>
+			<updated>2020-11-02T08:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8072,7 +8166,7 @@ Marianne Fyhn</name>
 			<subtitle type="html">Table of Contents for Hippocampus. List of articles from both the latest and EarlyView issues.</subtitle>
 			<link rel="self" href="https://onlinelibrary.wiley.com/feed/10981063/most-recent"/>
 			<id>https://onlinelibrary.wiley.com/journal/10981063?af=R</id>
-			<updated>2020-10-30T08:00:13+00:00</updated>
+			<updated>2020-11-02T08:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8100,7 +8194,7 @@ Maria Natasha Rajah</name>
 			<subtitle type="html">Table of Contents for Hippocampus. List of articles from both the latest and EarlyView issues.</subtitle>
 			<link rel="self" href="https://onlinelibrary.wiley.com/feed/10981063/most-recent"/>
 			<id>https://onlinelibrary.wiley.com/journal/10981063?af=R</id>
-			<updated>2020-10-30T08:00:13+00:00</updated>
+			<updated>2020-11-02T08:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8122,7 +8216,7 @@ A. David Redish</name>
 			<subtitle type="html">Table of Contents for Hippocampus. List of articles from both the latest and EarlyView issues.</subtitle>
 			<link rel="self" href="https://onlinelibrary.wiley.com/feed/10981063/most-recent"/>
 			<id>https://onlinelibrary.wiley.com/journal/10981063?af=R</id>
-			<updated>2020-10-30T08:00:13+00:00</updated>
+			<updated>2020-11-02T08:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8147,7 +8241,7 @@ Jeremy M. Barry</name>
 			<subtitle type="html">Table of Contents for Hippocampus. List of articles from both the latest and EarlyView issues.</subtitle>
 			<link rel="self" href="https://onlinelibrary.wiley.com/feed/10981063/most-recent"/>
 			<id>https://onlinelibrary.wiley.com/journal/10981063?af=R</id>
-			<updated>2020-10-30T08:00:13+00:00</updated>
+			<updated>2020-11-02T08:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8181,7 +8275,7 @@ Bong‐Kiun Kaang</name>
 			<subtitle type="html">Table of Contents for Hippocampus. List of articles from both the latest and EarlyView issues.</subtitle>
 			<link rel="self" href="https://onlinelibrary.wiley.com/feed/10981063/most-recent"/>
 			<id>https://onlinelibrary.wiley.com/journal/10981063?af=R</id>
-			<updated>2020-10-30T08:00:13+00:00</updated>
+			<updated>2020-11-02T08:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8207,7 +8301,7 @@ Bryndis Birnir</name>
 			<subtitle type="html">Table of Contents for Hippocampus. List of articles from both the latest and EarlyView issues.</subtitle>
 			<link rel="self" href="https://onlinelibrary.wiley.com/feed/10981063/most-recent"/>
 			<id>https://onlinelibrary.wiley.com/journal/10981063?af=R</id>
-			<updated>2020-10-30T08:00:13+00:00</updated>
+			<updated>2020-11-02T08:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8239,7 +8333,7 @@ Srikanth Ramaswamy</name>
 			<subtitle type="html">Table of Contents for Hippocampus. List of articles from both the latest and EarlyView issues.</subtitle>
 			<link rel="self" href="https://onlinelibrary.wiley.com/feed/10981063/most-recent"/>
 			<id>https://onlinelibrary.wiley.com/journal/10981063?af=R</id>
-			<updated>2020-10-30T08:00:13+00:00</updated>
+			<updated>2020-11-02T08:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8259,7 +8353,7 @@ Srikanth Ramaswamy</name>
 			<subtitle type="html">Table of Contents for Hippocampus. List of articles from both the latest and EarlyView issues.</subtitle>
 			<link rel="self" href="https://onlinelibrary.wiley.com/feed/10981063/most-recent"/>
 			<id>https://onlinelibrary.wiley.com/journal/10981063?af=R</id>
-			<updated>2020-10-30T08:00:13+00:00</updated>
+			<updated>2020-11-02T08:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8279,7 +8373,7 @@ Srikanth Ramaswamy</name>
 			<subtitle type="html">Table of Contents for Hippocampus. List of articles from both the latest and EarlyView issues.</subtitle>
 			<link rel="self" href="https://onlinelibrary.wiley.com/feed/10981063/most-recent"/>
 			<id>https://onlinelibrary.wiley.com/journal/10981063?af=R</id>
-			<updated>2020-10-30T08:00:13+00:00</updated>
+			<updated>2020-11-02T08:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -8330,31 +8424,6 @@ Iñigo Gabilondo</name>
 			<link rel="self" href="https://onlinelibrary.wiley.com/action/showFeed?jc=15318249&amp;type=etoc&amp;feed=rss"/>
 			<id>https://onlinelibrary.wiley.com/journal/15318249?af=R</id>
 			<updated>2020-10-31T19:00:12+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Hippocampal spatial memory representations in mice are heterogeneously stable</title>
-		<link href="https://onlinelibrary.wiley.com/doi/abs/10.1002/hipo.23272?af=R"/>
-		<id>/doi/abs/10.1002/hipo.23272?af=R</id>
-		<updated>2020-10-24T15:36:06+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;h2&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;The population of hippocampal neurons actively coding space continually changes across days as mice repeatedly perform tasks. Many hippocampal place cells become inactive while other previously silent neurons become active, challenging the idea that stable behaviors and memory representations are supported by stable patterns of neural activity. Active cell replacement may disambiguate unique episodes that contain overlapping memory cues, and could contribute to reorganization of memory representations. How active cell replacement affects the evolution of representations of different behaviors within a single task is unknown. We trained mice to perform a delayed nonmatching to place task over multiple weeks, and performed calcium imaging in area CA1 of the dorsal hippocampus using head‐mounted miniature microscopes. Cells active on the central stem of the maze “split” their calcium activity according to the animal's upcoming turn direction (left or right), the current task phase (study or test), or both task dimensions, even while spatial cues remained unchanged. We found that, among reliably active cells, different splitter neuron populations were replaced at unequal rates, resulting in an increasing number of cells modulated by turn direction and a decreasing number of cells with combined modulation by both turn direction and task phase. Despite continual reorganization, the ensemble code stably segregated these task dimensions. These results show that hippocampal memories can heterogeneously reorganize even while behavior is unchanging.&lt;/p&gt;</content>
-		<author>
-			<name>Samuel J. Levy, 
-Nathaniel R. Kinsky, 
-William Mau, 
-David W. Sullivan, 
-Michael E. Hasselmo</name>
-			<uri>https://onlinelibrary.wiley.com/journal/10981063?af=R</uri>
-		</author>
-		<source>
-			<title type="html">Wiley: Hippocampus: Table of Contents</title>
-			<subtitle type="html">Table of Contents for Hippocampus. List of articles from both the latest and EarlyView issues.</subtitle>
-			<link rel="self" href="https://onlinelibrary.wiley.com/feed/10981063/most-recent"/>
-			<id>https://onlinelibrary.wiley.com/journal/10981063?af=R</id>
-			<updated>2020-10-30T08:00:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -8411,7 +8480,7 @@ Detection of community structure has become a fundamental step in the analysis o
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -8434,7 +8503,7 @@ Epitope-based vaccines have revolutionized vaccine research in the last decades.
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -8457,7 +8526,7 @@ Availability of genome sequence, molecular, and clinical phenotype data for larg
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -8710,7 +8779,7 @@ Neveen E. R. El‐Bakary</name>
 			<subtitle type="html">Recently published articles in Phys. Rev. E in the Table of Content section &quot;Biological physics&quot;</subtitle>
 			<link rel="self" href="http://feeds.aps.org/rss/tocsec/PRE-Biologicalphysics.xml"/>
 			<id>http://journals.aps.org/pre/</id>
-			<updated>2020-11-01T18:52:18+00:00</updated>
+			<updated>2020-11-02T07:52:14+00:00</updated>
 			<rights type="html">Copyright © 2020 the American Physical Society. Personal use only, all commercial or other reuse prohibited</rights>
 		</source>
 	</entry>
@@ -8823,7 +8892,7 @@ Katja Lohmann</name>
 			<subtitle type="html">RSS Feed for Frontiers in Synaptic Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/synaptic-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/synaptic-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -8843,7 +8912,7 @@ Katja Lohmann</name>
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -8863,7 +8932,7 @@ Katja Lohmann</name>
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8883,7 +8952,7 @@ Katja Lohmann</name>
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8903,7 +8972,7 @@ Katja Lohmann</name>
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8923,7 +8992,7 @@ Katja Lohmann</name>
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8943,7 +9012,7 @@ Katja Lohmann</name>
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -8963,7 +9032,7 @@ Katja Lohmann</name>
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -8983,7 +9052,7 @@ Katja Lohmann</name>
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -9003,7 +9072,7 @@ Katja Lohmann</name>
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -9023,7 +9092,7 @@ Katja Lohmann</name>
 			<subtitle type="html">RSS Feed for Frontiers in Human Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/human-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/human-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -9043,7 +9112,7 @@ Katja Lohmann</name>
 			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -9185,7 +9254,7 @@ The Polycystic Kidney Disease (PKD) is characterized by progressive renal cyst d
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -9208,7 +9277,7 @@ Genome-wide association studies (GWAS) have primarily identified trait-associate
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -9231,7 +9300,7 @@ Influenza-like illness (ILI) is a commonly measured syndromic signal representat
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -9252,7 +9321,7 @@ Influenza-like illness (ILI) is a commonly measured syndromic signal representat
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -9275,7 +9344,7 @@ For over a century, the Michaelis–Menten (MM) rate law has been used to descri
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -9296,7 +9365,7 @@ For over a century, the Michaelis–Menten (MM) rate law has been used to descri
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -9319,7 +9388,7 @@ Millions of people worldwide develop foodborne illnesses caused by &lt;i&gt;Salm
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -9342,7 +9411,7 @@ In a world beset by attempts to undermine scientific evidence and evidence-based
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles"/>
 			<id>http://journals.plos.org/plosbiology/feed/atom</id>
-			<updated>2020-11-01T18:41:47+00:00</updated>
+			<updated>2020-11-02T07:53:08+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -9365,7 +9434,7 @@ Transcranial Alternating Current Stimulation (tACS) is a method that injects rhy
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles"/>
 			<id>http://journals.plos.org/plosbiology/feed/atom</id>
-			<updated>2020-11-01T18:41:47+00:00</updated>
+			<updated>2020-11-02T07:53:08+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -9388,7 +9457,7 @@ Externally deposited eggs begin development with an immense cytoplasm and a sing
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles"/>
 			<id>http://journals.plos.org/plosbiology/feed/atom</id>
-			<updated>2020-11-01T18:41:47+00:00</updated>
+			<updated>2020-11-02T07:53:08+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -9411,7 +9480,7 @@ Humans are remarkably skilled at listening to one speaker out of an acoustic mix
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles"/>
 			<id>http://journals.plos.org/plosbiology/feed/atom</id>
-			<updated>2020-11-01T18:41:47+00:00</updated>
+			<updated>2020-11-02T07:53:08+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -9434,7 +9503,7 @@ Predicting how pathogen populations will change over time is challenging. Such h
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles"/>
 			<id>http://journals.plos.org/plosbiology/feed/atom</id>
-			<updated>2020-11-01T18:41:47+00:00</updated>
+			<updated>2020-11-02T07:53:08+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -9457,7 +9526,7 @@ Mathematical ability is heritable and related to several genes expressing protei
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles"/>
 			<id>http://journals.plos.org/plosbiology/feed/atom</id>
-			<updated>2020-11-01T18:41:47+00:00</updated>
+			<updated>2020-11-02T07:53:08+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -9480,7 +9549,7 @@ The array of vibrissae on a rat’s face is the first stage in a high-resolution
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles"/>
 			<id>http://journals.plos.org/plosbiology/feed/atom</id>
-			<updated>2020-11-01T18:41:47+00:00</updated>
+			<updated>2020-11-02T07:53:08+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -10191,7 +10260,7 @@ The International Parkinson's Disease Genomics Consortium</name>
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -10211,7 +10280,7 @@ The International Parkinson's Disease Genomics Consortium</name>
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -10231,7 +10300,7 @@ The International Parkinson's Disease Genomics Consortium</name>
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -10251,7 +10320,7 @@ The International Parkinson's Disease Genomics Consortium</name>
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -10271,7 +10340,7 @@ The International Parkinson's Disease Genomics Consortium</name>
 			<subtitle type="html">RSS Feed for Frontiers in Integrative Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/integrative-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/integrative-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -10291,7 +10360,7 @@ The International Parkinson's Disease Genomics Consortium</name>
 			<subtitle type="html">RSS Feed for Neurodegeneration section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurodegeneration/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurodegeneration</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -10311,7 +10380,7 @@ The International Parkinson's Disease Genomics Consortium</name>
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -10331,7 +10400,7 @@ The International Parkinson's Disease Genomics Consortium</name>
 			<subtitle type="html">RSS Feed for Neurogenesis section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neurogenesis/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neurogenesis</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -10351,7 +10420,7 @@ The International Parkinson's Disease Genomics Consortium</name>
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -10371,7 +10440,7 @@ The International Parkinson's Disease Genomics Consortium</name>
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -10451,7 +10520,7 @@ The International Parkinson's Disease Genomics Consortium</name>
 			<subtitle type="html">RSS Feed for Frontiers in Computational Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/computational-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/computational-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -10471,7 +10540,7 @@ The International Parkinson's Disease Genomics Consortium</name>
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -10556,26 +10625,6 @@ The International Parkinson's Disease Genomics Consortium</name>
 	</entry>
 
 	<entry>
-		<title type="html" xml:lang="en-us">Metabolomic and Lipidomic Profiling of Preoperative CSF in Elderly Hip Fracture Patients With Postoperative Delirium</title>
-		<link href="https://www.frontiersin.org/articles/10.3389/fnagi.2020.570210"/>
-		<id>https://www.frontiersin.org/articles/10.3389/fnagi.2020.570210</id>
-		<updated>2020-10-22T00:00:00+00:00</updated>
-		<content type="html">
- Objective&lt;p&gt;To investigate dysregulated molecules in preoperative cerebrospinal fluid (CSF) of elderly hip fracture patients with postoperative delirium (POD), in order to identify potential pathological mechanisms and biomarkers for pre-stage POD.&lt;/p&gt;Materials and Methods&lt;p&gt;This nested case control study used untargeted metabolomic and lipidomic analysis to profile the preoperative CSF of patients (n = 40) who developed POD undergone hip fracture surgery (n = 10) and those who did not (n = 30). Thirty Non-POD patients were matched to 10 POD patients by age (± 2 years) and Mini Mental State Examination score (± 2 points). CSF was collected after successful spinal anesthesia and banked for subsequent analysis. On the first two postoperative days, patients were assessed twice daily using the Confusion Assessment Method-Chinese Revision. CSF samples from the two groups were analyzed to investigate possible relevant pathological mechanisms and identify candidate biomarkers.&lt;/p&gt;Results&lt;p&gt;Demographic characteristics of the groups were matched. Eighteen metabolites and thirty-three lipids were dysregulated in the preoperative CSF of POD patients. Pathway enrichment analysis revealed perturbations in D-glutamine and D-glutamate metabolism; glycerophospholipid metabolism; alanine, aspartate and glutamate metabolism; sphingolipid metabolism; histidine metabolism; and arginine biosynthesis at the pre-delirium stage. Receiver operating characteristic curve analysis indicated that phosphatidylethanolamine (PE, 40:7e), with an area under the curve value of 0.92, is a potential biomarker for POD.&lt;/p&gt;Conclusion&lt;p&gt;Multiple pathological mechanisms in the POD group were involved before surgery, including neuroinflammation, oxidative stress, and energy metabolism disorders induced by hypoxia, as well as neurotransmitter imbalances such as increased dopamine and glutamate, and decreased glutamine. These metabolic abnormalities potentially increase the fragility of the brain, thus contributing to POD. PE (40:7e) might be a potential biomarker for POD. Not only do our results provide potential biomarkers for POD, but also provide information for deep pathological research.&lt;/p&gt;Clinical Trial Registration&lt;p&gt;www.ClinicalTrials.gov, identifier ChiCTR1900021533.&lt;/p&gt;</content>
-		<author>
-			<name>Yongzheng Han</name>
-			<uri>https://www.frontiersin.org/journals/aging-neuroscience</uri>
-		</author>
-		<source>
-			<title type="html">Frontiers in Aging Neuroscience | New and Recent Articles</title>
-			<subtitle type="html">RSS Feed for Frontiers in Aging Neuroscience | New and Recent Articles</subtitle>
-			<link rel="self" href="http://journal.frontiersin.org/journal/aging-neuroscience/rss"/>
-			<id>https://www.frontiersin.org/journals/aging-neuroscience</id>
-			<updated>2020-10-27T19:00:06+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html">Correction: Humans adapt their anticipatory eye movements to the volatility of visual motion properties</title>
 		<link href="http://feeds.plos.org/~r/ploscompbiol/NewArticles/~3/CLgFjFkErjU/article"/>
 		<id>http://feeds.plos.org/ploscompbiol/10.1371/journal.pcbi.1008385</id>
@@ -10591,7 +10640,7 @@ The International Parkinson's Disease Genomics Consortium</name>
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -10612,7 +10661,7 @@ The International Parkinson's Disease Genomics Consortium</name>
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -10633,7 +10682,7 @@ The International Parkinson's Disease Genomics Consortium</name>
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -10656,7 +10705,7 @@ For many species, vision is one of the most important sensory modalities for med
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -10805,7 +10854,7 @@ Timothy A. Allen</name>
 			<subtitle type="html">Table of Contents for Hippocampus. List of articles from both the latest and EarlyView issues.</subtitle>
 			<link rel="self" href="https://onlinelibrary.wiley.com/feed/10981063/most-recent"/>
 			<id>https://onlinelibrary.wiley.com/journal/10981063?af=R</id>
-			<updated>2020-10-30T08:00:13+00:00</updated>
+			<updated>2020-11-02T08:00:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -10825,7 +10874,7 @@ Timothy A. Allen</name>
 			<subtitle type="html">Recently published articles in Phys. Rev. E in the Table of Content section &quot;Biological physics&quot;</subtitle>
 			<link rel="self" href="http://feeds.aps.org/rss/tocsec/PRE-Biologicalphysics.xml"/>
 			<id>http://journals.aps.org/pre/</id>
-			<updated>2020-11-01T18:52:18+00:00</updated>
+			<updated>2020-11-02T07:52:14+00:00</updated>
 			<rights type="html">Copyright © 2020 the American Physical Society. Personal use only, all commercial or other reuse prohibited</rights>
 		</source>
 	</entry>
@@ -10867,7 +10916,7 @@ Timothy A. Allen</name>
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -10887,7 +10936,7 @@ Timothy A. Allen</name>
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -10907,7 +10956,7 @@ Timothy A. Allen</name>
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -10927,7 +10976,7 @@ Timothy A. Allen</name>
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -10947,7 +10996,7 @@ Timothy A. Allen</name>
 			<subtitle type="html">RSS Feed for Frontiers in Molecular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/molecular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/molecular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -10967,7 +11016,7 @@ Timothy A. Allen</name>
 			<subtitle type="html">RSS Feed for Neural Technology section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/neural-technology/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/neural-technology</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -10987,7 +11036,7 @@ Timothy A. Allen</name>
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -11007,7 +11056,7 @@ Timothy A. Allen</name>
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -11027,7 +11076,7 @@ Timothy A. Allen</name>
 			<subtitle type="html">RSS Feed for Frontiers in Neuroinformatics | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroinformatics/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroinformatics</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:06+00:00</updated>
 		</source>
 	</entry>
 
@@ -11147,7 +11196,7 @@ Timothy A. Allen</name>
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -11167,7 +11216,7 @@ Timothy A. Allen</name>
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -11189,7 +11238,7 @@ Icosahedral viruses are under a micrometer in diameter, their infectious genome 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://compbiol.plosjournals.org/perlserv/?request=get-rss&amp;issn=1553-7358&amp;type=new-articles"/>
 			<id>http://journals.plos.org/ploscompbiol/feed/atom</id>
-			<updated>2020-11-01T18:53:18+00:00</updated>
+			<updated>2020-11-02T07:43:35+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -11210,7 +11259,7 @@ Icosahedral viruses are under a micrometer in diameter, their infectious genome 
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles"/>
 			<id>http://journals.plos.org/plosbiology/feed/atom</id>
-			<updated>2020-11-01T18:41:47+00:00</updated>
+			<updated>2020-11-02T07:53:08+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -11233,7 +11282,7 @@ Movements overtly sample sensory information, making sensory analysis an active-
 			<subtitle type="html">A Peer-Reviewed Open-Access Journal</subtitle>
 			<link rel="self" href="http://biology.plosjournals.org/perlserv/?request=get-rss&amp;issn=1545-7885&amp;type=new-articles"/>
 			<id>http://journals.plos.org/plosbiology/feed/atom</id>
-			<updated>2020-11-01T18:41:47+00:00</updated>
+			<updated>2020-11-02T07:53:08+00:00</updated>
 			<rights type="html">All PLOS articles are Open Access.</rights>
 		</source>
 	</entry>
@@ -11387,7 +11436,7 @@ Carolina Escobar</name>
 			<subtitle type="html">RSS Feed for Frontiers in Systems Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/systems-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/systems-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -11407,7 +11456,7 @@ Carolina Escobar</name>
 			<subtitle type="html">RSS Feed for Brain Imaging Methods section in the Frontiers in Neuroscience journal | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/neuroscience/section/brain-imaging-methods/rss"/>
 			<id>https://www.frontiersin.org/journals/neuroscience/sections/brain-imaging-methods</id>
-			<updated>2020-11-01T19:00:06+00:00</updated>
+			<updated>2020-11-02T08:00:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -11447,7 +11496,7 @@ Carolina Escobar</name>
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -11467,47 +11516,7 @@ Carolina Escobar</name>
 			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
 			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
 			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-us">The lncRNA MALAT1/miR-30/Spastin Axis Regulates Hippocampal Neurite Outgrowth</title>
-		<link href="https://www.frontiersin.org/articles/10.3389/fncel.2020.555747"/>
-		<id>https://www.frontiersin.org/articles/10.3389/fncel.2020.555747</id>
-		<updated>2020-10-20T00:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;Spastin, a microtubule-severing enzyme, is important for neurite outgrowth. However, the mechanisms underlying the post-transcriptional regulation of spastin during microtubule-related processes are largely unknown. We demonstrated that the spastin expression level is controlled by a long non-coding RNA (lncRNA) metastasis-associated lung adenocarcinoma transcript 1 (MALAT1)/microRNA-30 (miR-30) axis during neurite outgrowth. The miR-30 expression level decreased in hippocampal neurons with increasing days in culture, and miR-30 overexpression suppressed while miR-30 inhibition promoted neurite outgrowth in hippocampal neurons. Spastin was validated as a target gene of miR-30 using the luciferase reporter assay. The protein expression, microtubule severing activity, and neurite promoting effect of spastin were suppressed by the overexpression of miR-30 mimics and increased by miR-30 inhibitors. MALAT1 expression increased during neurite outgrowth and MALAT1 silencing impaired neurite outgrowth. miR-30 was a sponge target of MALAT1 and MALAT1/miR-30 altered neurite outgrowth in hippocampal neurons. MALAT1 overexpression reversed the inhibitory effect of miR-30 on the activity of a luciferase reporter construct containing spastin, as well as spastin mRNA and protein expression, indicating that spastin was a downstream effector of MALAT1/miR-30. The MALAT1/miR-30 cascade also modulated spastin-induced microtubule severing, and the MALAT1/miR-30/spastin axis regulated neurite outgrowth in hippocampal neurons. This study suggests a new mechanism governing neurite outgrowth in hippocampal neurons involving MALAT1/miR-30-regulated spastin expression.&lt;/p&gt;</content>
-		<author>
-			<name>Tao Jiang</name>
-			<uri>https://www.frontiersin.org/journals/cellular-neuroscience</uri>
-		</author>
-		<source>
-			<title type="html">Frontiers in Cellular Neuroscience | New and Recent Articles</title>
-			<subtitle type="html">RSS Feed for Frontiers in Cellular Neuroscience | New and Recent Articles</subtitle>
-			<link rel="self" href="http://journal.frontiersin.org/journal/cellular-neuroscience/rss"/>
-			<id>https://www.frontiersin.org/journals/cellular-neuroscience</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-us">Hindbrain and Spinal Cord Contributions to the Cutaneous Sensory Innervation of the Larval Zebrafish Pectoral Fin</title>
-		<link href="https://www.frontiersin.org/articles/10.3389/fnana.2020.581821"/>
-		<id>https://www.frontiersin.org/articles/10.3389/fnana.2020.581821</id>
-		<updated>2020-10-20T00:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;Vertebrate forelimbs contain arrays of sensory neuron fibers that transmit signals from the skin to the nervous system. We used the genetic toolkit and optical clarity of the larval zebrafish to conduct a live imaging study of the sensory neurons innervating the pectoral fin skin. Sensory neurons in both the hindbrain and the spinal cord innervate the fin, with most cells located in the hindbrain. The hindbrain somas are located in rhombomere seven/eight, laterally and dorsally displaced from the pectoral fin motor pool. The spinal cord somas are located in the most anterior part of the cord, aligned with myomere four. Single cell reconstructions were used to map afferent processes and compare the distributions of processes to soma locations. Reconstructions indicate that this sensory system breaks from the canonical somatotopic organization of sensory systems by lacking a clear organization with reference to fin region. Arborizations from a single cell branch widely over the skin, innervating the axial skin, lateral fin surface, and medial fin surface. The extensive branching over the fin and the surrounding axial surface suggests that these fin sensory neurons report on general conditions of the fin area rather than providing fine location specificity, as has been demonstrated in other vertebrate limbs. With neuron reconstructions that span the full primary afferent arborization from the soma to the peripheral cutaneous innervation, this neuroanatomical study describes a system of primary sensory neurons and lays the groundwork for future functional studies.&lt;/p&gt;</content>
-		<author>
-			<name>Katharine W. Henderson</name>
-			<uri>https://www.frontiersin.org/journals/neuroanatomy</uri>
-		</author>
-		<source>
-			<title type="html">Frontiers in Neuroanatomy | New and Recent Articles</title>
-			<subtitle type="html">RSS Feed for Frontiers in Neuroanatomy | New and Recent Articles</subtitle>
-			<link rel="self" href="http://journal.frontiersin.org/journal/neuroanatomy/rss"/>
-			<id>https://www.frontiersin.org/journals/neuroanatomy</id>
-			<updated>2020-11-01T19:00:05+00:00</updated>
+			<updated>2020-11-02T08:00:05+00:00</updated>
 		</source>
 	</entry>
 
