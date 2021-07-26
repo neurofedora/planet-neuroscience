@@ -27,7 +27,9 @@ fi
 
 # Rename file
 pushd docs
-    mv planet.neuroscience.html index.html
+    if [ -f "planet.neuroscience.html" ]; then
+        mv planet.neuroscience.html index.html
+    fi
 popd
 
 git add .
