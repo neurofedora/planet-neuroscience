@@ -20,7 +20,7 @@ fi
 
 if [ -f "planet.db" ];
 then
-    pluto update planet.ini
+    pluto --err update planet.ini
 else
     pluto --err build planet.ini -t neuroscience -o docs
 fi
