@@ -63,7 +63,7 @@
     <div class="container">
       <div class="col-md-9">
         <ul class="list-group">
-          <% items = site.items.latest.limit(24)
+          <% items = site.items.latest.limit(200)
         ItemCursor.new( items).each do |item, new_date, new_feed|%>
             <li class="list-group-item">
               <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=<%= item.feed.url %>>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=<%= item.feed.url %>" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=<%= item.feed.url %>&title=<%= item.feed.title %>" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
