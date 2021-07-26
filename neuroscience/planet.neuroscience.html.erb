@@ -67,7 +67,7 @@
         ItemCursor.new( items).each do |item, new_date, new_feed|%>
             <li class="list-group-item">
               <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=<%= item.feed.url %>>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=<%= item.feed.url %>" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=<%= item.feed.url %>&title=<%= item.feed.title %>" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="<%= item.feed.url %>"><% if item.feed.title %><%= item.feed.title %><% else %>Untitled Post<% end %></a></h4>
+              <h4><a href="<%= item.feed.url %>"><% if item.title %><%= item.title %><% else %>Untitled Post<% end %></a></h4>
 
               <% if item.content %>
                 <%= item.content %>
@@ -77,7 +77,7 @@
                 -/-
               <% end %>
 
-              <p class="text-muted">in <%= item.feed.url %> on <%= item.published %>.
+              <p class="text-muted">in <a href ="<%= item.feed.url %>"><%= item.feed.title %></a> on <%= item.published %>.
               </p>
             </li>
           <% end %><!-- each item -->

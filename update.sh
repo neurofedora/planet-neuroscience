@@ -18,12 +18,7 @@ if ! command -v pluto; then
     exit -1
 fi
 
-if [ -f "planet.db" ];
-then
-    pluto --err update planet.ini
-else
-    pluto --err build planet.ini -t neuroscience -o docs
-fi
+pluto --err build planet.ini -t neuroscience -o docs
 
 # Rename file
 pushd docs
