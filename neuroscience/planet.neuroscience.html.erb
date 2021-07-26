@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title><%= site.title %></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60261100-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><%= site.title %></a>
+        </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More Neuroscience <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://neuroblog.fedoraproject.org/planet-neuroscientists/">Planet Neuroscientists</a></li>
+                <li><a href="http://home.earthlink.net/~perlewitz/index.html">Computational Neuroscience on the web</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Options <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://github.com/neurofedora/planet-neuroscience/issues/new">Suggest a new feed</a></li>
+                <li><a href="https://github.com/neurofedora/planet-neuroscience">View Planet source</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="https://github.com/feedreader/pluto">View Pluto source</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="container">
+      <div class="page-header">
+        <h1><%= site.title %></h1>
+        <p>
+        last updated by <a href="https://feedreader.github.io">Pluto</a>
+        <% if site.fetched %>
+          on <%= site.fetched %> 
+        <% end %>
+        on behalf of <a href="https://neuro.fedoraproject.org" target="_blank"> the NeuroFedora SIG</a>.
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-9">
+        <ul class="list-group">
+          <% items = site.items.latest.limit(24)
+        ItemCursor.new( items).each do |item, new_date, new_feed|%>
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=<%= item.feed.url %>>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=<%= item.feed.url %>" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=<%= item.feed.url %>&title=<%= item.feed.title %>" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="<%= item.feed.url %>"><% if item.feed.title %><%= item.feed.title %><% else %>Untitled Post<% end %></a></h4>
+
+              <% if item.content %>
+                <%= item.content %>
+              <% elsif item.summary %>
+                <%= item.summary %>
+              <% else %>
+                -/-
+              <% end %>
+
+              <p class="text-muted">in <%= item.feed.url %> on <%= item.published %>.
+              </p>
+            </li>
+          <% end %><!-- each item -->
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Feed list</h3>
+          </div>
+          <ul class="list-group">
+           <% site.feeds.each do |feed| %>
+            <li class="list-group-item">
+              <%= link_to feed.title, feed.url %>
+            </li>
+           <% end %>
+           </ul>
+        </div>
+      </div>
+    </div>
+    <footer id="site-footer">
+      <p class="text-center text-muted">All content on this page is owned by their respective owners. The source code used to generate this page can be found <a href="https://github.com/Aniket-Pradhan/planet-neuroscientists">here</a>.</p>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
