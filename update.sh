@@ -28,7 +28,7 @@ check_pluto () {
 }
 
 rebuild_planet () {
-    ~/bin/pluto --err build planet.ini -t neuroscience -o docs || exit -1
+    ~/bin/pluto build planet.ini -t neuroscience -o docs || exit -1
 }
 
 commit_update () {
