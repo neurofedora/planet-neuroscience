@@ -23,7 +23,7 @@ refresh_repo () {
 check_pluto () {
     if ! command -v pluto; then
         mkdir ~/bin/
-        gem install --user-install sqlite3 -v 1.4 -n ~/bin/ || exit -1
+        gem install --user-install sqlite3 -v 1.4.2 -n ~/bin/ || exit -1
         gem install --user-install activerecord -v 6.1.4.4 -n ~/bin/ || exit -1
         gem install --user-install pluto rss -n ~/bin/ || exit -1
     fi
