@@ -13,6 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Update packages
+        run: |
+          sudo apt-get update -y -q
+          sudo apt-get upgrade -y -q
+
       - name: Set up ruby
         uses: ruby/setup-ruby@v1
         with:
