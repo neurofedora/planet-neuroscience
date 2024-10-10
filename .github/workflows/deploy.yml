@@ -17,7 +17,7 @@ jobs:
         run: |
           sudo apt-get update -y -q
           sudo apt-get upgrade -y -q
-          apt-get install libsqlite3-dev'
+          apt-get install libsqlite3-dev
 
       - name: Set up ruby
         uses: ruby/setup-ruby@v1
