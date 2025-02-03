@@ -27,7 +27,8 @@ check_pluto () {
         gem install --user-install sqlite3  -n ~/bin/ || exit -1
         gem install --user-install activerecord -n ~/bin/ || exit -1
         # require at least v2.2.1: https://github.com/feedreader/pluto/issues/49#issuecomment-2629012419
-        gem install --user-install pluto:'>= 2.2.1' rss -n ~/bin/ || exit -1
+        gem install --user-install feedparser -v '>= 2.2.1' -n ~/bin/ || exit -1
+        gem install --user-install pluto rss -n ~/bin/ || exit -1
     fi
 }
 
