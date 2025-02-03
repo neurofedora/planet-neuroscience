@@ -26,7 +26,7 @@ check_pluto () {
         # to remove all gems: GEM_PATH="$HOME/.local/share/gem/ruby" gem uninstall --all -I
         gem install --user-install sqlite3  -n ~/bin/ || exit -1
         gem install --user-install activerecord -n ~/bin/ || exit -1
-        gem install --user-install pluto rss -n ~/bin/ || exit -1
+        gem install --user-install pluto:'>= 2.2.1' rss -n ~/bin/ || exit -1
     fi
 }
 
